@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<Level name="level_7">
+	<properties grenades0="11" grenades1="6" grenades2="4" id="" lastLevel="false" />
+	<player_spawn>
+		<position x="58" y="450" />
+		<scale x="1" y="1" />
+		<size width="68.5" height="80.1" />
+		<rotation z="0" />
+	</player_spawn>
+	<entities>
+		<entity className="EGrunt">
+			<position x="508.05" y="538.05" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EGrunt">
+			<position x="497.55" y="335.55" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EGrunt">
+			<position x="720.55" y="152.55" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+		<entity className="ECrate">
+			<position x="607.95" y="333.35" />
+			<scale x="1" y="1" />
+			<size width="39.35" height="40.9" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EBreakablePanel">
+			<position x="631.95" y="253.65" />
+			<scale x="1" y="1" />
+			<size width="20.7" height="89.2" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EPhysPanel">
+			<position x="740.95" y="348.3" />
+			<scale x="1" y="0.8683624267578125" />
+			<size width="73.3" height="9.8" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EExplosiveCrate">
+			<position x="651.1" y="535.2" />
+			<scale x="1" y="1" />
+			<size width="41.6" height="41.8" />
+			<rotation z="0" />
+		</entity>
+	</entities>
+	<walls>
+		<wall className="EWall">
+			<position x="405.35" y="586.1" />
+			<scale x="34.46327209472656" y="1.686004638671875" />
+			<size width="827.1" height="40.5" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="432.7" y="392.6" />
+			<scale x="1.6236572265625" y="14.604446411132812" />
+			<size width="39" height="350.5" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="587.15" y="362.7" />
+			<scale x="10.724884033203125" y="0.8132171630859375" />
+			<size width="257.4" height="19.5" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="908.2" y="363.2" />
+			<scale x="11.073089599609375" y="0.8132171630859375" />
+			<size width="265.8" height="19.5" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="470.15" y="464.25" />
+			<scale x="0.9517974853515625" y="7.757843017578125" />
+			<size width="22.8" height="186.2" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="640.45" y="561.85" />
+			<scale x="15.166976928710938" y="0.457977294921875" />
+			<size width="364" height="11" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="798.1" y="374" />
+			<scale x="0.9517974853515625" y="15.432464599609375" />
+			<size width="22.8" height="370.4" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="745.65" y="179.7" />
+			<scale x="11.142807006835938" y="0.8132171630859375" />
+			<size width="267.4" height="19.5" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="636.15" y="201.2" />
+			<scale x="0.6616363525390625" y="1.1668701171875" />
+			<size width="15.9" height="28" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="635.7" y="325.2" />
+			<scale x="0.6609954833984375" y="2.4561309814453125" />
+			<size width="15.9" height="58.9" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="37.65" y="532.5" />
+			<scale x="6.4010772705078125" y="3.3544769287109375" />
+			<size width="153.6" height="80.5" />
+			<rotation z="0" />
+		</wall>
+	</walls>
+</Level>

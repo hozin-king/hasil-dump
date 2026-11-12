@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Exit.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{170, 2}, {59, 22}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{59, 22}</string>
+			<key>sourceSize</key>
+			<string>{59, 22}</string>
+		</dict>
+		<key>ExitHL.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 26}, {66, 27}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{66, 27}</string>
+			<key>sourceSize</key>
+			<string>{66, 27}</string>
+		</dict>
+		<key>More.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{70, 26}, {103, 31}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{103, 31}</string>
+			<key>sourceSize</key>
+			<string>{103, 31}</string>
+		</dict>
+		<key>MoreHL.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 59}, {110, 37}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{114, 37}</string>
+			<key>sourceSize</key>
+			<string>{114, 37}</string>
+		</dict>
+		<key>frame_0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{30, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+		<key>frame_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{114, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+		<key>frame_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{86, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+		<key>frame_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+		<key>frame_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{142, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+		<key>frame_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{58, 2}, {26, 21}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{32, 27}</string>
+			<key>sourceSize</key>
+			<string>{32, 27}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{256, 128}</string>
+	</dict>
+</dict>
+</plist>

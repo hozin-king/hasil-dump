@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<Level name="level_4">
+	<properties grenades0="5" grenades1="3" grenades2="2" id="" lastLevel="false"  multikill="2"/>
+	<player_spawn>
+		<position x="88" y="452" />
+		<scale x="1" y="1" />
+		<size width="68.5" height="80.1" />
+		<rotation z="0" />
+	</player_spawn>
+	<entities>
+		<entity className="ECrate">
+			<position x="459.95" y="380.35" />
+			<scale x="1" y="1" />
+			<size width="39.35" height="40.9" />
+			<rotation z="0" />
+		</entity>
+		<entity className="ECrate">
+			<position x="437.95" y="528.35" />
+			<scale x="1" y="1" />
+			<size width="39.35" height="40.9" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EGrunt">
+			<position x="507.55" y="381.55" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+		<entity className="EGrunt">
+			<position x="712.55" y="380.55" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+	</entities>
+	<walls>
+		<wall className="EWall">
+			<position x="397" y="579.45" />
+			<scale x="34.08125305175781" y="2.375" />
+			<size width="818" height="57" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="602" y="485.05" />
+			<scale x="11.765060424804688" y="5.5798492431640625" />
+			<size width="282.4" height="133.9" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="599.85" y="410.7" />
+			<scale x="12.787673950195312" y="0.763458251953125" />
+			<size width="306.9" height="18.3" />
+			<rotation z="0" />
+		</wall>
+		<wall className="EWall">
+			<position x="89" y="522.65" />
+			<scale x="2.9412689208984375" y="2.6272125244140625" />
+			<size width="70.6" height="63.1" />
+			<rotation z="0" />
+		</wall>
+	</walls>
+</Level>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Level name="level_0">
+	<properties grenades0="2" grenades1="2" grenades2="2" id="" lastLevel="false" />
+	<player_spawn>
+		<position x="88" y="508" />
+		<scale x="1" y="1" />
+		<size width="68.5" height="80.1" />
+		<rotation z="0" />
+	</player_spawn>
+	<entities>
+		<entity className="EGrunt">
+			<position x="380" y="540" />
+			<scale x="1" y="1" />
+			<size width="35.4" height="81.25" />
+			<rotation z="0" />
+		</entity>
+	</entities>
+	<walls>
+		<wall className="EWall">
+			<position x="390" y="579.45" />
+			<scale x="34.08125305175781" y="2.375" />
+			<size width="818" height="57" />
+			<rotation z="0" />
+		</wall>
+	</walls>
+</Level>
