@@ -1,0 +1,43 @@
+-- classes.dex
+    185 Lcom/apm/
+    116 Lcom/ironsource/
+     45 Landroid/view/
+     44 Landroid/os/
+     41 Landroid/widget/
+     34 Lcom/appsflyer/
+-- classes2.dex
+-- classes3.dex
+    178 Lcom/bytedance/
+     76 Lcom/pgl/
+     37 Landroid/os/
+     36 Landroid/view/
+     34 Landroid/graphics/
+     31 Landroid/widget/
+-- classes4.dex
+     32 Landroid/os/
+     31 Lcom/ironsource/
+     23 Landroid/view/
+     21 Landroid/app/
+     16 Landroid/media/
+     14 Landroid/graphics/
+-- classes5.dex
+   1794 Lcom/ironsource/
+    124 Lcom/google/
+     56 Lcom/helpshift/
+     30 Landroid/os/
+     17 Landroid/view/
+     11 Lcom/unity3d/
+-- classes6.dex
+    304 Lio/sentry/
+     62 Lcom/ironsource/
+     39 Landroid/view/
+     34 Landroid/os/
+     27 Lcom/unity3d/
+     26 Lcom/supercell/
+-- classes7.dex
+     30 Lkotlin/io/
+     29 Lkotlin/time/
+     28 Lkotlin/text/
+     26 Lkotlin/reflect/
+     22 Lkotlin/jvm/
+     17 Lkotlin/collections/

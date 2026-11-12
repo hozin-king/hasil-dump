@@ -1,0 +1,996 @@
+Android
+12077973
+__cxa_finalize
+__cxa_atexit
+__register_atfork
+JNI_OnLoad
+Atrasis_init
+Java_com_atrasis_main_AtrasisGameApp_initConfig__Ljava_lang_String_2
+Java_com_atrasis_main_AtrasisGameApp_nOnDispose
+_ZTSNSt6__ndk117bad_function_callE
+_ZTINSt6__ndk117bad_function_callE
+strlen
+localeconv
+__errno
+strtoull
+strtoll
+strtod
+memcmp
+Java_com_supercell_titan_NativeHTTPClientManager_onCompleted
+Java_com_atrasis_main_ads_MediationManager_onReady
+Java_com_atrasis_main_ads_MediationManager_onAdShown
+pthread_create
+pthread_setspecific
+sleep
+dlopen
+dlsym
+dlclose
+waitpid
+memchr
+strcpy
+strncmp
+strchr
+__strncpy_chk
+__strcpy_chk
+memcpy
+memmove
+memset
+wcslen
+wmemchr
+strtof
+snprintf
+strtol
+strerror_r
+abort
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_cond_broadcast
+pthread_cond_wait
+pthread_getspecific
+pthread_detach
+pthread_key_create
+realloc
+malloc
+fopen
+fseek
+fclose
+fread
+fwrite
+fseeko
+ftello
+fflush
+newlocale
+uselocale
+vsscanf
+vsnprintf
+strftime_l
+mbsrtowcs
+sscanf
+vasprintf
+freelocale
+iswlower_l
+wcsnrtombs
+wcrtomb
+mbsnrtowcs
+mbrtowc
+mbtowc
+__ctype_get_mb_cur_max
+mbrlen
+strcmp
+strtoll_l
+strtoull_l
+strtold_l
+syscall
+vfprintf
+fputc
+android_set_abort_message
+openlog
+syslog
+closelog
+fprintf
+posix_memalign
+__assert2
+pthread_once
+pthread_key_delete
+getauxval
+__system_property_get
+pthread_rwlock_wrlock
+pthread_rwlock_unlock
+dl_iterate_phdr
+pthread_rwlock_rdlock
+getpid
+__stack_chk_fail
+libdl.so
+libc.so
+liblog.so
+libm.so
+libatrasis.so
+unspecified system_category error
+0123456789
+locale not supported
+Pure virtual function called!
+false
+VTT for 
+operator+=
+wchar_t
+unsigned short
+unsigned long long
+ decltype(auto)
+(base != 0) && "DW_EH_PE_datarel is invalid with a base of 0"
+invalid string: control character U+0011 (DC1) must be escaped to \u0011
+while parsing 
+start
+Error during formatting.
+September
+%s failed to release mutex
+%s:%d: %s
+__float128
+decltype(auto)
+ imaginary
+libunwind: %s - %s
+DW_EH_PE_funcrel pointer encoding not supported
+()[Ljava/lang/String;
+map::at:  key not found
+cannot use operator[] with a string argument with 
+signature=
+typename 
+getSavedFloatRegister
+invalid string: control character U+0004 (EOT) must be escaped to \u0004
+getInternalStoragePath
+()Ljava/lang/String;
+IQPVbiV9xHOF1i3zkGxKGptSCb5cwmd2
+operator=
+operator,
+operator>=
+__int128
+libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+invalid string: control character U+0016 (SYN) must be escaped to \u0016
+(Ljava/lang/String;)Ljava/lang/String;
+requestStoragePermission
+type must be number, but is 
+__thread_specific_ptr construction failed
+std::exception
+std::bad_cast
+operator.*
+sizeof 
+ [enable_if:
+libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+CIE version is not 1 or 3
+invalid string: control character U+000A (LF) must be escaped to \u000A or \n
+invalid string: control character U+000E (SO) must be escaped to \u000E
+; expected 
+initInterstitialPlacement
+bad_array_new_length
+operator&
+operator<<
+operator|
+operator>>
+yptnk
+::friend 
+char8_t
+std::nullptr_t
+_Unwind_Resume() can't return
+libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+Can't binary search on variable length encoded data.
+invalid string: control character U+0008 (BS) must be escaped to \u0008 or \b
+iterator out of range
+type_error
+, column 
+'[', '{', or a literal
+getInstalledBaseApks
+showType
+thread constructor failed
+%s%suid=%llu&sig=%s&a=%s
+unspecified generic_category error
+%s failed to acquire mutex
+operator==
+operator++
+static_cast
+ro.arch
+getULEB128
+invalid string: control character U+0002 (STX) must be escaped to \u0002
+invalid string: control character U+0013 (DC3) must be escaped to \u0013
+invalid string: control character U+0014 (DC4) must be escaped to \u0014
+invalid_iterator
+: no conversion
+ios_base::clear
+long double
+ complex
+unsigned 
+actions & (_UA_SEARCH_PHASE | _UA_FORCE_UNWIND)
+libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+FDE has zero length
+invalid string: control character U+0012 (DC2) must be escaped to \u0012
+com/atrasis/main/ads/MediationManager
+startPostRequest
+terminate_handler unexpectedly returned
+non-virtual thunk to 
+Invalid access!
+operator&&
+dynamic_cast
+Popping empty vector!
+noexcept
+void __cxxabiv1::scan_eh_tab(scan_results &, _Unwind_Action, bool, _Unwind_Exception *, _Unwind_Context *)
+truncated uleb128 expression
+libunwind: unsupported .eh_frame_hdr version: %u at %lx
+invalid string: control character U+001C (FS) must be escaped to \u001C
+invalid number; expected digit after '.'
+invalid number; expected '+', '-', or digit after exponent
+object key
+number overflow parsing '
+battle_over_counter
+__cxa_guard_release
+uncaught
+typeinfo name for 
+operator co_await
+reinterpret_cast
+exynos9810
+unsupported arm64 register
+unsupported restore location for register
+getTableEntrySize
+invalid comment; expecting '/' or '*' after '/'
+invalid string: '\u' must be followed by 4 hex digits
+string
+std::bad_alloc
+operator&=
+operator[]
+operator<
+operator new[]
+operator|=
+decimal128
+union
+truncated sleb128 expression
+DW_OP_piece not implemented
+boolean
+parse error
+terminating due to %s exception of type %s
+operator delete[]
+sizeof...
+out/llvm-project/libcxxabi/src/demangle/Utility.h
+evaluateExpression
+invalid string: forbidden character after backslash
+end of input
+sizeof... 
+const_cast
+operator~
+operator>>=
+short
+unsigned __int128
+unwind_phase2
+malformed uleb128 expression
+unsupported restore location for float register
+invalid string: control character U+000B (VT) must be escaped to \u000B
+invalid string: control character U+0010 (DLE) must be escaped to \u0010
+invalid string: control character U+0015 (NAK) must be escaped to \u0015
+invalid string: control character U+001E (RS) must be escaped to \u001E
+<U+%.4X>
+; last read: '
+(Ljava/lang/String;I)V
+setSetting
+thread::detach failed
+decltype
+operator.
+operator-
+operator name does not start with 'operator'
+double
+libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+DW_EH_PE_aligned pointer encoding not supported
+getSavedRegister
+invalid string: missing closing quote
+invalid string: control character U+000F (SI) must be escaped to \u000F
+invalid string: control character U+0019 (EM) must be escaped to \u0019
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+initializer for module 
+(anonymous namespace)
+operator<=>
+getRegister
+FDE is really a CIE
+invalid literal
+invalid string: control character U+0007 (BEL) must be escaped to \u0007
+ at line 
+com/supercell/titan/NativeHTTPClientManager
+java/lang/String
+arm64
+terminating due to %s foreign exception
+thread-local initialization routine for 
+guard variable for 
+alignof 
+operator*
+unsigned char
+> typename 
+invalid string: control character U+0009 (HT) must be escaped to \u0009 or \t
+invalid string: control character U+0018 (CAN) must be escaped to \u0018
+invalid string: control character U+001A (SUB) must be escaped to \u001A
+isPlacementReady
+(Ljava/lang/String;Ljava/lang/String;[B[Ljava/lang/String;[Ljava/lang/String;)I
+cannot compare iterators of different containers
+mutex lock failed
+%.0Lf
+terminate_handler unexpectedly threw an exception
+unexpected
+vtable for 
+operator*=
+ noexcept
+string literal
+char32_t
+actions & _UA_SEARCH_PHASE
+libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+invalid string: control character U+0005 (ENQ) must be escaped to \u0005
+object
+binary
+number
+custom:
+out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h
+typeinfo for 
+shrinkToSize() can't expand!
+_Unwind_Reason_Code __cxxabiv1::__gxx_personality_v0(int, _Unwind_Action, uint64_t, _Unwind_Exception *, _Unwind_Context *)
+actions & _UA_CLEANUP_PHASE
+libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+invalid string: control character U+0001 (SOH) must be escaped to \u0001
+discarded
+true literal
+number literal
+com/atrasis/main/AtrasisGameApp
+operator<=
+out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+unknown pointer encoding
+getSLEB128
+DW_OP_deref_size with bad size
+<unknown PiranhaMessage>
+operator--
+<char, std::char_traits<char>
+uintptr_t __cxxabiv1::readEncodedPointer(const uint8_t **, uint8_t, uintptr_t)
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+invalid string: control character U+0006 (ACK) must be escaped to \u0006
+parse_error
+initRewardedPlacement
+(Ljava/lang/String;)Z
+validationUrl
+__cxa_guard_abort
+decimal32
+setRegister
+invalid string: control character U+0017 (ETB) must be escaped to \u0017
+null literal
+thread-local wrapper routine for 
+operator()
+libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+DW_EH_PE_textrel pointer encoding not supported
+DWARF opcode not implemented
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
+<uninitialized>
+boomboxRewardAd
+Unknown error %d
+__cxa_guard_acquire
+noexcept 
+operator delete
+ at offset 
+allocator
+unsigned int
+actions & (_UA_SEARCH_PHASE | _UA_HANDLER_FRAME | _UA_FORCE_UNWIND)
+libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+cannot use erase() with 
+false literal
+w+bxe
+vector
+Wednesday
+'block-literal'
+basic_iostream
+unknown register
+invalid comment; missing closing '*/'
+android
+: out of range
+iostream
+terminating due to %s exception of type %s: %s
+invocation function for block in 
+covariant return thunk to 
+operator%
+signed char
+long long
+decimal64
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+Unknown DWARF encoding for search table.
+object separator
+array
+syntax error 
+Banners are not supported
+basic_string
+template parameter object for 
+construction vtable for 
+operator/=
+operator!
+operator->*
+, std::allocator<char>
+libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+out_of_range
+startGetRequest
+__next_prime overflow
+throw
+operator
+operator/
+operator?
+nullptr
+ typename 
+operator"" 
+float
+out/llvm-project/libcxxabi/src/cxa_personality.cpp
+libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+invalid string: control character U+001D (GS) must be escaped to \u001D
+unexpected 
+<parse error>
+(Ljava/lang/String;)V
+system
+__cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+operator<<=
+operator%=
+operator 
+basic_ostream
+ volatile
+ auto
+_Unwind_Resume
+libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+CIE ID is not zero
+invalid string: control character U+0003 (ETX) must be escaped to \u0003
+invalid string: control character U+000C (FF) must be escaped to \u000C or \f
+invalid number; expected digit after exponent sign
+(Ljava/lang/String;Ljava/lang/String;)V
+ironsource
+cannot use key() for non-object iterators
+unspecified iostream_category error
+%s failed to broadcast
+operator^
+operator!=
+ restrict
+unsigned long
+CIE start does not match
+invalid string: control character U+001B (ESC) must be escaped to \u001B
+invalid string: control character U+001F (US) must be escaped to \u001F
+libc++abi
+operator>
+template<
+basic_istream
+pixel vector[
+[json.exception.
+invalid string: control character U+000D (CR) must be escaped to \u000D or \r
+showPlacement
+libc++abi: 
+virtual thunk to 
+operator new
+operator||
+operator+
+typeid 
+ requires 
+char16_t
+results.reason == _URC_HANDLER_FOUND
+libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+getEncodedP
+DW_OP_fbreg not implemented
+invalid BOM; must be 0xEF 0xBB 0xBF if given
+invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid string: control character U+0000 (NUL) must be escaped to \u0000
+invalid number; expected digit after '-'
+unknown token
+unity_mediation
+generic
+money_get error
+terminating
+out/llvm-project/libcxxabi/src/cxa_demangle.cpp
+reference temporary for 
+operator^=
+operator-=
+operator->
+struct
+libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+invalid string: ill-formed UTF-8 byte
+getSetting
+interstitial
+type must be string, but is 
+type must be boolean, but is 
+cannot get value
+;00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+ !"#$%&'()*+,-./
+0123456789:;<=>?`abcdefghijklmno1
+pqrstuvwxyz{|}~
+ $(,048<
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+NSt6__ndk112system_errorE
+NSt6__ndk112__do_messageE
+NSt6__ndk124__generic_error_categoryE
+NSt6__ndk123__system_error_categoryE
+NSt6__ndk114error_categoryE
+NSt6__ndk114__shared_countE
+NSt6__ndk18ios_baseE
+NSt6__ndk18ios_base7failureE
+NSt6__ndk119__iostream_categoryE
+<<<<<<<<<<<<<<<<<<><<<
+<<<8<<<4<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<< <<<
+NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE
+NSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE
+0123456789abcdefABCDEFxX+-pPiInN
+%I:%M:%S %p%
+NSt6__ndk16locale5facetE
+NSt6__ndk15ctypeIwEE
+NSt6__ndk110ctype_baseE
+NSt6__ndk17codecvtIcc9mbstate_tEE
+NSt6__ndk112codecvt_baseE
+NSt6__ndk17codecvtIDsc9mbstate_tEE
+NSt6__ndk17codecvtIDsDu9mbstate_tEE
+NSt6__ndk17codecvtIDic9mbstate_tEE
+NSt6__ndk17codecvtIDiDu9mbstate_tEE
+NSt6__ndk17codecvtIwc9mbstate_tEE
+NSt6__ndk16locale5__impE
+NSt6__ndk17collateIcEE
+NSt6__ndk17collateIwEE
+NSt6__ndk15ctypeIcEE
+NSt6__ndk18numpunctIcEE
+NSt6__ndk18numpunctIwEE
+NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19__num_getIcEE
+NSt6__ndk114__num_get_baseE
+NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk19__num_getIwEE
+NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19__num_putIcEE
+NSt6__ndk114__num_put_baseE
+NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk19__num_putIwEE
+NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19time_baseE
+NSt6__ndk120__time_get_c_storageIcEE
+NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk120__time_get_c_storageIwEE
+NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk110__time_putE
+NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk110moneypunctIcLb0EEE
+NSt6__ndk110money_baseE
+NSt6__ndk110moneypunctIcLb1EEE
+NSt6__ndk110moneypunctIwLb0EEE
+NSt6__ndk110moneypunctIwLb1EEE
+NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk111__money_getIcEE
+NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk111__money_getIwEE
+NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk111__money_putIcEE
+NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk111__money_putIwEE
+NSt6__ndk18messagesIcEE
+NSt6__ndk113messages_baseE
+NSt6__ndk18messagesIwEE
+St9exception
+St20bad_array_new_length
+St9bad_alloc
+St11logic_error
+St16invalid_argument
+St12length_error
+St12out_of_range
+St13runtime_error
+St14overflow_error
+St9type_info
+St8bad_cast
+N10__cxxabiv116__shim_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+N12_GLOBAL__N_116itanium_demangle4NodeE
+N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+N12_GLOBAL__N_116itanium_demangle8NameTypeE
+N12_GLOBAL__N_116itanium_demangle10ModuleNameE
+N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+N12_GLOBAL__N_116itanium_demangle10MemberExprE
+N12_GLOBAL__N_116itanium_demangle7NewExprE
+N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+N12_GLOBAL__N_116itanium_demangle8CallExprE
+N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+N12_GLOBAL__N_116itanium_demangle8CastExprE
+N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+N12_GLOBAL__N_116itanium_demangle8BoolExprE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle32ConstrainedTypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+N12_GLOBAL__N_116itanium_demangle11EnumLiteralE
+N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+N12_GLOBAL__N_116itanium_demangle8FoldExprE
+N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+N12_GLOBAL__N_116itanium_demangle10BracedExprE
+N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+N12_GLOBAL__N_116itanium_demangle12InitListExprE
+N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+N12_GLOBAL__N_116itanium_demangle15ExprRequirementE
+N12_GLOBAL__N_116itanium_demangle15TypeRequirementE
+N12_GLOBAL__N_116itanium_demangle17NestedRequirementE
+N12_GLOBAL__N_116itanium_demangle12RequiresExprE
+N12_GLOBAL__N_116itanium_demangle13SubobjectExprE
+N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+N12_GLOBAL__N_116itanium_demangle8DtorNameE
+N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+N12_GLOBAL__N_116itanium_demangle12ModuleEntityE
+N12_GLOBAL__N_116itanium_demangle20MemberLikeFriendNameE
+N12_GLOBAL__N_116itanium_demangle10NestedNameE
+N12_GLOBAL__N_116itanium_demangle9LocalNameE
+N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+N12_GLOBAL__N_116itanium_demangle25TemplateParamQualifiedArgE
+N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+N12_GLOBAL__N_116itanium_demangle23ExplicitObjectParameterE
+N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+N12_GLOBAL__N_116itanium_demangle8QualTypeE
+N12_GLOBAL__N_116itanium_demangle15TransformedTypeE
+N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE
+N12_GLOBAL__N_116itanium_demangle10BitIntTypeE
+N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+N8nlohmann6detail12out_of_rangeE
+N8nlohmann6detail11parse_errorE
+endBattleAd
+providerType
+provider_mediation
+provider_ironsource
+endBattleFrequency
+storeState
+gameId
+placements
+gameId
+testMode
+childDirected
+doNotSell
+placements
+N8nlohmann6detail16invalid_iteratorE
+																
+deeplink_scheme
+N8nlohmann6detail10type_errorE
+N8nlohmann6detail9exceptionE
+NSt6__ndk117bad_function_callE
+clashofclans
+yhx-=
+yjxj}
+hYhxJ}
+iYjx	
+yjx)}
++ih8J	
+ 7h2@
+`A9)A
+ A9)A
+ A9)A
+ibA9h*
+?k78i
+Jih8j
+Jih8j
++yhxJ	
+@9	`@9
++yhxJ	
+@9	`@9
+iki8	
+@9H	860
+*ih8_
+TK-@xl
+	*m%@
+T		@9?
+!|9H	
+ 	Az@	Az
+h:A9h
+h:A9(
+Th:A9
+5h6A9H
+4h2A9
+B@9H	
+Th:A9(
+Th:A9
+4h2A9i
+Tz2A9{6A9
+i6A9h2A9*
+h2A9j
+i6A9K
+Tj:A9
+Tu*L9(
+h"L9H
+c@9?%
+4i"L9	
+#@9H,
+"@9)#
+"@9)#
+j"@9_
+9	%@9*
+9	)@9)
+y|x)	
+T(	@9
+T(!@9
+T(%@9
+T(	@9
+@yj	@9K
+T(	@9
+T(!@9
+T(%@9
+T()@9
+T(-@9
+T(1@9
+T(5@9
+T(9@9
+T(=@9
+T(A@9
+T(E@9
+T(I@9
+T(M@9
+T(Q@9
+T(U@9
+T(Y@9
+T(]@9
+T(a@9
+T(e@9
+T(i@9
+T(m@9
+T(q@9
+T(u@9
+T(y@9
+T(}@9
+T(	@9
+T(!@9
+T(%@9
+T()@9
+T(-@9
+T(1@9
+T(5@9
+T(9@9
+T(=@9
+T(A@9
+T(E@9
+@yK	@9
+	@9lN
+R	h(8h
+R	h(8
+R	h(8
+R	h(8]
+R	h(8
+	h(8b
+R	h(8
+R	h(xh
+R	h(xh
+R	h(8
+R	h(8
+R	h(8
+	`@9(
+R	h(xh
+R	h(xh
+R	h(8
+R	h(8h
+R	h(8
+R	h(8h
+R	h(8
+	h(8b
+R	h(8
+R	h(8
+Tu*L9
+Tu*L9(
+R	h(8
+R	h(8
+R	h(8
+@9n	@9o
+N	Y@9
+R	h(xh
+Tw*L9
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8
+R	h(8h
+R	h(8h
+R	h(8
+R	h(8
+R	h(8
+R	h(8
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8
+R	h(8H
+R	h(8
+R	h(8
+R	h(8
+R	h(8
+R	h(8h
+R	h(8
+R	h(8
+R	h(8
+R	h(8
+R	h(8
+R	h(8
+R	h(8h
+R	h(8
+R	h(8h
+R	h(8
+R	h(8h
+R	h(8
+R	h(x
+R	h(8i
+R	h(85
+R	h(8h
+	h(8H
+R	h(8
+R	h(x
+Ti	@9
+R+	@yl.
+	@yk.
+R	h(8h
+R	h(8h
+R	h(8
+R	h(x
+R	h(x
+R	h(8h
+R	h(8h
+R	h(8
+R	h(xH
+R	h(xh
+R	h(8h
+"@9Qm
+	h(8b
+R	h(8
+R	h(8
+R	h(8h
+R	h(8
+R	h(xH
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8
+	`@9(
+	h(8b
+R	h(8
+R	h(8h
+R	h(8h
+R	h(8`"@
+R	h(8h
+R	h(8h
+R	h(8
+R	h(8
+	!@9?!
+R	h(8h
+R	h(8h
+R	h(8
+	!@9?!
+R	h(8
+R	h(8h
+R	h(8h
+R	h(8h
+?77}@
+@1Nz)
+h%@xJ
+zjxk	
+j48*e
+j48Id
+(a@9H
+A9i*@
+A9i*@
+A9i*@
+A9i*@
+A9i*@
+hBB9)
+hBB9)
+ThB@9
+ThB@9
++yhxJ	
+ThBA9i2@
+hBA9i2@
+4hBA9i2@
+{hx)	
+@9i*@
+T3 @9
+^8i*@
+La@9_
+Ka@9k
+THa@9
+ja@9*
+La@9,
+9Ha@9
+ia@9I
+ia@9I
+hB@9u
+kji8JE@9_
+_8	hi8
++ki8JE@9_
+H#@9I
+h"@9h
+h"@9i
+ii8?1
+h"@9i
+*Kj8)
+M!@9m!
+*Kj8)
+M!@9m!
+7hb@9H
+7h"@9
+7h"@9h
+h"@9h
+7h"@9
+7h"@9h
+h"@9h
+h"@9k&
+@9i"@
+@9i&@
+ 6i"@
+A9i&@
+%m/%d/%y
+%H:%M:%S
+(%a %b %d %H:%M:%S %Y
+%I:%M:%S %p
+Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Linker: LLD 18.0.1
+.init_array
+.fini_array
+.text
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.relro_padding
+.eh_frame
+.gcc_except_table
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data

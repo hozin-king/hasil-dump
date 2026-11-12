@@ -1,0 +1,109 @@
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.game' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/game.java'
+INFO  - done
+done game
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.farmSim' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/farmSim.java'
+INFO  - done
+done farmSim
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.dConst' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/dConst.java'
+INFO  - done
+done dConst
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.store' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/store.java'
+INFO  - done
+done store
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.well' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/well.java'
+INFO  - done
+done well
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.upgrade' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/upgrade.java'
+INFO  - done
+done upgrade
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.animal' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/animal.java'
+INFO  - done
+done animal
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.animalExt' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/animalExt.java'
+INFO  - done
+done animalExt
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.newAnimal' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/newAnimal.java'
+INFO  - done
+done newAnimal
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.car' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/car.java'
+INFO  - done
+done car
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.product' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/product.java'
+INFO  - done
+done product
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.grass' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/grass.java'
+INFO  - done
+done grass
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.profile' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/profile.java'
+INFO  - done
+done profile
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.menu' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/menu.java'
+INFO  - done
+done menu
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.objFarm' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/objFarm.java'
+INFO  - done
+done objFarm
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.eleColl' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/eleColl.java'
+INFO  - done
+done eleColl
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.HCLib' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/HCLib.java'
+INFO  - done
+done HCLib
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.Market' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/Market.java'
+INFO  - done
+done Market
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.Licenser' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/Licenser.java'
+INFO  - done
+done Licenser
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.RecordStore' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/RecordStore.java'
+INFO  - done
+done RecordStore
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.Security' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/Security.java'
+INFO  - done
+done Security
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.Statistic' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/Statistic.java'
+INFO  - done
+done Statistic
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.gameMIDlet' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/gameMIDlet.java'
+INFO  - done
+done gameMIDlet
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.AppCtrl' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/AppCtrl.java'
+INFO  - done
+done AppCtrl
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.MidletAppConfig' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/MidletAppConfig.java'
+INFO  - done
+done MidletAppConfig
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.kadr' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/kadr.java'
+INFO  - done
+done kadr
+INFO  - loading ...
+INFO  - Saving class 'com.herocraft.game.farmfrenzy.hdG' to file '/home/hatch/workspace/rea-farmfrenzy/analysis/jadx_out/sources/com/herocraft/game/farmfrenzy/hdG.java'
+INFO  - done
+done hdG
+ALLDONE

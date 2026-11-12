@@ -12,7 +12,7 @@ Tanggal: 11 Nov 2026. Analisis statik saja, tanpa runtime, tanpa build/mod.
 
 - Tautan user: `[tautan unduhan dihapus — minta ke Alyaa]` (host ini kena Cloudflare challenge untuk klien non-browser — tidak dipakai langsung, sesuai pola terbukti).
 - Jalur tembus: API publik APKPure `api.pureapk.com/m/v3/cms/app_version?hl=en-US&package_name=com.litapps.selfly` (resep open-source `apkeep` / EFForg, header `x-cv: 3172501`, `x-sv: 29`, `x-abis: arm64-v8a,...`, `x-gp: 1`) → HTTP 200, respons protobuf 117.521 byte (`api_response.bin`), berisi daftar versi; URL unduh versi 362 diekstrak dari marker `XAPKJ`.
-- URL CDN bertanda tangan (disimpan di `download_url.txt` — berlaku ±2 hari, jangan disebar): `download.pureapk.com/b/XAPK/com.litapps.selfly_362_b89a2003` (`_fn=Amora_v3.6.0_apkpure.com.xapk`, `s=156521630`, `vn=3.6.0`, `vc=362`, dev `Lit Apps LLC (Mobile)`, kategori `LIFESTYLE`).
+- URL CDN bertanda tangan (disimpan di `download_url.txt` — berlaku ±2 hari, jangan disebar): [tautan unduhan dihapus — minta ke Alyaa] (versi 362, `vn=3.6.0`, `vc=362`, dev `Lit Apps LLC (Mobile)`, kategori `LIFESTYLE`).
 
 ## 2. Identitas & verifikasi
 

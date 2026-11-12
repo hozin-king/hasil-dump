@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>arrow_bw.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{94, 2}, {90, 266}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 9}, {76, 252}}</string>
+			<key>sourceSize</key>
+			<string>{90, 266}</string>
+		</dict>
+		<key>arrow_full.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{186, 2}, {90, 266}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 9}, {76, 252}}</string>
+			<key>sourceSize</key>
+			<string>{90, 266}</string>
+		</dict>
+		<key>arrow_outline.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {90, 266}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 4}, {80, 258}}</string>
+			<key>sourceSize</key>
+			<string>{90, 266}</string>
+		</dict>
+		<key>cloud1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{278, 2}, {210, 50}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {210, 50}}</string>
+			<key>sourceSize</key>
+			<string>{210, 50}</string>
+		</dict>
+		<key>cloud2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{195, 319}, {234, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {234, 46}}</string>
+			<key>sourceSize</key>
+			<string>{234, 46}</string>
+		</dict>
+		<key>cloud3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{278, 54}, {155, 34}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {155, 34}}</string>
+			<key>sourceSize</key>
+			<string>{155, 34}</string>
+		</dict>
+		<key>cloud4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{278, 130}, {66, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {66, 28}}</string>
+			<key>sourceSize</key>
+			<string>{66, 28}</string>
+		</dict>
+		<key>cloud5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{278, 90}, {120, 38}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {120, 38}}</string>
+			<key>sourceSize</key>
+			<string>{120, 38}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+	</dict>
+</dict>
+</plist>

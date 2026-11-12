@@ -1,0 +1,8824 @@
+p0l	!
+p0l	!
+n }  
+n z  
+n }  
+n z 0
+n } 0
+!d5@!
+!s51!
+p x	2
+n |	2
+p x	2
+n |	2
+p g	 
+n i	 
+p x	!
+n |	!
+n } B
+n } B
+n z @
+n c 4
+p x	!
+n |	!
+p0l	2
+p0l	2
+p0q 2
+p0q 2
+p0q 2
+q M C
+q M S
+p 4 !
+p0/!!
+n0(!2
+q@"	 C
+r!E5S@
+R)n0P
+\$n0P
+M$n0P
+S)n0P
+w'n F
+A,n F
+j&n F
+	^#M	
+!351	
+!"5 	
+#EgY@
+!"5 .
+	`	p 
+	`	p 
+	`	p 
+	`	p 
+	`	p 
+	`	p 
+!R5 <
+n 	!@
+n 	!R
+n 	!b
+n 	!r
+n 	!%
+n 	! 
+n0I 1
+!"5 -
+!"5 	
+!"5 	
+!"5 	
+!"5 	
+!354)
+BATaE
+n 	! 
+p w 4
+n {  
+p x 0
+p x  
+n 		!
+p x 0
+n z C
+!350b
+p 4 C
+p0, E
+p0. @
+n ) 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+n0* 0
+p 4 C
+p0, E
+p0. @
+n M!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n0N!0
+n z  
+w&n ?
+x&n ?
+@%n ?
+'n $ 
+.p p C
+n t #
+n c  
+!#50#
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+?456789:;<=
+ !"#$%&'()*+,-./0123
+c$n0Q
+W.n0Q
+<$n0Q
+p 4 !
+n ,	}
+n z #
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+q M !
+t-n0P
+40!A!RqR
+>*n .
+?*n .
+>*n0*
+?*n0*
+?*n@#
+{'n $
+W'n .
+!Cn ]
+!&nV+
+!En@2
+!FnV+
+_	n ,
+?*n@#
+O$n00
+{'n $
+W'n /
+W'n .
+v%n /
+v%n .
+e#n D
+2)n D
+2)n E
+1)n D
+n 	!4
+n 	!0
+!352%
+7)p I
+!#50$
+	!"5 
+c$q0+
+c$n E
+t	!D5C
+i	g	j	b
+[ M	[ N	Y!O	Y!P	Y!Q	\!R	Y!S	[ D	\!E	
+\ F	\!G	
+R`I	9
+R0C	q
+U@E	9
+U@F	9
+U@R	9
+U@R	8
+R@I	9
+R@S	=
+R@S	RAK	
+Y@S	R@S	<
+YCS	(
+R@S	;
+R@S	RAK	
+Y@S	R@S	:
+YCS	(
+U@R	9
+R@I	9
+R@S	RAJ	5
+R@S	RAK	
+Y@S	(
+R@S	RAJ	7
+R@S	RAK	
+Y@S	(
+[@N	(
+Y@P	RAO	7
+R@O	Y@P	R@O	=
+R@P	RAO	2
+R@O	<
+R@I	9
+R@O	<
+R@I	9
+T@M	p
+RBH	n@
+[@D	R@Q	`
+TAD	J
+R@Q	`
+Y@Q	YCP	)
+R@C	RAT	5
+R@U	RAT	5
+R@U	RAC	5
+R@C	Y@U	R@U	
+Y@U	R@C	
+Y@C	YCQ	YCP	T@M	p
+RBH	n@
+[@D	)
+K	{DY
+Rpq@`
+{66b^
+`&n F
+`&n D
+H$n F
+[	n0Q
+`&n F
+$'n D
+g)n F
+g)n D
+i%n F
+d%n E
+R'n F
+i%n F
+c$n J
+c$n F
+c$n D
+c$n0P
+!"5 ?
+c$n0P
+g)n H
+i%n F
+d%n F
+g)n H
+g)n F
+c$n F
+g)n F
+`&n F
+!"5 *
+!D5@1
+	{"q 
+k%n F
+c$q0+
+c$n D
+c$n0P
+c$n0P
+!"5!+
+0u4![
+!350i
+	!"5 
+!"5 "
+	!"5 
+!350s
+!350?
+!S50F
+g"q C
+o"q C
+!{Rq 
+!D5@^
+{Uq@^
+4#!	b
+c$n F
+d%n J
+d%n F
+c$n F
+c$n F
+!"5)K
+A9q0@
+A9q0@
+A	q@^
+[	n0Q
+!D5Be
+!D5C%
+k%n F
+!350:
+!{bq 
+d$qT~
+d$q0,
+!f5a]
+!D5A'
+	Nq@`
+	Nq@`
+{3q@^
+w!"	:
+!"5 %
+I)q@q
+I)q@q
+3	50M
+0	q y
+!350	
+!350	
+!##2"
+!"5!)
+i%n F
+d%n F
+c$n F
+!"5 )
+X	3 )
+3	3 	
+3	3 m
+3	n @
+Y+q@^
+R"		b
+3	3@w
+i%n F
+d%n F
+!#q0v
+d%n E
+g%n E
+	!350
+i%n F
+i%n F
+R'n F
+g%n E
+d%n E
+g%n E
+d%n E
+R'n F
+i%n F
+i%n F
+	!"5 
+!D5@"
+b"q C
+Fuq@^
+i%n F
+d%n E
+R'n F
+i%n F
+d%n E
+!f5e<
+I)q@q
+I)q@q
+I)qZG
+i%n F
+d%n F
+i%n F
+d%n F
+i%n F
+d%n F
+	!"qR
+6	q f
+6	q g
++	q b
++	q b
+T0+	p 
+T0+	p 
+:	5Pt
+9	!f5e/
+Pbp Q
+9	!wqW
+R 		R!
+T3+	8
+T3+	n
+R0		R1
+	!"5!
+)	pPX
+@	q {
++	q b
+[p*	Tr*	
+0	n A
+0	n B
+<	n c
+<	n c
+<	n c
+<	n c
+a	!"5 4
+%	!"5 
++	n ;
++	q b
++	T")	pVX
++	q b
++	p r
+)	p0W
++	q b
++	p r
++	n ;
++	p r
+%	q a
+6	q f
++	p r
+TP+	R
+	TP+	R
+TP+	8
+TP+	p
+TQ+	p
+0	n @
+Rc		Rd
+)	qV_
+)	q@^
+9	g	:	q
+3	R3		b
+2	n0K
+2	n b
+2	n b
+2	n b
+2Rs		
+HRa		Rd
+R 		`
++	n ;
+	Ts+	R3
+6	q f
+0	n @
+&	!D5@
+Tq+	q
+Tq+	n
+Tq+	n
+Tq+	n
+Tq+	n
+Tq+	n
+Tp+	8
+Tp+	n
+Tp+	R
+	Tp+	R
+	Tu+	
+6	q f
+Tq+	n
+Tv+	p
+Tr+	p 
+$	!"5 	
+0	n @
+0	n @
+(	p0:
+Tp*	9
+Tp+	q
+Tp+	p r
+Tp+	p
+T@+	q
+T@+	R
+T@+	p r
+T@*	8
+T@*	R
+TA*	R
+TE+	8
+TE+	2
+TE+	9
+RB		RC
+0	n @
+g	@	T
+g	@	(
+A	p I
+4	p0F
+,Sp0F
+B	3py
+g	B	(
+g	B	q h
+4	p0F
+6	q f
+6	q g
+Tq)	pRX
+[p)	)
+Tp+	R
+Tq+	R
+RR		RS
+6	q f
+6	q g
+Y 		R 
+T +	q
+T +	R
+T +	q
+T +	[ ,	[#+	(
+[ ,	(
+n 	!#
+n 	!$
+n 	!e
+n 	! 
+!fn@2
+L%n E
+V%n 	!
+V%n 	!
+@*n D
+@*n F
+n i	@
+p w	1
+2TT X
+n&n D
+n&n D
+`"T2g
+B@TR-
+BA[P,
+:%n0*
+9"n0*
+r0s!2
+p a! 
+p b!`
+n0d! 
+p l!#
+n c!0
+n0d!@
+n0d! 
+p `!`
+p %! 
+'q q!
+'q r!
+p@f!Cen h!0
+p@f!CQn h!0
+p0o!!
+ Nq r!
+p j!e
+n@R!AB
+nUT! C
+n ' @
+~z221
+n z  
+p 4 p
+'n E  
+'n H  
+n )  
+p g	P
+n i	 
+n j	 
+p x	R
+p g	C
+n i	C
+n j	C
+p x	T
+B*p W
+n z  
+n z  
+n z  
+!#50:
+q K e
+q K d
+q K T
+n i	1
+p w	 
+n ~	 
+q M  
+r!d5B
+0uq $
+!!C50
+p@a	0![0
+n |	0
+p w	 
+n |	@
+p g	0
+p 1	!
+p@5	0eT2
+n z @
+p p 2
+n t r
+p p C
+n t c
+p p 2
+p p 2
+n t R
+p 4 `
+p 4 0
+r ^!2
+k%q G
+n@R! Cn
+ eq0\
+'&r0.
+k%q G
+p 4 $
+k%q G
+p 4 $
+p x  
+k%q G
+)n 0	
+p03	2
+CeqY$
+!!q0v
+n V 2
+n V 2
+n T 2
+p x 2
+n s	 
+n s	 
+n n	!
+n p	!
+n r	!
+n u	!
+!"5 s
+p w b
+p 4 @
+n F  
+n G  
+n )  
+n0I  
+n z !
+n z !
+n z P
+n z  
+n z @
+n z @
+n z 4
+n z a
+n z 1
+n z p
+!"4!"
+n@R!!0n
+p 4 `
+n F @
+n G @
+n M! 
+n0I  
+n 	!0
+n@$!r
+n #!E
+n '	@
+n '	 
++*p Z
+n z T
+p y!A
+n {  
+H!n 0
+N$n -
+N$p .
+CffF@
+CffF@
+Cn z e
+!B5 /
+!352>
+n c 0
+!45@,
+p0/! 
+#n0(!2
+p0/!!
+#n0(!2
+p0/!!
+n0(!2
+p -!!
+n0(!2
+n &!B
+p 4 p
+n M! 
+n0N! 
+n0N! 
+.n0N!0
+n0N! 
+n0N! 
+n0N! 
+2!F5`!
+q M G
+p 4 @
+n "  
+n '  
+n )  
+n c 2
+Z	p0I
+[	p0I
+n c !
+p w #
+p w 4
+n {!!
+!Cq@"	
+n z P
+n z `
+n z 0
+p 4 0
+p x  
+!S50 
+!c51 
+p w !
+p 4  
+n z 2
+n z 2
+I$n0V
+I$n0V
+! 	q )
+L)q ~
+L)q ~
+q #	v
+n r 0
+p0q !
+n z B
+n z S
+n ) Y
+n $ i
+n ( i
+"p 4 
+L)q ~
+7(q q
+@AT`X
+n 6 !
+!#503
+	(&n 
+n z ,
+n i A
+n j !
+n k !
+n [ !
+p w P
+n z 0
+n z !
+p0m $
+rQ5!Ce
+rP2!2T
+r04!!
+rP1!T
+r03!!
+n z  
+n c 2
+!!C50
+n c !
+n c b
+rU:!!CT
+r[:!p
+!%nU+
+!$n@2
+n ,	h
+!@p w 
+n z 1
+v"q i
+p x 2
+n |	!
+n ~	!
+n z  
+n z 0
+n z 0
+n } 0
+n z 0
+2TT -
+2TT -
+Qdr 6
+t'n0V
+	0TT )
+CeT0j
+2TT j
+n c	!
+n } #
+1Lcom/facebook/internal/FileLruCache$BufferFile$1;
+Ljava/lang/Object;
+Ljava/io/FilenameFilter;
+<init>
+Ljava/io/File;
+Ljava/lang/String;
+accept
+buffer
+startsWith
+Lcom/facebook/android/R$dimen;
+com_facebook_loginview_height
+%com_facebook_loginview_padding_bottom
+#com_facebook_loginview_padding_left
+$com_facebook_loginview_padding_right
+"com_facebook_loginview_padding_top
+ com_facebook_loginview_text_size
+com_facebook_loginview_width
+1com_facebook_profilepictureview_preset_size_large
+2com_facebook_profilepictureview_preset_size_normal
+1com_facebook_profilepictureview_preset_size_small
+8com_facebook_usersettingsfragment_profile_picture_height
+7com_facebook_usersettingsfragment_profile_picture_width
+1Lcom/facebook/internal/FileLruCache$BufferFile$2;
+;Lcom/facebook/widget/PlacePickerFragment$SearchTextWatcher;
+Landroid/text/TextWatcher;
+)Lcom/facebook/widget/PlacePickerFragment;
+this$0
++Lcom/facebook/widget/PlacePickerFragment$1;
+Landroid/text/Editable;
+afterTextChanged
+Ljava/lang/CharSequence;
+VLIII
+beforeTextChanged
+onTextChanged
+toString
+onSearchBoxTextChanged
+=Lcom/gameloft/android2d/socialnetwork/SocialNetwork_Facebook;
+(Lcom/gameloft/android2d/socialnetwork/d;
+Ljava/util/List;
+)Lcom/gameloft/android2d/socialnetwork/an;
+Ljava/util/ArrayList;
+Ljava/util/Hashtable;
+Ldalvik/annotation/Signature;
+value
+'Lcom/gameloft/android2d/socialnetwork/d
+Lcom/facebook/model/GraphUser;
+Ljava/util/List
+(Lcom/gameloft/android2d/socialnetwork/an
+Ljava/util/ArrayList
+Ljava/net/URL;
+Ljava/util/Hashtable
+Ljava/lang/Integer;
+[Ljava/lang/String;
+(Lcom/gameloft/android2d/socialnetwork/l;
+(Lcom/gameloft/android2d/socialnetwork/o;
+Ljava/io/OutputStream;
+%Lcom/facebook/Session$StatusCallback;
+statusCallback
+<clinit>
+en_GB
+de_DE
+fr_FR
+it_IT
+es_ES
+pt_BR
+pt_PT
+ja_JP
+zh_CN
+ko_KR
+ru_RU
+tr_TR
+pl_PL
+cz_CZ
+nl_NL
+th_TH
+vi_VN
+ar_AR
+en_US
+basic_info
+Ljava/util/Arrays;
+[Ljava/lang/Object;
+asList
+publish_actions
+)Lcom/gameloft/android2d/socialnetwork/ap;
+ Lcom/facebook/model/GraphObject;
+Ljava/util/Map;
+asMap
+containsKey
+getProperty
+Landroid/os/Bundle;
+Lcom/facebook/Request;
+Lcom/facebook/Session;
+getActiveSession
+Ljava/lang/StringBuilder;
+append
+/achievements
+Lcom/facebook/HttpMethod;
+)Lcom/gameloft/android2d/socialnetwork/aa;
+Lcom/facebook/Request$Callback;
+VLLLLL
+-Lcom/facebook/internal/CacheableRequestBatch;
+[Lcom/facebook/Request;
+)Lcom/gameloft/android2d/socialnetwork/ac;
+Lcom/facebook/RequestBatch;
+VLLLL
+Ljava/lang/Exception;
+,Lcom/facebook/Session$NewPermissionsRequest;
+ Lcom/gameloft/android/wrapper/l;
+Landroid/app/Activity;
+getActivity
+requestNewPublishPermissions
+	putString
+(Lcom/gameloft/android2d/socialnetwork/w;
+Lcom/facebook/RequestAsyncTask;
+[Ljava/lang/Void;
+Landroid/os/AsyncTask;
+execute
+(Lcom/gameloft/android2d/socialnetwork/x;
+VLLLLLLLLL
+intValue
+contains
+remove
+Ljava/lang/Thread;
+)Lcom/gameloft/android2d/socialnetwork/ae;
+Ljava/lang/Runnable;
+start
+)[Lcom/gameloft/android2d/socialnetwork/l;
+)Facebook: createInviteFriendRequest uid: 
+message
+suggestions
+locale
+5Lcom/facebook/widget/WebDialog$RequestsDialogBuilder;
+Landroid/content/Context;
+)Lcom/gameloft/android2d/socialnetwork/ah;
++Lcom/facebook/widget/WebDialog$BuilderBase;
+2Lcom/facebook/widget/WebDialog$OnCompleteListener;
+setOnCompleteListener
+Lcom/facebook/widget/WebDialog;
+build
+isOpened
+isClosed
+"Lcom/facebook/Session$OpenRequest;
+setCallback
+setPermissions
+(Lcom/gameloft/android2d/socialnetwork/u;
+setActiveSession
+openForRead
+Lcom/facebook/Session$Builder;
+setApplicationId
+caption
+description
+picture
+me/feed
+)Lcom/gameloft/android2d/socialnetwork/ai;
+username
+closeAndClearTokenInformation
+Lcom/facebook/SessionState;
+getState
+CREATED_TOKEN_LOADED
+equals
+1Lcom/facebook/widget/WebDialog$FeedDialogBuilder;
+)Lcom/gameloft/android2d/socialnetwork/aj;
+ Lcom/gameloft/android/wrapper/i;
+first_name
+)Lcom/gameloft/android2d/socialnetwork/ab;
+(Lcom/facebook/Request$GraphUserCallback;
+newMeRequest
+Ljava/util/HashSet;
+	last_name
+middle_name
+	installed
+Ljava/util/Set;
+Ljava/util/Collection;
+addAll
+picture.width(
+	).height(
+getParameters
+fields
+Landroid/text/TextUtils;
+Ljava/lang/Iterable;
+setParameters
+)Lcom/gameloft/android2d/socialnetwork/ao;
+me/friends
+newGraphPathRequest
+startLoading
+ Ljava/net/MalformedURLException;
+https://graph.facebook.com/
+/picture?width=
+&height=
+)Lcom/gameloft/android2d/socialnetwork/ad;
+Ljava/io/InputStream;
+Ljava/io/BufferedInputStream;
+facebook\Facebook_photos
+Ljava/io/FileInputStream;
+openFileInput
+close
+Ljava/io/ByteArrayInputStream;
+Ljava/lang/Boolean;
+booleanValue
+is_app_user
+getPassword
+getAccessToken
+split
+Landroid/content/Intent;
+onActivityResult
+ZLIIL
+onCreate
+9Landroid/content/pm/PackageManager$NameNotFoundException;
+(Ljava/security/NoSuchAlgorithmException;
+#Landroid/content/pm/PackageManager;
+getPackageManager
+getPackageName
+ Landroid/content/pm/PackageInfo;
+getPackageInfo
+[Landroid/content/pm/Signature;
+signatures
+Ljava/security/MessageDigest;
+getInstance
+Landroid/content/pm/Signature;
+toByteArray
+update
+digest
+(Lcom/gameloft/android2d/socialnetwork/a;
+encodeToString
+Lcom/facebook/LoggingBehavior;
+INCLUDE_ACCESS_TOKENS
+Lcom/facebook/Settings;
+addLoggingBehavior
+#Lcom/facebook/TokenCachingStrategy;
+LLLLL
+restoreSession
+	onDestroy
+onPause
+onResume
+getContext
+publishInstallAsync
+achievement
+me/achievements
+(Lcom/gameloft/android2d/socialnetwork/y;
+(Lcom/gameloft/android2d/socialnetwork/z;
+score
+putInt
+	me/scores
+)Lcom/gameloft/android2d/socialnetwork/am;
+(Lcom/gameloft/android2d/socialnetwork/v;
+onSaveInstanceState
+saveSession
+onStart
+FileOfOffsets
+FileOfLengths
+addCallback
+onStop
+removeCallback
+/scores
+)Lcom/gameloft/android2d/socialnetwork/al;
+graphObjects
+)Lcom/gameloft/android2d/socialnetwork/ak;
+getPermissions
+deleteFile
+getFilesDir
+getAbsolutePath
+	\facebook
+mkdir
+getFileStreamPath
+length
+Ljava/io/BufferedOutputStream;
+Ljava/io/FileOutputStream;
+openFileOutput
+(Facebook: exception create photo folder 
+)Lcom/gameloft/android2d/socialnetwork/af;
+&Lcom/facebook/TestSession$FqlResponse;
+$Lcom/facebook/model/GraphObjectList;
+getData
+#Lcom/facebook/model/GraphObjectList
+$Lcom/facebook/TestSession$FqlResult;
+4Lcom/facebook/widget/GraphObjectAdapter$ItemPicture;
+8Lcom/facebook/widget/GraphObjectAdapter$ItemPictureData;
+#Lcom/facebook/SessionLoginBehavior;
+Ljava/lang/Enum;
+VLIZZ
+(ZZ)V
+Ljava/lang/Enum
+$[Lcom/facebook/SessionLoginBehavior;
+$VALUES
+SSO_ONLY
+SSO_WITH_FALLBACK
+SUPPRESS_SSO
+allowsKatanaAuth
+allowsWebViewAuth
+valueOf
+Ljava/lang/Class;
+values
+clone
+.Lcom/facebook/AuthorizationClient$AuthHandler;
+Ljava/io/Serializable;
+serialVersionUID
+"Lcom/facebook/AuthorizationClient;
+cancel
+needsInternetPermission
+needsRestart
+7Lcom/facebook/AuthorizationClient$AuthorizationRequest;
+tryAuthorize
+%Lcom/facebook/SessionDefaultAudience;
+&[Lcom/facebook/SessionDefaultAudience;
+EVERYONE
+FRIENDS
+ONLY_ME
+nativeProtocolAudience
+ALL_FRIENDS
+getNativeProtocolAudience
+!Lcom/facebook/android/R$drawable;
+com_facebook_button_check
+com_facebook_button_check_off
+com_facebook_button_check_on
+ com_facebook_button_grey_focused
+com_facebook_button_grey_normal
+ com_facebook_button_grey_pressed
+com_facebook_close
+com_facebook_icon
+com_facebook_list_divider
++com_facebook_list_section_header_background
+com_facebook_loginbutton_blue
+%com_facebook_loginbutton_blue_focused
+$com_facebook_loginbutton_blue_normal
+%com_facebook_loginbutton_blue_pressed
+com_facebook_loginbutton_silver
+com_facebook_logo
+#com_facebook_picker_item_background
+ com_facebook_picker_list_focused
+$com_facebook_picker_list_longpressed
+ com_facebook_picker_list_pressed
+!com_facebook_picker_list_selector
+7com_facebook_picker_list_selector_background_transition
+*com_facebook_picker_list_selector_disabled
+com_facebook_picker_top_button
+com_facebook_place_default_icon
+!com_facebook_profile_default_icon
++com_facebook_profile_picture_blank_portrait
+)com_facebook_profile_picture_blank_square
+com_facebook_top_background
+com_facebook_top_button
+5com_facebook_usersettingsfragment_background_gradient
+	Lb/b/a/a;
+	Lb/a/a/a;
+%Lcom/facebook/FacebookRequestError$1;
+)Lcom/facebook/AuthorizationClient$Result;
+.Lcom/facebook/AuthorizationClient$Result$Code;
+errorMessage
+Lcom/facebook/AccessToken;
+token
+createCancelResult
+CANCEL
+createErrorResult
+ERROR
+createTokenResult
+SUCCESS
+6Lcom/facebook/widget/PickerFragment$GraphObjectFilter;
+includeItem
+(TT;)Z
+(Lcom/facebook/model/GraphObject$Factory;
+verifiedGraphObjectClasses
+Ljava/util/HashSet
+Ljava/lang/Class
+<*>;>;
+%Ljava/lang/reflect/ParameterizedType;
+coerceValueToExpectedType
+create
+Lorg/json/JSONObject;
+createGraphObjectProxy
+createGraphObjectProxyForMap
+createList
+Lorg/json/JSONArray;
+hasClassBeenVerified
+recordClassHasBeenVerified
+verifyCanProxyClass
+<TU;>;
+<TT;>;)TT;
+<TT;>;
+Ljava/util/Map
+<TT;>;)
+<TT;>;)Z
+<TT;>;)V
+[Ljava/text/SimpleDateFormat;
+dateFormats
+Ljava/text/SimpleDateFormat;
+yyyy-MM-dd'T'HH:mm:ssZ
+Ljava/util/Locale;
+yyyy-MM-dd'T'HH:mm:ss
+yyyy-MM-dd
+access$000
+access$100
+access$200
+getUnderlyingJSONObject
+Ljava/text/ParseException;
+getClass
+isAssignableFrom
+isPrimitive
++Lcom/facebook/FacebookGraphObjectException;
+Can't create GraphObject from 
+getName
+can't infer generic type of: 
+[Ljava/lang/reflect/Type;
+getActualTypeArguments
+PExpect collection properties to be of a type with exactly one generic parameter.
+Can't create Collection from 
+Ljava/lang/Double;
+Ljava/lang/Float;
+format
+Ljava/lang/Number;
+Ljava/util/Date;
+parse
+Can't convert type
+*convertCamelCaseToLowercaseWithUnderscores
+([a-z])([A-Z])
+$1_$2
+replaceAll
+toLowerCase
+[Ljava/lang/Class;
+9Lcom/facebook/model/GraphObject$Factory$GraphObjectProxy;
+Ljava/lang/ClassLoader;
+getClassLoader
+Ljava/lang/reflect/Proxy;
+%Ljava/lang/reflect/InvocationHandler;
+newProxyInstance
+<Lcom/facebook/model/GraphObject$Factory$GraphObjectListImpl;
+getInnerJSONObject
+getInnerJSONArray
+	hasSameId
+isInterface
+-Factory can only wrap interfaces, not class: 
+[Ljava/lang/reflect/Method;
+getMethods
+Ljava/lang/reflect/Method;
+getParameterTypes
+getReturnType
+!Lcom/facebook/model/PropertyName;
+isAnnotationPresent
+getDeclaringClass
+Ljava/lang/Void;
+!Ljava/lang/annotation/Annotation;
+getAnnotation
+Lcom/facebook/internal/Utility;
+isNullOrEmpty
+Factory can't proxy method: 
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/j;
+8Lcom/gameloft/android/GAND/GloftTCMF/S800x480/GloftTCMF;
+	Lb/a/d/a;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/br;
+	Lb/a/b/o;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/o;
+HLcom/gameloft/android/GAND/GloftTCMF/PushNotification/LocalPushReceiver;
+#Landroid/content/BroadcastReceiver;
+	onReceive
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/d;
+$android.intent.action.BOOT_COMPLETED
+	getAction
+	getExtras
+pn_ddms_flag
+	getString
+pn_alarm_id
+La/b/a/a/a;
+.alarm_content
+	getBundle
+keySet
+Ljava/util/Iterator;
+iterator
+hasNext
+subject
+infopush
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/i;
+#Landroid/content/SharedPreferences;
+getSharedPreferences
+*Landroid/content/SharedPreferences$Editor;
+info_
+getInt
+count_
+time_
+commit
+pn_count_push_local
+pn_time_first_push_local
+customIcon
+&Lcom/facebook/FacebookDialogException;
+ Lcom/facebook/FacebookException;
+	errorCode
+failingUrl
+getErrorCode
+getFailingUrl
+Lcom/facebook/AccessToken$1;
+)Lcom/gameloft/android/GAND/GloftTCMF/a/a;
+line.separator
+Ljava/lang/System;
+charAt
+$Ljava/lang/IllegalArgumentException;
+=Length of Base64 encoded input string is not a multiple of 4.
+)Illegal character in Base64 encoded data.
+Lcom/e/a/a/d/a;
+Lcom/e/a/a/d/b;
+@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+toCharArray
+Lcom/e/a/a/k;
+getValue
+	encodeUrl
+ 's value is null
+Lcom/d/b/a/a/a;
+Ljava/net/URLEncoder;
+encode
+Lcom/e/a/a/a;
+access_token
+refresh_token
+expires_in
+&Ljava/io/UnsupportedEncodingException;
+UTF-8
+Lorg/json/JSONException;
+indexOf
+error
+	optString
+error_code
+error_description
+JSONExceptionerror
+	decodeUrl
+Ljava/net/URLDecoder;
+decode
+parseUrl
+getQuery
+getRef
+putAll
+	showAlert
+!Landroid/app/AlertDialog$Builder;
+setTitle
+setMessage
+Landroid/app/AlertDialog;
+connectivity
+getSystemService
+!Landroid/net/ConnectivityManager;
+Landroid/net/NetworkInfo;
+getActiveNetworkInfo
+getType
+[Landroid/net/NetworkInfo;
+getAllNetworkInfo
+Landroid/net/NetworkInfo$State;
+	CONNECTED
+)Lcom/gameloft/android/GAND/GloftTCMF/a/b;
+Ljava/lang/StringBuffer;
+insert
+!Ljavax/crypto/spec/SecretKeySpec;
+AES/ECB/PKCS5Padding
+Ljavax/crypto/Cipher;
+Ljava/security/Key;
+getBytes
+doFinal
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/x;
+	Lb/a/b/m;
+DATA_VERSION
+	Lb/a/b/r;
+	Lb/a/b/c;
+	Lb/a/b/l;
+1[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/a;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/a;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ad;
+IGP-Signature=
+TITLE-FREEMIUM
+TITLE-GLCLUB
+URL-OPERATOR
+IGP-CATEGORIES
+IGP-PROMOS
+IGP-FREEMIUM
+URL-TEMPLATE-GAME
+more_games_url
+more_games_status
+&ctg=
+ingameads.gameloft.com/redir
+LIIZZ
+4Lcom/gameloft/android/GAND/GloftTCMF/S800x480/GLLib;
+VILILLI
+	substring
+toUpperCase
+	compareTo
+VLLII
+initialize(midlet = 
+	, game = 
+, screenWidth = 
+, screenHeight = 
+, cmdListener = 
+'MIDlet instance was already initialized
+MIDlet instance can't be null
+Canvas instance can't be null
+Lb/a/b/ad;
+VLLIIII
+	VLLIIIIIZ
+	VLLLIIIII
+VLLIII
+VLLIIIIZ
+Ljava/lang/Math;
+currentTimeMillis
+getResourceAsStream
+VLIIII
+VLIIIII
+	VLIIIIIIZ
+/dataIGP
+VLILII
+	arraycopy
+VLIIL
+	Lb/a/b/q;
+/dataIGPSprites
+VLIFFI
+&dataIGP file can't be loaded or found.
+IGP dataIGP version: 
+1Invalid dataIGP file, dataIGP file IGP Version : 
+IGP Class version : 
+isAvailable = 
+There are no valid pages
+!initializePlatformRequestServer()
+VLFFFF
+VFFFF
+VIILI
+getChars
+enterIGP(loadingMsg = 
+, appLanguage = 
+/Using OVI feature, standard IGP is deactivated!
+igp19
+	Lb/a/e/a;
+isAvailable
+platformRequest Thread alive!
+Thread.activeCount() = 
+activeCount
+urlPlatformRequest = 
+sleep
+platformRequest Thread dead!
+$Ljava/util/concurrent/BlockingQueue;
+DEFAULT_WORK_QUEUE
+loggingBehaviors
+#Ljava/util/concurrent/BlockingQueue
+getLoggingBehaviors
+Ljava/util/Set
+ANALYTICS_EVENT
+ATTRIBUTION_ID_COLUMN_NAME
+Landroid/net/Uri;
+ATTRIBUTION_ID_CONTENT_URI
+ATTRIBUTION_KEY
+ATTRIBUTION_PREFERENCES
+DEFAULT_CORE_POOL_SIZE
+DEFAULT_KEEP_ALIVE
+DEFAULT_MAXIMUM_POOL_SIZE
+$Ljava/util/concurrent/ThreadFactory;
+DEFAULT_THREAD_FACTORY
+MOBILE_INSTALL_EVENT
+PUBLISH_ACTIVITY_PATH
+Ljava/util/concurrent/Executor;
+executor
+shouldAutoPublishInstall
+[Lcom/facebook/LoggingBehavior;
+DEVELOPER_ERRORS
+<content://com.facebook.katana.provider.AttributionIdProvider
+*Ljava/util/concurrent/LinkedBlockingQueue;
+Lcom/facebook/Settings$1;
+clearLoggingBehaviors
+clear
+getAsyncTaskExecutor
+ Ljava/lang/NoSuchFieldException;
+"Ljava/lang/IllegalAccessException;
+THREAD_POOL_EXECUTOR
+Ljava/lang/reflect/Field;
+getField
+!Landroid/content/ContentResolver;
+getAttributionId
+Landroid/database/Cursor;
+LLLLLL
+query
+moveToFirst
+getColumnIndex
+getExecutor
+)Ljava/util/concurrent/ThreadPoolExecutor;
+Ljava/util/concurrent/TimeUnit;
+SECONDS
+VIIJLLL
+Ljava/util/Collections;
+unmodifiableSet
+getMigrationBundle
+fbsdk:20121026
+getSdkVersion
+3.0.1
+getShouldAutoPublishInstall
+isLoggingBehaviorEnabled
+publishInstallAndWait
+Lcom/facebook/Response;
+ publishInstallAndWaitForResponse
+#Lcom/facebook/FacebookRequestError;
+getError
+/Both context and applicationId must be non-null
+Facebook-publish
+Ljava/net/HttpURLConnection;
+getContentResolver
+$com.facebook.sdk.attributionTracking
+getLong
+event
+MOBILE_APP_INSTALL
+setProperty
+attribution
+%s/activities
+newPostRequest
+LLLLZ
+createResponsesFromString
+VLLLZ
+8No attribution id returned from the Facebook application
+!queryAppAttributionSupportAndWait
+4Install attribution has been disabled on the server.
+executeAndWait
+putLong
+getGraphObject
+getApplicationContext
+Lcom/facebook/Settings$2;
+removeLoggingBehavior
+setExecutor
+ Lcom/facebook/internal/Validate;
+notNull
+setShouldAutoPublishInstall
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/y;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/v;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/w;
+?Lcom/facebook/widget/PickerFragment$OnSelectionChangedListener;
+$Lcom/facebook/widget/PickerFragment;
+onSelectionChanged
+#Lcom/facebook/widget/PickerFragment
+<*>;)V
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/z;
+Lcom/facebook/GetTokenClient$1;
+Landroid/os/Handler;
+Lcom/facebook/GetTokenClient;
+Landroid/os/Message;
+handleMessage
+7Lcom/facebook/widget/LoginButton$LoginButtonProperties;
+permissions
+setPublishPermissions
+setReadPermissions
+0Lcom/facebook/internal/SessionAuthorizationType;
+validatePermissions
+authorizationType
+defaultAudience
+loginBehavior
+1Lcom/facebook/widget/LoginButton$OnErrorListener;
+onErrorListener
+sessionStatusCallback
+	emptyList
+access$1000
+access$1100
+access$1200
+access$1300
+access$1600
+access$1700
+PUBLISH
+8Permissions for publish actions cannot be null or empty.
+isSubset
+!Lcom/facebook/widget/LoginButton;
+?Cannot set additional permissions when session is already open.
+Landroid/util/Log;
+clearPermissions
+getDefaultAudience
+getLoginBehavior
+getOnErrorListener
+getSessionStatusCallback
+setDefaultAudience
+setLoginBehavior
+setOnErrorListener
+)Ljava/lang/UnsupportedOperationException;
+KCannot call setPublishPermissions after setReadPermissions has been called.
+KCannot call setReadPermissions after setPublishPermissions has been called.
+setSessionStatusCallback
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/i;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ao;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/h;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/g;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bc;
+1[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/r;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/r;
+[[Ljava/lang/Object;
+[[Ljava/lang/String;
+asset
+leaderboard
+social
+storage
+lobby
+matchmaker
+gllive
+bridge
+config
+VILLL
+<presence><status>
+</status></presence>
+You didn't set device id. Please note that it's optional to set device id (for backward compatiblity) but is required for all new games.
+EnableOnline
+endsWith
+/config/
+/datacenters/
+/urls
+	socket://
+VZIIZ
+connect
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/am;
+action
+login
+	join room
+room_id
+reservation_code
+leave room
+credential
+launch game
+update user
+update room
+get game controller
+get room info
+create room
+capacity
+reservation_codes
+nonce
+controller_host
+controller_tcp_port
+connect game
+pandora
+gllive-ope
+social_player.php
+tapjoy
+offline_items
+game_portal
+status
+/assets/
+isInProgress
+Iris_DownloadAsset_Exec:Result
+VILLLLL
+leaderboard social
+VLLLZLLL
+/locate/
+success
+Key not found: 
+reason
+Connection exception: 
+cleanup
+	FilePath:
+getPath
+exists
+	Not Exist
+createNewFile
+write
+Ljava/util/Vector;
+'Federation EVE => status of clientID : 
+ Federation EVE => game portal : 
+Ljava/io/IOException;
+clientId
+	client_id
+If-None-Match
+Try to remove 
+ request from array 1
+ length
+http://
+https://
+parseInt
+\r\n\r\n
+VLLLLLL
+_fed_anon_name
+android_
+ Lcom/gameloft/android/wrapper/d;
+android_v2_
+0123456789
+Ljava/util/Random;
+nextInt
+FALSE
+<presence to='
+@conference.pegasus/
+*<x xmlns='http://jabber.org/protocol/muc'>
+<history maxchars='0'/></x>
+</presence>
+<message from='
+@pegasus' 
+$@pegasus' type='chat' xml:lang='en'>
+<body>
+</body></message>
+<message to='
+@conference.pegasus' 
+type='groupchat' xml:lang='en'>
+type='chat' xml:lang='en'>
+<iq to='
+ @conference.pegasus' type='set'>
+4<query xmlns='http://jabber.org/protocol/muc#owner'>
+<destroy jid='
+#@conference.pegasus'/></query></iq>
+)@conference.pegasus' type='unavailable'/>
+4<query xmlns='http://jabber.org/protocol/muc#admin'>
+ <item affiliation='member' jid='
+@pegasus'/>
+</query></iq>
+<item affiliation='none' jid='
+ @conference.pegasus' type='get'>
+)<item affiliation='member'/></query></iq>
+@conference.pegasus'>
+/<x xmlns='http://jabber.org/protocol/muc#user'>
+<invite to='
+@pegasus'/></x></message>
+<decline to='
+:<query xmlns='http://jabber.org/protocol/muc#owner'/></iq>
+<iq type='set' to='
+\<query xmlns='http://jabber.org/protocol/muc#owner'><x xmlns='jabber:x:data' type='submit'/>
+'<x xmlns='jabber:x:data' type='submit'>
+%<field type='hidden' var='FORM_TYPE'>
+@<value>http://jabber.org/protocol/muc#roomconfig</value></field>
+D<field var='muc#roomconfig_roomname'><value>ChatRoom</value></field>
+M<field var='muc#roomconfig_roomdesc'><value>This is Test room</value></field>
+C<field var='muc#roomconfig_persistentroom'><value>1</value></field>
+?<field var='muc#roomconfig_publicroom'><value>1</value></field>
+?<field var='muc#roomconfig_maxusers'><value>200</value></field>
+C<field var='muc#roomconfig_whois'><value>moderators</value></field>
+@<field var='muc#roomconfig_membersonly'><value>1</value></field>
+B<field var='muc#roomconfig_moderatedroom'><value>1</value></field>
+B<field var='muc#roomconfig_changesubject'><value>1</value></field>
+A<field var='muc#roomconfig_allowinvites'><value>0</value></field>
+G<field var='muc#roomconfig_allowvisitorstatus'><value>1</value></field>
+K<field var='muc#roomconfig_allowvisitornickchange'><value>0</value></field>
+</x></query></iq>
+<item nick='
+' role='none'/></query></iq>
+(<query xmlns='jabber:iq:register'/></iq>
+c<field var='FORM_TYPE' type='hidden'><value>http://jabber.org/protocol/muc#register</value></field>
+'<field var='muc#register_allow'><value>
+</value></field>
+<item affiliation='admin' jid='
+)@pegasus' xml:lang='en'><show>away</show>
+<status>
+	</status>
+!<priority>1</priority></presence>
+</stream:stream>
+configs
+users
+profile_name
+clusters_space
+clusters
+end_date
+start_date
+campaign_name
+	is_enable
+messages
+secured
+delete
+inbox
+msgids
+replace_label
+delay
+payload
+	multicast
+credentials
+	authorize
+password
+scope
+	device_id
+access_token_only
+for_username
+for_credential_type
+grant_type
+redirect_uri
+	if_exists
+unlink
+encrypt_token
+authenticate
+assets
+metadata
+override
+onlyThisClient
+coupons
+leaderboards
+offset
+limit
+friends
+connection_type
+replace_score_if
+display_name
+expiration_date
+expiration_duration
+visibility
+profiles
+	myprofile
+object
+	operation
+include_fields
+matchers
+matches
+accounts
+connections
+target_credential
+seconds_since_last_login
+online
+count
+requests
+request_type
+reject
+ignore
+language
+country
+status_line
+groups
+category
+membership
+member_limit
+keywords
+members
+import
+from_credential
+secret
+social_group
+GAME-PRODUCT-ID
+GAME-GGI
+MIDlet-Version
+GAME-PLATFORM
+	GAME-SHOP
+toHexString
+/datacenters
+VILLILL
+java.net.SocketTimeoutException
+java.io.IOException
+java.net.ConnectException
+<?xml version='1.0'?> <stream:stream to='pegasus' xml:lang='en' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams'>
+Online
+-<iq type='set'><query xmlns='jabber:iq:auth'>
+<username>
+</username>
+<password>
+</password>
+*<resource>resource</resource></query></iq>
+disconnect
+Failed
+Successful
+Federation timeout
+Ljava/lang/RuntimeException;
+reply_to
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/f;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/m;
+DEBUG
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/l;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bg;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/n;
+VLLLLLLL
+android
+	glot_gdid
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bj;
+VILII
++http://gdid.gameloft.com/assign_global_id/?
+&source=JavaGlot_
+&device_type=
+&device_version=
+&idfv=
+&idfa=
+&aid=
+&mac=
+&hdidfv=
+&imei=
+&udid=
++http://gdid.gameloft.com/update_device_id/?
+&global_device_id=
+Ljava/lang/Throwable;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/k;
+[Lb/a/c/e;
+3[[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ad;
+[[Lb/a/b/ad;
+	Lb/a/c/e;
+VIIII
+	Lb/a/c/c;
+VolumeControl
+	Lb/a/c/b;
+	Lb/a/c/a;
+Lb/a/c/a/b;
+TempoControl
+La/b/a/a/m;
+IIIIIZI
+	VIIIIIIII
+VILLLLIIII
+	VLIIIIIII
+VLIIIIIIIIIII
+IIIIZ
+VLIFFIII
+VIIIII
+getLevel
+RateControl
+Lb/a/c/a/a;
+ Landroid/graphics/Bitmap$Config;
+	ARGB_8888
+Landroid/graphics/Bitmap;
+createBitmap
+isAlive
+audio/x-wav
+nWARNING GLLibPlayer.Tileset_PrepareVBOData doesn't have effect on this platform. Works on Android_OGLES2 only.
+2[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ad;
+[Lb/a/b/ad;
+IIIII
+Ljava/lang/reflect/Array;
+newInstance
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/j;
+VIIIIIIIIIZ
+	VIILIIIII
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/q;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bn;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/an;
+reset
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/t;
+getSize
+no distance tree
+Invalid block.
+Unexpected EOF.
+Bad magic number
+Unsupported compression method
+Header CRC check failed.
+CRC check failed.
+Size mismatches.
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/p;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/az;
+getId
+userId
+Lb/a/b/ag;
+107334
+owner_approved
+107333
+member_approved
+107335
+level_up
+116482
+win_pvp
+116483
+win_mission
+level
+116140
+quest
+VIIIIIIIIII
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bq;
+VIIIIIIIIIIIII
+	VILLFIIII
+FLOAT:
+VILLLLIIIIII
+_null
+VLILIII
+deviceName
+android:
+1769:53933:1.0.2:android:shop
+printStackTrace
+TC_GLOT
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bo;
+build_finish
+army_ready
+building_upgrade_finish
+shield_over
+offline_promotion_notice
+out_of_game_3day
+out_of_game_7day
+out_of_game_14day
+invited_join_alliance
+be_attacked
+offline_lord_attack_notice
+request_soldier
+receive_soldier
+be_revenge
+TC_GLOT_LEADERBOARD
+	userAgent
+	Lb/a/a/c;
+setRequestMethod
+Connection
+setRequestProperty
+Content-Type
+application/json
+Content-Length
+Accept-Charset
+	Lb/a/a/i;
+flush
+getResponseCode
+getDate
+	Lb/a/a/h;
+yield
+Ljava/io/ByteArrayOutputStream;
+CONNECT TO SERVER: 
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/u;
+code not found
+Too many leaves: 
+Invalid symbol
+ILIIII
+Too many nodes: 
+Invalid tree
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/s;
+	elementAt
+setElementAt
+addElement
+ISO-8859-1
+Hestia encrypt config fail
+removeElementAt
+filesConfig
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/aq;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/as;
+isEmpty
+Ljava/lang/Long;
+	parseLong
+ Ljava/lang/InterruptedException;
+No Internet connection
+expiry
+$config invalid: missing expiry field
+Ljava/util/Calendar;
+getTime
+Ljava/util/TimeZone;
+getDefault
+getRawOffset
+VILLIL
+Could not init local data
+*OfflineItems failed to initialize, error: 
+TError getting a stored config, Offline Items will be using the default game config 
+	available
+>Error initializing OfflineItems with the default game config 
+&Error in read file default game config
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bh;
+default
+oiRefreshConfig
+setTime
+!application/x-www-form-urlencoded
+hashCode
+https
+VLLIL
+Ljava/net/URLConnection;
+openConnection
+setDoOutput
+DELETE
+Ljava/util/Enumeration;
+hasMoreElements
+nextElement
+HTTP:[
+]: Set header field 
+getOutputStream
+getResponseMessage
+Location
+getHeaderField
+removeAllElements
+getInputStream
+getContentLength
+IILIII
+VLIFFIL
+VLFFFFI
+VLFFFFII
+VLFFFFFF
+	VLFFFFIII
+VIIIL
+VLLIIIIIFFI
+VLIIFFI
+VLLIIIZ
+VLLLIIIIZZZ
+ZLIZZ
+VLIIIIZZ
+LERROR: _pMapCharInt and _pMapCharShort are null!!! Did you set the Char Map?
+VIIILIZ
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/b;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/af;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/c;
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/d;
+GLOT_
+GLOT_synchronizerCounter
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ap;
+Message saved ! Event cound: 
+	 message slot: 
+	Lb/a/e/b;
+Lcom/facebook/TestSession$Mode;
+ [Lcom/facebook/TestSession$Mode;
+PRIVATE
+SHARED
+0Lcom/gameloft/android/GAND/GloftTCMF/S800x480/e;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/au;
+	anonymous
+lastElement
+4Lcom/facebook/SharedPreferencesTokenCachingStrategy;
+DEFAULT_CACHE_KEY
+JSON_VALUE
+JSON_VALUE_ENUM_TYPE
+JSON_VALUE_TYPE
+TYPE_BOOLEAN
+TYPE_BOOLEAN_ARRAY
+	TYPE_BYTE
+TYPE_BYTE_ARRAY
+	TYPE_CHAR
+TYPE_CHAR_ARRAY
+TYPE_DOUBLE
+TYPE_DOUBLE_ARRAY
+	TYPE_ENUM
+TYPE_FLOAT
+TYPE_FLOAT_ARRAY
+TYPE_INTEGER
+TYPE_INTEGER_ARRAY
+	TYPE_LONG
+TYPE_LONG_ARRAY
+TYPE_SHORT
+TYPE_SHORT_ARRAY
+TYPE_STRING
+TYPE_STRING_LIST
+cache
+cacheKey
+getSimpleName
+context
+>com.facebook.SharedPreferencesTokenCachingStrategy.DEFAULT_KEY
+deserializeKey
+"Ljava/lang/ClassNotFoundException;
+	valueType
+getBoolean
+putBoolean
+bool[]
+getJSONArray
+putBooleanArray
+putByte
+byte[]
+putByteArray
+short
+putShort
+short[]
+putShortArray
+int[]
+putIntArray
+long[]
+putLongArray
+float
+	getDouble
+putFloat
+float[]
+putFloatArray
+double
+	putDouble
+double[]
+putDoubleArray
+putChar
+char[]
+putCharArray
+string
+stringList
+putStringArrayList
+enumType
+forName
+putSerializable
+serializeKey
+Ljava/lang/Byte;
+putOpt
+Ljava/lang/Short;
+	longValue
+doubleValue
+Ljava/lang/Character;
+getAll
+CACHE
+%Error reading cached value for key: '
+' -- 
+Lcom/facebook/internal/Logger;
+VLILL
+bundle
+!Error processing value for key: '
+4SharedPreferences.Editor.commit() was not successful
+Landroid/app/Dialog;
+setUpWebView
+!Landroid/annotation/SuppressLint;
+SetJavaScriptEnabled
+CANCEL_URI
+DEFAULT_THEME
+DISABLE_SSL_CHECK_FOR_TESTING
+DISPLAY_TOUCH
+LOG_TAG
+REDIRECT_URI
+USER_AGENT
+Landroid/widget/FrameLayout;
+contentFrameLayout
+Landroid/widget/ImageView;
+crossImageView
+isDetached
+listenerCalled
+onCompleteListener
+Landroid/app/ProgressDialog;
+spinner
+Landroid/webkit/WebView;
+webView
+VLLLIL
+display
+touch
+user_agent
+m.facebook.com
+dialog/
+buildUri
+sendCancelToListener
+sendSuccessToListener
+access$300
+sendErrorToListener
+access$400
+access$500
+access$600
+access$700
+access$800
+createCrossImage
+!Lcom/facebook/widget/WebDialog$3;
+#Landroid/view/View$OnClickListener;
+setOnClickListener
+Landroid/content/res/Resources;
+getResources
+$Landroid/graphics/drawable/Drawable;
+getDrawable
+setImageDrawable
+setVisibility
+1Lcom/facebook/FacebookOperationCanceledException;
+freeMemory
+onComplete
+Landroid/widget/LinearLayout;
+setVerticalScrollBarEnabled
+setHorizontalScrollBarEnabled
+3Lcom/facebook/widget/WebDialog$DialogWebViewClient;
+!Lcom/facebook/widget/WebDialog$1;
+Landroid/webkit/WebViewClient;
+setWebViewClient
+Landroid/webkit/WebSettings;
+getSettings
+setJavaScriptEnabled
+loadUrl
+)Landroid/widget/FrameLayout$LayoutParams;
+%Landroid/view/ViewGroup$LayoutParams;
+setLayoutParams
+setSavePassword
+setPadding
+Landroid/view/View;
+addView
+setFocusable
+setFocusableInTouchMode
+requestFocus
+requestFocusFromTouch
+dismiss
+stopLoading
+	isShowing
+clearCache
+clearSslPreferences
+clearAnimation
+clearDisappearingChildren
+clearFocus
+clearFormData
+clearHistory
+clearMatches
+getOnCompleteListener
+onAttachedToWindow
+2Landroid/content/DialogInterface$OnCancelListener;
+setOnCancelListener
+setCanceledOnTouchOutside
+requestWindowFeature
+Lcom/facebook/android/R$string;
+com_facebook_loading
+!Lcom/facebook/widget/WebDialog$2;
+getIntrinsicWidth
+addContentView
+onDetachedFromWindow
+fbconnect://cancel
+FacebookSDK.WebDialog
+fbconnect://success
+-Lcom/facebook/widget/SimpleGraphObjectCursor;
+'Lcom/facebook/widget/GraphObjectCursor;
+addGraphObjects
+,Lcom/facebook/widget/SimpleGraphObjectCursor
+Ljava/util/Collection
+	<TT;>;Z)V
+()TT;
+&Lcom/facebook/widget/GraphObjectCursor
+closed
+	fromCache
+moreObjectsAvailable
+areMoreObjectsAvailable
+getCount
+2Landroid/database/CursorIndexOutOfBoundsException;
+Before first object.
+After last object.
+getPosition
+isAfterLast
+isBeforeFirst
+isFirst
+isFromCache
+isLast
+moveToPosition
+moveToLast
+moveToNext
+moveToPrevious
+setFromCache
+setMoreObjectsAvailable
+$Lcom/facebook/internal/package-info;
+Ljava/util/AbstractList;
+	callbacks
+$Lcom/facebook/RequestBatch$Callback;
+executeAndWaitImpl
+getCallbacks
+getRequests
+Ljava/util/AbstractList
++Ljava/util/concurrent/atomic/AtomicInteger;
+idGenerator
+batchApplicationId
+callbackHandler
+timeoutInMilliseconds
+incrementAndGet
+executeBatchAndWait
+executeAsync
+executeAsyncImpl
+executeBatchAsync
+getBatchApplicationId
+getCallbackHandler
+getTimeout
+setBatchApplicationId
+setCallbackHandler
+setTimeout
+,Argument timeoutInMilliseconds must be >= 0.
+Lcom/facebook/NativeProtocol;
+createLoginDialog20121101Intent
+createProxyAuthIntent
+ensureDefaultPermissions
+ACTION_LOGIN_DIALOG
+ACTION_LOGIN_DIALOG_REPLY
+AUDIENCE_EVERYONE
+AUDIENCE_FRIENDS
+AUDIENCE_ME
+BASIC_INFO
+ERROR_APPLICATION_ERROR
+ERROR_NETWORK_ERROR
+ERROR_PERMISSION_DENIED
+ERROR_PROTOCOL_ERROR
+ERROR_SERVICE_DISABLED
+ERROR_UNKNOWN_ERROR
+ERROR_USER_CANCELED
+EXTRA_ACCESS_TOKEN
+EXTRA_APPLICATION_ID
+!EXTRA_EXPIRES_SECONDS_SINCE_EPOCH
+EXTRA_PERMISSIONS
+EXTRA_PROTOCOL_ACTION
+EXTRA_PROTOCOL_VERSION
+EXTRA_WRITE_PRIVACY
+INTENT_ACTION_PLATFORM_ACTIVITY
+INTENT_ACTION_PLATFORM_SERVICE
+KATANA_PACKAGE
+KATANA_PROXY_AUTH_ACTIVITY
+KATANA_PROXY_AUTH_APP_ID_KEY
+!KATANA_PROXY_AUTH_PERMISSIONS_KEY
+KATANA_SIGNATURE
+KATANA_TOKEN_REFRESH_ACTIVITY
+MESSAGE_GET_ACCESS_TOKEN_REPLY
+ MESSAGE_GET_ACCESS_TOKEN_REQUEST
+PROTOCOL_VERSION_20121101
+STATUS_ERROR_CODE
+STATUS_ERROR_DESCRIPTION
+STATUS_ERROR_JSON
+STATUS_ERROR_SUBCODE
+STATUS_ERROR_TYPE
+'com.facebook.platform.PLATFORM_ACTIVITY
+	setAction
+android.intent.category.DEFAULT
+addCategory
+/com.facebook.platform.protocol.PROTOCOL_VERSION
+putExtra
+.com.facebook.platform.protocol.PROTOCOL_ACTION
+1com.facebook.platform.action.request.LOGIN_DIALOG
+*com.facebook.platform.extra.APPLICATION_ID
+'com.facebook.platform.extra.PERMISSIONS
+putStringArrayListExtra
+)com.facebook.platform.extra.WRITE_PRIVACY
+ensureDefaultAudience
+validateKatanaActivityIntent
+com.facebook.katana
+com.facebook.katana.ProxyAuth
+setClassName
+createTokenRefreshIntent
+0com.facebook.katana.platform.TokenRefreshService
+validateKatanaServiceIntent
+isPublishPermission
+ Lcom/facebook/AccessTokenSource;
+getAccessTokenSourceFromNative
+FACEBOOK_APPLICATION_NATIVE
+FACEBOOK_APPLICATION_WEB
+isServiceDisabledResult20121101
+getIntExtra
+'com.facebook.platform.status.ERROR_TYPE
+getStringExtra
+ServiceDisabled
+ Landroid/content/pm/ResolveInfo;
+resolveActivity
+!Landroid/content/pm/ActivityInfo;
+activityInfo
+packageName
+validateSignature
+resolveService
+ Landroid/content/pm/ServiceInfo;
+serviceInfo
+toCharsString
+	30820268308201d102044a9c4610300d06092a864886f70d0101040500307a310b3009060355040613025553310b3009060355040813024341311230100603550407130950616c6f20416c746f31183016060355040a130f46616365626f6f6b204d6f62696c653111300f060355040b130846616365626f6f6b311d301b0603550403131446616365626f6f6b20436f72706f726174696f6e3020170d3039303833313231353231365a180f32303530303932353231353231365a307a310b3009060355040613025553310b3009060355040813024341311230100603550407130950616c6f20416c746f31183016060355040a130f46616365626f6f6b204d6f62696c653111300f060355040b130846616365626f6f6b311d301b0603550403131446616365626f6f6b20436f72706f726174696f6e30819f300d06092a864886f70d010101050003818d0030818902818100c207d51df8eb8c97d93ba0c8c1002c928fab00dc1b42fca5e66e99cc3023ed2d214d822bc59e8e35ddcf5f44c7ae8ade50d7e0c434f500e6c131f4a2834f987fc46406115de2018ebbb0d5a3c261bd97581ccfef76afc7135a6d59e8855ecd7eacc8f8737e794c60a761c536b72b11fac8e603f5da1a2d54aa103b8a13c0dbc10203010001300d06092a864886f70d0101040500038181005ee9be8bcbb250648d3b741290a82a1c9dc2e76a0af2f2228f1d9f9c4007529c446a70175c5a900d5141812866db46be6559e2141616483998211f4a673149fb2232a10d247663b26a9031e15f84bc1c74d141ff98a02d76f85b2c8ab2571b6469b232d8e768a7f7ca04f7abe4a775615916c07940656b58717457b42bd928a2
+/com.facebook.platform.action.reply.LOGIN_DIALOG
+ApplicationError
+NetworkError
+PermissionDenied
+ProtocolError
+UnknownError
+UserCanceled
+(com.facebook.platform.extra.ACCESS_TOKEN
+7com.facebook.platform.extra.EXPIRES_SECONDS_SINCE_EPOCH
+&com.facebook.platform.PLATFORM_SERVICE
+'com.facebook.platform.status.ERROR_CODE
+.com.facebook.platform.status.ERROR_DESCRIPTION
+'com.facebook.platform.status.ERROR_JSON
+*com.facebook.platform.status.ERROR_SUBCODE
+%Lcom/google/android/gcm/GCMConstants;
+$Lcom/gameloft/android2d/iap/utils/s;
+Lcom/gameloft/android2d/iap/a;
+abcd?a123456789
+$Lcom/gameloft/android2d/iap/utils/r;
+$Lcom/gameloft/android2d/iap/utils/d;
+$Lcom/gameloft/android2d/iap/utils/f;
+IAP-XPlayer
+(sendHTTPVerificationGoogleBillingRequest
+b=contentpurchase
+<https://secure.gameloft.com/freemium/wapbilling/validate.php
+#sendFreemiumLimitsValidationRequest
+b=validatelimits
+VLLLLLLLLLLLL
+sendUMPTransactionRequest
+game=
+	&content=
+&price=
+&money=
+&ggi=
+	&gliveid=
+&umpversion=
+&timestamp=
+&sign=
+VLLLLLLLLLLLLLLL
+&cardnumber=
+	&cardpwd=
+&cardmoney=
+&cardtype=
+%Ljava/lang/IndexOutOfBoundsException;
+*SendManagedContentItemPurchasedRequest ...
+UserName
+Lcom/gameloft/android2d/iap/b;
+&acnum
+sendTimeStampPurchaseRequest
+&network_country_ISO=
+getNetworkCountryIso
+&network_operator=
+getNetworkOperator
+&network_operator_name=
+getNetworkOperatorName
+&sim_country_iso=
+getSimCountryIso
+&sim_operator=
+getSimOperator
+&sim_operator_name=
+getSimOperatorName
+&line_number=
+&is_network_roaming=
+&android_build_device=
+&android_build_model=
+&supportswap=1&game_version=
+&lang=
+getLanguage
+&supportscc=
+&supports_wapother=
+&supports_paypal=
+&supports_amazonpay=
+&supportsoem=
+&supports_sms=0
+&supports_http=0
+&supports_ump=
+&supports_shenzhoufu=
+&show_2d_tier=
+USE_IAP_GL_SHOP
+&supports_ccprices=
+&v=1.2
+sendGetHKServicesNameRequest
+sendHTTPPurchaseRequest
+	&phoneId=
+sendUMPBillingCheckRequest
+transactionid=
+handleGetHKServicesNameRequest
+optJSONArray
+Services: 
+%handleFreemiumLimitsValidationRequest
+,handleManagedContentItemPurchasedRequest ...
+handleTimeStampPurchaseRequest
+handleTimeStampPurchaseRequest:
+$Lcom/gameloft/android2d/iap/utils/a;
+handleProfileRequest()
+(Value for response on whttp.m_response =
+!Ljava/lang/NumberFormatException;
+handleHTTPPurchaseRequest
+FAILURE
+handleUMPTransactionRequest
+$handleUMPBillingCheckPurchaseRequest
+"handleShenzhoufuTransactionRequest
+$handleHTTPVerificationBillingRequest
+$Lcom/gameloft/android2d/iap/utils/q;
+$Lcom/gameloft/android2d/iap/utils/j;
+IAP-ShopProfile
+"[sortPricepointIds] number of CASH
+"[sortPricepointIds] number of COIN
+[isValidType] itemType 
+equalsIgnoreCase
+-****************ShopProfile*****************
+Country Id: '
+Operator Id: '
+Platform Id: '
+Product Id: '
+	Lan Id: '
+----------------------List Type: '
+'---------------------------
+elements
+La/b/a/a/e;
+(Lcom/facebook/widget/GraphObjectAdapter;
+adapter
+extraFields
+filter
+graphObjectClass
+4Lcom/facebook/widget/PickerFragment$LoadingStrategy;
+loadingStrategy
+6Lcom/facebook/widget/PickerFragment$SelectionStrategy;
+selectionStrategy
+'Lcom/facebook/widget/GraphObjectAdapter
+5Lcom/facebook/widget/PickerFragment$GraphObjectFilter
+<TT;>.
+LoadingStrategy;
+<TT;>.SelectionStrategy;
+:Lcom/facebook/widget/PickerFragment$PickerFragmentAdapter;
+createAdapter
+createLoadingStrategy
+createSelectionStrategy
+filterIncludesItem
+getExtraFields
+	getFilter
+getSelectedGraphObjects
+setExtraFields
+	setFilter
+setSelectionStrategy
+updateAdapter
+<TT;>;I
+!<TT;>.PickerFragmentAdapter<TT;>;
+<TT;>.SelectionStrategy;)V
+ACTIVITY_CIRCLE_SHOW_KEY
+DONE_BUTTON_TEXT_BUNDLE_KEY
+EXTRA_FIELDS_BUNDLE_KEY
+PROFILE_PICTURE_PREFETCH_BUFFER
+SELECTION_BUNDLE_KEY
+SHOW_PICTURES_BUNDLE_KEY
+SHOW_TITLE_BAR_BUNDLE_KEY
+TITLE_TEXT_BUNDLE_KEY
+Landroid/widget/ProgressBar;
+activityCircle
+Landroid/widget/Button;
+doneButton
+doneButtonBackground
+doneButtonText
+layout
+Landroid/widget/ListView;
+listView
+:Lcom/facebook/widget/PickerFragment$OnDataChangedListener;
+onDataChangedListener
+@Lcom/facebook/widget/PickerFragment$OnDoneButtonClickedListener;
+onDoneButtonClickedListener
+4Lcom/facebook/widget/PickerFragment$OnErrorListener;
+-Landroid/widget/AbsListView$OnScrollListener;
+onScrollListener
+onSelectionChangedListener
+&Lcom/facebook/internal/SessionTracker;
+sessionTracker
+showPictures
+showTitleBar
+titleBarBackground
+	titleText
+Landroid/widget/TextView;
+titleTextView
+&Lcom/facebook/widget/PickerFragment$6;
+#setPickerFragmentSettingsFromBundle
+VLLLI
+onListItemClick
+clearResults
+reprioritizeDownloads
+notifyDataSetChanged
+onDataChanged
+Landroid/view/ViewGroup;
+inflateTitleBar
+Lcom/facebook/android/R$id;
+"com_facebook_picker_title_bar_stub
+findViewById
+Landroid/view/ViewStub;
+inflate
+,Landroid/widget/RelativeLayout$LayoutParams;
+com_facebook_picker_title_bar
+addRule
+setBackgroundDrawable
+com_facebook_picker_done_button
+&Lcom/facebook/widget/PickerFragment$5;
+getDoneButtonText
+setText
+com_facebook_picker_title
+getTitleText
+!loadDataSkippingRoundTripIfCached
+getSession
+getRequestForLoadData
+onLoadingData
+getItemAtPosition
+getIdOfGraphObject
+toggleSelection
+getLastVisiblePosition
+getFirstVisiblePosition
+prioritizeViewRange
+setAlpha
+'Landroid/view/animation/AlphaAnimation;
+setDuration
+setFillAfter
+"Landroid/view/animation/Animation;
+startAnimation
+/com.facebook.widget.PickerFragment.ShowPictures
+.com.facebook.widget.PickerFragment.ExtraFields
+/com.facebook.widget.PickerFragment.ShowTitleBar
+,com.facebook.widget.PickerFragment.TitleText
+1com.facebook.widget.PickerFragment.DoneButtonText
+displayActivityCircle
+layoutActivityCircle
+getDefaultDoneButtonText
+$com_facebook_picker_done_button_text
+getDefaultTitleText
+getOnDataChangedListener
+getOnDoneButtonClickedListener
+getOnSelectionChangedListener
+getSelectedIds
+getGraphObjectsById
+getShowPictures
+getShowTitleBar
+hideActivityCircle
+loadData
+isDataPresentOrLoading
+onActivityCreated
+La/b/a/a/i;
+&Lcom/facebook/widget/PickerFragment$4;
+setSettingsFromBundle
+attach
+-com.facebook.android.PickerFragment.Selection
+readSelectionFromBundle
+getView
+7com.facebook.android.PickerFragment.ActivityCircleShown
+&Lcom/facebook/widget/PickerFragment$1;
+/Lcom/facebook/widget/GraphObjectAdapter$Filter;
+Landroid/view/LayoutInflater;
+onCreateView
+com_facebook_picker_list_view
+&Lcom/facebook/widget/PickerFragment$2;
+0Landroid/widget/AdapterView$OnItemClickListener;
+setOnItemClickListener
+&Lcom/facebook/widget/PickerFragment$3;
+'Landroid/view/View$OnLongClickListener;
+setOnLongClickListener
+setOnScrollListener
+Landroid/widget/ListAdapter;
+setAdapter
+#com_facebook_picker_activity_circle
+onDetach
+detach
+stopTracking
+Landroid/util/AttributeSet;
+	onInflate
+"Lcom/facebook/android/R$styleable;
+com_facebook_picker_fragment
+ Landroid/content/res/TypedArray;
+obtainStyledAttributes
+setShowPictures
+recycle
+saveSettingsToBundle
+saveSelectionToBundle
+getVisibility
+setArguments
+setDoneButtonText
+setOnDataChangedListener
+setOnDoneButtonClickedListener
+setOnSelectionChangedListener
+setSession
+setShowTitleBar
+setTitleText
+getChildAt
+7Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem;
+getSectionAndItem
+<Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem$Type;
+ACTIVITY_CIRCLE
+getTop
+changeCursor
+sectionKey
+graphObject
+setSelectionFromTop
+onError
+!Lcom/facebook/android/Facebook$1;
+Lcom/facebook/android/Facebook;
+.Lcom/facebook/android/Facebook$DialogListener;
+val$listener
+$Lcom/gameloft/android2d/iap/utils/c;
+$assertionsDisabled
+desiredAssertionStatus
+ 0123456789ABCDEFGHJKMNPQRSTVWXYZ
+Ljava/lang/AssertionError;
+%Lcom/facebook/model/GraphMultiResult;
+Landroid/net/wifi/WifiManager;
+hdidfv
+HDIDFV
+getUserAgent
+$Lcom/gameloft/android2d/iap/utils/o;
+isConnected
+getWifiState
+setWifiEnabled
+getNetworkInfo
+IAP-Device
+Phone Data Connection READY!!!
+$Phone Data Connection HANDSHAKING!!!
+phone
+$Landroid/telephony/TelephonyManager;
+getSimState
+SIM_ERROR_UNKNOWN
+getLine1Number
+isNetworkRoaming
+getISO3Language
+compareToIgnoreCase
+Landroid/os/Environment;
+getExternalStorageState
+removed
+	unmounted
+bad_removal
+$Lcom/gameloft/android2d/iap/utils/e;
+runOnUiThread
+InitDeviceValues END!!! 
+SIM_ABSENT
+SIM_PUK_REQUIRED
+SIM_PIN_REQUIRED
+getExternalStorageDirectory
+	.gameloft
+mkdirs
+GL_EMU_001
+Landroid/os/Build;
+MODEL
+DEVICE
+$Lcom/gameloft/android2d/iap/utils/b;
+Ljava/util/TimerTask;
+Ljava/util/Timer;
+schedule
+$Lcom/gameloft/android2d/iap/utils/g;
+ Ljavax/net/ssl/HostnameVerifier;
+Ljavax/net/ssl/SSLSession;
+verify
+$Lcom/gameloft/android2d/iap/utils/h;
+ Ljavax/net/ssl/X509TrustManager;
+%[Ljava/security/cert/X509Certificate;
+checkClientTrusted
+checkServerTrusted
+getAcceptedIssuers
+getUserAgentString
+ Lorg/apache/http/HttpConnection;
+"Ljavax/net/ssl/HttpsURLConnection;
+Ljavax/net/ssl/SSLContext;
+[Ljavax/net/ssl/TrustManager;
+Ljava/security/SecureRandom;
+[Ljavax/net/ssl/KeyManager;
+ Ljavax/net/ssl/SSLSocketFactory;
+getSocketFactory
+setDefaultSSLSocketFactory
+setDefaultHostnameVerifier
+IAP-HTTP
+1Exception Occurred on HTTP Constructor Method!!! 
+Ljava/io/BufferedReader;
+Ljava/io/InputStreamReader;
+Ljava/io/Reader;
+readLine
+Ljava/net/SocketException;
+Ljava/net/UnknownHostException;
+ ********* NORMAL HTTP **********
+HTTP: run:connecting to [
+http.keepAlive
+false
+HTTP: Proxy Enabled: 
+HTTP: Proxy server: 
+HTTP: Proxy port:   
+Ljava/net/InetAddress;
+	getByName
+Ljava/net/InetSocketAddress;
+Ljava/net/Proxy;
+Ljava/net/Proxy$Type;
+Ljava/net/SocketAddress;
+'***** HTTP Warning: hardCode UserAgent 
+User-Agent
+x-android-os-build-model
+***** HTTP Warning: Adding 
+ to http headers
+x-up-gl-subno
+$***** HTTP Warning: x-up-gl-subno = 
+x-up-gl-imei
+#***** HTTP Warning: x-up-gl-imei = 
+x-up-gl-hdidfv
+%***** HTTP Warning: x-up-gl-hdidfv = 
+x-gl-d
+"***** HTTP WIFI Warning: x-gl-d = 
+x-up-calling-line-id
+0***** HTTP WIFI Warning: x-up-calling-line-id = 
+x-up-gl-msisdn
+****** HTTP WIFI Warning: x-up-gl-msisdn = 
+x-up-gl-acnum
+)***** HTTP WIFI Warning: x-up-gl-acnum = 
+x-up-gl-sim-operator
+0***** HTTP WIFI Warning: x-up-gl-sim-operator = 
+x-up-gl-sim-operator-name
+5***** HTTP WIFI Warning: x-up-gl-sim-operator-name = 
+x-up-gl-sim-country-iso
+3***** HTTP WIFI Warning: x-up-gl-sim-country-iso = 
+x-up-gl-network-operator
+4***** HTTP WIFI Warning: x-up-gl-network-operator = 
+x-up-gl-network-operator-name
+9***** HTTP WIFI Warning: x-up-gl-network-operator-name = 
+x-up-gl-network-country-iso
+7***** HTTP WIFI Warning: x-up-gl-network-country-iso = 
+x-up-gl-is-network-roaming
+6***** HTTP WIFI Warning: x-up-gl-is-network-roaming = 
+!***** HTTP WIFI Warning: time = 1
+x-up-gl-ggi
+(***** HTTP WIFI Warning: x-up-gl-ggi = 0
+x-up-gl-purchaseid
+"Lcom/gameloft/android2d/iap/a/g/f;
+.***** HTTP WIFI Warning: x-up-gl-purchaseid = 
+HTTP: run: receive
+HTTP RESPONSE CODE RECEIVED = 
+getErrorStream
+HTTP: run: SocketException : 
+&***** HTTP Info: use device UserAgent 
+"HTTP: run: UnknownHostException : 
+HTTP: run: exception : 
+HTTP: run: received [
+HTTP: run: total bytes read: [
+"********* SECURED HTTPS **********
+HTTPS: run:connecting to [
+HTTPS: Proxy Enabled: 
+HTTPS: Proxy server: 
+HTTPS: Proxy port:   
+(***** HTTPS Warning: hardCode UserAgent 
+***** HTTPS Warning: Adding 
+%***** HTTPS Warning: x-up-gl-subno = 
+$***** HTTPS Warning: x-up-gl-imei = 
+&***** HTTPS Warning: x-up-gl-hdidfv = 
+#***** HTTPS WIFI Warning: x-gl-d = 
+1***** HTTPS WIFI Warning: x-up-calling-line-id = 
++***** HTTPS WIFI Warning: x-up-gl-msisdn = 
+****** HTTPS WIFI Warning: x-up-gl-acnum = 
+1***** HTTPS WIFI Warning: x-up-gl-sim-operator = 
+6***** HTTPS WIFI Warning: x-up-gl-sim-operator-name = 
+4***** HTTPS WIFI Warning: x-up-gl-sim-country-iso = 
+5***** HTTPS WIFI Warning: x-up-gl-network-operator = 
+:***** HTTPS WIFI Warning: x-up-gl-network-operator-name = 
+8***** HTTPS WIFI Warning: x-up-gl-network-country-iso = 
+7***** HTTPS WIFI Warning: x-up-gl-is-network-roaming = 
+"***** HTTPS WIFI Warning: time = 1
+)***** HTTPS WIFI Warning: x-up-gl-ggi = 0
+/***** HTTPS WIFI Warning: x-up-gl-purchaseid = 
+HTTPS: run: receive
+HTTPS RESPONSE CODE RECEIVED = 
+HTTPS: run: SocketException : 
+#HTTPS: run: UnknownHostException : 
+'***** HTTPS Info: use device UserAgent 
+HTTPS: run: exception : 
+HTTPS: run: total bytes read: [
+-HTTPS: run: received ######################[
+] end feed.#################
+TextHtml
+texthtml
+TEXTHTML
+&texthtml=1
+	TextPlain
+	textplain
+	TEXTPLAIN
+&textplain=1
+$Lcom/gameloft/android2d/iap/utils/k;
+#Ljavax/crypto/spec/IvParameterSpec;
+%Ljavax/crypto/NoSuchPaddingException;
+1234567890123456
+ f4793993b3a438151ce9d18513606421
+AES/CBC/NoPadding
+Empty string
++Ljava/security/spec/AlgorithmParameterSpec;
+[encrypt] 
+getMessage
+Lcom/a/a/a/ae;
+Lcom/a/a/a/aa;
+Lcom/a/a/a/e;
+Lcom/a/a/a/d;
+$Lcom/gameloft/android2d/iap/utils/l;
+,Lcom/gameloft/android2d/iap/utils/MyWebView;
+getUrl
+PURCHASE_ID_
+findAll
+result=successful&id=
+&error=
+?error=
+IAP-WebView
+5The MAGIC_WORD is found. So the webview should finish
+ Lcom/gameloft/android2d/iap/a/a;
+handleWebView: 
+	setResult
+$Lcom/gameloft/android2d/iap/utils/i;
+$Lorg/xml/sax/helpers/DefaultHandler;
+characters
+endElement
+operator
+IAP-IABXMLParser
+parser err 
+product
+platform
+promo_description
+promo_endtime
+server_time
+limits_validation_url
+	flow_type
+	shop_info
+billing
+shenzhoufu_billing
+shenzhoufu_get_billing_result
+msg_shenzhoufu_notice
+	shortcode
+shortcode1
+shortcode2
+alias
+ump_get_transid
+ump_get_billing_result
+msg_psms_notice_1
+msg_psms_notice_2
+price
+currency
+formatted_price
+samsung_item_id
+group_id
+money
+is_3g_only
+setProfileId
+proxy
+price_point
+billing_list
+content
+[add item] key = 
+, managed value = 
+	[addItem]
+	attribute
+billing_type_pref
+content_list
+offline_item
+Lorg/xml/sax/Attributes;
+startElement
+later
+setId
+offline_items_bonus
+purchase_confirm
+purchase_confirm_above_buttons
+purchase_confirm_below_buttons
+hint_wp8
+send_sms_wp8
+phone_account_notification_wp8
+confirm_wp8
+back_wp8
+Ljava/lang/Comparable;
+Ljava/lang/Comparable
+parseFloat
+toArray
+amount
+old_amount
+old_formatted_price
+******Item********
+Id: '
+	' Type: '
+' Type_pref: '
+Name: 
+-----Billing-------
+image
+tracking_uid
+managed
+computeCountDownTime Error : 
+IAP-SUtils
+Failed to Load Image data: 
+$Load Item Image from local storage: 
+Item NULL: 
+  Type: 
+ZLLLL
+setConnectTimeout
+remoteUrl: 
+HTTP response: 
+Error when getting Image: 
+*File already exist, no need to re-download
+$Exception when download Image Item: 
+, Exception: 
+Ljava/io/DataInputStream;
+	readFully
+markSupported
+Reset data input stream
+replace
+yyyy-MM-dd HH:mm:ss
+Ljava/math/BigInteger;
+SHA-256
+/getContext currentContext NOT PREVIOUSLY SET!!!
+setContext
+Set context
+versionName
+	Using3G: 
+UsingWIFI: 
+mounted
+Landroid/os/Build$VERSION;
+SDK_INT
+getExternalFilesDir
+/IAPImages
+isDirectory
+getDownloadCacheDirectory
+"Exception when download Image Item
+!External Storage is not available
+,:::::::: Image Item downloaded successful...
+ Exception when Load Image data: 
+	serialkey
+getIdentifier
+openRawResource
+Ljava/nio/charset/Charset;
+$Lcom/gameloft/android2d/iap/utils/p;
+$Ljavax/xml/parsers/SAXParserFactory;
+Ljavax/xml/parsers/SAXParser;
+Lorg/xml/sax/XMLReader;
+newSAXParser
+getXMLReader
+Lorg/xml/sax/ContentHandler;
+setContentHandler
+InAppBilling
+XML Server Parsing Exception = 
+8http://iap.gameloft.com/freemium/fm_profiles_shop_2d.php
+IAP-ServerInfo
+[getUpdateProfileInfo] url = 
+([sendProfileRequest]Waiting for response
+Lorg/xml/sax/InputSource;
+Load Items Image OK...
+parseXML Parsing Exception = 
+LoadImageData failed...
+downloadImageItems failed...
+Lcom/a/a/a/ab;
+Lcom/a/a/a/g;
+Ljava/util/HashMap;
+Lcom/a/a/a/z;
+Lcom/a/a/a/ad;
+Lcom/a/a/a/q;
+Lcom/a/a/a/ac;
+$Lcom/gameloft/android2d/iap/utils/m;
+MyWebViewClient
+onLoadResource
+onLoadResource: 
+onPageFinished
+onPageFinished: 
+onPageStarted
+onPageStarted: 
+setProgressStyle
+onReceivedError
+onReceivedError: 
+errorCode: 
+description: 
+ Landroid/webkit/SslErrorHandler;
+	La/a/a/a;
+onReceivedSslError
+proceed
+shouldOverrideUrlLoading
+shouldOverrideUrlLoading: 
+&In App Purchasing SDK - Sandbox Mode: 
+$Lcom/gameloft/android2d/iap/utils/n;
+000000
+toBinaryString
+IGP_CODE
+IAP-SMSUtils
+binaryData 
+000001
+GENERATED_CODE
+000010
+PLATFORM_ID
+000011
+PROFILE_ID
+000100
+LANGUAGE_ID
+000101
+000110
+010001
+010010
+IMEI_VR
+010011
+MEID_VR
+010100
+MEID_36_VR
+000111
+DOWNLOAD_CODE
+001000
+	FM_SMS_ID
+001001
+001010
+001011
+001100
+010000
+CONTENT_ID
+001110
+CONTENT_AMOUNT
+001111
+SMSMO_COUNTER
+Operation not found 
+Error with operation 
+ data=
+binary 
+length are not equal
+Billing
+Input byte:        
+isDigit
+MyApp
+IMEI_15
+^[\da-fA-F]+$
+MEID_14
+SandboxRequestHandler
+sendGetUserIdRequest
+	requestId
+Lcom/a/a/a/t;
+	userInput
+#com.amazon.testclient.iap.appUserId
+addFlags
+	putExtras
+Landroid/content/ComponentName;
+startService
+Error in sendGetUserIdRequest.
+sendPurchaseRequest
+purchaseInput
+"com.amazon.testclient.iap.purchase
+Error in sendPurchaseRequest.
+onCompleted
+Facebook: POST ACTION OBJECT : 
+$Facebook: POST USER ARCHIEVEMENTS : 
+Facebook: POST SCORES : 
+$Lcom/gameloft/android2d/iap/a/d/a/a;
+ILILIL
+$Lcom/gameloft/android2d/iap/a/d/a/b;
+(invalid padding byte '=' at byte offset 
+@padding byte '=' falsely signals end of encoded value at offset 
+'encoded value has invalid trailing byte
+Bad Base64 input character at 
+	(decimal)
+$single trailing character at offset 
+(Lcom/gameloft/android2d/socialnetwork/t;
+(Lcom/gameloft/android2d/socialnetwork/p;
+Facebook: login status 
+ exception:
+)Lcom/gameloft/android2d/socialnetwork/ag;
+$$SwitchMap$com$facebook$SessionState
+ordinal
+OPENING
+'Lcom/gameloft/android/GAND/GloftTCMF/a;
+OPENED
+CLOSE_DIALOG
+CLOSED_LOGIN_FAILED
+CLOSED
+(Lcom/gameloft/android2d/socialnetwork/r;
+)Lcom/gameloft/android2d/socialnetwork/aq;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ce;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/cc;
+load_my_profile
+save_my_profile
+VLZLL
+Warning: etag not found for 
+Load selector from server: 
+cTCQProfile<
+> did not inited
+ please wait the last save return
+coins
+_inventory
+_sh_b
+_sh_e
+_so_m
+_ar_s
+_ar_t
+_ar_pt
+Caesar
+_name
+_fb_s
+_ch_l
+_on_s
+_wr_t
+_b_id
+_scdt
+_frad
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bv;
+(Lcom/gameloft/android2d/socialnetwork/s;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/cf;
+(Lcom/gameloft/android2d/socialnetwork/q;
+/index.php
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/by;
+__module
+__controller
+profile
+__action
+credential_type
+credential_name
+force_init
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bw;
+beginFightByRandom
+opponent_credential_type
+opponent_credential_name
+VILLLL
+beginFightByLeIn
+ch_level
+integration
+selector
+value or selector empty
+saveFightResult
+addMult
+_add_selector_array
+endFight
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/cd;
+400000
+1500000
+2500000
+4000000
+10000000
+50000000
+80000000
+	150000000
+	250000000
+(Lcom/gameloft/android2d/socialnetwork/n;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ca;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/cb;
+VLLLLLLLLLLLLL
+osiris
+createGroup
+UcredentialType, credentialName, groupName, groupCategory, entryScore mustn't be null.
+listRequest
+/credentialType, credentialName mustn't be null.
+)[Lcom/gameloft/android2d/socialnetwork/m;
+idstr
+screen_name
+profile_image_url
+getFirstName
+getLastName
+Facebook: create ID
+openStream
+Weibo: getPhoto error: 
+(Lcom/gameloft/android2d/socialnetwork/m;
+(Lcom/gameloft/android2d/socialnetwork/j;
+(Lcom/gameloft/android2d/socialnetwork/k;
+(Lcom/gameloft/android2d/socialnetwork/e;
+'Lcom/gameloft/android2d/socialnetwork/e
+%Received callback for unknown loader.
+(Lcom/gameloft/android2d/socialnetwork/i;
+	val$batch
+(Lcom/gameloft/android2d/socialnetwork/h;
+(Lcom/gameloft/android2d/socialnetwork/g;
+(Lcom/gameloft/android2d/socialnetwork/f;
+Landroid/os/Looper;
+prepare
+$Facebook: next page addResults error
+addResults
+(Lcom/facebook/widget/ImageResponseCache;
+$Lcom/facebook/internal/FileLruCache;
+imageCache
+getCache
++Lcom/facebook/internal/FileLruCache$Limits;
+getCachedImageStream
+isCDNURL
+interceptAndCacheImageStream
+getURL
+@Lcom/facebook/widget/ImageResponseCache$BufferedHttpInputStream;
+interceptAndPut
+getHost
+	fbcdn.net
+fbcdn
+akamaihd.net
+'Lcom/gameloft/android2d/socialnetwork/k
+appendResults
+currentRequest
+loading
+nextRequest
+originalRequest
+skipRoundtripIfCached
+getRequest
+?GraphObjectPagingLoader received neither a result nor an error.
+Facebook: exception:
+getException
+Facebook: no friends 
+putRequestIntoBatch
+setForceRoundTrip
+{"data":[],
+	{"data":[
+setInnerJSONObject
+Facebook: pieces error 
+],"paging":
+lastIndexOf
+getGraphObjectAs
+getIsFromCache
+castToListOf
+'Lcom/facebook/Response$PagingDirection;
+getRequestForPagedResults
+Facebook: 
+Facebook: response error 
+followNextLink
+postDelayed
+(Lcom/gameloft/android2d/socialnetwork/c;
+(Lcom/gameloft/android2d/socialnetwork/b;
+ZLIIZ
+US-ASCII
+6Lcom/gameloft/android/GAND/GloftTCMF/GCMIntentService;
+-Lcom/google/android/gcm/GCMBaseIntentService;
+Ljava/util/Vector
+108176907654
+pn_online_enable
+title
+receive
+body_loc
+	title_loc
+UserID
+anonymous:
+RandomUserID
+	friend_id
+PN_TEMPLATE_
+%Lcom/google/android/gcm/GCMRegistrar;
+-Lcom/facebook/widget/GraphObjectPagingLoader;
+loader
+,Lcom/facebook/widget/GraphObjectPagingLoader
+onCreateLoader
+onLoadFinished
+onLoadReset
+onStartLoading
+CACHED_RESULT_REFRESH_DELAY
+La/b/a/a/t;
+getLoaderManager
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$1;
+La/b/a/b/a;
+La/b/a/a/u;
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$2;
+=Lcom/facebook/widget/GraphObjectPagingLoader$OnErrorListener;
+	getCursor
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$3;
+8Lcom/facebook/widget/GraphObjectAdapter$OnErrorListener;
+;Lcom/facebook/widget/GraphObjectAdapter$DataNeededListener;
+setDataNeededListener
+	isLoading
+stdUpdateProfile
+gllive:myuser
+created
+2012-01-10 13:37:17Z
+modified
+last_session
+total_spent
+total_spent_currency
+last_purchase
+fsdfsfd
+fasdfsdf
+2[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/am;
+model
+Samsung_GT-I9000
+carrier
+WIFI Country Operation
+creditcard
+valid_stores
+download_code
+12312313
+devices
+total_playtime
+	inventory
+merge
+stdMergeProfile
+stdSetProfileField
+stdRefreshGetProfile
+stdRefreshSetProfile
+	DebugMode
+stdDelCTDelProfile
+stdDelCTSetProfile
+stdDeleteProfile
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bi;
+oss: thread ended
+	Lb/a/e/d;
+GlotLogger: >>
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bk;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bd;
+VLLLZL
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/be;
+*SERVERCONFIG HAS NOT BEEN LOADED YET !!!!!
+/get_last_sent_package_id.php
+Response
++RESPONSE NULL CONNECTION FAILED >>>>>>>>>>>
++RESPONSE OK CONNECTION SUCCESS >>>>>>>>>>> 
+RESPONSE FAILED >>>>>>>>>>> 
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bf;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ai;
+Landroid/location/Location;
+LLIILLL
+createRequest
+Lcom/facebook/model/GraphPlace;
+>.PickerFragmentAdapter<
+>.SelectionStrategy;
+CATEGORY
+DEFAULT_RADIUS_IN_METERS
+DEFAULT_RESULTS_LIMIT
+LOCATION
+LOCATION_BUNDLE_KEY
+RADIUS_IN_METERS_BUNDLE_KEY
+RESULTS_LIMIT_BUNDLE_KEY
+SEARCH_TEXT_BUNDLE_KEY
+SHOW_SEARCH_BOX_BUNDLE_KEY
+WERE_HERE_COUNT
+"searchTextTimerDelayInMilliseconds
+"hasSearchTextChangedSinceLastQuery
+location
+radiusInMeters
+resultsLimit
+Landroid/widget/EditText;
+	searchBox
+searchText
+searchTextTimer
+showSearchBox
+Lcom/facebook/android/R$layout;
+ com_facebook_placepickerfragment
+ setPlacePickerSettingsFromBundle
+onSearchTextTimerTriggered
+-Lcom/facebook/Request$GraphPlaceListCallback;
+LLLIILL
+newPlacesSearchRequest
+were_here_count
+getPictureFieldSpecifier
+createSearchTextTimer
++Lcom/facebook/widget/PlacePickerFragment$2;
+getMainLooper
++Lcom/facebook/widget/PlacePickerFragment$3;
+6com.facebook.widget.PlacePickerFragment.RadiusInMeters
+setRadiusInMeters
+4com.facebook.widget.PlacePickerFragment.ResultsLimit
+setResultsLimit
+2com.facebook.widget.PlacePickerFragment.SearchText
+setSearchText
+0com.facebook.widget.PlacePickerFragment.Location
+Landroid/os/Parcelable;
+getParcelable
+setLocation
+5com.facebook.widget.PlacePickerFragment.ShowSearchBox
+setShowCheckbox
+setShowPicture
+ALcom/facebook/widget/PlacePickerFragment$AsNeededLoadingStrategy;
+<Lcom/facebook/widget/PickerFragment$SingleSelectionStrategy;
+com_facebook_nearby
+getLocation
+getRadiusInMeters
+getResultsLimit
+getSearchText
+getSelection
+0com_facebook_placepickerfragment_search_box_stub
+search_box
+addTextChangedListener
+onAttach
+input_method
+-Landroid/view/inputmethod/InputMethodManager;
+showSoftInput
+Landroid/os/IBinder;
+getWindowToken
+hideSoftInputFromWindow
+"com_facebook_place_picker_fragment
+hasValue
+stringsEqualOrEmpty
+putParcelable
+PlacePickerFragment
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ay;
+	"name": "GLOT User's Device",
+	"params": [{
+		"p": "carrier"
+		"p": "d_country"
+		"p": "d_lang"
+		"p": "d_name"
+		"p": "fw"
+		"p": "glot_rev"
+		"p": "encr"
+		"p": "jb"
+DeviceID
+download.code
+microedition.device.aid
+g**************************************** GLOT Initialize **********************************************
+GLOT VERSION: 235
+ZIIII
+microetition.device.carrier
+microedition.locale.country
+microedition.locale
+microedition.device
+microedition.device.version
+isDeviceRooted
+com.gameloft.Signature
+False
+00-000000000
+Unknown
+INT:1
+phone.imei
+com.nokia.imei
+com.nokia.mid.imei
+com.sonyericsson.imei
+com.motorola.IMEI
+com.siemens.IMEI
+com.lge.imei
+ErrorDetectDeviceInfo
+00:00:00:00:00:00
+&FIRST LAUNCH DETECTED !!!!!!!!!!!!!!!!
+UCRASH DETECED ***************** GENERATE AUTOMATIC BI CRASHED EVENT *****************
+INT:0
+ses_id
+ses_t
+*[ERROR when adding automatic event params]
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ah;
+events
+51905
+j[ERROR] eventParameters in incorrect format. Please add the correct setup file or tracking WILL NOT WORK 
+m[ERROR] eventParameters in incorrect format. Please add the correct setup file or tracking WILL NOT WORK (2)
+[ERROR]
+batch_size
+params
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ag;
+batching
+JSONArray[
+] is not a JSONObjects.
+ERROR PUSH BATCH EVENT
+floatValue
+automaticevent
+Add batched event: 
+count_sb
+<batched event reach max count FLUSH Batched event to message
+Saving event 
+ to old message
+$Message is being sent, Lock message 
+VILLLLLL
+pkg_id
+ to new message
+ERROR when saving message
+MSG Created 
+ERROR put packet ID
+B[ERROR]!!!!!!!!!!! ERROR !!!!!!!! Missing package id!!!!!!!!!!!!!!
+SAGFdfajkshSF2345sMHL
+SAVE batch error
+LOAD SAVED BATCH EV  
+ERROR when load batch
+FLUSH Batched event to message
+conectivity
+GDID: 
+Get new STS  
+,Get new STS. Time different with old value: 
+deviceuptimemillis
+bCRITICAL ERROR DUE TO OUT DATED WRAPPER VERSION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+glot_save_time
+SAVE LAST up time 
+[ERROR] SAVE TIME
+[ERROR] LOAD SAVED TIME
+http://vgold.gameloft.com:20000
+/locate/auth
+File_marker
+sessionId: 
+device
+glot.debug.infor
+LOG_FILE_MODE
+MULTIPLE_FILES
+glot_log.txt
+	glot_log_
+GlotInitLogger:
+:TRUE
+LEVEL
+INSTANTMODE
+DETECT INSTANT MODE 
+CONTINUOUS_FILE
+:FALSE
+7[ERROR when adding automatic event params for batch ev]
+/events.json
+H[ERROR] cannot find eventParameters.json file. Contact BI team to get it
+launch_type
+crash_detection
+time_between_sessions
+time_spent
+igp_code
+Add automatic event: LAUNCH:	
+5[ERROR] JSON exception on auto generated BI event !!!
+%BLOCKED ADDING from server !!!!!!!!!!
+0[ERROR] AddEvent !!!!!!!!!!!!!! Event disabled:	
+'[ERROR] Addevent Unknown json error !!!
+9[ERROR] AddEvent !!!!!!!!!!!!!! Invalid event parameters	
+6[ERROR] AddEvent !!!!!!!!!!!!!! Event DOES NOT EXIST:	
+<[ERROR] AddEvent  ERROR Too many or too few event parameter 
+1[ERROR] AddEvent !!!!!!!!!!!!!!invalid batch_size
+metric_type
+ERROE Parse numeric parameter 
+ [ERROR] Event has no params !!!!
+ADDD new event 
+ERROR PARSE INT
+:[ERROR]!!!!!!!!!!Package ID doesn't match with server iD: 
+1[ERROR]!!!!!!!!!!!!!!!!! REQUEST PACKAGE ID FAILD
+"[ERROR] message missing package ID
+[ERROR]SEND MESSAGE FAILD
+5[ERROR] !!!!!!!!!!!!!!!! 410 Invalid request format 
+\[ERROR] !!!!!!!!!!!!!!!! 409 Something very bad happen !!!!!!! invalid json format message 
+O[ERROR] !!!!!!!!!!!!!!!! 411 Save failed Game is not registered for tracking  
+O[ERROR] !!!!!!!!!!!!!!!! 415 Save failed Game is not registered for tracking  
+B[ERROR] !!!!!!!!!!!!!!!! 416 Save failed  Mac address is invalid 
+Handle server command  
+'OnResume() RESUME THE GAME, Session ID:
+OnPause() GAME PAUSED
+Server config loaded: 
+Remove event 
+removeElement
++Attemp to create new message. Result : null
+	proto_ver
+*[ERROR] Exception JSON on request packetID
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ba;
+quantity
+replaced_quantity
+isArray
+billing_methods
+replaced_price
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bb;
+prices
+firstElement
+receive_
+(Lcom/facebook/widget/WorkQueue$WorkItem;
+	isRunning
+moveToFront
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bx;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bz;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bu;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bt;
+2[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bw;
+gameportal_net_check
+profile_init
+profile_get
+profile_save
+profile_add
+find_pvp_opponent
+end_pvp_fight
+test_tcq_game_port
+test_profile_init
+test_profile_get
+test_profile_save
+test_profile_add
+test_find_pvp_opponent
+test_end_pvp_fight
+pvp_save_result
+pvp_get_result
+leaderboard_post_entry
+leaderboard_delete_entry
+osiris_create_group
+ osiris_update_group_custom_attrs
+osiris_list_group
+osiris_show_my_group
+osiris_join_group
+osiris_add_member
+osiris_leave_group
+osiris_kick_member
+osiris_list_request
+osiris_accept_request
+osiris_reject_request
+request could not be null
+&game portal url not ready, please wait
+'GamePortal not Ready, please wait .....
+setAccessToken
+7/index.php?__module=tcq&__controller=tick&__action=tick
+ Impossible !!!, current status: 
+post string for url: 
+'invlaid cGamePortalRequest request type
+"Get code exception 
+ request url: 
+ , response: 
+cGamePortalRequest error, tag[
+], errorMessage: 
++Lcom/facebook/widget/ImageRequest$Callback;
+#Lcom/facebook/widget/ImageResponse;
+state
+whiteswallow
+	whipitout
+whackoff
+wetback
+vagina
+	testicles
+teabagging
+spooge
+spearchucker
+spankthemonkey
+sodomize
+slant
+	sixtynine
+sitonmyface
+scrotum
+rubyredbag
+rimjob
+raghead
+queer
+queef
+pussy
+pubic
+poontang
+panface
+nutsack
+nigger
+	muffdiver
+masturbate
+manloaf
+limey
+lesbo
+jewboy
+jerkoff
+honkey
+hardon
+hairpie
+goldenshower
+gobtheknob
+getlaid
+genital
+gangbang
+fudgepacking
+	fornicate
+fleshpopsicle
+fleshflute
+fisting
+fellatio
+faggot
+eatme
+dildo
+dickwad
+dickhead
+deepthroating
+cornhole
+coolie
+circlejerk
+chink
+cameljockey
+bitch
+beatoff
+bastard
+ZOOPHILE
+WIGLET
+WIGGLET
+WIGGER
+WIFEBEATER
+WHORE
+WHIGGIE
+WHIGGER
+WETBACK
+WANKER
+VULVA
+VIETCOON
+VANILLABEAN
+VAGINA
+UNCLETOM
+TWEEK
+	TOWELHEAD
+TONTO
+	TESTICLES
+	TERRORIST
+TALIBAN
+SPERM
+SODOMITE
+SKINHEAD
+SKANK
+SHYSTER
+SHEMALE
+SEXUAL
+SEMITE
+SEMEN
+SALADTOSSER
+	REDINDIAN
+RECTUM
+RECTAL
+RAGHEAD
+PUSSY
+PUFFER
+PRICK
+PORCHMONKEY
+PENIS
+	PEDOPHILE
+	PEDIGREED
+PECKERWOOD
+PAPASAN
+PANFACE
+PALEFACE
+NUTSACK
+NIGLET
+NIGGLET
+NIGGETTE
+NIGGER
+NEGRO
+NECRO
+NASIAN
+MULATTO
+	MUFFDIVER
+MUDSLUM
+MUDSLIME
+MUDSLIM
+MOTISA
+MOOLIE
+MONGREL
+MOLESTER
+MOJADO
+MIMBO
+MEXIJEW
+	MARIJUANA
+MANDINGO
+MAMASAN
+LUMBEE
+LUGAN
+LUBRA
+LOOGAN
+LITVOK
+LEZZER
+LESBO
+KUKLUXKLAN
+KIPPERLIPS
+JUNDIE
+JUDEOPHILE
+JOOKSING
+JIGGER
+JEWBACCA
+JAILBAIT
+ISLUMIC
+ISLUM
+INJUN
+INCOGNEGRO
+INCEST
+HYMIE
+HYACINTH
+HOOKNOSE
+HOOKER
+HONKY
+HONKIE
+HONKEY
+HEROIN
+HERMAPHRODITE
+HEEBO
+HARLOT
+GUZZLER
+GRIMACE
+	GOATROPER
+GINZO
+GERMANCANDLE
+	GATORBAIT
+GAANDU
+FUDGEPACKER
+FROGGYSTYLE
+FROGGY
+FROGGIE
+FRENCHIXAN
+FLIGGER
+FENDERHEAD
+FEMINAZI
+	EUROTRASH
+EUROSEXUAL
+EURONAZI
+EUROFAG
+EUNUCH
+DOUCHE
+DOTHEAD
+DOGMUNCHER
+DOGGYSTYLE
+DOGEATER
+DIAPERHEAD
+DARKY
+DARKIE
+CUNNILINGUS
+	CUCARACHA
+CRACKER
+COSSACK
+COSMOPOLITE
+COONASS
+COCHISE
+COCAINE
+	CHUPAPENE
+CHULO
+CHINK
+CHINGCHONG
+CHILANGO
+CHIGGER
+CHICANO
+CARPETBAGGER
+BURKHA
+BUKAKE
+BLAXICAN
+BITCH
+	BINTLADEN
+BINLADEN
+BIMBO
+BALKI
+BAKRA
+BAGUETTE
+AVALEUSE
+AVALEUR
+AUNTJEMIMA
+	ANGELDUST
+ALQAEDA
+ADOLF
+Gameloft
+Admin
+Administrator
+System
+Game Master
+GAMELOFT
+ADMIN
+ADMINISTRATOR
+SYSTEM
+GAME MASTER
+brownie
+christ killer
+curry slurper
+jigaboo
+jigga
+jigger
+jungle bunny
+polack
+redskin
+slope
+	slopehead
+spade
+squaw
+tar baby
+whitey
+cockcheese
+	lolilover
+sirfucksalot
+fuckaroo
+crotch
+	crotchrot
+fuckface
+motherfucker
+fatherfucker
+unclefucker
+auntfucker
+jesustittyfuckingchrist
+oneeyedsnake
+	pipelayer
+assspelunker
+cherrypopper
+cockgobbler
+faghag
+fuckwit
+retard
+midget
+midgetfucker
+albamablacksnake
+corpsefuck
+fucksworth
+	asspirate
+jizzguzzler
+cherrypoppindaddy
+custardcannon
+babybaster
+	meatsauce
+guido
+mrtoadswildride
+	oldoneeye
+trousersnake
+rumpleforeskin
+mayonnaiserevolver
+Killthejews
+tuezlesnoir
+tuezlesjuif
+tuezlesarabe
+tuezlesnegre
+tuezlesfeuj
+tuezlesblanc
+tuerlesjuifs
+Fuckshit
+Fuckbullshit
+Skill
+Skillman
+	Skill02__
+	skill3234
+	Skill2001
+	Skill2000
+	skill5234
+	skill6234
+	Ejaculate
+	ejaculate
+Inchkokiller
+ashitanojojo
+hongkongkiller
+pepitogrillo69
+gameloft_12n
+4keillerkiller
+topeadrian
+cacachi10a
+	killer280
+kill575
+	Anuskita7
+potoco
+gghfgkkkkk
+Demon_Kill
+pipe0221
+Godsy
+gameloftqa01
+gameloftqaw
+GameloftStar
+GameloftKing
+gameloftsa2
+	Proscum23
+puta15
+isshit
+aaaaassssdddd
+aaaasssddddddd
+Ghhjjjkkkkkjjj
+kkkiknn
+Killerj699
+	kill50338
+97cacae4c5
+60c41caca1
+82d90ff869
+691411ff5b
+25e2699fc3
+212f46959d
+gameloftqa1
+69a077c2c5
+b1d69152bb5
+bac5ed69c1b
+udbhdbj
+GameloftLegal
+8acf6926c2
+b08e41c0969
+8695d2a043
+c6909a2224
+7a8647691b
+952b499b69
+170c6968df
+1d694c36bb
+2cc0906916
+bd4c33269a2
+b69dbb17b53
+f40699884c
+691fb3cdbc
+qwertyuiopoo7
+F.U.C.K.I.N.G
+S.H.I.T
+Su.ck
+stupid
+fukin
+fuker
+fucked
+( . )( . )
+(.)(.)
+8==D~~
+frikis
+fucking
+shiting
+shitting
+quaeda
+	al quaeda
+	al_quaeda
+qaeda
+al_qaeda
+sodomy
+porno
+PORNO
+raping
+Asshole
+Fucker
+Pornography
+Shithead
+assclown
+Testicle
+error: 
+getFightResult
+error get pvp replay 
+setState
+kickMember
+[credentialType, credentialName, kickedCredentialType, kickedCredentialName mustn't be null.
+kicked_credential_type
+kicked_credential_name
+53933
+1.0.2
+facebook
+isNewAccount
+userName: 
+passWord: 
+00-1D-C6-DE-3B-5E
+C_inventory,_so,_so_m,level,_name,_bu,_li,credential,_in,_sh_b,_sh_e
+PVP_FIND
+	postEntry
+_credential_type, credential_name, leaderboardName, leaderboardSort, entryScore mustn't be null.
+memberUpdateGroupCustomAttr
+<credentialType, credentialName, customAttrs mustn't be null.
+TCType_Test30
+ZIILLL
+Error. ResponseId = 
+Error. Code: 
+Error. Message: 
+Error. Exception: 
+java.net.UnknownHostException
+GET_GROUP_LOADING
+TAG_FORUM_SHOW
+Total_Conquest_J2ME
+TAG_UPDATE_MEM
+TAG_GET_MEM
+friend
+TAG_CREATE_ALLIANCE
+TAG_UPDATE_ALLIANCE_MY
+TAG_UPDATE_ALLIANCE
+friendlist
+TC_LevelInfo
+TC_LevelInfoExtend
+TC_UserName
+TOC_GLCLOUD_RMS
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/av;
+Client_
+_size_
+GLCloud save result = 
+retrieveEntry
+Qcredential_type, credential_name, leaderboardSort, offset, limit mustn't be null.
+seshatSaveKey
+OptionalRestoreSave
+TOC_CC_RMS
+Get glcloud msg error 
+Error when get glcloud msg id 
+MandatoryRestoreSave
+</body>
+chat message 
+unopen
+	setCharAt
+	addMember
+[credentialType, credentialName, memberCredentialType, memberCredentialName mustn't be null.
+member_credential_type
+member_credential_name
+acceptRequest
+:credentialType, credentialName, requestId mustn't be null.
+request_id
+Malformed \uxxxx encoding.
+Error when decode 
+banned_from_game
+banned_from_social
+error when get 
+error set pvp info 
+Error when encode 
+rejectRequest
+_TC_ROOM_ALL_2013
+getUserName
+	facebook:
+	listGroup
+>credentialType, credentialName, groupCategory mustn't be null.
+leaveGroup
+TC_MessageList
+Diana
+iWelcome to the global chat. Please be polite to your fellow players and don't use any offensive language.
+$You are not currently in any Legion.
+LZZII
+VLIIIIZ
+error get online rms value 
+VLLIIZII
+VLIIIIII
+VLIIZZ
+override error 
+error when get _mld
+Error get shield end time 
+error save shield: 
+RMS_LEVEL length = 
+error save profile: 
+getTimeZone
+after
+Error get battle id 
+Error set battle id 
+TAG_SAVE_PVP_END_FIGHT
+error save pvp attack by 
+_inventory.coins
+_inventory.food
+SAVE_PVP
+PVP_UPDATE_IN
+	TC_Replay
+TC_ReplayLevelInfo
+Error save pvp value SAVE_PVP 
+TAG_MESSAGE_REPLAY
+*Hermes_SendMessageToMultipleUsers send to 
+Error delete rms 
+error save pvp replay 
+relink
+	GET_OTHER
+janus
+getAccountInfo
+[credentialType, credentialName, targetCredentialType, targetCredentialName mustn't be null.
+Error get account info 
+target_credential_type
+target_credential_name
+	joinGroup
+McredentialType, credentialName, groupId, entryScore, myLevel mustn't be null.
+showMyGroup
+TAG_GET_ME
+TAG_GET_ME_FRIEND
+UPDATE_LEADERBOARD
+TAG_GET_ALL
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bp;
+IIIIII
+	VLIIIIZII
+	VLLIIIIII
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bs;
+1[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/k;
+1[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/p;
+2[Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bo;
+Update Actor: 
+Paint Actor: 
+Paint Grass: 
+Paint hud: 
+Paint map: 
+Update total: 
+Paint total: 
+avg: 
+min: 
+max: 
+cur: 
+enable building AI
+enable army AI
+enable army check nearby
+enable army pathfinding
+enable army can go through
+LOD Enable
+big city
+add coins 50K
+add foods 50K
+no buildings effect
+building(no wall) upgrade 1
+shift
+space
+return
+	GT-S5839i
+	GT-S5830i
+LG-P500
+Huawei-U8655
+577092415676011
+ 22d39c16dd2bf34e9c71db2373b1a01b
+getWidth
+	getHeight
+getDeviceName
+*------------deviceName------------------= 
+GT-P5110
+GT-P5100
+C6602
+C6603
+C6606
+C6616
+SO-02E
+.------------isLowMemDevice------------------= 
+ZIIIIII
+ZIIIII
+LIIIIZZZ
+VIIIIIIZ
+VLIIZ
+VIILLLLIII
+pn_request_id
+pn_push_id
+	VILLILLLI
+per_of_day
+VLIIZZII
+	VLIIZZZII
+ZLLIIII
+VLLLIIII
+cGamePortalRequest complete <
+customTag <
+code: 
+response: 
+responseMessage: 
+header: 
+BcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_PROFILE_INIT
+BcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_PROFILE_SAVE
+etag_pairs
+AcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_PROFILE_ADD
+;cGamePortal finished cTCQProfile.CUSTOM_TAG_LOAD_MY_PROFILE
+Total_Conquest_Alliance_test25
+WEEKREWARD_LEGION
+AcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_PROFILE_GET
+VISIT_PROFILE
+PVP_REVENGE
+LOAD_OTHER_PROFILE
+/cGamePortal finished cTCQProfile.TAG_LOAD_OTHER
+GcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_FIND_PVP_OPPONENT
+PVP_FIND_RANDOM
+opponent
+CcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_END_PVP_FIGHT
+result
+_group_Level
+member_count
+_group_icon
+owner
+TAGE_FRIEND_VISIT
+group
+TAG_MSG_INVITE_JOIN
+TAG_LEGION_JUST_SHOW
+PN_SIGN_TITLE_NAME
+joined_alliance
+PN_SIGN_BODY_NAME
+launch
+REJECT_REQUEST
+LEGION_GET_OWNER_ACCOUNT
+NULL_PLAYER
+leaderboard_me
+LEGIONG_GET_MEM_INFO
+WEEKREWARD_MEMBER
+JcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_TCQ_GAME_PORTAL
+GcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_PROFILE_INIT
+FcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_PROFILE_GET
+value1
+_custome_key1
+FcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_PROFILE_ADD
+LcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_FIND_PVP_OPPONENT
+HcGamePortal finished cGamePortal.CGAME_PORTAL_REQUEST_TEST_END_PVP_FIGHT
+ cGamePortal finished UNKNOWN TAG
+??????
+pn_goto_multiplayer
+pn_launch_game
+VLIIZII
+<https://www.facebook.com/appcenter/577092415676011?preview=1
+ZIIJZ
+VIIZZ
+cGamePortalRequest error <
+ Federation:  init profile failed
+Federation:  get profile failed
+8cGamePortal.CGAME_PORTAL_REQUEST_TEST_PROFILE_SAVE error
+Federation:  save pvp failed
+ Federation:  save pvp end failed
+Error parse message 
+	ZIIIIIIII
+foods
+Welcome screen goto name = 
+#===================================
+	Resources
+Defense
+Economy
+Immunity
+Leaderboards
+Military
+Potions
+GT-I9000
+_NULL
+Error get owner info 
+convert_rate
+setColor
+Saving RMS...
+finish
+Hhttp://ingameads.gameloft.com/redir/?from=TCMF&op=BFLL&ctg=PRIVACY&lg=%s
++http://www.gameloft.com/conditions/?lang=%s
+4Switching state before allowing next state to start.
+Trying to change state to:
+Next state queued already is:
+State [
+"] is undefined. Message sent was: 
+&Please make sure to register any state
+getAvailableSpace
+Init application
+&Exception from StateMachine messageID[
+] and stateID[
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/aa;
+Welcome screen is loaded....
+La/b/a/a/k;
+latest_update
+---------save RMS------------
+GET_GROUP_OPEN
+.SoundManager_Exec: Invalud sound ID requested 
+Exception while loading sound 
+ Exception while unloading sound 
+	IIIIIIIII
+VIIIIII
+en_us
+[http://game-portal.gameloft.com/1769/android/public/open_graph/html/og_index.php?og_object=
+&title=
+&desc=
+&image=
+&fb_locale=
+total-conquest-free
+IAP-ContentID-Cash-1
+	Cash_Save
+balance_
+_buy_cash_
+currency_code
+s_IAP_lastPurchasedPonit
+IAP-ContentID-Cash-2
+IAP-ContentID-Cash-3
+IAP-ContentID-Cash-4
+IAP-ContentID-Cash-5
+IAP-ContentID-Cash-6
+s_IAP_State================
+cc_2d
+#error while convert pack id && name
+error while process IAP
+TAG_MSG_INVITE_JOIN_
+:null
+                   
+#$!%^*
+gifts
+tokens
+reset gift
+quest_%s_%s
+_group_owner_name
+_group_Gold
+_group_Food
+_group_Glory
+achievement_%s
+              
+reach
+ACCCPT_FRIEND_INVITE
+VFFFFIII
+'Loading_LoadStep: Unknown loading step 
+HAS-SOUND-QUESTION
+!Exception during loading at step 
+] - EXECUTE SPRITE REQUESTS
+] - EXECUTE SOUND REQUESTS
+	RMSHeader
+0.0.0
+Loading RMS...
+TC_BAK
+Initializing RMS...
+TC_FacebookID
+Resetting game-specific RMS...
+LIIII
++error check own legion in week reward error
+*error check me in week reward legion error
+error save week reward time
+optional
+required
+IAP-GameCodeIGP
+*http://ingameads.gameloft.com/redir/?from=
+&game=
+&ctg=GAME_REVIEW&udid=
+googleplay
+amazon
+Lhttps://ingameads.gameloft.com/redir/?from=TCMF&game=TCMF&op=GAND&ctg=UPDATE
+	AndroidID
+	&country=
+&t=game
+MIDlet://minimize
+        
+          \1
+      
+       
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ab;
+TAG_REPLY_REQUEST_UNITS
+TAG_REQUEST_UNITS
+Error get legion level 
+TAG_MSG_APPLY_JOIN
+/InitialFeed.bin
+res_num
+Refresh config get error:
+Has-Push-Notification
+shield_over_30m_before
+	game_icon
+Khttp://game-portal.gameloft.com/1769/android/public/open_graph/image/%s.png
+5http://wapshop.gameloft.com/center_page/?igagame=TCMF
+getMaxAvailableRam
+maxAvailableRam= 
+upgrade
+townhall
+hometown_%s
+unlock
+soldier
+unlock_unit
+Pointer Released x:
+Pointer Pressed x:
+Pointer_GetNumPointers
+&*************************
+requestId = 
+result = 
+*********************
+alpha
+/1769
+/android/public
+error get message list 
+TAG_LOADING_SHOW
+createalliance
+getalliance
+PN_AddOnline send to 
+	grouplist
+LEAVE_ALLIANCE
+freeRam
+ FPS = 
+isLowMemDevice= 
+	freeRam= 
+Ljava/lang/Runtime;
+getRuntime
+totalMemory
+HEAP = 
+credential: 
+  Name: 
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bm;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/bl;
+LIIIIIZ
+LLLII
+VLLIIIII
+VLIIIZ
+LLIIIIII
+VFFFFII
+can't find Data ID 
+ to read defence attack range
+Incorrect ZOrder!!!
+VIIIIIII
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ac;
+buffer unavailable
+invalid distance
+Unaligned byte
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ae;
+parseDouble
+	getBitmap
+Landroid/opengl/GLES10;
+glGenTextures
+glBindTexture
+glTexParameterf
+Ljava/nio/ShortBuffer;
+Ljava/nio/Buffer;
+VIIIIIIIIL
+glTexImage2D
+Ljava/nio/IntBuffer;
+	getPixels
+glDeleteTextures
+)Lcom/facebook/Request$KeyValueSerializer;
+writeString
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/aj;
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/al;
+	nextClean
+&A JSONObjects text must begin with '{'
+	nextValue
+Expected a ',' or '}'
+$A JSONObjects text must end with '}'
+Expected a ':' after a key
+Null pointer
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ak;
+Bad value from toJSONString: 
+quote
+JSONObjects[
+] is not a JSONArray.
+	Null key.
+] not found.
+	byteValue
+shortValue
+] is not a number.
+insertElementAt
+$A JSONArray text must start with '['
+Expected a ',' or ']'
+tempSaveFile
+$savegamelib.objects.TOC
+.Error while compressing buffer. Aborting Save
+ILIII
+cloud
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/aw;
+Begin saving game.
+Begin loading game
+Could not load save file
+"Error while uncompressing buffer.
+CRC Error.
+Restoring save from cloud...
+cloudGetCloudSave
+Could not retrieve savegame
+can't use 
+can't load 
+can't save 
+load buffer 
+ fail
+save buffer 
+Can not save local record
+8Savegame parsing mismatch! You did not load all the data
+"Attempting to upload save to cloud
+cloudUploadGetToc
+-Table of Contents does not exist. Creating it
+cloudUploadGetProfile
+cloudUploadSetProfile
+cloudUploadGetProfile2
+@quota
+@savegamelib
+	remaining
+total
+server quotas exceed
+#Retrieved Invalid Table Of Contents
+profile quotas error
+!Can not get user standard profile
+$savegamelib.objects.key
+9Maximum number of saves reached. Overwriting oldest save.
+2TIMESTAMP is INVALID. Save 1 Invalid. Replacing it
+Description
+Version
+GLUID
+SeshatFileKey
+private
+cloudUploadPutKey
+(Savegame upload to cloud was successful.
+Updated Table Of Contents.
+cloudUploadPutToc
+1Table Of Contents upload to cloud was successful.
+error get field seshatFileKey
+)Table Of Contents upload to cloud failed.
+ Savegame upload to cloud failed.
+ILLLL
+cloudRestoreGetKey
+Retrieving saves from cloud
+cloudGetCloudList
+field TOC not exist
+Fail retrieve cloud list (TOC)
+Savegame does not have ID.
+Invalid TOC content
+Attempting to reset the clouds
+cloudDeleteToc
+$savegamelib.objects.key1
+cloudDeleteKey1
+$savegamelib.objects.key2
+cloudDeleteKey2
+$savegamelib.objects.key3
+cloudDeleteKey3
+$savegamelib.objects.key4
+cloudDeleteKey4
+$savegamelib.objects.key5
+cloudDeleteKey5
+ errorcode:
+version
+&Lcom/facebook/widget/FacebookFragment;
+getSessionPermissions
+openSession
+openSessionForPublish
+openSessionForRead
+setRequestCode
+openForPublish
+closeSession
+getOpenSession
+$closeSessionAndClearTokenInformation
+getExpirationDate
+getSessionState
+isSessionOpen
+CLcom/facebook/widget/FacebookFragment$DefaultSessionStatusCallback;
+(Lcom/facebook/widget/FacebookFragment$1;
+onSessionStateChange
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/at;
+=Lcom/facebook/android/Facebook$TokenRefreshConnectionHandler;
+Ljava/lang/ref/WeakReference;
+connectionWeakReference
+facebookWeakReference
+Ljava/lang/ref/WeakReference
+=Lcom/facebook/android/Facebook$TokenRefreshServiceConnection;
+setAccessExpires
+Lcom/facebook/LegacyHelper;
+extendTokenCompleted
+/Lcom/facebook/android/Facebook$ServiceListener;
+serviceListener
+applicationsContext
+#Landroid/content/ServiceConnection;
+unbindService
+$Lcom/facebook/android/FacebookError;
+onFacebookError
+Ljava/lang/Error;
+Unknown service error
+/Offline Store failed to parse the items buffer.
+	promotion
+3Offline Store failed to parse the promotion buffer.
+The data was Tempered !
+%Offline Store is already initialized.
+'Offline Store failed to decrypt buffer.
+offline_store
+)Offline Store failed to parse the buffer.
+serverconfig
+LoadServerConfig. Exception 
+ETSAPI
+m_sETSAPI: 
+Date|
+ETSAPI|
+SaveServerConfig: Exception 
+http://eve.gameloft.com:20001
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ax;
+setSeed
+	nextBytes
+doInBackground
+onPostExecute
+Landroid/annotation/TargetApi;
+Landroid/os/AsyncTask
+executeOnExecutorMethod
+connection
+	exception
+getCanonicalName
+executeOnExecutor
+executeConnectionAndWait
+executeOnSettingsExecutor
+-Ljava/lang/reflect/InvocationTargetException;
+invoke
+7onPostExecute: exception encountered during request: %s
+onPreExecute
+{RequestAsyncTask: 
+ connection: 
+, requests: 
+{"json":
+Substring bounds error
+Unclosed comment.
+,:]}/\"[{;=#
+Unterminated string
+Missing value.
+ at character 
+1Lcom/gameloft/android/GAND/GloftTCMF/S800x480/ar;
+thread ended
+La/b/a/b/c;
+broadcastManager
+callback
+isTracking
+receiver
+session
+6Lcom/facebook/internal/SessionTracker$CallbackWrapper;
+ELcom/facebook/internal/SessionTracker$ActiveSessionBroadcastReceiver;
+(Lcom/facebook/internal/SessionTracker$1;
+startTracking
+addBroadcastReceiver
+Landroid/content/IntentFilter;
+#com.facebook.sdk.ACTIVE_SESSION_SET
+	addAction
+%com.facebook.sdk.ACTIVE_SESSION_UNSET
+isTrackingActiveSession
+unregisterReceiver
+anon_id
+Lcom/facebook/model/JsonUtil;
+jsonObjectEntrySet
+jsonObjectKeySet
+jsonObjectPutAll
+jsonObjectValues
+Ljava/util/Map$Entry
+jsonObjectClear
+jsonObjectContainsValue
+-Lcom/facebook/model/JsonUtil$JSONObjectEntry;
+entrySet
+Ljava/util/Map$Entry;
+getKey
+Lcom/facebook/LoginActivity;
+EXTRA_REQUEST
+NULL_CALLING_PKG_ERROR_MSG
+RESULT_KEY
+SAVED_AUTH_CLIENT
+SAVED_CALLING_PKG_KEY
+authorizationClient
+callingPackage
+request
+onAuthClientCompleted
+!com.facebook.LoginActivity:Result
+populateIntentExtras
+"com_facebook_login_activity_layout
+setContentView
+getSerializable
+Lcom/facebook/LoginActivity$1;
+6Lcom/facebook/AuthorizationClient$OnCompletedListener;
+setOnCompletedListener
+Lcom/facebook/LoginActivity$2;
+?Lcom/facebook/AuthorizationClient$BackgroundProcessingListener;
+setBackgroundProcessingListener
+getCallingPackage
+	getIntent
+getSerializableExtra
+cancelCurrentHandler
+(com_facebook_login_activity_progress_bar
+xCannot call LoginActivity with a null calling package. This can occur if the launchMode of the caller is singleInstance.
+startOrContinueAuth
+/Lcom/facebook/internal/FileLruCache$BufferFile;
+FILE_NAME_PREFIX
+filterExcludeBufferFiles
+filterExcludeNonBufferFiles
+	deleteAll
+excludeNonBufferFiles
+[Ljava/io/File;
+	listFiles
+excludeBufferFiles
+newFile
+(Ljava/util/concurrent/atomic/AtomicLong;
+Lcom/e/a/a/b/b;
+#Lorg/apache/http/client/HttpClient;
+#Lorg/apache/http/params/HttpParams;
+	getParams
+http.route.default-proxy
+Lcom/e/a/a/b/e;
+Lorg/apache/http/HttpHost;
+setParameter
+(Lorg/apache/http/client/methods/HttpGet;
+Lorg/apache/http/HttpResponse;
+/Lorg/apache/http/client/methods/HttpUriRequest;
+Lorg/apache/http/StatusLine;
+getStatusLine
+getStatusCode
+Lcom/e/a/a/j;
+)Lorg/apache/http/client/methods/HttpPost;
+content-type
+multipart/form-data; boundary=
+	setHeader
+(Lorg/apache/http/entity/ByteArrayEntity;
+Lorg/apache/http/HttpEntity;
+	setEntity
++Lorg/apache/http/client/methods/HttpDelete;
+!Ljava/lang/IllegalStateException;
+	getEntity
+getContent
+Content-Encoding
+Lorg/apache/http/Header;
+getFirstHeader
+Ljava/util/zip/GZIPInputStream;
+	setLength
+&content-disposition: form-data; name="
+@Content-Disposition: form-data; name="pic"; filename="news_image
+	image/png
+Content-Type: 
+Ljava/security/KeyStore;
+getDefaultType
+Lcom/e/a/a/b/c;
++Lorg/apache/http/conn/ssl/SSLSocketFactory;
+/Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+ALLOW_ALL_HOSTNAME_VERIFIER
+setHostnameVerifier
+(Lorg/apache/http/params/BasicHttpParams;
+-Lorg/apache/http/params/HttpConnectionParams;
+setConnectionTimeout
+setSoTimeout
+Lorg/apache/http/HttpVersion;
+HTTP_1_1
++Lorg/apache/http/params/HttpProtocolParams;
+!Lorg/apache/http/ProtocolVersion;
+setVersion
+setContentCharset
+,Lorg/apache/http/conn/scheme/SchemeRegistry;
+$Lorg/apache/http/conn/scheme/Scheme;
+0Lorg/apache/http/conn/scheme/PlainSocketFactory;
++Lorg/apache/http/conn/scheme/SocketFactory;
+register
+=Lorg/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager;
+/Lorg/apache/http/impl/client/DefaultHttpClient;
+.Lorg/apache/http/conn/ClientConnectionManager;
+Lcom/e/a/a/b/a;
+Lcom/e/a/a/b/g;
+val$httpMethod
+Lcom/e/a/a/b/d;
+'Lcom/facebook/widget/ImageDownloader$1;
+val$bitmap
+val$callback
+	val$error
+val$isCachedRedirect
+"Lcom/facebook/widget/ImageRequest;
+val$request
+VLLZLL
+VLLZL
+Ljava/net/Socket;
+createSocket
+LLLIZ
+1Lcom/facebook/Session$TokenRefreshRequestHandler;
+refreshRequestWeakReference
+sessionWeakReference
+*Lcom/facebook/Session$TokenRefreshRequest;
+Lcom/e/a/a/b/f;
+Mobile
+NOWAY
+[Lcom/e/a/a/b/f;
+&content://telephony/carriers/preferapn
+applicationId
+confirmLogout
+fetchUserInfo
+	loginText
+logoutText
+parentFragment
+properties
+9Lcom/facebook/widget/LoginButton$UserInfoChangedCallback;
+userInfoChangedCallback
+userInfoSession
+&initializeActiveSessionWithCachedToken
+finishInit
+getStyleAttribute
+Lcom/facebook/android/R$color;
+!com_facebook_loginview_text_color
+getColor
+setTextColor
+getDimension
+setTextSize
+getDimensionPixelSize
+setWidth
+	setHeight
+setGravity
+isInEditMode
+com_facebook_blue
+setBackgroundColor
+Log in
+parseAttributes
+setBackgroundResource
+access$1400
+access$1500
+setButtonText
+access$402
+access$900
+#Lcom/facebook/widget/LoginButton$1;
+onUserInfoFetched
+4Lcom/facebook/widget/LoginButton$LoginClickListener;
+5Lcom/facebook/widget/LoginButton$LoginButtonCallback;
+getMetadataApplicationId
+openActiveSessionFromCache
+com_facebook_login_view
+%com_facebook_loginview_log_out_button
+$com_facebook_loginview_log_in_button
+getUserInfoChangedCallback
+handleError
+onFinishInflate
+setFragment
+setProperties
+setUserInfoChangedCallback
+containsNoNulls
+notEmpty
+notEmptyAndContainsNoNulls
+ Ljava/lang/NullPointerException;
+Container '
+' cannot contain null values
+' cannot be empty
+Argument '
+' cannot be null
+notNullOrEmpty
+' cannot be null or empty
+oneOf
+#' was not one of the allowed values
++Lcom/facebook/Session$SerializationProxyV1;
+lastAttemptedTokenExtendDate
++Lcom/facebook/Session$AuthorizationRequest;
+pendingRequest
+shouldAutoPublish
+	tokenInfo
+VLLLLZL
+readResolve
+Lcom/facebook/Session$1;
+VLLLLZLL
+8Lcom/facebook/AuthorizationClient$StartActivityDelegate;
+getActivityContext
+startActivityForResult
+%Lcom/facebook/widget/ImageDownloader;
+pendingRequests
+0Lcom/facebook/widget/ImageDownloader$RequestKey;
+7Lcom/facebook/widget/ImageDownloader$DownloaderContext;
+CACHE_READ_QUEUE_MAX_CONCURRENT
+DOWNLOAD_QUEUE_MAX_CONCURRENT
+Lcom/facebook/widget/WorkQueue;
+cacheReadQueue
+downloadQueue
+handler
+readFromCache
+download
+cancelRequest
+getImageUrl
+getCallerTag
+workItem
+isCancelled
+setInstanceFollowRedirects
+Ljava/io/Closeable;
+closeQuietly
+disconnectQuietly
+issueResponse
+&Lcom/facebook/widget/UrlRedirectCache;
+cacheUrlRedirect
+removePendingRequest
+enqueueCacheRead
+ Landroid/graphics/BitmapFactory;
+decodeStream
+downloadAsync
+isCachedRedirectAllowed
+7Lcom/facebook/widget/ImageDownloader$CacheReadWorkItem;
+enqueueRequest
+enqueueDownload
+;Lcom/facebook/widget/ImageDownloader$DownloadImageWorkItem;
+addActiveWorkItem
+getCallback
+prioritizeRequest
+getRedirectedUrl
+5Lcom/facebook/AuthorizationClient$WebViewAuthHandler;
+loginDialog
+loadCookieToken
+getStartActivityDelegate
+Ccom.facebook.AuthorizationClient.WebViewAuthHandler.TOKEN_STORE_KEY
+TOKEN
+saveCookieToken
+Facebook-AuthorizationClient
+3Could not update saved web view auth handler token.
+onWebDialogComplete
+WEB_VIEW
+createFromWebBundle
+"Landroid/webkit/CookieSyncManager;
+createInstance
+getToken
+completeAndValidate
+User canceled log in.
+getApplicationId
+getPreviousAccessToken
+7Lcom/facebook/AuthorizationClient$WebViewAuthHandler$1;
+4Lcom/facebook/AuthorizationClient$AuthDialogBuilder;
+'Lcom/facebook/widget/WebDialog$Builder;
+clearFacebookCookies
+9Lcom/facebook/AuthorizationClient$KatanaProxyAuthHandler;
+4Lcom/facebook/AuthorizationClient$KatanaAuthHandler;
+handleResultOk
+error_type
+&Lcom/facebook/internal/ServerProtocol;
+errorsProxyAuthDisabled
+errorsUserCanceled
+Operation canceled
+)Unexpected resultCode from authorization.
+tryNextHandler
+getRequestCode
+	tryIntent
+7Lcom/facebook/internal/FileLruCache$CopyingInputStream;
+input
+output
+"Lcom/gameloft/android2d/iap/a/g/c;
+"Lcom/gameloft/android2d/iap/a/g/b;
+mPaymentId
+mPurchaseId
+mItemId
+	mItemName
+mItemPrice
+mItemPriceString
+mCurrencyUnit
+	mItemDesc
+mItemImageUrl
+mItemDownloadUrl
+mReserved1
+mReserved2
+mVerifyUrl
+mPurchaseDate
+yyyy.MM.dd hh:mm:ss
+ Landroid/text/format/DateFormat;
+SamsungIAB PurchaseVO
+Exception: 
+Lcom/facebook/InsightsLogger;
+EVENT_NAME_LOG_CONVERSION_PIXEL
+EVENT_NAME_LOG_MOBILE_PURCHASE
+EVENT_PARAMETER_CURRENCY
+EVENT_PARAMETER_PIXEL_ID
+EVENT_PARAMETER_PIXEL_VALUE
+appAuthSession
+clientToken
+specifiedSession
+buildJSONForEvent
+sessionToLogTo
+notifyDeveloperError
+_eventName
+_valueToSum
+2Parameter '%s' must be a string or a numeric type.
+logEventNow
+Lcom/facebook/InsightsLogger$1;
+VLLDL
+	newLogger
+Insights
+%s|%s
+CLIENT_TOKEN
+createFromString
+-Lcom/facebook/NonCachingTokenCachingStrategy;
+logConversionPixel
+pixelID cannot be null
+fb_offsite_pixel_id
+fb_offsite_pixel_value
+fb_log_offsite_pixel
+Ljava/math/BigDecimal;
+Ljava/util/Currency;
+logPurchase
+purchaseAmount cannot be null
+currency cannot be null
+fb_currency
+getCurrencyCode
+fb_mobile_purchase
+"Lcom/gameloft/android2d/iap/a/g/d;
+samsung
+"Lcom/gameloft/android2d/iap/a/g/e;
+IAP-SamsungBilling
+SamsungBilling an item
+"[requestPurchaseItem ] getGroupId 
+, itemid = 
+"Lcom/gameloft/android2d/iap/a/g/n;
+@######################### VerificationBilling ##################
+Verification in process: 
+&Verification failed!!!!!!!!!!!!!!!!!!!
+)Verification successed!!!!!!!!!!!!!!!!!!!
+)Purchase successed!!!!!!!!!!!!!!!!!!!!!!!
+"Saved Pending Transaction Result: 
+$Exception when verify Unlock code!!!
+isPendingVerificationBilling
+([isPendingVerificationBilling] urlquery 
+[isPendingTransaction]
+com_facebook_choose_friends
+*com_facebook_dialogloginactivity_ok_button
+.com_facebook_internet_permission_error_message
+,com_facebook_internet_permission_error_title
+$com_facebook_loginview_cancel_action
+%com_facebook_loginview_log_out_action
+#com_facebook_loginview_logged_in_as
+/com_facebook_loginview_logged_in_using_facebook
+%com_facebook_logo_content_description
+6com_facebook_placepicker_subtitle_catetory_only_format
+(com_facebook_placepicker_subtitle_format
+7com_facebook_placepicker_subtitle_were_here_only_format
+*com_facebook_requesterror_password_changed
+%com_facebook_requesterror_permissions
+#com_facebook_requesterror_reconnect
+!com_facebook_requesterror_relogin
+#com_facebook_requesterror_web_login
+/com_facebook_usersettingsfragment_log_in_button
++com_facebook_usersettingsfragment_logged_in
+/com_facebook_usersettingsfragment_not_logged_in
+"Lcom/gameloft/android2d/iap/a/g/a;
+mErrorCode
+mType
+SamsungIAB ItemVO
+"Lcom/gameloft/android2d/iap/a/g/g;
+/samsungapps://ProductDetail/com.sec.android.iap
+setData
+mContext
+startActivity
+"Lcom/gameloft/android2d/iap/a/g/h;
+"Lcom/gameloft/android2d/iap/a/g/m;
+onServiceConnected
+Lcom/c/a/a/b;
+Lcom/c/a/a/a;
+onServiceDisconnected
+SamsungIAB
+IAP Service Disconnected...
+ Verification: new thread started
+Verification - Exception: 
+SMSPrefsFile
+LLIIL
+Landroid/os/RemoteException;
+LILLIIL
+[isInstalledIapPackage]
+com.sec.android.iap
+$Landroid/content/pm/ApplicationInfo;
+getApplicationInfo
+isInstalledIapPackage? 
+NameNotFoundException: 
+[isValidIapPackage]
+isValidIapPackage? 
+[getItemList]
+[startPurchase]
+THIRD_PARTY_NAME
+PackageName: 
+ITEM_GROUP_ID
+GroupId 
+ITEM_ID
+ItemId 
+6com.sec.android.iap.activity.PaymentMethodListActivity
+android.intent.action.MAIN
+ android.intent.category.LAUNCHER
+setComponent
+VLLLZLZ
+"Lcom/gameloft/android2d/iap/a/g/i;
+1Landroid/content/DialogInterface$OnClickListener;
+setPositiveButton
+"Lcom/gameloft/android2d/iap/a/g/j;
+setNegativeButton
+"Lcom/gameloft/android2d/iap/a/g/k;
+"Lcom/gameloft/android2d/iap/a/g/l;
+[bindIapService]
+&com.sec.android.iap.service.iapService
+bindService
+STATUS_CODE
+ERROR_STRING
+IAP_UPGRADE_URL
+!Landroid/content/DialogInterface;
+onCancel
+onClick
+"Lcom/gameloft/android2d/iap/a/g/p;
+IAP-SamsungIABActivity
+$In-app Purchase Service Bind Failed.
+"Lcom/gameloft/android2d/iap/a/g/o;
+"Lcom/gameloft/android2d/iap/a/g/r;
+"Lcom/gameloft/android2d/iap/a/g/t;
+"Lcom/gameloft/android2d/iap/a/g/v;
+1Ljava/util/concurrent/RejectedExecutionException;
+[GetItemListTask]
+Landroid/os/AsyncTask$Status;
+	getStatus
+FINISHED
+RejectedExecutionException: 
+![LaunchSamsungBilling] _groupId =
+ItemId
+ItemGroupId
+4[LaunchSamsungBilling] END 0000000000000000000000000
+[PurchaseItemTask]
+[onActivityResutl]
+RESULT_OBJECT
+&##### [VerifyClientToServerTask] #####
+*The payment was not processed successfully
+Payment error: 
+-itemId : 
+-thirdPartyName : 
+-statusCode : 
+-errorString : 
+$@@@ Payment Cancelled, StatusCode: [
+] Message: 
+Q***************************[InitGetItemListService]******************************
+#SamsungAccount authentication error
+[onCreate]
+ItemId: 
+ItemGroupId: 
+[startAccountActivity]
+,com.sec.android.iap.activity.AccountActivity
+7IAP Application installed in your device is not valid!!
+[installIapPackage]
+[onDestroy]
+=##################[InitPurchaseService]######################
+"Lcom/gameloft/android2d/iap/a/g/q;
+[ResultCallBack]
+5*** Samsung Account Authentication was successful ***
+0Samsung In-App Purchase upgrade required message
+"Lcom/gameloft/android2d/iap/a/g/u;
+PurchaseItemTask ERROR: 
+Landroid/widget/Toast;
+makeText
+PurchaseItemTask Init ERROR: 
+"Lcom/gameloft/android2d/iap/a/g/s;
++Landroid/content/ActivityNotFoundException;
+ActivityNotFoundException: 
+RESULT_LIST
+getStringArrayList
+"**********************************
+	ITEM ID: 
+ITEM TYPE: 
+ITEM NAME: 
+ITEM PRICE: 
+ITEM PRICE STR: 
+ITEM DESC: 
+GetItemListTask Exception: 
+"Bundle Value 'RESULT_LIST' is null
+GetItemListTask MESSAGE: 
+Item list OK!
+Item list EMPTY!
+	Message: 
+GetItemList ERROR: 
+$In-app Purchase Service Bind failed.
+"Lcom/gameloft/android2d/iap/a/g/w;
+itemId
+itemName
+itemDesc
+purchaseDate
+	paymentId
+paymentAmount
+SamsungIAB VerificationVO
+setReadTimeout
+&purchaseID=
+VerifyClientToServerUrl :
+onCancelled
+"VerifyClientToServerTask Cancelled
+Payment success 
+-itemId : 
+-paymentId : 
+"Payment is not valid!! 
+-ItemId : 
+Ljava/lang/Deprecated;
+ Lcom/facebook/UiLifecycleHelper;
+ACTIVITY_NULL_MESSAGE
+activity
+activity cannot be null
+?Lcom/facebook/UiLifecycleHelper$ActiveSessionBroadcastReceiver;
+"Lcom/facebook/UiLifecycleHelper$1;
+*Lcom/gameloft/android/wrapper/NativeUtils;
+ Lcom/gameloft/android/wrapper/c;
+nativeU
+loadLibrary
+	CheckRoot
+getClock
+getClockMillis
+getClockNano
+Lcom/c/a/a/f;
+Lcom/c/a/a/d;
+asBinder
+Landroid/os/Parcel;
+obtain
+&com.sec.android.iap.IAPServiceCallback
+writeInterfaceToken
+writeInt
+writeToParcel
+ZILLI
+transact
+$Lcom/facebook/widget/ImageRequest$1;
+Landroid/os/IInterface;
+Ljava/util/HashMap
+startWebView: 
+GetWAPPurchaseID
+URL: 
+destroyWebview
+destroy
+,There is a error in destroy webview process.
+onCreate: 
+Landroid/view/KeyEvent;
+onKeyUp
+	onKeyUp: 
+	canGoBack
+Lcom/c/a/a/c;
+ com.sec.android.iap.IAPConnector
+readException
+readInt
+Landroid/os/Parcelable$Creator;
+CREATOR
+createFromParcel
+writeStrongBinder
+DIALOG_BASE_URL
+EXPIRES
+FB_APP_SIGNATURE
+FORCE_DIALOG_AUTH
+GRAPH_BASE_URL
+RESTSERVER_URL
+SINGLE_SIGN_ON_DISABLED
+authorizeCallback
+dialog
+extendAccessToken
+extendAccessTokenIfNeeded
+getAccessExpires
+getAppId
+getLastAccessUpdate
+isSessionValid
+logout
+publishInstall
+setAccessExpiresIn
+setAppId
+setTokenFromCache
+shouldExtendAccessToken
+stringArray
+DEFAULT_AUTH_ACTIVITY_CODE
+LOGIN
+REFRESH_TOKEN_BARRIER
+#accessExpiresMillisecondsAfterEpoch
+accessToken
+&lastAccessUpdateMillisecondsAfterEpoch
+mAppId
+pendingAuthorizationActivity
+pendingAuthorizationPermissions
+pendingOpeningSession
+sessionInvalidated
+:Lcom/facebook/android/Facebook$SetterTokenCachingStrategy;
+tokenCache
+userSetSession
+https://m.facebook.com/dialog/
+'https://api.facebook.com/restserver.php
+bYou must specify your application ID when instantiating a Facebook object. See README for details.
+onSessionCallback
+access$102
+access$502
+access$702
+VLLILL
+checkUserSession
+getTokenCache
+setTokenCachingStrategy
+0Cannot call %s after setSession has been called.
+getAuthorizationBundle
+-Lcom/facebook/FacebookAuthorizationException;
+!com.facebook.sdk.WebViewErrorCode
+com.facebook.sdk.FailingUrl
+"Lcom/facebook/android/DialogError;
+setIsLegacy
+validateAppSignatureForPackage
+validateServiceIntent
+oauth
+android.permission.INTERNET
+checkCallingOrSelfPermission
+Error
+6Application requires permission to access the Internet
+Lcom/facebook/android/Util;
+app_id
+Lcom/facebook/android/FbDialog;
+logoutImpl
+method
+auth.expireSession
+API method must be specified. (parameters must contain key "method" and value). See http://developers.facebook.com/docs/reference/rest/
+requestImpl
+openUrl
+session cannot be null
+service_disabled
+Landroid/os/Binder;
+queryLocalInterface
+onTransact
+enforceInterface
+readStrongBinder
+Lcom/c/a/a/e;
+writeNoException
+readString
+handlersToTry
+getHandlerTypes
+WEB_VIEW_AUTH_HANDLER_STORE
+WEB_VIEW_AUTH_HANDLER_TOKEN_KEY
+backgroundProcessingListener
+checkedInternetPermission
+currentHandler
+onCompletedListener
+startActivityDelegate
+notifyBackgroundProcessingStop
+notifyBackgroundProcessingStart
+completeWithFailure
+Login attempt failed.
+complete
+isLegacy
+6Lcom/facebook/AuthorizationClient$GetTokenAuthHandler;
+?Lcom/facebook/AuthorizationClient$KatanaLoginDialogAuthHandler;
+onBackgroundProcessingStarted
+onBackgroundProcessingStopped
+notifyOnCompleteListener
+2Attempted to authorize while a request is pending.
+needsNewTokenValidation
+checkInternetPermission
+checkPermission
+validateSameFbidAndFinish
+continueAuth
+>Attempted to continue authorization without a pending request.
+tryCurrentHandler
+createGetPermissionsRequest
+me/permissions
+createGetProfileIdRequest
+createReauthValidationBatch
+$Lcom/facebook/AuthorizationClient$3;
+$Lcom/facebook/AuthorizationClient$4;
+$Lcom/facebook/AuthorizationClient$5;
+getBackgroundProcessingListener
+getInProgress
+getOnCompletedListener
+$Lcom/facebook/AuthorizationClient$2;
+$Lcom/facebook/AuthorizationClient$1;
+Can't validate without a token
+onDataNeeded
+encodePostBody
+	parseJson
+&Content-Disposition: form-data; name="
+Ljava/io/FileNotFoundException;
+(3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+Facebook-Util
+ URL: 
+Ljava/util/Properties;
+getProperties
+http.agent
+ FacebookAndroidSDK
+multipart/form-data;boundary=
+setDoInput
+Keep-Alive
+*Content-Disposition: form-data; filename="
+Content-Type: content/unknown
+getByteArray
+request failed
+{value : true}
+getJSONObject
+	error_msg
+error_reason
+	fbconnect
+Lcom/a/a/a/n;
+Lcom/a/a/a/m;
+Lcom/a/a/a/i;
+Lcom/amazon/android/Kiwi;
+?Lcom/amazon/android/framework/task/command/AbstractCommandTask;
+addCommandToCommandTaskPipeline
+Lcom/a/a/a/o;
+Lcom/a/a/a/l;
+Lcom/a/a/a/h;
+purchase_item
+KiwiRequestHandlerHandlerThread
+KiwiRequestHandler
+Lcom/a/a/a/j;
+Lcom/a/a/a/p;
+Lcom/a/a/a/k;
+.Lcom/amazon/android/framework/util/KiwiLogger;
+'In App Purchasing SDK - Production Mode
+ERROR_ON
+trace
+TRACE_ON
+@Lcom/amazon/android/licensing/LicenseFailurePromptContentMapper;
+sdkVersion
+[Lcom/facebook/HttpMethod;
+get_userId
+Lcom/a/a/a/v;
+Lcom/a/a/a/x;
+Lcom/a/a/a/w;
+Lcom/a/a/a/f;
+*Lcom/facebook/widget/ImageRequest$Builder;
+allowCachedRedirects
+	callerTag
+imageUrl
+setAllowCachedRedirects
+setCallerTag
+1.0.3
+PurchasingManagerHandlerThread
+Lcom/a/a/a/u;
+EYou must register a PurchasingObserver before invoking this operation
+Lcom/a/a/a/b;
+Lcom/a/a/a/y;
+PurchasingManager
+PurchasingObserver registered: 
+,Provided PurchasingObserver must not be null
+Lcom/a/a/a/r;
+7Purchasing Framework initialization complete. Build ID 
+ must not be null
+Lcom/a/a/a/s;
+ KiwiResponseHandlerHandlerThread
+setCancelable
+6Lcom/facebook/widget/LoginButton$LoginClickListener$1;
++Lcom/gameloft/android/GAND/GloftTCMF/Start;
+ DEVICE MODEL: 
+	landscape
+setScale
+Multiple_axis_auto_align
+Single_axis_auto_align
+GAME-IGP-CODE
+10200
+VERSION
+ Current memory space: 
+'Lcom/gameloft/android/GAND/GloftTCMF/y;
+'Lcom/gameloft/android/GAND/GloftTCMF/z;
+/Landroid/content/DialogInterface$OnKeyListener;
+setOnKeyListener
+ Phone model 
+ Phone sdk 
+window
+Landroid/view/WindowManager;
+Landroid/view/Display;
+getDefaultDisplay
+Landroid/graphics/Point;
+android.view.Display
+getRealSize
+getDeclaredMethod
+	 Width = 
+ Height = 
+ Lcom/gameloft/android/wrapper/g;
+>0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400
+#com.gameloft.android.GAND.GloftTCMF
+VLFLLLL
+getFqlResultSet
+<TT;>;TT;)TT;
+com.amazon.android.Kiwi
+	loadClass
+Landroid/os/HandlerThread;
+	getLooper
+'Lcom/gameloft/android/GAND/GloftTCMF/o;
+Lcom/a/a/a/c;
+Lcom/a/a/a/a;
+;Lcom/facebook/widget/PickerFragment$MultiSelectionStrategy;
+selectedIds
+isSelected
+shouldShowCheckBoxIfUnselected
+8Lcom/facebook/widget/ProfilePictureView$OnErrorListener;
+Ljava/util/UUID;
+randomUUID
+isGraphObjectSelected
+Landroid/widget/CheckBox;
+updateCheckboxState
+setChecked
+!Provided Context must not be null
+"Lcom/gameloft/android2d/iap/a/i/d;
+"Lcom/gameloft/android2d/iap/a/i/a;
+getResultCode
+IAP-SMSBilling
+SMS Sent Pending Intent: ERROR 
+"SMS Sent Pending Intent: RESULT OK
+"Lcom/gameloft/android2d/iap/a/i/e;
+'android.provider.Telephony.SMS_RECEIVED
+registerReceiver
+"Lcom/gameloft/android2d/iap/a/i/c;
+Timer Waiting Response Start
+Timer Waiting Response Stop
+)Timer Waiting Response Run (Reached time)
+3AwaitResponseTimer:SMSResponseReceiver Unregistered
+SMSReceiver: onReceive()
+[Landroid/telephony/SmsMessage;
+Landroid/telephony/SmsMessage;
+createFromPdu
+ServiceCenterAddress: 
+getServiceCenterAddress
+getMessageBody
+4SMSResponseReceiver:SMSResponseReceiver Unregistered
+!Lcom/facebook/Request$Serializer;
+firstWrite
+logger
+outputStream
+writeBitmap
+writeContentDisposition
+(Landroid/graphics/Bitmap$CompressFormat;
+compress
+	writeLine
+writeRecordBoundary
+<Image>
+appendKeyValue
+writeBytes
+content/unknown
+<Data: %d>
+)Content-Disposition: form-data; name="%s"
+; filename="%s"
+%s: %s
+!Landroid/os/ParcelFileDescriptor;
+	writeFile
+6Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;
+writeObject
+5value is not a supported type: String, Bitmap, byte[]
+"Lcom/gameloft/android2d/iap/a/i/b;
+buy: new thread started
+/IAP_INVALID_REQUEST (-5): Invalid Server Number
+buy: sms address: 
+SMS_SENT
+Landroid/app/PendingIntent;
+LLILI
+getBroadcast
+Landroid/telephony/SmsManager;
+sendTextMessage
+buy: sendTextMessage done!
+buy: SMS Thread ended!
+!buy: SMS sent failed! Exception: 
+sms_2d
+	profileId
+Game language:        
+\Warning, Missing input language from game setting, get language from phone settings instead.
+alias:        
+demoCode:     
+unlockCode:   
+phoneModel:   
+profileID:    
+lang:         
+contentID:    
+downloadCode: 
+IMEI:         
+amount:       
+SMSCounter:   
+IAP_INVALID_REQUEST (-5)
+!IAP_ERROR_ITEM_NOT_AVAILABLE (-2)
+UNLOCK
+	sendSMS: 
+INAPP
+100000
+reverse
+SMSBilling an item
+,Android KitKat version - Using SMS Encrypted
+111111
+ 57786eaf7b1c579364a8b96a4d76e5e4
+OTHER_PUBLISH_PERMISSIONS
+ACTION_ACTIVE_SESSION_CLOSED
+ACTION_ACTIVE_SESSION_OPENED
+ACTION_ACTIVE_SESSION_SET
+ACTION_ACTIVE_SESSION_UNSET
+APPLICATION_ID_PROPERTY
+AUTH_BUNDLE_SAVE_KEY
+DEFAULT_AUTHORIZE_ACTIVITY_CODE
+MANAGE_PERMISSION_PREFIX
+PUBLISH_PERMISSION_PREFIX
+SESSION_BUNDLE_SAVE_KEY
+STATIC_LOCK
+TOKEN_EXTEND_RETRY_SECONDS
+TOKEN_EXTEND_THRESHOLD_SECONDS
+WEB_VIEW_ERROR_CODE_KEY
+WEB_VIEW_FAILING_URL_KEY
+activeSession
+staticContext
+authorizationBundle
++Lcom/facebook/Session$AutoPublishAsyncTask;
+autoPublishAsyncTask
+currentTokenRefreshRequest
+tokenCachingStrategy
+initializeStaticContext
+CREATED
+hasTokenInformation
+0com.facebook.TokenCachingStrategy.ExpirationDate
+before
+createEmptyToken
+createFromCache
+handleAuthorizationResult
+runWithHandlerOrExecutor
+access$902
+areEqual
+autoPublishAsync
+finishAuthorization
+saveTokenToCache
+postStateChange
+finishReauthorization
+OPENED_TOKEN_UPDATED
+getLoginActivityIntent
+getStaticContext
+setClass
+getAuthorizationClientRequest
+finishAuthOrReauth
+publish
+manage
+validateLoginBehavior
+JSession: an attempt was made to open a session that has a pending request.
+Lcom/facebook/Session$4;
+?Session: an attempt was made to open an already opened session.
+5openRequest cannot be null when opening a new Session
+openActiveSession
+LLLZL
+ openActiveSessionWithAccessToken
+postActiveSessionAction
+Ljava/io/ObjectInputStream;
+readObject
+ Ljava/io/InvalidObjectException;
+/Cannot readObject, serialization proxy required
+requestNewPermissions
+aSession: an attempt was made to request new permissions for a session that has a pending request.
+aSession: an attempt was made to request new permissions for a session that is not currently open.
+setValidateSameFbidAsToken
+resolveIntent
+'com.facebook.sdk.Session.saveSessionKey
+&com.facebook.sdk.Session.authBundleKey
+Unable to restore session
+Unable to restore session.
+Ljava/io/ObjectOutputStream;
+	putBundle
+Unable to save session.
+toCacheBundle
+&com.facebook.sdk.ACTIVE_SESSION_OPENED
+tryLegacyAuth
+Lcom/facebook/Session$2;
+tryLoginActivity
+,Lcom/facebook/Session$StartActivityDelegate;
+`Cannot use SessionLoginBehavior %s when %s is not declared as an activity in AndroidManifest.xml
+CCannot request publish or manage authorization with no permissions.
+SCannot pass a publish or manage permission (%s) to a request for read authorization
+WShould not pass a read permission (%s) to a request for publish or manage authorization
+writeReplace
+Log in attempt failed.
+Log in attempt aborted.
+refreshToken ignored in state 
+createFromRefresh
+	isInvalid
+Invalid access token.
+getExpires
+getLastAttemptedTokenExtendDate
+getTokenInfo
+currentActivity
+User canceled operation.
+Lcom/facebook/Session$3;
+&com.facebook.sdk.ACTIVE_SESSION_CLOSED
+requestNewReadPermissions
+setCurrentTokenRefreshRequest
+setLastAttemptedTokenExtendDate
+setTokenInfo
+	getSource
+canExtendToken
+getLastRefresh
+{Session
+ state:
+, token:
+, appId:
+com.facebook.sdk.ApplicationId
+$Lcom/facebook/model/OpenGraphAction;
+getImage
+getTags
+setImage
+setTags
+getApplication
+getComments
+getCreatedTime
+getEndTime
+getExpiresTime
+getFrom
+getLikes
+getPlace
+getPublishTime
+getStartTime
+setApplication
+setComments
+setCreatedTime
+setEndTime
+setExpiresTime
+setFrom
+setLikes
+setPlace
+setPublishTime
+setRef
+setStartTime
+	Lb/a/c/g;
+0Landroid/media/MediaPlayer$OnCompletionListener;
+	Lb/a/c/f;
+Landroid/media/MediaPlayer;
+onCompletion
+seekTo
+	Lb/a/c/h;
+	setVolume
+	Lb/a/c/i;
+0Landroid/media/SoundPool$OnLoadCompleteListener;
+Landroid/media/SoundPool;
+setOnLoadCompleteListener
+release
+error for loading
+"Player has not been Prefetched at 
+IIFFIIF
+unload
+Deleted temp file 
+	Lb/a/c/k;
+	Lb/a/c/j;
+onLoadComplete
+LoadCompleted sampleId:
+ current player:
+ status:
+Wrapper Sound Pool setRate: 
+setRate
+onKey
+'Lcom/gameloft/android/GAND/GloftTCMF/x;
+'Lcom/gameloft/android/GAND/GloftTCMF/w;
+:Lcom/gameloft/android/GAND/GloftTCMF/SplashScreenActivity;
+link:
+android.intent.action.VIEW
+play:
+exit:
+goto:
+800x480
+3ingameads.gameloft.com/redir/ads/splashscreen_click
+	market://
+amzn://
+"ingameads.gameloft.com/redir/?from
+ctg=PLAY
+vnd.youtube:
+'Lcom/gameloft/android/GAND/GloftTCMF/v;
+'Lcom/gameloft/android/GAND/GloftTCMF/u;
+	Lb/a/b/n;
+Landroid/view/Window;
+	getWindow
+)Landroid/graphics/drawable/ColorDrawable;
+/welcome
+/welcome.html
+'Lcom/gameloft/android/GAND/GloftTCMF/t;
+getDeviceId
+getCountry
+MANUFACTURER
+RELEASE
+round
+portrait
+COUNTRY
+FIRMWARE
+	ANDROIDID
+	UDIDPHONE
+&width=
+&dl=1
+	&is_pau=1
+?data=
+&enc=1
+'Lcom/gameloft/android/GAND/GloftTCMF/b;
+welcome.html
+	&is_pau=0
+'Lcom/gameloft/android/GAND/GloftTCMF/s;
+ Landroid/webkit/WebChromeClient;
+Landroid/webkit/ConsoleMessage;
+onConsoleMessage
+'Lcom/gameloft/android/GAND/GloftTCMF/r;
+onLongClick
+,Lcom/facebook/FacebookRequestError$Category;
+-[Lcom/facebook/FacebookRequestError$Category;
+AUTHENTICATION_REOPEN_SESSION
+AUTHENTICATION_RETRY
+BAD_REQUEST
+CLIENT
+OTHER
+PERMISSION
+SERVER
+THROTTLING
+-Lcom/google/android/gcm/GCMBroadcastReceiver;
+onReceive: 
+.GCMIntentService
+GCM IntentService class: 
+'Lcom/gameloft/android/GAND/GloftTCMF/q;
+'Lcom/gameloft/android/GAND/GloftTCMF/p;
+getDecorView
+setSystemUiVisibility
+,Lcom/facebook/Request$GraphUserListCallback;
+6Landroid/view/View$OnSystemUiVisibilityChangeListener;
+onSystemUiVisibilityChange
+'Lcom/gameloft/android/GAND/GloftTCMF/l;
+'Lcom/gameloft/android/GAND/GloftTCMF/j;
+'Lcom/gameloft/android/GAND/GloftTCMF/i;
+9Lcom/gameloft/android/GAND/GloftTCMF/IGPFreemiumActivity;
+'Lcom/gameloft/android/GAND/GloftTCMF/m;
+Lb/a/b/ah;
+onBackPressed
+'Lcom/gameloft/android/GAND/GloftTCMF/n;
+*Landroid/database/sqlite/SQLiteOpenHelper;
+gameloft_sharing
+6Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
+(Landroid/database/sqlite/SQLiteDatabase;
+Acreate table glshare (key text primary key, value text not null);
+execSQL
+	onUpgrade
+DROP TABLE IF EXISTS glshare
+%setOnSystemUiVisibilityChangeListener
+'Lcom/gameloft/android/GAND/GloftTCMF/h;
+getLaunchIntentForPackage
+unavailable:
+www.amazon.com
+ingameads.gameloft.com/redir/
+t=bundle
+t=game
+ctg=FRINSTALL&old_ctg=PLAY
+type=SKTMARKET
+&pp=1
+	Lb/a/b/a;
+'Lcom/gameloft/android/GAND/GloftTCMF/k;
+	setButton
+2Lcom/facebook/model/GraphObject$Factory$ProxyBase;
+1Lcom/facebook/model/GraphObject$Factory$ProxyBase
+CASTTOMAP_METHOD
+CAST_METHOD
+CLEAR_METHOD
+CONTAINSKEY_METHOD
+CONTAINSVALUE_METHOD
+ENTRYSET_METHOD
+GETINNERJSONOBJECT_METHOD
+GETPROPERTY_METHOD
+GET_METHOD
+ISEMPTY_METHOD
+KEYSET_METHOD
+PUTALL_METHOD
+PUT_METHOD
+REMOVEPROPERTY_METHOD
+REMOVE_METHOD
+SETINNERJSONOBJECT_METHOD
+SETPROPERTY_METHOD
+SIZE_METHOD
+VALUES_METHOD
+!proxyGraphObjectGettersAndSetters
+Ljava/lang/reflect/Type;
+getGenericReturnType
+throwUnexpectedMethodSignature
+proxyGraphObjectMethods
+getInvocationHandler
+setJSONProperty
+removeProperty
+proxyMapMethods
+containsValue
+proxyObjectMethods
+*GraphObject{graphObjectClass=%s, state=%s}
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/a;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/c;
+Thread-doInBG
+'Lcom/gameloft/android/GAND/GloftTCMF/d;
+#Landroid/view/View$OnTouchListener;
+Landroid/view/MotionEvent;
+onTouch
+Landroid/widget/ImageButton;
+Landroid/graphics/Color;
+"Landroid/graphics/PorterDuff$Mode;
+SRC_ATOP
+setColorFilter
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/b;
+'Lcom/gameloft/android/GAND/GloftTCMF/e;
+'Lcom/gameloft/android/GAND/GloftTCMF/f;
+PN_AID
+PN_LID_
+alarm
+Landroid/app/AlarmManager;
+Landroid/os/SystemClock;
+elapsedRealtime
+|key|
+|key|delay=
+|key|expiration=
+expiration
+dd/MM/yyyy HH:mm:ss
+getYear
+getMonth
+'Lcom/gameloft/android/GAND/GloftTCMF/g;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/e;
+Landroid/app/Notification;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/f;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/r;
+setLatestEventInfo
+flags
+defaults
+setOnCompletionListener
+Ljava/io/FileDescriptor;
+getFD
+setDataSource
+WRAPPER: Player error
+fileList
+file found: 
+Cleaning temp file 
+!Error while cleaning temp files: 
+setLooping
+	isPlaying
+pause
+getCurrentPosition
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/g;
+ android.app.Notification$Builder
+android.content.Context
+Ljava/lang/reflect/Constructor;
+getConstructor
+java.lang.CharSequence
+setContentTitle
+isAccessible
+setAccessible
+setContentText
+setContentInfo
+setSmallIcon
+setWhen
+setContentIntent
+	setTicker
+setAutoCancel
+setDefaults
+decodeResource
+setLargeIcon
+getNotification
+usemap
+Ljava/io/PrintWriter;
+Ljava/io/FileWriter;
+Ljava/io/Writer;
+println
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/h;
+%android.app.Notification$BigTextStyle
+setBigContentTitle
+bigText
+setStyle
+android.app.Notification$Style
+	Lb/a/c/d;
+'Lcom/gameloft/android/GAND/GloftTCMF/c;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/q;
+creation_time
+schedule_time
+message_group
+message_content
+Landroid/content/ContentValues;
+Message
+_id = 
+LLLLLLLL
+Landroid/database/SQLException;
+getWritableDatabase
+SndDmp
+Player file size 
+getAndIncrement
+created temp file '
+' for sound
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/k;
+PANDORA_URL
+CLIENTID
+igpcode
+setFlags
+)com.gameloft.android.GAND.GloftTCMF.Start
+pn_data_bundle
+START_FROM_PUSH
+LLLLLZ
+RandomUserToken
+jrqst
+LLLLLLL
+/locate?service=
+"Lorg/apache/http/util/EntityUtils;
+LLLLI
+/authorize
+?client_id=
+&username=
+&password=
+&credential_type=
+&device_id=hdidfv=
+%20imei=
+,&scope=message%20auth&access_token_only=true
+&device_model=
+&device_carrier=
+&device_country=
+&device_language=
+/messages/gcm
+body=
+&delay=
+&replace_label=
+&access_token=
+Ljava/io/DataOutputStream;
+3Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;
+setUseCaches
+setFollowRedirects
+jrtry
+;com.gameloft.android.GAND.GloftTCMF.PN_RETRY_REGITER_ACTION
+jbckff
+pn_rqstType
+pn_rqstParams
+notificationID
+motorola
+notification
+!Landroid/app/NotificationManager;
+notify
+PN_regId
+PN_appVersion
+PN_regId_ExpirationTimeMs
+>/data/data/com.gameloft.android.GAND.GloftTCMF/databases/PN.db
+/PN.db
+1/Android/data/com.gameloft.android.GAND.GloftTCMF
+/sdcard/gameloft/games/
+$com.gameloft.android.GAND.GloftTCMF.
+jusrpss
+jusrcred
+getFlags
+/transports/gcm
+/endpoints/
+access_token=
+/users/me/credentials
+&credential=
+&if_exists=relink
+/endpoints/delete
+enablePushNotification
+pn_local_enable
+pn_remote_enable
+pn_dont_disturbe_enable
+pn_dont_disturbe_start
+pn_dont_disturbe_end
+versionCode
+Cancel_ALL
+jphid
+Ljava/util/StringTokenizer;
+hasMoreTokens
+	nextToken
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/m;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/o;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/l;
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/n;
+LocalPNType_
+onNewIntent
+?access_token=
+&msgids=
+getBundleExtra
+8Lcom/gameloft/android/GAND/GloftTCMF/PushNotification/p;
+	pn_result
+PN.db
+create table Message(_id integer primary key autoincrement, pn_alarm_id text not null, creation_time text not null, schedule_time text not null, message_group text not null, type text not null, message_content text not null);
+DROP TABLE IF EXISTS Message
+getChildCount
+getText
+SOME_SAMPLE_TEXT
+$Landroid/content/res/ColorStateList;
+getTextColors
+getDefaultColor
+getTextSize
+Landroid/util/DisplayMetrics;
+getMetrics
+scaledDensity
+Utest
+Landroid/widget/RemoteViews;
+contentView
+apply
+removeAllViews
+drawable
+pn_custom_icon
+custom_notification_layout
+pn_icon
+val$eventName
+val$parameters
+val$valueToSum
+CUSTOM_APP_EVENTS
+custom_events
+?Error publishing Insights event '%s'
+  Response: %s
+  Error: %s
+Insights-exception: 
+FieldGetter
+setValue
+JSONObjectEntry is immutable
+CLcom/facebook/widget/FriendPickerFragment$ImmediateLoadingStrategy;
+*Lcom/facebook/widget/FriendPickerFragment;
+,Lcom/facebook/widget/FriendPickerFragment$1;
+refreshOriginalRequest
+'Lcom/facebook/FacebookServiceException;
+getRequestError
+{FacebookServiceException: 
+httpResponseCode: 
+getRequestStatusCode
+, facebookErrorCode: 
+, facebookErrorType: 
+getErrorType
+, message: 
+getErrorMessage
+3Lcom/facebook/TestSession$TestTokenCachingStrategy;
+Lcom/facebook/TestSession$1;
+onBatchCompleted
+OAUTH_DIALOG
+getTheme
+getListener
+selectedId
+1Lcom/gameloft/android/GAND/GloftTCMF/KeyProvider;
+!Landroid/content/ContentProvider;
+Landroid/content/UriMatcher;
+=content://com.gameloft.android.GAND.GloftTCMF.KeyProvider/key
+/com.gameloft.android.GAND.GloftTCMF.KeyProvider
+addURI
+match
+glshare
+"Landroid/database/ContentObserver;
+notifyChange
+Unknown or Invalid URI 
+vnd.android.cursor.dir/mt-key
+Invalid URI for insert
+Landroid/content/ContentUris;
+withAppendedId
+Failed to insert row into 
+,Landroid/database/sqlite/SQLiteQueryBuilder;
+	setTables
+Unknown URI
+getReadableDatabase
+setNotificationUri
+:Lcom/facebook/widget/GraphObjectPagingLoader$PagedResults;
+putToken
+putExpirationMilliseconds
+putPermissions
+	putSource
+putLastRefreshMilliseconds
+getExpirationMilliseconds
+getLastRefreshMilliseconds
+CLcom/gameloft/android2d/socialnetwork/SocialNetwork_Facebook$SCORE;
+*Lcom/facebook/android/AsyncFacebookRunner;
+:Lcom/facebook/android/AsyncFacebookRunner$RequestListener;
+,Lcom/facebook/android/AsyncFacebookRunner$1;
+,Lcom/facebook/android/AsyncFacebookRunner$2;
+bitmap
+isCachedRedirect
+ads_management
+create_event
+rsvp_event
+Ljava/lang/NoSuchFieldError;
+[Lcom/facebook/SessionState;
+val$exception
+val$newState
+Lcom/facebook/Session$3$1;
+>Lcom/facebook/internal/FileLruCache$CloseCallbackOutputStream;
+8Lcom/facebook/internal/FileLruCache$StreamCloseCallback;
+innerStream
+onClose
+$Lcom/gameloft/android/hdidfv/HDIDFV;
+getNHDIDFV
+getNHDIDFVVersion
+Ljava/nio/FloatBuffer;
+Ljava/nio/ByteBuffer;
+[Lb/a/b/r;
+Pointer_SetCurrentPointer
+Landroid/graphics/Canvas;
+SetAndroidCanvas
+MIDlet-Name
+IIIIIII
+ILLII
+LLLLLF
+URL-SUPPORT
+&opref=
+	&extra_4=
+	&extra_7=
+G4m3l0ft_s3cr3t0
+	&extra_8=
+&extra_13=
+SUPPORT
+BANNED
+&extra_14=
+&extra_15=
+	VFFFFFFFF
+VFFFFFFFFZ
+VFFFFI
+VFFFFIIZ
+VIIFFFF
+VIIIIL
+VLFFFFIIIZ
+glDisableClientState
+glEnableClientState
+getStyle
+VLLLLII
+	glTexEnvf
+glBlendFunc
+Landroid/opengl/GLES11;
+	glTexEnvi
+	getScaleY
+	getScaleX
+	glScissor
+glEnable
+	glDisable
+position
+glVertexPointer
+glColorPointer
+glDrawArrays
+glTexCoordPointer
+	glColor4f
+	ISO8859_1
+glViewport
+glMatrixMode
+glLoadIdentity
+*Ljavax/microedition/khronos/opengles/GL10;
+Landroid/opengl/GLU;
+gluOrtho2D
+allocateDirect
+Ljava/nio/ByteOrder;
+nativeOrder
+order
+asFloatBuffer
+glScalef
+GLSetPointer
+glClearColor
+glHint
+glShadeModel
+glFogf
+glClear
+createFromNativeLogin
+google
+"Lcom/gameloft/android2d/iap/a/d/j;
+http_2d
+"Lcom/gameloft/android2d/iap/a/e/a;
+"Lcom/gameloft/android2d/iap/a/c/a;
+ump_2d
+"Lcom/gameloft/android2d/iap/a/j/a;
+shenzhoufu_2d
+"Lcom/gameloft/android2d/iap/a/h/a;
+"Lcom/gameloft/android2d/iap/a/a/a;
+blackberry
+"Lcom/gameloft/android2d/iap/a/b/a;
+wap_cc
+"Lcom/gameloft/android2d/iap/a/k/a;
+wap_pp
+"Lcom/gameloft/android2d/iap/a/f/a;
+	EXCEPTION
+identityHashCode
+(android://sensorinfo_JSR256_acceleration
+	Lb/a/f/a;
+	Lb/a/a/d;
+	Lb/a/a/e;
+	Lb/a/a/j;
+La/b/a/a/b;
+La/b/a/a/l;
+La/b/a/a/n;
+mIndex
+mName
+mBackStackNesting
+print
+mName=
+ mIndex=
+ mCommitted=
+mTransition=#
+ mTransitionStyle=#
+mBreadCrumbTitleRes=#
+ mBreadCrumbTitleText=
+mBreadCrumbShortTitleRes=#
+ mBreadCrumbShortTitleText=
+Operations:
+  Op #
+ fragment=
+enterAnim=#
+ exitAnim=#
+popEnterAnim=#
+ popExitAnim=#
+	Removed: 
+Removed:
+Unknown cmd: 
+	mNextAnim
+VIIIZ
+&addToBackStack() called after commit()
+mContainerId
+$Landroid/content/ComponentCallbacks;
+/Landroid/view/View$OnCreateContextMenuListener;
+Landroid/util/SparseArray;
+mSavedViewState
+	sClassMap
+Landroid/util/SparseArray
+ACTIVITY_CREATED
+INITIALIZING
+RESUMED
+STARTED
+STOPPED
+	mActivity
+mAdded
+mAnimatingAway
+mArguments
+mCalled
+mCheckedForLoaderManager
+mContainer
+mDeferStart
+	mDetached
+mFragmentId
+mFragmentManager
+mFromLayout
+mHasMenu
+mHidden
+	mInLayout
+mInnerView
+La/b/a/a/v;
+mLoaderManager
+mLoadersStarted
+mMenuVisible
+	mRemoving
+	mRestored
+mResumed
+mRetainInstance
+mRetaining
+mSavedFragmentState
+mState
+mStateAfterAnimating
+mTarget
+mTargetIndex
+mTargetRequestCode
+mUserVisibleHint
+mView
+instantiate
+"Ljava/lang/InstantiationException;
+setClassLoader
+La/b/a/a/f;
+Unable to instantiate fragment 
+U: make sure class name exists, is public, and has an empty constructor that is public
+mFragmentId=#
+ mContainerId=#
+ mTag=
+mState=
+ mWho=
+ mBackStackNesting=
+mAdded=
+ mRemoving=
+ mResumed=
+ mFromLayout=
+ mInLayout=
+mHidden=
+ mDetached=
+ mMenuVisible=
+ mHasMenu=
+mRetainInstance=
+ mRetaining=
+ mUserVisibleHint=
+mFragmentManager=
+mActivity=
+mArguments=
+mSavedFragmentState=
+mSavedViewState=
+mTarget=
+ mTargetRequestCode=
+mNextAnim=
+mContainer=
+mView=
+mInnerView=
+mAnimatingAway=
+mStateAfterAnimating=
+Loader Manager:
+getArguments
+getFragmentManager
+getLayoutInflater
+	Fragment 
+ not attached to Activity
+getRetainInstance
+getTag
+getTargetFragment
+getTargetRequestCode
+getUserVisibleHint
+	initState
+isAdded
+isHidden
+isInBackStack
+isInLayout
+isRemoving
+	isResumed
+	isVisible
+#Landroid/content/res/Configuration;
+onConfigurationChanged
+Landroid/view/MenuItem;
+onContextItemSelected
+onCreateAnimation
+Landroid/view/ContextMenu;
+*Landroid/view/ContextMenu$ContextMenuInfo;
+onCreateContextMenu
+Landroid/view/Menu;
+Landroid/view/MenuInflater;
+onCreateOptionsMenu
+onDestroyOptionsMenu
+onDestroyView
+onHiddenChanged
+onLowMemory
+onOptionsItemSelected
+onOptionsMenuClosed
+onPrepareOptionsMenu
+onViewCreated
+performDestroyView
+performReallyStop
+performStart
+performStop
+registerForContextMenu
+setOnCreateContextMenuListener
+restoreViewState
+restoreHierarchyState
+Fragment already active
+setHasOptionsMenu
+setIndex
+android:fragment:
+La/b/a/a/g;
+setInitialSavedState
+setMenuVisibility
+setRetainInstance
+setTargetFragment
+setUserVisibleHint
+ id=0x
+unregisterForContextMenu
+La/b/a/a/c;
+Landroid/os/Parcelable$Creator
+La/b/a/a/d;
+Not on back stack
+createIntArray
+CHAR_SEQUENCE_CREATOR
+describeContents
+writeIntArray
+newArray
+[La/b/a/a/c;
+La/b/a/a/j;
+La/b/a/c/b;
+La/b/a/c/b
+mHandler
+removeMessages
+*Can only use lower 16 bits for requestCode
+Local FragmentActivity 
+ State:
+	mCreated=
+	mResumed=
+ mStopped=
+ mReallyStopped=
+mLoadersStarted=
+Loader Manager 
+invalidateOptionsMenu
+FragmentActivity
+/Activity result fragment index out of range: 0x
+0Activity result no fragment exists for index: 0x
+popBackStackImmediate
+dispatchConfigurationChanged
+%Landroid/view/LayoutInflater$Factory;
+getFactory
+setFactory
+getLastNonConfigurationInstance
+android:support:fragments
+onCreatePanelMenu
+getMenuInflater
+fragment
+class
+getAttributeValue
+getResourceId
+ did not create a view.
+getPositionDescription
+: Duplicate id 0x
+, tag 
+, or parent id 0x
+ with another fragment for 
+setTag
+	onKeyDown
+getRepeatCount
+onMenuItemSelected
+onPanelClosed
+hasMessages
+dispatchResume
+onPostResume
+onPreparePanel
+hasVisibleItems
+sendEmptyMessage
+ onRetainNonConfigurationInstance
+valueAt
+removeAt
+dispatchStop
+	Lb/a/a/b;
+La/b/a/a/h;
+[La/b/a/a/g;
+readBundle
+writeBundle
+%Landroid/view/animation/Interpolator;
+/Landroid/view/animation/DecelerateInterpolator;
+/Landroid/view/animation/AccelerateInterpolator;
+setInterpolator
+LFFFF
+%Landroid/view/animation/AnimationSet;
+'Landroid/view/animation/ScaleAnimation;
+	VFFFFIFIF
+addAnimation
+LLIZI
+'Landroid/view/animation/AnimationUtils;
+loadAnimation
+)Landroid/view/WindowManager$LayoutParams;
+getAttributes
+windowAnimations
+saveHierarchyState
+No activity
+android:view_state
+getSparseParcelableArray
+android:target_state
+android:target_req_state
+android:user_visible_hint
+La/b/a/a/y;
+) did not call through to super.onAttach()
+#Fragement no longer exists for key 
+: index 
+) did not call through to super.onCreate()
+La/b/a/a/x;
+No view found for id 0x
+ for fragment 
+2 did not call through to super.onActivityCreated()
+( did not call through to super.onStart()
+) did not call through to super.onResume()
+( did not call through to super.onPause()
+' did not call through to super.onStop()
+isFinishing
+. did not call through to super.onDestroyView()
+La/b/a/a/o;
+4Landroid/view/animation/Animation$AnimationListener;
+setAnimationListener
+removeView
+* did not call through to super.onDestroy()
+) did not call through to super.onDetach()
+La/b/a/a/p;
+[La/b/a/a/r;
+La/b/a/a/r;
+FragmentManager
+Re-attaching retained fragment 
+ target no longer exists: 
+$No instantiated fragment for index #
+Active Fragments in 
+Added Fragments:
+Fragments Created Menus:
+Back Stack:
+Back Stack Indices:
+mAvailBackStackIndices: 
+FragmentManager misc state:
+  mCurState=
+ mStateSaved=
+ mDestroyed=
+  mNeedMenuInvalidate=
+  mNoTransactionsBecause=
+  mAvailIndices: 
+-Recursive entry to executePendingTransactions
+myLooper
+*Must be called from main thread of process
+5Can not perform this action after onSaveInstanceState
+&Can not perform this action inside of 
+Failure saving state: active 
+ has cleared index: 
+La/b/a/c/a;
+putSparseParcelableArray
+Failure saving state: 
+% has target not in fragment manager: 
+( is not currently in the FragmentManager
+FragmentManager{
+	Lb/a/a/g;
+(Ljavax/microedition/khronos/opengles/GL;
+	Lb/a/a/f;
+(I)TE;
+(ITE;)V
+binarySearch
+keyAt
+ValidFragment
+MULTI_SELECT_BUNDLE_KEY
+USER_ID_BUNDLE_KEY
+multiSelect
+!com_facebook_friendpickerfragment
+!setFriendPickerSettingsFromBundle
+/friends
+/com.facebook.widget.FriendPickerFragment.UserId
+	setUserId
+4com.facebook.widget.FriendPickerFragment.MultiSelect
+setMultiSelect
+setSortFields
+setGroupByField
+getMultiSelect
+5Can't issue requests until Fragment has been created.
+	getUserId
+#com_facebook_friend_picker_fragment
+La/b/a/a/s;
+.Lcom/facebook/widget/GraphObjectAdapter$Filter
+La/b/a/a/q;
+[La/b/a/a/p;
+createTypedArray
+[Landroid/os/Parcelable;
+writeTypedArray
+	Lb/a/e/e;
+val$fragment
+onAnimationEnd
+onAnimationRepeat
+onAnimationStart
+La/b/a/a/w;
+La/b/a/a/u
+<TD;>;)
+La/b/a/b/a
+<TD;>;
+mStarted
+fillInStackTrace
+LoaderManager
+%Called doStart when already started: 
+ Called doStop when not started: 
+"Called doRetain when not started: 
+Called while creating a loader
+Active Loaders:
+Inactive Loaders:
+LoaderManager{
+onDoneButtonClicked
+onLoaderReset
+<TD;>;TD;)V
+<TD;>;)V
+Landroid/widget/AdapterView;
+VLLIJ
+onItemClick
+Landroid/widget/AdapterView
+Landroid/widget/AbsListView;
+onScroll
+onScrollStateChanged
+	game2.sav
+Demo_RecordAllsNames
+Record 
+>RMS doesnt exist and will not be created. try openRecordstore(
+,   true  ) to force creation
+Ljava/util/zip/CRC32;
+_saved
+!RECORDSTORE error CRC:recordName:
+RECORDSORE: CopyFileException 
+Can't delete file 
+error deleting record 
+error deleting recordStore - 
+no exist  
+_saved1
+RECORDSTORE: numRecordsOfRead:
+ENOSPC
+	Lb/a/e/c;
+RECORDSTORE: recordNumber: 
+addRecord FAILED
+Lcom/facebook/TestSession;
+appTestAccounts
+requestedPermissions
+&Lcom/facebook/TestSession$TestAccount;
+createSessionWithPrivateUser
+createSessionWithSharedUser
+createTestSession
+populateTestAccounts
+&Lcom/facebook/TestSession$UserAccount;
+testApplicationId
+testApplicationSecret
+sessionUniqueUserTag
+testAccountId
+wasAskedToExtendAccessToken
+createTestAccountAndFinishAuth
+getPermissionsString
+getAppAccessToken
+Shared %s Testuser
+getSharedTestAccountIdentifier
+%s/accounts/test-users
+setName
+storeTestAccount
+finishAuthWithTestAccount
+Must provide app ID and secret
+email
+deleteTestAccount
+FacebookSDK.TestSession
+$Could not delete test account %s: %s
+FACEBOOK_NON_JSON_RESULT
+0Could not delete test account %s: unknown reason
+findOrCreateSharedTestAccount
+!findTestAccountMatchingIdentifier
+"retrieveTestAccountsForAppIfNeeded
+	TEST_USER
+validNameStringFromInteger
+getTestApplicationId
+getTestApplicationSecret
+getUid
+:SELECT id,access_token FROM test_account WHERE app_id = %s
+FSELECT uid,name FROM user WHERE uid IN (SELECT id FROM #test_accounts)
+test_accounts
++Unexpected number of results from FQL query
+setTestApplicationId
+,Can't have more than one test application ID
+setTestApplicationSecret
+0Can't have more than one test application secret
+fakeTokenRefreshAttempt
+forceExtendAccessToken
+getTestUserId
+getWasAskedToExtendAccessToken
+{TestSession
+ testUserId:
+getDefaultPicture
+getGraphObjectRowLayoutId
+com_facebook_picker_list_row
+8com_facebook_usersettingsfragment_connected_shadow_color
+6com_facebook_usersettingsfragment_connected_text_color
+:com_facebook_usersettingsfragment_not_connected_text_color
+	val$fbids
+val$pendingResult
+val$tokenPermissions
+'createFromTokenWithRefreshedPermissions
+*User logged in as different Facebook user.
+Caught exception
+"Lcom/gameloft/android2d/iap/a/k/b;
+IAP-WorldPayBilling
+Loading webview with headers
+?ggi=0
+&contentid=
+&verify=
+val$activity
+TimeStamp request failed
+TimeStamp request success = 
+WorldPayBilling an item
+	_gameloft
+IAPOK
+android_id
+"Landroid/provider/Settings$Secure;
+uandroid
+purchase_id=
+.[isPendingVerificationBilling] wapPurchaseId: 
+Landroid/app/IntentService;
+"Landroid/os/PowerManager$WakeLock;
+toMillis
+nextLong
+DynamicSenderIds
+power
+Landroid/os/PowerManager;
+GCM_LIB
+newWakeLock
+acquire
+GCMIntentService-
+Intent service name: 
+onHandleIntent
++com.google.android.c2dm.intent.REGISTRATION
+registration_id
+unregistered
+%handleRegistration: registrationId = 
+, error = 
+, unregistered = 
+Registration error: 
+SERVICE_NOT_AVAILABLE
+)Scheduling registration retry, backoff = 
+#com.google.android.gcm.intent.RETRY
+&com.google.android.c2dm.intent.RECEIVE
+message_type
+deleted_messages
+total_deleted
+(Received deleted messages notification: 
+1GCM returned invalid number of deleted messages: 
+"Received unknown special message: 
+Received invalid token: 
+ sender id not set on constructor
+"Lcom/gameloft/android2d/iap/a/d/g;
+"Lcom/gameloft/android2d/iap/a/d/f;
+"Lcom/gameloft/android2d/iap/a/d/b;
+"Lcom/gameloft/android2d/iap/a/d/a;
+"Lcom/gameloft/android2d/iap/a/d/i;
+#Lcom/gameloft/android2d/iap/a/d/af;
+REQUEST_PURCHASE
+	ITEM_TYPE
+DEVELOPER_PAYLOAD
+Lcom/b/a/a/d;
+PURCHASE_INTENT
+IAP-BillingService
+Error with requestPurchase
+REQUEST_ID
+"Lcom/gameloft/android2d/iap/a/d/e;
+#Lcom/gameloft/android2d/iap/a/d/ah;
+GET_PURCHASE_INFORMATION
+NONCE
+NOTIFY_IDS
+putStringArray
+getPurchaseInformation
+"Lcom/gameloft/android2d/iap/a/d/d;
+CONFIRM_NOTIFICATIONS
+confirmNotifications
+"Lcom/gameloft/android2d/iap/a/d/k;
+"Lcom/gameloft/android2d/iap/a/d/u;
+"Lcom/gameloft/android2d/iap/a/d/n;
+"Lcom/gameloft/android2d/iap/a/d/l;
+"Lcom/gameloft/android2d/iap/a/d/x;
+"Lcom/gameloft/android2d/iap/a/d/v;
+IAP-GoogleBilling
+createGoogleItemJSON
+offline-items
+Found item, comsume it!!!
+PushOutGoogleItemInfoPurchased
++PushOutGoogleItemInfoPurchased - JSON load:
+8PushOutGoogleItemInfoPurchased - Find out item purchased
+2PushOutGoogleItemInfoPurchased - Save item to game
+5PushOutGoogleItemInfoPurchased - JSON array is saved:
+PushInGoogleItemInfoPurchased
+*PushInGoogleItemInfoPurchased - JSON load:
+,PushInGoogleItemInfoPurchased - Item existed
+4PushInGoogleItemInfoPurchased - JSON array is saved:
+4PushInGoogleItemInfoPurchased - JSON array not exist
+Bill Exception : 
+GoogleBilling an item
+#Lcom/gameloft/android2d/iap/a/d/ad;
+inapp
+setupGoogleBillingV3
+&injected_igp=
+injectedIGPCode: 
+, injectedSerialKey=
+([isPendingVerificationBilling] orderId: 
+%Comsume Google items at begin game!!!
+[ isPendingTransaction] 
+mSavedNotify: 
+ Pending State: 
+Restore last purchase state: 
+&Exception in CheckPendingTransaction: 
+"Setup already. Querying inventory.
+The public key is invalid.
+Creating IAB helper.
+Starting setup.
+"Lcom/gameloft/android2d/iap/a/d/w;
+IAB helper is already set up.
+Starting in-app billing setup.
+"Lcom/gameloft/android2d/iap/a/d/o;
+4com.android.vending.billing.InAppBillingService.BIND
+queryIntentServices
+"Lcom/gameloft/android2d/iap/a/d/y;
+&Billing service unavailable on device.
+#[Lcom/gameloft/android2d/iap/a/d/i;
+	RESULT_OK
+RESULT_USER_CANCELED
+RESULT_SERVICE_UNAVAILABLE
+RESULT_BILLING_UNAVAILABLE
+RESULT_ITEM_UNAVAILABLE
+RESULT_DEVELOPER_ERROR
+RESULT_ERROR
+"Lcom/gameloft/android2d/iap/a/d/h;
+#[Lcom/gameloft/android2d/iap/a/d/h;
+	PURCHASED
+CANCELED
+REFUNDED
+primary error: 
+ certificate: 
+"Lcom/gameloft/android2d/iap/a/d/c;
+CHECK_BILLING_SUPPORTED
+RESPONSE_CODE
+%CheckBillingSupported response code: 
+ received 
+remote billing service crashed
+BILLING_REQUEST
+os.name
+6makeRequestBundle - Blackberry billing - API version 1
+API_VERSION
+PACKAGE_NAME
+2makeRequestBundle - Google billing - API version 2
+Ljava/util/LinkedList;
+request id: 
+Landroid/app/Service;
+Ljava/util/LinkedList
+*purchaseStateChanged - Blackberry billing!
+#Lcom/gameloft/android2d/iap/a/d/ai;
+VLLLLJL
+Ljava/lang/SecurityException;
+!binding to Market billing service
+5com.android.vending.billing.MarketBillingService.BIND
+Could not bind to service.
+Security exception: 
+onBind
+Billing service connected
+Lcom/b/a/a/e;
+stopping service, startId: 
+stopSelf
+Billing service disconnected
+handleCommand() action: 
+iap.CONFIRM_NOTIFICATION
+notification_id
+getStringArrayExtra
+iap.GET_PURCHASE_INFORMATION
+2com.android.vending.billing.PURCHASE_STATE_CHANGED
+inapp_signed_data
+inapp_signature
+)com.android.vending.billing.RESPONSE_CODE
+getLongExtra
+response_code
+attachBaseContext
+#Lcom/gameloft/android2d/iap/a/d/aa;
+Purchase finished: 
+, purchase: 
+, responseCode: 
+Charged money.........
+	isFailure
+Purchase Cancel by user...
+Error purchasing: 
+Purchase successful.
+,Purchase is item. Starting item consumption.
+Setup finished.
+#Problem setting up in-app billing: 
+%Setup successful. Querying inventory.
+"Lcom/gameloft/android2d/iap/a/b/b;
+IAP-BlackBerryBilling
+BlackBerryBilling an item:
+"Lcom/gameloft/android2d/iap/a/d/t;
+"Lcom/gameloft/android2d/iap/a/d/r;
+ Consumption finished. Purchase: 
+, result: 
+%Consumption successful. Provisioning.
+,Saved OrderId for Google Billing Version 3: 
+-Saved NotifyID for Google Billing Version 3: 
+End consumption flow.
+Error while consuming: 
+"Lcom/gameloft/android2d/iap/a/d/z;
+#Lcom/gameloft/android2d/iap/a/d/aj;
+Query inventory finished.
+Failed to query inventory: 
+Query inventory was successful.
+Item already owned: 
+Item already owned. Consuming: 
+!Initial inventory query finished.
+!Launching purchase flow for item.
+VLLLILL
+onPurchaseStateChange: 
+ - itemId: 
+onRequestPurchaseResponse
+ (response: 
+IabResult: 
+Lcom/b/a/a/a;
+	IabHelper
+IAB helper created.
+!Querying owned items, item type: 
+Package name: 
+.Calling getPurchases with continuation token: 
+LILLL
+Owned items response: 
+getPurchases() failed: 
+*There is a exception in queryPurchases(): 
+INAPP_PURCHASE_ITEM_LIST
+INAPP_PURCHASE_DATA_LIST
+INAPP_DATA_SIGNATURE_LIST
+DBundle returned from getPurchases() doesn't contain required fields.
+Sku is owned: 
+BUG: empty/null token!
+Purchase data: 
+<Purchase signature verification **FAILED**. Not adding item.
+   Purchase data: 
+   Signature: 
+INAPP_CONTINUATION_TOKEN
+Continuation token: 
+Querying SKU details.
+5queryPrices: nothing to do because there are no SKUs.
+ITEM_ID_LIST
+DETAILS_LIST
+getSkuDetails() failed: 
+JgetSkuDetails() returned a bundle with neither an error nor a detail list.
+Got sku details: 
+Can't start async operation (
+") because another async operation(
+) is in progress.
+Starting async operation: 
+In-app billing warning: 
+0:OK/1:User Canceled/2:Unknown/3:Billing Unavailable/4:Item unavailable/5:Developer Error/6:Error/7:Item Already Owned/8:Item not owned
+0:OK/-1001:Remote exception during initialization/-1002:Bad response received/-1003:Purchase signature verification failed/-1004:Send intent failed/-1005:User cancelled/-1006:Unknown purchase response/-1007:Missing token/-1008:Unknown error/-1009:Subscriptions not available/-1010:Invalid consumption attempt
+:Unknown IAB Helper Error
+:Unknown
+9Bundle with null response code, assuming OK (known issue)
+)Unexpected type for bundle response code.
+*Unexpected type for bundle response code: 
+queryInventory
+"Lcom/gameloft/android2d/iap/a/d/m;
+2Error refreshing inventory (querying owned items).
+,Remote exception while refreshing inventory.
+6Error refreshing inventory (querying prices of items).
+7Error parsing JSON response while refreshing inventory.
+:Error refreshing inventory (querying owned subscriptions).
+>Error refreshing inventory (querying prices of subscriptions).
+2Landroid/content/IntentSender$SendIntentException;
+launchPurchaseFlow
+ Subscriptions are not available.
+Constructing buy intent for 
+, item type: 
+LILLLL
+$Unable to buy item, Error response: 
+Unable to buy item
+:SendIntentException while launching purchase flow for sku 
+Failed to send intent.
+BUY_INTENT
+Launching buy intent for 
+. Request code: 
+Landroid/content/IntentSender;
+getIntentSender
+startIntentSenderForResult
+6RemoteException while launching purchase flow for sku 
+-Remote exception while starting purchase flow
+consume
+refresh inventory
+"Lcom/gameloft/android2d/iap/a/d/p;
+VLZLLL
+Illegal state for operation (
+): IAB helper is not set up.
+3IAB helper is not set up. Can't perform operation: 
+In-app billing error: 
+Ending async operation: 
+Billing service connected.
+Lcom/b/a/a/b;
+&Checking for in-app billing 3 support.
+&Error checking for billing v3 support.
+0RemoteException while setting up in-app billing.
+'In-app billing version 3 supported for 
+Subscriptions AVAILABLE.
+Setup successful.
+'Subscriptions NOT AVAILABLE. Response: 
+Billing service disconnected.
+Items of type '
+' can't be consumed.
+Can't consume 
+. No token.
+'PurchaseInfo is missing token for sku: 
+0Remote exception while consuming. PurchaseInfo: 
+Consuming sku: 
+	, token: 
+Successfully consumed sku: 
+Successful consume of sku 
+Error consuming consuming sku 
+Error consuming sku 
+"Lcom/gameloft/android2d/iap/a/d/s;
+*Lcom/facebook/widget/ProfilePictureView$1;
+(Lcom/facebook/widget/ProfilePictureView;
+Inventory refresh successful.
+"Lcom/gameloft/android2d/iap/a/d/q;
+=[Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem$Type;
+GRAPH_OBJECT
+SECTION_HEADER
+	byteCount
+	fileCount
+getByteCount
+getFileCount
+setByteCount
+)Ljava/security/InvalidParameterException;
+#Cache byte-count limit must be >= 0
+setFileCount
+#Cache file count limit must be >= 0
+ Ljava/lang/annotation/Retention;
+&Ljava/lang/annotation/RetentionPolicy;
+RUNTIME
+ Lcom/gameloft/android/wrapper/h;
+setPackage
+queryIntentActivities
+getAllActivitiesError 
+ActivitiesGame 
+ getNavigationBarHeight === 
+${env.FIRMWARE_OPTIMIZE}
+StartGamePackageName = 
+ Data Width=
+ Data Height=
+ ScaleW = 
+ ScaleH = 
+ TranslateX= 
+ TranslateY= 
+ CanvasWidth= 
+ CanvasHeight= 
+ Inch Screen = 
+Virtual screen 
+SCREEN_ORIENTATION
+MultipleScreen GetGameModule w=
+MultipleScreen MATCH RATIO  
+*MultipleScreen use_Single_axis_auto_align 
+ index:
+MultipleScreen AUTO ALIGNMENT  
+[^[0-9][x][0-9]]
+getWidthHeightParammeterError 
+getDisplayMetrics
+widthPixels
+heightPixels
+Screen inch of devices : 
+navigation_bar_height
+dimen
+ Lcom/gameloft/android/wrapper/f;
+Dialog interrupt: 
+is Current Dialog 
+http://ingameads.gameloft.com/redir/hdloading.php?game=#GAME#&country=#COUNTRY#&lg=#LANG#&ver=#IGP_VERSION#&device=#DEVICE#&f=#FIRMWARE#&udid=#ID#&androidid=#ANDROIDID#&g_ver=#VERSION#&line_number=#LINE_NUMBER#
+https://ingameads.gameloft.com/redir/?from=#GAME#&op=#CARRIER#&game=#GAME#&ver=#VERSION#&lg=#LANG#&country=#COUNTRY#&d=#DEVICE#&f=#FIRMWARE#&udid=#ID#
+http://ingameads.gameloft.com/redir/hdloading.php?game=#GAME#&country=#COUNTRY#&lg=#LANG#&ver=#IGP_VERSION#&device=#DEVICE#&f=#FIRMWARE#&udid=#ID#&hdidfv=#HDIDFV#&androidid=#ANDROIDID#&g_ver=#VERSION#&line_number=#LINE_NUMBER#
+https://ingameads.gameloft.com/redir/?from=#GAME#&op=#CARRIER#&game=#GAME#&ver=#VERSION#&lg=#LANG#&country=#COUNTRY#&d=#DEVICE#&f=#FIRMWARE#&udid=#ID#&hdidfv=#HDIDFV#
+	getSerial
+IGP-VERSION
+ Lcom/gameloft/android/wrapper/a;
+#GAME#
+	#COUNTRY#
+#LANG#
+	#VERSION#
+#DEVICE#
+#FIRMWARE#
+#HDIDFV#
+#ANDROIDID#
+#IGP_VERSION#
+#LINE_NUMBER#
+	#CARRIER#
+SERIAL
+unknown
+android.os.SystemProperties
+	getMethod
+ro.serialno
+ Lcom/gameloft/android/wrapper/k;
+ Lcom/gameloft/android/wrapper/j;
+setTo 
+setToLogicalResolution 
+QualityScale inscrease 
+Game 
+	 Quality=
+Center
+ center
+ Lcom/gameloft/android/wrapper/b;
+ Lcom/gameloft/android/wrapper/e;
+	hf16 err:
+getPlainDef err:
+content://
+/key/
+Save to ::::::
+key='
+Error updating or creating 
+ from provider 
+.KeyProvider/key/
+	URI::::::
+value ASC 
+Error querying provider 
+Could not find key with name '
+queryContentProviders
+!Landroid/content/pm/ProviderInfo;
+	authority
+com.gameloft
+Lb/a/b/ac;
+	Lb/a/b/t;
+	Lb/a/b/s;
+Landroid/graphics/Paint;
+setAntiAlias
+Landroid/graphics/Paint$Style;
+	setDither
+setStrokeWidth
+Landroid/graphics/Paint$Cap;
+SQUARE
+setStrokeCap
+Landroid/graphics/RectF;
+Landroid/graphics/Path;
+DRAWRGB ERROR: 
+ true
+VLIIIIIIZL
+drawBitmap
+Landroid/graphics/Paint$Align;
+setTextAlign
+ascent
+VLIIFFL
+drawText
+Lb/a/b/aa;
+Lb/a/b/ab;
+Lb/a/b/af;
+	Lb/a/b/b;
+onDrawFrame
+onKeyEvent
+onSurfaceChanged
+*Ljavax/microedition/khronos/egl/EGLConfig;
+onSurfaceCreated
+onTouchEvent
+onWindowFocusChanged
+postInvalidate
+Lb/a/b/ae;
+&check=1
+&appType=2
+serverURL 
+&appType=1
+&appType=3
+LLIIZ
+createScaledBitmap
+isRecycled
+RGB_565
+freeBitmap
+	isMutable
+restoreToCount
+&t=facebook
+&ctg=FBOOK
+%ProgressDialog onWindowFocusChanged: 
+ Interrupt:
+ProgressDialog show: 
+response
+Ljavax/crypto/spec/DESKeySpec;
+Ljavax/crypto/SecretKeyFactory;
+Ljavax/crypto/SecretKey;
+Ljava/security/spec/KeySpec;
+generateSecret
+DES/ECB/NoPadding
+getPreferenceInt(
+Landroid/os/StatFs;
+getBlockSize
+getAvailableBlocks
+/sdcard/
+setPreferences(
+	GlotDebug
+?Trying to get protected resource using forward lock. Resource: 
+7Forward lock protection ok. Protected resource exists: 
+	 with ID=
+Resource: 
+$ is not protected using forward lock
+"Landroid/content/res/AssetManager;
+	getAssets
+Reading asset: 
+Error reading asset: 
+Ljava/io/FileReader;
+/proc/meminfo
+Ljava/io/LineNumberReader;
+MemTotal: 
+Landroid/app/ActivityManager;
+(Landroid/app/ActivityManager$MemoryInfo;
+getMemoryInfo
+availMem
+Package name:
+com.gameloft.android.
+InjectedIGP get from crc.bin:
+*InjectedIGP was null, setting to PlainDef:
+injectedSerialKey
+injectedIGP
+retryNumSerialKey
+SerialKey Google:
+retryNumIGP
+Increase IGP retry count to 
+"Increase SerialKey retry count to 
+Injected IGP from same APK :
+/system/app
+/system/app/
+getPackageArchiveInfo
+Ldalvik/system/PathClassLoader;
+getSystemClassLoader
+res/raw/crc.bin
+ Injected IGP from original APK :
+Using HDIDFV from DataSharing 
+HDIDFVVersion
+%Using HDIDFVVersion from DataSharing 
+	generator
+ Saving HDIDFV into DataSharing: 
+Landroid/net/wifi/WifiInfo;
+getConnectionInfo
+getMacAddress
+Error in getMac
+9774d56d682e549c
+QADEBUG.txt
+audio
+Landroid/media/AudioManager;
+getStreamVolume
+getConfiguration
+color_profile
+begin
+getPreferenceString(
+Ljava/lang/ClassCastException;
+ Lcom/gameloft/android/wrapper/m;
+	mListener
+setDialogListener
+VLLLLI
+callDialogListener
+!Lcom/facebook/android/FbDialog$1;
+'com_facebook_picker_activity_circle_row
+com_facebook_picker_checkbox
+com_facebook_picker_image
+'com_facebook_picker_list_section_header
+com_facebook_picker_search_box
+)com_facebook_placepickerfragment_list_row
+!com_facebook_usersettingsfragment
+Lcom/facebook/android/R;
+Lcom/facebook/Request$3;
+Lcom/facebook/Request$2;
+Lcom/facebook/Request$1;
+Lcom/facebook/Request$5;
+val$keysAndValues
+%s=%s
+Lcom/facebook/Request$4;
+val$callbacks
+val$requests
+Landroid/util/Pair;
+first
+second
+DEFAULT_MAX_CONCURRENT
+maxConcurrent
+(Lcom/facebook/widget/WorkQueue$WorkNode;
+pendingJobs
+runningCount
+runningJobs
+workLock
+finishItemAndStartNew
+access$202
+!Lcom/facebook/widget/WorkQueue$1;
+removeFromList
+	addToList
+setIsRunning
+	startItem
+validate
+getNext
+/Lcom/facebook/AccessToken$SerializationProxyV1;
+expires
+lastRefresh
+source
+this$1
+val$openSession
+TSTATE;
+(TSTATE;)V
+<STATE:
+EQUALS_METHOD
+TOSTRING_METHOD
+% got an unexpected method signature: 
+stringsToReplace
+LOG_TAG_BASE
+behavior
+contents
+priority
+FacebookSDK.
+replaceStrings
+registerAccessToken
+ACCESS_TOKEN_REMOVED
+registerStringToReplace
+	shouldLog
+	  %s:	%s
+getContents
+getPriority
+	logString
+setPriority
+HASH_MULTIPLIER
+	HASH_SEED
+&Landroid/util/AndroidRuntimeException;
+dispatchRestoreInstanceState
+dispatchSaveInstanceState
+getLayoutParams
+dispatchThawSelfOnly
+dispatchFreezeSelfOnly
+/[Lcom/facebook/AuthorizationClient$Result$Code;
+La/b/a/b/b;
+La/b/a/b/b
+unregisterListener
+ mArgs=
+mCallbacks=
+mLoader=
+mHaveData=
+  mDeliveredData=
+mData=
+	mStarted=
+ mReportNextStart=
+mRetaining=
+ mRetainingStarted=
+ mListenerRegistered=
+isMemberClass
+getModifiers
+Ljava/lang/reflect/Modifier;
+isStatic
+QObject returned from onCreateLoader must not be a non-static inner member class: 
+registerListener
+LoaderInfo{
+val$applicationContext
+val$applicationId
+Lcom/facebook/Settings$2$1;
+mFailingUrl
+counter
+	newThread
+FacebookSdk #
+0com_facebook_friend_picker_fragment_multi_select
+&com_facebook_login_view_confirm_logout
+'com_facebook_login_view_fetch_user_info
+"com_facebook_login_view_login_text
+#com_facebook_login_view_logout_text
+3com_facebook_picker_fragment_done_button_background
+-com_facebook_picker_fragment_done_button_text
+)com_facebook_picker_fragment_extra_fields
+*com_facebook_picker_fragment_show_pictures
++com_facebook_picker_fragment_show_title_bar
+1com_facebook_picker_fragment_title_bar_background
+'com_facebook_picker_fragment_title_text
+3com_facebook_place_picker_fragment_radius_in_meters
+0com_facebook_place_picker_fragment_results_limit
+.com_facebook_place_picker_fragment_search_text
+2com_facebook_place_picker_fragment_show_search_box
+!com_facebook_profile_picture_view
+,com_facebook_profile_picture_view_is_cropped
+-com_facebook_profile_picture_view_preset_size
+val$currentSession
+8Lcom/facebook/AuthorizationClient$GetTokenAuthHandler$1;
+/Lcom/facebook/GetTokenClient$CompletedListener;
+	completed
+getTokenCompleted
+Lcom/d/a/b;
+Lcom/d/a/a;
+com.sina.sso.RemoteSSO
+Lcom/d/a/c;
+Landroid/widget/RelativeLayout;
+https://ingameads.gameloft.com/redir/ads/splashscreen_view.php?from=FROM&country=COUNTRY&lg=LANG&udid=UDIDPHONE&hdidfv=HDIDFV&androidid=ANDROIDID&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android
+http://market.android.com/
+renameTo
+setAllowUserInteraction
+http://www.youtube.com/watch?v=
+setInitialScale
+setAppCacheEnabled
+setSupportZoom
+setBuiltInZoomControls
+setLoadWithOverviewMode
+setUseWideViewPort
+(Landroid/webkit/WebSettings$ZoomDensity;
+setDefaultZoom
+setWebChromeClient
+file://
+about:blank
+IAP-PayPalBilling
+PayPalBilling an item
+"Lcom/gameloft/android2d/iap/a/f/b;
+"Lcom/gameloft/android2d/iap/a/h/i;
+IAP-ShenzhoufuBilling
+$Timer Waiting Billing Response Start
+1Timer Waiting Billing Response Run (Reached time)
+"Lcom/gameloft/android2d/iap/a/h/h;
+SHENZHOUFUGAMELOFT
+1Exception when creating signature in checkBilling
+"Lcom/gameloft/android2d/iap/a/h/f;
+"Lcom/gameloft/android2d/iap/a/h/g;
+"Lcom/gameloft/android2d/iap/a/h/d;
+"Lcom/gameloft/android2d/iap/a/h/b;
+"Lcom/gameloft/android2d/iap/a/h/e;
+INCLUDE_RAW_RESPONSES
+REQUESTS
+"Lcom/gameloft/android2d/iap/a/h/c;
+Continue
+	Continuer
+Weiter
+	Continuar
+Continua
+Devam
+	Kontynuuj
+Cancel
+Annuler
+	Abbrechen
+Cancelar
+Annulla
+Anuluj
+Created ShenzhoufuBilling
+price:   	   
+moneyID:      
+ggi:          
+gliveID:      
+cardnumber:   
+cardpwd:      
+cardmoney:    
+cardtype:     
+timeStamp:    
+signature:    
+channel:      
+:Exception when creating signature in startTransactionForID
+ShenzhoufuBilling an item
+*Lcom/facebook/widget/WebDialog$BuilderBase
+CAPTION_PARAM
+DESCRIPTION_PARAM
+FEED_DIALOG
+FROM_PARAM
+LINK_PARAM
+NAME_PARAM
+PICTURE_PARAM
+SOURCE_PARAM
+TO_PARAM
+setCaption
+setDescription
+setLink
+setPicture
+	setSource
+setTo
+graphObjectList
+constructErrorResponses
+createResponsesFromObject
+createResponsesFromStream
+fromHttpConnection
+getGraphObjectList
+getGraphObjectListAs
+>;Z)V
+BODY_KEY
+CODE_KEY
+#INVALID_SESSION_FACEBOOK_ERROR_CODE
+NON_JSON_RESPONSE_PROPERTY
+RESPONSE_CACHE_TAG
+RESPONSE_LOG_TAG
+responseCache
+LLLLZL
+createResponseFromObject
+checkResponseAndCreateError
+getStringPropertyAsJSON
+/Got unexpected object type in response, class: 
+Unexpected number of results
+readStreamToString
+)Response (raw)
+  Size: %d
+  Response:
+Lorg/json/JSONTokener;
+-Response
+  Id: %s
+  Size: %d
+  Responses:
+getResponseCache
+getCacheKeyOverride
+getUrlForSingleRequest
+getForceRoundTrip
+ResponseCache
+BNot using cache for cacheable request because no key was specified
+Response <Error>: %s
+getConnection
+7Must pass in a valid interface that extends GraphObject
+$Lcom/facebook/Response$PagedResults;
+"Lcom/facebook/Response$PagingInfo;
+	getPaging
+getPrevious
+{Response: 
+ responseCode: 
+, graphObject: 
+	, error: 
+, isFromCache:
+Landroid/os/Process;
+setThreadPriority
+Facebook: url:
+ Update error! 
+Facebook: downloaded(
+Facebook: fos error:
+ Current user Name
+application
+ERROR: 
+val$response
+EC_APP_NOT_INSTALLED
+EC_APP_TOO_MANY_CALLS
+EC_EXPIRED
+EC_INVALID_SESSION
+EC_INVALID_TOKEN
+EC_PASSWORD_CHANGED
+EC_PERMISSION_DENIED
+)Lcom/facebook/FacebookRequestError$Range;
+EC_RANGE_PERMISSION
+EC_SERVICE_UNAVAILABLE
+EC_UNCONFIRMED_USER
+EC_UNKNOWN_ERROR
+EC_USER_CHECKPOINTED
+EC_USER_TOO_MANY_CALLS
+ERROR_CODE_FIELD_KEY
+ERROR_CODE_KEY
+	ERROR_KEY
+ERROR_MESSAGE_FIELD_KEY
+ERROR_MSG_KEY
+ERROR_REASON_KEY
+ERROR_SUB_CODE_KEY
+ERROR_TYPE_FIELD_KEY
+HTTP_RANGE_CLIENT_ERROR
+HTTP_RANGE_SERVER_ERROR
+HTTP_RANGE_SUCCESS
+INVALID_ERROR_CODE
+INVALID_HTTP_STATUS_CODE
+INVALID_MESSAGE_ID
+batchRequestResult
+	errorType
+requestResult
+requestResultBody
+requestStatusCode
+shouldNotifyUser
+subErrorCode
+userActionMessageId
+VIIILLLLLL
+VIIILLLLLLL
+optInt
+error_subcode
+getBatchRequestResult
+getCategory
+getLocalizedMessage
+getRequestResult
+getRequestResultBody
+getSubErrorCode
+getUserActionMessageId
+{HttpStatus: 
+, errorCode: 
+, errorType: 
+, errorMessage: 
+Lcom/facebook/android/R$style;
+$com_facebook_loginview_default_style
+#com_facebook_loginview_silver_style
+http://ingameads.gameloft.com/redir/freemium/hdfreemium.php?from=GAME_CODE&country=COUNTRY_DETECTED&lg=LANG&udid=UDIDPHONE&hdidfv=HDIDFV&androidid=ANDROIDID&ver=VERSION&d=DEVICE&f=FIRMWARE&game_ver=VERSION&os=android&igp_rev=1005
+market://details
+*https://play.google.com/store/apps/details
+market://search
+$https://play.google.com/store/search
+kindle
+	GAME_CODE
+COUNTRY_DETECTED
+	CONNSPEED
+getSubtype
+mobile
+setMargins
+setImageResource
+$Landroid/widget/ImageView$ScaleType;
+FIT_XY
+setScaleType
+setOnTouchListener
+com.skt.skaf.A000Z00040
+"com.skt.skaf.A000Z00040.A000Z00040
+COLLAB_ACTION
+com.skt.skaf.COL.URI
+PRODUCT_VIEW/
+com.skt.skaf.COL.REQUESTER
+A000Z00040
+http://tsto.re/
+setRequestedOrientation
+utf-8
+setDefaultTextEncodingName
+setLightTouchEnabled
+setLoadsImagesAutomatically
+setScrollBarStyle
+setLayerType
+#setMediaPlaybackRequiresUserGesture
+onKeyLongPress
+REDIRECT_CONTENT_TAG
+urlRedirectCache
+	_Redirect
+openPutStream
+VLILLZLL
+requestCode
+validateSameFbidAsToken
+-Lcom/facebook/Session$AuthorizationRequest$2;
+-Lcom/facebook/Session$AuthorizationRequest$1;
+-Lcom/facebook/Session$AuthorizationRequest$3;
+	VLILLZLLL
+-Lcom/facebook/Session$AuthorizationRequest$4;
+	VLIZLLLLL
+getValidateSameFbidAsToken
+KLcom/facebook/Session$AuthorizationRequest$AuthRequestSerializationProxyV1;
+<TU;>;)
+EXPIRATION_DATE_KEY
+INVALID_BUNDLE_MILLISECONDS
+IS_SSO_KEY
+LAST_REFRESH_DATE_KEY
+PERMISSIONS_KEY
+	TOKEN_KEY
+TOKEN_SOURCE_KEY
+USER_FBID_KEY
+getLastRefreshDate
+1com.facebook.TokenCachingStrategy.LastRefreshDate
+-com.facebook.TokenCachingStrategy.Permissions
+3com.facebook.TokenCachingStrategy.AccessTokenSource
+'com.facebook.TokenCachingStrategy.IsSSO
+'com.facebook.TokenCachingStrategy.Token
+putDate
+putExpirationDate
+putLastRefreshDate
+*com.facebook.TokenCachingStrategy.UserFBID
+)Lcom/gameloft/android2d/socialnetwork/aw;
+!Weibo : UpdateFriendList Error : 
+HEIGHT_PARAM
+MIGRATION_PARAM
+MIGRATION_VALUE
+PROFILEPIC_URL_FORMAT
+UNSPECIFIED_DIMENSION
+WIDTH_PARAM
+getProfilePictureUrl
+-Either width or height must be greater than 0
+Landroid/net/Uri$Builder;
+%https://graph.facebook.com/%s/picture
+encodedPath
+height
+appendQueryParameter
+width
+migration_overrides
+{october_2012:true}
+Facebook: Invite friends 
+Too many recipients
+Network Error
+Request sent
+Request cancelled
+post_id
+Posted story
+Publish cancelled
+Error posting story
+Facebook: POST WALL: 
+RrefreshOriginalRequest may not be called until after startLoading has been called.
+)Lcom/gameloft/android2d/socialnetwork/ar;
+Lcom/e/a/a/f;
+Lcom/e/a/a/i;
+Weibo : Login Error : 
+Weibo : Login IO Error: 
+Lcom/e/a/a/b;
+)https://api.weibo.com/oauth2/default.html
+Lcom/e/a/a/a/c;
+)Lcom/gameloft/android2d/socialnetwork/av;
+Lcom/e/a/a/c/a;
+response_type
+email,direct_messages_read,direct_messages_write,friendships_groups_read,friendships_groups_write,statuses_to_me_read,follow_app_official_microblog
+packagename
+com.weibo.android.example
+key_hash
+https://api.weibo.com/oauth2
+/authorize?
+Lcom/e/a/a/g;
+	startSync
+Landroid/webkit/CookieManager;
+removeAllCookie
+\sinaweibo
+%Weibo: exception create photo folder 
+Lcom/e/a/a/a/d;
+)Lcom/gameloft/android2d/socialnetwork/at;
+Lcom/e/a/a/a/b;
+VJIIZL
+Lcom/e/a/a/a/a;
+)Lcom/gameloft/android2d/socialnetwork/as;
+)Lcom/gameloft/android2d/socialnetwork/au;
+ Weibo : loadCurrentUser Error : 
+Weibo : GetUserID Error : 
+Weibo : GetUserID error : 
+!Weibo : postPicBinToWall Error : 
+#Weibo : postPicBinToWall success : 
+Weibo : postTextToWall Error : 
+!Weibo : postTextToWall Success : 
+mErrorType
+Lcom/e/a/a/a/e;
+,https://api.weibo.com/2/account/get_uid.json
+val$context
+	val$state
+auth.expireSession failed
+onFileNotFoundException
+onMalformedURLException
+onIOException
+val$graphPath
+setTheme
+)TCONCRETE;
+(I)TCONCRETE;
+<CONCRETE:
+<*>;>
+listener
+parameters
+theme
+-Attempted to use a Session that was not open.
+forceRoundTrip
+setCacheKeyOverride
+<TT;>;>;
+<TT;>;>;)V
+Landroid/widget/BaseAdapter;
+Landroid/widget/SectionIndexer;
+cursor
+graphObjectsById
+graphObjectsBySection
+prefetchedPictureCache
+prefetchedProfilePictureIds
+sectionKeys
+sortFields
+TT;>;
+Ljava/text/Collator;
+compareGraphObjects
+createGraphObjectView
+getGraphObjectView
+getPictureUrlOfGraphObject
+getSectionKeyOfGraphObject
+getSortFields
+getSubTitleOfGraphObject
+getTitleOfGraphObject
+populateGraphObjectView
+(TT;)I
+(TT;)
+TT;)I
+6Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem
+TT;)V
+ACTIVITY_CIRCLE_VIEW_TYPE
+DISPLAY_SECTIONS_THRESHOLD
+GRAPH_OBJECT_VIEW_TYPE
+HEADER_VIEW_TYPE
+MAX_PREFETCHED_PICTURES
+PICTURE
+dataNeededListener
+displaySections
+groupByField
+inflater
+showCheckbox
+showPicture
+processImageResponse
+callOnErrorListener
+compare
+downloadProfilePicture
+*Lcom/facebook/widget/GraphObjectAdapter$2;
+getActivityCircleView
+'com_facebook_picker_row_activity_circle
+setImageBitmap
+rebuildSections
+*Lcom/facebook/widget/GraphObjectAdapter$1;
+Ljava/util/Comparator;
+shouldShowActivityCircleCell
+areAllItemsEnabled
+rebuildAndNotify
+!com_facebook_picker_checkbox_stub
+getShowCheckbox
+$com_facebook_picker_profile_pic_stub
+getShowPicture
+getDataNeededListener
+getGroupByField
+!Received an object without an ID.
+getItem
+	getItemId
+getItemViewType
+*Lcom/facebook/widget/GraphObjectAdapter$3;
+E$SwitchMap$com$facebook$widget$GraphObjectAdapter$SectionAndItem$Type
+$Unexpected type of section and item.
+picture.height(%d).width(%d)
+getPositionForSection
+getSectionForPosition
+getSectionHeaderView
+getSections
+getViewTypeCount
+hasStableIds
+	isEnabled
+$Landroid/widget/TextView$BufferType;
+	SPANNABLE
+picker_subtitle
+Lcom/e/a/a/c/b;
+30820295308201fea00302010202044b4ef1bf300d06092a864886f70d010105050030818d310b300906035504061302434e3110300e060355040813074265694a696e673110300e060355040713074265694a696e67312c302a060355040a132353696e612e436f6d20546563686e6f6c6f677920284368696e612920436f2e204c7464312c302a060355040b132353696e612e436f6d20546563686e6f6c6f677920284368696e612920436f2e204c74643020170d3130303131343130323831355a180f32303630303130323130323831355a30818d310b300906035504061302434e3110300e060355040813074265694a696e673110300e060355040713074265694a696e67312c302a060355040a132353696e612e436f6d20546563686e6f6c6f677920284368696e612920436f2e204c7464312c302a060355040b132353696e612e436f6d20546563686e6f6c6f677920284368696e612920436f2e204c746430819f300d06092a864886f70d010101050003818d00308189028181009d367115bc206c86c237bb56c8e9033111889b5691f051b28d1aa8e42b66b7413657635b44786ea7e85d451a12a82a331fced99c48717922170b7fc9bc1040753c0d38b4cf2b22094b1df7c55705b0989441e75913a1a8bd2bc591aa729a1013c277c01c98cbec7da5ad7778b2fad62b85ac29ca28ced588638c98d6b7df5a130203010001300d06092a864886f70d0101050500038181000ad4b4c4dec800bd8fd2991adfd70676fce8ba9692ae50475f60ec468d1b758a665e961a3aedbece9fd4d7ce9295cd83f5f19dc441a065689d9820faedbb7c4a4c4635f5ba1293f6da4b72ed32fb8795f736a20c95cda776402099054fccefb4a1a558664ab8d637288feceba9508aa907fc1fe2b1ae5a0dec954ed831c0bea4
+ZLLLI
+appKey
+redirectUri
+Landroid/app/Application;
+ZLLLLI
+BATCHED_REST_METHOD_URL_BASE
+DIALOG_AUTHORITY
+DIALOG_PARAM_ACCESS_TOKEN
+DIALOG_PARAM_APP_ID
+DIALOG_PARAM_CLIENT_ID
+DIALOG_PARAM_DISPLAY
+DIALOG_PARAM_REDIRECT_URI
+DIALOG_PARAM_SCOPE
+DIALOG_PARAM_TYPE
+DIALOG_PATH
+FACEBOOK_COM
+	GRAPH_URL
+GRAPH_URL_BASE
+REST_URL_BASE
+AndroidAuthKillSwitchException
+unmodifiableCollection
+access_denied
+OAuthAccessDeniedException
+method/
+facebook.com
+https://graph.facebook.com
+ https://api.facebook.com/method/
+trim_status
+0https://api.weibo.com/2/friendships/friends.json
+,https://api.weibo.com/2/statuses/update.json
+,https://api.weibo.com/2/statuses/upload.json
+'https://api.weibo.com/2/users/show.json
+HEADER_CACHEKEY_KEY
+HEADER_CACHE_CONTENT_TAG_KEY
+bufferIndex
+	directory
+isTrimPending
+limits
+getCacheDir
+renameToTargetAndTrim
+postTrim
+&Lcom/facebook/internal/FileLruCache$2;
+md5hash
+trim started
+Ljava/util/PriorityQueue;
+1Lcom/facebook/internal/FileLruCache$ModifiedFile;
+  trim considering time=
+getModified
+ name=
+getFile
+  trim removing 
+	notifyAll
+clearForTest
+1Lcom/facebook/internal/FileLruCache$StreamHeader;
+readHeader
+Setting lastModified to 
+ for 
+setLastModified
+Could not create file at 
+&Lcom/facebook/internal/FileLruCache$1;
+writeHeader
+%Error creating buffer output stream: 
++Error creating JSON header for cache file: 
+sizeInBytesForTest
+{FileLruCache: tag:
+ file:
+Error loading data : %s
+getTokenClient
+containsAll
+FACEBOOK_APPLICATION_SERVICE
+setCompletedListener
+![Lcom/facebook/AccessTokenSource;
+getBirthday
+getLink
+"Lcom/facebook/model/GraphLocation;
+getMiddleName
+getUsername
+setBirthday
+setFirstName
+setLastName
+setMiddleName
+setUsername
+IAP-HTTPBilling
+HTTPBilling an item
+URL:             
+ContentID:       
+ProfileID:       
+Proxy Server:    
+Proxy Port:      
+Demo Code:       
+Download Code:   
+Unlock Code:     
+"Lcom/gameloft/android2d/iap/a/e/b;
+VLLLLLLLLLL
+Disabling Wi-Fi
+.Waiting for transference on Phone Data Service
+ENABLING Wi-Fi!!!
+itemType
+	removeAll
+	retainAll
+(ITT;)V
+(I)TT;
+<*>;)Z
+	(ITT;)TT;
+checkIndex
+6Only adding items at the end of the list is supported.
+9Can't cast GraphObjectCollection of non-GraphObject type 
+&GraphObjectList{itemType=%s, state=%s}
+"Lcom/gameloft/android2d/iap/a/a/b;
+IAP-AmazonBilling
+#onSdkAvailable recieved: Response -
+Created AmazonBilling
+AmazonBilling an item: 
+runCallbacks
+serializeRequestsAsJSON
+toHttpConnection
+typedListFromResponse
+ACCESS_TOKEN_PARAM
+ATTACHED_FILES_PARAM
+ATTACHMENT_FILENAME_PREFIX
+BATCH_APP_ID_PARAM
+BATCH_BODY_PARAM
+BATCH_ENTRY_DEPENDS_ON_PARAM
+BATCH_ENTRY_NAME_PARAM
+*BATCH_ENTRY_OMIT_RESPONSE_ON_SUCCESS_PARAM
+BATCH_METHOD_PARAM
+BATCH_PARAM
+BATCH_RELATIVE_URL_PARAM
+CONTENT_TYPE_HEADER
+FORMAT_JSON
+FORMAT_PARAM
+ISO_8601_FORMAT_STRING
+MAXIMUM_BATCH_SIZE
+MIGRATION_BUNDLE_PARAM
+MIME_BOUNDARY
+MY_FEED
+MY_FRIENDS
+	MY_PHOTOS
+	MY_VIDEOS
+SDK_ANDROID
+	SDK_PARAM
+SEARCH
+USER_AGENT_BASE
+USER_AGENT_HEADER
+defaultBatchApplicationId
+batchEntryDependsOn
+batchEntryName
+batchEntryOmitResultOnSuccess
+	graphPath
+httpMethod
+overriddenURL
+restMethod
+setHttpMethod
+migration_bundle
+isSupportedParameterType
+parameterToString
+addCommonParameters
+1Session provided to a Request in un-opened state.
+appendParametersToBaseUrl
+.Unsupported parameter type for GET request: %s
+createConnection
+getMimeContentType
+setChunkedStreamingMode
+)invalid state: expected a single response
+(Received %d responses while expecting %d
+executeConnectionAsync
+executeGraphPathRequestAsync
+executeMeRequestAsync
+executeMyFriendsRequestAsync
+newMyFriendsRequest
+executePlacesSearchRequestAsync
+executePostRequestAsync
+executeRestRequestAsync
+newRestRequest
+executeStatusUpdateRequestAsync
+newStatusUpdateRequest
+executeUploadPhotoRequestAsync
+newUploadPhotoRequest
+getBatchAppId
+getDefaultBatchApplicationId
+ multipart/form-data; boundary=%s
+%s.%s
+FBAndroidSDK
+isSupportedAttachmentType
+0Either location or searchText must be specified.
+place
+center
+%f,%f
+getLatitude
+getLongitude
+distance
+search
+	me/photos
+newUploadVideoRequest
+	me/videos
+Unsupported parameter type.
+processGraphObject
+processGraphObjectProperty
+%s[%s]
+%s[%d]
+serializeAttachments
+serializeParameters
+serializeToBatch
+batch
+omit_response_on_success
+depends_on
+getUrlForBatchedRequest
+relative_url
+putObjectInBundle
+attached_files
+serializeToUrlConnection
+Request
+	Request:
+Method
+getRequestMethod
+getRequestProperty
+  Parameters:
+  Attachments:
+aAt least one request in a batch must have an open Session, or a default app ID must be specified.
+batch_app_id
+setDefaultBatchApplicationId
+#could not construct URL for request
+ could not construct request body
+EOnly one of a graph path or REST method may be specified per request.
+getBatchEntryDependsOn
+getBatchEntryName
+ getBatchEntryOmitResultOnSuccess
+getGraphPath
+getHttpMethod
+getRestMethod
+&Can't override URL for a batch request
+setBatchEntryDependsOn
+setBatchEntryName
+ setBatchEntryOmitResultOnSuccess
+setGraphObject
+setGraphPath
+8Can't change HTTP method on request with overridden URL.
+setRestMethod
+{Request: 
+ session: 
+, graphPath: 
+, restMethod: 
+, httpMethod: 
+, parameters: 
+running
+Landroid/os/Messenger;
+sender
+replyTo
+messageReceiver
+messageSender
+refreshToken
+Service connection error
+Service disconnected
+CLcom/facebook/widget/PlacePickerFragment$AsNeededLoadingStrategy$1;
+getProfileId
+	ProfID: '
+' BillingType: '
+' Price: '
+' Currency: '
+(' Formatted Price: '
+	)' TNC: '
+' URL: '
+' Proxy Server: '
+' Proxy Port: '
+' Alias: '
+' ServerNumber: '
+orderId
+	productId
+purchaseTime
+optLong
+purchaseState
+developerPayload
+purchaseToken
+PurchaseInfo(type:
+#Lcom/gameloft/android2d/iap/a/d/ab;
+#Lcom/gameloft/android2d/iap/a/d/ac;
+ILLLJL
+history
+productId=?
+	LLLLLLLLL
+	purchased
+_id=?
+purchase.db
+vCREATE TABLE history(_id TEXT PRIMARY KEY, state INTEGER, productId TEXT, developerPayload TEXT, purchaseTime INTEGER)
+>CREATE TABLE purchased(_id TEXT PRIMARY KEY, quantity INTEGER)
+IAP-PurchaseDatabase
+Database upgrade from old: 
+ to: 
+DROP TABLE IF EXISTS history
+DROP TABLE IF EXISTS purchased
+!Ljava/lang/NoSuchMethodException;
+startIntentSender
+-Landroid/app/PendingIntent$CanceledException;
+IAP-PurchaseObserver
+error starting activity
+VLLIJL
+#Lcom/gameloft/android2d/iap/a/d/ae;
+VLLLIJL
+com_facebook_picker_divider
+com_facebook_picker_top_bar
+.com_facebook_usersettingsfragment_login_button
+,com_facebook_usersettingsfragment_logo_image
+.com_facebook_usersettingsfragment_profile_name
+large
+normal
+small
+*Lcom/facebook/widget/UserSettingsFragment;
+FIELDS
+REQUEST_FIELDS
+connectedStateLabel
+loginButton
+loginButtonProperties
+userProfilePic
+userProfilePicID
+access$002
+updateUI
+,Lcom/facebook/widget/UserSettingsFragment$1;
+getImageRequest
+,Lcom/facebook/widget/UserSettingsFragment$2;
+*Landroid/graphics/drawable/BitmapDrawable;
+	setBounds
+setCompoundDrawables
+VFFFI
+setShadowLayer
+getBackground
+HEADER_VERSION
+=readHeader: stream.read returned -1 while reading header size
+#readHeader: stream.read stopped at 
+ when expected 
+%readHeader: expected JSONObject, got 
+$Lcom/facebook/SessionState$Category;
+CREATED_CATEGORY
+OPENED_CATEGORY
+CLOSED_CATEGORY
+IAP-Security
+data is null
+signedData: 
+base64EncodedPublicKey : 
+Ljava/security/PublicKey;
+signature does not match data.
+orders
+Nonce not found: 
+notificationId
+JSON exception: 
+#Ljava/security/InvalidKeyException;
+"Ljava/security/SignatureException;
+signature: 
+SHA1withRSA
+Ljava/security/Signature;
+initVerify
+Signature verification failed.
+NoSuchAlgorithmException.
+Invalid key specification.
+Signature exception.
+Base64 decoding failed.
+,Ljava/security/spec/InvalidKeySpecException;
+Ljava/security/KeyFactory;
+'Ljava/security/spec/X509EncodedKeySpec;
+generatePublic
+#Lcom/gameloft/android2d/iap/a/d/ag;
+IAP-ResponseHandler
+UI is not running
+SkuDetails:
+val$buffer
+val$key
+	Lb/a/d/g;
+	onRestart
+	Lb/a/d/f;
+PushNotification Pandora url: 
+PushNotification Client Id: 
+!Lcom/facebook/FacebookSdkVersion;
+BUILD
+MIGRATION_BUNDLE
+La/b/a/b/f;
+	Receiver{
+ filter=
+	Lb/a/b/f;
+	Lb/a/b/k;
+touch pressure: 
+getPressure
+La/b/a/b/d;
+	Lb/a/b/g;
+	Lb/a/b/j;
+getKeyCode
+La/b/a/b/e;
+intent
+	Lb/a/b/d;
+isLocked
+	Lb/a/b/e;
+[La/b/a/b/e;
+countActions
+resolveTypeIfNeeded
+	getScheme
+getCategories
+LocalBroadcastManager
+Resolving type 
+ scheme 
+ of intent 
+Action list: 
+Matching against filter 
+  Filter's target already added
+ILLLLLL
+  Filter matched!  match=0x
+unknown reason
+  Filter did not match: 
+com.google.android.gcm
+backoff_ms
+Registering app 
+ of senders 
+'com.google.android.c2dm.intent.REGISTER
+com.google.android.gsf
+regId
+Saving regId on app version 
+appVersion
+,Setting the name of retry receiver class to 
+Coult not get package name: 
+No senderIds
+Unregistering app 
+)com.google.android.c2dm.intent.UNREGISTER
+.permission.C2D_MESSAGE
+Could not create instance of 
+. Using 
+ directly.
+App version changed from 
+; resetting registration id
+onServer
+Is registered on server: 
+onServerExpirationTime
+flag expired on: 
+Ljava/sql/Timestamp;
+resetting backoff for 
+	Lb/a/b/y;
+6setRenderer has already been called for this instance.
+	Lb/a/b/u;
+	Lb/a/b/v;
+	Lb/a/b/w;
+orientation: 
+getOrientation
+<Can't detect screen size. display is null!!! Using default: 
+BCan't detect screen size. windowManager is null!!! Using default: 
+<Can't detect screen size. context is null!!! Using default: 
+setFilterBitmap
+Ljava/lang/Package;
+getPackage
+.GLLib
+	Lb/a/b/h;
+	Lb/a/b/i;
+%onWindowFocusChanged IGNORED twice!: 
+onSizeChange: 
+ orientation:
+onWindowFocusChanged: 
+dataToString
+deliverResult
+(TD;)
+(TD;)V
+mAbandoned
+mContentChanged
+mReset
+abandon
+	onAbandon
+ mListener=
+ mContentChanged=
+ mAbandoned=
+ mReset=
+	forceLoad
+onForceLoad
+isAbandoned
+isReset
+	isStarted
+onContentChanged
+onReset
+onStopLoading
+&There is already a listener registered
+takeContentChanged
+No listener register
++Attempting to unregister the wrong listener
+!AlerDialog onWindowFocusChanged: 
+AlerDialog show: 
+"Lcom/gameloft/android2d/iap/a/j/g;
+"Lcom/gameloft/android2d/iap/a/j/f;
+sensor
+/Utils.context is null, can't init motion sensor
+&Ljavax/microedition/khronos/egl/EGL10;
++Ljavax/microedition/khronos/egl/EGLDisplay;
++[Ljavax/microedition/khronos/egl/EGLConfig;
+chooseConfig
+ZLLLIL
+eglChooseConfig
+eglChooseConfig failed
+No configs match configSpec
+eglChooseConfig#2 failed
+No config chosen
+ILLLII
+ZLLIL
+eglGetConfigAttrib
+"Lcom/gameloft/android2d/iap/a/j/i;
+IAP-UMPBilling
+sendMO2: new thread started
+sendMO2: server address: 
+MO2_SENT
+"Lcom/gameloft/android2d/iap/a/j/m;
+sendMO2: sendTextMessage done!
+sendMO2: SMS Thread ended!
+%sendMO2: SMS sent failed! Exception: 
++Ljavax/microedition/khronos/egl/EGLSurface;
+createWindowSurface
+eglCreateWindowSurface
+destroySurface
+eglDestroySurface
+"Lcom/gameloft/android2d/iap/a/j/h;
+sendMO1: new thread started
+sendMO1: server address: 
+MO1_SENT
+sendMO1: sendTextMessage done!
+sendMO1: SMS Thread ended!
+%sendMO1: SMS sent failed! Exception: 
+EGL_CONTEXT_CLIENT_VERSION
++Ljavax/microedition/khronos/egl/EGLContext;
+createContext
+EGL_NO_CONTEXT
+eglCreateContext
+destroyContext
+eglDestroyContext
+"Lcom/gameloft/android2d/iap/a/j/k;
+"Lcom/gameloft/android2d/iap/a/j/j;
+UMPGAMELOFT
+	Lb/a/b/p;
+Landroid/view/ViewParent;
+	getParent
+indexOfChild
+Orientation:
+width=
+ and height=
+"Lcom/gameloft/android2d/iap/a/j/n;
+val$imageView
+val$profileId
+Landroid/view/SurfaceView;
+%Landroid/view/SurfaceHolder$Callback;
+	Lb/a/b/z;
+Landroid/view/SurfaceHolder;
+	getHolder
+setType
+surfaceChanged
+surfaceCreated
+surfaceDestroyed
+"Lcom/gameloft/android2d/iap/a/j/l;
+"Lcom/gameloft/android2d/iap/a/j/o;
+[Landroid/graphics/Typeface;
+	monospace
+Landroid/graphics/Typeface;
+descent
+setTypeface
+setFakeBoldText
+setTextSkewX
+measureText
+label
+closeOptionsMenu
+Dialog onWindowFocusChanged: 
+Dialog show: 
+getActionMasked
+getActionIndex
+getPointerId
+getPointerCount
+!Canvas FroyoMotionHandler cancel 
+ numPointers:
+	Lb/a/d/b;
+	Lb/a/d/c;
+	Lb/a/d/d;
+Created UMPBilling
+UMPBilling an item
+"Lcom/gameloft/android2d/iap/a/j/b;
+umpVersion:   
+ Is Have Transaction Pending UMP:
+0com.android.vending.billing.IInAppBillingService
+Lcom/b/a/a/c;
+	Lb/a/d/e;
+"Lcom/gameloft/android2d/iap/a/j/d;
+"Lcom/gameloft/android2d/iap/a/j/c;
+"Lcom/gameloft/android2d/iap/a/j/e;
+	Lb/a/b/x;
+	 failed: 
+eglGetError
+eglTerminate
+EGL_NO_SURFACE
+eglMakeCurrent
+)releasing EGL surface because paused tid=
+%noticed surfaceView surface lost tid=
+)noticed surfaceView surface acquired tid=
+eglGetCurrentContext
+$Ljavax/microedition/khronos/egl/EGL;
+getEGL
+EGL_DEFAULT_DISPLAY
+eglGetDisplay
+EGL_NO_DISPLAY
+eglGetDisplay failed
+eglInitialize
+eglInitialize failed
+getGL
+Landroid/opengl/GLDebugHelper;
+onSurfaceChanged(
+eglSwapBuffers
+egl surface lost tid=
+currentThread
+	interrupt
+Focus 
+gained
+	GLThread 
+starting tid=
+surfaceCreated tid=
+surfaceDestroyed tid=
+1com.android.vending.billing.IMarketBillingService
+Lcom/b/a/a/f;
+exiting tid=
+glGetString
+Landroid/app/KeyguardManager;
+	getSystem
+static Width = 
+res/raw/content.txt
+getSystemResources
+inKeyguardRestrictedInputMode
+isScreenOn
+ microedition.device.manufacturer
+microedition.inch
+microedition.widthreal
+microedition.heightreal
+microedition.width
+microedition.height
+microedition.screen.virtual
+clock
+timemillis
+timenano
+moveTaskToBack
+GlotLogger:
+MIDlet://stayAwake
+MIDlet://allowSleep
+Show_Toast
+Show_Toast_
+Cancel_Toast
+FACEBOOK
+_GAME_PKG_
+_GAME_PKG_.Facebook_Wrapper
+FACEBOOK_quicklogin
+quicklogin
+GLLIVE
+_GAME_PKG_.Gllive_Login
+GLLIVE_HTML5
+#_GAME_PKG_.GLiveHTML.GLLiveActivity
+GLLIVE_HTML5_quicklogin
+HAVE_NEW_VERSION
+UPDATE-URL
+Bhttp://confirmation.gameloft.com/partners/android/update_check.php
+?key=
+[VERSION_AVAILABLE]=
+Current:
+ New:
+URL_NEW_VERSION
+[DOWNLOAD_URL]=
+URL_NEW_VERSION:
+LAUNCH_AUTOUPDATE
+isConnectedWifi
+isConnectedMobile
+updateFrom
+getPreferences
+is_multiplejar
+.Start
+setVolumeControlStream
+setToDefaults
+orientation
+LANGUAGE
+rmsLanguage
+keyguard
+IAP-DynamicFeedURL
+IAP-EnableCreditCard
+IAP-EnableUmpBilling
+IAP-EnableShenzhoufu
+IAP-ChannelID
+IAP-GoogleDeveloperKey
+VLLLLZLLLLLZZIZZLZZZZIZZZZ
+LIIIL
+clearFlags
+microedition.sensor.version
+Serial
+supports.mixing
+microedition.media.version
+microedition.device.volume
+onTrackballEvent
+lock guard s : 
+1[Lcom/facebook/internal/SessionAuthorizationType;
+"Lcom/gameloft/android2d/iap/a/c/b;
+IAP-CCARDBilling
+CCARDBilling an item
+7Device have no connection, please turn on WIFI or 3G...
+gameloft|0Ft$23#?a
+igpcode=
+&content_id=
+&tier=
+&stamp=
+Unlock Code: 
+CCARD Request: 
+	?igpcode=
+requestCompleted
+/Lcom/facebook/widget/GraphObjectPagingLoader$2;
+/Lcom/facebook/widget/GraphObjectPagingLoader$3;
+/Lcom/facebook/widget/GraphObjectPagingLoader$1;
+previousAccessToken
+%[Lcom/facebook/SessionState$Category;
+	arrayList
+convertJSONObjectToHashMap
+>([TT;)
+APPLICATION_FIELDS
+DEFAULT_STREAM_BUFFER_SIZE
+HASH_ALGORITHM_MD5
+SUPPORTS_ATTRIBUTION
+URL_SCHEME
+#attributionAllowedForLastAppChecked
+"lastAppCheckedForAttributionStatus
+scheme
+clearCookiesForDomain
+	getCookie
+'=;expires=Sat, 1 Jan 2000 00:00:01 UTC;
+	setCookie
+removeExpiredCookie
+.facebook.com
+https://facebook.com
+https://.facebook.com
+names
+metaData
+"Got an unexpected non-JSON object.
++attempted to add unsupported type to Bundle
+supports_attribution
+FacebookSDK
+createFromBundle
+createFromExistingAccessToken
+	createNew
+ACCESS_TOKEN_KEY
+ALREADY_EXPIRED_EXPIRATION_TIME
+DEFAULT_ACCESS_TOKEN_SOURCE
+DEFAULT_EXPIRATION_TIME
+DEFAULT_LAST_REFRESH_TIME
+EXPIRES_IN_KEY
+MAX_DATE
+MIN_DATE
+unmodifiableList
+appendPermissions
+ permissions:
+getBundleLongAsDate
+createFromNativeLinkingIntent
+tokenToString
+{AccessToken
+ token:
+Lcom/facebook/android/R$attr;
+confirm_logout
+done_button_background
+done_button_text
+extra_fields
+fetch_user_info
+is_cropped
+login_text
+logout_text
+multi_select
+preset_size
+radius_in_meters
+results_limit
+search_text
+show_pictures
+show_search_box
+show_title_bar
+title_bar_background
+title_text
+'Lorg/xmlpull/v1/XmlPullParserException;
+density
+values/dimens.xml
+Landroid/util/Xml;
+Lorg/xmlpull/v1/XmlPullParser;
+newPullParser
+setInput
+getEventType
+weibosdk_dialog_left_margin
+nextText
+weibosdk_dialog_top_margin
+weibosdk_dialog_right_margin
+weibosdk_dialog_bottom_margin
+Loading...
+setFeatureDrawableAlpha
+setSoftInputMode
+Lcom/e/a/a/h;
+setAcceptCookie
+removeSessionCookie
+weibosdk_dialog_bg.9.png
+leftMargin
+	topMargin
+rightMargin
+bottomMargin
+-Landroid/graphics/drawable/NinePatchDrawable;
+getNinePatchChunk
+Landroid/graphics/Rect;
+val$node
+Lcom/e/a/a/e;
+Weibo-authorize
+Login Success! access_token=
+	 expires=
+ refresh_token=
+Failed to receive access token
+JCannot create an AuthorizationRequest without a valid Activity or Fragment
+Lcom/e/a/a/d;
+onPageFinished URL: 
+onPageStarted URL: 
+address
+vnd.android-dir/mms-sms
+Lcom/gameloft/android2d/iap/h;
+getCity
+	getStreet
+getZip
+setCity
+setCountry
+setLatitude
+setLongitude
+	setStreet
+setZip
+Lcom/gameloft/android2d/iap/g;
+Lcom/gameloft/android2d/iap/d;
+Lcom/gameloft/android2d/iap/j;
+Lcom/gameloft/android2d/iap/i;
+Lcom/gameloft/android2d/iap/k;
+[isNonConsumableItem] itemType 
+IAP-IAPLib
+Is non-comsumable item? 
+mManagedContentsList = 
+, contentID
+ XPlayer.getLastErrorCode() 
+Save CC Info, Last price: 
+, last Profile Id: 
+Confirm text: 
+	OK text: 
+Later text: 
+setMaxLines
+-Landroid/text/method/ScrollingMovementMethod;
+$Landroid/text/method/MovementMethod;
+setMovementMethod
+Lcom/gameloft/android2d/iap/e;
+Lcom/gameloft/android2d/iap/f;
+https://open.weibo.cn/oauth2
+Lcom/e/a/a/c;
+sendMessage
+client_secret
+authorization_code
+/access_token
+GParameter is not complete, please fill complete appkey and redirectUrl.
+Lcom/gameloft/android2d/iap/c;
+Failed to receive access token.
+Lcom/gameloft/android2d/iap/l;
+USE_IAP_GOOGLE_BILLING
+USE_IAP_BLACKBERRY_BILLING
+USE_IAP_AMAZON_BILLING
+Count Down time: 
+ SMS sent switch to redeem screen
+Exception when retrieve feed: 
+item list is empty
++getUpdateProfileInfo false, customFeedURL =
+wrapped
+lastModified
+([Lcom/facebook/Response$PagingDirection;
+PREVIOUS
+Webview loading URL: 
+Redirect URL: 
+APPREQUESTS_DIALOG
+DATA_PARAM
+MESSAGE_PARAM
+TITLE_PARAM
+apprequests
+Ljava/util/Comparator
+val$collator
+mApplicationContext
+mApplicationId
+rmsSMS
+Cm1zY2
+rmsPackageId
+rmsAvailableProfiles
+rmsRedeemUnlocked
+rmsItemUnlocked
+rmsPackageType
+rmsMoneySpent
+rmsPrice
+rmsProfileID
+rmsNID
+rmspdl
+rmssc
+rmscurrency
+rmsOID
+rmsUID
+rmsPurchaseTicket
+	rmsSMSCnt
+	rmslastVT
+rmsofflineitems
+rmslastBLType
+rmslastMoney
+rmsLastURL
+rmsLastContentID
+rmslastPrxServer
+rmslastPrxPort
+rmslastBLRSURL
+rmsIAPLimitation
+	rmsitemid
+rmsccardurl
+rmsalias
+rmsservernumber
+	profileid
+rmstype
+rmsWPID
+rmsIIP
+rmsHintWP8
+rmsSimOperator
+rmsSimOperatorName
+enabled
+IAP.Version: 1.1.9
+[sendRequest ] pricePoint 
+Google Billing, send Imediately
+@Special flow or Resend, need to implement custom confirmation : 
+0init: No previous unlock code, generate new one.
+IAP.Version Not Set
+Clear saving purchase info.
+@You have a unfinished purchase. Cannot start new transaction!!!!
+send request exec fail  
+%URL-SUPPORT field is empty or missing
+a8bc1a23a89
+	&extra_1=
+ProfileID is empty or missing
+	&extra_6=
+Customer Care URL: 
+ProfileID is valid
+	&extra_2=
+[CheckPendingVerification]
+([CheckPendingVerification] pricepoint = 
+&[CheckPendingVerification] itemType = 
+/[CheckPendingVerification] No last Billing Type
+/[CheckPendingVerification] isPendingTransaction
+&[CheckPendingVerification] exception: 
+verifyRequest: inputCode: 
+Unlocked
+Still Locked
+%GetPrice: item is null. pricePoint = 
+, itemType =
+GetPrice ERR pricePoint = 
++GetBillingType: item is null. pricePoint = 
+ GetBillingType ERR pricePoint = 
+[GetPricePoint] index = 
+ ,  itemType 
+, pricePoint 
+ GetPricePoint:: (index = 
+), (itemType = 
+GetTermsAndConditions 
+"getVirtualCurrency : pricepoint = 
+, itemType = 
+PricePoint: 
+ itemType: 
+GetVirtualCurrency: 
+ Expcetion, getVirtualCurrency : 
+GetPromoOldPrice exception: 
+GetPriceValue - exception: 
+effective_discount
+'getPromoEffectiveDiscount - exception: 
+GetItemName : 
+GetItemName exception: 
+cleanStatus: start
+ clean: generate new unlock code.
+reset: start
+GetFeed: Init not performed.
+GetFeed: IGP Code Missing.
+GetPackageIDPurchased: 
+GetPackageTypePurchased: 
+$set text for confirmation screen wp8
+itemUnlockedSilent: 
+TotalMoney Spent: 
+ Profile ID : 
+Exception save money spent :
+Services list is empty
+getRunningServices
+0Landroid/app/ActivityManager$RunningServiceInfo;
+service
+getClassName
+Found HK Service: 
+VYak174TwfgThk2HPOfH
+[Get srvc name List]
+2http://confirmation.gameloft.com/freemium/content/
+ Exception : 
+[Get managed contents List]
+2https://iap.gameloft.com/freemium/getmanageditems/
+$getItemCurrencyISOCode - exception: 
+$clear transaction in progress status
+result: 
+ GetItemTrackingUID - exception: 
+GetItemContentID - exception: 
+BITMAP_HEIGHT_KEY
+BITMAP_KEY
+BITMAP_WIDTH_KEY
+CUSTOM
+IS_CROPPED_DEFAULT_VALUE
+IS_CROPPED_KEY
+LARGE
+MIN_SIZE
+NORMAL
+PENDING_REFRESH_KEY
+PRESET_SIZE_KEY
+PROFILE_ID_KEY
+SMALL
+SUPER_STATE_KEY
+imageContents
+	isCropped
+lastRequest
+presetSizeType
+queryHeight
+queryWidth
+initialize
+processResponse
+getPresetSizeInPixels
+CENTER_INSIDE
+setPresetSize
+4Error in downloading profile picture for profileId: 
+sendImageRequest
+refreshImage
+updateImageQueryParameters
+setBlankProfilePicture
+getPresetSize
+VZIIII
+onLayout
+	onMeasure
+Landroid/view/View$MeasureSpec;
+getMode
+makeMeasureSpec
+setMeasuredDimension
+measureChildren
+onRestoreInstanceState
+ProfilePictureView_superState
+ProfilePictureView_profileId
+ProfilePictureView_presetSize
+ProfilePictureView_isCropped
+ProfilePictureView_width
+ProfilePictureView_height
+ProfilePictureView_bitmap
+ProfilePictureView_refresh
+setCropped
+!Must use a predefined preset size
+requestLayout
+setCategory
+7)	7F
+7'-$7
+76)7x
+7]&7!
+7+(7#
+#7A(7@(7&)7
+7]&7!
+%7{&7t%7
+27V%7
+7Y%7Z%7\%7^%7
+7k%7n,7|,
