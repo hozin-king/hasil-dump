@@ -1,0 +1,2119 @@
+  no game files, no keys  
+  sem arquivos do jogo, sem keys  
+  voc
+  you bring your own dump
+ %d%%
+ (Vulkan 
+ (build 
+ (not ready)
+ (sdk 
+ 3,7 GB 
+ Bot
+ Frame submission, GPU and memory
+ Iniciar Super Mario Bros. Wonder
+ Landroid/content/pm/FeatureInfo;
+ Landroid/content/pm/PackageInfo;
+ Landroid/graphics/BitmapFactory;
+ Landroid/view/WindowInsets$Type;
+ Ljava/lang/InterruptedException;
+ No permission to read the file: 
+ STr
+ Sem permiss
+ Z@p
+ aberto
+ android.intent.category.OPENABLE
+ arquivo %d
+ avail_mb=
+ com arquivos que voc
+ continua de onde parou se for interrompido
+ continues where it stopped if interrupted
+ copiados foram mantidos.
+ da 1.0.0. O celular l
+ density=
+ do launcher), ent
+ existiam) em %.0f s
+ extrai do seu pr
+ feita no present pass. Padr
+ file %d
+ foi gravado fica; a pr
+ gravados s
+ importance=
+ importar o jogo de novo.
+ last session ended unexpectedly
+ n0]
+ o dump 1.0.0 l
+ opened
+ os arquivos onde est
+ para diagn
+ posi
+ precisar
+ process=
+ pronto
+ q r
+ q s
+ q0&
+ reason=
+ rodando
+ shader files installed
+ status=
+ tela; a amplia
+ traz o seu pr
+ um .zip de saves (deste ou de outro aparelho).
+ uma importa
+!"5!
+!"5!X
+!45B=
+!Importe o jogo primeiro: Arquivos
+!Landroid/app/ApplicationExitInfo;
+!Landroid/content/ContentResolver;
+!Landroid/graphics/LinearGradient;
+!Landroid/graphics/Path$Direction;
+!Landroid/os/ParcelFileDescriptor;
+!Ldalvik/annotation/MemberClasses;
+!Ljava/lang/NumberFormatException;
+![Landroid/content/pm/FeatureInfo;
+!https://www.youtube.com/@belmante
+!n j
+!q s
+!w5s8
+"3 #
+"60 (do jogo: 60, 30 quando pesado)
+"60 (game's own: 60, 30 when heavy)
+"Landroid/content/res/AssetManager;
+"Landroid/graphics/Shader$TileMode;
+"Ldalvik/annotation/EnclosingClass;
+"No permission to read the folder: 
+"Sem permiss
+"p0_
+"p0l
+"r =
+"requestDisallowInterceptTouchEvent
+#2aa8ff
+#2b2d33
+#3dbb4a
+#44464e
+#6d6f78
+#Autom
+#Drag each button where you want it.
+#Landroid/content/pm/PackageManager;
+#Landroid/graphics/Typeface$Builder;
+#Landroid/text/StaticLayout$Builder;
+#Landroid/view/View$OnClickListener;
+#Ldalvik/annotation/EnclosingMethod;
+#Ljava/nio/charset/StandardCharsets;
+#Preencher a tela (vis
+#TRH
+#TUH
+#Volta os bot
+#android.intent.action.OPEN_DOCUMENT
+#e8262b
+#f3ecd2
+#ff4fa8
+#ffd23a
+#fffbea
+#from your own Switch (Lockpick_RCM)
+#runtime/src/main.cpp setting(trace)
+$  (this APK has no assets/spirv.zip)
+$1 (fast cores for the render thread)
+$5Ce
+$Arraste cada bot
+$Landroid/content/pm/ApplicationInfo;
+$Landroid/graphics/drawable/Drawable;
+$Landroid/provider/DocumentsContract;
+$Landroid/text/method/MovementMethod;
+$Landroid/widget/ImageView$ScaleType;
+$Ldalvik/annotation/MethodParameters;
+$R2T
+$VALUES
+$What Android recorded for this app:
+$da sua pr
+$q s
+$values
+%  (este APK n
+%.0f
+%.1f GB
+%.1f ms
+%.2f GB 
+%.2f GB de %.2f GB
+%.2f GB of %.2f GB
+%3TP
+%Desligado (16:9, faixas nas laterais)
+%Landroid/view/ViewGroup$LayoutParams;
+%Landroid/view/WindowInsetsController;
+%Lio/github/belmantegu/wonderrecomp/R;
+%Nenhum seletor de pastas dispon
+%android.intent.action.CREATE_DOCUMENT
+%d MB  %s
+%d arquivos de cache apagados
+%d arquivos de save exportados
+%d arquivos de save importados
+%d arquivos, %.1f GB
+%d cache files deleted
+%d files, %.1f GB
+%d save files exported
+%d save files imported
+%s:%.3f,%.3f,%.3f
+&Open-source libraries and assets used.
+&Puts the buttons back where they were.
+&Writes user/save to a .zip for backup.
+'1 (n
+'5g6
+'Grava user/save em um .zip para backup.
+'Lio/github/belmantegu/wonderrecomp/Wui;
+'Nenhum seletor de arquivos dispon
+'XCI or NSP + prod.keys, or a data .zip.
+'wght' 
+($TP
+(>T4
+(FTp:
+(Import done in %.0f s: the game is ready
+(Landroid/app/ActivityManager$MemoryInfo;
+(Landroid/text/method/LinkMovementMethod;
+(Lio/github/belmantegu/wonderrecomp/Lang;
+(Mostra as linhas marcadas como AVAN
+(O\R1
+(\?{
+(ainda sem log)
+(android.intent.action.OPEN_DOCUMENT_TREE
+(import: this APK has no assets/spirv.zip
+(knN
+(no log yet)
+)Landroid/graphics/drawable/ColorDrawable;
+)Landroid/view/WindowManager$LayoutParams;
+)Landroid/widget/FrameLayout$LayoutParams;
+)Lio/github/belmantegu/wonderrecomp/Props;
+)Lio/github/belmantegu/wonderrecomp/WCard;
+)O que o Android registrou para este app:
+)Projeto Belmante and everyone who helped.
+*Imported, but this APK has no game library
+*Landroid/widget/LinearLayout$LayoutParams;
+*Lio/github/belmantegu/wonderrecomp/WParts;
+*runtime/src/svc_am.cpp getenv(NX_HANDHELD)
++GPU, vers
++Lio/github/belmantegu/wonderrecomp/R$color;
++Lio/github/belmantegu/wonderrecomp/R$style;
++Lio/github/belmantegu/wonderrecomp/WButton;
++Ljava/util/concurrent/atomic/AtomicBoolean;
++java:FpsOverlay (GameActivity.nativeFrames)
+, sem atualiza
+,Early partial submits inside the same frame.
+,GPU, Vulkan version and what the game needs.
+,Game ready 
+,Landroid/graphics/drawable/GradientDrawable;
+,Lio/github/belmantegu/wonderrecomp/AppFiles;
+,Lio/github/belmantegu/wonderrecomp/R$mipmap;
+,Lio/github/belmantegu/wonderrecomp/Settings;
+,XCI ou NSP + prod.keys, ou um .zip de dados.
+,ZZx
+,[Lio/github/belmantegu/wonderrecomp/WButton;
+,nx.log (and the previous run's nx.log.prev).
+,runtime/src/hle_vi.cpp getenv(NX_DISPLAY_HZ)
+,runtime/src/svc_am.cpp getenv(NX_RENDER_RES)
+,xZx.
+-$$Nest$fgethandler
+-$$Nest$fgetlayout
+-$$Nest$fgetrunning
+-$$Nest$fgetui
+-$$Nest$fputcounting
+-$$Nest$fputfileBytes
+-$$Nest$fputfileCount
+-$$Nest$mattachOverlay
+-$$Nest$mfinish
+-$$Nest$mimportFinished
+-$$Nest$mimportSaves
+-$$Nest$mrefresh
+-$$Nest$msample
+-$$Nest$mwipe
+-$$Nest$mworkDump
+-$$Nest$mworkZip
+-Lio/github/belmantegu/wonderrecomp/ImportJob;
+-Lio/github/belmantegu/wonderrecomp/WControls;
+.*\.xc[0-9]
+.*\.xci\.[0-9]+
+.Lio/github/belmantegu/wonderrecomp/FpsOverlay;
+.Lio/github/belmantegu/wonderrecomp/GameConfig;
+.Lio/github/belmantegu/wonderrecomp/Props$Kind;
+.Lio/github/belmantegu/wonderrecomp/Props$Prop;
+.Lio/github/belmantegu/wonderrecomp/R$drawable;
+.apk-shaders
+.bin
+.import
+.no android.hardware.vulkan.* feature reported
+.nsp
+.nx.log (e o da partida anterior, nx.log.prev).
+.part
+.runtime/src/nvn/nvn_present.cpp getenv(NX_FSR)
+.runtime/src/perf_hint.cpp getenv(NX_GPU_TURBO)
+.tmp
+.xci
+/Bibliotecas e recursos de c
+/Lio/github/belmantegu/wonderrecomp/Diagnostics;
+/Lio/github/belmantegu/wonderrecomp/ImportJob$1;
+/Lio/github/belmantegu/wonderrecomp/ImportJob$2;
+/Lio/github/belmantegu/wonderrecomp/ImportJob$3;
+/Lio/github/belmantegu/wonderrecomp/ImportJob$4;
+/Lio/github/belmantegu/wonderrecomp/ImportJob$5;
+/Lio/github/belmantegu/wonderrecomp/OptionsText;
+/Lio/github/belmantegu/wonderrecomp/Props$Store;
+/Lio/github/belmantegu/wonderrecomp/WParts$Pill;
+/Lio/github/belmantegu/wonderrecomp/ZipImporter;
+/Removes analysis / extract / spirv. Saves stay.
+/[Lio/github/belmantegu/wonderrecomp/Props$Kind;
+/proc/
+/runtime/src/frame_stats.cpp getenv(NX_AFFINITY)
+0 (o sistema decide, padr
+0 (one part)
+0 (system decides, default)
+0 (uma parte)
+0,5x
+0,67x
+0,75x
+0,85x
+0.5x
+0.67
+0.67x
+0.75
+0.75x
+0.85
+0.85x
+0.xci (cartucho) ou .nsp, na pasta ou abaixo dela
+010015100B514000
+0Lio/github/belmantegu/wonderrecomp/FpsOverlay$1;
+0Lio/github/belmantegu/wonderrecomp/GameActivity;
+0Lio/github/belmantegu/wonderrecomp/OptionsModel;
+0Lio/github/belmantegu/wonderrecomp/WCard$Action;
+0Lio/github/belmantegu/wonderrecomp/WParts$Badge;
+0Quanto o RCAS afia a imagem depois da amplia
+0T#N
+0TT;
+0Y M
+0[Lio/github/belmantegu/wonderrecomp/Props$Store;
+0runtime/src/nvn/nvn_queue.cpp getenv(NX_FPS_CAP)
+1---<<<x
+1080p (n
+1080p (sharp)
+120 Hz (game runs 2x fast)
+120 Hz (jogo 2x mais r
+1280x720
+150 (default)
+150 (padr
+1600x900
+1920x1080
+1Deletes pipelines_*.bin. Rebuilt on the next run.
+1How much RCAS sharpens the picture after scaling.
+1Lio/github/belmantegu/wonderrecomp/ControlLayout;
+1Lio/github/belmantegu/wonderrecomp/ImportJob$Doc;
+1Lio/github/belmantegu/wonderrecomp/WButton$Style;
+1Reads a saves .zip (from this or another device).
+1TPH
+1[Lio/github/belmantegu/wonderrecomp/WCard$Action;
+1p a
+1q@Q
+2 (not the small cores)
+2 (sem os n
+2 em voo
+2 in flight
+2Importa
+2Lio/github/belmantegu/wonderrecomp/GameActivity$1;
+2Lio/github/belmantegu/wonderrecomp/NativeImporter;
+2Remove analysis / extract / spirv. Os saves ficam.
+2TSH
+2[Lio/github/belmantegu/wonderrecomp/WButton$Style;
+2n j
+2n0x
+2p0_
+2runtime/src/touch_layout.cpp getenv(NX_TOUCH_SIZE)
+3 GB
+3 em voo
+3 in flight
+3,5 GB
+3-+"n0
+3.5 GB
+3.xci (cartridge) or .nsp, in the folder or below it
+30 (always, steady)
+30 (sempre, est
+322l
+333?
+33s?
+33s?q
+3Envios parciais antecipados dentro do mesmo quadro.
+3Files with the same name in user/save are replaced.
+3Lio/github/belmantegu/wonderrecomp/OptionsActivity;
+3Lio/github/belmantegu/wonderrecomp/WParts$Progress;
+3n h
+3runtime/src/nvn/nvn_frames.cpp getenv(NX_PIPELINED)
+3runtime/src/nvn/nvn_sets.cpp getenv(NX_PAD_BUFFERS)
+4 GB
+4 em voo
+4 in flight
+45#g
+45$n
+4Apaga os pipelines_*.bin. Recria na pr
+4Import cancelled. The files already copied are kept.
+4Importado, mas este APK n
+4Layout salvo; vale na pr
+4Lio/github/belmantegu/wonderrecomp/ImportJob$Doc-IA;
+4Lio/github/belmantegu/wonderrecomp/LauncherActivity;
+4Lio/github/belmantegu/wonderrecomp/WControls$Choice;
+4Lio/github/belmantegu/wonderrecomp/WControls$Slider;
+4Lio/github/belmantegu/wonderrecomp/WControls$Toggle;
+4Packs log, device and settings into a file to share.
+4runtime/src/nvn/nvn_present.cpp getenv(NX_FSR_SHARP)
+5 GB
+540p (leve)
+540p (light)
+5Gn 
+5Lio/github/belmantegu/wonderrecomp/OptionsActivity$1;
+5Lio/github/belmantegu/wonderrecomp/OptionsActivity$2;
+5Lio/github/belmantegu/wonderrecomp/OptionsActivity$3;
+6 GB
+60 Hz (normal)
+60: a regra do pr
+60: the game's own rule (60 fps when the phone keeps up, its own 30 fps mode when heavy). 30: always the 30 fps mode at the right game speed; a steady 33 ms frame, cooler and lighter on battery.
+6Layout saved; it applies the next time the game starts
+6Lio/github/belmantegu/wonderrecomp/LauncherActivity$1;
+6Lio/github/belmantegu/wonderrecomp/LauncherActivity$2;
+6Lio/github/belmantegu/wonderrecomp/LauncherActivity$3;
+6Lio/github/belmantegu/wonderrecomp/LauncherActivity$4;
+6Lio/github/belmantegu/wonderrecomp/LauncherBackground;
+6Lio/github/belmantegu/wonderrecomp/WControls$OnChange;
+6Lio/github/belmantegu/wonderrecomp/ZipImporter$Result;
+6Mirrors the layout; the stick moves to the right half.
+6Onde as threads ficam nos clusters (big/prime/little).
+6runtime/src/nvn/nvn_ultrawide.cpp getenv(NX_ULTRAWIDE)
+6runtime/src/platform_android.cpp setting(render_scale)
+6runtime/src/platform_android_audio.cpp getenv(NX_MUTE)
+7$SwitchMap$io$github$belmantegu$wonderrecomp$Props$Kind
+720p
+8(the Vulkan device name is in nx.log: "gpu:" and "vk:")
+8Landroid/graphics/drawable/GradientDrawable$Orientation;
+8Lio/github/belmantegu/wonderrecomp/LauncherActivity$2$1;
+8Lio/github/belmantegu/wonderrecomp/LayoutEditorActivity;
+8Lio/github/belmantegu/wonderrecomp/OptionsModel$Backend;
+8Lio/github/belmantegu/wonderrecomp/ZipImporter$Listener;
+8about 3.7 GB 
+8runtime/src/memguard_android.cpp getenv(NX_MEM_LIMIT_GB)
+90 Hz (game runs 1.5x fast)
+90 Hz (jogo 1,5x mais r
+900p
+960x540
+9Landroid/content/pm/PackageManager$NameNotFoundException;
+9Lio/github/belmantegu/wonderrecomp/ZipImporter$Cancelled;
+9Where the threads sit on the clusters (big/prime/little).
+:Arquivos com o mesmo nome em user/save ser
+:Espelha o layout; o anal
+:Jogo pronto 
+;Lio/github/belmantegu/wonderrecomp/NativeImporter$Callback;
+<---------
+<<<<<
+<<Z<K
+<<Zi
+<<ii
+<=x<
+<Lio/github/belmantegu/wonderrecomp/OptionsModel$FileBackend;
+<VkPipelineCache on disk: fewer stutters after the first run.
+<Z<xZ<x<ZZ
+<ZiZ<x
+<Zxxxx<xZxxZx
+<clinit>
+<i<Z<
+<iiZ<x
+<init>
+<q o
+<runtime/src/nvn/nvn_frames.cpp getenv(NX_SUBMIT_CHUNK_DRAWS)
+<runtime/src/platform_android_input.cpp getenv(NX_TOUCH_SHOW)
+=<<<
+=Esconde os bot
+=Import done: %d files (%d copied, %d already there) in %.0f s
+=Importa
+=Installing this version's shaders; press Play again when done
+=Z<<
+>;)V
+>Y4I
+>lambda$row$3$io-github-belmantegu-wonderrecomp-OptionsActivity
+>lambda$row$4$io-github-belmantegu-wonderrecomp-OptionsActivity
+>lambda$row$5$io-github-belmantegu-wonderrecomp-OptionsActivity
+>lambda$row$6$io-github-belmantegu-wonderrecomp-OptionsActivity
+>q r
+>xZxZxx
+?Logs file system calls and SVCs. Very slow: for diagnosis only.
+?No .xci or .nsp file in the chosen folder (or its sub-folders).
+?Y1H
+?lambda$new$0$io-github-belmantegu-wonderrecomp-WControls$Toggle
+?n0Q
+?q r
+?runtime/src/platform_android_input.cpp getenv(NX_TOUCH_OPACITY)
+@?q 
+@Hides the touch controls and ignores touches (use a controller).
+@R!J
+@R$J
+@RSJ
+@Tq.
+@VkPipelineCache em disco: menos engasgos depois da primeira vez.
+@Z@q w
+@lambda$build$0$io-github-belmantegu-wonderrecomp-OptionsActivity
+@n j
+@q0&
+@q@t
+@runtime/src/nvn/nvn_pipeline_cache.cpp getenv(NX_PIPELINE_CACHE)
+A data .zip
+A frequ
+A importa
+A tradu
+ACTION
+ADO.
+ADVANCED
+ADoes not open the audio output; the game keeps time with a timer.
+ALIGN_CENTER
+ALIGN_NORMAL
+AUTO
+AVAN
+About
+Abrindo o dump
+Abrir
+Action
+Advanced options
+Alambda$build$0$io-github-belmantegu-wonderrecomp-LauncherActivity
+Alambda$build$1$io-github-belmantegu-wonderrecomp-LauncherActivity
+Alambda$build$2$io-github-belmantegu-wonderrecomp-LauncherActivity
+Alambda$build$3$io-github-belmantegu-wonderrecomp-LauncherActivity
+Alambda$build$4$io-github-belmantegu-wonderrecomp-LauncherActivity
+Alta (0,5)
+An import is running
+AndroidRuntime:*
+Apagar
+Apagar dados importados
+Apagar os dados importados?
+App language
+AppFiles.java
+Arquivos
+Arquivos do jogo e saves
+Arquivos do jogo importados
+Arquivos:
+Autom
+Automatic
+Automatic (60% of RAM)
+Automatic (pipelined on phones)
+Aviso
+B2 0
+BK1-x
+BLUE
+BOARD
+Back
+Backend
+Badge
+Belmante's channel
+Bff&@
+Bn0b
+Bp0_
+Bprod.keys was not found in the chosen folder (or its sub-folders).
+Bq c
+Buffer padding
+Button opacity
+Button size
+C22)
+CENTER
+CHANNEL
+CHOICE
+CLAMP
+CLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$EditorView;
+CLio/github/belmantegu/wonderrecomp/WCard$$ExternalSyntheticLambda0;
+CLio/github/belmantegu/wonderrecomp/WCard$$ExternalSyntheticLambda1;
+CNenhum arquivo .xci ou .nsp na pasta escolhida (nem nas subpastas).
+CONFIG
+CPU cores
+CREAM
+CREAM2
+Cache de pipelines
+Callback
+Canal do Belmante
+Cancel
+Cancel the import
+Cancel the import?
+Cancelar
+Cancelar a importa
+Cancelar importa
+Cancelled
+Canto superior direito
+Canto superior esquerdo
+Choice
+Choose the dump
+Choose the folder
+Clear
+Clear pipeline cache
+Cn m
+Completo
+Configura
+Console mode
+Console mode's own
+Contador de FPS
+Continuar
+ControlLayout.java
+Controles
+Controls
+Copiando o pacote de dados
+Copying the data pack
+Could not create 
+Could not create the folder 
+Could not open 
+Could not open the chosen file
+Counter position
+Credits
+D8$$SyntheticClass
+DEBUG:*
+DEFAULT
+DEFAULTS
+DEFAULT_BOLD
+DEVICE
+DR2W
+DS~r
+Dados
+Dados do jogo
+Dados do jogo incompletos
+Dados importados apagados
+Data
+Default (0.2)
+Delete
+Delete imported data
+Delete the imported data?
+Desempenho
+Desligado
+Desligado (padr
+Details
+Detalhes
+Diagn
+Diagnostics
+Diagnostics saved
+Diagnostics.java
+Docked / TV (1080p)
+Done
+Draws per submitted part
+Draws por parte enviada
+EO guarda encerra o jogo acima disso, em vez de o sistema matar o app.
+ERegistra file system e SVCs no log. Muito lento: s
+EXPERIMENTAL
+Edit
+Edit buttons
+Editar
+Editar bot
+EditorView
+Elambda$renderList$2$io-github-belmantegu-wonderrecomp-OptionsActivity
+Elambda$renderTabs$1$io-github-belmantegu-wonderrecomp-OptionsActivity
+English
+Envio de quadros, GPU e mem
+Envios de GPU em voo
+Erro inesperado: 
+Escala da janela
+Escolher a pasta
+Escolher o dump
+Espa
+Espelhar
+Este aparelho
+Export
+Exportar
+Extract
+Extracting
+Extracting ExeFS (program)
+Extracting RomFS
+Extraindo
+Extraindo o ExeFS (programa)
+Extraindo o RomFS
+Extrair
+F RPB
+FEmpacota log, aparelho e configura
+FILL
+FINGERPRINT
+FIT_START
+FInstalando os shaders desta vers
+FO prod.keys n
+FPS counter
+FPS limit
+FPS overlay failed: 
+FPS, logs and device
+FPS, logs e aparelho
+FSR 1
+FSR sharpness
+Failed
+Falha na importa
+Falhou
+Fences em pipeline: quantos envios ficam em voo. Autom
+FileBackend
+Files
+Files:
+Fill the screen (wider view)
+Fill the screen: the game draws a wider view of the level to the phone's own shape instead of 16:9 with bars. The HUD stays a centred 16:9 area. A little heavier (more pixels).
+Flambda$showChoose$5$io-github-belmantegu-wonderrecomp-LauncherActivity
+Flambda$showChoose$6$io-github-belmantegu-wonderrecomp-LauncherActivity
+Flambda$showChoose$7$io-github-belmantegu-wonderrecomp-LauncherActivity
+FpsOverlay.java
+Free space
+Frequ
+Full
+Fullscreen
+GAmplia
+GHOST
+GPU default
+GPU submits in flight
+GPU turbo
+GProjeto Belmante  
+GREEN
+GTurns off the KGSL power control: Adreno at its top clock. Runs hotter.
+Game data
+Game data folder:
+Game data incomplete
+Game files and saves
+Game files imported
+Game not imported
+Game ready 
+GameActivity.java
+GameConfig.java
+HAMD FidelityFX upscaling: renders fewer pixels and rebuilds the picture.
+HARDWARE
+HBn0R
+HThe files already written are kept; the next import continues from them.
+Handheld (720p)
+High (0.5)
+Hlambda$onCreate$0$io-github-belmantegu-wonderrecomp-LayoutEditorActivity
+Hlambda$onCreate$1$io-github-belmantegu-wonderrecomp-LayoutEditorActivity
+Hlambda$onCreate$2$io-github-belmantegu-wonderrecomp-LayoutEditorActivity
+Hlambda$onCreate$3$io-github-belmantegu-wonderrecomp-LayoutEditorActivity
+Hlambda$onCreate$4$io-github-belmantegu-wonderrecomp-LayoutEditorActivity
+Hlambda$showProgress$8$io-github-belmantegu-wonderrecomp-LauncherActivity
+I>xi<ZK
+IFFFFI
+IIIII
+IImporta
+ILLL
+ILLLLZL
+INFO
+INK2
+Idioma do app
+Idioma, cr
+Image
+Image, performance...
+Imagem
+Imagem, desempenho
+Import
+Import cancelled
+Import failed
+Import saves?
+Import the game
+Import the game first: Files
+ImportJob.java
+Importa
+Importados 
+Importando
+Importar
+Importar o jogo
+Importar saves?
+Imported 
+Imported data deleted
+Importing...
+Incomplete
+Incompletos
+Instalando os shaders
+Installing shaders
+Internal resolution
+JDesliga o controle de energia KGSL: Adreno no clock m
+JK[Ki
+JOGAR
+JOs arquivos j
+JThe guard ends the game above this, instead of the system killing the app.
+Jogo n
+Jogo pronto 
+K-N--Z
+KI=xZ
+KK-<
+KKKK
+Keep going
+Kii-ik
+Kind
+KxZx
+Kxi<Z
+Kxx=
+L>Y1B
+L>q r
+L?q 
+LABELS
+LEFT
+LEFT_RIGHT
+LICENSE-lucide.txt
+LIIFI
+LLFLZLL
+LLII
+LLIIIILL
+LLIILI
+LLIL
+LLLI
+LLLIF
+LLLL
+LLLLL
+LLLLLL
+LLLLLLLL
+LLLLLLLLLL
+LOGCAT
+Landroid/app/Activity;
+Landroid/app/ActivityManager;
+Landroid/app/Dialog;
+Landroid/app/NativeActivity;
+Landroid/content/Context;
+Landroid/content/Intent;
+Landroid/content/res/Resources;
+Landroid/database/Cursor;
+Landroid/graphics/Bitmap;
+Landroid/graphics/BitmapShader;
+Landroid/graphics/BlendMode;
+Landroid/graphics/Canvas;
+Landroid/graphics/Color;
+Landroid/graphics/Matrix;
+Landroid/graphics/Paint$Align;
+Landroid/graphics/Paint$Style;
+Landroid/graphics/Paint;
+Landroid/graphics/Path;
+Landroid/graphics/Rect;
+Landroid/graphics/RectF;
+Landroid/graphics/Shader;
+Landroid/graphics/Typeface;
+Landroid/net/Uri;
+Landroid/os/Build$VERSION;
+Landroid/os/Build;
+Landroid/os/Bundle;
+Landroid/os/Debug$MemoryInfo;
+Landroid/os/Debug;
+Landroid/os/Handler;
+Landroid/os/IBinder;
+Landroid/os/Looper;
+Landroid/os/Process;
+Landroid/os/StatFs;
+Landroid/os/SystemClock;
+Landroid/text/Layout$Alignment;
+Landroid/text/StaticLayout;
+Landroid/text/TextPaint;
+Landroid/util/DisplayMetrics;
+Landroid/util/Log;
+Landroid/view/Display$Mode;
+Landroid/view/Display;
+Landroid/view/KeyEvent;
+Landroid/view/MotionEvent;
+Landroid/view/View$MeasureSpec;
+Landroid/view/View;
+Landroid/view/ViewParent;
+Landroid/view/Window;
+Landroid/view/WindowManager;
+Landroid/widget/FrameLayout;
+Landroid/widget/ImageView;
+Landroid/widget/LinearLayout;
+Landroid/widget/ScrollView;
+Landroid/widget/TextView;
+Landroid/widget/Toast;
+Lang.java
+Language, credits and licences
+Last lines of nx.log:
+LauncherActivity.java
+LauncherBackground.java
+Layout back to right-handed
+Layout de volta para destro
+Layout espelhado (canhoto)
+Layout mirrored (left-handed)
+Layout restaurado
+Layout restored
+LayoutEditorActivity.java
+Ldalvik/annotation/InnerClass;
+Ldalvik/annotation/Signature;
+Ldalvik/annotation/Throws;
+Left-handed mode
+Lendo as keys
+Lendo o dump
+Licen
+Licences
+Ligado
+Limite de FPS
+Limite de mem
+Limpar
+Limpar cache de pipelines
+Listener
+Ljava/io/BufferedReader;
+Ljava/io/ByteArrayOutputStream;
+Ljava/io/File;
+Ljava/io/FileDescriptor;
+Ljava/io/FileInputStream;
+Ljava/io/FileNotFoundException;
+Ljava/io/FileOutputStream;
+Ljava/io/FileReader;
+Ljava/io/FileWriter;
+Ljava/io/IOException;
+Ljava/io/InputStream;
+Ljava/io/OutputStream;
+Ljava/io/RandomAccessFile;
+Ljava/io/Reader;
+Ljava/lang/CharSequence;
+Ljava/lang/Class;
+Ljava/lang/Double;
+Ljava/lang/Enum;
+Ljava/lang/Enum<
+Ljava/lang/Exception;
+Ljava/lang/Float;
+Ljava/lang/Integer;
+Ljava/lang/Long;
+Ljava/lang/Math;
+Ljava/lang/NoSuchFieldError;
+Ljava/lang/Object;
+Ljava/lang/Process;
+Ljava/lang/ProcessBuilder;
+Ljava/lang/Runnable;
+Ljava/lang/Runtime;
+Ljava/lang/RuntimeException;
+Ljava/lang/SecurityException;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/lang/System;
+Ljava/lang/Thread;
+Ljava/lang/Throwable;
+Ljava/lang/reflect/Array;
+Ljava/nio/charset/Charset;
+Ljava/util/ArrayList;
+Ljava/util/Arrays;
+Ljava/util/Date;
+Ljava/util/HashMap;
+Ljava/util/Iterator;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Locale;
+Ljava/util/Map;
+Ljava/util/Map<
+Ljava/util/concurrent/TimeUnit;
+Ljava/util/zip/ZipEntry;
+Ljava/util/zip/ZipInputStream;
+Ljava/util/zip/ZipOutputStream;
+Log da 
+Log of the last run: 
+Logs
+MANUFACTURER
+MINUS
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda0;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda1;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda2;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda3;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda4;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda5;
+MLio/github/belmantegu/wonderrecomp/OptionsActivity$$ExternalSyntheticLambda6;
+MODEL
+MUTED
+Maximum (0)
+Medium (1)
+Memory limit
+Mirror
+Modo canhoto
+Modo do console
+Mudo
+Mute
+NAMES
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda0;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda1;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda2;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda3;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda4;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda5;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda6;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda7;
+NLio/github/belmantegu/wonderrecomp/LauncherActivity$$ExternalSyntheticLambda8;
+NLio/github/belmantegu/wonderrecomp/WControls$Toggle$$ExternalSyntheticLambda0;
+NONE
+NX_AFFINITY
+NX_DISPLAY_HZ
+NX_FPS_CAP
+NX_FSR
+NX_FSR_SHARP
+NX_GPU_TURBO
+NX_HANDHELD
+NX_MEM_LIMIT_GB
+NX_MUTE
+NX_PAD_BUFFERS
+NX_PIPELINED
+NX_PIPELINE_CACHE
+NX_RENDER_RES
+NX_SUBMIT_CHUNK_DRAWS
+NX_TOUCH_LAYOUT
+NX_TOUCH_MIRROR
+NX_TOUCH_OPACITY
+NX_TOUCH_SHOW
+NX_TOUCH_SIZE
+NX_ULTRAWIDE
+NativeImporter.java
+Niii
+Nitidez do FSR
+No file chooser available: 
+No folder chooser available: 
+No game library
+No sharpening (2)
+Non-profit project. It includes no code, assets, keys or firmware of the game. Nintendo and Super Mario are trademarks of Nintendo.
+Not imported
+Notice
+Np^v
+O do modo do console
+O launcher n
+O recompilador, o runtime e o launcher s
+OFF_ON
+OFF_ON_EN
+OFF_ON_PT
+OFL-Fredoka.txt
+Off (16:9, side bars)
+On-screen buttons
+On-screen buttons and gamepad
+OnChange
+Opacidade dos bot
+Open
+Opening the dump
+OptionsActivity.java
+OptionsModel.java
+OptionsText.java
+Os arquivos do jogo est
+Overlay while playing.
+PINK
+PLAY
+PLUS
+Padr
+Pasta dos dados do jogo:
+Performance
+Pill
+Pipeline cache
+Pipelined fences: how many submits stay in flight. Automatic pipelines on integrated GPUs (phones): faster (the fountain scene went from 24 to 60 fps on a Galaxy S23). If meshes look exploded in a course (DEBUG-2 #76), choose Synchronous.
+Port
+Portugu
+Portuguese
+Posi
+Preencher a tela: o jogo desenha uma vis
+Preenchimento de buffers
+Progress
+Projeto Belmante
+Projeto Belmante e quem ajudou.
+Projeto Belmante: https://www.youtube.com/@belmante
+Projeto sem fins lucrativos. N
+Pronto
+Prop
+Props.java
+Q8=)\
+Q8>Y
+Q8>q
+QnSK
+R.java
+RAM: %d MB
+REINICIA
+REINICIA O JOGO
+RELEASE
+REQ_DIAG
+REQ_FOLDER
+REQ_OPTIONS
+REQ_SAVES_IN
+REQ_SAVES_OUT
+REQ_ZIP
+RESTARTS
+RESTARTS THE GAME
+RIGHT
+RLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$$ExternalSyntheticLambda0;
+RLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$$ExternalSyntheticLambda1;
+RLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$$ExternalSyntheticLambda2;
+RLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$$ExternalSyntheticLambda3;
+RLio/github/belmantegu/wonderrecomp/LayoutEditorActivity$$ExternalSyntheticLambda4;
+ROOT
+Rastrear chamadas de sistema
+Reading the dump
+Reading the keys
+Reset
+Reset layout
+Resolu
+Resolution, scaling and filters
+Restaurar
+Restaurar layout
+Result
+SDK_INT
+SECONDS
+SLIDER
+SOC_MANUFACTURER
+SOC_MODEL
+SOFT_LIGHT
+SPARKLES
+STROKE
+SUPPORTED_ABIS
+Salvar
+Salvar diagn
+Save
+Save diagnostics
+Saves: export
+Saves: exportar
+Saves: import
+Saves: importar
+Screen rate
+Sem a biblioteca do jogo
+Sem nitidez (2)
+Settings
+Settings.java
+Shader translation uses the Ryujinx translator (MIT) offline. Fredoka font (SIL OFL), Lucide icons (ISC).
+Shows the rows marked ADVANCED.
+Simple
+Simples
+Slider
+Sobre
+Sobreposi
+Soft (1.5)
+Sound
+Sound output
+Start Super Mario Bros. Wonder
+Store
+Style
+Suave (1,5)
+Super Mario Bros. Wonder
+Synchronous (safe)
+T(3"
+TABS
+TAB_ICONS
+TAIL
+TITLE_ID
+TImporta
+TOGGLE
+TProjeto Belmante  
+TThe game needs Vulkan 1.3 (android.hardware.vulkan.version >= 0x403000), 64-bit ARM.
+TV (1080p)
+TYPE
+T_ABOUT
+T_AUDIO
+T_CONTROLS
+T_DATA
+T_DIAG
+T_IMAGE
+T_PERF
+Tamanho dos bot
+The game files are in place, but this APK has no translated shaders (assets/spirv.zip), so the game cannot start yet. Build the APK with the shaders (tools: see docs/WONDER-ANDROID-OPTIONS.md).
+The import is still running
+The launcher does not include the game, keys or firmware. Choose the folder that has YOUR prod.keys (+ title.keys) and your dump of Super Mario Bros. Wonder 1.0.0 (the cartridge .xci, or .nsp). Put only the 1.0.0 dump there, no updates: the recompiled code is for 1.0.0. The phone reads the files where they are and extracts them to the app's own folder.
+The rate the game paces itself on. The game advances one step per frame, so 90/120 Hz make the whole game run faster (music out of sync): an experiment, not a smoother 60.
+The recompiler, runtime and launcher are by the project. The game runs only from files you dump from your own console.
+This device
+Toggle
+Top left
+Top right
+Trace system calls
+UTF-8
+UTF_8
+Um .zip de dados
+Unexpected error: 
+VFFFF
+VFFFFIIL
+VFFFFL
+VFFFFLLL
+VFFFI
+VFFFL
+VIIF
+VIII
+VIIII
+VIIIII
+VIIL
+VJIL
+VLFFL
+VLFIIIIL
+VLFLIL
+VLFZL
+VLII
+VLIIL
+VLJJL
+VLLF
+VLLFFF
+VLLFZ
+VLLL
+VLLLIL
+VLLLJ
+VLLLL
+VLLLLL
+VLLLLLL
+VLLLLLLLLLL
+VO jogo exige Vulkan 1.3 (android.hardware.vulkan.version >= 0x403000), ARM de 64 bits.
+VZIL
+Verificando
+Verifying
+Vers
+Version
+View
+Voltar
+WButton.java
+WCard.java
+WControls.java
+WONDER
+WParts.java
+Widescreen
+Window scale
+Wui.java
+XCI / NSP
+Y?5C
+YELLOW
+YImport cancelled. What was already written is kept; the next import continues from there.
+Z<K<<ZikZi=ZKx-
+Z<Z<Z
+Z<Z<x
+Z=KiK
+ZFFFF
+ZZZ-
+Zi<<x<
+Zi<K<
+ZipImporter.java
+ZxZxZ
+Zxxx
+[Landroid/view/Display$Mode;
+[Ljava/io/File;
+[Ljava/lang/Object;
+[Ljava/lang/String;
+[[Ljava/lang/String;
+[app.txt]
+[config.txt]
+[gpu]
+\d+x\d+
+]This APK was built without libwonder.so (launcher-only build), so Play cannot start the game.
+_display_name
+`Size of the rendered picture (16:9, as the game draws it; the phone adds bars on other screens).
+a um passo por quadro, ent
+aTamanho da imagem renderizada (16:9, como o jogo desenha; o aparelho p
+abis=
+about
+accessFlags
+acknowledged
+action
+actionIcon
+actionLabel
+active
+activity
+adas
+addCategory
+addFlags
+addRoundRect
+addSuppressed
+addView
+advanced
+advancedOn
+affinity
+afterChange
+alert
+alpha
+analysis
+analysis/
+analysis/main.bin, sdk.bin: 
+android.hardware.vulkan
+android.intent.action.VIEW
+android.intent.extra.MIME_TYPES
+android.intent.extra.TITLE
+android=
+apkHasShaders
+app.txt
+app.txt: 
+app=
+app=?
+appFile
+append
+application/octet-stream
+application/x-zip-compressed
+application/zip
+applyLanguage
+argb
+artPaint
+ascent
+asset
+attachOverlay
+attached
+audio
+ausente
+auto
+availMem
+availableProcessors
+background
+begin
+blue
+board=
+body
+bold
+border
+borderEm
+bottom
+bottomMargin
+build
+buildChildDocumentsUriUsingTree
+buildDocumentUriUsingTree
+builtLang
+canPlay
+cancel
+cancelled
+cannot create 
+cardChoose
+cardLayer
+ceil
+center
+changed
+charAt
+check
+chevron-left
+chevron-right
+choice
+chunk_draws
+clamp
+cleanParts
+clearShadowLayer
+clearcache
+cleos da CPU
+cleos pequenos)
+cleos r
+clip
+clipOutPath
+clipPath
+clipRect
+clone
+close
+closeEntry
+color
+colors
+cones Lucide (ISC).
+config.txt
+config.txt: 
+configFile
+confirm
+consumer
+containerName
+containerOk
+controls
+copied
+count
+countFiles
+counting
+cpus=
+createDocument
+credits
+current
+currentName
+currentTimeMillis
+da de 
+da de som
+da em %.0f s: o jogo est
+da: %d arquivos (%d copiados, %d j
+data
+data=
+dataDir
+dataState
+data_root.txt
+decodeStream
+defaults
+delete
+deleteTree
+densityDpi
+desc
+descent
+device
+device.txt
+device=
+dflt
+dia (1)
+diag
+digo aberto usados.
+digo recompilado 
+digo, assets, keys ou firmware do jogo. Nintendo e Super Mario s
+dismiss
+display_hz
+display_mode=
+ditos
+ditos e licen
+document_id
+done
+dos.
+down
+download
+drag
+draw
+drawBitmap
+drawCircle
+drawPath
+drawRect
+drawRoundRect
+drawText
+drawable
+dropLegacyDataRoot
+dump
+dump aberto
+dump opened
+e barras em outras telas).
+ease
+edge
+effective
+elapsedRealtimeNanos
+en0]
+encontrado
+endsWith
+equals
+eraser
+error
+es avan
+es na tela
+es na tela e controle f
+es virtuais e ignora toques (use um controle).
+es: o c
+exefs
+exists
+exit_info.txt
+exits
+experimental
+explicit
+external-link
+extract
+extract/
+extract/romfs
+extract/romfs: 
+fJa@
+fLH>
+face
+faceOverride
+facePath
+ffF?
+fff?
+fff?5
+fff?q
+fff@
+fgOverride
+fileBytes
+fileCount
+files
+fill
+find
+fingerprint=
+finish
+finished
+flip-horizontal-2
+folder
+folder-open
+font
+fonts/
+fonts/Fredoka.ttf
+fonts/shared_5.ttf
+format
+found
+fpsMode
+fpsParams
+fps_cap
+fps_mode
+fps_pos
+fraction
+frames
+fsr_sharpness
+gEste APK foi gerado sem o libwonder.so (build s
+gRemoves analysis, extract and spirv (about 3.7 GB). Saves stay. You will have to import the game again.
+gamepad-2
+gauge
+getAbsolutePath
+getActionMasked
+getApp
+getApplicationContext
+getApplicationInfo
+getAssets
+getAttributes
+getAvailableBytes
+getBytes
+getCanonicalPath
+getContentResolver
+getContext
+getData
+getDecorView
+getDefault
+getDescription
+getDisplay
+getDisplayMetrics
+getDrawable
+getExternalFilesDir
+getFD
+getFd
+getFilesDir
+getHeight
+getHistoricalProcessExitReasons
+getIdentifier
+getImportance
+getInputStream
+getInsetsController
+getInstance
+getLanguage
+getLayoutParams
+getLongVersionCode
+getMainLooper
+getMemoryInfo
+getMessage
+getMode
+getModeId
+getName
+getNextEntry
+getPackageInfo
+getPackageManager
+getPackageName
+getParent
+getParentFile
+getPath
+getPhysicalHeight
+getPhysicalWidth
+getProcessName
+getReason
+getRefreshRate
+getResources
+getRuntime
+getScrollY
+getShader
+getSize
+getStatus
+getString
+getStringExtra
+getSupportedModes
+getSystemAvailableFeatures
+getSystemService
+getTextSize
+getTimestamp
+getTotalPss
+getTreeDocumentId
+getVisibility
+getWidth
+getWindow
+getWindowManager
+getWindowToken
+getX
+getY
+getprop
+gico passa para a metade direita.
+gpu_turbo
+gravity
+green
+hB333?
+handheld
+handler
+hardware=
+hasAnalysis
+hasFocus
+hasGameLib
+hasNext
+hasRomfs
+hasShaders
+hashCode
+height
+heightPixels
+hide
+hideCard
+hideSystemBars
+hypot
+i a imagem.
+i<KL
+i<KzZ
+iZ<<Z<<x
+iZ<ixx
+iZiK
+iZxK
+i[iZ<<ZZ
+ic_activity
+ic_check
+ic_chevron_left
+ic_chevron_right
+ic_cpu
+ic_download
+ic_eraser
+ic_external_link
+ic_eye
+ic_file_archive
+ic_flask_conical
+ic_flip_horizontal_2
+ic_folder
+ic_folder_open
+ic_gamepad_2
+ic_gauge
+ic_image
+ic_info
+ic_launcher
+ic_launcher_bg
+ic_launcher_fg
+ic_launcher_round
+ic_pencil
+ic_play
+ic_rotate_ccw
+ic_save
+ic_settings
+ic_share
+ic_trash_2
+ic_triangle_alert
+ic_upload
+ic_volume_2
+ic_x
+icon
+iconSize
+image
+import
+import: 
+importFinished
+importSaves
+importing
+inYy
+index
+indexOf
+info
+init
+inset
+installConfig
+installShaders
+installSharedFont
+invalidate
+ip &
+isAttachedToWindow
+isContainer
+isDefault
+isDirectory
+isEmpty
+isEnabled
+isFile
+isFinishing
+isFocused
+isKey
+isKeys
+iterator
+ixxZ
+jZi<<
+java:GameActivity.attachOverlay
+java:Lang
+java:OptionsActivity
+kRemove analysis, extract e spirv (cerca de 3,7 GB). Os saves ficam. Voc
+keys lidas
+keys read
+keys.txt
+keysOk
+kind
+label
+labels
+lambda$show$0
+lambda$show$1
+lang
+lastEndedAbnormally
+lastError
+lastIndexOf
+launcher/background.jpg
+launcher/logo.png
+layout
+layoutInDisplayCutoutMode
+layoutWidth
+left
+leftMargin
+legal
+length
+libc:*
+libnximport: 
+libwonder.so
+libwonder.so: 
+licenses
+licenses/
+lift
+lineTo
+lines
+links/belmante.jpg
+list
+listFiles
+listScroll
+load
+loadError
+loadLibrary
+loaded
+logcat
+logcat unavailable: 
+logcat.txt
+logpath
+ltima partida: 
+ltima sess
+ltimas linhas do nx.log:
+main.bin
+makeText
+manufacturer=
+margin
+marker
+matches
+measureText
+medium
+mem_limit
+mime_type
+mipmap
+mirror
+missing
+mkdirs
+mode
+model
+model=
+moveTo
+moveToNext
+mutate
+mute
+myPid
+nJjZ
+name
+names
+nanoTime
+nativeFrames
+nativeLibraryDir
+nativeOk
+ncia da tela
+ncia pela qual o jogo se guia. O jogo avan
+ncrono (seguro)
+ncrono.
+newInstance
+next
+note
+nx.log
+nx.log.prev
+nximport
+nximport:*
+o (0,2)
+o (mais leve, mais fps). TV: renderiza para 1080p (mais n
+o 90/120 Hz deixam o jogo inteiro mais r
+o AMD FidelityFX: renderiza menos pixels e reconstr
+o Jogar n
+o abre a sa
+o ainda est
+o cancelada
+o cancelada. O que j
+o cancelada. Os arquivos j
+o conclu
+o consegue iniciar o jogo.
+o continua dali.
+o continua deles.
+o da GPU
+o de shaders usa o tradutor do Ryujinx (MIT), offline. Fonte Fredoka (SIL OFL), 
+o do Vulkan e o que o jogo exige.
+o do contador
+o do projeto. O jogo roda s
+o durante o jogo.
+o e extrai para a pasta pr
+o e filtros
+o em um arquivo para compartilhar.
+o final 
+o foi encontrado na pasta escolhida (nem nas subpastas).
+o foi poss
+o importado
+o importados
+o inclui c
+o inicia. Gere o APK com os shaders (veja docs/WONDER-ANDROID-OPTIONS.md).
+o interna
+o livre
+o mais larga da fase no formato do celular em vez de 16:9 com faixas. O HUD fica numa 
+o mais larga)
+o mantidos; a pr
+o marcas da Nintendo.
+o no lugar, mas este APK n
+o o jogo ainda n
+o original.
+o para ler a pasta: 
+o para ler o arquivo: 
+o para onde quiser.
+o por GPU (1 em Adreno 7xx+).
+o rodando
+o substitu
+o tem a biblioteca do jogo
+o tem assets/spirv.zip)
+o tem os shaders traduzidos (assets/spirv.zip), ent
+o terminou de forma inesperada
+o traz o jogo, nem keys, nem firmware. Escolha a pasta que tem o SEU prod.keys (+ title.keys) e o seu dump do Super Mario Bros. Wonder 1.0.0 (o cartucho .xci, ou .nsp). Coloque s
+o um 60 mais fluido.
+o): mais r
+o, amplia
+o; toque em Jogar de novo ao terminar
+obtain
+onActivityResult
+onAttachedToWindow
+onBackPressed
+onClick
+onCreate
+onDestroy
+onDetachedFromWindow
+onDraw
+onFocusChanged
+onKeyDown
+onKeyUp
+onMeasure
+onPause
+onPlay
+onProgress
+onResume
+onTouchEvent
+onWindowFocusChanged
+opacity
+open
+openChannel
+openDocument
+openFileDescriptor
+openInputStream
+openOutputStream
+ordinal
+overlay
+p=?=
+pad_buffers
+paint
+panel
+parse
+parseColor
+parseFloat
+parseInt
+pencil
+percent
+perf
+performClick
+performHapticFeedback
+phase
+phaseLabel
+pickFolder
+pickZip
+pido (a cena da fonte foi de 24 para 60 fps num Galaxy S23). Se as malhas aparecerem explodidas em alguma fase (DEBUG-2 #76), escolha S
+pido (m
+pido)
+pido, a GPU confere os limites sozinha. Ligado: o preenchimento antigo, se o texto do HUD ou os personagens falharem.
+pidos na thread de render)
+pill
+pipeline_cache
+pipelined
+pipelines_
+play
+portuguese
+post
+postDelayed
+postInvalidateOnAnimation
+postScale
+postTranslate
+press
+pressedDown
+prevFrames
+prevNs
+pria Switch (Lockpick_RCM)
+pria do app.
+prio console.
+prio dump
+prio jogo (60 fps quando o aparelho aguenta, o modo de 30 fps dele quando pesado). 30: sempre o modo de 30 fps na velocidade certa; quadro est
+prod.keys
+prod.keys 
+prod.keys in the same folder
+prod.keys na mesma pasta
+progress
+props
+putExtra
+putNextEntry
+qq o
+query
+r;zK
+rTamanho da imagem em rela
+radiusEm
+ram_mb=
+rea 16:9 centralizada. Um pouco mais pesado (mais pixels).
+read
+readFully
+readLine
+ready
+redirectErrorStream
+refresh
+remove
+removeAllViews
+removeCallbacks
+removeViewImmediate
+rename failed: 
+renameTo
+renderList
+renderTabs
+render_height
+render_scale
+replace
+requestCancel
+requestFocus
+requestLayout
+requestWindowFeature
+requires
+reset
+resetlayout
+resize
+restart
+restore
+result
+right
+rightMargin
+ring
+ro.board.platform
+ro.hardware.egl
+ro.hardware.vulkan
+ro.soc.model
+romfs
+root
+rotate
+rotate-ccw
+round
+rows
+running
+sample
+save
+saveConfig
+saveLayerAlpha
+saves_export
+saves_import
+scale
+scan
+screen=
+scrollTo
+sdk.bin
+seconds
+seek
+semi
+separator
+serialize
+session.marker
+sessionBegin
+sessionEnd
+setAdjustViewBounds
+setAlignment
+setApp
+setBackground
+setBackgroundColor
+setBackgroundDrawable
+setBlendMode
+setBounds
+setCancelable
+setCfg
+setClickable
+setClipToPadding
+setColor
+setContentDescription
+setContentView
+setCornerRadius
+setDecorFitsSystemWindows
+setDefaultFocusHighlightEnabled
+setEnabled
+setFadingEdgeLength
+setFocusable
+setFontVariationSettings
+setGravity
+setImageBitmap
+setIncludeFontPadding
+setIndex
+setLayoutParams
+setLetterSpacing
+setLineSpacing
+setLocalMatrix
+setMeasuredDimension
+setMinimumHeight
+setMode
+setMovementMethod
+setOnClickListener
+setOrientation
+setPadding
+setResult
+setRunning
+setScale
+setScaleType
+setShader
+setShadowLayer
+setShape
+setSlider
+setStroke
+setStrokeWidth
+setStyle
+setSystemBarsBehavior
+setSystemUiVisibility
+setText
+setTextAlign
+setTextColor
+setTextIsSelectable
+setTextSize
+setTint
+setTitle
+setTranslate
+setType
+setTypeface
+setVerticalFadingEdgeEnabled
+setVerticalScrollBarEnabled
+setVisibility
+setWillNotDraw
+settings
+settings.txt
+shaders
+shadersId
+shadersMissing
+shadowEm
+share
+shared_5.ttf.part
+shared_5.ttf: 
+shortName
+show
+showCard
+showChoose
+showDetails
+showProgress
+sica fora de sincronia): um experimento, n
+sico
+size
+sizeLine
+skipped
+slider
+sliderDefault
+small
+soc=
+space
+spaced
+spark
+sparkPaint
+spirv
+spirv.id
+spirv.zip
+spirv/
+spirv/results.tsv
+spirv/results.tsv: 
+split
+srn0
+start
+startActivity
+startActivityForResult
+startDump
+startShaders
+startZip
+startedAt
+startsWith
+state
+step
+stepLp
+stepSize
+stico
+stico salvo
+stico.
+store
+stripEnd
+stripe
+style
+subLayout
+subPaint
+substring
+summary
+sweep
+sweepPaint
+sync
+systemBars
+tOff (default): faster, the GPU checks the bounds itself. On: the old zero padding, if HUD text or characters glitch.
+tY<<
+tabName
+tabNote
+tabs
+tagAdvanced
+tagExperimental
+tagRestart
+tail
+tailText
+tally
+text
+this$0
+this$1
+tick
+tico
+tico (60% da RAM)
+tico (em pipeline no celular)
+tico usa pipeline em GPUs integradas (celulares): mais r
+tido)
+tido, mais pesado).
+til (720p)
+til: o jogo renderiza para 720p, como o Switch na m
+time
+title
+title.keys
+titleLayout
+titlePaint
+toByteArray
+toLowerCase
+toRadians
+toString
+toText
+toast
+toggle
+token
+topMargin
+total
+totalMem
+totalRamMb
+touch_show
+trace
+trackLeft
+trackRight
+translate
+trash-2
+trim
+udio; o jogo continua cronometrado por timer.
+ui_advanced
+ultrawide
+unknown
+upload
+uptimeMillis
+uq c
+user/
+user/save
+user/save/
+v1.0.0
+val$app
+val$d
+val$decor
+val$dir
+val$j
+val$t
+val$u
+val$uri
+value
+valueOf
+values
+vel abrir 
+vel abrir o arquivo escolhido
+vel criar 
+vel criar a pasta 
+vel de 33 ms, mais frio e gasta menos bateria.
+vel)
+vel: 
+verify
+version
+versionName
+view
+vn0x
+vnd.android.document/directory
+volume-2
+vulkanLines
+wSize of the picture relative to the screen; the present pass does the final scaling. Default by GPU (1 on Adreno 7xx+).
+waitFor
+wanted
+width
+widthPixels
+wipe
+wonder
+wonder-count
+wonder-diagnostics.zip
+wonder-import
+wonder-overlay
+wonder-saves.zip
+wonder-shaders
+wonder:*
+workDump
+workZip
+write
+x<ZZ
+xZZ[[
+xZ[[
+xZxZx
+xZxix
+xi<Z<K
+xima (0)
+xima importa
+xima partida.
+xima vez que o jogo iniciar
+ximo. Esquenta mais.
+xn j
+xxixZixZ
+xxxZ
+xxyi0
+yJ-<
+yxiL
+z;KK
+z?q r
+zJ-<
+zipTree
+zt?)\
+{------<K<
+{---<K<
+{-x<K
+{Handheld: the game renders for 720p, like the Switch in hand (lighter, more fps). TV: renders for 1080p (sharper, heavier).
+|----<K<
+|--<KZ
+~~D8{"backend":"dex","compilation-mode":"release","has-checksums":false,"min-api":30,"sha-1":"abaab469b5ebd4dd2bb91ba0ed6f45277faae4ca","version":"8.6.2-dev"}
