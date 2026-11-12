@@ -1,0 +1,3 @@
+MoveNext: InGameHUDManager.<HandleGameOverInner>d__335::private bool MoveNext() { } RVA 0x186B4E0 fileoff 0x18674E0
+--- PostScores 0x1908D0C..0x1908F64 ---
+--- HandleGameOverInner.MoveNext 0x186B4E0..0x186CCE0 ---

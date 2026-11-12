@@ -1,0 +1,30 @@
+--- BL callers of GetMaxSpeed (0x189090C): 0 ---
+--- BL callers of GetSpeedMs (0x1890914): 0 ---
+--- BL callers of GetSpeedKmh (0x189091C): 8 ---
+  0x1855B74 in CameraMover::LateUpdate
+  0x1856150 in CameraMover::Push
+  0x1857D00 in EffectManager::FixedUpdate
+  0x18580E4 in EffectManager::FixedUpdate
+  0x18598A8 in GameManager::FixedUpdate
+  0x185E3C0 in InGameHUDManager::FixedUpdate
+  0x188F820 in MotorMover::Crash
+  0x18A153C in TrafficMover::FixedUpdate
+--- BL callers of HandleSpeed (0x188F96C): 1 ---
+  0x188ECE8 in MotorMover::Update
+
+===== MotorMover.FixedUpdate: lines touching maxSpeed(0x104)/maxAccel(0x108)/curSpeed(0xfc) =====
+  0x1890474: ldr	s9, [x19, #0xfc]
+  0x189057C: ldr	s9, [x19, #0xfc]
+===== MotorMover.Update: lines touching maxSpeed(0x104)/maxAccel(0x108)/curSpeed(0xfc) =====
+  0x188E8EC: ldr	s8, [x19, #0xfc]
+  0x188E994: ldr	s8, [x19, #0xfc]
+  0x188EA94: ldp	s9, s8, [x19, #0xfc]
+  0x188EACC: str	s0, [x19, #0xfc]
+  0x188EBA0: ldp	s9, s8, [x19, #0xfc]
+  0x188EBD8: str	s0, [x19, #0xfc]
+  0x188EC8C: ldr	s8, [x19, #0xfc]
+  0x188ED30: ldr	s9, [x19, #0xfc]
+  0x188EE10: ldr	s9, [x19, #0xfc]
+  0x188F570: ldr	s9, [x19, #0xfc]
+  0x188F5DC: ldr	s8, [x19, #0xfc]
+  0x188F62C: ldr	s8, [x19, #0xfc]

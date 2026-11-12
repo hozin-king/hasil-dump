@@ -1,0 +1,20 @@
+BL instructions found: 1168996
+--- callers of PostScores (0x1908D0C): 1 ---
+  caller VA 0x1864C04 in InGameHUDManager::ShowGameOverScreen
+--- callers of PostToLeaderboard (0x1908ABC): 2 ---
+  caller VA 0x1908F08 in TPGameServicesManager::PostScores
+  caller VA 0x1908F2C in TPGameServicesManager::PostScores
+--- callers of MotorMover.Crash (0x188F714): 0 ---
+--- callers of HUD.HandleGameOver (0x186217C): 2 ---
+  caller VA 0x1859E68 in GameManager::FixedUpdate
+  caller VA 0x188F7F4 in MotorMover::Crash
+--- callers of GameManager.GetScore (0x1859438): 8 ---
+  caller VA 0x185E3DC in InGameHUDManager::FixedUpdate
+  caller VA 0x1863DB4 in InGameHUDManager::ShowGameOverScreen
+  caller VA 0x186470C in InGameHUDManager::ShowGameOverScreen
+  caller VA 0x1864C34 in InGameHUDManager::ShowGameOverScreen
+  caller VA 0x1865448 in InGameHUDManager::ShowGameOverScreen
+  caller VA 0x186884C in InGameHUDManager::OnSkipMissionClicked
+  caller VA 0x1908DD0 in TPGameServicesManager::PostScores
+  caller VA 0x1909188 in TPGameServicesManager::PostInGameAchievements
+--- callers of MotorMover.OnTriggerEnter (0x1890A50): 0 ---

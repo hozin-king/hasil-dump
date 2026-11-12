@@ -1,0 +1,64 @@
+0x1866340 -> InGameHUDManager::ProcessQuest
+0x18A28D8 -> Utility::LoadMenuScene
+0x1904240 -> VideoCompleteHandler::.ctor
+0x1904318 -> AdManager::add_videoCompleted
+0x19051AC -> AdManager::DisplayVideo
+0x1902C34 -> PopupIAPManager::HandleGoldPopup
+0x18B378C -> MenuCanvasTweener::MoveIn
+0x191D68C -> ObscuredInt::op_Implicit
+0x18A3010 -> Utility::GetContinuePrice
+0x185400C -> AudioManager::PlayButtonClick
+
+=== TPGameServicesManager methods ===
+  public static void add_gpgsAuthFail(GPGSAuthenticateFailedHandler value) { } [RVA 0x1907938 fileoff 0x1903938]
+  public static void remove_gpgsAuthFail(GPGSAuthenticateFailedHandler value) { } [RVA 0x1907A10 fileoff 0x1903A10]
+  public static void add_gpgsAuthSuccess(GPGSAuthenticateSuccessHandler value) { } [RVA 0x1907AE8 fileoff 0x1903AE8]
+  public static void remove_gpgsAuthSuccess(GPGSAuthenticateSuccessHandler value) { } [RVA 0x1907BC4 fileoff 0x1903BC4]
+  public static void add_userSignedOut(GPGSUserSignOutHandler value) { } [RVA 0x1907CA0 fileoff 0x1903CA0]
+  public static void remove_userSignedOut(GPGSUserSignOutHandler value) { } [RVA 0x1907D7C fileoff 0x1903D7C]
+  public static void add_avatarInfoChanged(GPGSAvatarInfoChangedHandler value) { } [RVA 0x1907E58 fileoff 0x1903E58]
+  public static void remove_avatarInfoChanged(GPGSAvatarInfoChangedHandler value) { } [RVA 0x1907F34 fileoff 0x1903F34]
+  public static void Init(MonoBehaviour mb) { } [RVA 0x1908010 fileoff 0x1904010]
+  public static void FetchAvatarInfoForAndroid() { } [RVA 0x1908254 fileoff 0x1904254]
+  private static IEnumerator TryToGetAvatarImage() { } [RVA 0x19085BC fileoff 0x19045BC]
+  public static void ClearAllEvents() { } [RVA 0x190863C fileoff 0x190463C]
+  public static void AuthenticateGameCenter() { } [RVA 0x19086C8 fileoff 0x19046C8]
+  public static void AuthenticateGooglePlay() { } [RVA 0x19086CC fileoff 0x19046CC]
+  private static void OnSignInResult(SignInStatus signInStatus) { } [RVA 0x1908858 fileoff 0x1904858]
+  public static void SignOutGooglePlay() { } [RVA 0x1908948 fileoff 0x1904948]
+  public bool get_Authenticating() { } [RVA 0x1908A64 fileoff 0x1904A64]
+  public static bool IsGameServiceAvailable() { } [RVA 0x1908098 fileoff 0x1904098]
+  public static void PostToLeaderboard(string leaderboardID, int score) { } [RVA 0x1908ABC fileoff 0x1904ABC]
+  public static void UnlockAchievement(string achId) { } [RVA 0x1908BE4 fileoff 0x1904BE4]
+  public static void PostScores() { } [RVA 0x1908D0C fileoff 0x1904D0C]
+  public static void PostInGameAchievements() { } [RVA 0x1908F64 fileoff 0x1904F64]
+  public static void PostMenuAchievements() { } [RVA 0x1909A0C fileoff 0x1905A0C]
+  public static void ShowAchievements() { } [RVA 0x1909BD4 fileoff 0x1905BD4]
+  public static void ShowLeaderboards(bool isMenu) { } [RVA 0x1909C38 fileoff 0x1905C38]
+  public void .ctor() { } [RVA 0x1909E8C fileoff 0x1905E8C]
+  private static void .cctor() { } [RVA 0x1909E94 fileoff 0x1905E94]
+
+=== anti-cheat classes ===
+  class ObscuredBool
+  class ObscuredByte
+  class ObscuredChar
+  class ObscuredDecimal
+  class ObscuredDouble
+  class ObscuredFloat
+  class ObscuredInt
+  class ObscuredLong
+  class ObscuredPrefs.DeviceLockLevel
+  class ObscuredQuaternion
+  class ObscuredSByte
+  class ObscuredShort
+  class ObscuredString
+  class ObscuredUInt
+  class ObscuredULong
+  class ObscuredUShort
+  class ObscuredVector2
+  class ObscuredVector3
+  class InjectionDetector.AllowedAssembly
+  class InjectionDetector
+  class ObscuredCheatingDetector
+  class SpeedHackDetector
+  class ObscuredPerformanceTests

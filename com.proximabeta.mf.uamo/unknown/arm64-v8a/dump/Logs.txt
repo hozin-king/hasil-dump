@@ -1,0 +1,41 @@
+e_machine: 0xB7
+Library: /data/app/com.proximabeta.mf.uamo-9cX9lmt7aekUVc34u5inHg==/lib/arm64/libUE4.so
+BaseAddress: 0x77DDB52000
+77ddb52000-77e1674000 r--p 0 03:09 53663 /data/app/com.proximabeta.mf.uamo-9cX9lmt7aekUVc34u5inHg==/lib/arm64/libUE4.so
+77e1674000-77e1677000 ---p 0 00:00 0 
+77e1677000-77eca12000 r-xp 3b21000 03:09 53663 /data/app/com.proximabeta.mf.uamo-9cX9lmt7aekUVc34u5inHg==/lib/arm64/libUE4.so
+77eca12000-77eca15000 ---p 0 00:00 0 
+77eca15000-77ee1ef000 rw-p eebb000 03:09 53663 /data/app/com.proximabeta.mf.uamo-9cX9lmt7aekUVc34u5inHg==/lib/arm64/libUE4.so
+77ee1ef000-77ee1f2000 ---p 0 00:00 0 
+77ee1f2000-77ee343000 rw-p 10694000 03:09 53663 /data/app/com.proximabeta.mf.uamo-9cX9lmt7aekUVc34u5inHg==/lib/arm64/libUE4.so
+77ee343000-77eecfb000 rw-p 0 00:00 0 [anon:.bss]
+==========================
+Test dumping first 5 name entries
+GetNameByID(0): None
+GetNameByID(1): neByteProperty�IntProperty
+GetNameByID(2): ByteProperty�IntProperty
+GetNameByID(3): ByteProperty
+GetNameByID(4): teProperty�IntProperty
+==========================
+ObjObjects Num: 59917
+Test Dumping First 5 Name Entries
+GetObjectPtr(0): CoreUObject
+GetObjectPtr(1): Object
+GetObjectPtr(2): Engine
+GetObjectPtr(3): Actor
+GetObjectPtr(4): Brush
+==========================
+Finding GEngine & GWorld...
+
+==========================
+Gathering UObjects...
+Gathered 59935 Objects (Packages 206)
+==========================
+Saved packages: 206
+Saved classes: 6233
+Saved structs: 6951
+Saved enums: 2247
+==========================
+Generating script json...
+Functions: 32474
+==========================

@@ -1,0 +1,1564 @@
+Android
+12077973
+__cxa_finalize
+__cxa_atexit
+Java_com_google_mlkit_nl_languageid_bundled_internal_ThickLanguageIdentifier_nativeInitFromBuffer
+Java_com_google_mlkit_nl_languageid_bundled_internal_ThickLanguageIdentifier_nativeIdentifyPossibleLanguages
+Java_com_google_mlkit_nl_languageid_bundled_internal_ThickLanguageIdentifier_nativeDestroy
+strlen
+memmove
+__stack_chk_fail
+memcmp
+strncmp
+memset
+bsearch
+strcmp
+__errno
+strtoull_l
+strtoll_l
+memcpy
+strtod
+malloc
+fprintf
+munmap
+madvise
+sysconf
+getauxval
+snprintf
+pthread_once
+fflush
+pthread_mutex_lock
+pthread_cond_broadcast
+pthread_mutex_unlock
+pthread_join
+pthread_cond_destroy
+pthread_mutex_destroy
+getenv
+posix_memalign
+pthread_create
+pthread_setspecific
+clock_gettime
+syscall
+calloc
+strerror
+strnlen
+strncpy
+__system_property_get
+newlocale
+freelocale
+memchr
+__android_log_vprint
+vfprintf
+dlopen
+dlclose
+realloc
+sched_yield
+nanosleep
+pthread_key_create
+pthread_getspecific
+_ZN4absl19leak_check_internal12DoIgnoreLeakEPKv
+__gcov_dump
+__gcov_flush
+__android_log_write
+pthread_self
+pthread_getschedparam
+fwrite
+strerror_r
+wcslen
+wmemchr
+MallocExtension_Internal_MarkThreadIdle
+MallocExtension_Internal_MarkThreadBusy
+sigfillset
+pthread_sigmask
+__stop_malloc_hook
+__start_malloc_hook
+strtol
+vsnprintf
+strtof
+vasprintf
+android_set_abort_message
+openlog
+syslog
+closelog
+pthread_cond_signal
+pthread_cond_wait
+ungetc
+ungetwc
+fputwc
+uselocale
+vsscanf
+strftime_l
+sscanf
+iswlower_l
+wcsnrtombs
+wcrtomb
+mbsnrtowcs
+mbrtowc
+mbtowc
+__ctype_get_mb_cur_max
+mbrlen
+mbsrtowcs
+strtold_l
+dl_iterate_phdr
+pthread_rwlock_unlock
+pthread_rwlock_rdlock
+pthread_key_delete
+pthread_rwlock_wrlock
+getpid
+liblanguage_id_l2c_jni.so
+VERS_1.0
+libdl.so
+libm.so
+libc.so
+libandroid.so
+liblog.so
+659779404
+unknown
+googlefile:/google_src/files/659779404/depot/branches/mlkit.android_release_branch/659763987.1/OVERLAY_READONLY/google3
+build-secure-info:source-uri
+aarch64-linux-android-llvm-libcxx-arm64-v8a
+Aug 6 2024 00:25:31
+//depot/branches/mlkit.android_release_branch/659763987.1/google3
+0d5dafd8-d08f-4093-bdbd-4e47f0fe3330
+firebase-ml-android-sdk-releaser@oouc14.prod.google.com:/google/src/cloud/buildrabbit-username/buildrabbit-client/google3
+R30_RC01
+//java/com/google/android/libraries/mlkit/granules/natural_language/language_id_bundled/native:liblanguage_id_l2c_jni.so
+1722929131
+Blaze, release blaze-2024.07.30-1 (mainline @657367657)
+blaze-out/arm64-v8a-opt-android-ST-66eefe4ed9be/bin/java/com/google/android/libraries/mlkit/granules/natural_language/language_id_bundled/native/liblanguage_id_l2c_jni.so
+659763987
+firebase-ml-android-sdk-releaser
+oouc14.prod.google.com
+/google/src/cloud/buildrabbit-username/buildrabbit-client/google3
+Built on Aug 6 2024 00:25:31 (1722929131)
+changelist 659779404 with baseline 659763987 in a mint client based on //depot/branches/mlkit.android_release_branch/659763987.1/google3
+GetMethodID
+is_quantized
+num_precision_bits
+op_context->dims
+op_context.constant_values->params.scale
+tegra132
+Invalid sparsity parameter.
+LOCAL_RESPONSE_NORMALIZATION
+GREATER
+REDUCE_PROD
+BUCKETIZE
+STABLEHLO_CONCATENATE
+STABLEHLO_RSQRT
+Tensor %d specifies out of range buffer %d (only %d buffers).
+static_cast<size_t>(node_index) < nodes_size
+dfatal
+Wait unblocked 
+level >= 1
+next->header.arena == arena
+clock_gettime(CLOCK_REALTIME, &ts) == 0
+unspecified system_category error
+0123456789
+locale not supported
+Pure virtual function called!
+EmbeddingLookup
+EXPECTED_VALUE
+values->dims->data[i]
+Codebook type must be Float32.
+t->dims->size
+third_party/tensorflow/lite/kernels/reshape.cc
+Actions
+EMBEDDING_LOOKUP
+SPARSE_TO_DENSE
+BROADCAST_ARGS
+UNSORTED_SEGMENT_MIN
+RIGHT_SHIFT
+STABLEHLO_TRANSPOSE
+STABLEHLO_COMPOSITE
+Invoke called on model that is not ready.
+state_
+Null delegate.
+delegate->CopyFromBufferHandle != nullptr
+ATrace_isEnabled
+interior_padding
+COMPLEX64
+<failure to decode jmethodID>
+klogdebugfatal
+third_party/absl/synchronization/internal/futex_waiter.cc
+Unlock
+waiting when shouldn't be
+0123456789ABCDEF0123456789abcdef
+bad arena pointer in Next()
+September
+%s failed to release mutex
+%s:%d: %s
+libunwind: %s - %s
+DW_EH_PE_funcrel pointer encoding not supported
+output->params.scale
+t->dims->data[axis] >= 0
+params->activation == kTfLiteActNone || params->activation == kTfLiteActRelu || params->activation == kTfLiteActReluN1To1 || params->activation == kTfLiteActRelu6
+third_party/tensorflow/lite/kernels/unpack.cc
+third_party/ruy/ruy/trmul.cc
+Tegra SL
+third_party/tensorflow/lite/kernels/kernel_util.cc
+ARG_MIN
+NON_MAX_SUPPRESSION_V5
+BATCH_MATMUL
+RFFT2D
+kTfLiteCustom
+failed to prepare
+Input tensor %d lacks data
+idx_and_alloc != tensor_idx_to_alloc.end()
+Input array not provided for operation '%s'.
+()Ljava/lang/String;
+<failure to call Object.toString()>
+CallVoidMethod
+detected illegal recursion in Mutex code
+%c0000 00:00:%02d.%06d %7d 
+%s@ %*p
+getSavedFloatRegister
+SEQUENCE_STRING_PROJECTION
+kTfLiteUInt8
+learning/expander/pod/deep_pod/tflite_handlers/ngram_hash.cc
+1.f / 32768
+t->dims->data[d]
+third_party/tensorflow/lite/kernels/pad.cc
+NumThreadsStrategy::kDefault
+ExternalCpuBackendContext isn't properly initialized during TFLite interpreter initialization.
+hi6250
+ro.board.platform
+Failed to apply the default TensorFlow Lite delegate indexed at %zu.
+Tensor %d is invalidly specified in schema.
+AVERAGE_POOL_2D
+DEPTH_TO_SPACE
+LOGISTIC
+HASHTABLE_IMPORT
+STABLEHLO_LOG
+STABLEHLO_OR
+STABLEHLO_POWER
+Constant buffer %d specified an out of range offset.
+variables
+delegate_context_switch_count_ >= 1
+third_party/tensorflow/lite/c/common_internal.cc
+not enough memory
+sp != 1
+' to invalid value 
+%s%p %s %s
+0123456789ABCDEF
+element not in freelist
+LowLevelAlloc arithmetic overflow
+bad magic number in Next()
+libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+filter->dims->size
+input->type == kTfLiteInt8 || input->type == kTfLiteInt16
+Quantized and sparse fully-connected format supports symmetric weight quantization only.
+Quantized FullyConnected expects output data type uint8, int8 or int16
+op_context.input->type
+(std::is_same_v<PaddingIntegerType, int64_t>)
+op_context.constant_values->params.zero_point
+input->params.scale
+HiSilicon
+Kirin 
+Custom Option Offset for opcode_index %d is out of bound
+CONCAT_EMBEDDINGS
+STRIDED_SLICE
+BROADCAST_TO
+UNSORTED_SEGMENT_SUM
+STABLEHLO_COMPARE
+Tensor %d is both input %d and output %d
+failed to invoke
+third_party/tensorflow/lite/arena_planner.cc
+boundaries array not provided for operation 'bucketize'.
+pthread_key_create(&per_thread_key, [](void *v) { PerThread::KeyDest(reinterpret_cast<void **>(v)); }) == 0
+GOOGLE_STDERRTHRESHOLD
+Enqueue to list failed
+waitp != nullptr
+haven't left Arena region
+bad arena pointer in AddToFreelist()
+third_party/absl/base/internal/malloc_hook.cc
+__thread_specific_ptr construction failed
+Thursday
+std::bad_cast
+libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+CIE version is not 1 or 3
+java/lang/InternalError
+The model allocation is null/empty
+Model provided must have at least 7 bytes to hold identifier.
+Input type must be Int32.
+add_all_caps_feature is %f, it should be 0.0 or 1.0., resetting it to 1.0f
+ found in vocabulary.
+kTfLiteActNone
+input_type == kTfLiteFloat32 || input_type == kTfLiteUInt8 || input_type == kTfLiteInt8 || input_type == kTfLiteInt16
+input->dims->data[input->dims->size - 1]
+Filter data type %s currently not supported.
+thread constructor failed
+cluster
+/proc/cpuinfo
+sailfish
+invoke
+num_threads should be >=0 or just -1 to let TFLite runtime set the value.
+Null pointer passed in as model.
+TRANSPOSE_CONV
+HASHTABLE_FIND
+tensor.data.raw != nullptr
+node outputs
+(Ljava/io/Writer;)V
+./util/java/scoped_local_ref.h
+h->skip == nullptr
+i < prev->levels
+clock_gettime(CLOCK_MONOTONIC) failed
+August
+bad_array_new_length
+_Unwind_Resume() can't return
+libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+Can't binary search on variable length encoded data.
+Model does not accept the right number of inputs.
+NumOutputs(node)
+t0->dims->data[d]
+input->type
+RUY_CHECK_EQ
+/sys/devices/system/cpu/kernel_max
+flounder
+dragon
+NovaThor
+Renesas
+ro.arch
+QuantizationParam has %d zero_point values and %d scale values. Must have same number.
+Missing exported method name for SignatureDef
+NULL SignatureDef inputs for exported method %s
+No subgraph in the model.
+SPACE_TO_BATCH_ND
+TOPK_V2
+LESS_EQUAL
+FLOOR_DIV
+STABLEHLO_NEGATE
+required_bytes <= bytes
+Unsupported data type %d in tensor
+JNI_GetCreatedJavaVMs not linked, is this code running with a JVM?
+NewStringUTF(0x
+env_ == rhs.env_
+base/scheduling/downcalls.cc
+third_party/absl/flags/internal/flag.cc
+slow release
+ReaderLock returning 
+./third_party/absl/time/internal/get_current_time_posix.inc
+unspecified generic_category error
+thread::join failed
+February
+%s failed to acquire mutex
+getULEB128
+Tensor output sizes mismatch.
+params->quantized_bias_type == kTfLiteInt32 || params->quantized_bias_type == kTfLiteInt64
+per_channel_quantization_size
+third_party/tensorflow/lite/kernels/fully_connected.cc Unsupported filter quantization zero-point value.
+Unsupported sparse fully-connected weight format.
+third_party/tensorflow/lite/kernels/pad.cc Pad value has to be greater than equal to 0.
+third_party/ruy/ruy/apply_multiplier.cc
+/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq
+hi3650
+Qualcomm
+ro.chipname
+Tensor at index %d was optional but was expected
+Model provided is schema version %d not equal to supported version %d.
+SPACE_TO_DEPTH
+UNPACK
+STABLEHLO_MINIMUM
+AllocateTensors() called on inconsistent model.
+unknown
+stablehlo_scatter
+NOTYPE
+Unexpected number of JavaVMs: 
+invalid arguments
+<null method>
+exception_class != nullptr
+Check absl::ParseFlag(env, &value, &err) failed: 
+*** Check failure stack trace: ***
+s->waitp != nullptr || s->suppress_fatal_errors
+Unlock 
+waitp->thread->waitp == nullptr
+sum >= a
+: no conversion
+libc++
+ios_base::clear
+libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+FDE has zero length
+output != nullptr
+`vocab_sizes` must be non-empty.
+exclude_nonalphaspace_unicodes
+normalize_repetition
+Duplicate rune 
+Only int8_t and int16_t outputs are supported with int8_t inputs currently, got %s.
+bias->type
+/sys/devices/system/cpu/cpu%u/topology/physical_package_id
+MediaTek
+Telechips
+RESHAPE
+LOGICAL_AND
+SCATTER_ND
+No valid LSTM builtin options exist
+Could not get 'stablehlo.pad' operation parameters.
+COMPLEX128
+java/lang/Class
+getSimpleName
+0 == dlclose(handle)
+third_party/absl/log/flags.cc
+ (stacktrace:
+unexpected empty wake list
+Check (v & (kMuWriter | kMuReader)) != (kMuWriter | kMuReader) failed: %s: Mutex corrupt: both reader and writer lock held: %p
+f->header.magic == Magic(kMagicAllocated, &f->header)
+terminate_handler unexpectedly returned
+truncated uleb128 expression
+libunwind: unsupported .eh_frame_hdr version: %u at %lx
+length_error was thrown in -fno-exceptions mode with message "%s"
+codebook != nullptr
+Empty input not supported.
+hashtype
+Empty user data.
+Upper case rune 
+NumDimensions(input) >= 1
+axis >= 0
+filter->quantization.type
+(bias->type == kTfLiteInt32) || (bias->type == kTfLiteInt64)
+channels_in != 0
+input->quantization.type
+(filter->type == kTfLiteInt8 || (filter->type == kTfLiteInt4 && input->type == kTfLiteInt16))
+Type '%s' is not supported by unpack.
+foster_e_hdd
+Operator with CUSTOM builtin_code has no custom_code.
+Missing registration for opcode_index %d
+RELU_N1_TO_1
+RESIZE_BILINEAR
+BIDIRECTIONAL_SEQUENCE_LSTM
+MIRROR_PAD
+ptr != nullptr
+SILENT
+Type %d is unsupported. Only float16, float32, float64, int8, int16, int32, int64, uint8, uint64, bool, complex64 and complex128 supported currently.
+window_strides
+squeeze
+stablehlo.reduce_window
+util/java/jni_helper.cc
+printStackTrace
+GOOGLE_LOGTOSTDERR
+Check failed: 
+pos > size()
+thread should hold at least a read lock on Mutex %p %s
+s->waitp == nullptr || s->waitp == waitp || s->suppress_fatal_errors
+third_party/absl/base/internal/low_level_alloc.cc
+nothing in arena to free
+prev < next
+condition_variable wait failed
+__cxa_guard_release
+exynos9810
+unsupported arm64 register
+unsupported restore location for register
+getTableEntrySize
+NewObject
+Tensor output types are not as expected.
+KmeansEmbeddingLookup
+SizeOfDimension(filter, 0)
+NumElements(op_context.constant_values)
+num_channels
+Tensor %d has invalid quantization parameters.
+CONV_2D
+REDUCE_MAX
+RANDOM_STANDARD_NORMAL
+STABLEHLO_CLAMP
+STABLEHLO_CONVOLUTION
+STABLEHLO_DYNAMIC_SLICE
+STABLEHLO_REDUCE_WINDOW
+Invoke
+VM already created
+FindClass(
+std::bad_alloc
+truncated sleb128 expression
+DW_OP_piece not implemented
+num_bits > 1
+filter_input_channel > 0
+Unhandled fully-connected weights format
+Type %s is currently not supported by Pad.
+NumInputs(node) == 1 || NumInputs(node) == 2
+Samsung
+FULLY_CONNECTED
+COMPLEX_ABS
+MULTINOMIAL
+STABLEHLO_DOT_GENERAL
+STABLEHLO_GATHER
+subgraph_index >= 0
+Attempting to resize a fixed-size tensor.
+Cannot allow dynamic tensors due to previous delegation, resetting to original execution plan.
+Restored original execution plan after delegate application failure.
+<Unknown severity>
+reshape
+Throw(
+JNI_OK == env_->ThrowNew(exception_class.get(), msg.c_str())
+!quiet_
+terminating.
+third_party/absl/synchronization/mutex.cc
+waitp == nullptr || waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+SignalAll on 
+%s@ %*p  %s
+evaluateExpression
+NGramHash
+embedding_table != nullptr
+num_bits < 32
+output->params.zero_point
+input_type
+third_party/tensorflow/lite/kernels/pad.cc INT64 padding overflow. Only support value between INT32_MIN and INT32_MAX.
+Spreadtrum
+WonderMedia
+ro.mediatek.platform
+Quantization parameters has non-null scale but null zero_point.
+NOT_EQUAL
+DENSIFY
+STABLEHLO_EXPONENTIAL
+third_party/tensorflow/lite/util.cc
+ATrace_endSection
+Unhandled fully-connected weights format.
+FLOAT32
+Attempt to get JNIEnv* on thread not attached to JVM
+obj_clazz != nullptr
+util/java/scoped_global_ref.cc
+next_free_key < kPerThreadSlots
+): string form of default value '
+warning
+detected illegal recursion into Mutex code
+UnlockSlow is confused
+enqueue_after->skip == nullptr || MuEquivalentWaiter(enqueue_after, s)
+pthread_sigmask failed: %d
+unwind_phase2
+malformed uleb128 expression
+unsupported restore location for float register
+NumInputs(node)
+axis < t0->dims->size || (t0->dims->size == 0 && axis == 0)
+NumElements(bias)
+num_input_elements
+RUY_PATHS
+/sys/devices/system/cpu/cpu%u/topology/core_siblings_list
+Unisoc
+UNIDIRECTIONAL_SEQUENCE_RNN
+GATHER
+GREATER_EQUAL
+REDUCE_MIN
+ASSIGN_VARIABLE
+STABLEHLO_ADD
+STABLEHLO_SORT
+Select TensorFlow op(s), included in the given model, is(are) not supported by this interpreter. Make sure you apply/link the Flex delegate before inference. For the Android, it can be resolved by adding "org.tensorflow:tensorflow-lite-select-tf-ops" dependency. See instructions: https://www.tensorflow.org/lite/guide/ops_select
+SetTensorParametersReadWrite is disallowed when graph is immutable.
+VERBOSE
+num_tensors >= allocs_.size()
+FLOAT16
+java/io/StringWriter
+e == found
+reinterpret_cast<char *>(prev) + prev->header.size < reinterpret_cast<char *>(next)
+malformed freelist
+Sunday
+libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+DW_EH_PE_aligned pointer encoding not supported
+getSavedRegister
+%s:%d %s was not true.
+`batch_size` must be == 1.
+attention_logits->dims->data[i]
+add_eos_tag
+%s:%d %s not near %s (%f != %f)
+third_party/tensorflow/lite/kernels/concatenation.cc
+affine_quantization->zero_point->data[i]
+bias->params.zero_point
+affine_quantization->scale
+filter->dims->data[affine_quantization->quantized_dimension]
+RUY_CHECK
+is_optional_bias_int
+op_context.dims <= reference_ops::PadKernelMaxDimensionCount()
+hi3751
+Exynos 
+CONCATENATION
+MATRIX_SET_DIAG
+NON_MAX_SUPPRESSION_V4
+VAR_HANDLE
+STABLEHLO_MAXIMUM
+STABLEHLO_REDUCE
+STABLEHLO_ABS
+STABLEHLO_SELECT
+STABLEHLO_SCATTER
+third_party/tensorflow/lite/core/subgraph.cc
+JNI_GetCreatedJavaVMs
+Failed to get JavaVMs: 
+Attempt to set flag '
+ (from 
+condition untrue on return from LockSlow
+wake_list != kPerThreadSynchNull
+block not big enough for even one level
+next->header.magic == Magic(kMagicUnallocated, &next->header)
+#trans=
+January
+November
+getRegister
+FDE is really a CIE
+The model is not a valid Flatbuffer buffer
+values->dims->size
+attention_logits->dims->data[0]
+ngram_lengths
+doc_size_levels
+split_on_space
+params->activation
+affine_quantization->scale->size
+params->multiplier_fixedpoint
+Unexpected data type
+Leadcore
+scale_diff / output_scale <= 0.02
+SQUEEZE
+GATHER_ND
+Non-persistent memory is not available.
+ModifyGraphWithDelegate
+arena != nullptr
+`ngram_lengths` must be non-empty.
+feature_size
+Output type must be Int8, UInt8, or Float32.
+t->type
+%s:%d: %s condition not satisfied: %s
+Group convolution currently not supported for hybrid kernel.
+filter->type
+FC_ledger
+0 <= axis && axis < NumDimensions(input)
+RUY_CHECK_GE
+/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq
+Snapdragon 
+input_product_scale >= 0
+Skipping op for opcode_index %d
+BITCAST
+STABLEHLO_FLOOR
+SetTensorParametersReadOnly is disallowed when graph is immutable.
+The function is forbidden if not calling in delegate.
+padding
+Could not get 'stablehlo.reduce_window' operation parameters.
+Check the '%s' attribute.
+<unable to describe exception>
+Invalid GOOGLE_STDERRTHRESHOLD value: 
+Restore saved value of 
+-main.
+waiters disappeared during Enqueue()!
+old_h == nullptr || h->maybe_unlocking
+Mutex queue changed beneath us
+Lock returning 
+Mutex Enqueue failure
+(unknown)
+s->header.arena == arena
+MallocHook::RemovePreSbrkHook(&InitialPreSbrkHook)
+mutex lock failed
+terminate_handler unexpectedly threw an exception
+libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+values->type
+attention_logits->dims->size
+Output type must be Int32.
+Only uint8_t and int16_t outputs are supported with uint8_t inputs currently, got %s.
+Type '%s' is not supported currently.
+(bias == nullptr) || bias->type == params->quantized_bias_type
+(affine_quantization->scale->size == 1 || affine_quantization->scale->size == channels_out)
+package
+Amlogic
+quantized_dimension must be in range [0, %d). Was %d.
+No buffers in the model.
+L2_NORMALIZATION
+DELEGATE
+tensor->delegate == nullptr || tensor->delegate == delegate
+outputs
+Invalid tensor index %d in %s. The subgraph has %d tensors
+AddNodeWithParameters is disallowed when graph is immutable.
+WARNING
+tensor_index != kTfLiteOptionalTensor
+libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+`num_bits` must be less than 32.
+node->outputs->size
+No tokens found.
+Weight type %s (%d) not supported for filter.
+node->inputs->size == 2 || node->inputs->size == 3
+expected_outputs_count
+NumDimensions(filter)
+kTfLiteFloat32
+no_integer_overflow_from_quantization
+BIDIRECTIONAL_SEQUENCE_RNN
+LOG_SOFTMAX
+REDUCE_ANY
+ZEROS_LIKE
+RELU_0_TO_1
+STABLEHLO_COSINE
+REDUCE_WINDOW
+t->buffer_handle != kTfLiteNullBufferHandle
+AllocateTensors
+node != nullptr && registration != nullptr
+third_party/tensorflow/lite/simple_memory_arena.cc
+debug.tflite.trace
+base_dilations
+'%s' attribute of 'stablehlo.reduce_window' does not have the expected size (%llu != %llu).
+ToReflectedMethod
+ReaderLock blocking 
+unordered freelist
+MallocHook::RemoveNewHook(&InitialNewHook)
+out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+unknown pointer encoding
+getSLEB128
+DW_OP_deref_size with bad size
+min_val != nullptr
+Output type must be Float32.
+learning/expander/pod/deep_pod/utils/quantization_utils.cc
+input->params.zero_point
+op_context.output->params.scale
+%s:%d: %s condition not satisfied:   [ %s %s %s ]   with values   [ %s %s %s ].
+hi3635
+Tegra T
+Surge S
+ARG_MAX
+READ_VARIABLE
+STABLEHLO_TANH
+STABLEHLO_DYNAMIC_UPDATE_SLICE
+inputs
+'window_dimensions' attribute is not optional for 'stablehlo.reduce_window' and cannot be empty.
+exception != nullptr
+toString
+third_party/absl/log/internal/log_sink_set.cc
+Wait on 
+Check (v & (kMuWait | kMuWrWait)) != kMuWrWait failed: %s: Mutex corrupt: waiting writer with no waiters: %p
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+lowercase_input
+input_type == kTfLiteFloat32 || input_type == kTfLiteUInt8 || input_type == kTfLiteInt8 || input_type == kTfLiteInt16 || input_type == kTfLiteInt32 || input_type == kTfLiteInt64 || input_type == kTfLiteBool || input_type == kTfLiteUInt32
+t->params.zero_point
+is_optional_bias_float
+(std::is_same_v<PaddingIntegerType, int32_t>)
+SizeOfDimension(op_context->paddings, 0)
+ctx->num_threads_strategy()
+Broadcom
+Texas Instruments
+Tegra AP
+DEQUANTIZE
+EMBEDDING_LOOKUP_SPARSE
+UNIDIRECTIONAL_SEQUENCE_LSTM
+SQUARE
+SQUARED_DIFFERENCE
+STABLEHLO_REMAINDER
+STABLEHLO_IOTA
+t->delegate != nullptr
+kStateInvokable
+Node number %d (%s) %s.
+committed_
+java/lang/OutOfMemoryError
+thread detached from the VM
+(jobject: 
+old_h->skip == nullptr
+must pass a valid arena
+unsupported locale for standard input
+__cxa_guard_abort
+setRegister
+<init>
+word_novelty_bits
+Only float32, uint8_t, Int8_t, Int16_t are supported currently, got %s.
+%s:%d %s != %s (%s != %s)
+third_party/tensorflow/lite/kernels/conv.cc
+input->dims->size
+mul_params.multiplier_exponent_perchannel()
+output->type == kTfLiteUInt8 || output->type == kTfLiteInt8 || output->type == kTfLiteInt16
+NumElements(input) > 0
+Marvell
+REDUCE_ALL
+STABLEHLO_AND
+tensor.allocation_type
+Custom allocation is too small for tensor idx: %d
+Encountered an unresolved custom op. Did you miss a custom op or delegate?
+stablehlo_gather
+STRING
+<failure to decode jclass>
+, method: 
+too many PerThread keys in use
+Illegal value '
+only integers, absl::LogSeverity enumerators, and DFATAL are accepted
+Enqueue to empty list failed
+pthread_getschedparam failed: %d
+libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+DW_EH_PE_textrel pointer encoding not supported
+DWARF opcode not implemented
+output->type
+t->params.scale
+has_bias || node->inputs->size == 2
+kTfLiteInt32
+Type %s not currently supported.
+kTfLiteInt16
+Invalid sparse fully-connected format.
+(enum value %d)
+/sys/devices/system/cpu/possible
+The %dth dimension has unknown type: %d.
+The %dth sparse dimension has invalid parameters.
+Tensor %d has invalid sparsity parameters.
+Did not get tensors in subgraph %d.
+L2_POOL_2D
+TRANSPOSE
+MAXIMUM
+REVERSE_SEQUENCE
+STABLEHLO_PAD
+UnknownOp
+Invoke called on model that is not consistent.
+third_party/tensorflow/lite/util.cc BytesRequired number of bytes overflowed.
+edge_padding_low
+UINT16
+UINT64
+FLOAT64
+NewObjectArray(
+GOOGLE_ALSOLOGTOSTDERR
+TryLock succeeded 
+ReaderTryLock failed 
+Unknown error %d
+f->header.arena == arena
+ spec='
+Saturday
+__cxa_guard_acquire
+libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+vector
+encoding_table != nullptr
+<null>
+third_party/tensorflow/lite/kernels/fully_connected.cc
+op_context.constant_values->type
+op_context.output->params.zero_point
+HASHTABLE_LOOKUP
+LSH_PROJECTION
+LOGICAL_OR
+LEAKY_RELU
+STABLEHLO_LOGISTIC
+STABLEHLO_CUSTOM_CALL
+STABLEHLO_RNG_BIT_GENERATOR
+static_cast<size_t>(subgraph_index) < subgraphs_->size()
+kTfLiteArenaRw Dump:
+ATrace_beginSection
+Didn't find op for builtin opcode '%s' version '%d'. An older version of this builtin might be supported. Are you using an old TFLite binary with a newer model?
+VARIANT
+no error
+Unable to delete global reference, JNIEnv* missing
+absl::string_view::substr
+' is defined as one type and declared as another
+no value provided
+TryLock failed 
+bad magic number in AddToFreelist()
+too few levels in Next()
+Wednesday
+unknown register
+%s:%d %s != %s (%d != %d)
+Output must by dynamic.
+has_bias
+foster_e
+hi3660
+Allwinner
+Invalid tensor index %d (not in [0, %d))
+Registration failed.
+ONE_HOT
+LOGICAL_NOT
+REVERSE_V2
+RANDOM_UNIFORM
+STABLEHLO_BROADCAST_IN_DIM
+STABLEHLO_CONVERT
+third_party/tensorflow/lite/util.cc BytesRequired number of elements overflowed.
+Unhandled LSTM kernel type: %d
+RESOURCE
+<null class>
+java/lang/Throwable
+' specified for flag '
+' could not be parsed; error=
+UNKNOWN
+Duplicate log sinks are not supported
+third_party/absl/base/internal/throw_delegate.cc
+: out of range
+iostream
+Tuesday
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+Unknown DWARF encoding for search table.
+basic_string
+attention_logits->type
+add_bos_tag
+add_all_caps_feature
+input_channel % filter_input_channel
+filter->type != kTfLiteInt4
+SizeOfDimension(op_context->paddings, 1)
+%s %s%u%.*s
+Nvidia
+BATCH_TO_SPACE_ND
+FAKE_QUANT
+FLOOR_MOD
+SEGMENT_SUM
+HASHTABLE
+STABLEHLO_DIVIDE
+Replacing %d out of %d node(s) with delegate (%s) node, yielding %zu partitions for the whole graph.
+node inputs
+Client requested cancel during Invoke()
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#%d is a dynamic-sized tensor).
+tflite
+window_dimensions
+Could not get 'stablehlo.composite' operation parameters.
+Unknown type
+Unexpected error trying to get JNIEnv*
+, jobject: 
+SetObjectArrayElement(jobjectArray: 
+base/per_thread.cc
+Futex operation failed with error %d
+mmap error: %d
+October
+libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+learning/expander/pod/deep_pod/tflite_handlers/embedding_lookup.cc
+input_tensor != nullptr
+node->inputs->size
+Sizes of `ngram_lengths` and `vocab_sizes` must be the same.
+add_first_cap_feature
+vocabulary
+Invalid rune in vocabulary.
+filter->type == kTfLiteUInt8
+tensor->quantization.type
+Padding type %s is currently not supported by Pad.
+input_shape->data[axis]
+ro.product.board
+Initialized TensorFlow Lite runtime.
+Found builtin operator %s with custom options.
+num_scales must be 1 for per-layer quantization, or %d for per-axis quantization, but got %d.
+Null output pointer passed to InterpreterBuilder.
+SKIP_GRAM
+QUANTIZE
+PLACEHOLDER_FOR_GREATER_OP_CODES
+STABLEHLO_WHILE
+GetJavaVM
+CallObjectMethod
+Check %s failed: %s
+prev->managing_slot != Slot::NullSlot()
+Attempt to reschedule without a slot (inside PBR?).
+Flag '
+illegal skip from head
+Signal on 
+ #types=
+__next_prime overflow
+December
+libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+`num_bits` must be greater than 1.
+learning/expander/pod/deep_pod/tflite_handlers/kmeans_embedding_lookup.cc
+`max_splits` must be > 0.
+third_party/tensorflow/lite/kernels/activations.cc
+affine_quantization
+stretch_dim
+num_output_elements
+data->num
+/sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list
+MINIMUM
+RESIZE_NEAREST_NEIGHBOR
+CONV_3D_TRANSPOSE
+UNSORTED_SEGMENT_PROD
+STABLEHLO_SLICE
+DILATE
+tensor_at_index->allocation_type
+tensor_index < context_.tensors_size && tensor_index >= 0
+node_index >= 0
+libandroid.so
+(Ljava/io/PrintWriter;)V
+ : unexpected failure to throw given exception : 
+_main.
+Lock blocking 
+[%s : %d] RAW: 
+system
+__cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+_Unwind_Resume
+libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+CIE ID is not zero
+(Ljava/lang/String;F)V
+input != nullptr
+max_splits
+token_separators
+Unsupported hashtype %s
+1.f / 256
+node->inputs->size >= 2
+params->multiplier_exponent
+op_context.output->params.zero_point >= std::numeric_limits<integer_type>::min()
+bad_function_call was thrown in -fno-exceptions mode
+tegra210_dragon
+Pinecone
+filter->type == kTfLiteInt8 || filter->type == kTfLiteInt4
+Tensor %d is a variable tensor with buffer. It's not supported now.
+SELECT
+EXPAND_DIMS
+UNIQUE
+MATRIX_DIAG
+CUMSUM
+CONV_3D
+Encountered unresolved custom op: %s.
+See instructions: https://www.tensorflow.org/lite/guide/ops_custom 
+Op builtin_code out of range: %d. Are you using old TFLite binary with newer model?
+UINT32
+ : unexpected failure to find given exception class '
+SetSlowPathTLS(data)
+bad skip in DequeueAllWakeable
+arena->allocation_count > 0
+Failed to read real-time clock.
+condition_variable::wait: mutex not locked
+unspecified iostream_category error
+%s failed to broadcast
+CIE start does not match
+com/google/mlkit/nl/languageid/IdentifiedLanguage
+Model provided has model identifier '%c%c%c%c', should be '%s'
+The 0th entry of the model buffer must be an empty buffer.
+max_val != nullptr
+learning/expander/pod/deep_pod/tflite_handlers/expected_value.cc
+Encoding Table type must be UInt8.
+vocab_sizes
+t0->dims->size
+Conv_hwcn_weights
+batch_size != 0
+./third_party/ruy/ruy/kernel_common.h
+params->bias
+op_context.output->type
+BEETHOVEN
+Nuclun 
+ro.hardware.chipname
+DEPTHWISE_CONV_2D
+SOFTMAX
+SPLIT_V
+DYNAMIC_UPDATE_SLICE
+UNSORTED_SEGMENT_MAX
+STABLEHLO_MULTIPLY
+bytes != nullptr
+String variable tensor isn't supported.
+underlying_buffer_.GetSize() >= (alloc.offset + alloc.size)
+stablehlo.pad
+DELEGATE op shouldn't exist in model.
+general JNI failure
+(jclass: 
+this->LockSlowWithDeadline(how, cond, KernelTimeout::Never(), flags)
+waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+new_h != nullptr
+pw->next == w
+ReaderUnlock 
+MallocHook::RemovePreMmapHook(&InitialPreMMapHook)
+Monday
+libc++abi
+`num_precision_bits` must be in [2, 32) and a divisor of 32.
+add_first_cap_feature is %f, it should be 0.0 or 1.0., resetting it to 1.0f
+normalize_spaces
+kTfLiteAffineQuantization
+NumInputs(node) == 2 || NumInputs(node) == 3
+op_context.output->params.zero_point <= std::numeric_limits<integer_type>::max()
+/sys/devices/system/cpu/present
+Unknown
+Rockchip
+NULL SignatureDef outputs for exported method %s
+CUSTOM
+HARD_SWISH
+BITWISE_XOR
+STABLEHLO_RESHAPE
+delegate_context_switch_count_ >= 0
+dealloc_node_[tensor] == kNodeNotAssigned
+output_ptr != nullptr
+edge_padding_high
+Found too many dimensions in the input array of operation '%s'.
+BFLOAT16
+java/io/PrintWriter
+, jclass: 
+pw not w's predecessor
+ReaderTryLock succeeded 
+Friday
+libc++abi: 
+libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+getEncodedP
+DW_OP_fbreg not implemented
+GetDirectBufferAddress
+bad_array_new_length was thrown in -fno-exceptions mode
+Only 1D, 2D, 3D and 4D tensors supported for int16 input with int16 output, got %dD.
+t->dims->data[axis] <= std::numeric_limits<int>::max() - sum_axis
+Conv_row_sums
+input->type == kTfLiteUInt8 || input->type == kTfLiteInt8 || input->type == kTfLiteInt16
+sparsity != nullptr
+Invalid quantized and sparse fully-connected format.
+hi6210sft
+marlin
+Unknown status (%d) after applying the default TensorFlow Lite delegate indexed at %zu.
+MAX_POOL_2D
+SELECT_V2
+CALL_ONCE
+HASHTABLE_SIZE
+STABLEHLO_SUBTRACT
+next_execution_plan_index_to_prepare_ >= execution_plan_index
+kTfLiteArenaRwPersistent Dump:
+alignment <= underlying_buffer_.GetAlignment()
+window_dilations
+'stablehlo.pad' operation parameter array sizes are not consistent.
+libdvm.so
+JNI version error
+unexpected error code
+PerThread can't tolerate using page frame 1 in a stack
+(null)
+Check absl::ParseFlag(val, &dflt, &err) failed: 
+pw->skip == nullptr
+generic
+money_get error
+libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+@:>2JO?R7Q.6N(;%DP`HMYd98i#efSCT)$ !
+a,c4IL=5K
+ !$%0145 
+ $(,048<
+N6tflite3ops6custom26sequence_string_projection12_GLOBAL__N_116ProjectionParamsE
+murmur
+unicodehash8
+unicodehash16
+xfixhash8
+xfixhash16
+xfixhash32
+N8learning8expander10MurmurHashE
+N8learning8expander10HashEngineE
+N8learning8expander11UnicodeHashE
+N8learning8expander8XFixHashE
+@N3ruy12_GLOBAL__N_19TrMulTaskE
+N3ruy4TaskE
+N6tflite17CpuBackendContextE
+N6tflite28TfLiteInternalBackendContextE
+NSt6__ndk110__function6__funcIZN3ruy12_GLOBAL__N_127DetectRuntimeSupportedPathsENS2_4PathEPNS2_7CpuInfoEE3$_0NS_9allocatorIS7_EEFbvEEE
+NSt6__ndk110__function6__baseIFbvEEE
+ZN3ruy12_GLOBAL__N_127DetectRuntimeSupportedPathsENS_4PathEPNS_7CpuInfoEE3$_0
+NSt6__ndk110__function6__funcIZN3ruy12_GLOBAL__N_127DetectRuntimeSupportedPathsENS2_4PathEPNS2_7CpuInfoEE3$_1NS_9allocatorIS7_EEFbvEEE
+ZN3ruy12_GLOBAL__N_127DetectRuntimeSupportedPathsENS_4PathEPNS_7CpuInfoEE3$_1
+NSt6__ndk110__function6__funcIZN3ruy6Thread25GetNewStateOtherThanReadyEvEUlvE_NS_9allocatorIS4_EEFbvEEE
+ZN3ruy6Thread25GetNewStateOtherThanReadyEvEUlvE_
+NSt6__ndk110__function6__funcIZN3ruy15BlockingCounter4WaitENS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEEE3$_0NS_9allocatorIS9_EEFbvEEE
+ZN3ruy15BlockingCounter4WaitENSt6__ndk16chrono8durationIxNS1_5ratioILl1ELl1000000000EEEEEE3$_0
+gxbaby
+model_control_dependencies
+N6tflite8Subgraph21SubgraphAwareProfilerE
+N6tflite8ProfilerE
+NSt6__ndk110__function6__funcIZN6tflite4impl11Interpreter27ModifyGraphWithDelegateImplI14TfLiteDelegatePFvPS6_EEE12TfLiteStatusONS_10unique_ptrIT_T0_EEEUlS7_E_NS_9allocatorISG_EES8_EE
+NSt6__ndk110__function6__baseIFvP14TfLiteDelegateEEE
+ZN6tflite4impl11Interpreter27ModifyGraphWithDelegateImplI14TfLiteDelegatePFvPS3_EEE12TfLiteStatusONSt6__ndk110unique_ptrIT_T0_EEEUlS4_E_
+InterpreterBuilder::operator()
+CONVERSION_METADATA
+N6tflite12_GLOBAL__N_119MallocDataAllocatorE
+N6tflite20BuiltinDataAllocatorE
+N6tflite17MutableOpResolverE
+N6tflite10OpResolverE
+N6tflite14StderrReporterE
+N6tflite13ErrorReporterE
+N6tflite8SubgraphE
+N6tflite15InterpreterInfoE
+N6tflite9GraphInfoE
+UnknownCustomOp
+NSt6__ndk120__shared_ptr_pointerIPN6tflite8internal14OperatorsCacheENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE
+NSt6__ndk110shared_ptrIN6tflite8internal14OperatorsCacheEE27__shared_ptr_default_deleteIS3_S3_EE
+N6tflite10AllocationE
+N6tflite16MemoryAllocationE
+N6tflite12ArenaPlannerE
+N6tflite13MemoryPlannerE
+N6tflite9profiling14ATraceProfilerE
+N6tflite9profiling12RootProfilerE
+59/?C;I3G-1A+7)=E
+N4util4java17ThrowingJniHelperE
+N4util4java9JniHelperE
+N4util4java16LoggingJniHelperE
+NSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+ (unknown) 
+N4absl14flags_internal8FlagImplE
+N4absl14flags_internal9FlagStateE
+NSt6__ndk110__function6__funcIPFbN4absl11string_viewEENS_9allocatorIS5_EES4_EE
+NSt6__ndk110__function6__baseIFbN4absl11string_viewEEEE
+PFbN4absl11string_viewEE
+FbN4absl11string_viewEE
+NSt6__ndk110__function6__funcIPFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvENS5_IS9_EES8_EE
+NSt6__ndk110__function6__baseIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEEE
+PFNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvE
+FNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvE
+NSt6__ndk110__function6__funcIPFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEENS5_ISB_EESA_EE
+NSt6__ndk110__function6__baseIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEEEE
+PFNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEE
+FNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEE
+N4absl15CommandLineFlagE
+N4absl14flags_internal18FlagStateInterfaceE
+	N4absl12log_internal10LogMessage11OstreamViewE
+(null)
+>>'N4absl12log_internal12_GLOBAL__N_113StderrLogSinkE
+N4absl12log_internal12_GLOBAL__N_114AndroidLogSinkE
+N4absl7LogSinkE
+native
+j?$Dsp
+csdiouxXfFeEgGaAnpv
+@@@@@@@@@hHHHH@@@@@@@@@@@@@@@@@@(
+000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	$$$$$$$
+ !"#$$$$$$
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Fixed/UTC
+0123456789
+N4absl13time_internal4cctz10TimeZoneIfE
+N4absl13time_internal4cctz12TimeZoneInfoE
+ ... (message truncated)
+NSt6__ndk114__shared_countE
+NSt6__ndk119__shared_weak_countE
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+NSt6__ndk112system_errorE
+NSt6__ndk112__do_messageE
+NSt6__ndk124__generic_error_categoryE
+NSt6__ndk123__system_error_categoryE
+NSt6__ndk114error_categoryE
+NSt6__ndk18ios_baseE
+NSt6__ndk18ios_base7failureE
+NSt6__ndk119__iostream_categoryE
+NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+NSt6__ndk19basic_iosIwNS_11char_traitsIwEEEE
+NSt6__ndk115basic_streambufIwNS_11char_traitsIwEEEE
+NSt6__ndk113basic_istreamIwNS_11char_traitsIwEEEE
+NSt6__ndk113basic_ostreamIwNS_11char_traitsIwEEEE
+NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NSt6__ndk110__stdinbufIcEE
+NSt6__ndk111__stdoutbufIcEE
+NSt6__ndk110__stdinbufIwEE
+NSt6__ndk111__stdoutbufIwEE
+0123456789abcdefABCDEFxX+-pPiInN
+%I:%M:%S %p
+NSt6__ndk16locale5facetE
+NSt6__ndk15ctypeIwEE
+NSt6__ndk110ctype_baseE
+NSt6__ndk17codecvtIcc9mbstate_tEE
+NSt6__ndk112codecvt_baseE
+NSt6__ndk17codecvtIDsc9mbstate_tEE
+NSt6__ndk17codecvtIDsDu9mbstate_tEE
+NSt6__ndk17codecvtIDic9mbstate_tEE
+NSt6__ndk17codecvtIDiDu9mbstate_tEE
+NSt6__ndk17codecvtIwc9mbstate_tEE
+NSt6__ndk16locale5__impE
+NSt6__ndk17collateIcEE
+NSt6__ndk17collateIwEE
+NSt6__ndk15ctypeIcEE
+NSt6__ndk18numpunctIcEE
+NSt6__ndk18numpunctIwEE
+NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19__num_getIcEE
+NSt6__ndk114__num_get_baseE
+NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk19__num_getIwEE
+NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19__num_putIcEE
+NSt6__ndk114__num_put_baseE
+NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk19__num_putIwEE
+NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk19time_baseE
+NSt6__ndk120__time_get_c_storageIcEE
+NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk120__time_get_c_storageIwEE
+NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk110__time_putE
+NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk110moneypunctIcLb0EEE
+NSt6__ndk110money_baseE
+NSt6__ndk110moneypunctIcLb1EEE
+NSt6__ndk110moneypunctIwLb0EEE
+NSt6__ndk110moneypunctIwLb1EEE
+NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk111__money_getIcEE
+NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk111__money_getIwEE
+NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+NSt6__ndk111__money_putIcEE
+NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+NSt6__ndk111__money_putIwEE
+NSt6__ndk18messagesIcEE
+NSt6__ndk113messages_baseE
+NSt6__ndk18messagesIwEE
+St9exception
+St20bad_array_new_length
+St9bad_alloc
+St11logic_error
+St16invalid_argument
+St12length_error
+St12out_of_range
+St13runtime_error
+St14overflow_error
+St9type_info
+St8bad_cast
+N10__cxxabiv116__shim_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv117__pbase_type_infoE
+N10__cxxabiv119__pointer_type_infoE
+N10__cxxabiv120__function_type_infoE
+N10__cxxabiv129__pointer_to_member_type_infoE
+N10__cxxabiv123__fundamental_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+@y_!"k	
+@y_!"k
+T	`@9i
+@y?!!k	
+@y_!"k	
+T	`@9i
++ih8J	
+@y_!"k	
++ih8J	
+T	`@9i
+@y(ihx3
+)ih8,}B
+#Cm!8#
+iy8	}B
+T(C@Q	
+iADQ)}
+qJ}	SK
+T)ij8		
+)ijx		
+@9	ii8
+T	ha8?
+SI1	*)
+d"N!d#Na
+T0!@L	
+/n d ni
+N#-@L#-
+#-@L#-
+N,-@L"
+Nb8!n$
+N@h`nb8!.A
+= h`n-
+!i`8"iq8@i`8Qiq8
+0in8Nin8
+N4-@L0
+)ih8Hih8
+d"n!d#na
+!@LD!@L
+u!@L@-
+N5-@L"
+Nb8!n$
+N@h`nb8!.A
+N h`nM
+!i`8"iq8@i`8Qiq8
+0in8Nin8
+N4-@L0
+)ih8Hih8
+dbN!dcNa
+7NWW7O
+d"n!d#na
+d"N!d#Na
+i48h&@
+4@9N4@9
++	)n @9
+(`@9	}	
+/	)o @9
+k&p@9M
+T p@9$|@9
+qUp@9s
+@@9M@@9
+i"K)yJ
+)* K))P
+k!p@9L
+T1p@9 |@9
+*%t@9?
+4@9N4@9
+(`@9	}	
+k&p@9M
+"HaNA(!.
+!l".!8
+O0@9eHp
+TO0@9%il
+4@9N4@9
+"HaNAH!
+4@9N8@9
+k&p@9L
+	K|<B9{
+Ti<B9j
+)j<B9h
+'NDj`N
+i`N2i`NQi`Npi`N
+4@9N4@9
+"HaNAH!
+4@9N8@9
+4@9N4@9
+O0@9eHp
+TO0@9%il
+=#@))WA)
+@8ij(8
+=#@))WA)
+aNbH!N!
+CHaNbH!
+OG{@Ld{@L
+O'{@LD{@L
+"N`h`N#
+!( N h`Nc
+!( N h`Nc
+!( N h`Nc
+"NA80N`h`N+,
+"N`h`N!
+1i`NEs
+9i`NGs
+i`N9i`NZi`N{i`N
+0JaNQJa
+*!.0*!n
+0JaNQJa
+0JaNQJa
+fnN1fnN
+noN1noN
+1i`NRi`Nsi`N
+i`N1i`NRi`Nsi`N
+i`N	h@
+N0JaNf
+N0JaNf
+N0JaNf
+fnN1fnN
+noN1noN
+0JaNQJa
+4KaNUKa
+*!.0*!nQ*!.q*!n
+f.n1f.nRf.nsf.n
+n/n1n/nRn/nsn/n
+0JaNQJa
+4KaNUKa
+0J!NQJ!
+f.N1f.NRf.Nsf.N
+n/N1n/NRn/Nsn/N
+0JaNQJa
+4KaNUKa
+fnN1fnNRfnNsfnN
+noN1noNRnoNsnoN
+0JaNQJa
+4KaNUKa
+*!.0*!nQ*!.q*!n
+f.n1f.nRf.nsf.n
+n/n1n/nRn/nsn/n
+0JaNQJa
+4KaNUKa
+0J!NQJ!
+f.N1f.NRf.Nsf.N
+n/N1n/NRn/Nsn/N
+0JaNQJa
+4KaNUKa
+fnN1fnNRfnNsfnN
+noN1noNRnoNsnoN
+0JaNQJa
+4KaNUKa
+A90*!nQ*!.q*!n
+RRf.n? 
+qsf.n!
+q1n/nB
+Rn/nsn/n
+0JaNQJa
+4KaNUKa
+A90J!NQJ!
+RRf.N? 
+qsf.N!
+q1n/NB
+Rn/Nsn/N
+0JaNQJa
+4KaNUKa
+fnN1fnNRfnNsfnN
+noN1noNRnoNsnoN
+j`N=j`N^j`N
+j`N=j`N^j`N
+k=j`N!y
+j`N=j`N^j`N
+j`N=j`N^j`N
+u_Fiv_
+Td+A9c
+ekB9fKC9
+j&J)hrA9
+(P@9)T@9 
+80.-8A)
+(P@9)T@9p
+TH$B)K
+	*	][Q?
+TJh+8k
+Tkh*8J
+R+hi8k
+	USQ?5
+Lih8k	
+Jkh8)	
+Lii8k	
++ih8J	
++ih8J	
++ih8J	
++ih8J	
+T)	@y	
+T)	@y	
+TJ	@yj
++ib8J	
+TJ	@yj
+T)	@y	
+TJ	@yj
+TJ!@yj
+Lib8k	
+TJ	@yJ
+TJ	@yJ
+TJ	@yJ
+T	9@yI
+T)!@yi
+T)9@y)
+T)	@y	
+TJ	@yJ
+TJ	@yj
+TJ	@yj
+TJ	@yj
+TJ	@yJ
+TJ	@yJ
+T)	@y	
+TJ	@yJ
+Lyixk	
++ih8J	
++ih8J	
++ih8J	
+R	i 8h
+T	hh8?
+_8	ii8i
+@9+ik8
+hh8kq}
++ih8J	
+4v^G)xfA
++ih8J	
++ih8J	
++ih8J	
+@y)	@9c
+Lyixk	
++ih8J	
+TKIi8l	
+Ti2@9k
++ih8J	
+Tk)@)_
++ih8J	
+xIYix	
+q@	Xz 
+jh8a"@
+jh8a"@
++ih8J	
++ih8J	
+jih8)	
+jih8)	
+TK-@xl
+T		@9?
+T		@9?
+@9	`@9
+ 	Az@	Az
+4h2A9(
+7h:A9H
+4h2A9i
+z2A9{6A9
+i6A9h2A9*
++ih8J	
+%m/%d/%y
+%H:%M:%S
+(%a %b %d %H:%M:%S %Y
+%I:%M:%S %p
+Android (dev, -pgo, -bolt, -lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Linker: LLD 18.0.1
+.note.android.ident
+.note.gnu.build-id
+.dynsym
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.gnu.hash
+.dynstr
+.rela.dyn
+.rela.plt
+.rodata
+.gcc_except_table
+.eh_frame_hdr
+.eh_frame
+malloc_hook
+.data.rel.ro
+.fini_array
+.init_array
+.dynamic
+.got.plt
+.relro_padding
+.comment
+.shstrtab

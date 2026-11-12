@@ -1,0 +1,4 @@
+Signer #1 certificate DN: CN=APKVISION.ORG, OU=APKVISION.ORG, O=APKVISION.ORG, L=APKVISION.ORG, ST=APKVISION.ORG, C=APKVISION.ORG
+Signer #1 certificate SHA-256 digest: a54b28d5675941c1d39d6937b4f8e4c69966dede417aca2785bd8dc840c8d1d8
+Signer #1 certificate SHA-1 digest: 496900e8e6f947ad542a5f5f0434cb7aa01029ac
+Signer #1 certificate MD5 digest: ed0a4db37c992a1012548d9d060d46cd
