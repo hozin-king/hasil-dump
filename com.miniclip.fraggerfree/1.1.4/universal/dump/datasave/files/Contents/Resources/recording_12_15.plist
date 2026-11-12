@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>arrow_move</key>
+		<integer>1</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>170</integer>
+		<key>impulse.x</key>
+		<real>0.037877019494771957</real>
+		<key>impulse.y</key>
+		<real>0.090462364256381989</real>
+		<key>tick</key>
+		<integer>682</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>delay</key>
+		<integer>176</integer>
+		<key>impulse.x</key>
+		<real>0.037877019494771957</real>
+		<key>impulse.y</key>
+		<real>0.090462364256381989</real>
+		<key>tick</key>
+		<integer>858</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>300</integer>
+		<key>impulse.x</key>
+		<real>0.021273771300911903</real>
+		<key>impulse.y</key>
+		<real>0.041790314018726349</real>
+		<key>tick</key>
+		<integer>1486</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+</array>
+</plist>

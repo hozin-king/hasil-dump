@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>arrow_move</key>
+		<integer>1</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>170</integer>
+		<key>impulse.x</key>
+		<real>0.14720922708511353</real>
+		<key>impulse.y</key>
+		<real>0.016652718186378479</real>
+		<key>tick</key>
+		<integer>337</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>53</integer>
+		<key>tick</key>
+		<integer>394</integer>
+		<key>type</key>
+		<string>grenade.cancel</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>300</integer>
+		<key>impulse.x</key>
+		<real>0.1466253399848938</real>
+		<key>impulse.y</key>
+		<real>-0.021186782047152519</real>
+		<key>tick</key>
+		<integer>475</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>51</integer>
+		<key>tick</key>
+		<integer>512</integer>
+		<key>type</key>
+		<string>grenade.cancel</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>300</integer>
+		<key>impulse.x</key>
+		<real>0.080366462469100952</real>
+		<key>impulse.y</key>
+		<real>0.0054610138759016991</real>
+		<key>tick</key>
+		<integer>718</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>300</integer>
+		<key>impulse.x</key>
+		<real>0.073510996997356415</real>
+		<key>impulse.y</key>
+		<real>0.019450470805168152</real>
+		<key>tick</key>
+		<integer>1004</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+</array>
+</plist>

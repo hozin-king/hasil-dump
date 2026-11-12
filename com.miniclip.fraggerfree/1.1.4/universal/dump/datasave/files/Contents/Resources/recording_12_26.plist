@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>arrow_move</key>
+		<integer>1</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>170</integer>
+		<key>impulse.x</key>
+		<real>0.09518086165189743</real>
+		<key>impulse.y</key>
+		<real>-0.00024388360907323658</real>
+		<key>tick</key>
+		<integer>98</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>17</integer>
+		<key>arrow_pause</key>
+		<integer>75</integer>
+		<key>delay</key>
+		<integer>106</integer>
+		<key>impulse.x</key>
+		<real>0.083605162799358368</real>
+		<key>impulse.y</key>
+		<real>0.051051083952188492</real>
+		<key>tick</key>
+		<integer>186</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>372</integer>
+		<key>impulse.x</key>
+		<real>0.064665704965591431</real>
+		<key>impulse.y</key>
+		<real>0.066603243350982666</real>
+		<key>tick</key>
+		<integer>1158</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+	<dict>
+		<key>arrow_move</key>
+		<integer>100</integer>
+		<key>arrow_pause</key>
+		<integer>150</integer>
+		<key>delay</key>
+		<integer>300</integer>
+		<key>impulse.x</key>
+		<real>0.092172726988792419</real>
+		<key>impulse.y</key>
+		<real>0.084381029009819031</real>
+		<key>tick</key>
+		<integer>2882</integer>
+		<key>type</key>
+		<string>grenade.throw</string>
+	</dict>
+</array>
+</plist>
