@@ -1,0 +1,4 @@
+File .gz di folder ini adalah versi gzip dari file dump yang sama namanya tanpa .gz (ukuran asli >25 MB, melebihi batas blob API GitHub).
+Pulihkan dengan: gunzip <nama>.gz
+- script.json.gz -> script.json (63 MB)
+- il2cpp.h.gz -> il2cpp.h (61 MB)

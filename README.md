@@ -25,6 +25,10 @@ biner kecil yang jadi subjek analisis (`.so` payload, `.dll` game, modul
 - **Pohon ekstrak massal** — tree apktool (`smali/`/`res/`/`assets/`), `jadx`/`jadx_out` lengkap, `extracted/`/`apks_out/`/`xapk/`, `work/` build: puluhan ribu file per paket, mayoritas kode pihak ketiga/SDK.
 - **Biner hasil ekstrak yang generik/besar** — `libil2cpp.so` hasil ekstrak (>100 MB), `global-metadata.dat` mentah (yang sudah di-deobfuscate BOLEH dan ada di `dump/`), `.dex` mentah, asset `.bundle`, build cache (`.gch`, `CMakeFiles/`).
 - **File tunggal >95 MB** — batas aman di bawah batas 100 MB/file GitHub.
+  Praktiknya, API Git Data GitHub menolak blob >~25 MB: 4 file dump besar
+  (dua `global-metadata*.dat` 50–57 MB, `script.json` 63 MB, `il2cpp.h`
+  61 MB) di-upload sebagai `.gz` (13/14/4/1 MB) + `NOTE-GZIP.txt` di
+  foldernya; pulihkan dengan `gunzip`.
 - **Kredensial & tautan bertanda tangan** — `cookies.txt`, `download_url.txt`, respons API berisi parameter unduhan, token/API key: disensor atau tidak di-upload sama sekali.
 - **Folder kerja mentah** — `downloads/`, `work/`, `apktool_out/`.
 
