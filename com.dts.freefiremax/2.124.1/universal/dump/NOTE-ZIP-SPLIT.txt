@@ -1,0 +1,17 @@
+Free Fire MAX 2.124.1 — Il2CppDumper output (zip, split 5x10MiB)
+================================================================
+Sumber : Google Drive "Free Fire MAX 2.124.1.zip"
+         (51.021.402 B, md5 95048b366274771a3806db32f92eed8e,
+          dibuat 2026-11-14 17:23 UTC / 15 Nov 00:23 WIB)
+Isi zip: DummyDll.zip (21.754.308 B), dump.cs (80.797.149 B),
+         script.json (247.169.652 B)
+Arsip ini: REA dump APK repack/mod OB53 "FFKIPAS FREE MOD" 2.124.1
+           (lihat REPORT.md di folder di atas).
+
+Rakit ulang:
+  cat "Free-Fire-MAX-2.124.1.zip.part"* > "Free Fire MAX 2.124.1.zip"
+Verifikasi: md5sum hasil rakitan harus 95048b366274771a3806db32f92eed8e
+
+Alasan split: blob GitHub Data API maks ±25 MB, jadi zip 51 MB
+dipecah jadi 5 bagian ±10 MiB (part01-04 = 10.485.760 B,
+part05 = 9.078.362 B).
