@@ -1,0 +1,24 @@
+Initializing metadata...
+Metadata Version: 31
+Initializing il2cpp file...
+Applying relocations...
+WARNING: find JNI_OnLoad
+ERROR: This file may be protected.
+Il2Cpp Version: 31
+Searching...
+CodeRegistration : 0
+MetadataRegistration : 0
+ERROR: No symbol is detected
+ERROR: Can't use auto mode to process file, try manual mode.
+Input CodeRegistration: Input MetadataRegistration: System.OverflowException: Array dimensions exceeded supported range.
+   at Il2CppDumper.BinaryStream.ReadClassArray[T](Int64 count) in C:\projects\il2cppdumper\Il2CppDumper\IO\BinaryStream.cs:line 187
+   at Il2CppDumper.BinaryStream.ReadClassArray[T](UInt64 addr, Int64 count) in C:\projects\il2cppdumper\Il2CppDumper\IO\BinaryStream.cs:line 203
+   at Il2CppDumper.BinaryStream.ReadClassArray[T](UInt64 addr, UInt64 count) in C:\projects\il2cppdumper\Il2CppDumper\IO\BinaryStream.cs:line 197
+   at Il2CppDumper.Il2Cpp.MapVATR[T](UInt64 addr, UInt64 count) in C:\projects\il2cppdumper\Il2CppDumper\Il2Cpp\Il2Cpp.cs:line 266
+   at Il2CppDumper.Il2Cpp.Init(UInt64 codeRegistration, UInt64 metadataRegistration) in C:\projects\il2cppdumper\Il2CppDumper\Il2Cpp\Il2Cpp.cs:line 161
+   at Il2CppDumper.Program.Init(String il2cppPath, String metadataPath, Metadata& metadata, Il2Cpp& il2Cpp) in C:\projects\il2cppdumper\Il2CppDumper\Program.cs:line 236
+ERROR: An error occurred while processing.
+Press any key to exit...
+Unhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.
+   at System.ConsolePal.ReadKey(Boolean intercept)
+   at Il2CppDumper.Program.Main(String[] args) in C:\projects\il2cppdumper\Il2CppDumper\Program.cs:line 110
