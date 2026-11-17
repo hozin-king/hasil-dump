@@ -50,6 +50,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.dts.freefiremax`
 - `com.dts.freefireth`
 - `com.fingersoft.hcr2`
+- `com.fingersoft.hillclimb`
 - `com.forthblue.pool`
 - `com.fungames.sniper3d`
 - `com.gameloft.android.GAND.GloftTCMF`
