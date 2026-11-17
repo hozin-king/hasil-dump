@@ -51,6 +51,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.dts.freefireth`
 - `com.fingersoft.hcr2`
 - `com.forthblue.pool`
+- `com.fungames.sniper3d`
 - `com.gameloft.android.GAND.GloftTCMF`
 - `com.google.android.inputmethod.latin`
 - `com.happylabs.happymall2`
