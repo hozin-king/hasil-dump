@@ -42,6 +42,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `app.superkickoff`
 - `cc.clashofmagic.s1`
 - `com.WandaSoftware.TruckersofEurope3`
+- `com.ansangha.drdriving`
 - `com.appon.defendthebunker`
 - `com.apps.MyXL`
 - `com.bytedance.snail`
