@@ -1,0 +1,497 @@
+	/gwsc/api
+	GTAVCrash
+	GTAVDepot
+	GTAVTouch
+	gwscState
+ Fuzzy 
+ Fuzzy, 
+ GTA V (Fuzzy) game crash report
+ GWSC
+ GWSC 
+ GWSC pour rejoindre des sessions.
+ GWSC, 
+ GWSC.
+ Lcom/thegwchr/fuzzy/Avatars$2$1;
+ Lcom/thegwchr/fuzzy/CrashReport;
+ Lcom/thegwchr/fuzzy/GameFolders;
+ Lcom/thegwchr/fuzzy/GtaFrontend;
+ como un servidor GWSC.
+ do GWSC, aby do
+ https:// 
+ jak serwer GWSC.
+ rline/gwsc.cpp
+ rline/gwsc.cpp 
+ rline/gwsc.cpp.
+!Lcom/thegwchr/fuzzy/Achievements;
+!Lcom/thegwchr/fuzzy/GameRumble$1;
+!Lcom/thegwchr/fuzzy/GwscClient$1;
+!Lcom/thegwchr/fuzzy/GwscClient$2;
+!Lcom/thegwchr/fuzzy/GwscClient$3;
+!Lcom/thegwchr/fuzzy/GwscClient$4;
+!Lcom/thegwchr/fuzzy/GwscEvents$1;
+!Lcom/thegwchr/fuzzy/GwscEvents$2;
+!Lcom/thegwchr/fuzzy/MirrorPicker;
+!Lcom/thegwchr/fuzzy/ReleaseCheck;
+!Lcom/thegwchr/fuzzy/SocialToasts;
+!Lcom/thegwchr/fuzzy/TouchOverlay;
+!Sign in to GWSC to join sessions.
+"Fuzzy
+"Lcom/thegwchr/fuzzy/GtaFrontend$1;
+"Lcom/thegwchr/fuzzy/GtaFrontend$2;
+"Lcom/thegwchr/fuzzy/GtaFrontend$3;
+"Lcom/thegwchr/fuzzy/GtaFrontend$4;
+"Lcom/thegwchr/fuzzy/GtaFrontend$5;
+"Lcom/thegwchr/fuzzy/GtaFrontend$6;
+"Lcom/thegwchr/fuzzy/InstallResult;
+"Lcom/thegwchr/fuzzy/LauncherMusic;
+"Lcom/thegwchr/fuzzy/LocalGameData;
+"Lcom/thegwchr/fuzzy/SocialOverlay;
+"Lcom/thegwchr/fuzzy/SocialWatcher;
+"Lcom/thegwchr/fuzzy/TouchGyroMath;
+"Lcom/thegwchr/fuzzy/VulkanDrivers;
+"https://t.me/thegooneralwheelchair
+#Lcom/thegwchr/fuzzy/Achievements$1;
+#Lcom/thegwchr/fuzzy/GameImport$Doc;
+#Lcom/thegwchr/fuzzy/GwscClient$2$1;
+#Lcom/thegwchr/fuzzy/MirrorPicker$1;
+#Lcom/thegwchr/fuzzy/MirrorPicker$2;
+#Lcom/thegwchr/fuzzy/MirrorPicker$3;
+#Lcom/thegwchr/fuzzy/MirrorPicker$4;
+#Lcom/thegwchr/fuzzy/Origins$Mirror;
+#Lcom/thegwchr/fuzzy/SocialToasts$1;
+#Lcom/thegwchr/fuzzy/SocialToasts$2;
+#Lcom/thegwchr/fuzzy/SocialToasts$3;
+#Lcom/thegwchr/fuzzy/TouchOverlay$1;
+#Lcom/thegwchr/fuzzy/TouchOverlay$2;
+#Lcom/thegwchr/fuzzy/TouchOverlay$3;
+#Lcom/thegwchr/fuzzy/TouchOverlay$4;
+#Lcom/thegwchr/fuzzy/TouchOverlay$5;
+#Lcom/thegwchr/fuzzy/TouchOverlay$6;
+#Lcom/thegwchr/fuzzy/TouchOverlay$7;
+#Lcom/thegwchr/fuzzy/TouchOverlay$8;
+#Lcom/thegwchr/fuzzy/TouchOverlay$9;
+#Lcom/thegwchr/fuzzy/UpdateActivity;
+#https://
+$Lcom/thegwchr/fuzzy/DepotDownloader;
+$Lcom/thegwchr/fuzzy/DownloadService;
+$Lcom/thegwchr/fuzzy/GtaFrontend$Row;
+$Lcom/thegwchr/fuzzy/LauncherMusic$1;
+$Lcom/thegwchr/fuzzy/LauncherMusic$2;
+$Lcom/thegwchr/fuzzy/LauncherMusic$3;
+$Lcom/thegwchr/fuzzy/SocialOverlay$1;
+$Lcom/thegwchr/fuzzy/SocialOverlay$2;
+$Lcom/thegwchr/fuzzy/SocialOverlay$3;
+$Lcom/thegwchr/fuzzy/SocialOverlay$4;
+$Lcom/thegwchr/fuzzy/SocialOverlay$5;
+$Lcom/thegwchr/fuzzy/SocialOverlay$6;
+$Lcom/thegwchr/fuzzy/SocialOverlay$7;
+$Lcom/thegwchr/fuzzy/SocialOverlay$8;
+$Lcom/thegwchr/fuzzy/SocialOverlay$9;
+$Lcom/thegwchr/fuzzy/SocialWatcher$1;
+$Lcom/thegwchr/fuzzy/SocialWatcher$2;
+$Lcom/thegwchr/fuzzy/SocialWatcher$3;
+$Lcom/thegwchr/fuzzy/SocialWatcher$4;
+$Lcom/thegwchr/fuzzy/TouchOverlay$10;
+$Lcom/thegwchr/fuzzy/TouchOverlay$11;
+$Lcom/thegwchr/fuzzy/TouchOverlay$12;
+%Entre no GWSC para entrar em sess
+%Lcom/thegwchr/fuzzy/Achievements$1$1;
+%Lcom/thegwchr/fuzzy/AchievementsPage;
+%Lcom/thegwchr/fuzzy/BenchmarkResults;
+%Lcom/thegwchr/fuzzy/GameImport$Depot;
+%Lcom/thegwchr/fuzzy/LauncherActivity;
+%Lcom/thegwchr/fuzzy/MirrorPicker$2$1;
+%Lcom/thegwchr/fuzzy/SocialOverlay$10;
+%Lcom/thegwchr/fuzzy/SocialOverlay$11;
+%Lcom/thegwchr/fuzzy/SocialOverlay$12;
+%Lcom/thegwchr/fuzzy/SocialOverlay$13;
+%Lcom/thegwchr/fuzzy/SocialOverlay$14;
+%Lcom/thegwchr/fuzzy/SocialOverlay$15;
+%Lcom/thegwchr/fuzzy/SocialOverlay$16;
+%Lcom/thegwchr/fuzzy/SocialOverlay$17;
+%Lcom/thegwchr/fuzzy/SocialOverlay$18;
+%Lcom/thegwchr/fuzzy/SocialOverlay$19;
+%Lcom/thegwchr/fuzzy/SocialOverlay$20;
+%Lcom/thegwchr/fuzzy/SocialOverlay$21;
+%Lcom/thegwchr/fuzzy/SocialOverlay$22;
+%Lcom/thegwchr/fuzzy/SocialOverlay$23;
+%Lcom/thegwchr/fuzzy/SocialOverlay$24;
+%Lcom/thegwchr/fuzzy/SocialOverlay$25;
+%Lcom/thegwchr/fuzzy/SocialOverlay$26;
+%Lcom/thegwchr/fuzzy/SocialOverlay$27;
+%Lcom/thegwchr/fuzzy/SocialOverlay$28;
+%Lcom/thegwchr/fuzzy/SocialOverlay$29;
+%Lcom/thegwchr/fuzzy/SocialOverlay$30;
+%Lcom/thegwchr/fuzzy/SocialOverlay$31;
+%Lcom/thegwchr/fuzzy/SocialOverlay$32;
+%Lcom/thegwchr/fuzzy/SocialOverlay$33;
+%Lcom/thegwchr/fuzzy/SocialOverlay$34;
+%Lcom/thegwchr/fuzzy/SocialOverlay$35;
+%Lcom/thegwchr/fuzzy/SocialOverlay$36;
+%Lcom/thegwchr/fuzzy/SocialOverlay$37;
+%Lcom/thegwchr/fuzzy/SocialOverlay$38;
+%Lcom/thegwchr/fuzzy/SocialOverlay$39;
+%Lcom/thegwchr/fuzzy/SocialOverlay$40;
+%Lcom/thegwchr/fuzzy/SocialOverlay$41;
+%Lcom/thegwchr/fuzzy/SocialOverlay$42;
+%Lcom/thegwchr/fuzzy/SocialOverlay$43;
+%Lcom/thegwchr/fuzzy/SocialOverlay$44;
+%Lcom/thegwchr/fuzzy/SocialOverlay$45;
+%Lcom/thegwchr/fuzzy/SocialOverlay$46;
+%Lcom/thegwchr/fuzzy/SocialOverlay$47;
+%Lcom/thegwchr/fuzzy/SocialOverlay$48;
+%Lcom/thegwchr/fuzzy/SocialOverlay$49;
+%Lcom/thegwchr/fuzzy/SocialOverlay$50;
+%Lcom/thegwchr/fuzzy/SocialOverlay$51;
+%Lcom/thegwchr/fuzzy/SocialToasts$3$1;
+%Lcom/thegwchr/fuzzy/UpdateActivity$1;
+%Lcom/thegwchr/fuzzy/UpdateActivity$2;
+%Lcom/thegwchr/fuzzy/UpdateActivity$3;
+%Lcom/thegwchr/fuzzy/UpdateActivity$4;
+%Lcom/thegwchr/fuzzy/UpdateActivity$5;
+%Lcom/thegwchr/fuzzy/UpdateActivity$6;
+%Lcom/thegwchr/fuzzy/UpdateActivity$7;
+%Lcom/thegwchr/fuzzy/UpdateActivity$8;
+%Lcom/thegwchr/fuzzy/UpdateActivity$9;
+%[Lcom/thegwchr/fuzzy/GtaFrontend$Row;
+&Lcom/thegwchr/fuzzy/CrashReport$Found;
+&Lcom/thegwchr/fuzzy/GameImport$Result;
+&Lcom/thegwchr/fuzzy/GtaFrontend$Row$1;
+&Lcom/thegwchr/fuzzy/GtaFrontend$Shown;
+&Lcom/thegwchr/fuzzy/LauncherMusic$1$1;
+&Lcom/thegwchr/fuzzy/TouchOverlay$Anim;
+&Lcom/thegwchr/fuzzy/UpdateActivity$10;
+&Lcom/thegwchr/fuzzy/UpdateActivity$11;
+&Lcom/thegwchr/fuzzy/UpdateActivity$12;
+&Lcom/thegwchr/fuzzy/UpdateActivity$13;
+&Lcom/thegwchr/fuzzy/UpdateActivity$14;
+&Lcom/thegwchr/fuzzy/UpdateActivity$15;
+&Lcom/thegwchr/fuzzy/UpdateActivity$16;
+&Lcom/thegwchr/fuzzy/UpdateActivity$17;
+'Accedi a GWSC per unirti alle sessioni.
+'Lcom/thegwchr/fuzzy/AchievementsPage$1;
+'Lcom/thegwchr/fuzzy/AchievementsPage$2;
+'Lcom/thegwchr/fuzzy/AchievementsPage$3;
+'Lcom/thegwchr/fuzzy/BenchmarkResults$1;
+'Lcom/thegwchr/fuzzy/GTAVNativeActivity;
+'Lcom/thegwchr/fuzzy/GtaFrontend$Choice;
+'Lcom/thegwchr/fuzzy/LauncherActivity$1;
+'Lcom/thegwchr/fuzzy/LauncherActivity$2;
+'Lcom/thegwchr/fuzzy/LauncherActivity$3;
+'Lcom/thegwchr/fuzzy/LauncherActivity$4;
+'Lcom/thegwchr/fuzzy/LauncherActivity$5;
+'Lcom/thegwchr/fuzzy/LauncherActivity$6;
+'Lcom/thegwchr/fuzzy/LauncherActivity$7;
+'Lcom/thegwchr/fuzzy/LauncherActivity$8;
+'Lcom/thegwchr/fuzzy/LauncherActivity$9;
+'Lcom/thegwchr/fuzzy/MirrorPicker$2$1$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$23$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$24$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$29$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$29$2;
+'Lcom/thegwchr/fuzzy/SocialOverlay$32$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$40$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$46$1;
+'Lcom/thegwchr/fuzzy/SocialOverlay$47$1;
+'Lcom/thegwchr/fuzzy/SocialToasts$Toast;
+'Lcom/thegwchr/fuzzy/SocialWatcher$Sink;
+'Lcom/thegwchr/fuzzy/UpdateActivity$1$1;
+'Lcom/thegwchr/fuzzy/UpdateActivity$2$1;
+'Lcom/thegwchr/fuzzy/UpdateActivity$7$1;
+'Lcom/thegwchr/fuzzy/UpdateActivity$9$1;
+'https:// 
+(Lcom/thegwchr/fuzzy/Achievements$Record;
+(Lcom/thegwchr/fuzzy/Achievements$Synced;
+(Lcom/thegwchr/fuzzy/Achievements$Unlock;
+(Lcom/thegwchr/fuzzy/DepotDownloader$Job;
+(Lcom/thegwchr/fuzzy/GameImport$Progress;
+(Lcom/thegwchr/fuzzy/GtaFrontend$Builder;
+(Lcom/thegwchr/fuzzy/GwscClient$Callback;
+(Lcom/thegwchr/fuzzy/GwscEvents$Listener;
+(Lcom/thegwchr/fuzzy/LauncherActivity$10;
+(Lcom/thegwchr/fuzzy/LauncherActivity$11;
+(Lcom/thegwchr/fuzzy/LauncherActivity$12;
+(Lcom/thegwchr/fuzzy/LauncherActivity$13;
+(Lcom/thegwchr/fuzzy/LauncherActivity$14;
+(Lcom/thegwchr/fuzzy/LauncherActivity$15;
+(Lcom/thegwchr/fuzzy/LauncherActivity$16;
+(Lcom/thegwchr/fuzzy/LauncherActivity$17;
+(Lcom/thegwchr/fuzzy/LauncherActivity$18;
+(Lcom/thegwchr/fuzzy/LauncherActivity$19;
+(Lcom/thegwchr/fuzzy/LauncherActivity$20;
+(Lcom/thegwchr/fuzzy/LauncherActivity$21;
+(Lcom/thegwchr/fuzzy/LauncherActivity$22;
+(Lcom/thegwchr/fuzzy/LauncherActivity$23;
+(Lcom/thegwchr/fuzzy/LauncherActivity$24;
+(Lcom/thegwchr/fuzzy/LauncherActivity$25;
+(Lcom/thegwchr/fuzzy/LauncherActivity$26;
+(Lcom/thegwchr/fuzzy/LauncherActivity$27;
+(Lcom/thegwchr/fuzzy/LauncherActivity$28;
+(Lcom/thegwchr/fuzzy/LauncherActivity$29;
+(Lcom/thegwchr/fuzzy/LauncherActivity$30;
+(Lcom/thegwchr/fuzzy/LauncherActivity$31;
+(Lcom/thegwchr/fuzzy/LauncherActivity$32;
+(Lcom/thegwchr/fuzzy/LauncherActivity$33;
+(Lcom/thegwchr/fuzzy/LauncherActivity$34;
+(Lcom/thegwchr/fuzzy/LauncherActivity$35;
+(Lcom/thegwchr/fuzzy/LauncherActivity$36;
+(Lcom/thegwchr/fuzzy/LauncherActivity$37;
+(Lcom/thegwchr/fuzzy/LauncherActivity$38;
+(Lcom/thegwchr/fuzzy/LauncherActivity$39;
+(Lcom/thegwchr/fuzzy/LauncherActivity$40;
+(Lcom/thegwchr/fuzzy/LauncherActivity$41;
+(Lcom/thegwchr/fuzzy/LauncherActivity$42;
+(Lcom/thegwchr/fuzzy/LauncherActivity$43;
+(Lcom/thegwchr/fuzzy/LauncherActivity$44;
+(Lcom/thegwchr/fuzzy/LauncherActivity$45;
+(Lcom/thegwchr/fuzzy/LauncherActivity$46;
+(Lcom/thegwchr/fuzzy/LauncherActivity$47;
+(Lcom/thegwchr/fuzzy/LauncherActivity$48;
+(Lcom/thegwchr/fuzzy/LauncherActivity$49;
+(Lcom/thegwchr/fuzzy/LauncherActivity$50;
+(Lcom/thegwchr/fuzzy/LauncherActivity$51;
+(Lcom/thegwchr/fuzzy/LauncherActivity$52;
+(Lcom/thegwchr/fuzzy/LauncherActivity$53;
+(Lcom/thegwchr/fuzzy/LauncherActivity$54;
+(Lcom/thegwchr/fuzzy/LauncherActivity$55;
+(Lcom/thegwchr/fuzzy/LauncherActivity$56;
+(Lcom/thegwchr/fuzzy/LauncherActivity$57;
+(Lcom/thegwchr/fuzzy/LauncherActivity$58;
+(Lcom/thegwchr/fuzzy/LauncherActivity$59;
+(Lcom/thegwchr/fuzzy/LauncherActivity$60;
+(Lcom/thegwchr/fuzzy/LauncherActivity$61;
+(Lcom/thegwchr/fuzzy/LauncherActivity$62;
+(Lcom/thegwchr/fuzzy/LauncherActivity$63;
+(Lcom/thegwchr/fuzzy/LauncherActivity$64;
+(Lcom/thegwchr/fuzzy/LauncherActivity$65;
+(Lcom/thegwchr/fuzzy/LauncherActivity$66;
+(Lcom/thegwchr/fuzzy/LauncherActivity$67;
+(Lcom/thegwchr/fuzzy/LauncherActivity$68;
+(Lcom/thegwchr/fuzzy/LauncherActivity$69;
+(Lcom/thegwchr/fuzzy/LauncherActivity$70;
+(Lcom/thegwchr/fuzzy/LauncherActivity$71;
+(Lcom/thegwchr/fuzzy/LauncherActivity$72;
+(Lcom/thegwchr/fuzzy/LauncherActivity$73;
+(Lcom/thegwchr/fuzzy/LauncherActivity$74;
+(Lcom/thegwchr/fuzzy/LauncherActivity$75;
+(Lcom/thegwchr/fuzzy/LauncherActivity$76;
+(Lcom/thegwchr/fuzzy/LauncherActivity$77;
+(Lcom/thegwchr/fuzzy/LauncherActivity$78;
+(Lcom/thegwchr/fuzzy/LauncherActivity$79;
+(Lcom/thegwchr/fuzzy/LauncherActivity$80;
+(Lcom/thegwchr/fuzzy/LauncherActivity$81;
+(Lcom/thegwchr/fuzzy/LauncherActivity$82;
+(Lcom/thegwchr/fuzzy/LauncherActivity$83;
+(Lcom/thegwchr/fuzzy/LauncherActivity$84;
+(Lcom/thegwchr/fuzzy/LauncherActivity$85;
+(Lcom/thegwchr/fuzzy/LauncherActivity$86;
+(Lcom/thegwchr/fuzzy/LauncherActivity$87;
+(Lcom/thegwchr/fuzzy/LauncherActivity$88;
+(Lcom/thegwchr/fuzzy/LauncherActivity$89;
+(Lcom/thegwchr/fuzzy/LauncherActivity$90;
+(Lcom/thegwchr/fuzzy/LauncherActivity$91;
+(Lcom/thegwchr/fuzzy/LauncherActivity$92;
+(Lcom/thegwchr/fuzzy/LauncherActivity$93;
+(Lcom/thegwchr/fuzzy/LauncherActivity$94;
+(Lcom/thegwchr/fuzzy/LauncherActivity$95;
+(Lcom/thegwchr/fuzzy/LauncherActivity$96;
+(Lcom/thegwchr/fuzzy/LauncherActivity$97;
+(Lcom/thegwchr/fuzzy/LauncherActivity$98;
+(Lcom/thegwchr/fuzzy/LauncherActivity$99;
+(Lcom/thegwchr/fuzzy/UpdateActivity$10$1;
+(Lcom/thegwchr/fuzzy/UpdateActivity$10$2;
+(Lcom/thegwchr/fuzzy/UpdateActivity$11$1;
+)Lcom/thegwchr/fuzzy/DepotDownloader$Item;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$1;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$2;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$3;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$4;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$5;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$6;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$7;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$8;
+)Lcom/thegwchr/fuzzy/GTAVNativeActivity$9;
+)Lcom/thegwchr/fuzzy/GtaFrontend$PadFocus;
+)Lcom/thegwchr/fuzzy/LauncherActivity$100;
+)Lcom/thegwchr/fuzzy/LauncherActivity$101;
+)Lcom/thegwchr/fuzzy/LauncherActivity$102;
+)Lcom/thegwchr/fuzzy/LauncherActivity$3$1;
+)Lcom/thegwchr/fuzzy/SocialOverlay$32$1$1;
+)Lcom/thegwchr/fuzzy/TouchGyroMath$Filter;
+)Lcom/thegwchr/fuzzy/VulkanDrivers$Driver;
+*Lcom/thegwchr/fuzzy/BenchmarkResults$Pass;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$10;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$11;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$12;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$13;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$14;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$15;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$16;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$17;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$18;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$19;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$20;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$21;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$22;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$23;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$24;
+*Lcom/thegwchr/fuzzy/GTAVNativeActivity$25;
+*Lcom/thegwchr/fuzzy/GtaFrontend$Builder$1;
+*Lcom/thegwchr/fuzzy/GtaFrontend$Builder$2;
+*Lcom/thegwchr/fuzzy/GtaFrontend$Builder$3;
+*Lcom/thegwchr/fuzzy/GtaFrontend$OptionRow;
+*Lcom/thegwchr/fuzzy/GtaFrontend$SliderRow;
+*Lcom/thegwchr/fuzzy/LauncherActivity$20$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$42$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$61$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$68$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$78$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$79$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$80$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$84$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$85$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$91$1;
+*Lcom/thegwchr/fuzzy/LauncherActivity$96$1;
+*Lcom/thegwchr/fuzzy/TouchPreviewTransform;
++Lcom/thegwchr/fuzzy/DepotDownloader$Opener;
++Lcom/thegwchr/fuzzy/DepotDownloader$Target;
++Lcom/thegwchr/fuzzy/GTAVNativeActivity$5$1;
++Lcom/thegwchr/fuzzy/GTAVNativeActivity$9$1;
++Lcom/thegwchr/fuzzy/LauncherActivity$3$1$1;
+,Lcom/thegwchr/fuzzy/Achievements$Definition;
+,Lcom/thegwchr/fuzzy/GTAVNativeActivity$13$1;
+,Lcom/thegwchr/fuzzy/GTAVNativeActivity$13$2;
+-Lcom/thegwchr/fuzzy/DepotDownloader$Progress;
+-Lcom/thegwchr/fuzzy/DepotDownloader$Verified;
+.Lcom/thegwchr/fuzzy/GtaFrontend$SliderRow$Bar;
+.Nazwa hosta lub adres, bez https:// i 
+.fuzzy-chunks
+.fuzzy-import
+.fuzzy-part
+/Fuzzy 
+/Puste: %1$s (%2$s), ustawione w rline/gwsc.cpp.
+/Vazio: %1$s (%2$s), definido em rline/gwsc.cpp.
+/Vuoto: %1$s (%2$s), definito in rline/gwsc.cpp.
+/gwsc/
+0Lcom/thegwchr/fuzzy/GwscClient$ApprovalCallback;
+0Leer: %1$s (%2$s), festgelegt in rline/gwsc.cpp.
+1Il server %s non ha risposto come un server GWSC.
+1Melde dich bei GWSC an, um Sitzungen beizutreten.
+3A host name or address, without https:// or a path.
+3Der Server %s antwortete nicht wie ein GWSC-Server.
+3Lcom/thegwchr/fuzzy/GtaFrontend$OptionRow$Listener;
+3Lcom/thegwchr/fuzzy/GtaFrontend$SliderRow$Listener;
+3The server at %s did not answer like a GWSC server.
+8Ein Hostname oder eine Adresse, ohne https:// oder Pfad.
+8Empty uses %1$s (%2$s), compiled in from rline/gwsc.cpp.
+8Un nome host o un indirizzo, senza https:// n
+<Allow installs from Fuzzy, then tap Check for updates again.
+GTAV
+GTAVAndroid
+GTAVGyro
+GTAVImport
+GTAVLauncher
+GTAVOrigins
+GTAVSocial
+GTAV_
+GTAV_DISPLAY_DPI
+GTAV_DISPLAY_HDR_AVG_LUMINANCE
+GTAV_DISPLAY_HDR_MAX_LUMINANCE
+GTAV_DISPLAY_HDR_MIN_LUMINANCE
+GTAV_DISPLAY_HDR_REQUESTED
+GTAV_DISPLAY_HDR_SDR_RATIO
+GTAV_DISPLAY_HDR_SUPPORTED
+GTAV_DISPLAY_HDR_TYPES
+GTAV_DISPLAY_HEIGHT
+GTAV_DISPLAY_WIDTH
+GTAV_EXTRA_ARGS
+GTAV_GAME_DIR
+GTAV_LAUNCH_EMAIL
+GTAV_LAUNCH_TOKEN
+GTAV_USER_DIR
+GTAV_VULKAN_DRIVER
+GWSC
+GWSC 
+GWSC and Online are unavailable.
+GWSC e Online est
+GWSC e Online non sono disponibili.
+GWSC et Online sont indisponibles.
+GWSC i Online s
+GWSC und Online sind nicht verf
+GWSC y Online no est
+KConsenti le installazioni da Fuzzy, poi tocca di nuovo Cerca aggiornamenti.
+Lcom/thegwchr/fuzzy/AppUpdate;
+Lcom/thegwchr/fuzzy/Avatars$1;
+Lcom/thegwchr/fuzzy/Avatars$2;
+Lcom/thegwchr/fuzzy/Avatars;
+Lcom/thegwchr/fuzzy/DepotState;
+Lcom/thegwchr/fuzzy/GameImport;
+Lcom/thegwchr/fuzzy/GameRumble;
+Lcom/thegwchr/fuzzy/GameUiFont;
+Lcom/thegwchr/fuzzy/GwscClient;
+Lcom/thegwchr/fuzzy/GwscEvents;
+Lcom/thegwchr/fuzzy/Origins;
+Lcom/thegwchr/fuzzy/TouchGyro;
+Lcom/thegwchr/fuzzy/Tr;
+Lcom/thegwchr/fuzzy/UiSounds;
+Lcom/thegwchr/fuzzy/a;
+Lcom/thegwchr/fuzzy/b;
+Lcom/thegwchr/fuzzy/c;
+Lcom/thegwchr/fuzzy/d;
+Lcom/thegwchr/fuzzy/e;
+Lcom/thegwchr/fuzzy/f;
+Lcom/thegwchr/fuzzy/g;
+Lcom/thegwchr/fuzzy/h;
+Lcom/thegwchr/fuzzy/i;
+Lcom/thegwchr/fuzzy/j;
+Lcom/thegwchr/fuzzy/k;
+Lcom/thegwchr/fuzzy/l;
+Lcom/thegwchr/fuzzy/m;
+Lcom/thegwchr/fuzzy/n;
+Lcom/thegwchr/fuzzy/o;
+Lcom/thegwchr/fuzzy/p;
+Lcom/thegwchr/fuzzy/q;
+Lcom/thegwchr/fuzzy/r;
+Lcom/thegwchr/fuzzy/s;
+Lcom/thegwchr/fuzzy/t;
+Lcom/thegwchr/fuzzy/u;
+Lcom/thegwchr/fuzzy/v;
+Lcom/thegwchr/fuzzy/w;
+Lcom/thegwchr/fuzzy/x;
+Lcom/thegwchr/fuzzy/y;
+Lcom/thegwchr/fuzzy/z;
+NOT_GWSC
+NPermite las instalaciones desde Fuzzy y vuelve a tocar Buscar actualizaciones.
+OErlaube Installationen von Fuzzy und tippe dann erneut auf Nach Updates suchen.
+PLAYING_GTAV
+Rockstar ID 
+]Autorisez les installations depuis Fuzzy, puis touchez 
+com.thegwchr.fuzzy
+com.thegwchr.fuzzy.bank
+es do Fuzzy e toque em Procurar atualiza
+fini dans rline/gwsc.cpp.
+fuzzy-update.apk
+fuzzy-update.download
+fuzzy:download
+gtav-battery
+gwsc
+gwsc-events
+gwsc.properties
+gwscLaunchEmail
+gwscLaunchToken
+https://
+https://boosty.to/holoiso
+l na instalacje z Fuzzy, a potem ponownie dotknij Sprawd
+libgtav.so
+n en GWSC para unirte a sesiones.
+n, sin https:// ni ruta.
+o respondeu como um servidor GWSC.
+o, sem https:// nem caminho.
+o: %1$s (%2$s), definido en rline/gwsc.cpp.
+pondu comme un serveur GWSC.
+rockstarId
+rockstarIdOf
+rockstarIds
+te ou une adresse, sans https:// ni chemin.
+val$gwsc
+val$rockstarId

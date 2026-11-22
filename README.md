@@ -85,6 +85,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.skgames.trafficrider`
 - `com.tebakgambar`
 - `com.temka.dota2mobile`
+- `com.thegwchr.fuzzy`
 - `com.touchtao.soccerkinggoogle`
 - `com.ubisoft.hungrysharkworld`
 - `com.weatherradar.liveradar.weathermap`
@@ -97,5 +98,5 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `yio.tro.vodobanka`
 - `zygisk-imgui`
 
-Total: 58 paket, 63 folder versi.
+Total: 59 paket, 64 folder versi.
 

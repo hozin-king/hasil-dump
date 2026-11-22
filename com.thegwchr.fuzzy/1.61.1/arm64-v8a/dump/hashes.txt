@@ -1,0 +1,14 @@
+SHA-256: 568331f4e5242a817c641845300b98858204dc7e16b35f494b66ee5b9675b32d
+MD5: 280cf198884f8269586d1e9f81d174e4
+Size: 81221196 bytes
+Source: https://www.mediafire.com/file/0kaiu881xqp69j9/GTAV+MOBILE+UPDATE+21+NOV.apk/file (MediaFire, uploaded 2026-11-20 08:30:18, listed 77.46MB)
+
+== per-file SHA-256 (libs + dex + manifest) ==
+06ef1c521e90e7597ad10a3cac20c804dde30ca93001471daa420479dda8b447  extracted/classes.dex
+0ef53ed80c5244e286863efd1872f2700ca0d7b0bc4a1dfd84752fbaa6a44ed5  extracted/lib/arm64-v8a/libfile_redirect_hook.so
+03de771907f3a978e8df514db2a10761b4b6f34e68ca77171c47feb4418714de  extracted/lib/arm64-v8a/libfzvulkan.so
+7822a3e76984eaf714ace6940b8ebe64921af3653bbb70378b80c6788f23119e  extracted/lib/arm64-v8a/libgsl_alloc_hook.so
+d479fcc2f1d3a95984b3c5ace8ad26b157dfd46b733cb80e5350d68839edbf93  extracted/lib/arm64-v8a/libgtav.so
+61664d194784a6b2a7540a755e0013f7b332ee9d2174560df2326cfed33f768c  extracted/lib/arm64-v8a/libhook_impl.so
+399fd4771092582d691ec4dd566e48a7c12ec1f8cb48f8dd75659c98c5c4464d  extracted/lib/arm64-v8a/libmain_hook.so
+c3be8b58c8400aeff3523fa027948d1f1d566371d51128e6d1837390da7ac94d  extracted/AndroidManifest.xml

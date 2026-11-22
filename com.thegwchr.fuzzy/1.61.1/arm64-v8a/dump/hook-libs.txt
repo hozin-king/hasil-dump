@@ -1,0 +1,84 @@
+== libgtav.so ==
+488
+== libmain_hook ==
+00000000000046f0 T android_dlopen_ext
+00000000000046f4 T android_load_sphal_library
+hook_android_dlopen_ext
+hook_android_load_sphal_library
+libhook_impl.so
+libmain_hook.so
+== libhook_impl ==
+000000000001c958 T _ZNKSt10bad_typeid4whatEv
+000000000001abd4 T _ZNKSt11logic_error4whatEv
+000000000001aa8c T _ZNKSt13bad_exception4whatEv
+000000000001ac68 T _ZNKSt13runtime_error4whatEv
+000000000001ab3c T _ZNKSt20bad_array_new_length4whatEv
+000000000001c8f8 T _ZNKSt8bad_cast4whatEv
+000000000001aae4 T _ZNKSt9bad_alloc4whatEv
+000000000001aa4c T _ZNKSt9exception4whatEv
+000000000001c908 T _ZNSt10bad_typeidC1Ev
+000000000001c908 T _ZNSt10bad_typeidC2Ev
+000000000001c928 T _ZNSt10bad_typeidD0Ev
+000000000001c920 T _ZNSt10bad_typeidD1Ev
+000000000001c920 T _ZNSt10bad_typeidD2Ev
+000000000001a128 T _ZNSt11logic_errorC1EPKc
+000000000001a094 T _ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+000000000001a1b0 T _ZNSt11logic_errorC1ERKS_
+000000000001a128 T _ZNSt11logic_errorC2EPKc
+000000000001a094 T _ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+000000000001a1b0 T _ZNSt11logic_errorC2ERKS_
+000000000001aba4 T _ZNSt11logic_errorD0Ev
+hook_android_dlopen_ext
+hook_android_dlopen_ext: applied libfile_redirect_hook
+hook_android_dlopen_ext: applied libgsl_alloc_hook
+hook_android_dlopen_ext: falling back!
+hook_android_dlopen_ext: filename: %s
+hook_android_dlopen_ext: hook failed: failed to apply libfopen_redirect_hook!
+hook_android_dlopen_ext: hook failed: failed to apply libgsl_alloc_hook!
+hook_android_dlopen_ext: hook failed: failed to load custom driver: %s!
+hook_android_dlopen_ext: hook failed: namespace not supplied!
+hook_android_dlopen_ext: loading custom driver: %s%s
+== libfile_redirect_hook ==
+0000000000004638 T fopen
+hook_fopen
+libfile_redirect_hook.so
+libhook_impl.so
+== libgsl_alloc_hook ==
+0000000000004748 T gsl_memory_alloc_pure
+0000000000004750 T gsl_memory_alloc_pure_64
+0000000000004754 T gsl_memory_free_pure
+hook_gsl_memory_alloc_pure_64
+hook_gsl_memory_free_pure
+libgsl_alloc_hook.so
+libhook_impl.so
+== libfzvulkan ==
+00000000000317d0 T _ZNKSt10bad_typeid4whatEv
+000000000002fa4c T _ZNKSt11logic_error4whatEv
+000000000002f904 T _ZNKSt13bad_exception4whatEv
+000000000002fae0 T _ZNKSt13runtime_error4whatEv
+000000000002f9b4 T _ZNKSt20bad_array_new_length4whatEv
+000000000002b890 T _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+000000000002b8a8 T _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_out_of_rangeEv
+0000000000031770 T _ZNKSt8bad_cast4whatEv
+000000000002f95c T _ZNKSt9bad_alloc4whatEv
+000000000002f8c4 T _ZNKSt9exception4whatEv
+0000000000031780 T _ZNSt10bad_typeidC1Ev
+0000000000031780 T _ZNSt10bad_typeidC2Ev
+00000000000317a0 T _ZNSt10bad_typeidD0Ev
+0000000000031798 T _ZNSt10bad_typeidD1Ev
+0000000000031798 T _ZNSt10bad_typeidD2Ev
+0000000000026b34 T _ZNSt11logic_errorC1EPKc
+0000000000026aa0 T _ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+0000000000026bbc T _ZNSt11logic_errorC1ERKS_
+0000000000026b34 T _ZNSt11logic_errorC2EPKc
+0000000000026aa0 T _ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+GTAV
+GTAV_VULKAN_DRIVER
+GTAV_VULKAN_DRIVER is malformed
+[fzvulkan] Vulkan driver: %s (%u of %u entry points)
+_ZN14HookImplParamsC2EiPKcS1_S1_S1_S1_P23adrenotools_gpu_mapping
+init_hook_param
+libadrenotools could not open the custom driver
+libhook_impl.so
+libmain_hook.so
+the Vulkan driver does not provide a function the game calls
