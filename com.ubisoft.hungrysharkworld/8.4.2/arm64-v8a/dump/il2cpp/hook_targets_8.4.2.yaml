@@ -1,0 +1,183 @@
+# Hook targets — Hungry Shark World 8.4.2 (versionCode 842)
+# Sumber: dump.cs (Il2CppDumper v39) + libil2cpp.so BuildID 2206717056bdf4571ec12e74de02f3b1630c6c39
+# File offset = RVA - 0x4000. Prologue 32 byte diekstrak dari file dan dihitung kemunculannya
+# di SELURUH libil2cpp.so (uniq32=1 berarti unik, aman untuk pattern-scan).
+# CATATAN: InflictDamage uniq32=3 (butuh pola 48 byte / resolve nama).
+# get_maxHealth uniq32=11 (getter trivial — WAJIB resolve nama, jangan pattern-scan).
+# GameValidator + detektor ada di daftar "JANGAN SENTUH" (bukan target hook).
+
+targets:
+  - name: PlayerControlGenericFish.SetInvincibleInternal
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: SetInvincibleInternal
+    args: 2
+    rva: 0x1DC96E0
+    pattern32: fe0f1bf8fa6701a9f85f02a9f65703a9f44f04a9b73b01d0f403022af603012a
+    uniq32: 1
+  - name: PlayerControlGenericFish.SetUnlimitedBoostInternal
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: SetUnlimitedBoostInternal
+    args: 2
+    rva: 0x1DC99F8
+    pattern32: fe0f1df8f65701a9f44f02a9b63b01d0f503022af30300aac846563934000012
+    uniq32: 1
+  - name: PlayerControlGenericFish.InflictDamage
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: InflictDamage
+    args: 6
+    rva: 0x1DCD738
+    pattern32: ff4302d1ee0b00fdedb3016debab026de9a3036dfe2700f9fa6705a9f85f06a9
+    uniq32: 3
+    note: BUTUH pola 48 byte atau resolve nama — 32 byte muncul 3x
+  - name: PlayerControlGenericFish.UpdateHealth
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: UpdateHealth
+    args: 0
+    rva: 0x1DC830C
+    pattern32: e923bc6dfe0b00f9f65702a9f44f03a9b43b01f0f30300aa882a5639a8020037
+    uniq32: 1
+  - name: PlayerControlGenericFish.GetCurrentHealthDrain
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: GetCurrentHealthDrain
+    args: 0
+    rva: 0x1DC5A9C
+    pattern32: e80f1efcfe0700f9f44f01a9d43b01d0f30300aa88da553928010037602401d0
+    uniq32: 1
+  - name: PlayerControlGenericFish.GetCurrentBoostDrain
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: GetCurrentBoostDrain
+    args: 0
+    rva: 0x1DC5B80
+    pattern32: ea0f1cfce923016dfe5702a9f44f03a9d53b01d0742401d0f30300aaa8de5539
+    uniq32: 1
+  - name: PlayerControlGenericFish.SetHaltHealthDrain
+    ns: ""
+    klass: PlayerControlGenericFish
+    method: SetHaltHealthDrain
+    args: 1
+    rva: 0x1DD0F70
+    pattern32: 01300639c0035fd6080040f9e2031f2a03c941f904c541f980001fd6fe5fbda9
+    uniq32: 1
+  - name: Bank.AddCoins
+    ns: ""
+    klass: Bank
+    method: AddCoins
+    args: 2
+    rva: 0x1E6AAF0
+    pattern32: fe67bca9f85f01a9f65702a9f44f03a9b63601b0f403022af303012ac87e6c39
+    uniq32: 1
+    note: DITOLAK sebagai fitur (mata uang) — pola dicatat untuk audit saja
+  - name: Bank.AddGems
+    ns: ""
+    klass: Bank
+    method: AddGems
+    args: 2
+    rva: 0x1E6ABD0
+    pattern32: b50bf497e00314aab10bf497030000140200001401000014f50301aaf40300aa
+    uniq32: 1
+    note: DITOLAK sebagai fitur (mata uang) — pola dicatat untuk audit saja
+  - name: Bank.GetGems
+    ns: ""
+    klass: Bank
+    method: GetGems
+    args: 0
+    rva: 0x1E60BAC
+    pattern32: fe57bea9f44f01a9f43601f0f30300aa88966c39c8000037e01f01d0000440f9
+    uniq32: 1
+  - name: HealthDrainModifier.SetMultiplier
+    ns: ""
+    klass: HealthDrainModifier
+    method: SetMultiplier
+    args: 1
+    rva: 0x1E0CAC0
+    pattern32: e80f1efcfe4f01a90840201e08d04039f30300aa28020034601640f97fd20039
+    uniq32: 1
+  - name: GoldRushControllerOriginal.get_ScoreMultiplier
+    ns: ""
+    klass: GoldRushControllerOriginal
+    method: get_ScoreMultiplier
+    args: 0
+    rva: 0x1D4D034
+    pattern32: 004c40bdc0035fd6005040bdc0035fd6005440b9c0035fd608f04039a8000034
+    uniq32: 1
+  - name: SpeedHackDetector.Update
+    ns: CodeStage.AntiCheat.Detectors
+    klass: SpeedHackDetector
+    method: Update
+    args: 0
+    rva: 0x22B3F70
+    pattern32: fe0f1ef8f44f01a9741401f0f30300aa88724739c8000037e0fc00d0007447f9
+    uniq32: 1
+    note: JANGAN SENTUH — detektor anti-cheat, dicatat untuk verifikasi saja
+  - name: AntiCheatManager.OnMemoryHackAttempt
+    ns: ""
+    klass: AntiCheatManager
+    method: OnMemoryHackAttempt
+    args: 0
+    rva: 0x1E67234
+    pattern32: fe5fbda9f65701a9f44f02a9d3360190561f01d068d66b39d66e47f948020037
+    uniq32: 1
+    note: JANGAN SENTUH — callback detektor, dicatat untuk verifikasi saja
+  - name: GameValidator.CheckSaveAndUpdateStatus
+    ns: FGOL.GameValidation
+    klass: GameValidator
+    method: CheckSaveAndUpdateStatus
+    args: 0
+    rva: 0x21C4C88
+    pattern32: fe5fbda9f65701a9f44f02a9f31b01b0760401b068e26439d66e47f908030037
+    uniq32: 1
+    note: JANGAN SENTUH — validator game, dicatat untuk verifikasi saja
+  - name: GameValidator.StartBuildValidation
+    ns: FGOL.GameValidation
+    klass: GameValidator
+    method: StartBuildValidation
+    args: 0
+    rva: 0x21C498C
+    pattern32: fe0f1af8fc6f01a9fa6702a9f85f03a9f65704a9f44f05a9f31b01b068de6439
+    uniq32: 1
+    note: JANGAN SENTUH — validator game, dicatat untuk verifikasi saja
+  - name: PlayerSharkInstance.get_healthDrainRate
+    ns: ""
+    klass: PlayerSharkInstance
+    method: get_healthDrainRate
+    args: 0
+    rva: 0x1DC7380
+    pattern32: 080c40f9680000b4003140bdc0035fd6fe0f1ff8c489f697080c40f9680000b4
+    uniq32: 1
+  - name: PlayerSharkInstance.get_maxHealth
+    ns: ""
+    klass: PlayerSharkInstance
+    method: get_maxHealth
+    args: 0
+    rva: 0x1DD228C
+    pattern32: 002840bdc0035fd6002c40bdc0035fd6003040bdc0035fd6003440bdc0035fd6
+    uniq32: 11
+    note: Getter trivial — WAJIB resolve nama, JANGAN pattern-scan
+
+fields_PlayerControlGenericFish:
+  m_invincible: 0x18B
+  m_haltHealthDrain: 0x18C
+  m_debugSetInvincible: 0x18D
+  m_boostUnlimited: 0x18E
+  m_debugSetBoostUnlimited: 0x18F
+  m_healthDrainRate: 0xEC
+  m_boostDrainRate: 0x13C
+  m_boostRegenRate: 0x140
+  m_baseSpeed: 0xD8
+  m_bitePower: 0xE8
+  m_biteRadius: 0x154
+  m_damageMultiplier: 0x228
+  m_currentBitePower: 0x220
+  m_bitePowerMultiplier: 0x224
+  m_healthDrainMultiplier: 0x218
+  m_sizeMultiplier: 0x22C
+  m_size: 0x230
+  projectileImmunity: 0x1D4
+  m_machineFish: 0x80
+  m_playerSharkInstance: 0x208

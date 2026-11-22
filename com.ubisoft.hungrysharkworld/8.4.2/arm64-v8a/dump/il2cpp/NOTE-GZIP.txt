@@ -1,0 +1,8 @@
+File .gz di folder ini adalah hasil `gzip -6` dari file aslinya
+(ekstrak dengan `gzip -d <file>.gz`). Dibuat agar upload via
+Git Data API tetap di bawah batas ukuran blob.
+
+- dump.cs (28.2 MB asli)
+- classes_index.json (17.5 MB asli)
+- script.json (74.1 MB asli)
+- il2cpp.h (69.6 MB asli)
