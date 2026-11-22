@@ -1,0 +1,20 @@
+{
+ "game": "Warung Life Simulator",
+ "package": "com.neopawstudio.warunglife",
+ "version": "1.2",
+ "version_code": 49,
+ "engine": "Godot 4.7.2.stable.official",
+ "tool": "GDRE Tools v2.8.0-beta.2 (bruvzg/gdsdecomp, GDRETools fork)",
+ "bytecode": "4.5.0-stable (bytecode version 101, --bytecode=4.5.0)",
+ "decompiled_files": 132,
+ "total_lines": 59378,
+ "total_funcs": 2473,
+ "total_vars": 1549,
+ "total_consts": 1457,
+ "total_size_bytes": 2034536,
+ "notes": [
+  "3 export_plugin.gdc (GodotGoogleLogin, GodotGooglePlayBilling, GodotUnityAds) share basename; decompiled separately under addons/<name>/",
+  "assets/gaya_hud.gd ships as 0-byte stub; real script is scripts/gaya_hud.gdc (decompiled)",
+  "No .md files in dump-full (per task rule); reports live in workspace root rea-warung-life/"
+ ]
+}

@@ -1,0 +1,70 @@
+0x158c80  CALL 0x105d70 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x47fc>
+0x158c88  STR  x19 = 0x30aba  "libAML.so"
+0x158c94  CALL 0x1a64c0 <dlopen@plt>
+0x158c9c  STR  x20 = 0x2ed3a  "GetInterface"
+0x158ca4  CALL 0x1a6450 <dlsym@plt>
+0x158cb0  STR  x0 = 0x3b4ab  "SAUtils"
+0x158cc8  CALL 0x1a64c0 <dlopen@plt>
+0x158cd0  CALL 0x1a6450 <dlsym@plt>
+0x158cdc  STR  x0 = 0x38702  "ImGuiVirtualKeyboard"
+0x158cec  STR  x19 = 0x39e81  "not installed"
+0x158d08  STR  x1 = 0x3bb35  "imguikeyboard"
+0x158d10  STR  x2 = 0x39e7d  "0.2"
+0x158d28  STR  x9 = 0x3c293  "installed but it is an old one:("
+0x158d34  STR  x11 = 0x3c289  "installed"
+0x158d44  JMP  0x158d4c <OnModLoad+0xdc>
+0x158d58  STR  x1 = 0x34486  "Virtual Keyboard is %s"
+0x158d68  CALL 0xa42c4 <__GetModInfo+0x1c4>
+0x158d7c  STR  x1 = 0x36e54  "net.rusjj.gtasa.utils"
+0x158d84  STR  x2 = 0x33ca7  "1.5.1"
+0x158da8  JMP  0x158db4 <OnModLoad+0x144>
+0x158dc0  STR  x1 = 0x397d3  "net.rusjj.aml"
+0x158dcc  STR  x2 = 0x397e1  "1.3.0"
+0x158de4  CALL 0x158f6c <OnModLoad+0x2fc>
+0x158df0  CALL 0x122404 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6eb4>
+0x158df8  CALL 0x102508 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0xf94>
+0x158e04  CALL 0x1320bc <_ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb+0x8ed8>
+0x158e10  CALL 0x12f420 <_ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb+0x623c>
+0x158e1c  CALL 0x133c40 <_ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb+0xaa5c>
+0x158e28  CALL 0x13df8c <_ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb+0x14da8>
+0x158e34  CALL 0x1481bc <_ZNSt6__ndk110__function6__funcIPFvvENS_9allocatorIS3_EES2_ED0Ev+0x43d0>
+0x158e40  CALL 0x11bc00 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6b0>
+0x158e48  STR  x0 = 0x30aba  "libAML.so"
+0x158e50  CALL 0x1a64c0 <dlopen@plt>
+0x158e58  STR  x1 = 0x2ed3a  "GetInterface"
+0x158e5c  CALL 0x1a6450 <dlsym@plt>
+0x158e68  STR  x0 = 0x36e6a  "BASS"
+0x158efc  JMP  0x158f20 <OnModLoad+0x2b0>
+0x158f0c  STR  x2 = 0x30829  "Cheat Menu need BASSMod to play music!"
+0x158f1c  CALL 0xa41ec <__GetModInfo+0xec>
+0x158f24  STR  x0 = 0x3a525  "_Z18OS_ServiceOpenLinkPKc"
+0x158f28  CALL 0x9d6c0 <.text+0x60>
+0x158f38  STR  x0 = 0x32ec7  "_Z14OS_GetDateTimeP8DateTime"
+0x158f3c  CALL 0x9d6c0 <.text+0x60>
+0x158f4c  STR  x0 = 0x3bb43  "_Z20OS_SystemMemoryStatsPiS_S_"
+0x158f50  CALL 0x9d6c0 <.text+0x60>
+0x158fac  CALL 0x159378 <OnAllModsLoaded+0x3c>
+0x158fc0  CALL 0x163648 <OnAllModsLoaded+0xa30c>
+0x158fc8  CALL 0x1a7310 <srand@plt>
+0x158fe8  STR  x1 = 0x3119a  "ARM Cheat Menu"
+0x158ff0  CALL 0xa41a8 <__GetModInfo+0xa8>
+0x159008  STR  x1 = 0x37a77  "CHTMNU"
+0x159030  JMP  0x159050 <OnModLoad+0x3e0>
+0x159040  STR  x1 = 0x37a77  "CHTMNU"
+0x15905c  STR  x1 = 0x3682c  "DATEMNU"
+0x159088  JMP  0x1590ac <OnModLoad+0x43c>
+0x159098  STR  x1 = 0x3682c  "DATEMNU"
+0x1590bc  CALL 0x10468c <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x3118>
+0x1590f0  CALL 0x125410 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9ec0>
+0x159108  JMP  0x159110 <OnModLoad+0x4a0>
+0x159134  JMP  0x15913c <OnModLoad+0x4cc>
+0x159150  STR  x0 = 0x3359f  "_ZN6CDebug22DebugDisplayTextBufferEv"
+0x159154  CALL 0x9d6c0 <.text+0x60>
+0x159188  STR  x0 = 0x38f14  "_Z14AND_TouchEventiiii"
+0x15918c  CALL 0x9d6c0 <.text+0x60>
+0x159218  STR  x0 = 0x34163  "_ZN8C_PcSave8SaveSlotEab"
+0x15921c  CALL 0x9d6c0 <.text+0x60>
+0x1592d8  JMP  0x1592e4 <OnModLoad+0x674>
+0x159308  JMP  0x159314 <OnModLoad+0x6a4>
+0x159334  CALL 0x1a25d0 <OnAllModsLoaded+0x49294>
+0x159338  CALL 0x1a64b0 <__stack_chk_fail@plt>

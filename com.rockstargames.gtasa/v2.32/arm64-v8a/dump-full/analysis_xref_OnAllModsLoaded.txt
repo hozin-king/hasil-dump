@@ -1,0 +1,79 @@
+0x15934c  STR  x1 = 0x31b1f  "net.rusjj.timecyc24"
+0x15939c  STR  x3 = 0x2e0b1  "%s/CheatMenu.log"
+0x1593f4  CALL 0x1a6b30 <__vsprintf_chk@plt>
+0x159418  CALL 0x1a64b0 <__stack_chk_fail@plt>
+0x159464  CALL 0x1016f8 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x184>
+0x159474  CALL 0x102b6c <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x15f8>
+0x15949c  CALL 0xb312c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x222c>
+0x1594b4  CALL 0x124260 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8d10>
+0x1594bc  CALL 0xbd56c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc66c>
+0x1594c0  CALL 0xb1fc8 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x10c8>
+0x1594d8  CALL 0xad5f0 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x2d18>
+0x1594dc  CALL 0xb312c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x222c>
+0x15950c  JMP  0x159778 <OnAllModsLoaded+0x43c>
+0x159540  CALL 0x103c50 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x26dc>
+0x159554  STR  x1 = 0x37a77  "CHTMNU"
+0x159570  CALL 0x11fc78 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x4728>
+0x159588  STR  x1 = 0x3682c  "DATEMNU"
+0x15959c  JMP  0x1594bc <OnAllModsLoaded+0x180>
+0x1595bc  CALL 0x11be7c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x92c>
+0x1595c4  CALL 0x10271c <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x11a8>
+0x1595c8  JMP  0x1594bc <OnAllModsLoaded+0x180>
+0x1595d4  CALL 0x11cd54 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x1804>
+0x1596c0  CALL 0xc0eec <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xffec>
+0x1596cc  STR  x0 = 0x2e898  "CheatMenu"
+0x1596d8  CALL 0xac630 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x1d58>
+0x1596f8  CALL 0xb8124 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7224>
+0x1596fc  CALL 0xab2fc <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0xa24>
+0x159710  CALL 0xc0fa0 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x100a0>
+0x159718  STR  x0 = 0x36184  "##TouchMe><"
+0x159724  CALL 0xb8150 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7250>
+0x15973c  STR  x1 = 0x2e898  "CheatMenu"
+0x159750  CALL 0xe4034 <_ZN15ImGuiOldColumnsD2Ev+0x1300>
+0x15976c  CALL 0xbd01c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc11c>
+0x159774  CALL 0xabc64 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x138c>
+0x159778  CALL 0xbd56c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc66c>
+0x159788  CALL 0xb1fc8 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x10c8>
+0x1597a4  CALL 0xce7b4 <_ZN14ImTriangulator14ReclassifyNodeEP18ImTriangulatorNode+0x610>
+0x1597b4  CALL 0x10126c <_ZN8ImVectorIcE9push_backERKc+0xa65c>
+0x1597c0  CALL 0xad5f0 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x2d18>
+0x159808  JMP  0x159494 <OnAllModsLoaded+0x158>
+0x159814  STR  x9 = 0x359e3  "Uhhh, I don't want this AML version! Update it please!!!"
+0x159820  STR  x8 = 0x33cad  "I'M Requesting the latest SAUtils to be Installed!!!"
+0x159828  CALL 0xb1fb8 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x10b8>
+0x159844  CALL 0xac630 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x1d58>
+0x159874  CALL 0xc0eec <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xffec>
+0x159884  CALL 0xc0fa0 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x100a0>
+0x15988c  STR  x0 = 0x36e6f  "Cheat Menu Is Not Feeling Good:("
+0x159898  CALL 0xb8150 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7250>
+0x1598ac  STR  x1 = 0x341b5  "%s"
+0x1598c0  CALL 0xe4034 <_ZN15ImGuiOldColumnsD2Ev+0x1300>
+0x1598c4  JMP  0x159940 <OnAllModsLoaded+0x604>
+0x1598d0  STR  x1 = 0x341b5  "%s"
+0x1598e4  CALL 0xe4034 <_ZN15ImGuiOldColumnsD2Ev+0x1300>
+0x1598f0  STR  x0 = 0x33ce2  "Click Me To Download SAUtils v1.6"
+0x159900  CALL 0xe4d24 <_ZN15ImGuiOldColumnsD2Ev+0x1ff0>
+0x159910  STR  x0 = 0x35a1c  "https://modsfire.com/qtRMJ0PmV40t0C1"
+0x15991c  CALL 0xe6bec <_ZN15ImGuiOldColumnsD2Ev+0x3eb8>
+0x159924  STR  x1 = 0x2e0c2  "It is not a virus. Trust me. ARM ^-^"
+0x15992c  CALL 0x1394a8 <_ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb+0x102c4>
+0x159934  CALL 0x12012c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x4bdc>
+0x159940  CALL 0xbd01c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc11c>
+0x159944  JMP  0x1594bc <OnAllModsLoaded+0x180>
+0x159988  JMP  0x159678 <OnAllModsLoaded+0x33c>
+0x159998  CALL 0x1a0660 <OnAllModsLoaded+0x47324>
+0x15999c  CALL 0xbd01c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc11c>
+0x1599a0  JMP  0x1594bc <OnAllModsLoaded+0x180>
+0x1599bc  CALL 0x1a0660 <OnAllModsLoaded+0x47324>
+0x1599d4  CALL 0x1a25d0 <OnAllModsLoaded+0x49294>
+0x1599d8  CALL 0x1a64b0 <__stack_chk_fail@plt>
+0x1599fc  CALL 0x159e28 <OnAllModsLoaded+0xaec>
+0x159a54  CALL 0x1036f4 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x2180>
+0x159a58  CALL 0x10468c <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x3118>
+0x159a5c  CALL 0x10169c <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x128>
+0x159a90  CALL 0xada44 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x316c>
+0x159aa0  JMP  0xada44 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x316c>
+0x159adc  CALL 0x11fc78 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x4728>
+0x159af8  CALL 0xa154c <_ZdvRK11CQuaternionf+0x87c>
+0x159b08  CALL 0xa157c <_ZdvRK11CQuaternionf+0x8ac>
+0x159b7c  JMP  0x159b88 <OnAllModsLoaded+0x84c>

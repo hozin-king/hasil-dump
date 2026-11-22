@@ -1,0 +1,85 @@
+
+/home/hatch/workspace/user/files/libCheatMenu64_0_v8e4.so:	file format elf64-littleaarch64
+
+Disassembly of section .text:
+
+0000000000158b34 <OnModPreLoad>:
+  158b34: a9bd7bfd     	stp	x29, x30, [sp, #-0x30]!
+  158b38: a90157f6     	stp	x22, x21, [sp, #0x10]
+  158b3c: a9024ff4     	stp	x20, x19, [sp, #0x20]
+  158b40: 910003fd     	mov	x29, sp
+  158b44: f00002f6     	adrp	x22, 0x1b7000
+  158b48: b0fff6d3     	adrp	x19, 0x31000
+  158b4c: 911efe73     	add	x19, x19, #0x7bf
+  158b50: f9433ec0     	ldr	x0, [x22, #0x678]
+  158b54: d0fff6f4     	adrp	x20, 0x36000
+  158b58: 91210694     	add	x20, x20, #0x841
+  158b5c: b0fff6c1     	adrp	x1, 0x31000
+  158b60: 9110a421     	add	x1, x1, #0x429
+  158b64: aa1303e2     	mov	x2, x19
+  158b68: aa1403e3     	mov	x3, x20
+  158b6c: 97fd2e82     	bl	0xa4574 <__GetModInfo+0x474>
+  158b70: d0fff6a1     	adrp	x1, 0x2e000
+  158b74: 91221021     	add	x1, x1, #0x884
+  158b78: aa0003f5     	mov	x21, x0
+  158b7c: 97fd2ee3     	bl	0xa4708 <__GetModInfo+0x608>
+  158b80: aa1503e0     	mov	x0, x21
+  158b84: 52807301     	mov	w1, #0x398
+  158b88: 94011eb6     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  158b8c: f9433ec0     	ldr	x0, [x22, #0x678]
+  158b90: b0fff701     	adrp	x1, 0x39000
+  158b94: 911b3021     	add	x1, x1, #0x6cc
+  158b98: aa1303e2     	mov	x2, x19
+  158b9c: aa1403e3     	mov	x3, x20
+  158ba0: 97fd2e75     	bl	0xa4574 <__GetModInfo+0x474>
+  158ba4: d0fff6c1     	adrp	x1, 0x32000
+  158ba8: 91027421     	add	x1, x1, #0x9d
+  158bac: aa0003f5     	mov	x21, x0
+  158bb0: 97fd2ed6     	bl	0xa4708 <__GetModInfo+0x608>
+  158bb4: aa1503e0     	mov	x0, x21
+  158bb8: 52807301     	mov	w1, #0x398
+  158bbc: 94011ea9     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  158bc0: f9433ec0     	ldr	x0, [x22, #0x678]
+  158bc4: d0fff6a1     	adrp	x1, 0x2e000
+  158bc8: 91141c21     	add	x1, x1, #0x507
+  158bcc: aa1303e2     	mov	x2, x19
+  158bd0: aa1403e3     	mov	x3, x20
+  158bd4: 97fd2e68     	bl	0xa4574 <__GetModInfo+0x474>
+  158bd8: d0000308     	adrp	x8, 0x1ba000 <modinfo+0x2990>
+  158bdc: aa0003f5     	mov	x21, x0
+  158be0: f947a101     	ldr	x1, [x8, #0xf40]
+  158be4: 97fd2ec9     	bl	0xa4708 <__GetModInfo+0x608>
+  158be8: aa1503e0     	mov	x0, x21
+  158bec: 52807301     	mov	w1, #0x398
+  158bf0: 94011e9c     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  158bf4: f9433ec0     	ldr	x0, [x22, #0x678]
+  158bf8: b0fff701     	adrp	x1, 0x39000
+  158bfc: 9132c421     	add	x1, x1, #0xcb1
+  158c00: aa1303e2     	mov	x2, x19
+  158c04: aa1403e3     	mov	x3, x20
+  158c08: 97fd2e5b     	bl	0xa4574 <__GetModInfo+0x474>
+  158c0c: d0000308     	adrp	x8, 0x1ba000 <modinfo+0x2990>
+  158c10: aa0003f5     	mov	x21, x0
+  158c14: f9479d01     	ldr	x1, [x8, #0xf38]
+  158c18: 97fd2ebc     	bl	0xa4708 <__GetModInfo+0x608>
+  158c1c: aa1503e0     	mov	x0, x21
+  158c20: 52807301     	mov	w1, #0x398
+  158c24: 94011e8f     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  158c28: f9433ec0     	ldr	x0, [x22, #0x678]
+  158c2c: f0fff6c1     	adrp	x1, 0x33000
+  158c30: 91165c21     	add	x1, x1, #0x597
+  158c34: aa1303e2     	mov	x2, x19
+  158c38: aa1403e3     	mov	x3, x20
+  158c3c: 97fd2e4e     	bl	0xa4574 <__GetModInfo+0x474>
+  158c40: 90fff701     	adrp	x1, 0x38000
+  158c44: 91322821     	add	x1, x1, #0xc8a
+  158c48: aa0003f3     	mov	x19, x0
+  158c4c: 97fd2eaf     	bl	0xa4708 <__GetModInfo+0x608>
+  158c50: aa1303e0     	mov	x0, x19
+  158c54: 52807301     	mov	w1, #0x398
+  158c58: 94011e82     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  158c5c: f9433ec0     	ldr	x0, [x22, #0x678]
+  158c60: a9424ff4     	ldp	x20, x19, [sp, #0x20]
+  158c64: a94157f6     	ldp	x22, x21, [sp, #0x10]
+  158c68: a8c37bfd     	ldp	x29, x30, [sp], #0x30
+  158c6c: 17fd2e34     	b	0xa453c <__GetModInfo+0x43c>

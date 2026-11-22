@@ -1,0 +1,14 @@
+0xa411c  STR  x0 = 0x30aba  "libAML.so"
+0xa4124  CALL 0x1a64c0 <dlopen@plt>
+0xa412c  STR  x1 = 0x2ed3a  "GetInterface"
+0xa4130  CALL 0x1a6450 <dlsym@plt>
+0xa413c  STR  x0 = 0x38c9f  "AMLInterface"
+0xa4174  STR  x2 = 0x3119a  "ARM Cheat Menu"
+0xa417c  STR  x3 = 0x38c8a  "2.32"
+0xa4184  STR  x4 = 0x37edb  "ARM & Grinch_"
+0xa418c  CALL 0x1a6500 <_ZN7ModInfoC2EPKcS1_S1_S1_@plt>
+0xa41a4  JMP  0xa44c0 <__GetModInfo+0x3c0>
+0xa41d8  CALL 0x1a6540 <strncpy@plt>
+0xa4274  CALL 0x1a6550 <vsnprintf@plt>
+0xa4298  CALL 0x1a6560 <__android_log_write@plt>
+0xa42c0  CALL 0x1a64b0 <__stack_chk_fail@plt>

@@ -1,0 +1,21 @@
+--- keyword: /proc/self (1 string) ---
+  /proc/self/maps
+--- keyword: bypass (2 string) ---
+  _ZN12CPostEffects41m_bRadiosityBypassTimeCycleIntensityLimitE
+  _ZN6CCheat23m_nLastScriptBypasstimeE
+--- keyword: debug (7 string) ---
+  DEBUG
+  Debug##Default
+  _ZN10CPlayerPed22bDebugPlayerInvincibleE
+  _ZN12CPostEffects17m_bRadiosityDebugE
+  _ZN12CPostEffects23m_bSeamRemoverDebugModeE
+  _ZN23ImGuiDebugItemPathQueryD2Ev
+  _ZN6CDebug22DebugDisplayTextBufferEv
+--- keyword: frida (1 string) ---
+  Friday
+--- keyword: maps (1 string) ---
+  /proc/self/maps
+--- keyword: root (3 string) ---
+  _ZN8CFileMgr14ms_rootDirNameE
+  at root "%s"
+  root table

@@ -1,0 +1,1414 @@
+
+/home/hatch/workspace/user/files/libCheatMenu64_0_v8e4.so:	file format elf64-littleaarch64
+
+Disassembly of section .text:
+
+000000000011b550 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_>:
+  122200: 12001d02     	and	w2, w8, #0xff
+  122204: f9400009     	ldr	x9, [x0]
+  122208: f9409d29     	ldr	x9, [x9, #0x138]
+  12220c: d63f0120     	blr	x9
+  122210: f9400e80     	ldr	x0, [x20, #0x18]
+  122214: b40002a0     	cbz	x0, 0x122268 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6d18>
+  122218: 97fdf8c1     	bl	0xa051c <.text+0x2ebc>
+  12221c: f94002c8     	ldr	x8, [x22]
+  122220: b9402284     	ldr	w4, [x20, #0x20]
+  122224: 2a0003e3     	mov	w3, w0
+  122228: f9400109     	ldr	x9, [x8]
+  12222c: 3100049f     	cmn	w4, #0x1
+  122230: f9409d29     	ldr	x9, [x9, #0x138]
+  122234: 54000100     	b.eq	0x122254 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6d04>
+  122238: d503201f     	nop
+  12223c: 509298c1     	adr	x1, #-0xdace6
+  122240: aa0803e0     	mov	x0, x8
+  122244: 2a1303e2     	mov	w2, w19
+  122248: d63f0120     	blr	x9
+  12224c: 14000007     	b	0x122268 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6d18>
+  122250: d65f03c0     	ret
+  122254: d503201f     	nop
+  122258: 10929761     	adr	x1, #-0xdad14
+  12225c: aa0803e0     	mov	x0, x8
+  122260: 2a1303e2     	mov	w2, w19
+  122264: d63f0120     	blr	x9
+  122268: b00004c8     	adrp	x8, 0x1bb000 <modinfo+0x3990>
+  12226c: 2f00e400     	movi	d0, #0000000000000000
+  122270: f940f500     	ldr	x0, [x8, #0x1e8]
+  122274: 52800021     	mov	w1, #0x1
+  122278: a9424ff4     	ldp	x20, x19, [sp, #0x20]
+  12227c: a94157f6     	ldp	x22, x21, [sp, #0x10]
+  122280: a8c37bfd     	ldp	x29, x30, [sp], #0x30
+  122284: 17fdeed5     	b	0x9ddd8 <.text+0x778>
+  122288: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+  12228c: f9000bf3     	str	x19, [sp, #0x10]
+  122290: 910003fd     	mov	x29, sp
+  122294: f00004c8     	adrp	x8, 0x1bd000 <amlStub+0x388>
+  122298: aa0003f3     	mov	x19, x0
+  12229c: f9422508     	ldr	x8, [x8, #0x448]
+  1222a0: aa0803e0     	mov	x0, x8
+  1222a4: 97ffffc0     	bl	0x1221a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6c54>
+  1222a8: f00004c8     	adrp	x8, 0x1bd000 <amlStub+0x388>
+  1222ac: aa1303e0     	mov	x0, x19
+  1222b0: f9422901     	ldr	x1, [x8, #0x450]
+  1222b4: f9400bf3     	ldr	x19, [sp, #0x10]
+  1222b8: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+  1222bc: d61f0020     	br	x1
+  1222c0: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+  1222c4: a9014ff4     	stp	x20, x19, [sp, #0x10]
+  1222c8: 910003fd     	mov	x29, sp
+  1222cc: 6f00e400     	movi	v0.2d, #0000000000000000
+  1222d0: 2f00e5e1     	movi	d1, #0x000000ffffffff
+  1222d4: d00004c8     	adrp	x8, 0x1bc000 <g_boneNodeMan+0xf10>
+  1222d8: aa0003f3     	mov	x19, x0
+  1222dc: b00004c9     	adrp	x9, 0x1bb000 <modinfo+0x3990>
+  1222e0: 3900a27f     	strb	wzr, [x19, #0x28]
+  1222e4: ad000000     	stp	q0, q0, [x0]
+  1222e8: f9463900     	ldr	x0, [x8, #0xc70]
+  1222ec: fd001261     	str	d1, [x19, #0x20]
+  1222f0: f9407529     	ldr	x9, [x9, #0xe8]
+  1222f4: f9400008     	ldr	x8, [x0]
+  1222f8: f940bd08     	ldr	x8, [x8, #0x178]
+  1222fc: 91554129     	add	x9, x9, #0x550, lsl #12 // =0x550000
+  122300: d503201f     	nop
+  122304: 10fffc22     	adr	x2, #-0x7c
+  122308: d503201f     	nop
+  12230c: 104d8a23     	adr	x3, #0x9b144
+  122310: 91247121     	add	x1, x9, #0x91c
+  122314: d63f0100     	blr	x8
+  122318: a9414ff4     	ldp	x20, x19, [sp, #0x10]
+  12231c: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+  122320: d65f03c0     	ret
+  122324: f9400268     	ldr	x8, [x19]
+  122328: aa0003f4     	mov	x20, x0
+  12232c: b40000c8     	cbz	x8, 0x122344 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6df4>
+  122330: f9400a69     	ldr	x9, [x19, #0x10]
+  122334: aa0803e0     	mov	x0, x8
+  122338: f9000668     	str	x8, [x19, #0x8]
+  12233c: cb080121     	sub	x1, x9, x8
+  122340: 9401f8c8     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122344: aa1403e0     	mov	x0, x20
+  122348: 940200a2     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  12234c: aa0003e8     	mov	x8, x0
+  122350: f9400000     	ldr	x0, [x0]
+  122354: b40000a0     	cbz	x0, 0x122368 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6e18>
+  122358: f9400909     	ldr	x9, [x8, #0x10]
+  12235c: f9000500     	str	x0, [x8, #0x8]
+  122360: cb000121     	sub	x1, x9, x0
+  122364: 1401f8bf     	b	0x1a0660 <OnAllModsLoaded+0x47324>
+  122368: d65f03c0     	ret
+  12236c: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+  122370: f9000bf3     	str	x19, [sp, #0x10]
+  122374: 910003fd     	mov	x29, sp
+  122378: d503201f     	nop
+  12237c: 104d8868     	adr	x8, #0x9b10c
+  122380: 08dffd08     	ldarb	w8, [x8]
+  122384: 36000108     	tbz	w8, #0x0, 0x1223a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6e54>
+  122388: f00004c8     	adrp	x8, 0x1bd000 <amlStub+0x388>
+  12238c: d503201f     	nop
+  122390: 104d8649     	adr	x9, #0x9b0c8
+  122394: f9022509     	str	x9, [x8, #0x448]
+  122398: f9400bf3     	ldr	x19, [sp, #0x10]
+  12239c: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+  1223a0: d65f03c0     	ret
+  1223a4: d503201f     	nop
+  1223a8: 104d8700     	adr	x0, #0x9b0e0
+  1223ac: 94019090     	bl	0x1865ec <OnAllModsLoaded+0x2d2b0>
+  1223b0: 34fffec0     	cbz	w0, 0x122388 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6e38>
+  1223b4: d503201f     	nop
+  1223b8: 104d8500     	adr	x0, #0x9b0a0
+  1223bc: 97ffffc1     	bl	0x1222c0 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6d70>
+  1223c0: d503201f     	nop
+  1223c4: 10fffc40     	adr	x0, #-0x78
+  1223c8: d503201f     	nop
+  1223cc: 104d8461     	adr	x1, #0x9b08c
+  1223d0: d503201f     	nop
+  1223d4: 10449962     	adr	x2, #0x8932c
+  1223d8: 94021016     	bl	0x1a6430 <__cxa_atexit@plt>
+  1223dc: d503201f     	nop
+  1223e0: 104d8540     	adr	x0, #0x9b0a8
+  1223e4: 940190d3     	bl	0x186730 <OnAllModsLoaded+0x2d3f4>
+  1223e8: 17ffffe8     	b	0x122388 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6e38>
+  1223ec: aa0003f3     	mov	x19, x0
+  1223f0: d503201f     	nop
+  1223f4: 104d84a0     	adr	x0, #0x9b094
+  1223f8: 940190f8     	bl	0x1867d8 <OnAllModsLoaded+0x2d49c>
+  1223fc: aa1303e0     	mov	x0, x19
+  122400: 94020074     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  122404: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+  122408: a9014ff4     	stp	x20, x19, [sp, #0x10]
+  12240c: 910003fd     	mov	x29, sp
+  122410: b00004b4     	adrp	x20, 0x1b7000
+  122414: aa0003f3     	mov	x19, x0
+  122418: d503201f     	nop
+  12241c: 3086e761     	adr	x1, #-0xf2313
+  122420: f9433e88     	ldr	x8, [x20, #0x678]
+  122424: b0fff883     	adrp	x3, 0x33000
+  122428: 912c5c63     	add	x3, x3, #0xb17
+  12242c: 52800022     	mov	w2, #0x1
+  122430: aa0803e0     	mov	x0, x8
+  122434: 97fe0bbc     	bl	0xa5324 <__GetModInfo+0x1224>
+  122438: 36000060     	tbz	w0, #0x0, 0x122444 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6ef4>
+  12243c: aa1303e0     	mov	x0, x19
+  122440: 94000016     	bl	0x122498 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6f48>
+  122444: f9433e80     	ldr	x0, [x20, #0x678]
+  122448: b0fff881     	adrp	x1, 0x33000
+  12244c: 91102821     	add	x1, x1, #0x40a
+  122450: b0fff883     	adrp	x3, 0x33000
+  122454: 912c5c63     	add	x3, x3, #0xb17
+  122458: 52800022     	mov	w2, #0x1
+  12245c: 97fe0bb2     	bl	0xa5324 <__GetModInfo+0x1224>
+  122460: 36000060     	tbz	w0, #0x0, 0x12246c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6f1c>
+  122464: aa1303e0     	mov	x0, x19
+  122468: 94000102     	bl	0x122870 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7320>
+  12246c: f9433e80     	ldr	x0, [x20, #0x678]
+  122470: f0fff861     	adrp	x1, 0x31000
+  122474: 9126b021     	add	x1, x1, #0x9ac
+  122478: b0fff883     	adrp	x3, 0x33000
+  12247c: 912c5c63     	add	x3, x3, #0xb17
+  122480: 52800bc2     	mov	w2, #0x5e
+  122484: 97fe0aca     	bl	0xa4fac <__GetModInfo+0xeac>
+  122488: b9005a60     	str	w0, [x19, #0x58]
+  12248c: a9414ff4     	ldp	x20, x19, [sp, #0x10]
+  122490: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+  122494: d65f03c0     	ret
+  122498: a9bc7bfd     	stp	x29, x30, [sp, #-0x40]!
+  12249c: a9015ffc     	stp	x28, x23, [sp, #0x10]
+  1224a0: a90257f6     	stp	x22, x21, [sp, #0x20]
+  1224a4: a9034ff4     	stp	x20, x19, [sp, #0x30]
+  1224a8: 910003fd     	mov	x29, sp
+  1224ac: d11543ff     	sub	sp, sp, #0x550
+  1224b0: d53bd057     	mrs	x23, TPIDR_EL0
+  1224b4: aa0003f3     	mov	x19, x0
+  1224b8: 910523e0     	add	x0, sp, #0x148
+  1224bc: f94016e8     	ldr	x8, [x23, #0x28]
+  1224c0: 2a1f03e1     	mov	w1, wzr
+  1224c4: 52808002     	mov	w2, #0x400
+  1224c8: f81f83a8     	stur	x8, [x29, #-0x8]
+  1224cc: 94021029     	bl	0x1a6570 <memset@plt>
+  1224d0: d00004c8     	adrp	x8, 0x1bc000 <g_boneNodeMan+0xf10>
+  1224d4: b900527f     	str	wzr, [x19, #0x50]
+  1224d8: 90fff861     	adrp	x1, 0x2e000
+  1224dc: 911a7c21     	add	x1, x1, #0x69f
+  1224e0: f9463900     	ldr	x0, [x8, #0xc70]
+  1224e4: 910523e2     	add	x2, sp, #0x148
+  1224e8: 52808003     	mov	w3, #0x400
+  1224ec: f9400008     	ldr	x8, [x0]
+  1224f0: f9409508     	ldr	x8, [x8, #0x128]
+  1224f4: d63f0100     	blr	x8
+  1224f8: 2a1f03f4     	mov	w20, wzr
+  1224fc: 360015c0     	tbz	w0, #0x0, 0x1227b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7264>
+  122500: 394523e8     	ldrb	w8, [sp, #0x148]
+  122504: 34001588     	cbz	w8, 0x1227b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7264>
+  122508: 910523e0     	add	x0, sp, #0x148
+  12250c: a901ffff     	stp	xzr, xzr, [sp, #0x18]
+  122510: f90017ff     	str	xzr, [sp, #0x28]
+  122514: 9402102f     	bl	0x1a65d0 <strlen@plt>
+  122518: b100201f     	cmn	x0, #0x8
+  12251c: 54001622     	b.hs	0x1227e0 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7290>
+  122520: aa0003f4     	mov	x20, x0
+  122524: f1005c1f     	cmp	x0, #0x17
+  122528: 540000e2     	b.hs	0x122544 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x6ff4>
+  12252c: 531f7a88     	lsl	w8, w20, #1
+  122530: 910003e9     	mov	x9, sp
+  122534: b2400135     	orr	x21, x9, #0x1
+  122538: 390003e8     	strb	w8, [sp]
+  12253c: b5000194     	cbnz	x20, 0x12256c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x701c>
+  122540: 1400000f     	b	0x12257c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x702c>
+  122544: b2400a88     	orr	x8, x20, #0x7
+  122548: 52800349     	mov	w9, #0x1a
+  12254c: f1005d1f     	cmp	x8, #0x17
+  122550: 9a880536     	csinc	x22, x9, x8, eq
+  122554: aa1603e0     	mov	x0, x22
+  122558: 94020f67     	bl	0x1a62f4
+  12255c: b24002c8     	orr	x8, x22, #0x1
+  122560: aa0003f5     	mov	x21, x0
+  122564: a90083f4     	stp	x20, x0, [sp, #0x8]
+  122568: f90003e8     	str	x8, [sp]
+  12256c: 910523e1     	add	x1, sp, #0x148
+  122570: aa1503e0     	mov	x0, x21
+  122574: aa1403e2     	mov	x2, x20
+  122578: 9402100e     	bl	0x1a65b0 <memcpy@plt>
+  12257c: 38346abf     	strb	wzr, [x21, x20]
+  122580: 9100c3e0     	add	x0, sp, #0x30
+  122584: 910003e1     	mov	x1, sp
+  122588: 52800302     	mov	w2, #0x18
+  12258c: 940001f7     	bl	0x122d68 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7818>
+  122590: 394003e8     	ldrb	w8, [sp]
+  122594: 360000a8     	tbz	w8, #0x0, 0x1225a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7058>
+  122598: f94003e8     	ldr	x8, [sp]
+  12259c: f9400be0     	ldr	x0, [sp, #0x10]
+  1225a0: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  1225a4: 9401f82f     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  1225a8: f9401be8     	ldr	x8, [sp, #0x30]
+  1225ac: 9100c3ea     	add	x10, sp, #0x30
+  1225b0: f85e8109     	ldur	x9, [x8, #-0x18]
+  1225b4: 910003e8     	mov	x8, sp
+  1225b8: 8b090140     	add	x0, x10, x9
+  1225bc: 9400fdf7     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  1225c0: 90000481     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1225c4: 910003e0     	mov	x0, sp
+  1225c8: f944a421     	ldr	x1, [x1, #0x948]
+  1225cc: 940170f1     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  1225d0: f9400008     	ldr	x8, [x0]
+  1225d4: f9401d08     	ldr	x8, [x8, #0x38]
+  1225d8: 52800141     	mov	w1, #0xa
+  1225dc: d63f0100     	blr	x8
+  1225e0: 2a0003f4     	mov	w20, w0
+  1225e4: 910003e0     	mov	x0, sp
+  1225e8: 9401708c     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  1225ec: 9100c3e0     	add	x0, sp, #0x30
+  1225f0: 910063e1     	add	x1, sp, #0x18
+  1225f4: 2a1403e2     	mov	w2, w20
+  1225f8: 940006ac     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  1225fc: f9400008     	ldr	x8, [x0]
+  122600: 528000a9     	mov	w9, #0x5
+  122604: f85e8108     	ldur	x8, [x8, #-0x18]
+  122608: 8b080008     	add	x8, x0, x8
+  12260c: 39408108     	ldrb	w8, [x8, #0x20]
+  122610: 6a09011f     	tst	w8, w9
+  122614: 54000080     	b.eq	0x122624 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x70d4>
+  122618: bd405260     	ldr	s0, [x19, #0x50]
+  12261c: aa1f03f5     	mov	x21, xzr
+  122620: 1400000e     	b	0x122658 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7108>
+  122624: 394063f4     	ldrb	w20, [sp, #0x18]
+  122628: f94017e8     	ldr	x8, [sp, #0x28]
+  12262c: 910063e9     	add	x9, sp, #0x18
+  122630: 7200029f     	tst	w20, #0x1
+  122634: 9a891500     	csinc	x0, x8, x9, ne
+  122638: 94020fd6     	bl	0x1a6590 <atof@plt>
+  12263c: 1e624000     	fcvt	s0, d0
+  122640: f94013e8     	ldr	x8, [sp, #0x20]
+  122644: d341fe89     	lsr	x9, x20, #1
+  122648: 7200029f     	tst	w20, #0x1
+  12264c: 9a880128     	csel	x8, x9, x8, eq
+  122650: 91000515     	add	x21, x8, #0x1
+  122654: bd005260     	str	s0, [x19, #0x50]
+  122658: 528f5c28     	mov	w8, #0x7ae1
+  12265c: 72a80288     	movk	w8, #0x4014, lsl #16
+  122660: 1e270101     	fmov	s1, w8
+  122664: 1e212000     	fcmp	s0, s1
+  122668: 1a9fd7f4     	cset	w20, gt
+  12266c: 39018274     	strb	w20, [x19, #0x60]
+  122670: 5400016d     	b.le	0x12269c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x714c>
+  122674: 9100e260     	add	x0, x19, #0x38
+  122678: 910523e1     	add	x1, sp, #0x148
+  12267c: 94000806     	bl	0x124694 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9144>
+  122680: b10006bf     	cmn	x21, #0x1
+  122684: 54000460     	b.eq	0x122710 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x71c0>
+  122688: 9100e260     	add	x0, x19, #0x38
+  12268c: aa1f03e1     	mov	x1, xzr
+  122690: aa1503e2     	mov	x2, x21
+  122694: 9400080d     	bl	0x1246c8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9178>
+  122698: 14000026     	b	0x122730 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x71e0>
+  12269c: 90000493     	adrp	x19, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1226a0: 9100c3f5     	add	x21, sp, #0x30
+  1226a4: f9448273     	ldr	x19, [x19, #0x900]
+  1226a8: f9400268     	ldr	x8, [x19]
+  1226ac: a9442a69     	ldp	x9, x10, [x19, #0x40]
+  1226b0: f9001be8     	str	x8, [sp, #0x30]
+  1226b4: f85e8108     	ldur	x8, [x8, #-0x18]
+  1226b8: f8286aa9     	str	x9, [x21, x8]
+  1226bc: d503201f     	nop
+  1226c0: 10459188     	adr	x8, #0x8b230
+  1226c4: 394223e9     	ldrb	w9, [sp, #0x88]
+  1226c8: 91004108     	add	x8, x8, #0x10
+  1226cc: a90423ea     	stp	x10, x8, [sp, #0x40]
+  1226d0: 360000a9     	tbz	w9, #0x0, 0x1226e4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7194>
+  1226d4: f94047e8     	ldr	x8, [sp, #0x88]
+  1226d8: f9404fe0     	ldr	x0, [sp, #0x98]
+  1226dc: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  1226e0: 9401f7e0     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  1226e4: 910062a0     	add	x0, x21, #0x18
+  1226e8: 9400feae     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  1226ec: 9100c3e0     	add	x0, sp, #0x30
+  1226f0: 91002261     	add	x1, x19, #0x8
+  1226f4: 94010272     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  1226f8: 910202a0     	add	x0, x21, #0x80
+  1226fc: 9400fe9b     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  122700: 394063e8     	ldrb	w8, [sp, #0x18]
+  122704: 37000508     	tbnz	w8, #0x0, 0x1227a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7254>
+  122708: 2a1f03f4     	mov	w20, wzr
+  12270c: 1400002a     	b	0x1227b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7264>
+  122710: 38438268     	ldurb	w8, [x19, #0x38]
+  122714: 37000088     	tbnz	w8, #0x0, 0x122724 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x71d4>
+  122718: 9100e668     	add	x8, x19, #0x39
+  12271c: 3900e27f     	strb	wzr, [x19, #0x38]
+  122720: 14000003     	b	0x12272c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x71dc>
+  122724: f9402668     	ldr	x8, [x19, #0x48]
+  122728: f900227f     	str	xzr, [x19, #0x40]
+  12272c: 3900011f     	strb	wzr, [x8]
+  122730: 90000493     	adrp	x19, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122734: 9100c3f5     	add	x21, sp, #0x30
+  122738: f9448273     	ldr	x19, [x19, #0x900]
+  12273c: f9400268     	ldr	x8, [x19]
+  122740: a9442a69     	ldp	x9, x10, [x19, #0x40]
+  122744: f9001be8     	str	x8, [sp, #0x30]
+  122748: f85e8108     	ldur	x8, [x8, #-0x18]
+  12274c: f8286aa9     	str	x9, [x21, x8]
+  122750: d503201f     	nop
+  122754: 10458ce8     	adr	x8, #0x8b19c
+  122758: 394223e9     	ldrb	w9, [sp, #0x88]
+  12275c: 91004108     	add	x8, x8, #0x10
+  122760: a90423ea     	stp	x10, x8, [sp, #0x40]
+  122764: 360000a9     	tbz	w9, #0x0, 0x122778 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7228>
+  122768: f94047e8     	ldr	x8, [sp, #0x88]
+  12276c: f9404fe0     	ldr	x0, [sp, #0x98]
+  122770: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122774: 9401f7bb     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122778: 910062a0     	add	x0, x21, #0x18
+  12277c: 9400fe89     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  122780: 9100c3e0     	add	x0, sp, #0x30
+  122784: 91002261     	add	x1, x19, #0x8
+  122788: 9401024d     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  12278c: 910202a0     	add	x0, x21, #0x80
+  122790: 9400fe76     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  122794: 394063e8     	ldrb	w8, [sp, #0x18]
+  122798: 37000068     	tbnz	w8, #0x0, 0x1227a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7254>
+  12279c: 52800034     	mov	w20, #0x1
+  1227a0: 14000005     	b	0x1227b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7264>
+  1227a4: f9400fe8     	ldr	x8, [sp, #0x18]
+  1227a8: f94017e0     	ldr	x0, [sp, #0x28]
+  1227ac: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  1227b0: 9401f7ac     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  1227b4: f94016e8     	ldr	x8, [x23, #0x28]
+  1227b8: f85f83a9     	ldur	x9, [x29, #-0x8]
+  1227bc: eb09011f     	cmp	x8, x9
+  1227c0: 54000561     	b.ne	0x12286c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x731c>
+  1227c4: 2a1403e0     	mov	w0, w20
+  1227c8: 911543ff     	add	sp, sp, #0x550
+  1227cc: a9434ff4     	ldp	x20, x19, [sp, #0x30]
+  1227d0: a94257f6     	ldp	x22, x21, [sp, #0x20]
+  1227d4: a9415ffc     	ldp	x28, x23, [sp, #0x10]
+  1227d8: a8c47bfd     	ldp	x29, x30, [sp], #0x40
+  1227dc: d65f03c0     	ret
+  1227e0: f94016e8     	ldr	x8, [x23, #0x28]
+  1227e4: f85f83a9     	ldur	x9, [x29, #-0x8]
+  1227e8: eb09011f     	cmp	x8, x9
+  1227ec: 54000401     	b.ne	0x12286c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x731c>
+  1227f0: 910003e0     	mov	x0, sp
+  1227f4: 97ff8279     	bl	0x1031d8 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x1c64>
+  1227f8: 394003e8     	ldrb	w8, [sp]
+  1227fc: aa0003f3     	mov	x19, x0
+  122800: 360001e8     	tbz	w8, #0x0, 0x12283c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x72ec>
+  122804: f94003e8     	ldr	x8, [sp]
+  122808: f9400be0     	ldr	x0, [sp, #0x10]
+  12280c: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122810: 9401f794     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122814: 1400000a     	b	0x12283c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x72ec>
+  122818: aa0003f3     	mov	x19, x0
+  12281c: 14000008     	b	0x12283c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x72ec>
+  122820: aa0003f3     	mov	x19, x0
+  122824: 910003e0     	mov	x0, sp
+  122828: 94016ffc     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  12282c: 14000002     	b	0x122834 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x72e4>
+  122830: aa0003f3     	mov	x19, x0
+  122834: 9100c3e0     	add	x0, sp, #0x30
+  122838: 97ffd74a     	bl	0x118560 <_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvDpRKT_+0x1a8>
+  12283c: 394063e8     	ldrb	w8, [sp, #0x18]
+  122840: 360000a8     	tbz	w8, #0x0, 0x122854 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7304>
+  122844: f9400fe8     	ldr	x8, [sp, #0x18]
+  122848: f94017e0     	ldr	x0, [sp, #0x28]
+  12284c: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122850: 9401f784     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122854: f94016e8     	ldr	x8, [x23, #0x28]
+  122858: f85f83a9     	ldur	x9, [x29, #-0x8]
+  12285c: eb09011f     	cmp	x8, x9
+  122860: 54000061     	b.ne	0x12286c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x731c>
+  122864: aa1303e0     	mov	x0, x19
+  122868: 9401ff5a     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  12286c: 94020f11     	bl	0x1a64b0 <__stack_chk_fail@plt>
+  122870: a9bb7bfd     	stp	x29, x30, [sp, #-0x50]!
+  122874: f9000bfc     	str	x28, [sp, #0x10]
+  122878: a9025ff8     	stp	x24, x23, [sp, #0x20]
+  12287c: a90357f6     	stp	x22, x21, [sp, #0x30]
+  122880: a9044ff4     	stp	x20, x19, [sp, #0x40]
+  122884: 910003fd     	mov	x29, sp
+  122888: d11583ff     	sub	sp, sp, #0x560
+  12288c: d53bd057     	mrs	x23, TPIDR_EL0
+  122890: aa0003f3     	mov	x19, x0
+  122894: 910563e0     	add	x0, sp, #0x158
+  122898: f94016e8     	ldr	x8, [x23, #0x28]
+  12289c: 2a1f03e1     	mov	w1, wzr
+  1228a0: 52808002     	mov	w2, #0x400
+  1228a4: f81f83a8     	stur	x8, [x29, #-0x8]
+  1228a8: 94020f32     	bl	0x1a6570 <memset@plt>
+  1228ac: d00004d8     	adrp	x24, 0x1bc000 <g_boneNodeMan+0xf10>
+  1228b0: 3901867f     	strb	wzr, [x19, #0x61]
+  1228b4: d0fff881     	adrp	x1, 0x34000
+  1228b8: 910b9021     	add	x1, x1, #0x2e4
+  1228bc: f9463b00     	ldr	x0, [x24, #0xc70]
+  1228c0: 910563e2     	add	x2, sp, #0x158
+  1228c4: 52808003     	mov	w3, #0x400
+  1228c8: f9400008     	ldr	x8, [x0]
+  1228cc: f9409508     	ldr	x8, [x8, #0x128]
+  1228d0: d63f0100     	blr	x8
+  1228d4: 2a1f03f4     	mov	w20, wzr
+  1228d8: 36001e60     	tbz	w0, #0x0, 0x122ca4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7754>
+  1228dc: 394563e8     	ldrb	w8, [sp, #0x158]
+  1228e0: 34001e28     	cbz	w8, 0x122ca4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7754>
+  1228e4: 910563e0     	add	x0, sp, #0x158
+  1228e8: a902ffff     	stp	xzr, xzr, [sp, #0x28]
+  1228ec: f9001fff     	str	xzr, [sp, #0x38]
+  1228f0: 94020f38     	bl	0x1a65d0 <strlen@plt>
+  1228f4: b100201f     	cmn	x0, #0x8
+  1228f8: 54001ee2     	b.hs	0x122cd4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7784>
+  1228fc: aa0003f4     	mov	x20, x0
+  122900: f1005c1f     	cmp	x0, #0x17
+  122904: 540000e2     	b.hs	0x122920 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x73d0>
+  122908: 531f7a88     	lsl	w8, w20, #1
+  12290c: 910043e9     	add	x9, sp, #0x10
+  122910: b2400135     	orr	x21, x9, #0x1
+  122914: 390043e8     	strb	w8, [sp, #0x10]
+  122918: b5000194     	cbnz	x20, 0x122948 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x73f8>
+  12291c: 1400000f     	b	0x122958 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7408>
+  122920: b2400a88     	orr	x8, x20, #0x7
+  122924: 52800349     	mov	w9, #0x1a
+  122928: f1005d1f     	cmp	x8, #0x17
+  12292c: 9a880536     	csinc	x22, x9, x8, eq
+  122930: aa1603e0     	mov	x0, x22
+  122934: 94020e70     	bl	0x1a62f4
+  122938: b24002c8     	orr	x8, x22, #0x1
+  12293c: aa0003f5     	mov	x21, x0
+  122940: a90183f4     	stp	x20, x0, [sp, #0x18]
+  122944: f9000be8     	str	x8, [sp, #0x10]
+  122948: 910563e1     	add	x1, sp, #0x158
+  12294c: aa1503e0     	mov	x0, x21
+  122950: aa1403e2     	mov	x2, x20
+  122954: 94020f17     	bl	0x1a65b0 <memcpy@plt>
+  122958: 38346abf     	strb	wzr, [x21, x20]
+  12295c: 910103e0     	add	x0, sp, #0x40
+  122960: 910043e1     	add	x1, sp, #0x10
+  122964: 52800302     	mov	w2, #0x18
+  122968: 94000100     	bl	0x122d68 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7818>
+  12296c: 394043e8     	ldrb	w8, [sp, #0x10]
+  122970: 360000a8     	tbz	w8, #0x0, 0x122984 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7434>
+  122974: f9400be8     	ldr	x8, [sp, #0x10]
+  122978: f94013e0     	ldr	x0, [sp, #0x20]
+  12297c: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122980: 9401f738     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122984: f94023e8     	ldr	x8, [sp, #0x40]
+  122988: b9000fff     	str	wzr, [sp, #0xc]
+  12298c: 910103ea     	add	x10, sp, #0x40
+  122990: f85e8109     	ldur	x9, [x8, #-0x18]
+  122994: 910043e8     	add	x8, sp, #0x10
+  122998: 8b090140     	add	x0, x10, x9
+  12299c: 9400fcff     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  1229a0: 90000481     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1229a4: 910043e0     	add	x0, sp, #0x10
+  1229a8: f944a421     	ldr	x1, [x1, #0x948]
+  1229ac: 94016ff9     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  1229b0: f9400008     	ldr	x8, [x0]
+  1229b4: f9401d08     	ldr	x8, [x8, #0x38]
+  1229b8: 52800141     	mov	w1, #0xa
+  1229bc: d63f0100     	blr	x8
+  1229c0: 2a0003f4     	mov	w20, w0
+  1229c4: 910043e0     	add	x0, sp, #0x10
+  1229c8: 94016f94     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  1229cc: 910103e0     	add	x0, sp, #0x40
+  1229d0: 9100a3e1     	add	x1, sp, #0x28
+  1229d4: 2a1403e2     	mov	w2, w20
+  1229d8: 940005b4     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  1229dc: f9400008     	ldr	x8, [x0]
+  1229e0: 528000a9     	mov	w9, #0x5
+  1229e4: f85e8108     	ldur	x8, [x8, #-0x18]
+  1229e8: 8b080008     	add	x8, x0, x8
+  1229ec: 39408108     	ldrb	w8, [x8, #0x20]
+  1229f0: 6a09011f     	tst	w8, w9
+  1229f4: 54000060     	b.eq	0x122a00 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x74b0>
+  1229f8: aa1f03f5     	mov	x21, xzr
+  1229fc: 1400000d     	b	0x122a30 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x74e0>
+  122a00: 3940a3f4     	ldrb	w20, [sp, #0x28]
+  122a04: f9401fe8     	ldr	x8, [sp, #0x38]
+  122a08: 9100a3e9     	add	x9, sp, #0x28
+  122a0c: 7200029f     	tst	w20, #0x1
+  122a10: 9a891500     	csinc	x0, x8, x9, ne
+  122a14: 94020ec3     	bl	0x1a6520 <atoi@plt>
+  122a18: f9401be8     	ldr	x8, [sp, #0x30]
+  122a1c: d341fe89     	lsr	x9, x20, #1
+  122a20: 7200029f     	tst	w20, #0x1
+  122a24: b9002260     	str	w0, [x19, #0x20]
+  122a28: 9a880128     	csel	x8, x9, x8, eq
+  122a2c: 91000515     	add	x21, x8, #0x1
+  122a30: f94023e8     	ldr	x8, [sp, #0x40]
+  122a34: 910103ea     	add	x10, sp, #0x40
+  122a38: f85e8109     	ldur	x9, [x8, #-0x18]
+  122a3c: 910043e8     	add	x8, sp, #0x10
+  122a40: 8b090140     	add	x0, x10, x9
+  122a44: 9400fcd5     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  122a48: 90000481     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122a4c: 910043e0     	add	x0, sp, #0x10
+  122a50: f944a421     	ldr	x1, [x1, #0x948]
+  122a54: 94016fcf     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  122a58: f9400008     	ldr	x8, [x0]
+  122a5c: f9401d08     	ldr	x8, [x8, #0x38]
+  122a60: 52800141     	mov	w1, #0xa
+  122a64: d63f0100     	blr	x8
+  122a68: 2a0003f4     	mov	w20, w0
+  122a6c: 910043e0     	add	x0, sp, #0x10
+  122a70: 94016f6a     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  122a74: 910103e0     	add	x0, sp, #0x40
+  122a78: 9100a3e1     	add	x1, sp, #0x28
+  122a7c: 2a1403e2     	mov	w2, w20
+  122a80: 9400058a     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  122a84: f9400008     	ldr	x8, [x0]
+  122a88: 528000a9     	mov	w9, #0x5
+  122a8c: f85e8108     	ldur	x8, [x8, #-0x18]
+  122a90: 8b080008     	add	x8, x0, x8
+  122a94: 39408108     	ldrb	w8, [x8, #0x20]
+  122a98: 6a09011f     	tst	w8, w9
+  122a9c: 540001c1     	b.ne	0x122ad4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7584>
+  122aa0: 3940a3f4     	ldrb	w20, [sp, #0x28]
+  122aa4: f9401fe8     	ldr	x8, [sp, #0x38]
+  122aa8: 9100a3e9     	add	x9, sp, #0x28
+  122aac: 7200029f     	tst	w20, #0x1
+  122ab0: 9a891500     	csinc	x0, x8, x9, ne
+  122ab4: 94020e9b     	bl	0x1a6520 <atoi@plt>
+  122ab8: f9401be8     	ldr	x8, [sp, #0x30]
+  122abc: d341fe89     	lsr	x9, x20, #1
+  122ac0: 7200029f     	tst	w20, #0x1
+  122ac4: b9002660     	str	w0, [x19, #0x24]
+  122ac8: 9a880128     	csel	x8, x9, x8, eq
+  122acc: 8b0802a8     	add	x8, x21, x8
+  122ad0: 91000515     	add	x21, x8, #0x1
+  122ad4: f9463b00     	ldr	x0, [x24, #0xc70]
+  122ad8: f9400008     	ldr	x8, [x0]
+  122adc: f940e108     	ldr	x8, [x8, #0x1c0]
+  122ae0: b0fff881     	adrp	x1, 0x33000
+  122ae4: 912c7821     	add	x1, x1, #0xb1e
+  122ae8: 910033e2     	add	x2, sp, #0xc
+  122aec: d63f0100     	blr	x8
+  122af0: b9402268     	ldr	w8, [x19, #0x20]
+  122af4: b9400fe9     	ldr	w9, [sp, #0xc]
+  122af8: 910103f8     	add	x24, sp, #0x40
+  122afc: 6b09011f     	cmp	w8, w9
+  122b00: 1a9f97f4     	cset	w20, hi
+  122b04: 39018674     	strb	w20, [x19, #0x61]
+  122b08: 54000169     	b.ls	0x122b34 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x75e4>
+  122b0c: 910563e1     	add	x1, sp, #0x158
+  122b10: aa1303e0     	mov	x0, x19
+  122b14: 940006e0     	bl	0x124694 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9144>
+  122b18: b10006bf     	cmn	x21, #0x1
+  122b1c: 54000460     	b.eq	0x122ba8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7658>
+  122b20: aa1303e0     	mov	x0, x19
+  122b24: aa1f03e1     	mov	x1, xzr
+  122b28: aa1503e2     	mov	x2, x21
+  122b2c: 940006e7     	bl	0x1246c8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9178>
+  122b30: 14000026     	b	0x122bc8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7678>
+  122b34: 90000493     	adrp	x19, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122b38: 910103f5     	add	x21, sp, #0x40
+  122b3c: f9448273     	ldr	x19, [x19, #0x900]
+  122b40: f9400268     	ldr	x8, [x19]
+  122b44: a9442a69     	ldp	x9, x10, [x19, #0x40]
+  122b48: f90023e8     	str	x8, [sp, #0x40]
+  122b4c: f85e8108     	ldur	x8, [x8, #-0x18]
+  122b50: f8286aa9     	str	x9, [x21, x8]
+  122b54: d503201f     	nop
+  122b58: 10456cc8     	adr	x8, #0x8ad98
+  122b5c: 394263e9     	ldrb	w9, [sp, #0x98]
+  122b60: 91004108     	add	x8, x8, #0x10
+  122b64: a90523ea     	stp	x10, x8, [sp, #0x50]
+  122b68: 360000a9     	tbz	w9, #0x0, 0x122b7c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x762c>
+  122b6c: f9402f08     	ldr	x8, [x24, #0x58]
+  122b70: f9403700     	ldr	x0, [x24, #0x68]
+  122b74: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122b78: 9401f6ba     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122b7c: 910062a0     	add	x0, x21, #0x18
+  122b80: 9400fd88     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  122b84: 910103e0     	add	x0, sp, #0x40
+  122b88: 91002261     	add	x1, x19, #0x8
+  122b8c: 9401014c     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  122b90: 910202a0     	add	x0, x21, #0x80
+  122b94: 9400fd75     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  122b98: 3940a3e8     	ldrb	w8, [sp, #0x28]
+  122b9c: 370007c8     	tbnz	w8, #0x0, 0x122c94 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7744>
+  122ba0: 2a1f03f4     	mov	w20, wzr
+  122ba4: 14000040     	b	0x122ca4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7754>
+  122ba8: 39400268     	ldrb	w8, [x19]
+  122bac: 37000088     	tbnz	w8, #0x0, 0x122bbc <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x766c>
+  122bb0: aa1303e8     	mov	x8, x19
+  122bb4: 3800151f     	strb	wzr, [x8], #0x1
+  122bb8: 14000003     	b	0x122bc4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7674>
+  122bbc: f9400a68     	ldr	x8, [x19, #0x10]
+  122bc0: f900067f     	str	xzr, [x19, #0x8]
+  122bc4: 3900011f     	strb	wzr, [x8]
+  122bc8: 39400268     	ldrb	w8, [x19]
+  122bcc: f9400669     	ldr	x9, [x19, #0x8]
+  122bd0: d341fd0a     	lsr	x10, x8, #1
+  122bd4: 7200011f     	tst	w8, #0x1
+  122bd8: 9a890155     	csel	x21, x10, x9, eq
+  122bdc: b40001b5     	cbz	x21, 0x122c10 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x76c0>
+  122be0: f9400a69     	ldr	x9, [x19, #0x10]
+  122be4: 7200011f     	tst	w8, #0x1
+  122be8: 52800fa1     	mov	w1, #0x7d
+  122bec: aa1503e2     	mov	x2, x21
+  122bf0: 9a931536     	csinc	x22, x9, x19, ne
+  122bf4: aa1603e0     	mov	x0, x22
+  122bf8: 94020e7e     	bl	0x1a65f0 <memchr@plt>
+  122bfc: cb160008     	sub	x8, x0, x22
+  122c00: f100001f     	cmp	x0, #0x0
+  122c04: 91000908     	add	x8, x8, #0x2
+  122c08: 9a9f1508     	csinc	x8, x8, xzr, ne
+  122c0c: 14000002     	b	0x122c14 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x76c4>
+  122c10: 52800028     	mov	w8, #0x1
+  122c14: 90000496     	adrp	x22, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122c18: eb15011f     	cmp	x8, x21
+  122c1c: f94482d6     	ldr	x22, [x22, #0x900]
+  122c20: 9a8883e8     	csel	x8, xzr, x8, hi
+  122c24: f9001668     	str	x8, [x19, #0x28]
+  122c28: 910103f3     	add	x19, sp, #0x40
+  122c2c: f94002c9     	ldr	x9, [x22]
+  122c30: f90023e9     	str	x9, [sp, #0x40]
+  122c34: f85e8128     	ldur	x8, [x9, #-0x18]
+  122c38: a9442ac9     	ldp	x9, x10, [x22, #0x40]
+  122c3c: f8286a69     	str	x9, [x19, x8]
+  122c40: d503201f     	nop
+  122c44: 10456568     	adr	x8, #0x8acac
+  122c48: 394263e9     	ldrb	w9, [sp, #0x98]
+  122c4c: 91004108     	add	x8, x8, #0x10
+  122c50: a90523ea     	stp	x10, x8, [sp, #0x50]
+  122c54: 360000a9     	tbz	w9, #0x0, 0x122c68 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7718>
+  122c58: f9402f08     	ldr	x8, [x24, #0x58]
+  122c5c: f9403700     	ldr	x0, [x24, #0x68]
+  122c60: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122c64: 9401f67f     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122c68: 91006260     	add	x0, x19, #0x18
+  122c6c: 9400fd4d     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  122c70: 910103e0     	add	x0, sp, #0x40
+  122c74: 910022c1     	add	x1, x22, #0x8
+  122c78: 94010111     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  122c7c: 91020260     	add	x0, x19, #0x80
+  122c80: 9400fd3a     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  122c84: 3940a3e8     	ldrb	w8, [sp, #0x28]
+  122c88: 37000068     	tbnz	w8, #0x0, 0x122c94 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7744>
+  122c8c: 52800034     	mov	w20, #0x1
+  122c90: 14000005     	b	0x122ca4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7754>
+  122c94: f94017e8     	ldr	x8, [sp, #0x28]
+  122c98: f9401fe0     	ldr	x0, [sp, #0x38]
+  122c9c: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122ca0: 9401f670     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122ca4: f94016e8     	ldr	x8, [x23, #0x28]
+  122ca8: f85f83a9     	ldur	x9, [x29, #-0x8]
+  122cac: eb09011f     	cmp	x8, x9
+  122cb0: 540005a1     	b.ne	0x122d64 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7814>
+  122cb4: 2a1403e0     	mov	w0, w20
+  122cb8: 911583ff     	add	sp, sp, #0x560
+  122cbc: a9444ff4     	ldp	x20, x19, [sp, #0x40]
+  122cc0: f9400bfc     	ldr	x28, [sp, #0x10]
+  122cc4: a94357f6     	ldp	x22, x21, [sp, #0x30]
+  122cc8: a9425ff8     	ldp	x24, x23, [sp, #0x20]
+  122ccc: a8c57bfd     	ldp	x29, x30, [sp], #0x50
+  122cd0: d65f03c0     	ret
+  122cd4: f94016e8     	ldr	x8, [x23, #0x28]
+  122cd8: f85f83a9     	ldur	x9, [x29, #-0x8]
+  122cdc: eb09011f     	cmp	x8, x9
+  122ce0: 54000421     	b.ne	0x122d64 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7814>
+  122ce4: 910043e0     	add	x0, sp, #0x10
+  122ce8: 97ff813c     	bl	0x1031d8 <_Z40ImGui_ImplRenderWare_CreateDeviceObjectsv+0x1c64>
+  122cec: 394043e8     	ldrb	w8, [sp, #0x10]
+  122cf0: aa0003f3     	mov	x19, x0
+  122cf4: 36000208     	tbz	w8, #0x0, 0x122d34 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77e4>
+  122cf8: f9400be8     	ldr	x8, [sp, #0x10]
+  122cfc: f94013e0     	ldr	x0, [sp, #0x20]
+  122d00: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122d04: 9401f657     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122d08: 1400000b     	b	0x122d34 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77e4>
+  122d0c: aa0003f3     	mov	x19, x0
+  122d10: 14000009     	b	0x122d34 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77e4>
+  122d14: 14000001     	b	0x122d18 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77c8>
+  122d18: aa0003f3     	mov	x19, x0
+  122d1c: 910043e0     	add	x0, sp, #0x10
+  122d20: 94016ebe     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  122d24: 14000002     	b	0x122d2c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77dc>
+  122d28: aa0003f3     	mov	x19, x0
+  122d2c: 910103e0     	add	x0, sp, #0x40
+  122d30: 97ffd60c     	bl	0x118560 <_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvDpRKT_+0x1a8>
+  122d34: 3940a3e8     	ldrb	w8, [sp, #0x28]
+  122d38: 360000a8     	tbz	w8, #0x0, 0x122d4c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x77fc>
+  122d3c: f94017e8     	ldr	x8, [sp, #0x28]
+  122d40: f9401fe0     	ldr	x0, [sp, #0x38]
+  122d44: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122d48: 9401f646     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122d4c: f94016e8     	ldr	x8, [x23, #0x28]
+  122d50: f85f83a9     	ldur	x9, [x29, #-0x8]
+  122d54: eb09011f     	cmp	x8, x9
+  122d58: 54000061     	b.ne	0x122d64 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7814>
+  122d5c: aa1303e0     	mov	x0, x19
+  122d60: 9401fe1c     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  122d64: 94020dd3     	bl	0x1a64b0 <__stack_chk_fail@plt>
+  122d68: a9ba7bfd     	stp	x29, x30, [sp, #-0x60]!
+  122d6c: a9016ffc     	stp	x28, x27, [sp, #0x10]
+  122d70: a90267fa     	stp	x26, x25, [sp, #0x20]
+  122d74: a9035ff8     	stp	x24, x23, [sp, #0x30]
+  122d78: a90457f6     	stp	x22, x21, [sp, #0x40]
+  122d7c: a9054ff4     	stp	x20, x19, [sp, #0x50]
+  122d80: 910003fd     	mov	x29, sp
+  122d84: 90000499     	adrp	x25, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122d88: 90000498     	adrp	x24, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122d8c: aa0003f3     	mov	x19, x0
+  122d90: f9449339     	ldr	x25, [x25, #0x920]
+  122d94: f900581f     	str	xzr, [x0, #0xb0]
+  122d98: aa0003fc     	mov	x28, x0
+  122d9c: f9448318     	ldr	x24, [x24, #0x900]
+  122da0: 2a0203f5     	mov	w21, w2
+  122da4: aa0103f6     	mov	x22, x1
+  122da8: 9101a33a     	add	x26, x25, #0x68
+  122dac: 9101033b     	add	x27, x25, #0x40
+  122db0: aa0003f4     	mov	x20, x0
+  122db4: f9400b08     	ldr	x8, [x24, #0x10]
+  122db8: f8080e7a     	str	x26, [x19, #0x80]!
+  122dbc: f8010f9b     	str	x27, [x28, #0x10]!
+  122dc0: f9400f09     	ldr	x9, [x24, #0x18]
+  122dc4: f9000008     	str	x8, [x0]
+  122dc8: f85e8108     	ldur	x8, [x8, #-0x18]
+  122dcc: f900041f     	str	xzr, [x0, #0x8]
+  122dd0: f8286809     	str	x9, [x0, x8]
+  122dd4: f9400008     	ldr	x8, [x0]
+  122dd8: f85e8108     	ldur	x8, [x8, #-0x18]
+  122ddc: 8b080017     	add	x23, x0, x8
+  122de0: 91006001     	add	x1, x0, #0x18
+  122de4: aa1703e0     	mov	x0, x23
+  122de8: 9400fc61     	bl	0x161f6c <OnAllModsLoaded+0x8c30>
+  122dec: f9401309     	ldr	x9, [x24, #0x20]
+  122df0: 12800008     	mov	w8, #-0x1
+  122df4: f90046ff     	str	xzr, [x23, #0x88]
+  122df8: b90092e8     	str	w8, [x23, #0x90]
+  122dfc: f940070a     	ldr	x10, [x24, #0x8]
+  122e00: f9401708     	ldr	x8, [x24, #0x28]
+  122e04: f9000a89     	str	x9, [x20, #0x10]
+  122e08: f85e8129     	ldur	x9, [x9, #-0x18]
+  122e0c: f8296b88     	str	x8, [x28, x9]
+  122e10: f9401b09     	ldr	x9, [x24, #0x30]
+  122e14: f900028a     	str	x10, [x20]
+  122e18: f85e8148     	ldur	x8, [x10, #-0x18]
+  122e1c: 9100632a     	add	x10, x25, #0x18
+  122e20: f8286a89     	str	x9, [x20, x8]
+  122e24: f900028a     	str	x10, [x20]
+  122e28: f900429a     	str	x26, [x20, #0x80]
+  122e2c: f9000a9b     	str	x27, [x20, #0x10]
+  122e30: 91006280     	add	x0, x20, #0x18
+  122e34: 9400fced     	bl	0x1621e8 <OnAllModsLoaded+0x8eac>
+  122e38: 90000488     	adrp	x8, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122e3c: f9448508     	ldr	x8, [x8, #0x908]
+  122e40: 91004108     	add	x8, x8, #0x10
+  122e44: f9000e88     	str	x8, [x20, #0x18]
+  122e48: f9400ac8     	ldr	x8, [x22, #0x10]
+  122e4c: 3dc002c0     	ldr	q0, [x22]
+  122e50: f9003688     	str	x8, [x20, #0x68]
+  122e54: 3c858280     	stur	q0, [x20, #0x58]
+  122e58: a900fedf     	stp	xzr, xzr, [x22, #0x8]
+  122e5c: f90002df     	str	xzr, [x22]
+  122e60: f9003a9f     	str	xzr, [x20, #0x70]
+  122e64: b9007a95     	str	w21, [x20, #0x78]
+  122e68: 91006280     	add	x0, x20, #0x18
+  122e6c: 97ffd60d     	bl	0x1186a0 <_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvNS0_15source_positionEDpRKT_+0xb8>
+  122e70: a9454ff4     	ldp	x20, x19, [sp, #0x50]
+  122e74: a94457f6     	ldp	x22, x21, [sp, #0x40]
+  122e78: a9435ff8     	ldp	x24, x23, [sp, #0x30]
+  122e7c: a94267fa     	ldp	x26, x25, [sp, #0x20]
+  122e80: a9416ffc     	ldp	x28, x27, [sp, #0x10]
+  122e84: a8c67bfd     	ldp	x29, x30, [sp], #0x60
+  122e88: d65f03c0     	ret
+  122e8c: 38458288     	ldurb	w8, [x20, #0x58]
+  122e90: aa0003f5     	mov	x21, x0
+  122e94: 360000a8     	tbz	w8, #0x0, 0x122ea8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7958>
+  122e98: f9402e88     	ldr	x8, [x20, #0x58]
+  122e9c: f9403680     	ldr	x0, [x20, #0x68]
+  122ea0: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  122ea4: 9401f5ef     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  122ea8: 91006280     	add	x0, x20, #0x18
+  122eac: 9400fcbd     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  122eb0: 14000002     	b	0x122eb8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7968>
+  122eb4: aa0003f5     	mov	x21, x0
+  122eb8: 91002301     	add	x1, x24, #0x8
+  122ebc: aa1403e0     	mov	x0, x20
+  122ec0: 9401007f     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  122ec4: 14000002     	b	0x122ecc <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x797c>
+  122ec8: aa0003f5     	mov	x21, x0
+  122ecc: aa1303e0     	mov	x0, x19
+  122ed0: 9400fca6     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  122ed4: aa1503e0     	mov	x0, x21
+  122ed8: 9401fdbe     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  122edc: d106c3ff     	sub	sp, sp, #0x1b0
+  122ee0: a9167bfd     	stp	x29, x30, [sp, #0x160]
+  122ee4: f900bbfc     	str	x28, [sp, #0x170]
+  122ee8: a9185ff8     	stp	x24, x23, [sp, #0x180]
+  122eec: a91957f6     	stp	x22, x21, [sp, #0x190]
+  122ef0: a91a4ff4     	stp	x20, x19, [sp, #0x1a0]
+  122ef4: 910583fd     	add	x29, sp, #0x160
+  122ef8: d53bd055     	mrs	x21, TPIDR_EL0
+  122efc: aa0003f3     	mov	x19, x0
+  122f00: f94016a8     	ldr	x8, [x21, #0x28]
+  122f04: f81f83a8     	stur	x8, [x29, #-0x8]
+  122f08: 97fdea38     	bl	0x9d7e8 <.text+0x188>
+  122f0c: 3d8003e0     	str	q0, [sp]
+  122f10: 97fdea3b     	bl	0x9d7fc <.text+0x19c>
+  122f14: 3dc003e2     	ldr	q2, [sp]
+  122f18: 0f0167e1     	movi	v1.2s, #0x3f, lsl #24
+  122f1c: f0fff8c8     	adrp	x8, 0x3d000
+  122f20: 9100c3e0     	add	x0, sp, #0x30
+  122f24: 910103e2     	add	x2, sp, #0x40
+  122f28: 2a1f03e1     	mov	w1, wzr
+  122f2c: 6e0c0402     	mov	v2.s[1], v0.s[0]
+  122f30: 2e21dc40     	fmul	v0.2s, v2.2s, v1.2s
+  122f34: fd426101     	ldr	d1, [x8, #0x4c0]
+  122f38: fd0023e1     	str	d1, [sp, #0x40]
+  122f3c: fd001be0     	str	d0, [sp, #0x30]
+  122f40: 97fe77eb     	bl	0xc0eec <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xffec>
+  122f44: bd4033e0     	ldr	s0, [sp, #0x30]
+  122f48: 910103e0     	add	x0, sp, #0x40
+  122f4c: 2a1f03e1     	mov	w1, wzr
+  122f50: b90047ff     	str	wzr, [sp, #0x44]
+  122f54: 910103f4     	add	x20, sp, #0x40
+  122f58: bd0043e0     	str	s0, [sp, #0x40]
+  122f5c: 97fe5472     	bl	0xb8124 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7224>
+  122f60: 1e2e1000     	fmov	s0, #1.00000000
+  122f64: 97fe780f     	bl	0xc0fa0 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x100a0>
+  122f68: 910103e0     	add	x0, sp, #0x40
+  122f6c: 9100e261     	add	x1, x19, #0x38
+  122f70: 52800302     	mov	w2, #0x18
+  122f74: a901ffff     	stp	xzr, xzr, [sp, #0x18]
+  122f78: f90017ff     	str	xzr, [sp, #0x28]
+  122f7c: 940000de     	bl	0x1232f4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7da4>
+  122f80: f94023e8     	ldr	x8, [sp, #0x40]
+  122f84: f85e8109     	ldur	x9, [x8, #-0x18]
+  122f88: 9100e3e8     	add	x8, sp, #0x38
+  122f8c: 8b090280     	add	x0, x20, x9
+  122f90: 9400fb82     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  122f94: 90000481     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122f98: 9100e3e0     	add	x0, sp, #0x38
+  122f9c: f944a421     	ldr	x1, [x1, #0x948]
+  122fa0: 94016e7c     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  122fa4: f9400008     	ldr	x8, [x0]
+  122fa8: f9401d08     	ldr	x8, [x8, #0x38]
+  122fac: 52800141     	mov	w1, #0xa
+  122fb0: d63f0100     	blr	x8
+  122fb4: 2a0003f4     	mov	w20, w0
+  122fb8: 9100e3e0     	add	x0, sp, #0x38
+  122fbc: 94016e17     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  122fc0: 910103e0     	add	x0, sp, #0x40
+  122fc4: 910063e1     	add	x1, sp, #0x18
+  122fc8: 2a1403e2     	mov	w2, w20
+  122fcc: 910063f4     	add	x20, sp, #0x18
+  122fd0: 94000436     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  122fd4: 394063e8     	ldrb	w8, [sp, #0x18]
+  122fd8: f94017e9     	ldr	x9, [sp, #0x28]
+  122fdc: b9405e62     	ldr	w2, [x19, #0x5c]
+  122fe0: 7200011f     	tst	w8, #0x1
+  122fe4: 9a941520     	csinc	x0, x9, x20, ne
+  122fe8: 91018261     	add	x1, x19, #0x60
+  122fec: 97fe5459     	bl	0xb8150 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7250>
+  122ff0: 36000fa0     	tbz	w0, #0x0, 0x1231e4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7c94>
+  122ff4: 90000493     	adrp	x19, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  122ff8: b2400296     	orr	x22, x20, #0x1
+  122ffc: 910103f7     	add	x23, sp, #0x40
+  123000: f944a673     	ldr	x19, [x19, #0x948]
+  123004: 528000b8     	mov	w24, #0x5
+  123008: 14000007     	b	0x123024 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7ad4>
+  12300c: 7200011f     	tst	w8, #0x1
+  123010: 9a8902c0     	csel	x0, x22, x9, eq
+  123014: 39400008     	ldrb	w8, [x0]
+  123018: 7101f51f     	cmp	w8, #0x7d
+  12301c: 540004e0     	b.eq	0x1230b8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7b68>
+  123020: 97ff03b1     	bl	0xe3ee4 <_ZN15ImGuiOldColumnsD2Ev+0x11b0>
+  123024: f94023e8     	ldr	x8, [sp, #0x40]
+  123028: f85e8109     	ldur	x9, [x8, #-0x18]
+  12302c: 9100e3e8     	add	x8, sp, #0x38
+  123030: 8b0902e0     	add	x0, x23, x9
+  123034: 9400fb59     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  123038: 9100e3e0     	add	x0, sp, #0x38
+  12303c: aa1303e1     	mov	x1, x19
+  123040: 94016e54     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  123044: f9400008     	ldr	x8, [x0]
+  123048: f9401d08     	ldr	x8, [x8, #0x38]
+  12304c: 52800141     	mov	w1, #0xa
+  123050: d63f0100     	blr	x8
+  123054: 2a0003f4     	mov	w20, w0
+  123058: 9100e3e0     	add	x0, sp, #0x38
+  12305c: 94016def     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  123060: 910103e0     	add	x0, sp, #0x40
+  123064: 910063e1     	add	x1, sp, #0x18
+  123068: 2a1403e2     	mov	w2, w20
+  12306c: 9400040f     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  123070: f9400008     	ldr	x8, [x0]
+  123074: f85e8108     	ldur	x8, [x8, #-0x18]
+  123078: 8b080008     	add	x8, x0, x8
+  12307c: 39408108     	ldrb	w8, [x8, #0x20]
+  123080: 6a18011f     	tst	w8, w24
+  123084: 540001a1     	b.ne	0x1230b8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7b68>
+  123088: 394063e8     	ldrb	w8, [sp, #0x18]
+  12308c: a94227eb     	ldp	x11, x9, [sp, #0x20]
+  123090: 53011d0a     	ubfx	w10, w8, #1, #7
+  123094: 7200011f     	tst	w8, #0x1
+  123098: 9a8902c0     	csel	x0, x22, x9, eq
+  12309c: 9a8b014a     	csel	x10, x10, x11, eq
+  1230a0: f100055f     	cmp	x10, #0x1
+  1230a4: 54fffbe1     	b.ne	0x123020 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7ad0>
+  1230a8: 3940000a     	ldrb	w10, [x0]
+  1230ac: 7101ed5f     	cmp	w10, #0x7b
+  1230b0: 54fffba0     	b.eq	0x123024 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7ad4>
+  1230b4: 17ffffd6     	b	0x12300c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7abc>
+  1230b8: f94023e8     	ldr	x8, [sp, #0x40]
+  1230bc: 910103ea     	add	x10, sp, #0x40
+  1230c0: f85e8109     	ldur	x9, [x8, #-0x18]
+  1230c4: 9100e3e8     	add	x8, sp, #0x38
+  1230c8: 8b090140     	add	x0, x10, x9
+  1230cc: 9400fb33     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  1230d0: f0000461     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1230d4: 9100e3e0     	add	x0, sp, #0x38
+  1230d8: f944a421     	ldr	x1, [x1, #0x948]
+  1230dc: 94016e2d     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  1230e0: f9400008     	ldr	x8, [x0]
+  1230e4: f9401d08     	ldr	x8, [x8, #0x38]
+  1230e8: 52800141     	mov	w1, #0xa
+  1230ec: d63f0100     	blr	x8
+  1230f0: 2a0003f3     	mov	w19, w0
+  1230f4: 9100e3e0     	add	x0, sp, #0x38
+  1230f8: 94016dc8     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  1230fc: 910103e0     	add	x0, sp, #0x40
+  123100: 910063e1     	add	x1, sp, #0x18
+  123104: 2a1303e2     	mov	w2, w19
+  123108: 940003e8     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  12310c: f9400008     	ldr	x8, [x0]
+  123110: 528000a9     	mov	w9, #0x5
+  123114: f85e8108     	ldur	x8, [x8, #-0x18]
+  123118: 8b080008     	add	x8, x0, x8
+  12311c: 39408108     	ldrb	w8, [x8, #0x20]
+  123120: 6a09011f     	tst	w8, w9
+  123124: 54000601     	b.ne	0x1231e4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7c94>
+  123128: 394063f4     	ldrb	w20, [sp, #0x18]
+  12312c: f94017f3     	ldr	x19, [sp, #0x28]
+  123130: 2f00e400     	movi	d0, #0000000000000000
+  123134: 52800020     	mov	w0, #0x1
+  123138: 52800021     	mov	w1, #0x1
+  12313c: 97fff342     	bl	0x11fe44 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x48f4>
+  123140: 7200029f     	tst	w20, #0x1
+  123144: 2d0707e0     	stp	s0, s1, [sp, #0x38]
+  123148: 9a9302c0     	csel	x0, x22, x19, eq
+  12314c: 9100e3e1     	add	x1, sp, #0x38
+  123150: 97ff06f5     	bl	0xe4d24 <_ZN15ImGuiOldColumnsD2Ev+0x1ff0>
+  123154: 36000480     	tbz	w0, #0x0, 0x1231e4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7c94>
+  123158: f94023e8     	ldr	x8, [sp, #0x40]
+  12315c: 910103ea     	add	x10, sp, #0x40
+  123160: f85e8109     	ldur	x9, [x8, #-0x18]
+  123164: 9100e3e8     	add	x8, sp, #0x38
+  123168: 8b090140     	add	x0, x10, x9
+  12316c: 9400fb0b     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  123170: f0000461     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  123174: 9100e3e0     	add	x0, sp, #0x38
+  123178: f944a421     	ldr	x1, [x1, #0x948]
+  12317c: 94016e05     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  123180: f9400008     	ldr	x8, [x0]
+  123184: f9401d08     	ldr	x8, [x8, #0x38]
+  123188: 52800141     	mov	w1, #0xa
+  12318c: d63f0100     	blr	x8
+  123190: 2a0003f3     	mov	w19, w0
+  123194: 9100e3e0     	add	x0, sp, #0x38
+  123198: 94016da0     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  12319c: 910103e0     	add	x0, sp, #0x40
+  1231a0: 910063e1     	add	x1, sp, #0x18
+  1231a4: 2a1303e2     	mov	w2, w19
+  1231a8: 940003c0     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  1231ac: f9400008     	ldr	x8, [x0]
+  1231b0: 528000a9     	mov	w9, #0x5
+  1231b4: f85e8108     	ldur	x8, [x8, #-0x18]
+  1231b8: 8b080008     	add	x8, x0, x8
+  1231bc: 39408108     	ldrb	w8, [x8, #0x20]
+  1231c0: 6a09011f     	tst	w8, w9
+  1231c4: 54000101     	b.ne	0x1231e4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7c94>
+  1231c8: 394063e8     	ldrb	w8, [sp, #0x18]
+  1231cc: f94017ea     	ldr	x10, [sp, #0x28]
+  1231d0: f00004c9     	adrp	x9, 0x1be000 <amlStub+0x1388>
+  1231d4: f9406529     	ldr	x9, [x9, #0xc8]
+  1231d8: 7200011f     	tst	w8, #0x1
+  1231dc: 9a8a02c0     	csel	x0, x22, x10, eq
+  1231e0: d63f0120     	blr	x9
+  1231e4: 97fe678e     	bl	0xbd01c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xc11c>
+  1231e8: f0000473     	adrp	x19, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1231ec: 910103f4     	add	x20, sp, #0x40
+  1231f0: f9448273     	ldr	x19, [x19, #0x900]
+  1231f4: f9400268     	ldr	x8, [x19]
+  1231f8: a9442a69     	ldp	x9, x10, [x19, #0x40]
+  1231fc: f90023e8     	str	x8, [sp, #0x40]
+  123200: f85e8108     	ldur	x8, [x8, #-0x18]
+  123204: f8286a89     	str	x9, [x20, x8]
+  123208: d503201f     	nop
+  12320c: 10453728     	adr	x8, #0x8a6e4
+  123210: 394263e9     	ldrb	w9, [sp, #0x98]
+  123214: 91004108     	add	x8, x8, #0x10
+  123218: a90523ea     	stp	x10, x8, [sp, #0x50]
+  12321c: 360000a9     	tbz	w9, #0x0, 0x123230 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7ce0>
+  123220: f9404fe8     	ldr	x8, [sp, #0x98]
+  123224: f94057e0     	ldr	x0, [sp, #0xa8]
+  123228: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  12322c: 9401f50d     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  123230: 91006280     	add	x0, x20, #0x18
+  123234: 9400fbdb     	bl	0x1621a0 <OnAllModsLoaded+0x8e64>
+  123238: 910103e0     	add	x0, sp, #0x40
+  12323c: 91002261     	add	x1, x19, #0x8
+  123240: 9400ff9f     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  123244: 91020280     	add	x0, x20, #0x80
+  123248: 9400fbc8     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  12324c: 394063e8     	ldrb	w8, [sp, #0x18]
+  123250: 360000a8     	tbz	w8, #0x0, 0x123264 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d14>
+  123254: f9400fe8     	ldr	x8, [sp, #0x18]
+  123258: f94017e0     	ldr	x0, [sp, #0x28]
+  12325c: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  123260: 9401f500     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  123264: f94016a8     	ldr	x8, [x21, #0x28]
+  123268: f85f83a9     	ldur	x9, [x29, #-0x8]
+  12326c: eb09011f     	cmp	x8, x9
+  123270: 54000401     	b.ne	0x1232f0 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7da0>
+  123274: a95a4ff4     	ldp	x20, x19, [sp, #0x1a0]
+  123278: f940bbfc     	ldr	x28, [sp, #0x170]
+  12327c: a95957f6     	ldp	x22, x21, [sp, #0x190]
+  123280: a9585ff8     	ldp	x24, x23, [sp, #0x180]
+  123284: a9567bfd     	ldp	x29, x30, [sp, #0x160]
+  123288: 9106c3ff     	add	sp, sp, #0x1b0
+  12328c: d65f03c0     	ret
+  123290: 14000005     	b	0x1232a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d54>
+  123294: 14000008     	b	0x1232b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d64>
+  123298: 14000003     	b	0x1232a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d54>
+  12329c: 14000002     	b	0x1232a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d54>
+  1232a0: 14000005     	b	0x1232b4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d64>
+  1232a4: aa0003f3     	mov	x19, x0
+  1232a8: 9100e3e0     	add	x0, sp, #0x38
+  1232ac: 94016d5b     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  1232b0: 14000002     	b	0x1232b8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d68>
+  1232b4: aa0003f3     	mov	x19, x0
+  1232b8: 910103e0     	add	x0, sp, #0x40
+  1232bc: 97ffd4a9     	bl	0x118560 <_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvDpRKT_+0x1a8>
+  1232c0: 394063e8     	ldrb	w8, [sp, #0x18]
+  1232c4: 360000a8     	tbz	w8, #0x0, 0x1232d8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7d88>
+  1232c8: f9400fe8     	ldr	x8, [sp, #0x18]
+  1232cc: f94017e0     	ldr	x0, [sp, #0x28]
+  1232d0: 927ff901     	and	x1, x8, #0xfffffffffffffffe
+  1232d4: 9401f4e3     	bl	0x1a0660 <OnAllModsLoaded+0x47324>
+  1232d8: f94016a8     	ldr	x8, [x21, #0x28]
+  1232dc: f85f83a9     	ldur	x9, [x29, #-0x8]
+  1232e0: eb09011f     	cmp	x8, x9
+  1232e4: 54000061     	b.ne	0x1232f0 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7da0>
+  1232e8: aa1303e0     	mov	x0, x19
+  1232ec: 9401fcb9     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  1232f0: 94020c70     	bl	0x1a64b0 <__stack_chk_fail@plt>
+  1232f4: a9ba7bfd     	stp	x29, x30, [sp, #-0x60]!
+  1232f8: a9016ffc     	stp	x28, x27, [sp, #0x10]
+  1232fc: a90267fa     	stp	x26, x25, [sp, #0x20]
+  123300: a9035ff8     	stp	x24, x23, [sp, #0x30]
+  123304: a90457f6     	stp	x22, x21, [sp, #0x40]
+  123308: a9054ff4     	stp	x20, x19, [sp, #0x50]
+  12330c: 910003fd     	mov	x29, sp
+  123310: f0000479     	adrp	x25, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  123314: f0000478     	adrp	x24, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  123318: aa0003f3     	mov	x19, x0
+  12331c: f9449339     	ldr	x25, [x25, #0x920]
+  123320: f900581f     	str	xzr, [x0, #0xb0]
+  123324: aa0003fc     	mov	x28, x0
+  123328: f9448318     	ldr	x24, [x24, #0x900]
+  12332c: 2a0203f5     	mov	w21, w2
+  123330: aa0103f6     	mov	x22, x1
+  123334: 9101a33a     	add	x26, x25, #0x68
+  123338: 9101033b     	add	x27, x25, #0x40
+  12333c: aa0003f4     	mov	x20, x0
+  123340: f9400b08     	ldr	x8, [x24, #0x10]
+  123344: f8080e7a     	str	x26, [x19, #0x80]!
+  123348: f8010f9b     	str	x27, [x28, #0x10]!
+  12334c: f9400f09     	ldr	x9, [x24, #0x18]
+  123350: f9000008     	str	x8, [x0]
+  123354: f85e8108     	ldur	x8, [x8, #-0x18]
+  123358: f900041f     	str	xzr, [x0, #0x8]
+  12335c: f8286809     	str	x9, [x0, x8]
+  123360: f9400008     	ldr	x8, [x0]
+  123364: f85e8108     	ldur	x8, [x8, #-0x18]
+  123368: 8b080017     	add	x23, x0, x8
+  12336c: 91006001     	add	x1, x0, #0x18
+  123370: aa1703e0     	mov	x0, x23
+  123374: 9400fafe     	bl	0x161f6c <OnAllModsLoaded+0x8c30>
+  123378: f9401309     	ldr	x9, [x24, #0x20]
+  12337c: 12800008     	mov	w8, #-0x1
+  123380: f90046ff     	str	xzr, [x23, #0x88]
+  123384: b90092e8     	str	w8, [x23, #0x90]
+  123388: f940070a     	ldr	x10, [x24, #0x8]
+  12338c: f9401708     	ldr	x8, [x24, #0x28]
+  123390: f9000a89     	str	x9, [x20, #0x10]
+  123394: f85e8129     	ldur	x9, [x9, #-0x18]
+  123398: f8296b88     	str	x8, [x28, x9]
+  12339c: f9401b09     	ldr	x9, [x24, #0x30]
+  1233a0: f900028a     	str	x10, [x20]
+  1233a4: f85e8148     	ldur	x8, [x10, #-0x18]
+  1233a8: 9100632a     	add	x10, x25, #0x18
+  1233ac: f8286a89     	str	x9, [x20, x8]
+  1233b0: f900028a     	str	x10, [x20]
+  1233b4: f900429a     	str	x26, [x20, #0x80]
+  1233b8: f9000a9b     	str	x27, [x20, #0x10]
+  1233bc: 91006280     	add	x0, x20, #0x18
+  1233c0: aa1603e1     	mov	x1, x22
+  1233c4: 2a1503e2     	mov	w2, w21
+  1233c8: 940004f7     	bl	0x1247a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9254>
+  1233cc: a9454ff4     	ldp	x20, x19, [sp, #0x50]
+  1233d0: a94457f6     	ldp	x22, x21, [sp, #0x40]
+  1233d4: a9435ff8     	ldp	x24, x23, [sp, #0x30]
+  1233d8: a94267fa     	ldp	x26, x25, [sp, #0x20]
+  1233dc: a9416ffc     	ldp	x28, x27, [sp, #0x10]
+  1233e0: a8c67bfd     	ldp	x29, x30, [sp], #0x60
+  1233e4: d65f03c0     	ret
+  1233e8: aa0003f5     	mov	x21, x0
+  1233ec: 91002301     	add	x1, x24, #0x8
+  1233f0: aa1403e0     	mov	x0, x20
+  1233f4: 9400ff32     	bl	0x1630bc <OnAllModsLoaded+0x9d80>
+  1233f8: 14000002     	b	0x123400 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7eb0>
+  1233fc: aa0003f5     	mov	x21, x0
+  123400: aa1303e0     	mov	x0, x19
+  123404: 9400fb59     	bl	0x162168 <OnAllModsLoaded+0x8e2c>
+  123408: aa1503e0     	mov	x0, x21
+  12340c: 9401fc71     	bl	0x1a25d0 <OnAllModsLoaded+0x49294>
+  123410: 6db82beb     	stp	d11, d10, [sp, #-0x80]!
+  123414: 6d0123e9     	stp	d9, d8, [sp, #0x10]
+  123418: a9027bfd     	stp	x29, x30, [sp, #0x20]
+  12341c: a9036ffc     	stp	x28, x27, [sp, #0x30]
+  123420: a90467fa     	stp	x26, x25, [sp, #0x40]
+  123424: a9055ff8     	stp	x24, x23, [sp, #0x50]
+  123428: a90657f6     	stp	x22, x21, [sp, #0x60]
+  12342c: a9074ff4     	stp	x20, x19, [sp, #0x70]
+  123430: 910083fd     	add	x29, sp, #0x20
+  123434: d10a43ff     	sub	sp, sp, #0x290
+  123438: 2f00e400     	movi	d0, #0000000000000000
+  12343c: d53bd058     	mrs	x24, TPIDR_EL0
+  123440: aa0003f3     	mov	x19, x0
+  123444: f9401708     	ldr	x8, [x24, #0x28]
+  123448: 9105a3e0     	add	x0, sp, #0x168
+  12344c: 910143e2     	add	x2, sp, #0x50
+  123450: 2a1f03e1     	mov	w1, wzr
+  123454: f81d03a8     	stur	x8, [x29, #-0x30]
+  123458: fd00b7e0     	str	d0, [sp, #0x168]
+  12345c: fd002be0     	str	d0, [sp, #0x50]
+  123460: 97fe76a3     	bl	0xc0eec <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0xffec>
+  123464: 97fde8e1     	bl	0x9d7e8 <.text+0x188>
+  123468: 1e204008     	fmov	s8, s0
+  12346c: 97fde8e4     	bl	0x9d7fc <.text+0x19c>
+  123470: 9105a3e0     	add	x0, sp, #0x168
+  123474: 2a1f03e1     	mov	w1, wzr
+  123478: bd016be8     	str	s8, [sp, #0x168]
+  12347c: bd016fe0     	str	s0, [sp, #0x16c]
+  123480: 97fe5329     	bl	0xb8124 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7224>
+  123484: 1e2e1000     	fmov	s0, #1.00000000
+  123488: 97fe76c6     	bl	0xc0fa0 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x100a0>
+  12348c: b9405e62     	ldr	w2, [x19, #0x5c]
+  123490: f0fff860     	adrp	x0, 0x32000
+  123494: 91182800     	add	x0, x0, #0x60a
+  123498: aa1f03e1     	mov	x1, xzr
+  12349c: 97fe532d     	bl	0xb8150 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x7250>
+  1234a0: 36004f20     	tbz	w0, #0x0, 0x123e84 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8934>
+  1234a4: 97fe1f96     	bl	0xab2fc <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0xa24>
+  1234a8: 528cccc8     	mov	w8, #0x6666
+  1234ac: bd400000     	ldr	s0, [x0]
+  1234b0: aa1f03e0     	mov	x0, xzr
+  1234b4: 72a7fcc8     	movk	w8, #0x3fe6, lsl #16
+  1234b8: 1e270101     	fmov	s1, w8
+  1234bc: 1e210800     	fmul	s0, s0, s1
+  1234c0: 97fe7963     	bl	0xc1a4c <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x10b4c>
+  1234c4: a9037fff     	stp	xzr, xzr, [sp, #0x30]
+  1234c8: f90023ff     	str	xzr, [sp, #0x40]
+  1234cc: 9105a3e0     	add	x0, sp, #0x168
+  1234d0: aa1303e1     	mov	x1, x19
+  1234d4: 52800302     	mov	w2, #0x18
+  1234d8: 9105a3f4     	add	x20, sp, #0x168
+  1234dc: 97ffff86     	bl	0x1232f4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7da4>
+  1234e0: f940b7e8     	ldr	x8, [sp, #0x168]
+  1234e4: f85e8109     	ldur	x9, [x8, #-0x18]
+  1234e8: 910143e8     	add	x8, sp, #0x50
+  1234ec: 8b090280     	add	x0, x20, x9
+  1234f0: 9400fa2a     	bl	0x161d98 <OnAllModsLoaded+0x8a5c>
+  1234f4: f0000461     	adrp	x1, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+  1234f8: 910143e0     	add	x0, sp, #0x50
+  1234fc: f944a421     	ldr	x1, [x1, #0x948]
+  123500: 94016d24     	bl	0x17e990 <OnAllModsLoaded+0x25654>
+  123504: f9400008     	ldr	x8, [x0]
+  123508: f9401d08     	ldr	x8, [x8, #0x38]
+  12350c: 52800141     	mov	w1, #0xa
+  123510: d63f0100     	blr	x8
+  123514: 2a0003f4     	mov	w20, w0
+  123518: 910143e0     	add	x0, sp, #0x50
+  12351c: 94016cbf     	bl	0x17e818 <OnAllModsLoaded+0x254dc>
+  123520: 9105a3e0     	add	x0, sp, #0x168
+  123524: 9100c3e1     	add	x1, sp, #0x30
+  123528: 2a1403e2     	mov	w2, w20
+  12352c: 940002df     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  123530: 97fde8ae     	bl	0x9d7e8 <.text+0x188>
+  123534: 1e204009     	fmov	s9, s0
+  123538: 97fde8b1     	bl	0x9d7fc <.text+0x19c>
+  12353c: 1e204008     	fmov	s8, s0
+  123540: 3940c3e8     	ldrb	w8, [sp, #0x30]
+  123544: f94023e9     	ldr	x9, [sp, #0x40]
+  123548: 9100c3f4     	add	x20, sp, #0x30
+  12354c: 7200011f     	tst	w8, #0x1
+  123550: 9a941520     	csinc	x0, x9, x20, ne
+  123554: 1e3e1000     	fmov	s0, #-1.00000000
+  123558: aa1f03e1     	mov	x1, xzr
+  12355c: 2a1f03e2     	mov	w2, wzr
+  123560: 97fe2434     	bl	0xac630 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x1d58>
+  123564: 1e2c100a     	fmov	s10, #0.50000000
+  123568: 1e3c1001     	fmov	s1, #-0.50000000
+  12356c: 1e2a092b     	fmul	s11, s9, s10
+  123570: 1e210800     	fmul	s0, s0, s1
+  123574: 1e202960     	fadd	s0, s11, s0
+  123578: 1e202008     	fcmp	s0, #0.0
+  12357c: 5400004d     	b.le	0x123584 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8034>
+  123580: 97fe80df     	bl	0xc38fc <_ZN5ImGui13FixupKeyChordEi+0x162c>
+  123584: 529999a8     	mov	w8, #0xcccd
+  123588: 1e2a0908     	fmul	s8, s8, s10
+  12358c: 72a7c988     	movk	w8, #0x3e4c, lsl #16
+  123590: 1e270100     	fmov	s0, w8
+  123594: 1e200900     	fmul	s0, s8, s0
+  123598: 97fe80e5     	bl	0xc392c <_ZN5ImGui13FixupKeyChordEi+0x165c>
+  12359c: 3940c3e8     	ldrb	w8, [sp, #0x30]
+  1235a0: f94023e9     	ldr	x9, [sp, #0x40]
+  1235a4: b2400299     	orr	x25, x20, #0x1
+  1235a8: 7200011f     	tst	w8, #0x1
+  1235ac: 9a890320     	csel	x0, x25, x9, eq
+  1235b0: 97ff0319     	bl	0xe4214 <_ZN15ImGuiOldColumnsD2Ev+0x14e0>
+  1235b4: 97ff0e7d     	bl	0xe6fa8 <_ZN15ImGuiOldColumnsD2Ev+0x4274>
+  1235b8: d0fff8c8     	adrp	x8, 0x3d000
+  1235bc: fd429100     	ldr	d0, [x8, #0x520]
+  1235c0: fd002be0     	str	d0, [sp, #0x50]
+  1235c4: 910143e0     	add	x0, sp, #0x50
+  1235c8: 97ff0da4     	bl	0xe6c58 <_ZN15ImGuiOldColumnsD2Ev+0x3f24>
+  1235cc: b9402668     	ldr	w8, [x19, #0x24]
+  1235d0: 340005a8     	cbz	w8, 0x123684 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8134>
+  1235d4: 97fe3a85     	bl	0xb1fe8 <_ZN8ImVectorI15ImGuiOldColumnsED2Ev+0x10e8>
+  1235d8: 1e790014     	fcvtzu	w20, d0
+  1235dc: d503201f     	nop
+  1235e0: 104cf608     	adr	x8, #0x99ec0
+  1235e4: 08dffd08     	ldarb	w8, [x8]
+  1235e8: 360046c8     	tbz	w8, #0x0, 0x123ec0 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8970>
+  1235ec: 79403668     	ldrh	w8, [x19, #0x1a]
+  1235f0: 7100111f     	cmp	w8, #0x4
+  1235f4: 540000a0     	b.eq	0x123608 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x80b8>
+  1235f8: 35000468     	cbnz	w8, 0x123684 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8134>
+  1235fc: d00004c8     	adrp	x8, 0x1bd000 <amlStub+0x388>
+  123600: b9449908     	ldr	w8, [x8, #0x498]
+  123604: 14000007     	b	0x123620 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x80d0>
+  123608: b9402668     	ldr	w8, [x19, #0x24]
+  12360c: d00004c9     	adrp	x9, 0x1bd000 <amlStub+0x388>
+  123610: 7900367f     	strh	wzr, [x19, #0x1a]
+  123614: 3900727f     	strb	wzr, [x19, #0x1c]
+  123618: 0b140108     	add	w8, w8, w20
+  12361c: b9049928     	str	w8, [x9, #0x498]
+  123620: 4b140103     	sub	w3, w8, w20
+  123624: 7100047f     	cmp	w3, #0x1
+  123628: 5400028b     	b.lt	0x123678 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8128>
+  12362c: 90fff8a2     	adrp	x2, 0x37000
+  123630: 911e7842     	add	x2, x2, #0x79e
+  123634: 94000272     	bl	0x123ffc <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8aac>
+  123638: 1e3e1000     	fmov	s0, #-1.00000000
+  12363c: d503201f     	nop
+  123640: 104bfe40     	adr	x0, #0x97fc8
+  123644: aa1f03e1     	mov	x1, xzr
+  123648: 2a1f03e2     	mov	w2, wzr
+  12364c: 97fe23f9     	bl	0xac630 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x1d58>
+  123650: 1e3c1001     	fmov	s1, #-0.50000000
+  123654: 1e210800     	fmul	s0, s0, s1
+  123658: 1e202960     	fadd	s0, s11, s0
+  12365c: 97fe80a8     	bl	0xc38fc <_ZN5ImGui13FixupKeyChordEi+0x162c>
+  123660: 1e204100     	fmov	s0, s8
+  123664: 97fe80b2     	bl	0xc392c <_ZN5ImGui13FixupKeyChordEi+0x165c>
+  123668: d503201f     	nop
+  12366c: 104bfce0     	adr	x0, #0x97f9c
+  123670: 97ff021d     	bl	0xe3ee4 <_ZN15ImGuiOldColumnsD2Ev+0x11b0>
+  123674: 14000004     	b	0x123684 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8134>
+  123678: 52800028     	mov	w8, #0x1
+  12367c: 79003668     	strh	w8, [x19, #0x1a]
+  123680: 39007268     	strb	w8, [x19, #0x1c]
+  123684: 79403668     	ldrh	w8, [x19, #0x1a]
+  123688: d503201f     	nop
+  12368c: 1045253a     	adr	x26, #0x8a4a4
+  123690: 7100151f     	cmp	w8, #0x5
+  123694: 54000500     	b.eq	0x123734 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x81e4>
+  123698: 7100051f     	cmp	w8, #0x1
+  12369c: 54001501     	b.ne	0x12393c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x83ec>
+  1236a0: 39406268     	ldrb	w8, [x19, #0x18]
+  1236a4: 37000448     	tbnz	w8, #0x0, 0x12372c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x81dc>
+  1236a8: d503201f     	nop
+  1236ac: 104d5074     	adr	x20, #0x9aa0c
+  1236b0: f9400288     	ldr	x8, [x20]
+  1236b4: b40003c8     	cbz	x8, 0x12372c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x81dc>
+  1236b8: 39407268     	ldrb	w8, [x19, #0x1c]
+  1236bc: f0fff889     	adrp	x9, 0x36000
+  1236c0: 91324929     	add	x9, x9, #0xc92
+  1236c4: 7100091f     	cmp	w8, #0x2
+  1236c8: d0fff8a8     	adrp	x8, 0x39000
+  1236cc: 91366d08     	add	x8, x8, #0xd9b
+  1236d0: 9a890104     	csel	x4, x8, x9, eq
+  1236d4: d0fff842     	adrp	x2, 0x2d000
+  1236d8: 913f7042     	add	x2, x2, #0xfdc
+  1236dc: d0fff8a3     	adrp	x3, 0x39000
+  1236e0: 91357063     	add	x3, x3, #0xd5c
+  1236e4: 94000246     	bl	0x123ffc <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8aac>
+  1236e8: f9400280     	ldr	x0, [x20]
+  1236ec: f9400008     	ldr	x8, [x0]
+  1236f0: f9414108     	ldr	x8, [x8, #0x280]
+  1236f4: d503201f     	nop
+  1236f8: 104bf881     	adr	x1, #0x97f10
+  1236fc: 2a1f03e2     	mov	w2, wzr
+  123700: 2a1f03e3     	mov	w3, wzr
+  123704: aa1f03e4     	mov	x4, xzr
+  123708: d63f0100     	blr	x8
+  12370c: 2a0003e1     	mov	w1, w0
+  123710: b9003261     	str	w1, [x19, #0x30]
+  123714: 340000c1     	cbz	w1, 0x12372c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x81dc>
+  123718: f9400280     	ldr	x0, [x20]
+  12371c: f9400008     	ldr	x8, [x0]
+  123720: f9405108     	ldr	x8, [x8, #0xa0]
+  123724: 2a1f03e2     	mov	w2, wzr
+  123728: d63f0100     	blr	x8
+  12372c: 528000a8     	mov	w8, #0x5
+  123730: 79003668     	strh	w8, [x19, #0x1a]
+  123734: f9401662     	ldr	x2, [x19, #0x28]
+  123738: b4001022     	cbz	x2, 0x12393c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x83ec>
+  12373c: 39400268     	ldrb	w8, [x19]
+  123740: 37000168     	tbnz	w8, #0x0, 0x12376c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x821c>
+  123744: 3dc00260     	ldr	q0, [x19]
+  123748: f9400a68     	ldr	x8, [x19, #0x10]
+  12374c: 3d8007e0     	str	q0, [sp, #0x10]
+  123750: f90013e8     	str	x8, [sp, #0x20]
+  123754: b100045f     	cmn	x2, #0x1
+  123758: 54000160     	b.eq	0x123784 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8234>
+  12375c: 910043e0     	add	x0, sp, #0x10
+  123760: aa1f03e1     	mov	x1, xzr
+  123764: 940003d9     	bl	0x1246c8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x9178>
+  123768: 14000010     	b	0x1237a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8258>
+  12376c: a9408662     	ldp	x2, x1, [x19, #0x8]
+  123770: 910043e0     	add	x0, sp, #0x10
+  123774: 97ff9380     	bl	0x108574 <_ZNK4toml2v35table12as_date_timeEv+0x58>
+  123778: f9401662     	ldr	x2, [x19, #0x28]
+  12377c: b100045f     	cmn	x2, #0x1
+  123780: 54fffee1     	b.ne	0x12375c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x820c>
+  123784: 394043e8     	ldrb	w8, [sp, #0x10]
+  123788: 370000a8     	tbnz	w8, #0x0, 0x12379c <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x824c>
+  12378c: 910043e8     	add	x8, sp, #0x10
+  123790: 390043ff     	strb	wzr, [sp, #0x10]
+  123794: b2400108     	orr	x8, x8, #0x1
+  123798: 14000003     	b	0x1237a4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8254>
+  12379c: f94013e8     	ldr	x8, [sp, #0x20]
+  1237a0: f9000fff     	str	xzr, [sp, #0x18]
+  1237a4: 3900011f     	strb	wzr, [x8]
+  1237a8: 910143e0     	add	x0, sp, #0x50
+  1237ac: 910043e1     	add	x1, sp, #0x10
+  1237b0: 52800302     	mov	w2, #0x18
+  1237b4: 97fffed0     	bl	0x1232f4 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x7da4>
+  1237b8: 910143e0     	add	x0, sp, #0x50
+  1237bc: 910043e1     	add	x1, sp, #0x10
+  1237c0: 52800742     	mov	w2, #0x3a
+  1237c4: 94000239     	bl	0x1240a8 <_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4toml2v35tableEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_+0x8b58>
+  1237c8: 97fde808     	bl	0x9d7e8 <.text+0x188>
+  1237cc: 1e204009     	fmov	s9, s0
+  1237d0: 97fde80b     	bl	0x9d7fc <.text+0x19c>
+  1237d4: 394043e8     	ldrb	w8, [sp, #0x10]
+  1237d8: f94013e9     	ldr	x9, [sp, #0x20]
+  1237dc: 910043f4     	add	x20, sp, #0x10
+  1237e0: 7200011f     	tst	w8, #0x1
+  1237e4: 9a941520     	csinc	x0, x9, x20, ne
+  1237e8: 1e3e1000     	fmov	s0, #-1.00000000
+  1237ec: aa1f03e1     	mov	x1, xzr
+  1237f0: 2a1f03e2     	mov	w2, wzr
+  1237f4: 97fe238f     	bl	0xac630 <_ZN8ImVectorI21ImGuiListClipperRangeE9push_backERKS0_+0x1d58>
+  1237f8: 1e20402a     	fmov	s10, s1
+  1237fc: 1e203920     	fsub	s0, s9, s0

@@ -1,0 +1,50 @@
+== FILE *.dat ==
+addonskin.dat
+cheats.dat
+colorcycle.dat
+colorcycle_24h.dat
+cutscenes.dat
+data/addonskin.dat
+data/carcols.dat
+data/cheats.dat
+data/cutscenes.dat
+data/weapons.dat
+timecyc.dat
+timecyc_24h.dat
+weapons.dat
+
+== REFERENSI .toml ==
+.toml
+
+== REFERENSI BAHASA ==
+##Locale
+Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+Android (13065274, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+English
+Language
+Loaded locale [ %s ] -> %s
+NSt6__ndk16locale5__impE
+NSt6__ndk16locale5facetE
+No language is loaded! Cheat Menu is sad:(
+_ZN5CFont18UsingEFIGSLanguageE
+_ZN5CFont19UsingKoreanLanguageE
+_ZN5CFont20UsingRussianLanguageE
+_ZN5CFont21UsingJapaneseLanguageE
+freelocale
+locale
+locale not supported
+locale-specific form
+newlocale
+uselocale
+
+== PATH / DIREKTORI ==
+%s/CheatMenu.log
+ARM/CheatMenu/
+ARM/CheatMenu/%s
+Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+Android (13065274, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+data/addonskin.dat
+data/carcols.dat
+data/cheats.dat
+data/cutscenes.dat
+data/weapons.dat

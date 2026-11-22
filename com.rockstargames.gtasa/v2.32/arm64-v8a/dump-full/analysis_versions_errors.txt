@@ -1,0 +1,219 @@
+== STRING VERSI / IDENTITAS ==
+%0.3f
+.gnu.version
+.gnu.version_r
+// Generated with Cheat Menu
+0.0 0.0 0.0
+0.00..1.00
+1.3.0
+1.5.1
+1.92.6 WIP
+2.10 64bit
+2.32
+2.32 WIP
+: no conversion
+A:%0.3f
+ARM Cheat Menu
+Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+Android (13065274, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+B:%0.3f
+Basic Design & Features are from Grinch_ Cheat Menu
+CIE version is not 1 or 3
+Cheat Menu - Quiz of the month
+Cheat Menu Is Not Feeling Good:(
+Cheat Menu need BASSMod to play music!
+Cheat Menu v2.32
+Cheat Menu v2.32 for SA Android by ARM
+Click Me To Download SAUtils v1.6
+Dear ImGui 1.92.6 WIP (19252)
+G:%0.3f
+Game version:
+H:%0.3f
+Linker: LLD 20.0.0 (/mnt/disks/build-disk/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)
+M:0.000
+N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+No language is loaded! Cheat Menu is sad:(
+PC Cheat Menu
+Please update the AML to the latest version!
+Plugin version: 2.32 WIP
+R:%0.3f
+S:%0.3f
+The AML version is too old!
+This Mod need the latest version of SAUtils plugin!
+This warning brought to you by the Cheat Menu
+Uhhh, I don't want this AML version! Update it please!!!
+V:%0.3f
+Version
+Version: %s
+_ZN22CDamageAtomicModelInfo23m_bCreateDamagedVersionE
+escape sequence '\e' is not supported in TOML 1.0.0 and earlier
+escape sequence '\x' is not supported in TOML 1.0.0 and earlier
+hexadecimal floating-point values are not supported in TOML 1.0.0 and earlier
+libunwind: unsupported .eh_frame_hdr version: %u at %lx
+
+== STRING ERROR / PERINGATAN ==
+%s failed to acquire mutex
+%s failed to broadcast
+%s failed to release mutex
+%s[ %s ] with error code: %d
+' could not be interpreted as a value
+' is not representable as a signed 64-bit integer
+*Missing Text*
+An I/O error occurred while reading from the underlying stream
+An argument index may not have a negative value
+An unspecified error occurred
+CIE ID is not zero
+CIE start does not match
+CIE version is not 1 or 3
+Can't binary search on variable length encoded data.
+Car wait for door not to be in use
+Cheat Menu Is Not Feeling Good:(
+Could not determine file size
+Could not load font file!
+DWARF opcode not implemented
+DW_EH_PE_aligned pointer encoding not supported
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+DW_EH_PE_funcrel pointer encoding not supported
+DW_EH_PE_textrel pointer encoding not supported
+DW_OP_fbreg not implemented
+DW_OP_piece not implemented
+ERROR
+ERROR: Custcene %s interior is not a number!
+Encountered invalid utf-8 sequence
+Error while parsing
+Failed Loading %s. file does not exist!
+Failed loading [ MyFont.ttf ] -> %s
+Failed to delete current audio
+Failed to play
+File could not be opened for reading
+Go to point near car door until door not in use
+Invalid access!
+Invalid flags for IsItemHovered()!
+Invalid flags for IsWindowHovered()!
+Invalid train model
+InvalidIDMsg
+InvalidModelMsg
+It is not a virus. Trust me. ARM ^-^
+Missing End()
+Missing EndChild()
+Missing EndDisabled()
+Missing EndGroup()
+Missing EndMenuBar()
+Missing EndMultiSelect()
+Missing EndTabBar()
+Missing EndTable()
+Missing PopFocusScope()
+Missing PopFont()
+Missing PopID()
+Missing PopItemFlag()
+Missing PopStyleColor()
+Missing PopStyleVar()
+Missing TreePop()
+Must call EndChild() and not End()!
+NSt6__ndk112format_errorE
+NSt6__ndk112system_errorE
+NSt6__ndk114error_categoryE
+NSt6__ndk120__shared_ptr_emplaceINS_4__fs10filesystem16filesystem_error8_StorageENS_9allocatorIS4_EEEE
+NSt6__ndk123__system_error_categoryE
+NSt6__ndk124__generic_error_categoryE
+NSt6__ndk14__fs10filesystem16filesystem_errorE
+NSt6__ndk18ios_base7failureE
+Not set
+Not used
+Not yet Available
+Reading from the underlying stream failed - zero bytes read
+SAUtils is not installed or too old!
+SSSSSS9N4toml2v32ex11parse_errorE
+Some features may not work properly or causes bug xd
+St11logic_error
+St12length_error
+St13runtime_error
+St14overflow_error
+St16invalid_argument
+TableSetColumnIndex() invalid column index!
+The AML version is too old!
+The argument index is invalid
+The argument index starts with an invalid character
+The fill option contains an invalid value
+The format string contains an invalid escape sequence
+The precision option does not contain a value or an argument index
+The type does not fit in the mask
+The type option contains an invalid value for
+The type option contains an invalid value for a string formatting argument
+The width option should not have a leading zero
+This warning brought to you by the Cheat Menu
+Unknown error %d
+_Unwind_Resume() can't return
+_ZN10CStreaming15ms_channelErrorE
+_ZN4toml2v32ex11parse_errorC2EPKcRKNS0_15source_positionERKNSt6__ndk110shared_ptrIKNS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEEE
+_ZN4toml2v32ex11parse_errorD0Ev
+_ZN4toml2v32ex11parse_errorD2Ev
+_ZN4toml2v34impl13error_builder6appendINS1_17escaped_codepointEEEvRKT_
+_ZN4toml2v34impl13error_builder6appendINSt6__ndk117basic_string_viewIcNS4_11char_traitsIcEEEEEEvRKT_
+_ZN4toml2v34impl13error_builder6appendIiEEvRKT_
+_ZN4toml2v34impl13error_builder6appendIjEEvRKT_
+_ZN4toml2v34impl13error_builder6appendImEEvRKT_
+_ZN4toml2v34impl13error_builderC2ENSt6__ndk117basic_string_viewIcNS3_11char_traitsIcEEEE
+_ZNK4toml2v34impl13error_builder6finishERKNS0_15source_positionERKNSt6__ndk110shared_ptrIKNS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEEE
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEEEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_S9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_S9_S9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEiEEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEjEEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEjS9_jEEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmEEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser12set_error_atIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvNS0_15source_positionEDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEEEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEENS1_17escaped_codepointES9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_S9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEES9_S9_S9_S9_S9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEiEEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEjEEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEjS9_jEEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmEEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_EEEvDpRKT_
+_ZNK4toml2v34impl7impl_ex6parser9set_errorIJNSt6__ndk117basic_string_viewIcNS5_11char_traitsIcEEEEmS9_S9_EEEvDpRKT_
+_ZTIN4toml2v32ex11parse_errorE
+_ZTINSt6__ndk112format_errorE
+_ZTSN4toml2v32ex11parse_errorE
+_ZTSNSt6__ndk112format_errorE
+_ZTVN4toml2v32ex11parse_errorE
+_ZTVNSt6__ndk112format_errorE
+__stack_chk_fail
+cannot insert '
+cannot redefine existing
+cannot redefine existing table '
+clock_gettime(CLOCK_MONOTONIC) failed
+could not determine value type
+does not allow the
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+escape sequence '\e' is not supported in TOML 1.0.0 and earlier
+escape sequence '\x' is not supported in TOML 1.0.0 and earlier
+failed to determine attributes for the specified path
+filesystem error: %s
+filesystem error: %s ["%s"]
+filesystem error: %s ["%s"] ["%s"]
+hexadecimal floating-point values are not supported in TOML 1.0.0 and earlier
+locale not supported
+money_get error
+not installed
+numeric value too long to identify type - cannot exceed
+operator name does not start with 'operator'
+or the file is missing!
+shrinkToSize() can't expand!
+stbtt_GetFontOffsetForIndex(): FontData is incorrect, or FontNo cannot be found.
+stbtt_InitFont(): failed to parse FontData. It is correct and complete? Check FontDataSize.
+strerror_r
+unspecified generic_category error
+unspecified iostream_category error
+unspecified system_category error
+values greater than U+10FFFF are invalid
+values may not begin with underscores
+vertical tabs '\v' and form-feeds '\f' are not legal line breaks in TOML

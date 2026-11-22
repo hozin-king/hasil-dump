@@ -1,0 +1,185 @@
+== DAFTAR TAB (urut alamat .rodata) ==
+  0x2e73a GamePage
+  0x2e787 PedTab
+  0x2e79c TeleportTabBar
+  0x2eed8 MenuPage
+  0x300bd CurrentPage
+  0x3069a MusicTab
+  0x306a3 AboutTab
+  0x306bb AnimationTab
+  0x31320 TaskTab
+  0x31a8b CustomizeTab
+  0x31a98 VisualTabBar
+  0x31ab4 Timecyc24hTab
+  0x32699 GameTabBar
+  0x326af StyleTab
+  0x326c4 VehiclePage
+  0x334ef ColorsTab
+  0x33ba8 MenusTab
+  0x34378 CheatsTab
+  0x343c6 PedSkinTab
+  0x343d1 CustomSkinTab
+  0x343fe CustomizeTabBar
+  0x352e2 OverlayTab
+  0x3530d LocationTab
+  0x3532d TimecycTab
+  0x359d6 WeaponTabBar
+  0x360dd AppearanceTabBar
+  0x360ee ScenePage
+  0x36101 TeleportPage
+  0x37a13 VehicleTabBar
+  0x380f4 CheckboxesTab
+  0x38671 AppearanceTab
+  0x38dfe PedPage
+  0x38e11 PlayerPage
+  0x38e1c SceneTabBar
+  0x396e0 CutsceneTab
+  0x397a3 WeaponPage
+  0x39e36 PlayerTabBar
+  0x3a446 SettingsTab
+  0x3a48c VisualPage
+  0x3ad12 ParticleTab
+  0x3b43c SpawnTab
+  0x3ba83 FreeCamTab
+  0x3ba8e MenuTabBar
+  0x3c811 PlayerPage
+  0x3ca11 TeleportPage
+  0x3cae1 PedPage
+  0x3cc51 ScenePage
+  0x3cd81 VehiclePage
+  0x3cee1 WeaponPage
+  0x3d071 VisualPage
+
+Total tab: 50 | Total kunci CamelCase: 956
+
+== VisualPage (420 kunci) ==
+A9YsF, A9iO, AIJJ, AUz, Ab5, Ag3l, Ai1B, Anim, Aqc, At9H, AyIv, B9hb, BA9h, BXwx, Bikes, BmM3, Boats, Boot, Boxing, Bsxr, CB9H, CB9h, CH9H, CK0U, CW9h, Cars, Chat, Choking, Classic, Climb, Cower, Current, Custom, DA9W, Dark, Dead, Default, Detonate, Drop, Drown, Duck, DwZh, EA9, EA9J, EA9i, EA9k, EC9, EC9I, EC9i, Euro, EydU, FAau, FC9h, FYfx, Facial, Fall, Female, Fight, Finished, Friday, Fysx, H630, H9dy, H9xRX, HVkN, Helis, Hkk8k, Hood, Hqhn, Hyhx, I37mM, IOCDw, IRe0, IaIJiYi, Iih8, Iii8, Ij8J, Iki8, Iki8K, Iyix, J9HE, JC9, JIYi, JKYk, Jetpack, JiYi, Jih8, Jih8j, JjYj, JlYl, Jufm, Jump, JwD9, K1C9, K5C9, KIY3, KPXo, KeypadDivide, Kik8, Kit, KjY5, Kylx, LC9J, LYlx, Land, Light, Lii8k, MC9I, MainMenu, Male, Monday, MouseMiddle, Nil8, None, NyW0O, O8Mr, OTru, OddJob2XOffset, Ot1T, OzFS, P199, P3gy, P6azL, P7KIC9, PC9h, Partner, Pause, Planes, Primary, QYqx, Quaternary, R5qhi5, R6qF, R6sF, R8sF, RFA, RHk78, RHkh8, RHkh8h, RIYi, RJqn, RKik8, RVqF, RX1e, Ragdoll, Rh2F, RhBT, Rhjh8, Rhjh8h, Rhkh8, RiA, Right, RjZA, RjcQ, Rjjj8, RkSA, RlA, Rnim, Rtjh, Rv87e, RvfA, RvkQ, RvrF, Rw8N, SJYi, SSSS, SSSSS, SSSSSSFSSSSSSSSSS, Saturday, SavedSlotMsg, Secondary, Sequence, SetWeatherTooltip, SgQY, SiYix, SkYj, St9exception, Sunbathe, Sunday, Swim, T4sF, T8yu, TAYl, TAs6, TB8a, TG81, THYh, THki8, THki8H, TIsD9, TJhh8, TJsD9, TJyi, TNA, TP81, TR80, TSyh, TSyv, Table, TafA, Tertiary, Th2A9, Th2A9i, Th2F, ThBI, ThFA9, ThFA9h, ThFC9, ThNC9, ThRa9, ThVQ, ThZA, Thij8, ThjA9, ThjQ, ThkQ, Throw, Thursday, ThwVy, Ti26, Ti2F, TiEK, TiRQ, TiVO, TirQ, Tired, Tjwb, TkNA, TlA, TmQC9, TqZA, TqeB, Trailers, Trains, TriB, TsaB, Tuesday, TusF, TvbQ, Tw2F, TxZA, Ukh8, Uninterruptable, Untitled, Unused1, Unused2, V0EI, VHNzu, VS9h, VisualPage, W4vC, Wander, Wednesday, World, X1fe, X4AHx, X6J, Xb4z, Xk2G, Xkh8ykh8, XqkY, Xwa6, Yhze, Yix, Yixk, Yqxl, Yz45, ZJAK, ZJAL, ZJAM, Zbxb, Zy2F
+
+== TeleportPage (73 kunci) ==
+About, AboutChild, Area, AutoTunesTip, BARRIERS2, BASS, BodyFat, CameraZoomWarn, CheatDeactivatedMsg, Colorcycle, ColorcycleChild, CutsOnlyFrame, DATEMNU, Delete, FilledColPointIndex, ForbiddenAreaTip, FrameOnlyOnScene, FreezeTime, GamepadLStickRight, GamepadR2, GamepadRStickRight, GamepadRStickUp, GenerateFiles, Gravity, Home, HudColour, INFO, InfraredVision, Interface, Keypad2, Keypad8, Keypad9, KeypadEqual, LastBigMessage, LeftShift, LeftSuper, Logging, Lordmau5, Maximum, Menu, Minute, ModAlt, ModCtrl, ModelList, MouseWheelX, Music, NextWeather, NoHungry, NoWaypoint, OverlayPlaytime, OverlayTxtColor, PerfectHandling, PosX, PosY, RedGrade, ReloadTimecyc, Seats, ShadowStrength, SpwnInAirTip, StatMuscle, StyleFightSet, SunCorona, TeleportPage, ThemeStyle, TimerCounterWasDisplayed, TopBottomFrame, VecPlayer, VecVehicle, VehCompOpen, VehCompPop, Vehicles, WeatherSandstorm
+
+== VehiclePage (41 kunci) ==
+AutoTunes, DirectionalMult, FlipVehicle, ForbiddenArea, FrameLeftRight, FreezeGameTime, FrontWheelDrive, GamepadStart, InfiniteAmmo, Keypad0, Keypad6, LeftAlt, LeftBracket, LockCustomPos, MaxArmour, Minimum, NightVision, NoDamage, NoVehAround, NumTrackNodes, OverlayLockPos, Passenger, PcSaveHelper, PoleShadowStrength, Quiz, SILENT, SetWeatherID, SizeY, SpwnAsDriver, SpwnInAir, SyncVKTheme, TasksChild, TimecycReload, TimerCounterHideState, TopDownCamZoom, TunnelVision, VehCompFix, VehiclePage, Visual, Window
+
+== CustomizeTabBar (37 kunci) ==
+AEAudioHardware, AppBack, BodyChangeToCJ, Colors, CurrentVehOpt, CustomizeTabBar, ERROR, EnterNearVeh, FileGeneratedMsg, FogStart, GamepadBack, GamepadLStickLeft, GamepadRStickDown, GrainEffect, InvalidIDMsg, LightShadowStrength, LockPos, MenusChild, Minus, MoveFire, NoCensorship, OddJob2On, OverlayLocName, RightSuper, SaveGame, SaveSlot, Scene, ScrollLock, Semicolon, SpwnRndmTunes, StyleFight, TaskSec, UNDERWATER, VERBOSE, VehicleFlipNoBurn, Weapon, WeatherRainy
+
+== MenuTabBar (30 kunci) ==
+BigButt, Comma, DrunkEffect, English, FourWheelDrive, GamepadDpadLeft, GamepadL1, Language, LeftArrow, LeftRightFrame, MenuTabBar, MenusVisual, ModSuper, MouseLeft, NoBurnFlip, NotWanted, OverlayPedTasks, Remove, ShowRadar, Space, SpriteSize, StatFat, SuperSprint, ToMarker, Type, VehComp, VehCompDamage, WARN, WeatherExtraSunny, WeatherThunderstorm
+
+== AnimationTab (25 kunci) ==
+Ammo, AnimationTab, BodyNeedCJ, CurrentWeather, Driver, EnableFrameEdge, FadingWindow, FreeCamFOV, GrainEffectTip, HealthRegen, Hour, MoveAim, MoveAimTip, MusicPlayer, NoBackground, NoSpread, NotACar, OverlayRAMUsage, OverlayRGBText, Radius, Speed, SunSize, SwitchSeats, Teleport, TransparentMenu
+
+== Timecyc24hTab (20 kunci) ==
+CapsLock, Color, DualWield, FreeCamInfo, FrontEndMenuManager, GamepadFaceUp, GamepadLStickDown, HardMode, InvisibleCar, KeypadAdd, RearWheelDrive, RightArrow, SetTime, SpriteBrightness, StatTypesInt, Timecyc24hTab, TimecycColors, ToCoord, Water, Welcome
+
+== CurrentPage (19 kunci) ==
+BigHead, CONVERTIBLE, CheckUpdate, ClumpOffset, Coordinate, CurrentPage, Game, GamepadDpadRight, GamepadR3, GraveAccent, LightBrightness, Misc, MouseX1, Overlay, RemoveInRadius, SelectedPos, StatsPlayerList, TimecycMisc, VehHealth
+
+== TaskTab (19 kunci) ==
+Armour, Author, Enable, FastReload, GamepadL2, Keypad7, KeypadMultiply, LockDoor, MouseRight, OddJob2Timer, OverlayPos, Period, PostFX2, RAMUsageWarn, Suicide, SuperSprintTip, TaskShow, TaskTab, ThinBody
+
+== SceneTabBar (19 kunci) ==
+Apostrophe, BlowUpCars, BlueGrade, Credits, EngineState, FreezeMissionTimer, InvisibleWater, LowClouds, Main, Marzer, ModShift, MoveFireTip, OverlayFPS, RemoveAll, SaveGameChild, SceneTabBar, SkyTop, Slash, UNKNOWN
+
+== TimecycTab (17 kunci) ==
+Backslash, BigMessageAlpha, Body, CameraZoom, CinematicStunt, Copy, HandlingFilename, PagerXOffset, Pause, PedSkinChild, RemoveVehInRadius, Rotating, Slider, StyleWalkSet, TimecycTab, VehCompAll, VehSet
+
+== PlayerTabBar (17 kunci) ==
+AmbientObj, AppForward, CheckboxesChild, CurrentDaySelect, CutsceneStop, DEFAULT, Enter, GamepadLStickUp, GrayRadar, IsInitialized, Keypad4, Left, MouseWheelY, NoBurnFlipTip, PlayerTabBar, WeatherLock, WidgetAlpha
+
+== SpawnTab (17 kunci) ==
+Ambient, Default, DownArrow, Interior, InvalidModelMsg, Keypad3, KeypadSubtract, LiftCamEffect, PrintScreen, RAMusage, RapidFire, RemoveCurrent, SAUtils, SpawnTab, Unknown, VehicleNames, WaterFogAlpha
+
+== ParticleTab (16 kunci) ==
+BigMessageInUse, BodyMuscle, Close, CopyPlayerCoord, DK22Pac, DualWieldTip, Escape, GreenGrade, Info, LicenseTextHint, LightState, MenuNumber, Money, ParticleTab, SkyBottom, StatHealth
+
+== MenuPage (15 kunci) ==
+AimSkinChanger, BigMessageX, FixVehicle, GamepadFaceLeft, HugeDamage, InfniteEnergy, Insert, LongRange, MenuPage, MinDirIntens, Ocornut, OddJob2OffTimer, ShowHUD, StatLung, TimerMainCounterHideState
+
+== MenusTab (15 kunci) ==
+CinematicStuntJump, DETAILEDWATERDIST, Keypad5, MenusTab, MouseX2, OutOfRange, Page, PageDown, SetTimeTotalMin, SettingsChild, StatsMoneyList, StayOnBike, SyncTimeEnabled, VehLockSpeed, WeatherFoggy
+
+== VehicleTabBar (14 kunci) ==
+AMLConfig, CHTMNU, DEBUG, DarknessFilter, FATAL, GamepadDpadUp, GamepadL3, GamepadRStickLeft, HSTargetted, NoParticles, None, Playtime, StationDist, VehicleTabBar
+
+== WeaponPage (12 kunci) ==
+Addr, Backspace, CamOffset, Channel, CurrentDay, Equal, KeypadDecimal, PageUp, SyncToSystemTime, TimerMainCounterWasDisplayed, WeaponPage
+
+== CheckboxesTab (11 kunci) ==
+AnimSpeed, CheckboxesTab, GamepadR1, HighJump, LockWindow, RsGlobal, RwEngineInstance, StatRespect, UpArrow, VehSetSpeed, WeatherCloudy
+
+== ColorsTab (10 kunci) ==
+BARRIERS1, ColorsTab, Extras, FluffyClouds, HandlingChild, NumLock, QDATE, RightCtrl, RightShift, Version
+
+== AppearanceTab (10 kunci) ==
+AMLInterface, AppearanceTab, CheatMsg, FrameEdge, FrameTopBottom, ImGuiVirtualKeyboard, OverlayMI, UnlockAllCity, Vehicle, Wednesday
+
+== TeleportTabBar (9 kunci) ==
+CloudAlpha, GamepadFaceRight, GetInterface, Keypad1, LocationName, PostFX1, Proceed, September, TeleportTabBar
+
+== WeaponTabBar (9 kunci) ==
+AimSkinChangerTip, CameraZoomLock, CheatActivatedMsg, Common, OverlayCoords, Player, RGBACycle, StatStamina, WeaponTabBar
+
+== CheatsTab (8 kunci) ==
+AboutInfo, Angle, CheatsTab, DensityMult, DisableInput, LongNeck, Name, OverlayChild
+
+== CutsceneTab (6 kunci) ==
+ComedyCtrl, CutsceneTab, RollCredits, SunCore, Underwater, WheelsOnly
+
+== CustomSkinTab (4 kunci) ==
+AlwaysSkid, CustomSkinTab, DirtLvl, VehStopInst
+
+== SettingsTab (4 kunci) ==
+GodMode, Invisible, SettingsTab, StatEnergy
+
+== GamePage (3 kunci) ==
+CameraZoomNote, GamePage, TopDownCam
+
+== PedPage (3 kunci) ==
+Checkboxes, PedPage
+
+== PedTab (2 kunci) ==
+PedTab, StyleWalk
+
+== AboutTab (2 kunci) ==
+AboutTab, BodySkinny
+
+== VisualTabBar (2 kunci) ==
+VideoCamEffect, VisualTabBar
+
+== GameTabBar (2 kunci) ==
+GameTabBar, SetWeather
+
+== LocationTab (2 kunci) ==
+FogEffect, LocationTab
+
+== ScenePage (2 kunci) ==
+ScenePage
+
+== PlayerPage (2 kunci) ==
+PlayerPage
+
+== MusicTab (1 kunci) ==
+MusicTab
+
+== CustomizeTab (1 kunci) ==
+CustomizeTab
+
+== StyleTab (1 kunci) ==
+StyleTab
+
+== PedSkinTab (1 kunci) ==
+PedSkinTab
+
+== OverlayTab (1 kunci) ==
+OverlayTab
+
+== AppearanceTabBar (1 kunci) ==
+AppearanceTabBar
+
+== FreeCamTab (1 kunci) ==
+FreeCamTab
+
+== TANPA TAB (sebelum tab pertama, 32 kunci) ==
+Android, AutoFading, BHrc, Color, ComedyCtrlTip, Discord, FarClip, FileList, Frames, GamepadDpadDown, GamepadFaceDown, ItemScrollAble, KeypadEnter, LIBC, LeftCtrl, MaxHealth, NULL, Oem102, OnAllModsLoaded, OnModLoad, OnModPreLoad, Original, RightAlt, RightBracket, SizeX, SolidWater, Source, TaskPrim, TheCamera, TheText, Translator, WantedLevel

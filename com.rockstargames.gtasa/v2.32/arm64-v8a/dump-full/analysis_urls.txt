@@ -1,0 +1,36 @@
+== URL ==
+https://discord.gg/rtBfy5AWSE
+https://github.com/user-grinch/Cheat-Menu
+https://modsfire.com/qtRMJ0PmV40t0C1
+https://projectcerbera.com/gta/sa/tutorials/handling
+https://raw.githubusercontent.com/ARAH64/Updater-mods/main/CM/
+https://raw.githubusercontent.com/ARAH64/Updater-mods/main/CM/quiz.txt
+https://raw.githubusercontent.com/ARAH64/Updater-mods/main/CM/update.txt
+https://teer.id/arm.com
+https://youtube.com/@arm_chxd
+
+== DOMAIN (tanpa skema) ==
+.data.rel.ro
+.gnu.hash
+.gnu.version
+.got.plt
+.note.android.ident
+.rela.dyn
+.rela.plt
+addonskin.dat
+cheats.dat
+colorcycle.dat
+cutscenes.dat
+imgui.ini
+libc.so
+libdl.so
+liblog.so
+libm.so
+net.rusjj.aml
+net.rusjj.gtasa.utils
+ro.arch
+timecyc.dat
+weapons.dat
+
+== ALAMAT IP literal ==
+(tidak ada)

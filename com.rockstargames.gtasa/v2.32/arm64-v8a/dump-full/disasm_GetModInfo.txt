@@ -1,0 +1,134 @@
+
+/home/hatch/workspace/user/files/libCheatMenu64_0_v8e4.so:	file format elf64-littleaarch64
+
+Disassembly of section .text:
+
+00000000000a4100 <__GetModInfo>:
+   a4100: d0000868     	adrp	x8, 0x1b2000 <_ZTVNSt6__ndk112format_errorE+0x4ba8>
+   a4104: f943ad08     	ldr	x8, [x8, #0x758]
+   a4108: f9400100     	ldr	x0, [x8]
+   a410c: d65f03c0     	ret
+   a4110: a9bf7bfd     	stp	x29, x30, [sp, #-0x10]!
+   a4114: 910003fd     	mov	x29, sp
+   a4118: 90fffc60     	adrp	x0, 0x30000
+   a411c: 912ae800     	add	x0, x0, #0xaba
+   a4120: 52800041     	mov	w1, #0x2
+   a4124: 940408e7     	bl	0x1a64c0 <dlopen@plt>
+   a4128: d0fffc41     	adrp	x1, 0x2e000
+   a412c: 9134e821     	add	x1, x1, #0xd3a
+   a4130: 940408c8     	bl	0x1a6450 <dlsym@plt>
+   a4134: aa0003e8     	mov	x8, x0
+   a4138: 90fffca0     	adrp	x0, 0x38000
+   a413c: 91327c00     	add	x0, x0, #0xc9f
+   a4140: d63f0100     	blr	x8
+   a4144: 900008c8     	adrp	x8, 0x1bc000 <g_boneNodeMan+0xf10>
+   a4148: f9063900     	str	x0, [x8, #0xc70]
+   a414c: a8c17bfd     	ldp	x29, x30, [sp], #0x10
+   a4150: d65f03c0     	ret
+   a4154: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+   a4158: f9000bf3     	str	x19, [sp, #0x10]
+   a415c: 910003fd     	mov	x29, sp
+   a4160: d503201f     	nop
+   a4164: 10ca58d3     	adr	x19, #-0x6b4e8
+   a4168: 900008c0     	adrp	x0, 0x1bc000 <g_boneNodeMan+0xf10>
+   a416c: 912f0000     	add	x0, x0, #0xbc0
+   a4170: b0fffc62     	adrp	x2, 0x31000
+   a4174: 91066842     	add	x2, x2, #0x19a
+   a4178: 90fffca3     	adrp	x3, 0x38000
+   a417c: 91322863     	add	x3, x3, #0xc8a
+   a4180: f0fffc84     	adrp	x4, 0x37000
+   a4184: 913b6c84     	add	x4, x4, #0xedb
+   a4188: aa1303e1     	mov	x1, x19
+   a418c: 940408dd     	bl	0x1a6500 <_ZN7ModInfoC2EPKcS1_S1_S1_@plt>
+   a4190: 900008c0     	adrp	x0, 0x1bc000 <g_boneNodeMan+0xf10>
+   a4194: 91320000     	add	x0, x0, #0xc80
+   a4198: aa1303e1     	mov	x1, x19
+   a419c: f9400bf3     	ldr	x19, [sp, #0x10]
+   a41a0: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+   a41a4: 140000c7     	b	0xa44c0 <__GetModInfo+0x3c0>
+   a41a8: a9be7bfd     	stp	x29, x30, [sp, #-0x20]!
+   a41ac: a9014ff4     	stp	x20, x19, [sp, #0x10]
+   a41b0: 910003fd     	mov	x29, sp
+   a41b4: f9401408     	ldr	x8, [x0, #0x28]
+   a41b8: aa0003f3     	mov	x19, x0
+   a41bc: b40000a8     	cbz	x8, 0xa41d0 <__GetModInfo+0xd0>
+   a41c0: aa1303e0     	mov	x0, x19
+   a41c4: aa0103f4     	mov	x20, x1
+   a41c8: d63f0100     	blr	x8
+   a41cc: aa1403e1     	mov	x1, x20
+   a41d0: aa1303e0     	mov	x0, x19
+   a41d4: 528003c2     	mov	w2, #0x1e
+   a41d8: 940408da     	bl	0x1a6540 <strncpy@plt>
+   a41dc: 39007a7f     	strb	wzr, [x19, #0x1e]
+   a41e0: a9414ff4     	ldp	x20, x19, [sp, #0x10]
+   a41e4: a8c27bfd     	ldp	x29, x30, [sp], #0x20
+   a41e8: d65f03c0     	ret
+   a41ec: a9bd7bfd     	stp	x29, x30, [sp, #-0x30]!
+   a41f0: a90157fc     	stp	x28, x21, [sp, #0x10]
+   a41f4: a9024ff4     	stp	x20, x19, [sp, #0x20]
+   a41f8: 910003fd     	mov	x29, sp
+   a41fc: d12403ff     	sub	sp, sp, #0x900
+   a4200: a90893e3     	stp	x3, x4, [sp, #0x88]
+   a4204: a9099be5     	stp	x5, x6, [sp, #0x98]
+   a4208: f90057e7     	str	x7, [sp, #0xa8]
+   a420c: ad0007e0     	stp	q0, q1, [sp]
+   a4210: ad010fe2     	stp	q2, q3, [sp, #0x20]
+   a4214: ad0217e4     	stp	q4, q5, [sp, #0x40]
+   a4218: ad031fe6     	stp	q6, q7, [sp, #0x60]
+   a421c: d53bd055     	mrs	x21, TPIDR_EL0
+   a4220: f94016a8     	ldr	x8, [x21, #0x28]
+   a4224: f81f83a8     	stur	x8, [x29, #-0x8]
+   a4228: 39407c08     	ldrb	w8, [x0, #0x1f]
+   a422c: 7100051f     	cmp	w8, #0x1
+   a4230: 54000361     	b.ne	0xa429c <__GetModInfo+0x19c>
+   a4234: 910223e8     	add	x8, sp, #0x88
+   a4238: 9100c3a9     	add	x9, x29, #0x30
+   a423c: 910003ea     	mov	x10, sp
+   a4240: 9100a108     	add	x8, x8, #0x28
+   a4244: aa0003f3     	mov	x19, x0
+   a4248: 2a0103f4     	mov	w20, w1
+   a424c: a90b23e9     	stp	x9, x8, [sp, #0xb0]
+   a4250: 928004e8     	mov	x8, #-0x28
+   a4254: 91020149     	add	x9, x10, #0x80
+   a4258: f2dff008     	movk	x8, #0xff80, lsl #32
+   a425c: 9103e3e0     	add	x0, sp, #0xf8
+   a4260: 910343e3     	add	x3, sp, #0xd0
+   a4264: a90c23e9     	stp	x9, x8, [sp, #0xc0]
+   a4268: 52810001     	mov	w1, #0x800
+   a426c: ad4587e0     	ldp	q0, q1, [sp, #0xb0]
+   a4270: ad0687e0     	stp	q0, q1, [sp, #0xd0]
+   a4274: 940408b7     	bl	0x1a6550 <vsnprintf@plt>
+   a4278: f9401268     	ldr	x8, [x19, #0x20]
+   a427c: b4000088     	cbz	x8, 0xa428c <__GetModInfo+0x18c>
+   a4280: 9103e3e1     	add	x1, sp, #0xf8
+   a4284: 2a1403e0     	mov	w0, w20
+   a4288: d63f0100     	blr	x8
+   a428c: 9103e3e2     	add	x2, sp, #0xf8
+   a4290: 2a1403e0     	mov	w0, w20
+   a4294: aa1303e1     	mov	x1, x19
+   a4298: 940408b2     	bl	0x1a6560 <__android_log_write@plt>
+   a429c: f94016a8     	ldr	x8, [x21, #0x28]
+   a42a0: f85f83a9     	ldur	x9, [x29, #-0x8]
+   a42a4: eb09011f     	cmp	x8, x9
+   a42a8: 540000c1     	b.ne	0xa42c0 <__GetModInfo+0x1c0>
+   a42ac: 912403ff     	add	sp, sp, #0x900
+   a42b0: a9424ff4     	ldp	x20, x19, [sp, #0x20]
+   a42b4: a94157fc     	ldp	x28, x21, [sp, #0x10]
+   a42b8: a8c37bfd     	ldp	x29, x30, [sp], #0x30
+   a42bc: d65f03c0     	ret
+   a42c0: 9404087c     	bl	0x1a64b0 <__stack_chk_fail@plt>
+   a42c4: a9bd7bfd     	stp	x29, x30, [sp, #-0x30]!
+   a42c8: f9000bfc     	str	x28, [sp, #0x10]
+   a42cc: a9024ff4     	stp	x20, x19, [sp, #0x20]
+   a42d0: 910003fd     	mov	x29, sp
+   a42d4: d12403ff     	sub	sp, sp, #0x900
+   a42d8: a9080fe2     	stp	x2, x3, [sp, #0x80]
+   a42dc: a90917e4     	stp	x4, x5, [sp, #0x90]
+   a42e0: a90a1fe6     	stp	x6, x7, [sp, #0xa0]
+   a42e4: ad0007e0     	stp	q0, q1, [sp]
+   a42e8: ad010fe2     	stp	q2, q3, [sp, #0x20]
+   a42ec: ad0217e4     	stp	q4, q5, [sp, #0x40]
+   a42f0: ad031fe6     	stp	q6, q7, [sp, #0x60]
+   a42f4: d53bd054     	mrs	x20, TPIDR_EL0
+   a42f8: f9401688     	ldr	x8, [x20, #0x28]
+   a42fc: f81f83a8     	stur	x8, [x29, #-0x8]
