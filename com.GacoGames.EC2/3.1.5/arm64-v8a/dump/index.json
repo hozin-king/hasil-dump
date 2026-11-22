@@ -1,0 +1,261 @@
+{
+ "counts": {
+  "asset_keys_in_catalog": 1853,
+  "classes": 19228,
+  "classes_in_empty_namespace_game_code": 7660,
+  "constructors": 17655,
+  "fields": 80204,
+  "images_assemblies": 114,
+  "items_by_type": {
+   "Consumable": 51,
+   "Equipment": 407,
+   "KeyItem": 28,
+   "Material": 57,
+   "Rune": 24
+  },
+  "items_classified": 567,
+  "methods": 127745,
+  "methods_with_rva": 115671,
+  "non_item_assets": 1286,
+  "string_literals": 22219
+ },
+ "dump_date": "2026-11-21",
+ "dump_info": {
+  "code_registration": "0x5359eb8",
+  "il2cpp_version": 39,
+  "metadata_registration": "0x552cbf0",
+  "metadata_version": 39,
+  "source_catalog": "~/workspace/rea-epic-conquest-2/dump/apktool/assets/aa/catalog.bin (Addressables catalog_2026.10.09.11.24.54)",
+  "source_libil2cpp": "~/workspace/rea-epic-conquest-2/dump/apktool/lib/arm64-v8a/libil2cpp.so (94,217,584 B)",
+  "source_metadata": "~/workspace/rea-epic-conquest-2/dump/apktool/assets/bin/Data/Managed/Metadata/global-metadata.dat (14,982,460 B)"
+ },
+ "files": [
+  {
+   "bytes": 38557231,
+   "description": "Full Il2CppDumper class dump (all classes, fields, methods + RVA/offset)",
+   "name": "dump.cs"
+  },
+  {
+   "bytes": 18406705,
+   "description": "Structured list of all 19,228 classes (namespace, name, kind, base, fields, methods)",
+   "name": "classes.json"
+  },
+  {
+   "bytes": 18947599,
+   "description": "Structured list of all 127,745 methods (class, name, params, return type, RVA)",
+   "name": "methods.json"
+  },
+  {
+   "bytes": 102650,
+   "description": "567 items classified from the Addressables catalog asset keys + Item/Equipment data model + spawn mechanism",
+   "name": "items.json"
+  },
+  {
+   "bytes": 11421,
+   "description": "This file — summary, counts, file list, tools, limitations",
+   "name": "index.json"
+  },
+  {
+   "bytes": 43003,
+   "description": "God Mode + Damage Multiplier targets: HeroHealth.TakeDamage 0x277D940, EnemyHealth.TakeDamage 0x269F900, DamageRequest.damage @0x10",
+   "name": "focus_player_health_damage.json"
+  },
+  {
+   "bytes": 7946,
+   "description": "No-cooldown targets: HeroControl.UpdateSkillsCooldown 0x2766164, allSkillCooldown @0xF0, EC2HeroSkill.ApplyCooldown 0x263C6B8",
+   "name": "focus_skill_cooldown.json"
+  },
+  {
+   "bytes": 13823,
+   "description": "Quest teleport chain: QuestManager.currentQuest @0x30, Quest.targetAreaNode @0x20, QuestMarkerNode.get_transform 0x25CA0D0",
+   "name": "focus_quest_teleport.json"
+  },
+  {
+   "bytes": 11328,
+   "description": "Item dropper: ItemDropManager.SpawnItem 0x2874718 (+3 overloads), LootType enum, DropItem prefabs",
+   "name": "focus_loot_drop_spawn.json"
+  },
+  {
+   "bytes": 28953,
+   "description": "Teleport primitive: Transform.set_position 0x4FDBEC8, get_position 0x4FDBDF4, GameObject.get_transform 0x4FCB248",
+   "name": "focus_transform_position.json"
+  },
+  {
+   "bytes": 3301,
+   "description": "Game speed: Time.set_timeScale 0x4FD82F0, get_timeScale 0x4FD82C8",
+   "name": "focus_game_speed.json"
+  },
+  {
+   "bytes": 38557231,
+   "description": "Raw dumper output (copy of dump.cs)",
+   "name": "work/dump.cs"
+  },
+  {
+   "bytes": 101076970,
+   "description": "Raw dumper output: C++ struct definitions",
+   "name": "work/il2cpp.h"
+  },
+  {
+   "bytes": 103943254,
+   "description": "Raw dumper output: 239,474 ScriptMethod entries (incl. generic instantiations)",
+   "name": "work/script.json"
+  },
+  {
+   "bytes": 1859020,
+   "description": "Raw dumper output: 22,219 string literals",
+   "name": "work/stringliteral.json"
+  },
+  {
+   "bytes": 26481152,
+   "description": "Raw dumper output: 115 dummy assemblies (total bytes)",
+   "name": "work/DummyDll/"
+  }
+ ],
+ "game": "Epic Conquest 2",
+ "images": [
+  "0: Assembly-CSharp.dll",
+  "1: mscorlib.dll",
+  "2: UnityEngine.UIElementsModule.dll",
+  "3: PlayFab.dll",
+  "4: System.dll",
+  "5: Unity.RenderPipelines.Core.Runtime.dll",
+  "6: UnityEngine.CoreModule.dll",
+  "7: System.Xml.dll",
+  "8: System.Data.dll",
+  "9: Unity.TextMeshPro.dll",
+  "10: Newtonsoft.Json.dll",
+  "11: System.Core.dll",
+  "12: Sirenix.Serialization.dll",
+  "13: UnityEngine.TextCoreTextEngineModule.dll",
+  "14: UnityEngine.UI.dll",
+  "15: Assembly-CSharp-firstpass.dll",
+  "16: Unity.ResourceManager.dll",
+  "17: DOTween.dll",
+  "18: UnityEngine.IMGUIModule.dll",
+  "19: Mono.Security.dll",
+  "20: Sirenix.Utilities.dll",
+  "21: ACTk.Runtime.dll",
+  "22: Unity.Addressables.dll",
+  "23: Unity.Purchasing.Stores.dll",
+  "24: Unity.Purchasing.dll",
+  "25: UnityEngine.PropertiesModule.dll",
+  "26: UnityEngine.AnimationModule.dll",
+  "27: Sirenix.OdinInspector.Attributes.dll",
+  "28: UniTask.dll",
+  "29: UnityEngine.dll",
+  "30: UnityEngine.AndroidJNIModule.dll",
+  "31: UnityEngine.Physics2DModule.dll",
+  "32: MyBox.dll",
+  "33: Unity.Timeline.dll",
+  "34: Unity.2D.Animation.Runtime.dll",
+  "35: UnityEngine.TerrainModule.dll",
+  "36: IngameDebugConsole.Runtime.dll",
+  "37: UnityEngine.ParticleSystemModule.dll",
+  "38: UnityEngine.PhysicsModule.dll",
+  "39: UnityEngine.AudioModule.dll",
+  "40: Unity.Splines.dll",
+  "41: Unity.Services.Analytics.dll",
+  "42: System.Drawing.dll",
+  "43: Unity.Animation.Rigging.dll",
+  "44: CommandSystem.dll",
+  "45: UnityEngine.UnityWebRequestModule.dll",
+  "46: ACTk.Examples.Runtime.dll",
+  "47: UnityEngine.InputForUIModule.dll",
+  "48: Unity.Collections.dll",
+  "49: UnityEngine.HierarchyCoreModule.dll",
+  "50: System.Numerics.dll",
+  "51: Unity.LevelPlay.dll",
+  "52: UnityEngine.UIModule.dll",
+  "53: System.Xml.Linq.dll",
+  "54: Unity.Services.Core.Internal.dll",
+  "55: UnityEngine.TextCoreFontEngineModule.dll",
+  "56: Unity.Burst.dll",
+  "57: Unity.Purchasing.Security.dll",
+  "58: Unity.Mathematics.dll",
+  "59: UnityEngine.InputLegacyModule.dll",
+  "60: UnityEngine.ClothModule.dll",
+  "61: UnityEngine.DirectorModule.dll",
+  "62: UnityEngine.UnityAnalyticsModule.dll",
+  "63: UnityEngine.UnityAnalyticsCommonModule.dll",
+  "64: UnityEngine.TextRenderingModule.dll",
+  "65: TinyJSON.dll",
+  "66: UnityEngine.VFXModule.dll",
+  "67: UnityEngine.SharedInternalsModule.dll",
+  "68: UnityEngine.AssetBundleModule.dll",
+  "69: Unity.Purchasing.Utilities.dll",
+  "70: Sirenix.Serialization.Config.dll",
+  "71: UnityEngine.UnityWebRequestAssetBundleModule.dll",
+  "72: UnityEngine.AIModule.dll",
+  "73: CaptureAndSaveLib.dll",
+  "74: UnityEngine.JSONSerializeModule.dll",
+  "75: DOTweenPro.dll",
+  "76: UnityEngine.ImageConversionModule.dll",
+  "77: UnityEngine.UnityWebRequestWWWModule.dll",
+  "78: UnityEngine.TerrainPhysicsModule.dll",
+  "79: Unity.Services.Core.Registration.dll",
+  "80: UnityEngine.ScreenCaptureModule.dll",
+  "81: UnityEngine.TilemapModule.dll",
+  "82: UnityEngine.UnityWebRequestTextureModule.dll",
+  "83: UnityEngine.CrashReportingModule.dll",
+  "84: UnityEngine.GridModule.dll",
+  "85: UnityEngine.PerformanceReportingModule.dll",
+  "86: UnityEngine.SpriteShapeModule.dll",
+  "87: Discord.Sdk.dll",
+  "88: UniTask.Addressables.dll",
+  "89: Unity.Services.Core.Scheduler.dll",
+  "90: Unity.Services.Core.Configuration.dll",
+  "91: UnityEngine.VideoModule.dll",
+  "92: ACTk.Examples.Genuine.Runtime.dll",
+  "93: Unity.Services.Core.Device.dll",
+  "94: Unity.Services.Core.dll",
+  "95: System.Configuration.dll",
+  "96: System.Runtime.Serialization.dll",
+  "97: Unity.2D.Common.Runtime.dll",
+  "98: Unity.MemoryProfiler.dll",
+  "99: Unity.Purchasing.SecurityCore.dll",
+  "100: Sirenix.OdinInspector.Modules.Unity.Addressables.dll",
+  "101: UnityEngine.UnityConsentModule.dll",
+  "102: Unity.InternalAPIEngineBridge.001.dll",
+  "103: Unity.Services.Core.Telemetry.dll",
+  "104: UnityEngine.MultiplayerModule.dll",
+  "105: Unity.Purchasing.AppleMacosStub.dll",
+  "106: Unity.Purchasing.AppleStub.dll",
+  "107: UnityEngine.IdentifiersModule.dll",
+  "108: CallNative.dll",
+  "109: Unity.InternalAPIEngineBridge.004.dll",
+  "110: Unity.Services.Core.Environments.Internal.dll",
+  "111: Unity.Services.Core.Threading.dll",
+  "112: Unity.Burst.Unsafe.dll",
+  "113: __Generated"
+ ],
+ "key_targets_per_feature": {
+  "damage_multiplier": "EnemyHealth.TakeDamage(Transform, DamageRequest, out DamageResult) RVA 0x269F900 — multiply DamageRequest.damage @0x10. Enemy hp is a plain float @0xAC.",
+  "game_speed": "UnityEngine.Time.set_timeScale(float) RVA 0x4FD82F0.",
+  "god_mode": "HeroHealth.TakeDamage(Transform, DamageRequest, out DamageResult) RVA 0x277D940 — hook and return early. HP is ObscuredFloat @0x28 (ACTk), do NOT write raw HP.",
+  "item_dropper": "ItemDropManager.SpawnItem(Vector3, Item, ItemInstance) RVA 0x2874718 (overloads 0x2874724, 0x287472C, 0x2874B10). Resolve Item at runtime from ItemInRMDatabase/InvDatabase.FindByID. LootType: Item=0, Gold=1, Ruby=2.",
+  "skill_no_cooldown": "HeroControl.UpdateSkillsCooldown() RVA 0x2766164 (choke point) or zero HeroControl.allSkillCooldown float[] @0xF0; EC2HeroSkill.ApplyCooldown RVA 0x263C6B8; gate CanUseSkill RVA 0x276FFF8.",
+  "teleport_quest": "QuestManager.currentQuest @0x30 -> Quest.targetAreaNode @0x20 -> scene QuestMarkerNode Transform (get_transform RVA 0x25CA0D0) -> Transform.set_position RVA 0x4FDBEC8. Target position NOT proven statically — needs dynamic test."
+ },
+ "limitations": [
+  "Per-item stats (sellPrice, baseRarity, maxRarity, baseStats, upgrade materials) are NOT enumerable from the shipped APK: 0 ScriptableObject objects exist in all local bundles (bin/Data + aa/Android). Item data lives in remote-only Addressables bundles (CDN https://ec2cdn.gacogames.com/v1/Android/, catalog catalog_2026.10.09.11.24.54). items.json therefore enumerates item identities (asset names = Item.id) with heuristic type classification, NOT stats. The injector must resolve items at runtime from the game's loaded database.",
+  "Quest target position storage is NOT proven statically: NavigationNode has no position field; the marker position is the QuestMarkerNode GameObject's Transform in the live scene. Teleport-to-quest and teleport-to-monster need dynamic verification on the device.",
+  "Per-class assembly attribution is unavailable from dump.cs: all 114 '// Image N:' header lines sit at the top of the file, so classes.json/methods.json have img=null; the 114 image names are listed in this file instead.",
+  "The dumper logged 'WARNING: find JNI_OnLoad' / 'ERROR: This file may be protected', but the dump completed fully (128,038 RVA lines; 99.8% of methods parsed).",
+  "script.json has 239,474 ScriptMethod entries vs 128,038 definitions in dump.cs — the extra entries are generic instantiations with separate addresses; dump.cs (128k) is the canonical definition list.",
+  "RVAs are file-relative to this libil2cpp.so build (from the MOD repack, though libil2cpp.so appears identical to the official game). Verify against the official Play Store libil2cpp.so before shipping; use pattern-scan for update resistance as planned.",
+  "Player HP is ACTk ObscuredFloat — plain memory writes to HP are unreliable; hook TakeDamage instead. Enemy HP is a plain float.",
+  "Item classification in items.json is heuristic (name patterns); confidence is recorded per item. 1,286 catalog assets are non-item (quests, skills, enemies, dialogues, databases, shop/deal definitions)."
+ ],
+ "package": "com.GacoGames.EC2",
+ "source_caveat": "Source APK is the v3.1.5 MOD repack, BUT per the earlier REA report the mod is additive (DEX 3 + libmenu.so + one smali line) and libil2cpp.so + global-metadata.dat appear identical to the official game, so the dump was done from those files. No clean official APK was found/used. RVAs are for this libil2cpp.so build; the official Play Store build may differ — verify RVAs against the official libil2cpp.so before shipping the injector.",
+ "tools": {
+  "bundle_scanner": "UnityPy 1.25.4 (pip)",
+  "dotnet_sdk": "8.0.428 (installed manually to ~/.dotnet; /tmp is a 512MB tmpfs, SDK tarball downloaded to ~/workspace/.tmp-dotnet/)",
+  "dumper": "roytu/Il2CppDumper v39 fork, branch v39, commit 540425f (supports metadata v24-v39; Perfare original only supports up to v31)",
+  "focus_builder": "/tmp/build_focus2.py (curated focus extracts)",
+  "items_builder": "/tmp/build_items.py (catalog.bin asset keys -> items.json)",
+  "parser": "/tmp/parse_dump.py (dump.cs -> classes.json + methods.json)"
+ },
+ "unity_version": "6000.3.8f1 (metadata version 39)",
+ "version": "3.1.5 (versionCode 509)"
+}

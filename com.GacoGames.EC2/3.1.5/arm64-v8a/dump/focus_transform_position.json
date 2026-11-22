@@ -1,0 +1,1259 @@
+{
+ "feature": "Player position (teleport base)",
+ "notes": "UnityEngine.Transform.set_position is the write primitive for teleport. Reach the player Transform at runtime via the player GameObject (GameObject.get_transform / Component.get_transform). The player GameObject is found via the scene (e.g. GameObject.Find or the player controller singleton). Do NOT hardcode a Transform pointer — it changes every run.",
+ "transform": {
+  "class": "Transform",
+  "class_full": [
+   {
+    "ns": "UnityEngine",
+    "kind": "class",
+    "base": "Component, IEnumerator<float>",
+    "tdi": 12197,
+    "fields": [],
+    "methods": [
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x4fdbd28"
+     },
+     {
+      "n": "get_position",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdbdf4"
+     },
+     {
+      "n": "set_position",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdbec8"
+     },
+     {
+      "n": "get_localPosition",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdab5c"
+     },
+     {
+      "n": "set_localPosition",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdac1c"
+     },
+     {
+      "n": "GetLocalEulerAngles",
+      "r": "Vector3",
+      "p": "RotationOrder order",
+      "rva": "0x4fdc01c"
+     },
+     {
+      "n": "SetLocalEulerAngles",
+      "r": "void",
+      "p": "Vector3 euler, RotationOrder order",
+      "rva": "0x4fdc108"
+     },
+     {
+      "n": "SetLocalEulerHint",
+      "r": "void",
+      "p": "Vector3 euler",
+      "rva": "0x4fdc1ec"
+     },
+     {
+      "n": "get_eulerAngles",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdc2b8"
+     },
+     {
+      "n": "set_eulerAngles",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdc390"
+     },
+     {
+      "n": "get_localEulerAngles",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdc46c"
+     },
+     {
+      "n": "set_localEulerAngles",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdc544"
+     },
+     {
+      "n": "get_right",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdc620"
+     },
+     {
+      "n": "set_right",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdc69c"
+     },
+     {
+      "n": "get_up",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdc738"
+     },
+     {
+      "n": "set_up",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdc7b4"
+     },
+     {
+      "n": "get_forward",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdc850"
+     },
+     {
+      "n": "set_forward",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdc8cc"
+     },
+     {
+      "n": "get_rotation",
+      "r": "Quaternion",
+      "p": "",
+      "rva": "0x4fdc304"
+     },
+     {
+      "n": "set_rotation",
+      "r": "void",
+      "p": "Quaternion value",
+      "rva": "0x4fdc3e4"
+     },
+     {
+      "n": "get_localRotation",
+      "r": "Quaternion",
+      "p": "",
+      "rva": "0x4fdc4b8"
+     },
+     {
+      "n": "set_localRotation",
+      "r": "void",
+      "p": "Quaternion value",
+      "rva": "0x4fdc598"
+     },
+     {
+      "n": "get_rotationOrder",
+      "r": "RotationOrder",
+      "p": "",
+      "rva": "0x4fdca64"
+     },
+     {
+      "n": "set_rotationOrder",
+      "r": "void",
+      "p": "RotationOrder value",
+      "rva": "0x4fdcad8"
+     },
+     {
+      "n": "GetRotationOrderInternal",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fdca68"
+     },
+     {
+      "n": "SetRotationOrderInternal",
+      "r": "void",
+      "p": "RotationOrder rotationOrder",
+      "rva": "0x4fdcadc"
+     },
+     {
+      "n": "get_localScale",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdcbd4"
+     },
+     {
+      "n": "set_localScale",
+      "r": "void",
+      "p": "Vector3 value",
+      "rva": "0x4fdcca8"
+     },
+     {
+      "n": "get_parent",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x4fdbd1c"
+     },
+     {
+      "n": "set_parent",
+      "r": "void",
+      "p": "Transform value",
+      "rva": "0x4fdcd78"
+     },
+     {
+      "n": "get_parentInternal",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x4fdcd74"
+     },
+     {
+      "n": "set_parentInternal",
+      "r": "void",
+      "p": "Transform value",
+      "rva": "0x4fdce24"
+     },
+     {
+      "n": "GetParent",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x4fdce2c"
+     },
+     {
+      "n": "SetParent",
+      "r": "void",
+      "p": "Transform p",
+      "rva": "0x4fdceb8"
+     },
+     {
+      "n": "SetParent",
+      "r": "void",
+      "p": "Transform parent, bool worldPositionStays",
+      "rva": "0x4fdcefc"
+     },
+     {
+      "n": "get_worldToLocalMatrix",
+      "r": "Matrix4x4",
+      "p": "",
+      "rva": "0x4fdd004"
+     },
+     {
+      "n": "get_localToWorldMatrix",
+      "r": "Matrix4x4",
+      "p": "",
+      "rva": "0x4fdb744"
+     },
+     {
+      "n": "SetPositionAndRotation",
+      "r": "void",
+      "p": "Vector3 position, Quaternion rotation",
+      "rva": "0x4fdd12c"
+     },
+     {
+      "n": "SetLocalPositionAndRotation",
+      "r": "void",
+      "p": "Vector3 localPosition, Quaternion localRotation",
+      "rva": "0x4fdd214"
+     },
+     {
+      "n": "GetPositionAndRotation",
+      "r": "void",
+      "p": "out Vector3 position, out Quaternion rotation",
+      "rva": "0x4fdd2fc"
+     },
+     {
+      "n": "GetLocalPositionAndRotation",
+      "r": "void",
+      "p": "out Vector3 localPosition, out Quaternion localRotation",
+      "rva": "0x4fdd3d8"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "Vector3 translation, Space relativeTo",
+      "rva": "0x4fdd4b4"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "Vector3 translation",
+      "rva": "0x4fdd5d8"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "float x, float y, float z, Space relativeTo",
+      "rva": "0x4fdd5e0"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "float x, float y, float z",
+      "rva": "0x4fdd5e4"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "Vector3 translation, Transform relativeTo",
+      "rva": "0x4fdd5ec"
+     },
+     {
+      "n": "Translate",
+      "r": "void",
+      "p": "float x, float y, float z, Transform relativeTo",
+      "rva": "0x4fdd6cc"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "Vector3 eulers, Space relativeTo",
+      "rva": "0x4fdd6d0"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "Vector3 eulers",
+      "rva": "0x4fdd974"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "float xAngle, float yAngle, float zAngle, Space relativeTo",
+      "rva": "0x4fdd97c"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "float xAngle, float yAngle, float zAngle",
+      "rva": "0x4fdd980"
+     },
+     {
+      "n": "RotateAroundInternal",
+      "r": "void",
+      "p": "Vector3 axis, float angle",
+      "rva": "0x4fdd988"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "Vector3 axis, float angle, Space relativeTo",
+      "rva": "0x4fdda74"
+     },
+     {
+      "n": "Rotate",
+      "r": "void",
+      "p": "Vector3 axis, float angle",
+      "rva": "0x4fddb00"
+     },
+     {
+      "n": "RotateAround",
+      "r": "void",
+      "p": "Vector3 point, Vector3 axis, float angle",
+      "rva": "0x4fddb08"
+     },
+     {
+      "n": "LookAt",
+      "r": "void",
+      "p": "Transform target, Vector3 worldUp",
+      "rva": "0x4fddbd4"
+     },
+     {
+      "n": "LookAt",
+      "r": "void",
+      "p": "Transform target",
+      "rva": "0x4fddc94"
+     },
+     {
+      "n": "LookAt",
+      "r": "void",
+      "p": "Vector3 worldPosition, Vector3 worldUp",
+      "rva": "0x4fddc90"
+     },
+     {
+      "n": "LookAt",
+      "r": "void",
+      "p": "Vector3 worldPosition",
+      "rva": "0x4fdde1c"
+     },
+     {
+      "n": "Internal_LookAt",
+      "r": "void",
+      "p": "Vector3 worldPosition, Vector3 worldUp",
+      "rva": "0x4fddd88"
+     },
+     {
+      "n": "TransformDirection",
+      "r": "Vector3",
+      "p": "Vector3 direction",
+      "rva": "0x4fdd53c"
+     },
+     {
+      "n": "TransformDirection",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fddf40"
+     },
+     {
+      "n": "TransformDirectionsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> directions, Span<Vector3> transformedDirections",
+      "rva": "0x4fddf44"
+     },
+     {
+      "n": "TransformDirections",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> directions, Span<Vector3> transformedDirections",
+      "rva": "0x4fde0c4"
+     },
+     {
+      "n": "TransformDirections",
+      "r": "void",
+      "p": "Span<Vector3> directions",
+      "rva": "0x4fde18c"
+     },
+     {
+      "n": "InverseTransformDirection",
+      "r": "Vector3",
+      "p": "Vector3 direction",
+      "rva": "0x4fde208"
+     },
+     {
+      "n": "InverseTransformDirection",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fde2f8"
+     },
+     {
+      "n": "InverseTransformDirectionsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> directions, Span<Vector3> transformedDirections",
+      "rva": "0x4fde2fc"
+     },
+     {
+      "n": "InverseTransformDirections",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> directions, Span<Vector3> transformedDirections",
+      "rva": "0x4fde47c"
+     },
+     {
+      "n": "InverseTransformDirections",
+      "r": "void",
+      "p": "Span<Vector3> directions",
+      "rva": "0x4fde544"
+     },
+     {
+      "n": "TransformVector",
+      "r": "Vector3",
+      "p": "Vector3 vector",
+      "rva": "0x4fde5c0"
+     },
+     {
+      "n": "TransformVector",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fde6b0"
+     },
+     {
+      "n": "TransformVectorsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> vectors, Span<Vector3> transformedVectors",
+      "rva": "0x4fde6b4"
+     },
+     {
+      "n": "TransformVectors",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> vectors, Span<Vector3> transformedVectors",
+      "rva": "0x4fde834"
+     },
+     {
+      "n": "TransformVectors",
+      "r": "void",
+      "p": "Span<Vector3> vectors",
+      "rva": "0x4fde8fc"
+     },
+     {
+      "n": "InverseTransformVector",
+      "r": "Vector3",
+      "p": "Vector3 vector",
+      "rva": "0x4fde978"
+     },
+     {
+      "n": "InverseTransformVector",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fdea68"
+     },
+     {
+      "n": "InverseTransformVectorsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> vectors, Span<Vector3> transformedVectors",
+      "rva": "0x4fdea6c"
+     },
+     {
+      "n": "InverseTransformVectors",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> vectors, Span<Vector3> transformedVectors",
+      "rva": "0x4fdebec"
+     },
+     {
+      "n": "InverseTransformVectors",
+      "r": "void",
+      "p": "Span<Vector3> vectors",
+      "rva": "0x4fdecb4"
+     },
+     {
+      "n": "TransformPoint",
+      "r": "Vector3",
+      "p": "Vector3 position",
+      "rva": "0x4fded30"
+     },
+     {
+      "n": "TransformPoint",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fdee20"
+     },
+     {
+      "n": "TransformPointsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> positions, Span<Vector3> transformedPositions",
+      "rva": "0x4fdee24"
+     },
+     {
+      "n": "TransformPoints",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> positions, Span<Vector3> transformedPositions",
+      "rva": "0x4fdefa4"
+     },
+     {
+      "n": "TransformPoints",
+      "r": "void",
+      "p": "Span<Vector3> positions",
+      "rva": "0x4fdf06c"
+     },
+     {
+      "n": "InverseTransformPoint",
+      "r": "Vector3",
+      "p": "Vector3 position",
+      "rva": "0x4fdf0e8"
+     },
+     {
+      "n": "InverseTransformPoint",
+      "r": "Vector3",
+      "p": "float x, float y, float z",
+      "rva": "0x4fdf1d8"
+     },
+     {
+      "n": "InverseTransformPointsInternal",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> positions, Span<Vector3> transformedPositions",
+      "rva": "0x4fdf1dc"
+     },
+     {
+      "n": "InverseTransformPoints",
+      "r": "void",
+      "p": "ReadOnlySpan<Vector3> positions, Span<Vector3> transformedPositions",
+      "rva": "0x4fdf35c"
+     },
+     {
+      "n": "InverseTransformPoints",
+      "r": "void",
+      "p": "Span<Vector3> positions",
+      "rva": "0x4fdf424"
+     },
+     {
+      "n": "get_root",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x4fdf4a0"
+     },
+     {
+      "n": "GetRoot",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x4fdf4a4"
+     },
+     {
+      "n": "get_childCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fdf56c"
+     },
+     {
+      "n": "DetachChildren",
+      "r": "void",
+      "p": "",
+      "rva": "0x4fdf618"
+     },
+     {
+      "n": "SetAsFirstSibling",
+      "r": "void",
+      "p": "",
+      "rva": "0x4fdf6c4"
+     },
+     {
+      "n": "SetAsLastSibling",
+      "r": "void",
+      "p": "",
+      "rva": "0x4fdf770"
+     },
+     {
+      "n": "SetSiblingIndex",
+      "r": "void",
+      "p": "int index",
+      "rva": "0x4fdf81c"
+     },
+     {
+      "n": "MoveAfterSibling",
+      "r": "void",
+      "p": "Transform transform, bool notifyEditorAndMarkDirty",
+      "rva": "0x4fdf8d8"
+     },
+     {
+      "n": "GetSiblingIndex",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fdf9e0"
+     },
+     {
+      "n": "FindRelativeTransformWithPath",
+      "r": "Transform",
+      "p": "string path, bool isActiveOnly",
+      "rva": "0x4fdfa8c"
+     },
+     {
+      "n": "Find",
+      "r": "Transform",
+      "p": "string n",
+      "rva": "0x4fdfcd8"
+     },
+     {
+      "n": "SendTransformChangedScale",
+      "r": "void",
+      "p": "",
+      "rva": "0x4fdfd30"
+     },
+     {
+      "n": "get_lossyScale",
+      "r": "Vector3",
+      "p": "",
+      "rva": "0x4fdfddc"
+     },
+     {
+      "n": "IsChildOf",
+      "r": "bool",
+      "p": "Transform parent",
+      "rva": "0x4fdfeb0"
+     },
+     {
+      "n": "get_hasChanged",
+      "r": "bool",
+      "p": "",
+      "rva": "0x4fdff94"
+     },
+     {
+      "n": "set_hasChanged",
+      "r": "void",
+      "p": "bool value",
+      "rva": "0x4fe0040"
+     },
+     {
+      "n": "FindChild",
+      "r": "Transform",
+      "p": "string n",
+      "rva": "0x4fe00fc"
+     },
+     {
+      "n": "GetEnumerator",
+      "r": "IEnumerator",
+      "p": "",
+      "rva": "0x4fe0100"
+     },
+     {
+      "n": "RotateAround",
+      "r": "void",
+      "p": "Vector3 axis, float angle",
+      "rva": "0x4fe01a8"
+     },
+     {
+      "n": "RotateAroundLocal",
+      "r": "void",
+      "p": "Vector3 axis, float angle",
+      "rva": "0x4fe0294"
+     },
+     {
+      "n": "GetChild",
+      "r": "Transform",
+      "p": "int index",
+      "rva": "0x4fe0380"
+     },
+     {
+      "n": "GetChildCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fe0460"
+     },
+     {
+      "n": "get_hierarchyCapacity",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fe050c"
+     },
+     {
+      "n": "set_hierarchyCapacity",
+      "r": "void",
+      "p": "int value",
+      "rva": "0x4fe0580"
+     },
+     {
+      "n": "internal_getHierarchyCapacity",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fe0510"
+     },
+     {
+      "n": "internal_setHierarchyCapacity",
+      "r": "void",
+      "p": "int value",
+      "rva": "0x4fe0584"
+     },
+     {
+      "n": "get_hierarchyCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fe067c"
+     },
+     {
+      "n": "internal_getHierarchyCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fe0680"
+     },
+     {
+      "n": "IsNonUniformScaleTransform",
+      "r": "bool",
+      "p": "",
+      "rva": "0x4fe072c"
+     },
+     {
+      "n": "get_constrainProportionsScale",
+      "r": "bool",
+      "p": "",
+      "rva": "0x4fe07d8"
+     },
+     {
+      "n": "set_constrainProportionsScale",
+      "r": "void",
+      "p": "bool value",
+      "rva": "0x4fe084c"
+     },
+     {
+      "n": "SetConstrainProportionsScale",
+      "r": "void",
+      "p": "bool isLinked",
+      "rva": "0x4fe0850"
+     },
+     {
+      "n": "IsConstrainProportionsScale",
+      "r": "bool",
+      "p": "",
+      "rva": "0x4fe07dc"
+     },
+     {
+      "n": "get_position_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 ret",
+      "rva": "0x4fdbe84"
+     },
+     {
+      "n": "set_position_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 value",
+      "rva": "0x4fdbf50"
+     },
+     {
+      "n": "get_localPosition_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 ret",
+      "rva": "0x4fdbf94"
+     },
+     {
+      "n": "set_localPosition_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 value",
+      "rva": "0x4fdbfd8"
+     },
+     {
+      "n": "GetLocalEulerAngles_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, RotationOrder order, out Vector3 ret",
+      "rva": "0x4fdc0b4"
+     },
+     {
+      "n": "SetLocalEulerAngles_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 euler, RotationOrder order",
+      "rva": "0x4fdc198"
+     },
+     {
+      "n": "SetLocalEulerHint_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 euler",
+      "rva": "0x4fdc274"
+     },
+     {
+      "n": "get_rotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Quaternion ret",
+      "rva": "0x4fdc954"
+     },
+     {
+      "n": "set_rotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Quaternion value",
+      "rva": "0x4fdc998"
+     },
+     {
+      "n": "get_localRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Quaternion ret",
+      "rva": "0x4fdc9dc"
+     },
+     {
+      "n": "set_localRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Quaternion value",
+      "rva": "0x4fdca20"
+     },
+     {
+      "n": "GetRotationOrderInternal_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdcb54"
+     },
+     {
+      "n": "SetRotationOrderInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, RotationOrder rotationOrder",
+      "rva": "0x4fdcb90"
+     },
+     {
+      "n": "get_localScale_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 ret",
+      "rva": "0x4fdcc64"
+     },
+     {
+      "n": "set_localScale_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 value",
+      "rva": "0x4fdcd30"
+     },
+     {
+      "n": "GetParent_Injected",
+      "r": "IntPtr",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdcec0"
+     },
+     {
+      "n": "SetParent_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, IntPtr parent, bool worldPositionStays",
+      "rva": "0x4fdcfb0"
+     },
+     {
+      "n": "get_worldToLocalMatrix_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Matrix4x4 ret",
+      "rva": "0x4fdd0a4"
+     },
+     {
+      "n": "get_localToWorldMatrix_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Matrix4x4 ret",
+      "rva": "0x4fdd0e8"
+     },
+     {
+      "n": "SetPositionAndRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 position, in Quaternion rotation",
+      "rva": "0x4fdd1c0"
+     },
+     {
+      "n": "SetLocalPositionAndRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 localPosition, in Quaternion localRotation",
+      "rva": "0x4fdd2a8"
+     },
+     {
+      "n": "GetPositionAndRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 position, out Quaternion rotation",
+      "rva": "0x4fdd384"
+     },
+     {
+      "n": "GetLocalPositionAndRotation_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 localPosition, out Quaternion localRotation",
+      "rva": "0x4fdd460"
+     },
+     {
+      "n": "RotateAroundInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 axis, float angle",
+      "rva": "0x4fdda20"
+     },
+     {
+      "n": "Internal_LookAt_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 worldPosition, in Vector3 worldUp",
+      "rva": "0x4fdde98"
+     },
+     {
+      "n": "TransformDirection_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 direction, out Vector3 ret",
+      "rva": "0x4fddeec"
+     },
+     {
+      "n": "TransformDirectionsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper directions, ref ManagedSpanWrapper transformedDirections",
+      "rva": "0x4fde070"
+     },
+     {
+      "n": "InverseTransformDirection_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 direction, out Vector3 ret",
+      "rva": "0x4fde2a4"
+     },
+     {
+      "n": "InverseTransformDirectionsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper directions, ref ManagedSpanWrapper transformedDirections",
+      "rva": "0x4fde428"
+     },
+     {
+      "n": "TransformVector_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 vector, out Vector3 ret",
+      "rva": "0x4fde65c"
+     },
+     {
+      "n": "TransformVectorsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper vectors, ref ManagedSpanWrapper transformedVectors",
+      "rva": "0x4fde7e0"
+     },
+     {
+      "n": "InverseTransformVector_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 vector, out Vector3 ret",
+      "rva": "0x4fdea14"
+     },
+     {
+      "n": "InverseTransformVectorsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper vectors, ref ManagedSpanWrapper transformedVectors",
+      "rva": "0x4fdeb98"
+     },
+     {
+      "n": "TransformPoint_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 position, out Vector3 ret",
+      "rva": "0x4fdedcc"
+     },
+     {
+      "n": "TransformPointsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper positions, ref ManagedSpanWrapper transformedPositions",
+      "rva": "0x4fdef50"
+     },
+     {
+      "n": "InverseTransformPoint_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 position, out Vector3 ret",
+      "rva": "0x4fdf184"
+     },
+     {
+      "n": "InverseTransformPointsInternal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper positions, ref ManagedSpanWrapper transformedPositions",
+      "rva": "0x4fdf308"
+     },
+     {
+      "n": "GetRoot_Injected",
+      "r": "IntPtr",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdf530"
+     },
+     {
+      "n": "get_childCount_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdf5dc"
+     },
+     {
+      "n": "DetachChildren_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdf688"
+     },
+     {
+      "n": "SetAsFirstSibling_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdf734"
+     },
+     {
+      "n": "SetAsLastSibling_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdf7e0"
+     },
+     {
+      "n": "SetSiblingIndex_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, int index",
+      "rva": "0x4fdf894"
+     },
+     {
+      "n": "MoveAfterSibling_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, IntPtr transform, bool notifyEditorAndMarkDirty",
+      "rva": "0x4fdf98c"
+     },
+     {
+      "n": "GetSiblingIndex_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdfa50"
+     },
+     {
+      "n": "FindRelativeTransformWithPath_Injected",
+      "r": "IntPtr",
+      "p": "IntPtr _unity_self, ref ManagedSpanWrapper path, bool isActiveOnly",
+      "rva": "0x4fdfc84"
+     },
+     {
+      "n": "SendTransformChangedScale_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fdfda0"
+     },
+     {
+      "n": "get_lossyScale_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, out Vector3 ret",
+      "rva": "0x4fdfe6c"
+     },
+     {
+      "n": "IsChildOf_Injected",
+      "r": "bool",
+      "p": "IntPtr _unity_self, IntPtr parent",
+      "rva": "0x4fdff50"
+     },
+     {
+      "n": "get_hasChanged_Injected",
+      "r": "bool",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe0004"
+     },
+     {
+      "n": "set_hasChanged_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, bool value",
+      "rva": "0x4fe00b8"
+     },
+     {
+      "n": "RotateAround_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 axis, float angle",
+      "rva": "0x4fe0240"
+     },
+     {
+      "n": "RotateAroundLocal_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, in Vector3 axis, float angle",
+      "rva": "0x4fe032c"
+     },
+     {
+      "n": "GetChild_Injected",
+      "r": "IntPtr",
+      "p": "IntPtr _unity_self, int index",
+      "rva": "0x4fe041c"
+     },
+     {
+      "n": "GetChildCount_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe04d0"
+     },
+     {
+      "n": "internal_getHierarchyCapacity_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe05fc"
+     },
+     {
+      "n": "internal_setHierarchyCapacity_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, int value",
+      "rva": "0x4fe0638"
+     },
+     {
+      "n": "internal_getHierarchyCount_Injected",
+      "r": "int",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe06f0"
+     },
+     {
+      "n": "IsNonUniformScaleTransform_Injected",
+      "r": "bool",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe079c"
+     },
+     {
+      "n": "SetConstrainProportionsScale_Injected",
+      "r": "void",
+      "p": "IntPtr _unity_self, bool isLinked",
+      "rva": "0x4fe08c8"
+     },
+     {
+      "n": "IsConstrainProportionsScale_Injected",
+      "r": "bool",
+      "p": "IntPtr _unity_self",
+      "rva": "0x4fe090c"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "Transform",
+    "method": "get_position",
+    "return": "Vector3",
+    "params": "",
+    "rva": "0x4fdbdf4"
+   },
+   {
+    "class": "Transform",
+    "method": "set_position",
+    "return": "void",
+    "params": "Vector3 value",
+    "rva": "0x4fdbec8"
+   },
+   {
+    "class": "Transform",
+    "method": "get_localPosition",
+    "return": "Vector3",
+    "params": "",
+    "rva": "0x4fdab5c"
+   },
+   {
+    "class": "Transform",
+    "method": "set_localPosition",
+    "return": "void",
+    "params": "Vector3 value",
+    "rva": "0x4fdac1c"
+   },
+   {
+    "class": "Transform",
+    "method": "get_rotation",
+    "return": "Quaternion",
+    "params": "",
+    "rva": "0x4fdc304"
+   },
+   {
+    "class": "Transform",
+    "method": "set_rotation",
+    "return": "void",
+    "params": "Quaternion value",
+    "rva": "0x4fdc3e4"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "Vector3 translation, Space relativeTo",
+    "rva": "0x4fdd4b4"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "Vector3 translation",
+    "rva": "0x4fdd5d8"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "float x, float y, float z, Space relativeTo",
+    "rva": "0x4fdd5e0"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "float x, float y, float z",
+    "rva": "0x4fdd5e4"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "Vector3 translation, Transform relativeTo",
+    "rva": "0x4fdd5ec"
+   },
+   {
+    "class": "Transform",
+    "method": "Translate",
+    "return": "void",
+    "params": "float x, float y, float z, Transform relativeTo",
+    "rva": "0x4fdd6cc"
+   }
+  ]
+ },
+ "accessors": [
+  {
+   "class": "GameObject",
+   "method": "GetComponent",
+   "return": "Component",
+   "params": "Type type",
+   "rva": "0x4fc66e4"
+  },
+  {
+   "class": "GameObject",
+   "method": "GetComponent",
+   "return": "Component",
+   "params": "string type",
+   "rva": "0x4fc9d34"
+  },
+  {
+   "class": "GameObject",
+   "method": "get_transform",
+   "return": "Transform",
+   "params": "",
+   "rva": "0x4fcb248"
+  },
+  {
+   "class": "GameObject",
+   "method": "Find",
+   "return": "GameObject",
+   "params": "string name",
+   "rva": "0x4fcc5c4"
+  },
+  {
+   "class": "GameObject",
+   "method": "get_gameObject",
+   "return": "GameObject",
+   "params": "",
+   "rva": "0x4fcd36c"
+  },
+  {
+   "class": "Component",
+   "method": "get_transform",
+   "return": "Transform",
+   "params": "",
+   "rva": "0x4fc6524"
+  },
+  {
+   "class": "Component",
+   "method": "get_gameObject",
+   "return": "GameObject",
+   "params": "",
+   "rva": "0x4fc65f4"
+  }
+ ]
+}

@@ -1,0 +1,2319 @@
+{
+ "feature": "God Mode + Damage Multiplier",
+ "god_mode_target": {
+  "class": "HeroHealth",
+  "notes": "Player health. HP is an ACTk ObscuredFloat (field hp @0x28) — raw memory writes to HP will NOT work reliably (obscured + anti-cheat). Hook TakeDamage and return early (or zero request.damage) instead. damageRedPct @0x94 and shieldAmount @0xA0 are plain floats and can be raised as a softer god-mode.",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour, IEnumerator<float>, IEnumerator<float>",
+    "tdi": 1597,
+    "fields": [
+     {
+      "t": "Renderer[]",
+      "n": "allRenderers",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "ObscuredFloat",
+      "n": "hp",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "bool",
+      "n": "superArmor",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "bool",
+      "n": "inited",
+      "v": null,
+      "off": "0x41"
+     },
+     {
+      "t": "bool",
+      "n": "die",
+      "v": null,
+      "off": "0x42"
+     },
+     {
+      "t": "float",
+      "n": "healthCleanseTreshold",
+      "v": null,
+      "off": "0x44"
+     },
+     {
+      "t": "HeroStatus",
+      "n": "status",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "HeroControl",
+      "n": "control",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "HeroProps",
+      "n": "props",
+      "v": null,
+      "off": "0x58"
+     },
+     {
+      "t": "List<Material>",
+      "n": "allMats",
+      "v": null,
+      "off": "0x60"
+     },
+     {
+      "t": "HeroHUD",
+      "n": "heroHud",
+      "v": null,
+      "off": "0x68"
+     },
+     {
+      "t": "ParticleSystem",
+      "n": "flashEvasionFx",
+      "v": null,
+      "off": "0x70"
+     },
+     {
+      "t": "GameManager",
+      "n": "gm",
+      "v": null,
+      "off": "0x78"
+     },
+     {
+      "t": "InstanceBattleHandler",
+      "n": "battleHandler",
+      "v": null,
+      "off": "0x80"
+     },
+     {
+      "t": "bool",
+      "n": "disablePlayLowHealth",
+      "v": null,
+      "off": "0x88"
+     },
+     {
+      "t": "CoroutineHandle",
+      "n": "handlerPlayLowHealth",
+      "v": null,
+      "off": "0x8c"
+     },
+     {
+      "t": "bool",
+      "n": "ignoreFlinch",
+      "v": null,
+      "off": "0x90"
+     },
+     {
+      "t": "bool",
+      "n": "dieAnimationPlayed",
+      "v": null,
+      "off": "0x91"
+     },
+     {
+      "t": "bool",
+      "n": "megaArmor",
+      "v": null,
+      "off": "0x92"
+     },
+     {
+      "t": "float",
+      "n": "damageRedPct",
+      "v": null,
+      "off": "0x94"
+     },
+     {
+      "t": "float",
+      "n": "fs_damageRedPct",
+      "v": null,
+      "off": "0x98"
+     },
+     {
+      "t": "bool",
+      "n": "buff_abyssal_windveil",
+      "v": null,
+      "off": "0x9c"
+     },
+     {
+      "t": "float",
+      "n": "shieldAmount",
+      "v": null,
+      "off": "0xa0"
+     },
+     {
+      "t": "float",
+      "n": "shieldDuration",
+      "v": null,
+      "off": "0xa4"
+     },
+     {
+      "t": "float",
+      "n": "maxShield",
+      "v": null,
+      "off": "0xa8"
+     },
+     {
+      "t": "Action",
+      "n": "OnForceSwitch",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "Action",
+      "n": "OnDie",
+      "v": null,
+      "off": "0xb0"
+     },
+     {
+      "t": "Action",
+      "n": "OnGeneralDie",
+      "v": null,
+      "off": "0x8"
+     },
+     {
+      "t": "CoroutineHandle",
+      "n": "handler",
+      "v": null,
+      "off": "0xb8"
+     },
+     {
+      "t": "float",
+      "n": "claris_ironwill",
+      "v": null,
+      "off": "0xbc"
+     },
+     {
+      "t": "bool",
+      "n": "disableEvasion",
+      "v": null,
+      "off": "0xc0"
+     },
+     {
+      "t": "bool",
+      "n": "flashEvasionFrame",
+      "v": null,
+      "off": "0xc1"
+     },
+     {
+      "t": "bool",
+      "n": "flashEvasionActive",
+      "v": null,
+      "off": "0xc2"
+     },
+     {
+      "t": "bool",
+      "n": "zeravCounter",
+      "v": null,
+      "off": "0xc3"
+     },
+     {
+      "t": "float",
+      "n": "flashEvasionTimer",
+      "v": null,
+      "off": "0xc4"
+     },
+     {
+      "t": "Queue",
+      "n": "superArmorQueue",
+      "v": null,
+      "off": "0xc8"
+     },
+     {
+      "t": "bool",
+      "n": "superArmorTemporary",
+      "v": null,
+      "off": "0xd0"
+     },
+     {
+      "t": "float",
+      "n": "knockdownThreshold",
+      "v": null,
+      "off": "0xd4"
+     },
+     {
+      "t": "float",
+      "n": "kdPoint",
+      "v": null,
+      "off": "0xd8"
+     },
+     {
+      "t": "float",
+      "n": "kdReducePerSec",
+      "v": null,
+      "off": "0xdc"
+     },
+     {
+      "t": "float",
+      "n": "elze_freeze_RES",
+      "v": null,
+      "off": "0xe0"
+     },
+     {
+      "t": "Dictionary<StatusEffects, EC2StatusEffect>",
+      "n": "statusEffects",
+      "v": null,
+      "off": "0xe8"
+     },
+     {
+      "t": "bool",
+      "n": "isPoisoned",
+      "v": null,
+      "off": "0xf0"
+     },
+     {
+      "t": "float",
+      "n": "poisonSlowValue",
+      "v": null,
+      "off": "0xf4"
+     },
+     {
+      "t": "bool",
+      "n": "isSilenced",
+      "v": null,
+      "off": "0xf8"
+     },
+     {
+      "t": "bool",
+      "n": "isEnsnared",
+      "v": null,
+      "off": "0xf9"
+     },
+     {
+      "t": "float",
+      "n": "ensnareValue",
+      "v": null,
+      "off": "0xfc"
+     },
+     {
+      "t": "bool",
+      "n": "isSlowed",
+      "v": null,
+      "off": "0x100"
+     },
+     {
+      "t": "float",
+      "n": "slowedValue",
+      "v": null,
+      "off": "0x104"
+     },
+     {
+      "t": "bool",
+      "n": "isSnowSlowed",
+      "v": null,
+      "off": "0x108"
+     },
+     {
+      "t": "float",
+      "n": "snowSlowedValue",
+      "v": null,
+      "off": "0x10c"
+     },
+     {
+      "t": "bool",
+      "n": "isFrozen",
+      "v": null,
+      "off": "0x110"
+     },
+     {
+      "t": "bool",
+      "n": "canBeFrozen",
+      "v": null,
+      "off": "0x111"
+     },
+     {
+      "t": "int",
+      "n": "totalNegativeEffect",
+      "v": null,
+      "off": "0x114"
+     }
+    ],
+    "methods": [
+     {
+      "n": "OnEnable",
+      "r": "void",
+      "p": "",
+      "rva": "0x277bc20"
+     },
+     {
+      "n": "OnDisable",
+      "r": "void",
+      "p": "",
+      "rva": "0x277be00"
+     },
+     {
+      "n": "Awake",
+      "r": "void",
+      "p": "",
+      "rva": "0x277bfe0"
+     },
+     {
+      "n": "Update",
+      "r": "void",
+      "p": "",
+      "rva": "0x277c048"
+     },
+     {
+      "n": "InitHealth",
+      "r": "void",
+      "p": "",
+      "rva": "0x277c098"
+     },
+     {
+      "n": "RefreshHealthBar",
+      "r": "void",
+      "p": "",
+      "rva": "0x277c5b0"
+     },
+     {
+      "n": "SetSkinColor",
+      "r": "void",
+      "p": "Color color",
+      "rva": "0x277ccec"
+     },
+     {
+      "n": "RestoreHp",
+      "r": "void",
+      "p": "float amount, bool notify",
+      "rva": "0x277ced0"
+     },
+     {
+      "n": "RestoreHp",
+      "r": "void",
+      "p": "float amount, bool notify, bool useVFX",
+      "rva": "0x277ced8"
+     },
+     {
+      "n": "RestoreHpPercent",
+      "r": "void",
+      "p": "float _percent, bool notify",
+      "rva": "0x277b1f4"
+     },
+     {
+      "n": "RestoreHpPercent",
+      "r": "void",
+      "p": "float _percent, bool notify, bool useVFX",
+      "rva": "0x277d258"
+     },
+     {
+      "n": "GetRestoreHpPercent",
+      "r": "float",
+      "p": "float _percent",
+      "rva": "0x277d3ac"
+     },
+     {
+      "n": "UpdateHpBar",
+      "r": "void",
+      "p": "",
+      "rva": "0x277c6ac"
+     },
+     {
+      "n": "UpdateShieldBar",
+      "r": "void",
+      "p": "",
+      "rva": "0x277d4e0"
+     },
+     {
+      "n": "DoAfterSeconds",
+      "r": "IEnumerator<float>",
+      "p": "float second, Action OnAfter",
+      "rva": "0x277d714"
+     },
+     {
+      "n": "GetHpPercent",
+      "r": "float",
+      "p": "",
+      "rva": "0x277d5e0"
+     },
+     {
+      "n": "SetHpTo",
+      "r": "void",
+      "p": "Transform source, float value",
+      "rva": "0x277d86c"
+     },
+     {
+      "n": "TakeDamage",
+      "r": "void",
+      "p": "Transform source, DamageRequest request, out DamageResult result",
+      "rva": "0x277d940"
+     },
+     {
+      "n": "ActivateShield",
+      "r": "void",
+      "p": "float amount, float duration",
+      "rva": "0x277efb8"
+     },
+     {
+      "n": "ShieldCoroutine",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x277f078"
+     },
+     {
+      "n": "TriggerCleanse",
+      "r": "void",
+      "p": "",
+      "rva": "0x277d790"
+     },
+     {
+      "n": "TriggerFireShield",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f10c"
+     },
+     {
+      "n": "TriggerSomething",
+      "r": "void",
+      "p": "float treshold, Action OnTreshold, Action OutsideTreshold",
+      "rva": "0x277d7dc"
+     },
+     {
+      "n": "add_OnForceSwitch",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x277f348"
+     },
+     {
+      "n": "remove_OnForceSwitch",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x277f400"
+     },
+     {
+      "n": "add_OnGeneralDie",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x277f4b8"
+     },
+     {
+      "n": "remove_OnGeneralDie",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x277f574"
+     },
+     {
+      "n": "Die",
+      "r": "void",
+      "p": "",
+      "rva": "0x277ea5c"
+     },
+     {
+      "n": "ResetAllTriggers",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f630"
+     },
+     {
+      "n": "PlayDieAnimation",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x277f744"
+     },
+     {
+      "n": "DieAnimationPlayed",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f7d8"
+     },
+     {
+      "n": "SilentDie",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f8cc"
+     },
+     {
+      "n": "get_SuperArmorDamageReduction",
+      "r": "float",
+      "p": "",
+      "rva": "0x277e69c"
+     },
+     {
+      "n": "AutoEvasionSuccess",
+      "r": "bool",
+      "p": "",
+      "rva": "0x277e54c"
+     },
+     {
+      "n": "AutoEvasionSuccess",
+      "r": "bool",
+      "p": "bool isEnemyBlind",
+      "rva": "0x277e464"
+     },
+     {
+      "n": "StartFlashEvasionFrame",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f99c"
+     },
+     {
+      "n": "EndFlashEvasionFrame",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f9a8"
+     },
+     {
+      "n": "FlashEvasionSucceed",
+      "r": "void",
+      "p": "Transform attacker",
+      "rva": "0x277e28c"
+     },
+     {
+      "n": "FlashEvasionEnd",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f9b0"
+     },
+     {
+      "n": "UpdateFlashEvasion",
+      "r": "void",
+      "p": "",
+      "rva": "0x277c04c"
+     },
+     {
+      "n": "IsFlashEvasionActive",
+      "r": "bool",
+      "p": "",
+      "rva": "0x277fc70"
+     },
+     {
+      "n": "StartSuperArmorTemporary",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fc78"
+     },
+     {
+      "n": "ResetSuperArmorTemporary",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fd34"
+     },
+     {
+      "n": "StartSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fb50"
+     },
+     {
+      "n": "EndSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fc24"
+     },
+     {
+      "n": "CheckSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fda4"
+     },
+     {
+      "n": "ResetSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x277fe7c"
+     },
+     {
+      "n": "PhysicalResistanceProc",
+      "r": "bool",
+      "p": "Transform source",
+      "rva": "0x277e62c"
+     },
+     {
+      "n": "GetSourceLevel",
+      "r": "int",
+      "p": "Transform source",
+      "rva": "0x277e6ac"
+     },
+     {
+      "n": "Stun",
+      "r": "void",
+      "p": "float duration",
+      "rva": "0x277fefc"
+     },
+     {
+      "n": "Paralyze",
+      "r": "void",
+      "p": "float duration",
+      "rva": "0x277ffdc"
+     },
+     {
+      "n": "KnockdownThresholdReached",
+      "r": "bool",
+      "p": "float val",
+      "rva": "0x27800fc"
+     },
+     {
+      "n": "UpdateKD",
+      "r": "void",
+      "p": "",
+      "rva": "0x2780120"
+     },
+     {
+      "n": "CureStatusEffect",
+      "r": "void",
+      "p": "StatusEffects statusEffect, bool notify",
+      "rva": "0x278015c"
+     },
+     {
+      "n": "CureStatusEffect",
+      "r": "void",
+      "p": "StatusEffects statusEffect",
+      "rva": "0x2780260"
+     },
+     {
+      "n": "RemoveAllStatusEffect",
+      "r": "void",
+      "p": "",
+      "rva": "0x277f994"
+     },
+     {
+      "n": "RemoveAllStatusEffect",
+      "r": "void",
+      "p": "bool notify",
+      "rva": "0x2780268"
+     },
+     {
+      "n": "RemoveAllBuff",
+      "r": "void",
+      "p": "",
+      "rva": "0x2780514"
+     },
+     {
+      "n": "SetStatusEffect",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x2780748"
+     },
+     {
+      "n": "GetStatusEffect",
+      "r": "EC2StatusEffect",
+      "p": "StatusEffects effect",
+      "rva": "0x277f2b4"
+     },
+     {
+      "n": "Tick",
+      "r": "void",
+      "p": "DamageRequest damageRequest, int stack",
+      "rva": "0x2780f30"
+     },
+     {
+      "n": "RemoveStatusEffect",
+      "r": "void",
+      "p": "StatusEffects effect",
+      "rva": "0x27816ac"
+     },
+     {
+      "n": "TakeDebuffDamage",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x278105c"
+     },
+     {
+      "n": "CheckOnDie",
+      "r": "void",
+      "p": "",
+      "rva": "0x2781a34"
+     },
+     {
+      "n": "TakeDebuffDamagePercentage",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x2781448"
+     },
+     {
+      "n": "TakePureDamage",
+      "r": "void",
+      "p": "float dmg",
+      "rva": "0x2781aa8"
+     },
+     {
+      "n": "TakePercentageDamage",
+      "r": "void",
+      "p": "float pct",
+      "rva": "0x2781bcc"
+     },
+     {
+      "n": "ParaStun",
+      "r": "void",
+      "p": "float damage, float duration",
+      "rva": "0x27812ec"
+     },
+     {
+      "n": "AlterSpeed",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2781d34"
+     },
+     {
+      "n": "ApplyPoison",
+      "r": "void",
+      "p": "float slowMod",
+      "rva": "0x2780c6c"
+     },
+     {
+      "n": "RemovePoison",
+      "r": "void",
+      "p": "",
+      "rva": "0x2781944"
+     },
+     {
+      "n": "ApplySilence",
+      "r": "void",
+      "p": "",
+      "rva": "0x2780e34"
+     },
+     {
+      "n": "RemoveSilence",
+      "r": "void",
+      "p": "",
+      "rva": "0x27819ac"
+     },
+     {
+      "n": "ApplyEnsnare",
+      "r": "void",
+      "p": "float slowMod",
+      "rva": "0x2780e0c"
+     },
+     {
+      "n": "RemoveEnsnare",
+      "r": "void",
+      "p": "",
+      "rva": "0x2781984"
+     },
+     {
+      "n": "ApplySlow",
+      "r": "void",
+      "p": "float slowMod",
+      "rva": "0x2780e58"
+     },
+     {
+      "n": "RemoveSlow",
+      "r": "void",
+      "p": "",
+      "rva": "0x27819b4"
+     },
+     {
+      "n": "ApplySnowSlow",
+      "r": "void",
+      "p": "float slowMod",
+      "rva": "0x2780e94"
+     },
+     {
+      "n": "RemoveSnowSlow",
+      "r": "void",
+      "p": "",
+      "rva": "0x27819f4"
+     },
+     {
+      "n": "Freeze",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2780d4c"
+     },
+     {
+      "n": "EndFreeze",
+      "r": "void",
+      "p": "",
+      "rva": "0x277e7c0"
+     },
+     {
+      "n": "DelayFrozeable",
+      "r": "IEnumerator<float>",
+      "p": "float delay",
+      "rva": "0x2781d74"
+     },
+     {
+      "n": "GetFrozenState",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2781e18"
+     },
+     {
+      "n": "StatusEffectTickNotify",
+      "r": "void",
+      "p": "StatusEffects effect, string text, int stack",
+      "rva": "0x2781e20"
+     },
+     {
+      "n": "IncreaseAtk",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2780ca8"
+     },
+     {
+      "n": "IncreaseCrit",
+      "r": "void",
+      "p": "float val",
+      "rva": "0x2780ebc"
+     },
+     {
+      "n": "ApplyBlind",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2780e40"
+     },
+     {
+      "n": "ApplyArmorDown",
+      "r": "void",
+      "p": "",
+      "rva": "0x2780ed4"
+     },
+     {
+      "n": "RemoveArmorDown",
+      "r": "void",
+      "p": "",
+      "rva": "0x2781a1c"
+     },
+     {
+      "n": "ApplyFireShield",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2781f58"
+     },
+     {
+      "n": "ApplyExhaust",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2780d34"
+     },
+     {
+      "n": "IncreasePhysicalResistance",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2780d1c"
+     },
+     {
+      "n": "IncreaseElementalResistance",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x2780d04"
+     },
+     {
+      "n": "AddNegativeEffect",
+      "r": "void",
+      "p": "",
+      "rva": "0x2780ef4"
+     },
+     {
+      "n": "MinNegativeEffect",
+      "r": "void",
+      "p": "",
+      "rva": "0x278190c"
+     },
+     {
+      "n": "IsDead",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2781f60"
+     },
+     {
+      "n": "RevivalEggAvailable",
+      "r": "bool",
+      "p": "",
+      "rva": "0x277e964"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2781f68"
+     },
+     {
+      "n": "<UpdateHpBar>b__28_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782008"
+     },
+     {
+      "n": "<UpdateHpBar>b__28_1",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782010"
+     },
+     {
+      "n": "<UpdateHpBar>b__28_2",
+      "r": "void",
+      "p": "",
+      "rva": "0x27820e8"
+     },
+     {
+      "n": "<TriggerFireShield>b__46_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x27821a8"
+     },
+     {
+      "n": "<Die>b__55_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782240"
+     },
+     {
+      "n": "<Die>b__55_1",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782264"
+     },
+     {
+      "n": "<Die>b__55_2",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782288"
+     },
+     {
+      "n": "<Die>b__55_3",
+      "r": "void",
+      "p": "",
+      "rva": "0x27823a4"
+     },
+     {
+      "n": "<Die>b__55_4",
+      "r": "void",
+      "p": "",
+      "rva": "0x2782470"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "HeroHealth",
+    "method": "InitHealth",
+    "return": "void",
+    "params": "",
+    "rva": "0x277c098"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "RestoreHp",
+    "return": "void",
+    "params": "float amount, bool notify",
+    "rva": "0x277ced0"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "RestoreHp",
+    "return": "void",
+    "params": "float amount, bool notify, bool useVFX",
+    "rva": "0x277ced8"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "RestoreHpPercent",
+    "return": "void",
+    "params": "float _percent, bool notify",
+    "rva": "0x277b1f4"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "RestoreHpPercent",
+    "return": "void",
+    "params": "float _percent, bool notify, bool useVFX",
+    "rva": "0x277d258"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "GetRestoreHpPercent",
+    "return": "float",
+    "params": "float _percent",
+    "rva": "0x277d3ac"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "UpdateHpBar",
+    "return": "void",
+    "params": "",
+    "rva": "0x277c6ac"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "GetHpPercent",
+    "return": "float",
+    "params": "",
+    "rva": "0x277d5e0"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "SetHpTo",
+    "return": "void",
+    "params": "Transform source, float value",
+    "rva": "0x277d86c"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "TakeDamage",
+    "return": "void",
+    "params": "Transform source, DamageRequest request, out DamageResult result",
+    "rva": "0x277d940"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "ActivateShield",
+    "return": "void",
+    "params": "float amount, float duration",
+    "rva": "0x277efb8"
+   },
+   {
+    "class": "HeroHealth",
+    "method": "Die",
+    "return": "void",
+    "params": "",
+    "rva": "0x277ea5c"
+   }
+  ]
+ },
+ "damage_multiplier_target": {
+  "class": "EnemyHealth",
+  "notes": "Enemy health uses PLAIN floats (hp @0xAC, maxHp @0xB0, armor @0xA4). Damage multiplier: hook EnemyHealth.TakeDamage (RVA 0x269F900) and multiply request.damage (DamageRequest.damage @0x10) before calling the original. Alternatively hook the player's damage output (HeroControl.GetFinalSkillDamage).",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour, IEnumerator<float>",
+    "tdi": 1289,
+    "fields": [
+     {
+      "t": "Action<GameObject, float, float>",
+      "n": "OnArmorValueChanged",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "Action",
+      "n": "OnHelmetBroken",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "bool",
+      "n": "customDie",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "bool",
+      "n": "myHealthIsMyShield",
+      "v": null,
+      "off": "0x29"
+     },
+     {
+      "t": "float",
+      "n": "armorWeakness",
+      "v": null,
+      "off": "0x2c"
+     },
+     {
+      "t": "int",
+      "n": "shieldCount",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "bool",
+      "n": "playEtcOnBlock",
+      "v": null,
+      "off": "0x34"
+     },
+     {
+      "t": "int",
+      "n": "playEtcIndex",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "GameObject",
+      "n": "helmetToSpawn",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "GameObject",
+      "n": "disabledObj",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "Transform",
+      "n": "spawnPos",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "float",
+      "n": "force",
+      "v": null,
+      "off": "0x58"
+     },
+     {
+      "t": "bool",
+      "n": "isHelmetOn",
+      "v": null,
+      "off": "0x5c"
+     },
+     {
+      "t": "bool",
+      "n": "enableHelmetReturn",
+      "v": null,
+      "off": "0x5d"
+     },
+     {
+      "t": "int",
+      "n": "returnShield",
+      "v": null,
+      "off": "0x60"
+     },
+     {
+      "t": "List<StatusEffects>",
+      "n": "statusEffectToRemove",
+      "v": null,
+      "off": "0x68"
+     },
+     {
+      "t": "float",
+      "n": "extraDmgIncrease",
+      "v": null,
+      "off": "0x70"
+     },
+     {
+      "t": "HpBarFollow",
+      "n": "hpBar",
+      "v": null,
+      "off": "0x78"
+     },
+     {
+      "t": "GameManager",
+      "n": "manager",
+      "v": null,
+      "off": "0x80"
+     },
+     {
+      "t": "Animator",
+      "n": "anim",
+      "v": null,
+      "off": "0x88"
+     },
+     {
+      "t": "EnemyStatus",
+      "n": "status",
+      "v": null,
+      "off": "0x90"
+     },
+     {
+      "t": "EnemyAI",
+      "n": "ai",
+      "v": null,
+      "off": "0x98"
+     },
+     {
+      "t": "bool",
+      "n": "useArmorAsHealth",
+      "v": null,
+      "off": "0xa0"
+     },
+     {
+      "t": "float",
+      "n": "armor",
+      "v": null,
+      "off": "0xa4"
+     },
+     {
+      "t": "float",
+      "n": "maxArmor",
+      "v": null,
+      "off": "0xa8"
+     },
+     {
+      "t": "float",
+      "n": "hp",
+      "v": null,
+      "off": "0xac"
+     },
+     {
+      "t": "float",
+      "n": "maxHp",
+      "v": null,
+      "off": "0xb0"
+     },
+     {
+      "t": "bool",
+      "n": "disappearing",
+      "v": null,
+      "off": "0xb4"
+     },
+     {
+      "t": "bool",
+      "n": "superArmor",
+      "v": null,
+      "off": "0xb5"
+     },
+     {
+      "t": "bool",
+      "n": "stunned",
+      "v": null,
+      "off": "0xb6"
+     },
+     {
+      "t": "bool",
+      "n": "dead",
+      "v": null,
+      "off": "0xb7"
+     },
+     {
+      "t": "float",
+      "n": "time",
+      "v": null,
+      "off": "0xb8"
+     },
+     {
+      "t": "float",
+      "n": "count",
+      "v": null,
+      "off": "0xbc"
+     },
+     {
+      "t": "CharacterController",
+      "n": "_controller",
+      "v": null,
+      "off": "0xc0"
+     },
+     {
+      "t": "StatusEffectManager",
+      "n": "SE",
+      "v": null,
+      "off": "0xc8"
+     },
+     {
+      "t": "bool",
+      "n": "temporaryUnbreakableShield",
+      "v": null,
+      "off": "0xd0"
+     },
+     {
+      "t": "bool",
+      "n": "ragingAffectShield",
+      "v": null,
+      "off": "0xd1"
+     },
+     {
+      "t": "bool",
+      "n": "shieldBreak",
+      "v": null,
+      "off": "0xd2"
+     },
+     {
+      "t": "float",
+      "n": "breakTime",
+      "v": null,
+      "off": "0xd4"
+     },
+     {
+      "t": "SkinnedMeshRenderer[]",
+      "n": "allRenderers",
+      "v": null,
+      "off": "0xd8"
+     },
+     {
+      "t": "Material[]",
+      "n": "allMats",
+      "v": null,
+      "off": "0xe0"
+     },
+     {
+      "t": "Material",
+      "n": "flashMat",
+      "v": null,
+      "off": "0xe8"
+     },
+     {
+      "t": "bool",
+      "n": "inited",
+      "v": null,
+      "off": "0xf0"
+     },
+     {
+      "t": "float",
+      "n": "armorDebuff",
+      "v": null,
+      "off": "0xf4"
+     },
+     {
+      "t": "float",
+      "n": "curse_armorDebuff",
+      "v": null,
+      "off": "0xf8"
+     },
+     {
+      "t": "CoroutineHandle",
+      "n": "refreshShieldHandler",
+      "v": null,
+      "off": "0xfc"
+     },
+     {
+      "t": "float",
+      "n": "cot_monolithProtection",
+      "v": null,
+      "off": "0x100"
+     },
+     {
+      "t": "float",
+      "n": "cot_revival_threshold",
+      "v": null,
+      "off": "0x104"
+     },
+     {
+      "t": "bool",
+      "n": "evadeSuccess",
+      "v": null,
+      "off": "0x108"
+     },
+     {
+      "t": "bool",
+      "n": "megaArmor",
+      "v": null,
+      "off": "0x109"
+     },
+     {
+      "t": "float",
+      "n": "disappearDelay",
+      "v": null,
+      "off": "0x10c"
+     },
+     {
+      "t": "Action",
+      "n": "DeathCompleted",
+      "v": null,
+      "off": "0x110"
+     },
+     {
+      "t": "float",
+      "n": "hpBreach",
+      "v": null,
+      "off": "0x118"
+     },
+     {
+      "t": "bool",
+      "n": "ignoreStatusEffect",
+      "v": null,
+      "off": "0x11c"
+     },
+     {
+      "t": "Dictionary<StatusEffects, EC2StatusEffect>",
+      "n": "statusEffects",
+      "v": null,
+      "off": "0x120"
+     },
+     {
+      "t": "Action<float>",
+      "n": "OnEnemyBurnt",
+      "v": null,
+      "off": "0x8"
+     },
+     {
+      "t": "float",
+      "n": "finalDmgReduction_tribe",
+      "v": null,
+      "off": "0x128"
+     },
+     {
+      "t": "float",
+      "n": "frostbiteCd",
+      "v": null,
+      "off": "0x12c"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on75Health",
+      "v": null,
+      "off": "0x130"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on66Health",
+      "v": null,
+      "off": "0x138"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on50Health",
+      "v": null,
+      "off": "0x140"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on40Health",
+      "v": null,
+      "off": "0x148"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on33Health",
+      "v": null,
+      "off": "0x150"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "on25Health",
+      "v": null,
+      "off": "0x158"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "onDie",
+      "v": null,
+      "off": "0x160"
+     },
+     {
+      "t": "UnityEvent",
+      "n": "onCustomDie",
+      "v": null,
+      "off": "0x168"
+     },
+     {
+      "t": "Action<float>",
+      "n": "onHit",
+      "v": null,
+      "off": "0x170"
+     },
+     {
+      "t": "Action",
+      "n": "onHelmetHit",
+      "v": null,
+      "off": "0x178"
+     },
+     {
+      "t": "Action<DamageRequest>",
+      "n": "onHitRequest",
+      "v": null,
+      "off": "0x180"
+     },
+     {
+      "t": "GameObject",
+      "n": "helmetReturnVfx",
+      "v": null,
+      "off": "0x188"
+     }
+    ],
+    "methods": [
+     {
+      "n": "add_OnArmorValueChanged",
+      "r": "void",
+      "p": "Action<GameObject, float, float> value",
+      "rva": "0x269e724"
+     },
+     {
+      "n": "remove_OnArmorValueChanged",
+      "r": "void",
+      "p": "Action<GameObject, float, float> value",
+      "rva": "0x269e7f0"
+     },
+     {
+      "n": "add_OnHelmetBroken",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x269e8bc"
+     },
+     {
+      "n": "remove_OnHelmetBroken",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x269e958"
+     },
+     {
+      "n": "get_ShieldCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x269e9f4"
+     },
+     {
+      "n": "set_ShieldCount",
+      "r": "void",
+      "p": "int value",
+      "rva": "0x269e9fc"
+     },
+     {
+      "n": "get_Armor",
+      "r": "float",
+      "p": "",
+      "rva": "0x269ea24"
+     },
+     {
+      "n": "set_Armor",
+      "r": "void",
+      "p": "float value",
+      "rva": "0x269ea2c"
+     },
+     {
+      "n": "get_MaxHP",
+      "r": "float",
+      "p": "",
+      "rva": "0x269eacc"
+     },
+     {
+      "n": "get_Mats",
+      "r": "Material[]",
+      "p": "",
+      "rva": "0x269ead4"
+     },
+     {
+      "n": "get_FinalArmorDebuff",
+      "r": "float",
+      "p": "",
+      "rva": "0x269eadc"
+     },
+     {
+      "n": "OnEnable",
+      "r": "void",
+      "p": "",
+      "rva": "0x269eaf0"
+     },
+     {
+      "n": "OnDisable",
+      "r": "void",
+      "p": "",
+      "rva": "0x269ebe0"
+     },
+     {
+      "n": "OnDestroy",
+      "r": "void",
+      "p": "",
+      "rva": "0x269ed44"
+     },
+     {
+      "n": "Start",
+      "r": "void",
+      "p": "",
+      "rva": "0x269eda0"
+     },
+     {
+      "n": "Init",
+      "r": "void",
+      "p": "",
+      "rva": "0x269eda4"
+     },
+     {
+      "n": "Update",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f074"
+     },
+     {
+      "n": "CameraSettingChanged",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f358"
+     },
+     {
+      "n": "UpdateBreakState",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f2ec"
+     },
+     {
+      "n": "RefreshShield",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f42c"
+     },
+     {
+      "n": "ForceRefreshShield",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f610"
+     },
+     {
+      "n": "DelayShieldReset",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x269f51c"
+     },
+     {
+      "n": "EnableAntiShieldDestroy",
+      "r": "IEnumerator<float>",
+      "p": "float duration",
+      "rva": "0x269f6f8"
+     },
+     {
+      "n": "ForceHealth",
+      "r": "void",
+      "p": "float health",
+      "rva": "0x269f79c"
+     },
+     {
+      "n": "SetHP",
+      "r": "void",
+      "p": "float health, float shield",
+      "rva": "0x269f80c"
+     },
+     {
+      "n": "SetHP",
+      "r": "void",
+      "p": "float maxHealth, float currentHealth, float shield",
+      "rva": "0x269f818"
+     },
+     {
+      "n": "Heal",
+      "r": "void",
+      "p": "float amount, bool isPercent",
+      "rva": "0x269f890"
+     },
+     {
+      "n": "UpdateHpBar",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f7a4"
+     },
+     {
+      "n": "UpdateArmorBar",
+      "r": "void",
+      "p": "",
+      "rva": "0x269f588"
+     },
+     {
+      "n": "MegaArmor",
+      "r": "void",
+      "p": "bool on",
+      "rva": "0x269f8f8"
+     },
+     {
+      "n": "TakeDamage",
+      "r": "void",
+      "p": "Transform source, DamageRequest dmgInput, out DamageResult result",
+      "rva": "0x269f900"
+     },
+     {
+      "n": "CheckRevival",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x26a0b28"
+     },
+     {
+      "n": "SetHpTo",
+      "r": "void",
+      "p": "float percent, float damageNumber",
+      "rva": "0x26a0bbc"
+     },
+     {
+      "n": "DamageArmor",
+      "r": "void",
+      "p": "float dmg, bool percentage",
+      "rva": "0x26a095c"
+     },
+     {
+      "n": "DamageArmor",
+      "r": "void",
+      "p": "float dmg, bool percentage, bool shieldAsHP",
+      "rva": "0x26a070c"
+     },
+     {
+      "n": "Die",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a07e4"
+     },
+     {
+      "n": "ProceedDie",
+      "r": "void",
+      "p": "bool animateDie",
+      "rva": "0x26a0c94"
+     },
+     {
+      "n": "add_DeathCompleted",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x26a10cc"
+     },
+     {
+      "n": "remove_DeathCompleted",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x26a1168"
+     },
+     {
+      "n": "CheckHealthBreach",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a0964"
+     },
+     {
+      "n": "EnableCollider",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a1204"
+     },
+     {
+      "n": "Knockback",
+      "r": "void",
+      "p": "Transform source, float amount",
+      "rva": "0x26a0868"
+     },
+     {
+      "n": "WallBehind",
+      "r": "bool",
+      "p": "float amt",
+      "rva": "0x26a1260"
+     },
+     {
+      "n": "HpPercent",
+      "r": "float",
+      "p": "",
+      "rva": "0x269f8c0"
+     },
+     {
+      "n": "ArmorPercent",
+      "r": "float",
+      "p": "",
+      "rva": "0x269f8cc"
+     },
+     {
+      "n": "IsSuperArmor",
+      "r": "bool",
+      "p": "",
+      "rva": "0x26a1348"
+     },
+     {
+      "n": "Disappear",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a1350"
+     },
+     {
+      "n": "FadeMaterials",
+      "r": "void",
+      "p": "float alpha",
+      "rva": "0x26a153c"
+     },
+     {
+      "n": "RendererVisible",
+      "r": "void",
+      "p": "bool state",
+      "rva": "0x26a15e4"
+     },
+     {
+      "n": "HitFlash",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x26a07f4"
+     },
+     {
+      "n": "SetInvincible",
+      "r": "void",
+      "p": "bool on",
+      "rva": "0x26a1674"
+     },
+     {
+      "n": "ResistAllStatusEffect",
+      "r": "void",
+      "p": "bool on",
+      "rva": "0x26a16b4"
+     },
+     {
+      "n": "SetStatusEffect",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x26a16bc"
+     },
+     {
+      "n": "CheckEntropyProc",
+      "r": "void",
+      "p": "Hero hero",
+      "rva": "0x26a1afc"
+     },
+     {
+      "n": "GetStatusEffect",
+      "r": "EC2StatusEffect",
+      "p": "StatusEffects effect",
+      "rva": "0x26a1c7c"
+     },
+     {
+      "n": "RemoveStatusEffect",
+      "r": "void",
+      "p": "StatusEffects effect",
+      "rva": "0x26a1d10"
+     },
+     {
+      "n": "RemoveStatusEffectImmediate",
+      "r": "void",
+      "p": "StatusEffects effect",
+      "rva": "0x26a1fb8"
+     },
+     {
+      "n": "Tick",
+      "r": "void",
+      "p": "DamageRequest damageRequest, int stack",
+      "rva": "0x26a2054"
+     },
+     {
+      "n": "TakeDebuffDamage",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x26a2214"
+     },
+     {
+      "n": "TakeDebuffDamage",
+      "r": "void",
+      "p": "DamageRequest damageRequest, out float finalDamage",
+      "rva": "0x26a222c"
+     },
+     {
+      "n": "TakeDebuffDamagePercentage",
+      "r": "void",
+      "p": "DamageRequest damageRequest",
+      "rva": "0x26a2534"
+     },
+     {
+      "n": "RemoveAllStatusEffects",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a25f0"
+     },
+     {
+      "n": "DelayRemoveSpecificStatusEffects",
+      "r": "IEnumerator<float>",
+      "p": "float delay",
+      "rva": "0x26a28a8"
+     },
+     {
+      "n": "RemoveSpecificStatusEffects",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a294c"
+     },
+     {
+      "n": "PopupDamage",
+      "r": "void",
+      "p": "Transform target, DamageRequest drq",
+      "rva": "0x26a060c"
+     },
+     {
+      "n": "AlterSpeed",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x26a2b04"
+     },
+     {
+      "n": "StatusEffectTickNotify",
+      "r": "void",
+      "p": "StatusEffects effect, string text, int stack",
+      "rva": "0x26a2b1c"
+     },
+     {
+      "n": "HasStatusEffect",
+      "r": "bool",
+      "p": "StatusEffects effect, out int stacks",
+      "rva": "0x26a2b20"
+     },
+     {
+      "n": "IncreaseAtk",
+      "r": "void",
+      "p": "float percent",
+      "rva": "0x26a2bd0"
+     },
+     {
+      "n": "StartSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a2bd4"
+     },
+     {
+      "n": "EndSuperArmor",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a2be0"
+     },
+     {
+      "n": "Detonate_Bleed",
+      "r": "void",
+      "p": "DamageRequest req",
+      "rva": "0x26a2c10"
+     },
+     {
+      "n": "FrostbiteTrigger",
+      "r": "void",
+      "p": "float dmg",
+      "rva": "0x26a2d18"
+     },
+     {
+      "n": "SoulCurseTrigger",
+      "r": "void",
+      "p": "float dmg",
+      "rva": "0x26a2dc0"
+     },
+     {
+      "n": "ReturnHelmet",
+      "r": "bool",
+      "p": "",
+      "rva": "0x26a2dc4"
+     },
+     {
+      "n": "ReturnHelmet",
+      "r": "void",
+      "p": "int helmetDefense",
+      "rva": "0x26a2f74"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a3120"
+     },
+     {
+      "n": "<Disappear>b__104_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a31c0"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "EnemyHealth",
+    "method": "get_MaxHP",
+    "return": "float",
+    "params": "",
+    "rva": "0x269eacc"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "ForceHealth",
+    "return": "void",
+    "params": "float health",
+    "rva": "0x269f79c"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "SetHP",
+    "return": "void",
+    "params": "float health, float shield",
+    "rva": "0x269f80c"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "SetHP",
+    "return": "void",
+    "params": "float maxHealth, float currentHealth, float shield",
+    "rva": "0x269f818"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "Heal",
+    "return": "void",
+    "params": "float amount, bool isPercent",
+    "rva": "0x269f890"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "UpdateHpBar",
+    "return": "void",
+    "params": "",
+    "rva": "0x269f7a4"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "TakeDamage",
+    "return": "void",
+    "params": "Transform source, DamageRequest dmgInput, out DamageResult result",
+    "rva": "0x269f900"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "SetHpTo",
+    "return": "void",
+    "params": "float percent, float damageNumber",
+    "rva": "0x26a0bbc"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "DamageArmor",
+    "return": "void",
+    "params": "float dmg, bool percentage",
+    "rva": "0x26a095c"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "DamageArmor",
+    "return": "void",
+    "params": "float dmg, bool percentage, bool shieldAsHP",
+    "rva": "0x26a070c"
+   },
+   {
+    "class": "EnemyHealth",
+    "method": "Die",
+    "return": "void",
+    "params": "",
+    "rva": "0x26a07e4"
+   }
+  ]
+ },
+ "damage_packet": {
+  "class": "DamageRequest",
+  "notes": "The damage packet passed to TakeDamage. damage @0x10 is the value to scale. pureDamage @0x4F bypasses reductions; isCritical @0x48; elemental @0x30.",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "",
+    "tdi": 1290,
+    "fields": [
+     {
+      "t": "float",
+      "n": "damage",
+      "v": null,
+      "off": "0x10"
+     },
+     {
+      "t": "float",
+      "n": "knockback",
+      "v": null,
+      "off": "0x14"
+     },
+     {
+      "t": "float",
+      "n": "pierce",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "float",
+      "n": "_break",
+      "v": null,
+      "off": "0x1c"
+     },
+     {
+      "t": "float",
+      "n": "stunDuration",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "float",
+      "n": "crate",
+      "v": null,
+      "off": "0x24"
+     },
+     {
+      "t": "float",
+      "n": "cdmg",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "float",
+      "n": "accuracy",
+      "v": null,
+      "off": "0x2c"
+     },
+     {
+      "t": "Elemental",
+      "n": "elemental",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "StatusEffects",
+      "n": "statusEffect",
+      "v": null,
+      "off": "0x34"
+     },
+     {
+      "t": "float",
+      "n": "statusEffectDuration",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "float",
+      "n": "statusEffectDamage",
+      "v": null,
+      "off": "0x3c"
+     },
+     {
+      "t": "float[]",
+      "n": "statusEffectAttributes",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "bool",
+      "n": "isCritical",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "bool",
+      "n": "unmissable",
+      "v": null,
+      "off": "0x49"
+     },
+     {
+      "t": "bool",
+      "n": "notDealingDamage",
+      "v": null,
+      "off": "0x4a"
+     },
+     {
+      "t": "bool",
+      "n": "dontRespondOnHit",
+      "v": null,
+      "off": "0x4b"
+     },
+     {
+      "t": "bool",
+      "n": "dontBreakIce",
+      "v": null,
+      "off": "0x4c"
+     },
+     {
+      "t": "bool",
+      "n": "unresistable",
+      "v": null,
+      "off": "0x4d"
+     },
+     {
+      "t": "bool",
+      "n": "ignoreDefDown",
+      "v": null,
+      "off": "0x4e"
+     },
+     {
+      "t": "bool",
+      "n": "pureDamage",
+      "v": null,
+      "off": "0x4f"
+     },
+     {
+      "t": "string",
+      "n": "damageSourceKey",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "Hero",
+      "n": "hero",
+      "v": null,
+      "off": "0x58"
+     },
+     {
+      "t": "bool",
+      "n": "useCustomDmgPopUp",
+      "v": null,
+      "off": "0x5c"
+     },
+     {
+      "t": "bool",
+      "n": "suppressDamagePopup",
+      "v": null,
+      "off": "0x5d"
+     },
+     {
+      "t": "CustomDamagePopUp",
+      "n": "customDmgPopUp",
+      "v": null,
+      "off": "0x60"
+     },
+     {
+      "t": "bool",
+      "n": "louisa_bullseye",
+      "v": null,
+      "off": "0x68"
+     },
+     {
+      "t": "bool",
+      "n": "ignoreStatusICD",
+      "v": null,
+      "off": "0x69"
+     },
+     {
+      "t": "StatusEffects",
+      "n": "extraDmgStatus_stat",
+      "v": null,
+      "off": "0x6c"
+     },
+     {
+      "t": "float",
+      "n": "extraDmgStatus_dmg",
+      "v": null,
+      "off": "0x70"
+     },
+     {
+      "t": "Transform",
+      "n": "source",
+      "v": null,
+      "off": "0x78"
+     },
+     {
+      "t": "AttackType",
+      "n": "attackType",
+      "v": null,
+      "off": "0x80"
+     },
+     {
+      "t": "DamageModifierType",
+      "n": "damageModifierType",
+      "v": null,
+      "off": "0x84"
+     }
+    ],
+    "methods": [
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a0c7c"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "DamageRequest request",
+      "rva": "0x26a0500"
+     }
+    ]
+   }
+  ]
+ },
+ "damage_result": {
+  "class": "DamageResult",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "",
+    "tdi": 1291,
+    "fields": [
+     {
+      "t": "bool",
+      "n": "isDead",
+      "v": null,
+      "off": "0x10"
+     },
+     {
+      "t": "bool",
+      "n": "isMiss",
+      "v": null,
+      "off": "0x11"
+     },
+     {
+      "t": "bool",
+      "n": "isStunned",
+      "v": null,
+      "off": "0x12"
+     }
+    ],
+    "methods": [
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x26a04b0"
+     }
+    ]
+   }
+  ]
+ }
+}

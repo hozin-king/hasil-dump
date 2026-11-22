@@ -41,6 +41,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `app.monitorworld`
 - `app.superkickoff`
 - `cc.clashofmagic.s1`
+- `com.GacoGames.EC2`
 - `com.WandaSoftware.TruckersofEurope3`
 - `com.ansangha.drdriving`
 - `com.appon.defendthebunker`
@@ -48,8 +49,10 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.bytedance.snail`
 - `com.chess`
 - `com.cod4.firstmission`
+- `com.disney.app`
 - `com.dts.freefiremax`
 - `com.dts.freefireth`
+- `com.ea.game.pvzfree_row`
 - `com.fingersoft.hcr2`
 - `com.fingersoft.hillclimb`
 - `com.forthblue.pool`
@@ -59,14 +62,20 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.happylabs.happymall2`
 - `com.happylabs.hotelstory2`
 - `com.herocraft.game.farmfrenzy`
+- `com.hozinking.gameTTT.TapTapTycoon`
 - `com.jetstartgames.chess`
+- `com.julian.wildhunter`
 - `com.kipas.studio`
 - `com.lahelu`
 - `com.litapps.selfly`
+- `com.live_streaming_tv.online_tv`
+- `com.maleo.bussimulatorid`
 - `com.mare.sal`
 - `com.martinmagni.mekorama`
+- `com.meluapp.tekatekisilangpintar`
 - `com.miniclip.fraggerfree`
 - `com.movieph.bj.playvibes`
+- `com.neopawstudio.warunglife`
 - `com.neptune.domino`
 - `com.prettysimple.criminalcaseandroid`
 - `com.prineside.tdi2`
@@ -77,6 +86,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.tebakgambar`
 - `com.temka.dota2mobile`
 - `com.touchtao.soccerkinggoogle`
+- `com.ubisoft.hungrysharkworld`
 - `com.weatherradar.liveradar.weathermap`
 - `com.youmusic.magictiles`
 - `diamond.quest.dont.rush`
@@ -87,4 +97,5 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `yio.tro.vodobanka`
 - `zygisk-imgui`
 
-Total: 45 paket, 48 folder versi.
+Total: 58 paket, 63 folder versi.
+

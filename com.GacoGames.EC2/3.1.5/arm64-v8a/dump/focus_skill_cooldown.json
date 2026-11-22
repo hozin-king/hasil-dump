@@ -1,0 +1,394 @@
+{
+ "feature": "Skill without cooldown",
+ "notes": "Two layers: (a) HeroControl.allSkillCooldown float[] @0xF0 is the live per-slot cooldown timer array — zeroing it each frame (or hooking UpdateSkillsCooldown) gives no-cooldown. (b) EC2HeroSkill (ScriptableObject) holds baseCooldown @0x24 / cooldown @0x3C / runningCooldown @0x48 — hook ApplyCooldown/GetFinalCooldown to return 0. CanUseSkill is the gate: hooking it to always return true also bypasses mana checks. Preferred: hook HeroControl.UpdateSkillsCooldown (0x2766164) — single choke point for all 4 skill slots.",
+ "skill_definition": {
+  "class": "EC2HeroSkill",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "ScriptableObject",
+    "tdi": 1068,
+    "fields": [
+     {
+      "t": "string",
+      "n": "id",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "float",
+      "n": "baseManaCost",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "float",
+      "n": "baseCooldown",
+      "v": null,
+      "off": "0x24"
+     },
+     {
+      "t": "bool",
+      "n": "disabledByEnsnare",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "bool",
+      "n": "unaffectedBySilence",
+      "v": null,
+      "off": "0x29"
+     },
+     {
+      "t": "AttributeInfo[]",
+      "n": "skillAttributes",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "float",
+      "n": "manaCost",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "float",
+      "n": "cooldown",
+      "v": null,
+      "off": "0x3c"
+     },
+     {
+      "t": "float[]",
+      "n": "attributes",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "float",
+      "n": "runningCooldown",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "float",
+      "n": "appliedCooldown",
+      "v": null,
+      "off": "0x4c"
+     },
+     {
+      "t": "float",
+      "n": "cdModifier",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "List<SkillExAttribute>",
+      "n": "ex_rune",
+      "v": null,
+      "off": "0x58"
+     },
+     {
+      "t": "float",
+      "n": "custom_extra_manacost",
+      "v": null,
+      "off": "0x60"
+     }
+    ],
+    "methods": [
+     {
+      "n": "get_Editor_Skill_Name",
+      "r": "string",
+      "p": "",
+      "rva": "0x263bd94"
+     },
+     {
+      "n": "set_Editor_Skill_Name",
+      "r": "void",
+      "p": "string value",
+      "rva": "0x263bea4"
+     },
+     {
+      "n": "get_Editor_Skill_Desc",
+      "r": "string",
+      "p": "",
+      "rva": "0x263bea8"
+     },
+     {
+      "n": "set_Editor_Skill_Desc",
+      "r": "void",
+      "p": "string value",
+      "rva": "0x263bf74"
+     },
+     {
+      "n": "get_Editor_Skill_Attributes",
+      "r": "string",
+      "p": "",
+      "rva": "0x263bf78"
+     },
+     {
+      "n": "set_Editor_Skill_Attributes",
+      "r": "void",
+      "p": "string value",
+      "rva": "0x263c284"
+     },
+     {
+      "n": "SetSkillAttributes",
+      "r": "void",
+      "p": "int skillLevel",
+      "rva": "0x263c288"
+     },
+     {
+      "n": "SkillName",
+      "r": "string",
+      "p": "",
+      "rva": "0x263c414"
+     },
+     {
+      "n": "Description",
+      "r": "string",
+      "p": "",
+      "rva": "0x263c4e0"
+     },
+     {
+      "n": "AttributeDescription",
+      "r": "string",
+      "p": "int index",
+      "rva": "0x263c5ac"
+     },
+     {
+      "n": "ManaCost",
+      "r": "float",
+      "p": "float manaRedution",
+      "rva": "0x263c694"
+     },
+     {
+      "n": "ApplyCooldown",
+      "r": "float",
+      "p": "float cdReduction",
+      "rva": "0x263c6b8"
+     },
+     {
+      "n": "GetFinalCooldown",
+      "r": "float",
+      "p": "float cdReduction",
+      "rva": "0x263c6dc"
+     },
+     {
+      "n": "Attribute",
+      "r": "float",
+      "p": "int index",
+      "rva": "0x263c6fc"
+     },
+     {
+      "n": "EX_Skill",
+      "r": "string",
+      "p": "int index, float value, bool active",
+      "rva": "0x263c7d0"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x263c9cc"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "EC2HeroSkill",
+    "method": "SetSkillAttributes",
+    "return": "void",
+    "params": "int skillLevel",
+    "rva": "0x263c288"
+   },
+   {
+    "class": "EC2HeroSkill",
+    "method": "ManaCost",
+    "return": "float",
+    "params": "float manaRedution",
+    "rva": "0x263c694"
+   },
+   {
+    "class": "EC2HeroSkill",
+    "method": "ApplyCooldown",
+    "return": "float",
+    "params": "float cdReduction",
+    "rva": "0x263c6b8"
+   },
+   {
+    "class": "EC2HeroSkill",
+    "method": "GetFinalCooldown",
+    "return": "float",
+    "params": "float cdReduction",
+    "rva": "0x263c6dc"
+   }
+  ]
+ },
+ "skill_controller": {
+  "class": "HeroControl",
+  "key_methods": [
+   {
+    "class": "HeroControl",
+    "method": "InitAllSkills",
+    "return": "void",
+    "params": "",
+    "rva": "0x2769348"
+   },
+   {
+    "class": "HeroControl",
+    "method": "CanUseSkill",
+    "return": "bool",
+    "params": "int skillIndex, float manaUsage, float cooldown, bool instant",
+    "rva": "0x276fff8"
+   },
+   {
+    "class": "HeroControl",
+    "method": "UpdateSkillTimer",
+    "return": "void",
+    "params": "",
+    "rva": "0x2766af8"
+   },
+   {
+    "class": "HeroControl",
+    "method": "RefreshAllSkillCooldown",
+    "return": "void",
+    "params": "",
+    "rva": "0x2777204"
+   },
+   {
+    "class": "HeroControl",
+    "method": "RefreshSkill",
+    "return": "void",
+    "params": "int skillId",
+    "rva": "0x276c5b8"
+   },
+   {
+    "class": "HeroControl",
+    "method": "ReduceAllSkillsCooldown",
+    "return": "void",
+    "params": "float pct",
+    "rva": "0x2768a04"
+   },
+   {
+    "class": "HeroControl",
+    "method": "ReduceSkillCooldown",
+    "return": "void",
+    "params": "int skillId, float pct",
+    "rva": "0x2777250"
+   },
+   {
+    "class": "HeroControl",
+    "method": "ReduceSkillCooldownSecond",
+    "return": "void",
+    "params": "int skillId, float second",
+    "rva": "0x276c7ec"
+   },
+   {
+    "class": "HeroControl",
+    "method": "UpdateSkillsCooldown",
+    "return": "void",
+    "params": "",
+    "rva": "0x2766164"
+   },
+   {
+    "class": "HeroControl",
+    "method": "SkillActivate",
+    "return": "void",
+    "params": "int skillIndex",
+    "rva": "0x2769480"
+   },
+   {
+    "class": "HeroControl",
+    "method": "SkillRelease",
+    "return": "void",
+    "params": "int skillIndex",
+    "rva": "0x276a9f4"
+   },
+   {
+    "class": "HeroControl",
+    "method": "UpdateLifeDrainCooldown",
+    "return": "void",
+    "params": "",
+    "rva": "0x27662d0"
+   },
+   {
+    "class": "HeroControl",
+    "method": "UpdateBurstCooldown",
+    "return": "void",
+    "params": "",
+    "rva": "0x27664cc"
+   },
+   {
+    "class": "HeroControl",
+    "method": "GetFinalSkillDamage",
+    "return": "float",
+    "params": "",
+    "rva": "0x2778a14"
+   }
+  ]
+ },
+ "cooldown_fields": [
+  {
+   "class": "HeroControl",
+   "field": "allSkillCooldown",
+   "type": "float[]",
+   "offset": "0xF0"
+  },
+  {
+   "class": "HeroControl",
+   "field": "skills",
+   "type": "EC2HeroSkill[]",
+   "offset": "0x118"
+  },
+  {
+   "class": "HeroControl",
+   "field": "burstCooldown",
+   "type": "float",
+   "offset": "0x150"
+  },
+  {
+   "class": "HeroControl",
+   "field": "lifeDrainCooldown",
+   "type": "float",
+   "offset": "0x148"
+  },
+  {
+   "class": "HeroControl",
+   "field": "evasionCooldown",
+   "type": "float",
+   "offset": "0x108"
+  },
+  {
+   "class": "EC2HeroSkill",
+   "field": "baseCooldown",
+   "type": "float",
+   "offset": "0x24"
+  },
+  {
+   "class": "EC2HeroSkill",
+   "field": "cooldown",
+   "type": "float",
+   "offset": "0x3C"
+  },
+  {
+   "class": "EC2HeroSkill",
+   "field": "runningCooldown",
+   "type": "float",
+   "offset": "0x48"
+  },
+  {
+   "class": "EC2HeroSkill",
+   "field": "appliedCooldown",
+   "type": "float",
+   "offset": "0x4C"
+  },
+  {
+   "class": "EC2HeroSkill",
+   "field": "cdModifier",
+   "type": "float",
+   "offset": "0x50"
+  }
+ ]
+}

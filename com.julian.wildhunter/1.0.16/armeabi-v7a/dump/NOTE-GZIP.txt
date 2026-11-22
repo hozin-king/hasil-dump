@@ -1,0 +1,5 @@
+File .gz di folder ini adalah hasil `gzip -6` dari file aslinya
+(ekstrak dengan `gzip -d <file>.gz`). Dibuat agar upload via
+Git Data API tetap di bawah batas ukuran blob.
+
+- script.json (16.2 MB asli)

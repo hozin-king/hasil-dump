@@ -1,0 +1,7 @@
+File .gz di folder ini adalah hasil `gzip -6` dari file aslinya
+(ekstrak dengan `gzip -d <file>.gz`). Dibuat agar upload via
+Git Data API tetap di bawah batas ukuran blob.
+
+- dump.cs (36.8 MB asli)
+- classes.json (17.6 MB asli)
+- methods.json (18.1 MB asli)

@@ -1,0 +1,600 @@
+{
+ "feature": "Item Dropper (on-demand spawner, any time, even idle)",
+ "notes": "Primary hook: ItemDropManager.SpawnItem(Vector3 pos, Item item, ItemInstance attribute, ...) — call it directly with the player position and an Item resolved from the runtime database (ItemInRMDatabase.itemCanBeMade / itemInRMs, or InvDatabase.FindByID). LootType enum: Item=0, Gold=1, Ruby=2. DropItem prefabs: DropItem (Gold/Ruby/Abyssal/Gale/Glacial/Inferno/Void Soul). LootMagnet handles auto-pickup. Per-item stats (rarity/baseStats/sellPrice) are NOT in the shipped APK — the item must be resolved at runtime, and rarity/ enhancement are set on the ItemInstance passed to SpawnItem. See items.json.",
+ "drop_manager": {
+  "class": "ItemDropManager",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour",
+    "tdi": 2014,
+    "fields": [
+     {
+      "t": "ItemDropManager",
+      "n": "instance",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "dropItem",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "GameManager",
+      "n": "gm",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_sack",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_sword",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_helmet",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_armor",
+      "v": null,
+      "off": "0x60"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_glove",
+      "v": null,
+      "off": "0x70"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_shoes",
+      "v": null,
+      "off": "0x80"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_ring",
+      "v": null,
+      "off": "0x90"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_diamond",
+      "v": null,
+      "off": "0xa0"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_leaf",
+      "v": null,
+      "off": "0xb0"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_horn",
+      "v": null,
+      "off": "0xc0"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_ore",
+      "v": null,
+      "off": "0xd0"
+     },
+     {
+      "t": "CustomMesh",
+      "n": "item_cloth",
+      "v": null,
+      "off": "0xe0"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_gold",
+      "v": null,
+      "off": "0xf0"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_ruby",
+      "v": null,
+      "off": "0xf8"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_soul_void",
+      "v": null,
+      "off": "0x100"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_soul_wind",
+      "v": null,
+      "off": "0x108"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_soul_glacial",
+      "v": null,
+      "off": "0x110"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_soul_inferno",
+      "v": null,
+      "off": "0x118"
+     },
+     {
+      "t": "ObjectLocalNetwork",
+      "n": "item_soul_abyssal",
+      "v": null,
+      "off": "0x120"
+     },
+     {
+      "t": "ItemIcon[]",
+      "n": "specialObjectItem",
+      "v": null,
+      "off": "0x128"
+     }
+    ],
+    "methods": [
+     {
+      "n": "Awake",
+      "r": "void",
+      "p": "",
+      "rva": "0x287465c"
+     },
+     {
+      "n": "Start",
+      "r": "void",
+      "p": "",
+      "rva": "0x28746b4"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "DropItem",
+      "p": "Vector3 pos, Item item, ItemInstance attribute",
+      "rva": "0x2874718"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "DropItem",
+      "p": "Vector3 pos, Item item, ItemInstance attribute, bool isDropFromBag",
+      "rva": "0x2874724"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "DropItem",
+      "p": "Vector3 pos, Item item, ItemInstance attribute, bool isDropFromBag, bool useForce",
+      "rva": "0x287472c"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "DropItem",
+      "p": "Vector3 pos, Item item, ItemInstance attribute, LootType type, int amount",
+      "rva": "0x2874b10"
+     },
+     {
+      "n": "FindMesh",
+      "r": "CustomMesh",
+      "p": "ItemIcon icon",
+      "rva": "0x2874cdc"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2874db4"
+     }
+    ]
+   }
+  ]
+ },
+ "drop_item": {
+  "class": "DropItem",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "InteractableObjects",
+    "tdi": 1063,
+    "fields": [
+     {
+      "t": "string",
+      "n": "itemId",
+      "v": null,
+      "off": "0x68"
+     },
+     {
+      "t": "int",
+      "n": "quantity",
+      "v": null,
+      "off": "0x70"
+     },
+     {
+      "t": "bool",
+      "n": "isDropFromBag",
+      "v": null,
+      "off": "0x74"
+     },
+     {
+      "t": "GameObject[]",
+      "n": "gleams",
+      "v": null,
+      "off": "0x78"
+     },
+     {
+      "t": "float",
+      "n": "yForce",
+      "v": null,
+      "off": "0x80"
+     },
+     {
+      "t": "Material",
+      "n": "mat",
+      "v": null,
+      "off": "0x88"
+     },
+     {
+      "t": "Transform",
+      "n": "obj",
+      "v": null,
+      "off": "0x90"
+     },
+     {
+      "t": "ItemInstance",
+      "n": "extraAttributes",
+      "v": null,
+      "off": "0x98"
+     },
+     {
+      "t": "Inventory",
+      "n": "inv",
+      "v": null,
+      "off": "0xa0"
+     },
+     {
+      "t": "LootType",
+      "n": "lootType",
+      "v": null,
+      "off": "0xa8"
+     },
+     {
+      "t": "bool",
+      "n": "isKeyItem",
+      "v": null,
+      "off": "0xac"
+     },
+     {
+      "t": "bool",
+      "n": "tapped",
+      "v": null,
+      "off": "0xad"
+     }
+    ],
+    "methods": [
+     {
+      "n": "Awake",
+      "r": "void",
+      "p": "",
+      "rva": "0x263a070"
+     },
+     {
+      "n": "Select",
+      "r": "void",
+      "p": "",
+      "rva": "0x263a184"
+     },
+     {
+      "n": "Deselect",
+      "r": "void",
+      "p": "",
+      "rva": "0x263a220"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "void",
+      "p": "LootType type, int amount",
+      "rva": "0x263a2bc"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "void",
+      "p": "LootType type, int amount, bool useXZForce",
+      "rva": "0x263a2c4"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "void",
+      "p": "string _itemId, int customMesh, int _quantity, ItemInstance attributes, bool isDropFromBag, bool useForce",
+      "rva": "0x263a3fc"
+     },
+     {
+      "n": "SpawnItem",
+      "r": "void",
+      "p": "string _itemId, int _quantity, ItemInstance attributes, bool isDropFromBag, bool useForce",
+      "rva": "0x263a980"
+     },
+     {
+      "n": "SetDropProperties",
+      "r": "void",
+      "p": "string _itemId, int _quantity, ItemInstance attributes, bool isDropFromBag, bool useRandomXZ",
+      "rva": "0x263a6e0"
+     },
+     {
+      "n": "SetMat",
+      "r": "bool",
+      "p": "",
+      "rva": "0x263aab8"
+     },
+     {
+      "n": "GetItem",
+      "r": "void",
+      "p": "",
+      "rva": "0x263ae7c"
+     },
+     {
+      "n": "ShowAura",
+      "r": "void",
+      "p": "",
+      "rva": "0x263b10c"
+     },
+     {
+      "n": "EnableCol",
+      "r": "void",
+      "p": "",
+      "rva": "0x263b218"
+     },
+     {
+      "n": "OnCollisionEnter",
+      "r": "void",
+      "p": "Collision collision",
+      "rva": "0x263b2f0"
+     },
+     {
+      "n": "SetAutoPick",
+      "r": "void",
+      "p": "",
+      "rva": "0x263ad60"
+     },
+     {
+      "n": "MagnetOn",
+      "r": "void",
+      "p": "",
+      "rva": "0x263b37c"
+     },
+     {
+      "n": "MagnetOn",
+      "r": "void",
+      "p": "Action action",
+      "rva": "0x263b384"
+     },
+     {
+      "n": "DelayAndDo",
+      "r": "IEnumerator<float>",
+      "p": "float delay, Action afterDelay",
+      "rva": "0x263b300"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x263b5e0"
+     },
+     {
+      "n": "<SetAutoPick>b__25_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x263b5f0"
+     }
+    ]
+   }
+  ]
+ },
+ "loot_magnet": {
+  "class": "LootMagnet",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour",
+    "tdi": 660,
+    "fields": [
+     {
+      "t": "Transform",
+      "n": "VFXGet",
+      "v": null,
+      "off": "0x20"
+     }
+    ],
+    "methods": [
+     {
+      "n": "OnTriggerEnter",
+      "r": "void",
+      "p": "Collider other",
+      "rva": "0x2be4b80"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2be4c74"
+     },
+     {
+      "n": "<OnTriggerEnter>b__1_0",
+      "r": "void",
+      "p": "",
+      "rva": "0x2be4c7c"
+     }
+    ]
+   }
+  ]
+ },
+ "item_database": {
+  "class": "ItemInRMDatabase",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "ScriptableObject",
+    "tdi": 588,
+    "fields": [
+     {
+      "t": "List<Item>",
+      "n": "itemCanBeMade",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "List<ItemInRM>",
+      "n": "itemInRMs",
+      "v": null,
+      "off": "0x20"
+     }
+    ],
+    "methods": [
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2bbd330"
+     }
+    ]
+   }
+  ]
+ },
+ "inv_database": {
+  "class": "InvDatabase",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour",
+    "tdi": 2614,
+    "fields": [
+     {
+      "t": "InvDatabase[]",
+      "n": "mList",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "bool",
+      "n": "mIsDirty",
+      "v": null,
+      "off": "0x8"
+     },
+     {
+      "t": "int",
+      "n": "databaseID",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "List<InvBaseItem>",
+      "n": "items",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "Object",
+      "n": "iconAtlas",
+      "v": null,
+      "off": "0x30"
+     }
+    ],
+    "methods": [
+     {
+      "n": "get_list",
+      "r": "InvDatabase[]",
+      "p": "",
+      "rva": "0x296129c"
+     },
+     {
+      "n": "OnEnable",
+      "r": "void",
+      "p": "",
+      "rva": "0x2961388"
+     },
+     {
+      "n": "OnDisable",
+      "r": "void",
+      "p": "",
+      "rva": "0x29613e4"
+     },
+     {
+      "n": "GetItem",
+      "r": "InvBaseItem",
+      "p": "int id16",
+      "rva": "0x2961440"
+     },
+     {
+      "n": "GetDatabase",
+      "r": "InvDatabase",
+      "p": "int dbID",
+      "rva": "0x29614e8"
+     },
+     {
+      "n": "FindByID",
+      "r": "InvBaseItem",
+      "p": "int id32",
+      "rva": "0x29615ac"
+     },
+     {
+      "n": "FindByName",
+      "r": "InvBaseItem",
+      "p": "string exact",
+      "rva": "0x2961664"
+     },
+     {
+      "n": "FindItemID",
+      "r": "int",
+      "p": "InvBaseItem item",
+      "rva": "0x29617a4"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x29618a4"
+     },
+     {
+      "n": ".cctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x296192c"
+     }
+    ]
+   }
+  ]
+ },
+ "loot_type_enum": {
+  "LootType": {
+   "Item": 0,
+   "Gold": 1,
+   "Ruby": 2
+  }
+ },
+ "drop_prefabs": [
+  "DropItem.prefab",
+  "DropItem (Gold).prefab",
+  "DropItem (Ruby).prefab",
+  "DropItem (Abyssal Soul).prefab",
+  "DropItem (Gale Soul).prefab",
+  "DropItem (Glacial Soul).prefab",
+  "DropItem (Inferno Soul).prefab",
+  "DropItem (Void Soul).prefab"
+ ]
+}

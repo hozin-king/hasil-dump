@@ -1,0 +1,731 @@
+{
+ "feature": "Teleport to Quest (marker / monster target)",
+ "notes": "Quest target position is NOT stored as a Vector3 anywhere statically. Chain at runtime: QuestManager.currentQuest @0x30 -> Quest.targetAreaNode @0x20 (NavigationNode: sceneName @0x28, areaName @0x30 — NO position field) -> the scene's QuestMarkerNode GameObject -> its Transform (IInteractableNode.get_transform RVA 0x25CA0D0) -> Transform.get_position (0x4FDBDF4). Teleport = write that Vector3 into the player Transform via Transform.set_position (0x4FDBEC8). Monster-target teleport: Objective.enemy (EnemyReference @0x18) identifies the monster type; the live enemy Transform must be found in the scene at runtime. Quest.disableTeleportation @0x50 may block the built-in teleport — the injector's direct Transform write bypasses it. DYNAMIC VERIFICATION ON DEVICE IS REQUIRED before shipping this feature.",
+ "quest_manager": {
+  "class": "QuestManager",
+  "class_full": [
+   {
+    "ns": "ECEventSystem",
+    "kind": "class",
+    "base": "MonoBehaviour",
+    "tdi": 3296,
+    "fields": [
+     {
+      "t": "GameManager",
+      "n": "gm",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "QuestContainer",
+      "n": "questContainer",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "Quest",
+      "n": "currentQuest",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "Objective[]",
+      "n": "missions",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "List<ObjectiveProgress>",
+      "n": "objectiveProgress",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "NPC[]",
+      "n": "npc",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "Action",
+      "n": "OnLoadNewQuest",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "Action<int>",
+      "n": "OnCheckPresentOnQuest",
+      "v": null,
+      "off": "0x8"
+     },
+     {
+      "t": "bool",
+      "n": "initialized",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "NPC",
+      "n": "NpcConversation_HideNPC",
+      "v": null,
+      "off": "0x58"
+     }
+    ],
+    "methods": [
+     {
+      "n": "add_OnLoadNewQuest",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x2ab4e3c"
+     },
+     {
+      "n": "remove_OnLoadNewQuest",
+      "r": "void",
+      "p": "Action value",
+      "rva": "0x2ab4ef4"
+     },
+     {
+      "n": "Initialize",
+      "r": "void",
+      "p": "GameManager gameManager",
+      "rva": "0x2ab4fac"
+     },
+     {
+      "n": "LoadQuest",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab5034"
+     },
+     {
+      "n": "PrefetchRequiredCutscene",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab51bc"
+     },
+     {
+      "n": "DelaySendAchievement",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x2ab52b4"
+     },
+     {
+      "n": "LoadObjectives",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab5320"
+     },
+     {
+      "n": "UpdateQuestObjectState",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x2ab56cc"
+     },
+     {
+      "n": "Do_Objective",
+      "r": "void",
+      "p": "QuestType type",
+      "rva": "0x2ab5760"
+     },
+     {
+      "n": "Do_Objective",
+      "r": "void",
+      "p": "QuestType type, string objectID",
+      "rva": "0x2ab5768"
+     },
+     {
+      "n": "Do_TriggerPoint",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab57dc"
+     },
+     {
+      "n": "Do_EnemyKill",
+      "r": "void",
+      "p": "string objectId",
+      "rva": "0x2ab5820"
+     },
+     {
+      "n": "Do_Conversation",
+      "r": "void",
+      "p": "string npcId",
+      "rva": "0x2ab5a7c"
+     },
+     {
+      "n": "Do_CheckItem",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab5994"
+     },
+     {
+      "n": "HasSufficientQuestItem",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2ab5c64"
+     },
+     {
+      "n": "SetNpcToHide",
+      "r": "void",
+      "p": "NPC npc",
+      "rva": "0x2ab5d30"
+     },
+     {
+      "n": "IsObjectiveDone",
+      "r": "bool",
+      "p": "int index",
+      "rva": "0x2ab5d38"
+     },
+     {
+      "n": "CheckObjectives",
+      "r": "void",
+      "p": "int objectiveIndex, float progress",
+      "rva": "0x2ab5b30"
+     },
+     {
+      "n": "AllObjectivesComplete",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2ab5d9c"
+     },
+     {
+      "n": "HideNpc",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x2ab5ea4"
+     },
+     {
+      "n": "QuestClear",
+      "r": "IEnumerator<float>",
+      "p": "",
+      "rva": "0x2ab5e38"
+     },
+     {
+      "n": "LoadNextQuest",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab5f60"
+     },
+     {
+      "n": "ClearReward",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab5f90"
+     },
+     {
+      "n": "DisableInteraction",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab60f0"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2ab6118"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "QuestManager",
+    "method": "LoadQuest",
+    "return": "void",
+    "params": "",
+    "rva": "0x2ab5034"
+   },
+   {
+    "class": "QuestManager",
+    "method": "LoadObjectives",
+    "return": "void",
+    "params": "",
+    "rva": "0x2ab5320"
+   },
+   {
+    "class": "QuestManager",
+    "method": "Do_Objective",
+    "return": "void",
+    "params": "QuestType type",
+    "rva": "0x2ab5760"
+   },
+   {
+    "class": "QuestManager",
+    "method": "Do_Objective",
+    "return": "void",
+    "params": "QuestType type, string objectID",
+    "rva": "0x2ab5768"
+   },
+   {
+    "class": "QuestManager",
+    "method": "Do_EnemyKill",
+    "return": "void",
+    "params": "string objectId",
+    "rva": "0x2ab5820"
+   },
+   {
+    "class": "QuestManager",
+    "method": "Do_Conversation",
+    "return": "void",
+    "params": "string npcId",
+    "rva": "0x2ab5a7c"
+   },
+   {
+    "class": "QuestManager",
+    "method": "Do_CheckItem",
+    "return": "void",
+    "params": "",
+    "rva": "0x2ab5994"
+   },
+   {
+    "class": "QuestManager",
+    "method": "IsObjectiveDone",
+    "return": "bool",
+    "params": "int index",
+    "rva": "0x2ab5d38"
+   },
+   {
+    "class": "QuestManager",
+    "method": "CheckObjectives",
+    "return": "void",
+    "params": "int objectiveIndex, float progress",
+    "rva": "0x2ab5b30"
+   },
+   {
+    "class": "QuestManager",
+    "method": "AllObjectivesComplete",
+    "return": "bool",
+    "params": "",
+    "rva": "0x2ab5d9c"
+   },
+   {
+    "class": "QuestManager",
+    "method": "QuestClear",
+    "return": "IEnumerator<float>",
+    "params": "",
+    "rva": "0x2ab5e38"
+   },
+   {
+    "class": "QuestManager",
+    "method": "LoadNextQuest",
+    "return": "void",
+    "params": "",
+    "rva": "0x2ab5f60"
+   }
+  ]
+ },
+ "quest": {
+  "class": "Quest",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "ScriptableObject",
+    "tdi": 2235,
+    "fields": [
+     {
+      "t": "int",
+      "n": "QuestID",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "NavigationNode",
+      "n": "targetAreaNode",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "Objective[]",
+      "n": "objectives",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "QuestClearAction",
+      "n": "OnClear",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "string",
+      "n": "loadCutscene",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "AssetReference",
+      "n": "loadCutsceneRef",
+      "v": null,
+      "off": "0x40"
+     },
+     {
+      "t": "List<Reward>",
+      "n": "reward",
+      "v": null,
+      "off": "0x48"
+     },
+     {
+      "t": "bool",
+      "n": "disableTeleportation",
+      "v": null,
+      "off": "0x50"
+     },
+     {
+      "t": "int",
+      "n": "objectiveDialogueId",
+      "v": null,
+      "off": "0x54"
+     },
+     {
+      "t": "string",
+      "n": "Description",
+      "v": null,
+      "off": "0x58"
+     }
+    ],
+    "methods": [
+     {
+      "n": "get_Quest_Desc",
+      "r": "string",
+      "p": "",
+      "rva": "0x28dcc00"
+     },
+     {
+      "n": "set_Quest_Desc",
+      "r": "void",
+      "p": "string value",
+      "rva": "0x28dccc4"
+     },
+     {
+      "n": "GetQuestTitle",
+      "r": "string",
+      "p": "",
+      "rva": "0x28dccc8"
+     },
+     {
+      "n": "GetQuestDescription",
+      "r": "string",
+      "p": "",
+      "rva": "0x28dcd24"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x28dcd28"
+     }
+    ]
+   }
+  ]
+ },
+ "objective": {
+  "class": "Objective",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "struct",
+    "base": "",
+    "tdi": 2234,
+    "fields": [
+     {
+      "t": "QuestType",
+      "n": "questType",
+      "v": null,
+      "off": "0x0"
+     },
+     {
+      "t": "string",
+      "n": "objectId",
+      "v": null,
+      "off": "0x8"
+     },
+     {
+      "t": "Item",
+      "n": "objectItem",
+      "v": null,
+      "off": "0x10"
+     },
+     {
+      "t": "EnemyReference",
+      "n": "enemy",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "int",
+      "n": "requiredQuantity",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "EnemyFamily",
+      "n": "family",
+      "v": null,
+      "off": "0x24"
+     },
+     {
+      "t": "EnemyClass",
+      "n": "enemyClass",
+      "v": null,
+      "off": "0x28"
+     }
+    ],
+    "methods": [
+     {
+      "n": "get_Qty",
+      "r": "int",
+      "p": "",
+      "rva": "0x28dcbd4"
+     }
+    ]
+   }
+  ]
+ },
+ "marker_node": {
+  "class": "QuestMarkerNode",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "MonoBehaviour, IEnumerator<float>",
+    "tdi": 156,
+    "fields": [
+     {
+      "t": "GameManager",
+      "n": "gm",
+      "v": null,
+      "off": "0x20"
+     }
+    ],
+    "methods": [
+     {
+      "n": "Start",
+      "r": "void",
+      "p": "",
+      "rva": "0x25c9f5c"
+     },
+     {
+      "n": "CheckPresent",
+      "r": "void",
+      "p": "",
+      "rva": "0x25c9fc0"
+     },
+     {
+      "n": "Deselected",
+      "r": "void",
+      "p": "",
+      "rva": "0x25c9fc4"
+     },
+     {
+      "n": "GetTeleportationPortalIndex",
+      "r": "int",
+      "p": "",
+      "rva": "0x25c9fc8"
+     },
+     {
+      "n": "GetTeleportationTargetScene",
+      "r": "string",
+      "p": "",
+      "rva": "0x25c9fd0"
+     },
+     {
+      "n": "GetTeleportationTargetNode",
+      "r": "NavigationNode",
+      "p": "",
+      "rva": "0x25ca010"
+     },
+     {
+      "n": "Selected",
+      "r": "void",
+      "p": "",
+      "rva": "0x25ca018"
+     },
+     {
+      "n": "IInteractableNode.GetType",
+      "r": "WorldMapNodeType",
+      "p": "",
+      "rva": "0x25ca0c0"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x25ca0c8"
+     },
+     {
+      "n": "IInteractableNode.get_transform",
+      "r": "Transform",
+      "p": "",
+      "rva": "0x25ca0d0"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "QuestMarkerNode",
+    "method": "CheckPresent",
+    "return": "void",
+    "params": "",
+    "rva": "0x25c9fc0"
+   },
+   {
+    "class": "QuestMarkerNode",
+    "method": "Deselected",
+    "return": "void",
+    "params": "",
+    "rva": "0x25c9fc4"
+   },
+   {
+    "class": "QuestMarkerNode",
+    "method": "GetTeleportationPortalIndex",
+    "return": "int",
+    "params": "",
+    "rva": "0x25c9fc8"
+   },
+   {
+    "class": "QuestMarkerNode",
+    "method": "GetTeleportationTargetScene",
+    "return": "string",
+    "params": "",
+    "rva": "0x25c9fd0"
+   },
+   {
+    "class": "QuestMarkerNode",
+    "method": "GetTeleportationTargetNode",
+    "return": "NavigationNode",
+    "params": "",
+    "rva": "0x25ca010"
+   },
+   {
+    "class": "QuestMarkerNode",
+    "method": "Selected",
+    "return": "void",
+    "params": "",
+    "rva": "0x25ca018"
+   }
+  ]
+ },
+ "navigation": {
+  "class": "NavigationDatabase",
+  "class_full": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "ScriptableObject",
+    "tdi": 630,
+    "fields": [
+     {
+      "t": "List<NavigationNode>",
+      "n": "nodes",
+      "v": null,
+      "off": "0x18"
+     }
+    ],
+    "methods": [
+     {
+      "n": "GetNode",
+      "r": "NavigationNode",
+      "p": "string scene",
+      "rva": "0x2bdcbe8"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2bdccd4"
+     }
+    ]
+   }
+  ],
+  "node_class": [
+   {
+    "ns": "",
+    "kind": "class",
+    "base": "ScriptableObject",
+    "tdi": 632,
+    "fields": [
+     {
+      "t": "string",
+      "n": "globalName",
+      "v": null,
+      "off": "0x18"
+     },
+     {
+      "t": "AssetReference",
+      "n": "sceneRef",
+      "v": null,
+      "off": "0x20"
+     },
+     {
+      "t": "string",
+      "n": "sceneName",
+      "v": null,
+      "off": "0x28"
+     },
+     {
+      "t": "string",
+      "n": "areaName",
+      "v": null,
+      "off": "0x30"
+     },
+     {
+      "t": "List<NavigationNode>",
+      "n": "connectedNodes",
+      "v": null,
+      "off": "0x38"
+     },
+     {
+      "t": "Texture",
+      "n": "pieceMapTexture",
+      "v": null,
+      "off": "0x40"
+     }
+    ],
+    "methods": [
+     {
+      "n": "get_Editor_Item_Name",
+      "r": "string",
+      "p": "",
+      "rva": "0x2bdcd64"
+     },
+     {
+      "n": "set_Editor_Item_Name",
+      "r": "void",
+      "p": "string value",
+      "rva": "0x2bdcf4c"
+     },
+     {
+      "n": "AreaName",
+      "r": "string",
+      "p": "",
+      "rva": "0x2bdcddc"
+     },
+     {
+      "n": "get_SceneReference",
+      "r": "AssetReference",
+      "p": "",
+      "rva": "0x2bdcf50"
+     },
+     {
+      "n": "get_SceneName",
+      "r": "string",
+      "p": "",
+      "rva": "0x2bdcd2c"
+     },
+     {
+      "n": "get_HasSceneReference",
+      "r": "bool",
+      "p": "",
+      "rva": "0x2bdcf58"
+     },
+     {
+      "n": ".ctor",
+      "r": "void",
+      "p": "",
+      "rva": "0x2bdcf74"
+     }
+    ]
+   }
+  ]
+ }
+}

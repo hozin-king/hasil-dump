@@ -1,0 +1,169 @@
+{
+ "feature": "Game Speed",
+ "notes": "UnityEngine.Time.set_timeScale(float) is the standard game-speed primitive. Hook or call it directly (value 1.0 = normal, 2.0 = 2x, 0.5 = half speed). Some games clamp it; if so, hook the setter and force the value, or patch the clamp. Note: timeScale also affects UI animations and timers.",
+ "time": {
+  "class": "Time",
+  "class_full": [
+   {
+    "ns": "UnityEngine",
+    "kind": "class",
+    "base": "",
+    "tdi": 12180,
+    "fields": [],
+    "methods": [
+     {
+      "n": "get_time",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd80b8"
+     },
+     {
+      "n": "get_timeAsDouble",
+      "r": "double",
+      "p": "",
+      "rva": "0x4fd80e0"
+     },
+     {
+      "n": "get_timeAsRational",
+      "r": "RationalTime",
+      "p": "",
+      "rva": "0x4fd8108"
+     },
+     {
+      "n": "get_timeSinceLevelLoad",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd8188"
+     },
+     {
+      "n": "get_deltaTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd81b0"
+     },
+     {
+      "n": "get_fixedTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd81d8"
+     },
+     {
+      "n": "get_unscaledTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd8200"
+     },
+     {
+      "n": "get_unscaledDeltaTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd8228"
+     },
+     {
+      "n": "get_fixedDeltaTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd8250"
+     },
+     {
+      "n": "get_maximumDeltaTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd8278"
+     },
+     {
+      "n": "get_smoothDeltaTime",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd82a0"
+     },
+     {
+      "n": "get_timeScale",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd82c8"
+     },
+     {
+      "n": "set_timeScale",
+      "r": "void",
+      "p": "float value",
+      "rva": "0x4fd82f0"
+     },
+     {
+      "n": "get_frameCount",
+      "r": "int",
+      "p": "",
+      "rva": "0x4fd8328"
+     },
+     {
+      "n": "get_realtimeSinceStartup",
+      "r": "float",
+      "p": "",
+      "rva": "0x4fd5564"
+     },
+     {
+      "n": "get_realtimeSinceStartupAsDouble",
+      "r": "double",
+      "p": "",
+      "rva": "0x4fd8350"
+     },
+     {
+      "n": "set_captureDeltaTime",
+      "r": "void",
+      "p": "float value",
+      "rva": "0x4fd8378"
+     },
+     {
+      "n": "set_captureFramerate",
+      "r": "void",
+      "p": "int value",
+      "rva": "0x4fd83b0"
+     },
+     {
+      "n": "get_timeAsRational_Injected",
+      "r": "void",
+      "p": "out RationalTime ret",
+      "rva": "0x4fd814c"
+     }
+    ]
+   }
+  ],
+  "key_methods": [
+   {
+    "class": "Time",
+    "method": "get_deltaTime",
+    "return": "float",
+    "params": "",
+    "rva": "0x4fd81b0"
+   },
+   {
+    "class": "Time",
+    "method": "get_fixedDeltaTime",
+    "return": "float",
+    "params": "",
+    "rva": "0x4fd8250"
+   },
+   {
+    "class": "Time",
+    "method": "get_timeScale",
+    "return": "float",
+    "params": "",
+    "rva": "0x4fd82c8"
+   },
+   {
+    "class": "Time",
+    "method": "set_timeScale",
+    "return": "void",
+    "params": "float value",
+    "rva": "0x4fd82f0"
+   },
+   {
+    "class": "Time",
+    "method": "get_frameCount",
+    "return": "int",
+    "params": "",
+    "rva": "0x4fd8328"
+   }
+  ]
+ }
+}
