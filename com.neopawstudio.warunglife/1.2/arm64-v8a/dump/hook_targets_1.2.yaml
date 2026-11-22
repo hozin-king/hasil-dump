@@ -1,0 +1,322 @@
+# Hook targets — Warung Life Simulator 1.2 (versionCode 49)
+# package: com.neopawstudio.warunglife
+# engine: Godot 4.7.2.stable.official (BUKAN Unity — TIDAK ADA IL2CPP/Mono)
+# libgodot_android.so: 71.114.944 B, ELF64 ARM aarch64, STRIPPED,
+#   BuildID sha1 270121fef88100c19643517c328b5868e01d345c
+#
+# CARA BACA FILE INI (PENTING — beda dari hook_targets IL2CPP):
+# Game ini TIDAK punya method native bernama seperti IL2CPP. Logika game hidup di
+# GDScript bytecode (.gdc) yang di-load engine saat runtime. Karena itu target
+# dibagi 3 lapis:
+#   A. FILE TARGETS — permukaan mod UTAMA & terbukti: save JSON + config.
+#      Root bisa baca/tulis langsung; TIDAK perlu inject .so sama sekali.
+#   B. SCRIPT TARGETS — fungsi GDScript (nama file + nomor baris dari dump-full/).
+#      Dipakai untuk (1) memahami logika sebelum edit file, (2) pendekatan
+#      patch-script masa depan (ganti .gdc di asset pack — BELUM dicoba,
+#      butuh verifikasi apakah engine menolak .gdc yang dimodifikasi).
+#   C. ENGINE ANCHORS — kandidat hook native di libgodot_android.so.
+#      .so STRIPPED (tanpa simbol) -> TIDAK ADA RVA/pola byte yang ter-resolve
+#      di tahap ini. Yang dicatat hanya STRING ANCHOR yang terbukti ada di .so,
+#      sebagai titik awal pencarian pola (butuh Ghidra/IDA — TIDAK tersedia di VM).
+#      JANGAN klaim target lapis C sudah siap dipakai sebelum polanya ditemukan
+#      dan diuji unik 1x.
+#
+# version_gate: HANYA 1.2 / versionCode 49. Cek via cek_versi.gd KODE_BUILD_ANDROID=49
+#   dan remote versi.json (min_kode). Build lain = TOLAK (fail-closed).
+# fail_closed: true — setiap target yang tidak ketemu = fitur NONAKTIF, bukan crash.
+# status_json: injector WAJIB menulis status per-target (ok/nama/pola/beda/gagal)
+#   mengikuti pola HSW/EC2, supaya diagnosis POCO bisa dibaca tanpa logcat.
+
+meta:
+  game: Warung Life Simulator
+  package: com.neopawstudio.warunglife
+  version: "1.2"
+  version_code: 49
+  engine: Godot 4.7.2.stable.official
+  engine_lib: libgodot_android.so
+  engine_lib_sha1_buildid: 270121fef88100c19643517c328b5868e01d345c
+  engine_lib_size: 71114944
+  dump_tool: GDRE Tools v2.8.0-beta.2 --bytecode=4.5.0 (bytecode v101)
+  dump_dir: dump-full/
+  version_gate: "1.2/code 49 only"
+  fail_closed: true
+
+# ---------------------------------------------------------------------------
+# LAPIS A — FILE TARGETS (mod surface utama, TERBUKTI dari dump)
+# user:// di Android = /data/data/com.neopawstudio.warunglife/files/
+# Save = JSON polos, TANPA enkripsi, TANPA checksum/hash. Load hanya
+# JSON.parse_string + cek dict tidak kosong (game_state.gd _baca_slot, ~3503).
+# Tulis atomik via .tmp + .bak (game_state.gd _tulis_slot_aman, ~3461):
+#   tulis <file>.tmp -> cek ukuran -> rename lama ke .bak -> rename .tmp ke final.
+# Injector yang mengedit save WAJIB meniru pola ini (atau edit saat game mati).
+# ---------------------------------------------------------------------------
+file_targets:
+  - id: save_slot
+    path_android: /data/data/com.neopawstudio.warunglife/files/simpanan_N.json
+    path_godot: user://simpanan_N.json
+    slots: 6
+    slot_range: 1..6
+    format: JSON polos (JSON.stringify dengan tab), tanpa enkripsi, tanpa hash
+    write_pattern: atomic tmp + .bak rotation
+    source: dump-full/scripts/game_state.gd (simpan ~3343, _tulis_slot_aman ~3461, _baca_slot ~3503, file_slot ~3259)
+    keys:
+      uang: {type: int, default: 630000, desc: "Uang tunai Rp (satu-satunya mata uang gameplay)"}
+      energi: {type: float, default: 100.0, range: "0..100", desc: "Energi Pak Misran"}
+      hari: {type: int, default: 1, desc: "Hari ke-N dalam game"}
+      menit: {type: float, desc: "Menit dalam hari (420 = 07:00)"}
+      tingkat: {type: int, default: 0, desc: "Level warung 0-based (tampil = tingkat+1); maks 10 (L11 Coming Soon)"}
+      progres: {type: dict, keys: [pelanggan, barang, omzet, khusus], desc: "Progres tugas level berjalan"}
+      stok: {type: dict, desc: "Stok per barang id, maks 100 per barang (MAKS_STOK_BARANG)"}
+      saldo_layanan: {type: int, default: 50000, desc: "Saldo layanan (top-up/data/token)"}
+      saldo_digital: {type: int, default: 0, desc: "Saldo digital dari bayar QRIS"}
+      reputasi: {type: float, default: 0.0, desc: "Reputasi (bintang dari reputasi)"}
+      upgrade_dimiliki: {type: array, desc: "ID upgrade yang dimiliki (12 upgrade, lihat data/upgrade.json)"}
+      barang_terbuka: {type: array, desc: "ID barang yang terbuka (37 barang)"}
+      harga_jual_khusus: {type: dict, desc: "Harga jual custom per barang"}
+      tunggakan_sewa: {type: int, desc: "Tunggakan sewa kios"}
+      kios_milik: {type: bool, desc: "True bila kios sudah dibeli (bebas sewa)"}
+      motor_cicil: {type: dict, desc: "Status cicilan motor (DP 2jt, tenor 10)"}
+      motor_disita: {type: bool, desc: "True bila motor disita matel"}
+      motor_baru: {type: bool, desc: "True bila motor baru (wishlist 12jt) dibeli"}
+      rumah_renovasi: {type: bool, desc: "True bila rumah baru (wishlist 18jt) dibeli"}
+      hape_mewah: {type: bool, desc: "True bila HP mewah (wishlist 6jt) dibeli"}
+      hutang: {type: array, desc: "Daftar utang warga (buku hutang)"}
+      ngojol: {type: dict, desc: "Status ojek online hari itu"}
+      istirahat_hari: {type: dict, desc: "Jejak istirahat/ngopi/makan per hari (batas 1x/hari)"}
+      iklan_upgrade: {type: dict, desc: "Jejak iklan yang sudah ditonton"}
+      bab: {type: int, desc: "Bab cerita berjalan"}
+      misi_status: {type: string, desc: "Status misi cerita"}
+      barang_terbuka: {type: array, desc: "Barang yang terbuka"}
+      cerita_tamat: {type: bool, desc: "True bila cerita tamat"}
+      zakat_dibayar: {type: bool, desc: "Zakat sudah dibayar"}
+      transaksi: {type: array, max: 80, desc: "Riwayat transaksi (maks 80)"}
+      ulasan: {type: array, max: 60, desc: "Riwayat ulasan (maks 60)"}
+      chat: {type: dict, desc: "Chat WhatsApp dalam game"}
+      keakraban: {type: dict, desc: "Level keakraban per warga"}
+      hasil_alam: {type: dict, desc: "Hasil alam (mancing/petik)"}
+      kebun: {type: dict, desc: "Status kebun"}
+      promo_dipakai: {type: dict, desc: "Kode promo yang sudah dipakai"}
+    notes:
+      - "Edit uang/energi/stok/tingkat di file ini = efek langsung saat load berikutnya."
+      - "TIDAK ADA validasi server atas isi save saat load lokal (load murni client-side)."
+      - "Cloud backup (cadangan_simpan RPC) mengirim paket ini apa adanya (base64+gzip, tanpa enkripsi) — server menyimpan, validasi isi TIDAK TERBUKTI."
+
+  - id: pengaturan
+    path_android: /data/data/com.neopawstudio.warunglife/files/pengaturan.cfg
+    path_godot: user://pengaturan.cfg
+    format: ConfigFile Godot (INI-like, section/key)
+    source: dump-full/scripts/game_state.gd (simpan_pengaturan ~4139, muat_pengaturan ~4194)
+    keys:
+      toko.tanpa_iklan: {type: bool, default: false, desc: "FLAG NO-ADS (IAP Rp29.000) — client-side; entitlement server juga dicatat per id_papan"}
+      toko.pendukung: {type: bool, default: false, desc: "True bila pernah donasi (produk dukung_*)"}
+      toko.kode_pendukung: {type: string, desc: "Kode pendukung milik pemain"}
+      toko.hp_pengembang: {type: bool, default: false, desc: "True = mode pengembang (Unity Ads test mode). Disetel HANYA via kode promo yang hash SHA-256-nya cocok (KODE_PENGEMBANG_HASH) — kode aslinya TIDAK ada di client"}
+      toko.tester: {type: bool, desc: "True bila ikut masa uji (progres dipertahankan saat rilis + baju tester)"}
+      toko.slot_terakhir: {type: int, desc: "Slot save terakhir dipakai"}
+    notes:
+      - "tanpa_iklan di sini HANYA flag lokal. cek_hak_bebas_iklan() (game_state ~9274) hanya bisa MENGAKTIFKAN (cek server bila flag masih false), TIDAK PERNAH mencabut flag yang sudah true."
+      - "Mengubah flag ini = no-ads lokal aktif. Entitlement server (id_papan) tetap tidak terdaftar — efeknya lokal saja (lihat AUDIT)."
+
+  - id: analitik_cfg
+    path_android: /data/data/com.neopawstudio.warunglife/files/analitik.cfg
+    path_godot: user://analitik.cfg
+    format: ConfigFile Godot
+    source: dump-full/scripts/analitik.gd (~51)
+    keys:
+      analitik.id: {type: string, desc: "ID perangkat acak 16-byte hex (dibuat lokal bila <16 karakter)"}
+      analitik.aktif: {type: bool, default: true, desc: "False = analitik mati (atur_aktif)"}
+      analitik.hari_ping: {type: string, desc: "Hari terakhir ping sesi"}
+    notes:
+      - "ID ini dipakai sebagai p_id di semua RPC analitik + kode promo (bukan id_papan)."
+
+  - id: analitik_antre
+    path_android: /data/data/com.neopawstudio.warunglife/files/analitik_antre.json
+    path_godot: user://analitik_antre.json
+    format: JSON array, maks 400 event
+    source: dump-full/scripts/analitik.gd (~273)
+    desc: "Antrean event analitik yang belum terkirim (kirim tiap 180 dtk, maks 60/kirim)"
+
+  - id: jejak_grafis
+    path_android: /data/data/com.neopawstudio.warunglife/files/jejak_grafis.txt
+    path_godot: user://jejak_grafis.txt
+    source: dump-full/scripts/game_state.gd (~311)
+    desc: "Log jejak grafis (dikirim sebagai laporan crash grafis via papan lapor_crash_grafis)"
+
+# ---------------------------------------------------------------------------
+# LAPIS B — SCRIPT TARGETS (GDScript, dari dump-full/)
+# Dipakai sebagai peta logika. TIDAK ADA alamat native — fungsi-fungsi ini
+# berjalan sebagai bytecode di dalam engine. Pendekatan native terhadapnya
+# (hook Variant call / ganti .gdc) BELUM DIBUKTIKAN — lihat lapis C.
+# Nomor baris mengacu ke file hasil decompile di dump-full/.
+# ---------------------------------------------------------------------------
+script_targets:
+  - id: gs_uang
+    file: scripts/game_state.gd
+    desc: "Variabel uang (int). Satu-satunya mata uang gameplay. Semua transaksi (jual/beli/upah/hadiah/denda) memutasi var ini."
+    symbol: "var uang"
+    line: 70
+    note: "Tidak ada fungsi tambah_uang terpusat — mutasi tersebar (jual ~2356, beli_stok ~2393, terima_qris ~2423, hadiah level ~3023). Edit file save (lapis A) lebih andal daripada hook."
+
+  - id: gs_energi
+    file: scripts/game_state.gd
+    desc: "Energi 0..100. Drain siang 0.039/mnt, malam 0.099/mnt, lari 0.42/dtk."
+    symbol: "var energi"
+    line: 948
+    consts: {ENERGI_PER_MENIT_SIANG: 0.039, ENERGI_PER_MENIT_MALAM: 0.099, ENERGI_LARI_PER_DETIK: 0.42, ENERGI_KOPI: 30.0, ENERGI_MAKAN: 30.0, ENERGI_MIN_BUKA: 20.0, MAKS_ISTIRAHAT_HARIAN: 1, MAKS_IKLAN_ENERGI: 1}
+    funcs: {_kurangi_energi: 953, istirahat: 1547, isi_energi_iklan: 1593, sisa_iklan_energi: 1580, lelah: 1487}
+
+  - id: gs_waktu
+    file: scripts/game_state.gd
+    desc: "Jam dalam game. JAM_MULAI 07:00, JAM_BUKA 09:00, boleh tutup 16:00, boleh tidur 21:00, malam 18:00, batas 26:00."
+    symbol: "var menit"
+    line: 69
+    consts: {JAM_MULAI: 420, JAM_BUKA: 540, JAM_BOLEH_TUTUP: 960, JAM_BOLEH_TIDUR: 1260, JAM_MALAM: 1080, JAM_BATAS: 1560}
+    funcs: {majukan_waktu: 906, mulai_hari_berikutnya: 878, tidur: 2058, _process: 2215}
+    note: "Kecepatan waktu: KECEPATAN lambat 1.04 / normal 1.52 / cepat 2.4 (line 48); pilihan via atur_kecepatan ~4038."
+
+  - id: gs_jual
+    file: scripts/game_state.gd
+    desc: "Jual barang ke pelanggan (tambah uang + omzet + catat pelanggan)."
+    symbol: "func jual(id)"
+    line: 2356
+    related: {beli_stok: 2393, harga_jual: 5711, harga_modal: 5716, ubah_harga_jual: 5730, terima_qris: 2423}
+
+  - id: gs_level
+    file: scripts/game_state.gd
+    desc: "Sistem level warung (10 level + L11 Coming Soon). Tugas: pelanggan/barang/omzet + khusus."
+    symbol: "var tingkat"
+    line: 146
+    funcs: {tugas_sekarang: 3154, _cek_tugas: 3158, hadiah_level: 3023, data_tingkat: 3143, target_inti: 3118, naik_level_tertunda: 182}
+
+  - id: gs_simpan_muat
+    file: scripts/game_state.gd
+    desc: "Save/load. Titik paling penting untuk mod file (lapis A)."
+    funcs: {simpan: 3343, muat: 3649, _tulis_slot_aman: 3461, _baca_slot: 3503, slot_rusak: 3522, file_slot: 3259, _cek_simpan_otomatis: 3415}
+    consts: {FILE_SIMPAN: "user://simpanan.json", JUMLAH_SLOT: 6, SELANG_SIMPAN_OTOMATIS: 45000}
+
+  - id: gs_iap
+    file: scripts/game_state.gd
+    desc: "Seluruh alur IAP Google Play Billing. PRODUK: tanpa_iklan Rp29.000; donasi dukung_esteh/nasipadang/game_45/game_100."
+    consts: {PRODUK_TANPA_IKLAN: tanpa_iklan, PRODUK_DUKUNGAN: "[dukung_esteh, dukung_nasipadang, dukung_game_45, dukung_game_100]", PRODUK_DUKUNGAN_BEBAS_IKLAN: "[dukung_game_45, dukung_game_100]", HARGA_TANPA_IKLAN: "Rp29.000"}
+    funcs: {_siapkan_billing: 8987, beli_tanpa_iklan: 9053, beli_dukungan: 9067, _mulai_beli: 9081, _proses_pembelian: 9381, _catat_beli_lunas: null, aktifkan_tanpa_iklan: null, cek_hak_bebas_iklan: 9274, _daftarkan_pendukung: null}
+    note: "Verifikasi pembelian server-side via Edge Function verifikasi-pembelian (papan_online.gd ~418). Flag lokal tanpa_iklan TIDAK SAMA dengan entitlement server."
+
+  - id: gs_promo
+    file: scripts/game_state.gd
+    desc: "Kode promo. Hash SHA-256 kode pengembang (KODE_PENGEMBANG_HASH) — kode aslinya TIDAK ada di client."
+    symbol: "KODE_PENGEMBANG_HASH"
+    line: 9933
+    funcs: {pakai_kode_promo: 9941, bersihkan_kode_promo: 9937}
+    note: "Hadiah kode promo: bebas_iklan / baju:<id> / (uang — alur else, tidak eksplisit di client). Validasi server via RPC pakai_kode_promo."
+
+  - id: gs_god
+    file: scripts/game_state.gd
+    desc: "Gerbang god-mode DEV (nonaktif di rilis: GOD_MODE=false + file god_mode.gd TIDAK ADA di asset pack)."
+    symbol: "const GOD_MODE"
+    line: 24
+    funcs: {god_aktif: 27}
+    note: "god_aktif() = GOD_MODE and ResourceLoader.exists(JALUR_GOD). Keduanya false di rilis ini. JANGAN jadikan target — file dev tidak ikut ter-export."
+
+  - id: gs_cloud
+    file: scripts/game_state.gd
+    desc: "Paket cloud/pindah HP: '1:' + base64(gzip(JSON seluruh slot + toko + lemari + promo)). TANPA enkripsi."
+    funcs: {_paket_pindah: 10034, _buka_paket_pindah: 10090, paket_cloud: 10061, buka_paket_cloud: 10065, cadangkan_lokal_sebelum_cloud: 10069}
+    consts: {FORMAT_PINDAH: 1}
+
+  - id: papan_rpc
+    file: scripts/papan_online.gd
+    desc: "Client server (Supabase). SEMUA kirim skor/like/lapor/backup/promo lewat sini, ditandatangani HMAC-SHA256 (RAHASIA)."
+    consts: {URL: "https://vfeihrxdwynivqcksxwl.supabase.co/rest/v1/rpc/", KUNCI_PUBLIK: "sb_publishable_bGjm_-NNAqleprvQoE3dLA_IVYxzKmr", RAHASIA: "HMAC key 48 hex — lihat REA report §anti-tamper (ada di client, bisa diekstrak)", URL_VERIFIKASI: "https://vfeihrxdwynivqcksxwl.supabase.co/functions/v1/verifikasi-pembelian"}
+    funcs: {_tanda: 701, _rpc: 709, kirim: 211, ambil: 253, cek_hak_bebas_iklan: 447, cek_bebas_iklan: 438, verifikasi_pembelian: 420, buat_kode_pendukung: 406, beri_jempol: 358, laporkan: 376, hapus: 399, pakai_kode_promo: 471, buat_kode_pindah: 478, ambil_kode_pindah: 484, kirim_foto: 514}
+    rpc_names: [kirim_skor5, ambil_papan2, ambil_warga_baik_hati, tandai_warga_baik_hati, beri_jempol, laporkan_nama, laporkan_nama2, hapus_skor, catat_hp_warung, buat_kode_pendukung, cek_bebas_iklan, cek_hak_bebas_iklan, cek_kode_pendukung, cek_kode_pendukung2, pakai_kode_promo, buat_kode_pindah, ambil_kode_pindah, atur_foto_profil, ambil_foto_papan, lapor_crash_grafis]
+    note: "kirim_skor5 menandatangani: id|nama|total|bulan|jumlah_bulan|bintang|level|hari|omzet|omzet_bulan|minggu|pembeli_minggu|omzet_minggu."
+
+  - id: analitik_rpc
+    file: scripts/analitik.gd
+    desc: "Analitik Supabase (event antrean lokal -> RPC catat_analitik tiap 180 dtk)."
+    consts: {URL: "https://vfeihrxdwynivqcksxwl.supabase.co/rest/v1/rpc/", MAKS_ANTRE: 400, SELANG_KIRIM: 180.0, MAKS_PER_KIRIM: 60}
+    funcs: {catat: 75, kirim: 121, _rpc: 245, hapus_data_server: 110, atur_aktif: 101}
+    rpc_names: [catat_analitik, hapus_analitik]
+
+  - id: iklan_unity
+    file: scripts/iklan_unity.gd
+    desc: "Unity Ads. Game ID Android 800425443; placement BP_Rewarded_Android / BP_Interstitial_Android."
+    consts: {GAME_ID_ANDROID: "800425443", GAME_ID_IOS: "800432061", IKLAN_UJI: false}
+    funcs: {siapkan: 50, _mulai_sdk: 88}
+    note: "Rewarded dipakai untuk: energi penuh (1x/hari), upah kerja 2x, tip minigame. Tanpa-iklan menonaktifkan pemutaran + memberi hadiah langsung (layar_kerja.gd ~183, bar_energi.gd ~195)."
+
+  - id: cek_versi
+    file: scripts/cek_versi.gd
+    desc: "Cek versi jarak jauh + update wajib. Remote JSON berisi min_kode + saklar jeda_server."
+    consts: {URL: "https://neopawstudio.github.io/versi.json", KODE_BUILD_ANDROID: 49, KODE_BUILD_IOS: 48, MASA_UJI: false}
+    funcs: {periksa: 64, kode_sekarang: 37, buka_play_store: 104}
+    note: "Bila kode build < min_kode remote -> layar 'Wajib update' (game tidak bisa lanjut tanpa update)."
+
+  - id: login_harian
+    file: scripts/login_harian.gd
+    desc: "Hadiah login harian. Hari ke-26 = bebas_iklan GRATIS (tanpa beli)."
+    consts: {UANG_HARIAN: 15000, HADIAH: "{4: 100000, 8: 150000, 12: 200000, 16: 250000, 20: 300000, 24: 350000, 26: bebas_iklan, 28: 400000, 30: baju}"}
+    funcs: {hadiah: 136, ambil: 161, cek: 203}
+
+  - id: cadangan
+    file: scripts/cadangan_warung.gd
+    desc: "Backup cloud otomatis (bila tidak tertaut akun). Mengirim paket_cloud() + sidik MD5 slot."
+    funcs: {kirim: 90, pulihkan: 190, lihat: 172, _sidik: 76, perangkat: 67}
+    rpc_names: [cadangan_simpan, cadangan_ambil, cadangan_cari]
+
+  - id: warung_scene
+    file: scripts/warung.gd
+    desc: "Scene utama warung (4.976 baris). Melayani pelanggan, rak, kasir, tugas, cerita."
+    consts: {PILIHAN_KECEPATAN: "[1, 5, 20]", BATAS_STOK_MENIPIS: 2, STOK_RAK_PENUH: 12}
+
+  - id: pelanggan
+    file: scripts/pelanggan.gd
+    desc: "Logika pelanggan (datang, pesan, sabar, bayar, pergi). Sabar dipengaruhi upgrade (kipas/bangku/TV)."
+
+  - id: rek_promo
+    file: rekam/rek_promo_neopaw.gd
+    desc: "Script DEV autopilot perekam video promo (dead code di rilis — tidak direferensikan scene mana pun). Menyetel demo state: tanpa_iklan=true, uang 120000, tingkat 3, reputasi 88, stok 40. Juga menyembunyikan node god_mode.gd saat rekam."
+    note: "BUKTI dev punya autopilot + god_mode internal. Bukan target mod — hanya referensi perilaku yang diinginkan dev."
+
+# ---------------------------------------------------------------------------
+# LAPIS C — ENGINE ANCHORS (libgodot_android.so, STRIPPED)
+# Status: BELUM TER-RESOLVE. String anchor terbukti ada di .so (jumlah hit
+# dari `strings`), tapi ALAMAT FUNGSI + POLA BYTE belum dicari (butuh
+# disassembly Ghidra/IDA — tidak tersedia di VM ini).
+# JANGAN jadikan lapis C sebagai janji fitur sebelum polanya ditemukan,
+# diverifikasi unik 1x di segmen RX, dan diuji di POCO.
+# ---------------------------------------------------------------------------
+engine_anchors:
+  lib: libgodot_android.so
+  stripped: true
+  note: "Godot 4.7.2 tidak mengekspor simbol engine (hanya JNI GodotLib + FreeType). Hook engine = pattern-scan dari anchor string di bawah, lalu xref ke fungsi."
+  anchors:
+    - {string: "FileAccess", hits: 35, use: "cari FileAccess::open / get_file_as_string — intersep baca/tulis save"}
+    - {string: "get_file_as_string", hits: 1, use: "kandidat kuat: fungsi pembaca file utuh (dipakai _baca_slot)"}
+    - {string: "store_string", hits: 1, use: "kandidat kuat: fungsi penulis string (dipakai _tulis_slot_aman)"}
+    - {string: "parse_string", hits: 1, use: "kandidat: JSON::parse_string — intersep hasil parse save (rewrite in-memory)"}
+    - {string: "Failed to open file", hits: 1, use: "anchor error FileAccess::open"}
+    - {string: "user://", hits: 5, use: "anchor path user:// (save/config)"}
+    - {string: "HTTPRequest", hits: 6, use: "cari HTTPRequest::_request — blokir/awasi RPC analitik & leaderboard"}
+    - {string: "get_unique_id", hits: 6, use: "cari OS::get_unique_id — dipakai fingerprint perangkat cadangan"}
+    - {string: "RandomNumberGenerator", hits: 2, use: "cari RNG — peluang pelanggan/pesanan (sulit, banyak pemakaian)"}
+    - {string: "Marshalls", hits: 2, use: "cari Marshalls::raw_to_base64 / base64_to_raw — paket cloud/pindah"}
+    - {string: "decompress_dynamic", hits: 2, use: "cari decompress — buka paket cloud/pindah"}
+    - {string: "Variant", hits: 403, use: "terlalu umum — JANGAN dipakai sebagai anchor"}
+  dynamic_symbols_total: 1594
+  dynamic_symbols_note: "Mayoritas FreeType (FT_*) + JNI GodotLib (Java_org_godotengine_godot_GodotLib_*). TIDAK ADA simbol engine Godot (godot::*) yang terekspos."
+
+# ---------------------------------------------------------------------------
+# ANTI-CHEAT / ANTI-TAMPER — ringkasan untuk desain fail-closed
+# (detail lengkap di REA-WARUNG-LIFE-SIMULATOR.md §anti-tamper)
+# ---------------------------------------------------------------------------
+anti_tamper_notes:
+  - "TIDAK ADA root detection di game (isRooted di DEX = string library AndroidX/Kotlin, bukan cek game)."
+  - "TIDAK ADA Play Integrity / SafetyNet / App Attest."
+  - "TIDAK ADA LVL (com.android.vending.licensing tidak ada); permission CHECK_LICENSE dideklarasi tapi tidak dipakai LVL."
+  - "TIDAK ADA obfuscation GDScript — .gdc ter-decompile penuh dengan GDRE (semua logika + kunci terlihat)."
+  - "Save lokal TANPA enkripsi/hash — edit file langsung bekerja (satu-satunya proteksi = .bak bila JSON rusak)."
+  - "Leaderboard DITANDATANGANI HMAC-SHA256 dengan kunci RAHASIA yang ADA DI CLIENT — bisa dipalsukan siapa pun yang men-decompile (tapi masuk kelompok DITOLAK)."
+  - "Pembelian IAP DIVERIFIKASI SERVER (Edge Function verifikasi-pembelian -> Google Play) — TIDAK bisa dipalsukan client-side."
+  - "Cek versi jarak jauh (versi.json min_kode) bisa memaksa update — version gate injector WAJIB 49."
+  - "Server bisa menonaktifkan kirim skor via saklar jeda_server (remote kill-switch)."

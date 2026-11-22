@@ -1,0 +1,1344 @@
+{
+ "stats": {
+  "game": "Warung Life Simulator",
+  "package": "com.neopawstudio.warunglife",
+  "version": "1.2",
+  "version_code": 49,
+  "engine": "Godot 4.7.2.stable.official",
+  "tool": "GDRE Tools v2.8.0-beta.2 (bruvzg/gdsdecomp, GDRETools fork)",
+  "bytecode": "4.5.0-stable (bytecode version 101, --bytecode=4.5.0)",
+  "decompiled_files": 132,
+  "total_lines": 59378,
+  "total_funcs": 2473,
+  "total_vars": 1549,
+  "total_consts": 1457,
+  "total_size_bytes": 2034536,
+  "notes": [
+   "3 export_plugin.gdc (GodotGoogleLogin, GodotGooglePlayBilling, GodotUnityAds) share basename; decompiled separately under addons/<name>/",
+   "assets/gaya_hud.gd ships as 0-byte stub; real script is scripts/gaya_hud.gdc (decompiled)",
+   "No .md files in dump-full (per task rule); reports live in workspace root rea-warung-life/"
+  ]
+ },
+ "files": [
+  {
+   "source": "addons/GodotGoogleLogin/export_plugin.gdc",
+   "dump": "addons/GodotGoogleLogin/export_plugin.gd",
+   "lines": 43,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 0,
+   "sha256": "c468f5e459d0ac026b6dfed6d2ff73ea49380f0a88827c176b54d274356a7a40",
+   "size": 1184
+  },
+  {
+   "source": "addons/GodotGooglePlayBilling/BillingClient.gdc",
+   "dump": "addons/GodotGooglePlayBilling/BillingClient.gd",
+   "lines": 156,
+   "funcs": 16,
+   "vars": 2,
+   "consts": 0,
+   "sha256": "f5914c8461052569015bc23bab4597cb2f73ba4cbe1e9c174925f24b48d8267b",
+   "size": 4831
+  },
+  {
+   "source": "addons/GodotGooglePlayBilling/export_plugin.gdc",
+   "dump": "addons/GodotGooglePlayBilling/export_plugin.gd",
+   "lines": 41,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 0,
+   "sha256": "f00851edeaf93b9f36d78606c08c77a64f04efaa585e32ae223be5c3efe5f5bb",
+   "size": 999
+  },
+  {
+   "source": "addons/GodotUnityAds/export_plugin.gdc",
+   "dump": "addons/GodotUnityAds/export_plugin.gd",
+   "lines": 38,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 0,
+   "sha256": "685d5c34831061c682687ba29d410b9512d03c52cbf418555a174211de75beba",
+   "size": 984
+  },
+  {
+   "source": "rekam/rek_promo_neopaw.gdc",
+   "dump": "rekam/rek_promo_neopaw.gd",
+   "lines": 364,
+   "funcs": 13,
+   "vars": 3,
+   "consts": 0,
+   "sha256": "b3862f6cb7c7ee243a267f8b5670463f9fffc1c6208effe5d95a2f846db9988f",
+   "size": 9401
+  },
+  {
+   "source": "scripts/adu_laris.gdc",
+   "dump": "scripts/adu_laris.gd",
+   "lines": 357,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 20,
+   "sha256": "43fd5c1fa1197e53efc7f37530b69346077d1a9cffea9216d1d4fa4c25aac4e7",
+   "size": 10510
+  },
+  {
+   "source": "scripts/akun_ajak.gdc",
+   "dump": "scripts/akun_ajak.gd",
+   "lines": 73,
+   "funcs": 3,
+   "vars": 0,
+   "consts": 1,
+   "sha256": "5b2147061eb1f7f20f7ffa43b6622db0588e9893d8752288f8fe620a037bc7a4",
+   "size": 2506
+  },
+  {
+   "source": "scripts/akun_online.gdc",
+   "dump": "scripts/akun_online.gd",
+   "lines": 719,
+   "funcs": 50,
+   "vars": 14,
+   "consts": 11,
+   "sha256": "5acc7dbd9d56b60a3acc3297f675e56ae24fc4920ce30b3b9c80b7bf966b2071",
+   "size": 19614
+  },
+  {
+   "source": "scripts/akun_tautan.gdc",
+   "dump": "scripts/akun_tautan.gd",
+   "lines": 650,
+   "funcs": 31,
+   "vars": 8,
+   "consts": 1,
+   "sha256": "314abe6e10ffdae3723b492d4bddd6b4d41a1eaccc3bd8e23c10e32985468fb0",
+   "size": 22270
+  },
+  {
+   "source": "scripts/analitik.gdc",
+   "dump": "scripts/analitik.gd",
+   "lines": 279,
+   "funcs": 19,
+   "vars": 13,
+   "consts": 12,
+   "sha256": "276d2dcd6ff9c79821e45f28d32093ae0fb7674ecb9529a081b42d4183b9117c",
+   "size": 7379
+  },
+  {
+   "source": "scripts/awas_kendaraan.gdc",
+   "dump": "scripts/awas_kendaraan.gd",
+   "lines": 63,
+   "funcs": 4,
+   "vars": 4,
+   "consts": 3,
+   "sha256": "9de493ae3d7d88ec852e69c4cbf746ad0f8bf602d4c08928ba6235c87057bac5",
+   "size": 2018
+  },
+  {
+   "source": "scripts/bagikan.gdc",
+   "dump": "scripts/bagikan.gd",
+   "lines": 91,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 3,
+   "sha256": "315ab7343ffb1f87e72fd9e24da0c11f060e835bc58db60eab83d88f6d726dbc",
+   "size": 3345
+  },
+  {
+   "source": "scripts/banjir.gdc",
+   "dump": "scripts/banjir.gd",
+   "lines": 201,
+   "funcs": 8,
+   "vars": 5,
+   "consts": 6,
+   "sha256": "642cfbc29727f6b342993c47f8a5d680dd77b9a645d7d018ef76071aed08a6d3",
+   "size": 6742
+  },
+  {
+   "source": "scripts/bar_energi.gdc",
+   "dump": "scripts/bar_energi.gd",
+   "lines": 220,
+   "funcs": 8,
+   "vars": 4,
+   "consts": 2,
+   "sha256": "49502da48d4d99f9d66e52155965b2dfc498ff68cc1a88ec98f2ad49285fff05",
+   "size": 8565
+  },
+  {
+   "source": "scripts/buku_hutang.gdc",
+   "dump": "scripts/buku_hutang.gd",
+   "lines": 296,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 13,
+   "sha256": "9097bca1875187b1337831713ebc00b3661bd64a79ec28775980f60483c779ef",
+   "size": 11312
+  },
+  {
+   "source": "scripts/bungkuk.gdc",
+   "dump": "scripts/bungkuk.gd",
+   "lines": 28,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 2,
+   "sha256": "07aa16dfae9ab90d82092f16fbd4fd4676b0df572eae3a21d65c0dcdc604ffd0",
+   "size": 593
+  },
+  {
+   "source": "scripts/cadangan_warung.gdc",
+   "dump": "scripts/cadangan_warung.gd",
+   "lines": 223,
+   "funcs": 13,
+   "vars": 6,
+   "consts": 3,
+   "sha256": "c8a56ab5deb9557fa5c647d14bbcdfe6a2f84f3679dee873b577401e76a4bc1e",
+   "size": 6812
+  },
+  {
+   "source": "scripts/cek_versi.gdc",
+   "dump": "scripts/cek_versi.gd",
+   "lines": 203,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 10,
+   "sha256": "a568ad8e91bb63110a100259524243a5520d4c7371fef74e9cf26541dc17c068",
+   "size": 6502
+  },
+  {
+   "source": "scripts/cerita_ui.gdc",
+   "dump": "scripts/cerita_ui.gd",
+   "lines": 775,
+   "funcs": 23,
+   "vars": 22,
+   "consts": 8,
+   "sha256": "65fb578a16b0ad088bf011bf5c8239da613068b508669b06921b297f0b5751e8",
+   "size": 27215
+  },
+  {
+   "source": "scripts/dialog_bawah.gdc",
+   "dump": "scripts/dialog_bawah.gd",
+   "lines": 398,
+   "funcs": 12,
+   "vars": 19,
+   "consts": 7,
+   "sha256": "391b925d7d67a0b817ceccf8d8dbd0b5ddc546d2cb5f552cf8a9f2f27afb29dd",
+   "size": 13127
+  },
+  {
+   "source": "scripts/dukungan.gdc",
+   "dump": "scripts/dukungan.gd",
+   "lines": 465,
+   "funcs": 14,
+   "vars": 3,
+   "consts": 14,
+   "sha256": "786a656303e145e066fa509ce3225c1b6968f9b1adc0743619810f51feb6034d",
+   "size": 19219
+  },
+  {
+   "source": "scripts/foto_profil.gdc",
+   "dump": "scripts/foto_profil.gd",
+   "lines": 229,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 3,
+   "sha256": "10db5eeeef0585e703cf8166089aae057c9b2fa07bcd64d6a3c04b17b4c09d24",
+   "size": 6930
+  },
+  {
+   "source": "scripts/game_state.gdc",
+   "dump": "scripts/game_state.gd",
+   "lines": 10971,
+   "funcs": 709,
+   "vars": 293,
+   "consts": 367,
+   "sha256": "d6a36dc2a3b7026bdbac1ba4db523c07e6945362f51786cd6763f5d31b171f50",
+   "size": 341330
+  },
+  {
+   "source": "scripts/ganti_nama_warung.gdc",
+   "dump": "scripts/ganti_nama_warung.gd",
+   "lines": 119,
+   "funcs": 3,
+   "vars": 4,
+   "consts": 1,
+   "sha256": "f9d06c3a9e64e9bc1ff685fc5e38c04555f174fd55249f92bfabaf67bd20f78a",
+   "size": 3905
+  },
+  {
+   "source": "scripts/gaya_hud.gdc",
+   "dump": "scripts/gaya_hud.gd",
+   "lines": 727,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 24,
+   "sha256": "55510cd6a9f8eb10e5436d5f0427026d8820fb92b18fbeeebda44c47dbeee5bb",
+   "size": 27154
+  },
+  {
+   "source": "scripts/grafik_laba.gdc",
+   "dump": "scripts/grafik_laba.gd",
+   "lines": 53,
+   "funcs": 2,
+   "vars": 2,
+   "consts": 4,
+   "sha256": "01f56f4f013cbea3a4503c17228080a6229fdfc39e7caf9d82b5e72c234bc130",
+   "size": 2225
+  },
+  {
+   "source": "scripts/grafik_riwayat.gdc",
+   "dump": "scripts/grafik_riwayat.gd",
+   "lines": 69,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 5,
+   "sha256": "2507fefe1bd5970110898de31467c6f9698e76741477e704b5d96ec9ea5600df",
+   "size": 2215
+  },
+  {
+   "source": "scripts/grosir_pasar.gdc",
+   "dump": "scripts/grosir_pasar.gd",
+   "lines": 191,
+   "funcs": 6,
+   "vars": 6,
+   "consts": 4,
+   "sha256": "7035d1620ee12e6d9e9abbd4fa4acfadb680b2e3d046c016dc9ed2e00e383442",
+   "size": 7205
+  },
+  {
+   "source": "scripts/hp/app_belanja.gdc",
+   "dump": "scripts/hp/app_belanja.gd",
+   "lines": 805,
+   "funcs": 34,
+   "vars": 43,
+   "consts": 8,
+   "sha256": "dd8c4980d0d31d77909516adaad4a91889fadb385826b831f3606ee9a11e1c95",
+   "size": 28603
+  },
+  {
+   "source": "scripts/hp/app_bukukas.gdc",
+   "dump": "scripts/hp/app_bukukas.gd",
+   "lines": 74,
+   "funcs": 2,
+   "vars": 4,
+   "consts": 3,
+   "sha256": "51cd31402447cab57644ec6bf0c0d146d27e796d26606fb2a89688de969b0829",
+   "size": 2770
+  },
+  {
+   "source": "scripts/hp/app_harga.gdc",
+   "dump": "scripts/hp/app_harga.gd",
+   "lines": 134,
+   "funcs": 5,
+   "vars": 6,
+   "consts": 2,
+   "sha256": "5e2059ace7ceb77ae7ac6c4550b5594ebd2244dc1c4db36a05c2de923a8072ff",
+   "size": 5001
+  },
+  {
+   "source": "scripts/hp/app_kalender.gdc",
+   "dump": "scripts/hp/app_kalender.gd",
+   "lines": 186,
+   "funcs": 5,
+   "vars": 5,
+   "consts": 8,
+   "sha256": "5228db24cde9180e32a04885f66cd816cc9fd3d6f0579d99958cbcf46bb3d455",
+   "size": 8187
+  },
+  {
+   "source": "scripts/hp/app_kalkulator.gdc",
+   "dump": "scripts/hp/app_kalkulator.gd",
+   "lines": 165,
+   "funcs": 6,
+   "vars": 8,
+   "consts": 3,
+   "sha256": "00390d20c3e64cad79cb9b4b386a312680671f7e307852b5bb20b2901943cbd6",
+   "size": 4164
+  },
+  {
+   "source": "scripts/hp/app_kontak.gdc",
+   "dump": "scripts/hp/app_kontak.gd",
+   "lines": 102,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 4,
+   "sha256": "d73f8d82f9b6a2d262b9b4ba17f925cdbd52468af1bc397ab493bd0def50fddd",
+   "size": 3785
+  },
+  {
+   "source": "scripts/hp/app_mbanking.gdc",
+   "dump": "scripts/hp/app_mbanking.gd",
+   "lines": 573,
+   "funcs": 16,
+   "vars": 34,
+   "consts": 9,
+   "sha256": "c5e51631ba7809a7446597d720233b31fd8a36f7d9a964eeab65143b8edd8a66",
+   "size": 23745
+  },
+  {
+   "source": "scripts/hp/app_misi.gdc",
+   "dump": "scripts/hp/app_misi.gd",
+   "lines": 267,
+   "funcs": 10,
+   "vars": 4,
+   "consts": 2,
+   "sha256": "af15239c496299fedef95e4547230a3760b2f21d113bbed100ff01a786acfdbd",
+   "size": 10718
+  },
+  {
+   "source": "scripts/hp/app_ojol.gdc",
+   "dump": "scripts/hp/app_ojol.gd",
+   "lines": 295,
+   "funcs": 12,
+   "vars": 2,
+   "consts": 10,
+   "sha256": "fc5697f7787e620ebc67cd99c9931297d4822f3d1d5a56595aa8d174a63ee427",
+   "size": 10697
+  },
+  {
+   "source": "scripts/hp/app_panduan.gdc",
+   "dump": "scripts/hp/app_panduan.gd",
+   "lines": 202,
+   "funcs": 4,
+   "vars": 2,
+   "consts": 2,
+   "sha256": "9fd627953fbc876ff1c097aca644243daa19b91fb8121eef2d65377825bc9ab3",
+   "size": 20866
+  },
+  {
+   "source": "scripts/hp/app_papan.gdc",
+   "dump": "scripts/hp/app_papan.gd",
+   "lines": 631,
+   "funcs": 25,
+   "vars": 6,
+   "consts": 19,
+   "sha256": "21c9812a57a953cf8d9b542987cd0a8a2950f3f5988115bcdc155a6344bdc24d",
+   "size": 23458
+  },
+  {
+   "source": "scripts/hp/app_peta.gdc",
+   "dump": "scripts/hp/app_peta.gd",
+   "lines": 257,
+   "funcs": 10,
+   "vars": 4,
+   "consts": 25,
+   "sha256": "a7f4c12d51ada4d05b7a7f11aa0bdbbe5861312f7504500eb77b22c7e4fa586b",
+   "size": 9953
+  },
+  {
+   "source": "scripts/hp/app_tas.gdc",
+   "dump": "scripts/hp/app_tas.gd",
+   "lines": 274,
+   "funcs": 10,
+   "vars": 6,
+   "consts": 12,
+   "sha256": "51f9e352b9a8f9052cd8f0065728516524cde4999e06e640492a52072c40082e",
+   "size": 10450
+  },
+  {
+   "source": "scripts/hp/app_ulasan.gdc",
+   "dump": "scripts/hp/app_ulasan.gd",
+   "lines": 84,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 4,
+   "sha256": "72252d232415a1559222e6daf254b2cccde2e6f1c6658b43e0a8ffcd8011e81b",
+   "size": 3156
+  },
+  {
+   "source": "scripts/hp/app_upgrade.gdc",
+   "dump": "scripts/hp/app_upgrade.gd",
+   "lines": 281,
+   "funcs": 9,
+   "vars": 11,
+   "consts": 4,
+   "sha256": "23c447d70172df592bc2b50d7a025f856d76ff7bace99ad812c55480f02d9e3e",
+   "size": 10764
+  },
+  {
+   "source": "scripts/hp/app_wasap.gdc",
+   "dump": "scripts/hp/app_wasap.gd",
+   "lines": 465,
+   "funcs": 19,
+   "vars": 19,
+   "consts": 7,
+   "sha256": "b61c7ea2707e647947fb5dbee127c9bc30c83884b89dfd19eb25f940fbb879d3",
+   "size": 16408
+  },
+  {
+   "source": "scripts/hp/app_wishlist.gdc",
+   "dump": "scripts/hp/app_wishlist.gd",
+   "lines": 170,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 4,
+   "sha256": "bd250533fff462bd380e32010cbed8ff187be71e0fc72a5fe3ecc3b0fb13b563",
+   "size": 8059
+  },
+  {
+   "source": "scripts/hp/bar_akrab.gdc",
+   "dump": "scripts/hp/bar_akrab.gd",
+   "lines": 52,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 3,
+   "sha256": "31caee2008f84186957274b1b48a3e806990ed45f6527b55038deff5968262b5",
+   "size": 2070
+  },
+  {
+   "source": "scripts/hp/gulir_sentuh.gdc",
+   "dump": "scripts/hp/gulir_sentuh.gd",
+   "lines": 91,
+   "funcs": 2,
+   "vars": 8,
+   "consts": 4,
+   "sha256": "1815f7c4545327187fdff469c7e7230f2af4104cb7e385a48e479a29a8dfce7b",
+   "size": 2422
+  },
+  {
+   "source": "scripts/hp/hp.gdc",
+   "dump": "scripts/hp/hp.gd",
+   "lines": 774,
+   "funcs": 21,
+   "vars": 40,
+   "consts": 10,
+   "sha256": "6c2607072fc532b2438efd2202293f10e03d04bf91f1f9760f32e0b19059639c",
+   "size": 26700
+  },
+  {
+   "source": "scripts/hp/hp_ui.gdc",
+   "dump": "scripts/hp/hp_ui.gd",
+   "lines": 155,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 6,
+   "sha256": "97e777fae9e3bc3d31932d630003f9f788129da496f1fda88ec218cc4b558f06",
+   "size": 4686
+  },
+  {
+   "source": "scripts/hp/ikon_keranjang.gdc",
+   "dump": "scripts/hp/ikon_keranjang.gd",
+   "lines": 48,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 2,
+   "sha256": "4aa0f4a55aaa4e62ec286405819ad34436a3e97edbaf914ae27238fe9aae9b22",
+   "size": 1748
+  },
+  {
+   "source": "scripts/hujan.gdc",
+   "dump": "scripts/hujan.gd",
+   "lines": 208,
+   "funcs": 3,
+   "vars": 7,
+   "consts": 1,
+   "sha256": "53096425026d9892ad5004787515862c3559c14184e1bc191db3227a3bedd660",
+   "size": 6350
+  },
+  {
+   "source": "scripts/iklan_contoh.gdc",
+   "dump": "scripts/iklan_contoh.gd",
+   "lines": 70,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 1,
+   "sha256": "5e0132a64824a734b7522bde2dd580f585e0af957d69e070d26d35c7edb0cee8",
+   "size": 2403
+  },
+  {
+   "source": "scripts/iklan_unity.gdc",
+   "dump": "scripts/iklan_unity.gd",
+   "lines": 266,
+   "funcs": 15,
+   "vars": 15,
+   "consts": 9,
+   "sha256": "df6a86fa89b6bd4829fc26a8544342ef104cf55b69f9ba094c4935d9476bae68",
+   "size": 7678
+  },
+  {
+   "source": "scripts/info_hadiah.gdc",
+   "dump": "scripts/info_hadiah.gd",
+   "lines": 53,
+   "funcs": 1,
+   "vars": 2,
+   "consts": 1,
+   "sha256": "90498f70f8ce5b9d459494bc3054dbd21d0f359f4c30d792d7eb1505f813f2a5",
+   "size": 1540
+  },
+  {
+   "source": "scripts/info_kode_pendukung.gdc",
+   "dump": "scripts/info_kode_pendukung.gd",
+   "lines": 73,
+   "funcs": 1,
+   "vars": 1,
+   "consts": 1,
+   "sha256": "8ea450f079b412205a0d7e676837c0af328109fb6debfa842c2737a9219f254b",
+   "size": 2517
+  },
+  {
+   "source": "scripts/info_misi.gdc",
+   "dump": "scripts/info_misi.gd",
+   "lines": 244,
+   "funcs": 12,
+   "vars": 13,
+   "consts": 4,
+   "sha256": "8bb7580fb0be654b7c0ac5abf5ee9b3b01225926631def370a0dbf38188a8f37",
+   "size": 7993
+  },
+  {
+   "source": "scripts/intro.gdc",
+   "dump": "scripts/intro.gd",
+   "lines": 145,
+   "funcs": 6,
+   "vars": 8,
+   "consts": 2,
+   "sha256": "94cc39c46a47cfcf504348901f476b71ab32eeef851670336b8a5fcde7598688",
+   "size": 4172
+  },
+  {
+   "source": "scripts/jajan_pasar.gdc",
+   "dump": "scripts/jajan_pasar.gd",
+   "lines": 148,
+   "funcs": 5,
+   "vars": 4,
+   "consts": 5,
+   "sha256": "c56b90a434c6cd9bcac9af8cf08d4860c0818c0cde365f06dcd6d24d4819e3e9",
+   "size": 5276
+  },
+  {
+   "source": "scripts/jejak_tutorial.gdc",
+   "dump": "scripts/jejak_tutorial.gd",
+   "lines": 40,
+   "funcs": 2,
+   "vars": 4,
+   "consts": 2,
+   "sha256": "67ba1e4f88c8daf74f2889de1ee62e61c33d0d433425b1f2d3416fcab97fcf6e",
+   "size": 1016
+  },
+  {
+   "source": "scripts/jelajah.gdc",
+   "dump": "scripts/jelajah.gd",
+   "lines": 6966,
+   "funcs": 242,
+   "vars": 118,
+   "consts": 125,
+   "sha256": "971a94d6cf2a91169ae49745490ca154e5457d9c7c16f4af1d23e0aab351b5ac",
+   "size": 232212
+  },
+  {
+   "source": "scripts/joystick.gdc",
+   "dump": "scripts/joystick.gd",
+   "lines": 129,
+   "funcs": 12,
+   "vars": 3,
+   "consts": 5,
+   "sha256": "6956c2aae7c63dc9c417101f1e0294e2257c2b7577956d652858500c9b66d5e5",
+   "size": 3385
+  },
+  {
+   "source": "scripts/jual_pasar.gdc",
+   "dump": "scripts/jual_pasar.gd",
+   "lines": 197,
+   "funcs": 7,
+   "vars": 4,
+   "consts": 4,
+   "sha256": "4506351b53a376674b5c74f7d7c6f9bd9ae845abdcd2c6a0bddb9cba28258eb3",
+   "size": 7069
+  },
+  {
+   "source": "scripts/judul_level.gdc",
+   "dump": "scripts/judul_level.gd",
+   "lines": 74,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 5,
+   "sha256": "b26575c24d5657664bb16f0b5a02b4e620199fdcbe43e7052730d0ec3abd43ca",
+   "size": 2254
+  },
+  {
+   "source": "scripts/kaki_tidur.gdc",
+   "dump": "scripts/kaki_tidur.gd",
+   "lines": 31,
+   "funcs": 1,
+   "vars": 1,
+   "consts": 1,
+   "sha256": "b86510b4e698f6aa6f64f003dda98aeb3a875699ee5179cbe05a940b2c67a211",
+   "size": 1186
+  },
+  {
+   "source": "scripts/karakter3d.gdc",
+   "dump": "scripts/karakter3d.gd",
+   "lines": 1128,
+   "funcs": 51,
+   "vars": 55,
+   "consts": 23,
+   "sha256": "c93772a810d50cc2ad4e9f52c5ca5914ff64cf60796b4417e76fb2435cf41c47",
+   "size": 34429
+  },
+  {
+   "source": "scripts/kartu_bagikan.gdc",
+   "dump": "scripts/kartu_bagikan.gd",
+   "lines": 168,
+   "funcs": 5,
+   "vars": 0,
+   "consts": 6,
+   "sha256": "84bfb4400bb4a8b1069bfc9273e7c7ad03a22b3423972796207ebf25abc3417b",
+   "size": 5951
+  },
+  {
+   "source": "scripts/kendaraan.gdc",
+   "dump": "scripts/kendaraan.gd",
+   "lines": 296,
+   "funcs": 11,
+   "vars": 13,
+   "consts": 3,
+   "sha256": "8f1a14c55049c71d4faaec41f74353cd14836d249e8035a689ccd881e0c93583",
+   "size": 8532
+  },
+  {
+   "source": "scripts/kode_promo.gdc",
+   "dump": "scripts/kode_promo.gd",
+   "lines": 109,
+   "funcs": 3,
+   "vars": 3,
+   "consts": 1,
+   "sha256": "743b888629d33be69aeeff541219f0ed80b47b90b9dafbd4e29ed3c1200f5ead",
+   "size": 3447
+  },
+  {
+   "source": "scripts/konfirmasi_bayar.gdc",
+   "dump": "scripts/konfirmasi_bayar.gd",
+   "lines": 119,
+   "funcs": 4,
+   "vars": 2,
+   "consts": 2,
+   "sha256": "dfb7f3ffae90d5ff4200912f716a6e6f33602878d6493fbba5c6e10a9a0975ed",
+   "size": 3703
+  },
+  {
+   "source": "scripts/kresek.gdc",
+   "dump": "scripts/kresek.gd",
+   "lines": 376,
+   "funcs": 16,
+   "vars": 16,
+   "consts": 17,
+   "sha256": "3cc8b07831eac926e22f86a59bb50f881f704c57553429bf646d4faae758ed9e",
+   "size": 11865
+  },
+  {
+   "source": "scripts/kucing_hidup.gdc",
+   "dump": "scripts/kucing_hidup.gd",
+   "lines": 281,
+   "funcs": 9,
+   "vars": 22,
+   "consts": 16,
+   "sha256": "b7c6af0cca86bb603df88f9d20b952b605bdbb2efe1baf43778b94be2c89aafa",
+   "size": 9234
+  },
+  {
+   "source": "scripts/layanan.gdc",
+   "dump": "scripts/layanan.gd",
+   "lines": 2371,
+   "funcs": 82,
+   "vars": 56,
+   "consts": 54,
+   "sha256": "08bca759103375c039ebb8ade1168574da97c992a4ec3d213b03a748ee49d500",
+   "size": 79964
+  },
+  {
+   "source": "scripts/layar_kerja.gdc",
+   "dump": "scripts/layar_kerja.gd",
+   "lines": 220,
+   "funcs": 5,
+   "vars": 10,
+   "consts": 4,
+   "sha256": "2372e2a1f93f6224c5e760684a19b5418884ade5513ea9941bd300eac9f83edb",
+   "size": 6855
+  },
+  {
+   "source": "scripts/lemari_baju.gdc",
+   "dump": "scripts/lemari_baju.gd",
+   "lines": 266,
+   "funcs": 9,
+   "vars": 2,
+   "consts": 12,
+   "sha256": "2cd222e09472b6a257885a389d2d3e70d92a08e2123e053e76942ec59367656f",
+   "size": 9775
+  },
+  {
+   "source": "scripts/lencana_peringkat.gdc",
+   "dump": "scripts/lencana_peringkat.gd",
+   "lines": 62,
+   "funcs": 3,
+   "vars": 3,
+   "consts": 2,
+   "sha256": "c267ac9b8f4c650ad3ab80ea329d971ae2d6ae07c6eca77b7fdab4227800c065",
+   "size": 1829
+  },
+  {
+   "source": "scripts/lengan_bawa.gdc",
+   "dump": "scripts/lengan_bawa.gd",
+   "lines": 135,
+   "funcs": 4,
+   "vars": 7,
+   "consts": 6,
+   "sha256": "db3cd6346ac0557e30517d7375c905587d586dec1053cabfef47e6f4ad593670",
+   "size": 5082
+  },
+  {
+   "source": "scripts/lengan_payung.gdc",
+   "dump": "scripts/lengan_payung.gd",
+   "lines": 258,
+   "funcs": 11,
+   "vars": 9,
+   "consts": 15,
+   "sha256": "0e1b2d75d2b21e1f1bd753beaf258d2caff5259599a050d28609094bd4aede1c",
+   "size": 8128
+  },
+  {
+   "source": "scripts/lengan_peluk.gdc",
+   "dump": "scripts/lengan_peluk.gd",
+   "lines": 50,
+   "funcs": 1,
+   "vars": 0,
+   "consts": 6,
+   "sha256": "3d4d517a874c118b347e334392b8932216775b77f206085c504428d7d51bc829",
+   "size": 1409
+  },
+  {
+   "source": "scripts/lengan_salim.gdc",
+   "dump": "scripts/lengan_salim.gd",
+   "lines": 43,
+   "funcs": 1,
+   "vars": 1,
+   "consts": 5,
+   "sha256": "05d6f86b108d9a74b7e731e3a29e8cdcea667cf731f41ccba6121d408a696564",
+   "size": 1297
+  },
+  {
+   "source": "scripts/login_harian.gdc",
+   "dump": "scripts/login_harian.gd",
+   "lines": 285,
+   "funcs": 14,
+   "vars": 9,
+   "consts": 10,
+   "sha256": "a5b8c0a8d1bd1f7cbe8610338e87c256fbd18f9d95b1a7b0bd429d785eae9bf0",
+   "size": 7809
+  },
+  {
+   "source": "scripts/login_harian_ui.gdc",
+   "dump": "scripts/login_harian_ui.gd",
+   "lines": 272,
+   "funcs": 7,
+   "vars": 8,
+   "consts": 9,
+   "sha256": "5170e9bc2696baea12f48c208a47dec0777fcb00f0192d404abad822d12ed589",
+   "size": 10352
+  },
+  {
+   "source": "scripts/main_menu.gdc",
+   "dump": "scripts/main_menu.gd",
+   "lines": 1398,
+   "funcs": 41,
+   "vars": 9,
+   "consts": 13,
+   "sha256": "b4f906cff2ee9c42985bdf12f9918b007b2efce1d71dce5a0bacc41155ee42d8",
+   "size": 49525
+  },
+  {
+   "source": "scripts/minigame/mg_adu_laris.gdc",
+   "dump": "scripts/minigame/mg_adu_laris.gd",
+   "lines": 945,
+   "funcs": 33,
+   "vars": 30,
+   "consts": 11,
+   "sha256": "b79547eeeabe96c9c58dd808c6d8744b8857a80b71f48a8d202c83e82ebea728",
+   "size": 34420
+  },
+  {
+   "source": "scripts/minigame/mg_bersih.gdc",
+   "dump": "scripts/minigame/mg_bersih.gd",
+   "lines": 269,
+   "funcs": 13,
+   "vars": 7,
+   "consts": 6,
+   "sha256": "9ad9746d4236d5a887b225c59690b543cb3316f781cbab8ec806fde9a207e8f9",
+   "size": 9996
+  },
+  {
+   "source": "scripts/minigame/mg_bungkus.gdc",
+   "dump": "scripts/minigame/mg_bungkus.gd",
+   "lines": 184,
+   "funcs": 11,
+   "vars": 5,
+   "consts": 9,
+   "sha256": "58e9d84e400daf228e870fd0288306c512d7d6dafbb64d1cb34d68a342102cd5",
+   "size": 7476
+  },
+  {
+   "source": "scripts/minigame/mg_cocok.gdc",
+   "dump": "scripts/minigame/mg_cocok.gd",
+   "lines": 255,
+   "funcs": 11,
+   "vars": 7,
+   "consts": 3,
+   "sha256": "1ea1ea6a3e8bd91db45e40ea4f7c24abceb61f66a5562fa5f8ec5e00ce58c2c8",
+   "size": 12759
+  },
+  {
+   "source": "scripts/minigame/mg_dasar.gdc",
+   "dump": "scripts/minigame/mg_dasar.gd",
+   "lines": 797,
+   "funcs": 45,
+   "vars": 31,
+   "consts": 9,
+   "sha256": "0c6802ce5a1e6f7d12343852f294eaf3cd511c80da202caa603dec43a8d65997",
+   "size": 26318
+  },
+  {
+   "source": "scripts/minigame/mg_kembalian.gdc",
+   "dump": "scripts/minigame/mg_kembalian.gd",
+   "lines": 333,
+   "funcs": 17,
+   "vars": 9,
+   "consts": 10,
+   "sha256": "f73ddbd00fa2a79c12e7f5e6d3f556ad33d586483260712a586c5a6b77fbfa74",
+   "size": 12993
+  },
+  {
+   "source": "scripts/minigame/mg_langganan.gdc",
+   "dump": "scripts/minigame/mg_langganan.gd",
+   "lines": 165,
+   "funcs": 9,
+   "vars": 7,
+   "consts": 6,
+   "sha256": "9b226bb8d75b589b53c8de1d7c61cd133f71819990feb8d2f4c0ad25036e9ed8",
+   "size": 6559
+  },
+  {
+   "source": "scripts/minigame/mg_mancing.gdc",
+   "dump": "scripts/minigame/mg_mancing.gd",
+   "lines": 625,
+   "funcs": 35,
+   "vars": 25,
+   "consts": 3,
+   "sha256": "dc6af57033d1c2a9640c02bb2944c10ea765de8cc295b77a8125a6bf177b7f28",
+   "size": 22087
+  },
+  {
+   "source": "scripts/minigame/mg_ojol.gdc",
+   "dump": "scripts/minigame/mg_ojol.gd",
+   "lines": 988,
+   "funcs": 31,
+   "vars": 23,
+   "consts": 44,
+   "sha256": "dd5a3996b0dd0474727329dd2eda78dc52e6eb9ae52e5ebf00bcf3426cc3b29e",
+   "size": 40034
+  },
+  {
+   "source": "scripts/minigame/mg_panen.gdc",
+   "dump": "scripts/minigame/mg_panen.gd",
+   "lines": 322,
+   "funcs": 16,
+   "vars": 11,
+   "consts": 8,
+   "sha256": "18ca3c01d9bbf5fb0ea50164241c109b737162a078ea68cc8193ace656357db1",
+   "size": 12334
+  },
+  {
+   "source": "scripts/minigame/mg_petik.gdc",
+   "dump": "scripts/minigame/mg_petik.gd",
+   "lines": 567,
+   "funcs": 25,
+   "vars": 9,
+   "consts": 9,
+   "sha256": "4e885f5a66f94e0c90dce05b3fbcc01a9af59a282ab96869ac76ac4faf798d49",
+   "size": 22143
+  },
+  {
+   "source": "scripts/minigame/mg_qris.gdc",
+   "dump": "scripts/minigame/mg_qris.gd",
+   "lines": 355,
+   "funcs": 18,
+   "vars": 10,
+   "consts": 12,
+   "sha256": "5c21c4f3a7c50d1d6173b30ef9a5098c226c2e5bc959e2c29356af0c31464365",
+   "size": 13720
+  },
+  {
+   "source": "scripts/minigame/mg_tata.gdc",
+   "dump": "scripts/minigame/mg_tata.gd",
+   "lines": 297,
+   "funcs": 15,
+   "vars": 7,
+   "consts": 12,
+   "sha256": "6a1e2a648affdaf938b7c12f85ce84b60f42ff4bf4cd562e4ca65dec1eae9299",
+   "size": 11517
+  },
+  {
+   "source": "scripts/minigame/mg_tumpuk.gdc",
+   "dump": "scripts/minigame/mg_tumpuk.gd",
+   "lines": 328,
+   "funcs": 14,
+   "vars": 11,
+   "consts": 13,
+   "sha256": "ce276011286aae7a707e925165f3de8d379198d58c7519355cf8344a0a5a5f76",
+   "size": 13173
+  },
+  {
+   "source": "scripts/notif_wasap.gdc",
+   "dump": "scripts/notif_wasap.gd",
+   "lines": 205,
+   "funcs": 8,
+   "vars": 12,
+   "consts": 5,
+   "sha256": "1f0ba27cecb049d17a29b8f7c2124be9ecb709398e5384068cd53d739350d2e5",
+   "size": 6353
+  },
+  {
+   "source": "scripts/objek3d.gdc",
+   "dump": "scripts/objek3d.gd",
+   "lines": 220,
+   "funcs": 7,
+   "vars": 11,
+   "consts": 3,
+   "sha256": "94fde0381ba34393a8b27f6152cc176dc459ac092576ba628dcce2bb26ce4b83",
+   "size": 6378
+  },
+  {
+   "source": "scripts/panah_akrab.gdc",
+   "dump": "scripts/panah_akrab.gd",
+   "lines": 56,
+   "funcs": 2,
+   "vars": 4,
+   "consts": 3,
+   "sha256": "6c3cfa70dc3b1d66e05505b7087973053fe7e5bdb546063dc84f1b9c4c04ef14",
+   "size": 1480
+  },
+  {
+   "source": "scripts/panel_belanja.gdc",
+   "dump": "scripts/panel_belanja.gd",
+   "lines": 166,
+   "funcs": 8,
+   "vars": 4,
+   "consts": 5,
+   "sha256": "0f9fbfd9121ab036ce3757ac503b9c47608409354737b5f8e514011efad7eae1",
+   "size": 5835
+  },
+  {
+   "source": "scripts/papan_besar.gdc",
+   "dump": "scripts/papan_besar.gd",
+   "lines": 692,
+   "funcs": 20,
+   "vars": 10,
+   "consts": 17,
+   "sha256": "bbad962e325f82d49272b860d4f20445711ebe76228164c7281e2e3e36b59eb8",
+   "size": 28465
+  },
+  {
+   "source": "scripts/papan_kerja_ui.gdc",
+   "dump": "scripts/papan_kerja_ui.gd",
+   "lines": 140,
+   "funcs": 5,
+   "vars": 3,
+   "consts": 4,
+   "sha256": "b96fd3a73c226750718e944cd3e6f6a49a0ebdb4232bf853ba51d58b109d1d85",
+   "size": 5503
+  },
+  {
+   "source": "scripts/papan_online.gdc",
+   "dump": "scripts/papan_online.gd",
+   "lines": 754,
+   "funcs": 57,
+   "vars": 28,
+   "consts": 20,
+   "sha256": "33193292a4905f082d65e1b42fe3dd058143f8d1b81272787ff9f1fd9e8cd5ed",
+   "size": 23339
+  },
+  {
+   "source": "scripts/papan_peringkat.gdc",
+   "dump": "scripts/papan_peringkat.gd",
+   "lines": 194,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 7,
+   "sha256": "feb4e1eb17cc5680cc373650ffcf926dc8d73a3be5ea26687a8f23d88386df27",
+   "size": 6525
+  },
+  {
+   "source": "scripts/pelanggan.gdc",
+   "dump": "scripts/pelanggan.gd",
+   "lines": 410,
+   "funcs": 23,
+   "vars": 23,
+   "consts": 5,
+   "sha256": "a84a63bf57ac7e357e4a399082db33fef19a5a532f2c0e43792ed43d1bbc3afd",
+   "size": 10375
+  },
+  {
+   "source": "scripts/pemantau_fps.gdc",
+   "dump": "scripts/pemantau_fps.gd",
+   "lines": 89,
+   "funcs": 2,
+   "vars": 7,
+   "consts": 3,
+   "sha256": "6f77fbf2ec08c76c9a18e89e987438fb8b58453bbe3185764ed1aad5c0a09f04",
+   "size": 2687
+  },
+  {
+   "source": "scripts/penanda_hasil_alam.gdc",
+   "dump": "scripts/penanda_hasil_alam.gd",
+   "lines": 269,
+   "funcs": 14,
+   "vars": 7,
+   "consts": 4,
+   "sha256": "977a119fc0bcb70a36bf56d2e336a7a40964d136ecc276fd19fe8fa064955ffc",
+   "size": 9965
+  },
+  {
+   "source": "scripts/pengaturan.gdc",
+   "dump": "scripts/pengaturan.gd",
+   "lines": 476,
+   "funcs": 10,
+   "vars": 15,
+   "consts": 4,
+   "sha256": "d0fd17dfff51bcacad033ef0a38bc77ff8c0deba70015c60469b31ba9a770ca4",
+   "size": 18190
+  },
+  {
+   "source": "scripts/pengingat_bayar.gdc",
+   "dump": "scripts/pengingat_bayar.gd",
+   "lines": 83,
+   "funcs": 3,
+   "vars": 1,
+   "consts": 1,
+   "sha256": "030666524dc6dadca9c3b73c060821178ec4b85d2d11ac2477195ba68a96fd43",
+   "size": 2598
+  },
+  {
+   "source": "scripts/penunjuk.gdc",
+   "dump": "scripts/penunjuk.gd",
+   "lines": 96,
+   "funcs": 5,
+   "vars": 9,
+   "consts": 2,
+   "sha256": "49298dc2199fb198b108332dcef92a360118bc011a068539694de517e7da0084",
+   "size": 2700
+  },
+  {
+   "source": "scripts/pilih_bahasa.gdc",
+   "dump": "scripts/pilih_bahasa.gd",
+   "lines": 72,
+   "funcs": 2,
+   "vars": 0,
+   "consts": 1,
+   "sha256": "c7c3205a3ec4ff042033c54289a1ca2dce79fe09a5efdd479b290b24cd0ea6ed",
+   "size": 2376
+  },
+  {
+   "source": "scripts/pilih_penjaga.gdc",
+   "dump": "scripts/pilih_penjaga.gd",
+   "lines": 41,
+   "funcs": 5,
+   "vars": 0,
+   "consts": 0,
+   "sha256": "127ca478965b1c420b9af0bf4d379558c09635a525722c3f10073913ef6598d7",
+   "size": 884
+  },
+  {
+   "source": "scripts/pindah_hp.gdc",
+   "dump": "scripts/pindah_hp.gd",
+   "lines": 253,
+   "funcs": 7,
+   "vars": 11,
+   "consts": 1,
+   "sha256": "b03b55ce02b4e6896c566efa247f7bcc3e97da603c78b47cab4584c57c82cb03",
+   "size": 8634
+  },
+  {
+   "source": "scripts/placeholder.gdc",
+   "dump": "scripts/placeholder.gd",
+   "lines": 13,
+   "funcs": 1,
+   "vars": 0,
+   "consts": 0,
+   "sha256": "d92dc5c65560ba3cc36315f4c124c594bf34b744199d59ab50d056411e03054a",
+   "size": 255
+  },
+  {
+   "source": "scripts/popup_hadiah.gdc",
+   "dump": "scripts/popup_hadiah.gd",
+   "lines": 272,
+   "funcs": 8,
+   "vars": 4,
+   "consts": 3,
+   "sha256": "d564734e6dc854c6d7c1303ae3d0394a86a3eba2e0d3f838dafa767b71012f46",
+   "size": 9477
+  },
+  {
+   "source": "scripts/pratinjau_seret.gdc",
+   "dump": "scripts/pratinjau_seret.gd",
+   "lines": 52,
+   "funcs": 2,
+   "vars": 2,
+   "consts": 3,
+   "sha256": "47edc8237b2ba3d5b84e3705f510d2a5fa6adf2cd7b48dcbb28cacce3a0168d2",
+   "size": 1563
+  },
+  {
+   "source": "scripts/rak_kayu.gdc",
+   "dump": "scripts/rak_kayu.gd",
+   "lines": 98,
+   "funcs": 4,
+   "vars": 1,
+   "consts": 5,
+   "sha256": "7aa16bb068fba439c0b926dbc8999d9a7eddb172a1c7c3524c5b40d688ea8006",
+   "size": 2892
+  },
+  {
+   "source": "scripts/sinema_pamit.gdc",
+   "dump": "scripts/sinema_pamit.gd",
+   "lines": 592,
+   "funcs": 26,
+   "vars": 18,
+   "consts": 11,
+   "sha256": "d47705f3f687473a1aa1240a7fa77d82ffc76b893437648230ca97570a04c781",
+   "size": 19392
+  },
+  {
+   "source": "scripts/sorot_tutorial.gdc",
+   "dump": "scripts/sorot_tutorial.gd",
+   "lines": 321,
+   "funcs": 14,
+   "vars": 15,
+   "consts": 7,
+   "sha256": "856f5c22ed69e3f97d28ae62e3fc498dd91b9cfd4ea3e156c1b936815f1a9cf8",
+   "size": 9453
+  },
+  {
+   "source": "scripts/spanduk_atap.gdc",
+   "dump": "scripts/spanduk_atap.gd",
+   "lines": 149,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 7,
+   "sha256": "0cbe6ee3231b3287cb3820f6c05a1995fed32a7d0a56366727156be7b7eeabb1",
+   "size": 4633
+  },
+  {
+   "source": "scripts/tagihan_sewa.gdc",
+   "dump": "scripts/tagihan_sewa.gd",
+   "lines": 129,
+   "funcs": 3,
+   "vars": 2,
+   "consts": 2,
+   "sha256": "5cd495ce3c52bfa0945b6ccd342883b6a424b189b5516fcd95907b708fa3a5cf",
+   "size": 4846
+  },
+  {
+   "source": "scripts/tanpa_iklan.gdc",
+   "dump": "scripts/tanpa_iklan.gd",
+   "lines": 114,
+   "funcs": 5,
+   "vars": 2,
+   "consts": 1,
+   "sha256": "c6c6f1a4fd33b50a69de25bd20fe65dd0cc9a1f2e56d8966c71fdb1e38e61493",
+   "size": 4015
+  },
+  {
+   "source": "scripts/teks_tengah.gdc",
+   "dump": "scripts/teks_tengah.gd",
+   "lines": 57,
+   "funcs": 3,
+   "vars": 6,
+   "consts": 1,
+   "sha256": "7174e2c6f297115c93f5bd2599850d7e8475e3b9ca07c074b525c04e126ba986",
+   "size": 1350
+  },
+  {
+   "source": "scripts/teks_tokoh.gdc",
+   "dump": "scripts/teks_tokoh.gd",
+   "lines": 151,
+   "funcs": 8,
+   "vars": 11,
+   "consts": 5,
+   "sha256": "7c9213ff2fdef12cf67f60027fed9a5add694f414650532cd6ec8c6a7bd520d5",
+   "size": 4152
+  },
+  {
+   "source": "scripts/tema_tenang.gdc",
+   "dump": "scripts/tema_tenang.gd",
+   "lines": 172,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 14,
+   "sha256": "ed47e38ca1d8b7e3eec8f6324631a651dec6c2cb80760a0af999b2cee2db1077",
+   "size": 7170
+  },
+  {
+   "source": "scripts/terjemah.gdc",
+   "dump": "scripts/terjemah.gd",
+   "lines": 315,
+   "funcs": 10,
+   "vars": 11,
+   "consts": 4,
+   "sha256": "efb46c42213fc8e79a8def5d105a166916626d3c8374a6dbd4ee6c3d30e65648",
+   "size": 8228
+  },
+  {
+   "source": "scripts/timer_lingkaran.gdc",
+   "dump": "scripts/timer_lingkaran.gd",
+   "lines": 29,
+   "funcs": 2,
+   "vars": 1,
+   "consts": 2,
+   "sha256": "e0aaaa8312bab6a055b97d25c6174d357ae958ec568dd69627274351acbdd618",
+   "size": 689
+  },
+  {
+   "source": "scripts/tv_cuaca.gdc",
+   "dump": "scripts/tv_cuaca.gd",
+   "lines": 85,
+   "funcs": 7,
+   "vars": 4,
+   "consts": 0,
+   "sha256": "12bbc14c3c3e2ad88f7c23f834049c56510a671b4ba1b0c80c3690787b601443",
+   "size": 3190
+  },
+  {
+   "source": "scripts/varian_baju.gdc",
+   "dump": "scripts/varian_baju.gd",
+   "lines": 198,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 4,
+   "sha256": "a9a04bd917b2c6198d834f56ed1c81eb8ab333a4072971ab479a6d25097c3a3f",
+   "size": 6078
+  },
+  {
+   "source": "scripts/warna_proyeksi.gdc",
+   "dump": "scripts/warna_proyeksi.gd",
+   "lines": 115,
+   "funcs": 0,
+   "vars": 0,
+   "consts": 1,
+   "sha256": "251fb8747fa6e4c1666118f5a5ee442593623467a5993afbcad8abc7a24f5dbb",
+   "size": 3263
+  },
+  {
+   "source": "scripts/warung.gdc",
+   "dump": "scripts/warung.gd",
+   "lines": 4977,
+   "funcs": 164,
+   "vars": 101,
+   "consts": 94,
+   "sha256": "755697a906559f68896ef44daf8d5e117cf8887797e9c4441fef6c159302c17e",
+   "size": 180134
+  },
+  {
+   "source": "scripts/yang_baru.gdc",
+   "dump": "scripts/yang_baru.gd",
+   "lines": 285,
+   "funcs": 5,
+   "vars": 0,
+   "consts": 8,
+   "sha256": "45e5ffc339176da5846f5f36769c1bc43e96c8e6778635a0b20ef7ccec936762",
+   "size": 17201
+  }
+ ]
+}
