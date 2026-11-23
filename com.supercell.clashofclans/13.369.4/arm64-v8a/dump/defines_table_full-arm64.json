@@ -1,0 +1,2420 @@
+[
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x3e6b3c"
+ },
+ {
+  "name": "FREE_UNIT_HOUSING_CAP_PERCENTAGE",
+  "offset": 88,
+  "str_va": "0xe78b7b",
+  "anchor_va": "0x3f6198"
+ },
+ {
+  "name": "FREE_HERO_HEALTH_CAP",
+  "offset": 1076,
+  "str_va": "0xe937b0",
+  "anchor_va": "0x3f61c4"
+ },
+ {
+  "name": "SHRINK_SPELL_DURATION_SECONDS",
+  "offset": 1080,
+  "str_va": "0xbfac82",
+  "anchor_va": "0x3f61f0"
+ },
+ {
+  "name": "LOOT_CART_REENGAGEMENT_MINUTES_MIN",
+  "offset": 92,
+  "str_va": "0xd2e67c",
+  "anchor_va": "0x3f621c"
+ },
+ {
+  "name": "LOOT_CART_REENGAGEMENT_MINUTES_MAX",
+  "offset": 96,
+  "str_va": "0xd45ca8",
+  "anchor_va": "0x3f6250"
+ },
+ {
+  "name": "REPATH_DURING_FLY",
+  "offset": 104,
+  "str_va": "0xe20a3c",
+  "anchor_va": "0x3f6280"
+ },
+ {
+  "name": "VILLAGE2_DO_NOT_ALLOW_CLEAR_OBSTACLE_TH",
+  "offset": 100,
+  "str_va": "0xd2ec25",
+  "anchor_va": "0x3f62ac"
+ },
+ {
+  "name": "LOAD_V2_AS_SNAPSHOT",
+  "offset": 105,
+  "str_va": "0xd5a25a",
+  "anchor_va": "0x3f62d8"
+ },
+ {
+  "name": "V2_TRAINING_ONLY_USE_REGULAR_STORAGE",
+  "offset": 106,
+  "str_va": "0xe846f6",
+  "anchor_va": "0x3f6304"
+ },
+ {
+  "name": "CLOCK_TOWER_SPEEDUP_MULTIPLIER",
+  "offset": 108,
+  "str_va": "0xe9922d",
+  "anchor_va": "0x3f6330"
+ },
+ {
+  "name": "ALLIANCE_CREATE_COST",
+  "offset": 120,
+  "str_va": "0xd71310",
+  "anchor_va": "0x3f635c"
+ },
+ {
+  "name": "ALLIANCE_CREATE_RESOURCE",
+  "offset": 128,
+  "str_va": "0xfc93d1",
+  "anchor_va": "0x3f6388"
+ },
+ {
+  "name": "HERO_STOP_TIME",
+  "offset": 136,
+  "str_va": "0xe222d7",
+  "anchor_va": "0x3f63d8"
+ },
+ {
+  "name": "ENABLE_LEAGUES",
+  "offset": 206,
+  "str_va": "0xe81d75",
+  "anchor_va": "0x3f6410"
+ },
+ {
+  "name": "SPELL_SPEED_UP_COST_MULTIPLIER",
+  "offset": 212,
+  "str_va": "0xbfe2a4",
+  "anchor_va": "0x3f6448"
+ },
+ {
+  "name": "RESOURCE_PRODUCTION_BOOST_MULTIPLIER",
+  "offset": 500,
+  "str_va": "0xe98fb5",
+  "anchor_va": "0x3f6480"
+ },
+ {
+  "name": "BARRACKS_BOOST_MULTIPLIER",
+  "offset": 504,
+  "str_va": "0xd7134b",
+  "anchor_va": "0x3f64b8"
+ },
+ {
+  "name": "SPELL_FACTORY_BOOST_MULTIPLIER",
+  "offset": 508,
+  "str_va": "0xe7afea",
+  "anchor_va": "0x3f64f0"
+ },
+ {
+  "name": "HERO_REST_BOOST_MULTIPLIER",
+  "offset": 512,
+  "str_va": "0xe63d41",
+  "anchor_va": "0x3f6528"
+ },
+ {
+  "name": "CLOCK_TOWER_BOOST_MULTIPLIER",
+  "offset": 516,
+  "str_va": "0xe798a1",
+  "anchor_va": "0x3f6560"
+ },
+ {
+  "name": "TROOP_TRAINING_COST_MULTIPLIER",
+  "offset": 520,
+  "str_va": "0xe8c76f",
+  "anchor_va": "0x3f6598"
+ },
+ {
+  "name": "SPELL_TRAINING_COST_MULTIPLIER",
+  "offset": 524,
+  "str_va": "0xd21321",
+  "anchor_va": "0x3f65d0"
+ },
+ {
+  "name": "SPEEDUP_BOOST_COOLDOWN_COST_MULTIPLIER",
+  "offset": 528,
+  "str_va": "0xbeefec",
+  "anchor_va": "0x3f6608"
+ },
+ {
+  "name": "SPEEDUP_BOOST_VILLAGE2_LOOT_LIMITCOOLDOWN_COST_MULTIPLIER",
+  "offset": 532,
+  "str_va": "0xfd8121",
+  "anchor_va": "0x3f6640"
+ },
+ {
+  "name": "RESOURCE_PRODUCTION_BOOST_MINS",
+  "offset": 536,
+  "str_va": "0xbe5562",
+  "anchor_va": "0x3f6678"
+ },
+ {
+  "name": "BARRACKS_BOOST_MINS",
+  "offset": 540,
+  "str_va": "0xbe2011",
+  "anchor_va": "0x3f66b4"
+ },
+ {
+  "name": "SPELL_FACTORY_BOOST_MINS",
+  "offset": 544,
+  "str_va": "0xe8e81a",
+  "anchor_va": "0x3f66f0"
+ },
+ {
+  "name": "HERO_REST_BOOST_MINS",
+  "offset": 548,
+  "str_va": "0xe95254",
+  "anchor_va": "0x3f672c"
+ },
+ {
+  "name": "CLOCK_TOWER_BOOST_COOLDOWN_MINS",
+  "offset": 560,
+  "str_va": "0xe9ba78",
+  "anchor_va": "0x3f6768"
+ },
+ {
+  "name": "MAX_ALLIANCE_FEEDBACK_MESSAGE_LENGTH",
+  "offset": 232,
+  "str_va": "0xd68ea5",
+  "anchor_va": "0x3f67a4"
+ },
+ {
+  "name": "COMPLETE_CONSTRUCTIONS_ONLY_HOME",
+  "offset": 442,
+  "str_va": "0xbe56d4",
+  "anchor_va": "0x3f67dc"
+ },
+ {
+  "name": "OBSTACLE_RESPAWN_SECONDS",
+  "offset": 140,
+  "str_va": "0xe80941",
+  "anchor_va": "0x3f6814"
+ },
+ {
+  "name": "BUILDER_BASE_OBSTACLE_RESPAWN_SECONDS",
+  "offset": 144,
+  "str_va": "0xbeb2e4",
+  "anchor_va": "0x3f6864"
+ },
+ {
+  "name": "ALLIANCE_TROOP_REQUEST_COOLDOWN",
+  "offset": 152,
+  "str_va": "0xbfe2c3",
+  "anchor_va": "0x3f68b4"
+ },
+ {
+  "name": "ARRANGE_WAR_COOLDOWN",
+  "offset": 156,
+  "str_va": "0xbe5a5a",
+  "anchor_va": "0x3f68ec"
+ },
+ {
+  "name": "CLAN_MAIL_COOLDOWN",
+  "offset": 172,
+  "str_va": "0xd70756",
+  "anchor_va": "0x3f6924"
+ },
+ {
+  "name": "REPLAY_SHARE_COOLDOWN",
+  "offset": 160,
+  "str_va": "0xbf9643",
+  "anchor_va": "0x3f695c"
+ },
+ {
+  "name": "ELDER_KICK_COOLDOWN",
+  "offset": 164,
+  "str_va": "0xe751e7",
+  "anchor_va": "0x3f6994"
+ },
+ {
+  "name": "CHALLENGE_COOLDOWN",
+  "offset": 168,
+  "str_va": "0xe0c076",
+  "anchor_va": "0x3f69cc"
+ },
+ {
+  "name": "HERO_HEALTH_SPEED_UP_COST_MULTIPLIER",
+  "offset": 208,
+  "str_va": "0xbe1465",
+  "anchor_va": "0x3f6a04"
+ },
+ {
+  "name": "HERO_UPGRADE_CANCEL_MULTIPLIER",
+  "offset": 224,
+  "str_va": "0xd2262d",
+  "anchor_va": "0x3f6a3c"
+ },
+ {
+  "name": "CLAN_CASTLE_RADIUS",
+  "offset": 236,
+  "str_va": "0xd46271",
+  "anchor_va": "0x3f6a74"
+ },
+ {
+  "name": "SHIELD_HOURS",
+  "offset": 240,
+  "str_va": "0xe8e6b6",
+  "anchor_va": "0x3f6adc"
+ },
+ {
+  "name": "DESTRUCTION_TO_SHIELD",
+  "offset": 248,
+  "str_va": "0xbe7e69",
+  "anchor_va": "0x3f6b48"
+ },
+ {
+  "name": "ENABLE_DEFENDING_ALLIANCE_TROOP_JUMP",
+  "offset": 189,
+  "str_va": "0xe6eba7",
+  "anchor_va": "0x3f6ba8"
+ },
+ {
+  "name": "NEWBIE_SHIELD_HOURS",
+  "offset": 424,
+  "str_va": "0xe71345",
+  "anchor_va": "0x3f6be0"
+ },
+ {
+  "name": "TRAIN_CANCEL_MULTIPLIER",
+  "offset": 476,
+  "str_va": "0xd24dfd",
+  "anchor_va": "0x3f6c18"
+ },
+ {
+  "name": "BUILD_CANCEL_MULTIPLIER",
+  "offset": 480,
+  "str_va": "0xd5a7d5",
+  "anchor_va": "0x3f6c50"
+ },
+ {
+  "name": "SPELL_CANCEL_MULTIPLIER",
+  "offset": 484,
+  "str_va": "0xd6fcb5",
+  "anchor_va": "0x3f6c88"
+ },
+ {
+  "name": "WORKER_FOR_ZERO_BUILD_TIME",
+  "offset": 443,
+  "str_va": "0xe6f4a2",
+  "anchor_va": "0x3f6cc0"
+ },
+ {
+  "name": "HERO_RAGE_MULTIPLIER",
+  "offset": 216,
+  "str_va": "0xe80dd8",
+  "anchor_va": "0x3f6cf8"
+ },
+ {
+  "name": "HERO_RAGE_SPEED_MULTIPLIER",
+  "offset": 220,
+  "str_va": "0xbe5cd9",
+  "anchor_va": "0x3f6d30"
+ },
+ {
+  "name": "SPEED_UP_DIAMOND_COST_1_MIN",
+  "offset": 292,
+  "str_va": "0xd6e4a7",
+  "anchor_va": "0x3f6d68"
+ },
+ {
+  "name": "SPEED_UP_DIAMOND_COST_1_HOUR",
+  "offset": 296,
+  "str_va": "0xd308ed",
+  "anchor_va": "0x3f6da0"
+ },
+ {
+  "name": "SPEED_UP_DIAMOND_COST_24_HOURS",
+  "offset": 300,
+  "str_va": "0xe6fba4",
+  "anchor_va": "0x3f6dd8"
+ },
+ {
+  "name": "SPEED_UP_DIAMOND_COST_1_WEEK",
+  "offset": 304,
+  "str_va": "0xd2345c",
+  "anchor_va": "0x3f6e10"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_100",
+  "offset": 308,
+  "str_va": "0xd6744a",
+  "anchor_va": "0x3f6eac"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_1000",
+  "offset": 312,
+  "str_va": "0xbe4e8c",
+  "anchor_va": "0x3f6ee4"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_10000",
+  "offset": 316,
+  "str_va": "0xfcc836",
+  "anchor_va": "0x3f6f1c"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_100000",
+  "offset": 320,
+  "str_va": "0xd2dfb4",
+  "anchor_va": "0x3f6f54"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_1000000",
+  "offset": 324,
+  "str_va": "0xbfbadd",
+  "anchor_va": "0x3f6f8c"
+ },
+ {
+  "name": "RESOURCE_DIAMOND_COST_10000000",
+  "offset": 328,
+  "str_va": "0xe64134",
+  "anchor_va": "0x3f6fc4"
+ },
+ {
+  "name": "VILLAGE2_SPEED_UP_DIAMOND_COST_1_MIN",
+  "offset": 332,
+  "str_va": "0xd66fd6",
+  "anchor_va": "0x3f6ffc"
+ },
+ {
+  "name": "VILLAGE2_SPEED_UP_DIAMOND_COST_1_HOUR",
+  "offset": 336,
+  "str_va": "0xe70312",
+  "anchor_va": "0x3f7034"
+ },
+ {
+  "name": "VILLAGE2_SPEED_UP_DIAMOND_COST_24_HOURS",
+  "offset": 340,
+  "str_va": "0xe8419d",
+  "anchor_va": "0x3f706c"
+ },
+ {
+  "name": "VILLAGE2_SPEED_UP_DIAMOND_COST_1_WEEK",
+  "offset": 344,
+  "str_va": "0xd45e1c",
+  "anchor_va": "0x3f70a4"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_100",
+  "offset": 348,
+  "str_va": "0xe20679",
+  "anchor_va": "0x3f7140"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_1000",
+  "offset": 352,
+  "str_va": "0xd26e41",
+  "anchor_va": "0x3f7178"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_10000",
+  "offset": 356,
+  "str_va": "0xd2eb0b",
+  "anchor_va": "0x3f71b0"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_100000",
+  "offset": 360,
+  "str_va": "0xe66dbd",
+  "anchor_va": "0x3f71e8"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_1000000",
+  "offset": 364,
+  "str_va": "0xd5a6c7",
+  "anchor_va": "0x3f7220"
+ },
+ {
+  "name": "VILLAGE2_RESOURCE_DIAMOND_COST_10000000",
+  "offset": 368,
+  "str_va": "0xd5aa45",
+  "anchor_va": "0x3f7258"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_1",
+  "offset": 372,
+  "str_va": "0xfcae0e",
+  "anchor_va": "0x3f7290"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_10",
+  "offset": 376,
+  "str_va": "0xe2199d",
+  "anchor_va": "0x3f72c8"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_100",
+  "offset": 380,
+  "str_va": "0xe9aa36",
+  "anchor_va": "0x3f7300"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_1000",
+  "offset": 384,
+  "str_va": "0xfd11f4",
+  "anchor_va": "0x3f7338"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_10000",
+  "offset": 388,
+  "str_va": "0xe63e7d",
+  "anchor_va": "0x3f7370"
+ },
+ {
+  "name": "DARK_ELIXIR_DIAMOND_COST_100000",
+  "offset": 392,
+  "str_va": "0xe674fb",
+  "anchor_va": "0x3f73a8"
+ },
+ {
+  "name": "WORKER_COST_2ND",
+  "offset": 276,
+  "str_va": "0xe6fcd4",
+  "anchor_va": "0x3f73e0"
+ },
+ {
+  "name": "WORKER_COST_3RD",
+  "offset": 280,
+  "str_va": "0xe60908",
+  "anchor_va": "0x3f7418"
+ },
+ {
+  "name": "WORKER_COST_4TH",
+  "offset": 284,
+  "str_va": "0xe9821b",
+  "anchor_va": "0x3f7450"
+ },
+ {
+  "name": "WORKER_COST_5TH",
+  "offset": 288,
+  "str_va": "0xe8445b",
+  "anchor_va": "0x3f7488"
+ },
+ {
+  "name": "ATTACK_LENGTH_SEC",
+  "offset": 428,
+  "str_va": "0xbef514",
+  "anchor_va": "0x3f74ec"
+ },
+ {
+  "name": "ATTACK_PREPARATION_LENGTH_SEC",
+  "offset": 432,
+  "str_va": "0xe9d6b7",
+  "anchor_va": "0x3f7524"
+ },
+ {
+  "name": "ATTACK_PREPARATION_LENGTH_VILLAGE2_SEC",
+  "offset": 436,
+  "str_va": "0xd5caee",
+  "anchor_va": "0x3f755c"
+ },
+ {
+  "name": "OVERLAY_ENABLED",
+  "offset": 440,
+  "str_va": "0xe6ea5b",
+  "anchor_va": "0x3f7594"
+ },
+ {
+  "name": "CLAN_TOURNAMENT_ENABLED",
+  "offset": 441,
+  "str_va": "0xbfe0f2",
+  "anchor_va": "0x3f75cc"
+ },
+ {
+  "name": "SCORING_ONLY_FROM_MM",
+  "offset": 115,
+  "str_va": "0xd2571b",
+  "anchor_va": "0x3f7604"
+ },
+ {
+  "name": "ALLIANCE_ALERT_RADIUS",
+  "offset": null,
+  "str_va": "0xe98792",
+  "anchor_va": "0x3f763c"
+ },
+ {
+  "name": "MAX_TROOP_DONATION_COUNT",
+  "offset": 176,
+  "str_va": "0xe0bbb5",
+  "anchor_va": "0x3f7690"
+ },
+ {
+  "name": "MAX_SPELL_DONATION_COUNT",
+  "offset": 180,
+  "str_va": "0xe9a900",
+  "anchor_va": "0x3f76c8"
+ },
+ {
+  "name": "STARTING_DIAMONDS",
+  "offset": 396,
+  "str_va": "0xe9d05f",
+  "anchor_va": "0x3f7700"
+ },
+ {
+  "name": "STARTING_GOLD",
+  "offset": 400,
+  "str_va": "0xe9841a",
+  "anchor_va": "0x3f7738"
+ },
+ {
+  "name": "STARTING_ELIXIR",
+  "offset": 404,
+  "str_va": "0xe0c50b",
+  "anchor_va": "0x3f7770"
+ },
+ {
+  "name": "STARTING_GOLD2",
+  "offset": 408,
+  "str_va": "0xe9d043",
+  "anchor_va": "0x3f77a8"
+ },
+ {
+  "name": "STARTING_ELIXIR2",
+  "offset": 412,
+  "str_va": "0xd2e455",
+  "anchor_va": "0x3f77e0"
+ },
+ {
+  "name": "SELECTED_WALL_TIME",
+  "offset": 184,
+  "str_va": "0xe86a27",
+  "anchor_va": "0x3f7818"
+ },
+ {
+  "name": "RESOURCE_PRODUCTION_LOOT_PERCENTAGE_DARK_ELIXIR",
+  "offset": 260,
+  "str_va": "0xe8b59a",
+  "anchor_va": "0x3f7850"
+ },
+ {
+  "name": "RESOURCE_PRODUCTION_LOOT_PERCENTAGE",
+  "offset": 264,
+  "str_va": "0xd24d56",
+  "anchor_va": "0x3f7888"
+ },
+ {
+  "name": "TOWN_HALL_LOOT_PERCENTAGE",
+  "offset": 268,
+  "str_va": "0xe8f3ba",
+  "anchor_va": "0x3f78d8"
+ },
+ {
+  "name": "CHAR_VS_CHAR_RANDOM_DIST_LIMIT",
+  "offset": null,
+  "str_va": "0xe21a2a",
+  "anchor_va": "0x3f7930"
+ },
+ {
+  "name": "SCORE_MULTIPLIER_ON_ATTACK_LOSE",
+  "offset": 256,
+  "str_va": "0xe09650",
+  "anchor_va": "0x3f7984"
+ },
+ {
+  "name": "WAR_LOOT_PERCENTAGE",
+  "offset": 272,
+  "str_va": "0xd71146",
+  "anchor_va": "0x3f79bc"
+ },
+ {
+  "name": "NEWBIE_PROTECTION_LEVEL",
+  "offset": 416,
+  "str_va": "0xe1ae30",
+  "anchor_va": "0x3f7a0c"
+ },
+ {
+  "name": "HIDDEN_BUILDING_APPEAR_DESTRUCTION_PERCENTAGE",
+  "offset": 472,
+  "str_va": "0xe8d8d2",
+  "anchor_va": "0x3f7a48"
+ },
+ {
+  "name": "CLOCK_TOWER_BOOST_MINS",
+  "offset": 552,
+  "str_va": "0xd2d8b3",
+  "anchor_va": "0x3f7aac"
+ },
+ {
+  "name": "OBSTACLE_COUNT_MAX",
+  "offset": 148,
+  "str_va": "0xbfe0c3",
+  "anchor_va": "0x3f7aec"
+ },
+ {
+  "name": "LOOT_MULTIPLIER_BY_TH_DIFF",
+  "offset": 456,
+  "str_va": "0xe832d8",
+  "anchor_va": "0x3f7b50"
+ },
+ {
+  "name": "ALLIANCE_SCORE_CONTRIBUTION_PERCENTAGE",
+  "offset": 448,
+  "str_va": "0xe8f67b",
+  "anchor_va": "0x3f7bbc"
+ },
+ {
+  "name": "ALLIANCE_SCORE_LIMIT",
+  "offset": 464,
+  "str_va": "0xbea568",
+  "anchor_va": "0x3f7c40"
+ },
+ {
+  "name": "MAJOR_LIMIT",
+  "offset": 488,
+  "str_va": "0xd3fd55",
+  "anchor_va": "0x3f7c80"
+ },
+ {
+  "name": "SUPER_LIMIT",
+  "offset": 492,
+  "str_va": "0xd67474",
+  "anchor_va": "0x3f7cb8"
+ },
+ {
+  "name": "SPEED_UP_CONFIRMATION_ENABLED",
+  "offset": 567,
+  "str_va": "0xe840e1",
+  "anchor_va": "0x3f7cf0"
+ },
+ {
+  "name": "BUNKER_SEARCH_TIME",
+  "offset": 228,
+  "str_va": "0xbe8ad6",
+  "anchor_va": "0x3f7d28"
+ },
+ {
+  "name": "ARMY_READY_CAPACITY_LEFT",
+  "offset": 576,
+  "str_va": "0xbe808f",
+  "anchor_va": "0x3f7d78"
+ },
+ {
+  "name": "CHAR_VS_CHAR_RADIUS_FOR_ATTACKER",
+  "offset": 572,
+  "str_va": "0xbee1d8",
+  "anchor_va": "0x3f7db0"
+ },
+ {
+  "name": "ALLIANCE_TROOPS_PATROL",
+  "offset": 564,
+  "str_va": "0xd2e837",
+  "anchor_va": "0x3f7dec"
+ },
+ {
+  "name": "FORGET_TARGET_TIME",
+  "offset": 568,
+  "str_va": "0xbdedab",
+  "anchor_va": "0x3f7e24"
+ },
+ {
+  "name": "WALL_BREAKER_SMART_CNT_LIMIT",
+  "offset": 192,
+  "str_va": "0xbee75d",
+  "anchor_va": "0x3f7e80"
+ },
+ {
+  "name": "WALL_BREAKER_SMART_RADIUS",
+  "offset": null,
+  "str_va": "0xe9e726",
+  "anchor_va": "0x3f7eb8"
+ },
+ {
+  "name": "WALL_BREAKER_SMART_RETARGET_LIMIT",
+  "offset": 200,
+  "str_va": "0xfd0db7",
+  "anchor_va": "0x3f7f0c"
+ },
+ {
+  "name": "WALL_BREAKER_USE_ROOMS",
+  "offset": 204,
+  "str_va": "0xd26143",
+  "anchor_va": "0x3f7f44"
+ },
+ {
+  "name": "RESTART_ATTACK_TIMER_ON_AREA_DAMAGE_TURRETS",
+  "offset": 566,
+  "str_va": "0xbfa7c7",
+  "anchor_va": "0x3f7f7c"
+ },
+ {
+  "name": "CASTLE_TROOP_TARGET_FILTER",
+  "offset": 205,
+  "str_va": "0xbe1b9a",
+  "anchor_va": "0x3f7fb4"
+ },
+ {
+  "name": "USE_EFFECT_FOR_DEFENDING_HERO_INDICATOR",
+  "offset": 207,
+  "str_va": "0xd688b7",
+  "anchor_va": "0x3f7fec"
+ },
+ {
+  "name": "CASTLE_DEFENDER_SEARCH_RADIUS",
+  "offset": 116,
+  "str_va": "0xfcb8fb",
+  "anchor_va": "0x3f8024"
+ },
+ {
+  "name": "WALL_COST_BASE",
+  "offset": 580,
+  "str_va": "0xe9c9e3",
+  "anchor_va": "0x3f805c"
+ },
+ {
+  "name": "HERO_USES_ATTACK_POS_RANDOM",
+  "offset": 112,
+  "str_va": "0xe6e821",
+  "anchor_va": "0x3f80c4"
+ },
+ {
+  "name": "USE_ATTACK_POS_RANDOM_ON_1ST_TARGET",
+  "offset": 113,
+  "str_va": "0xfc9db9",
+  "anchor_va": "0x3f80fc"
+ },
+ {
+  "name": "USE_SMARTER_HEALER",
+  "offset": 114,
+  "str_va": "0xfd082e",
+  "anchor_va": "0x3f8134"
+ },
+ {
+  "name": "TROOP_REQUEST_SPEED_UP_COST_MULTIPLIER",
+  "offset": 584,
+  "str_va": "0xbe8e45",
+  "anchor_va": "0x3f816c"
+ },
+ {
+  "name": "USE_TROOP_REQUEST_SPEED_UP",
+  "offset": 588,
+  "str_va": "0xbdca73",
+  "anchor_va": "0x3f81a4"
+ },
+ {
+  "name": "REMOVE_REVENGE_WHEN_BATTLE_IS_LOADED",
+  "offset": 589,
+  "str_va": "0xd6af79",
+  "anchor_va": "0x3f81dc"
+ },
+ {
+  "name": "USE_NEW_SPEEDUP_CALCULATION",
+  "offset": 590,
+  "str_va": "0xd70132",
+  "anchor_va": "0x3f8214"
+ },
+ {
+  "name": "DEVICE_LINK_CODE_LENGTH",
+  "offset": 592,
+  "str_va": "0xd2290f",
+  "anchor_va": "0x3f824c"
+ },
+ {
+  "name": "DEVICE_LINK_CODE_VALID_SECONDS",
+  "offset": 596,
+  "str_va": "0xe937d0",
+  "anchor_va": "0x3f8284"
+ },
+ {
+  "name": "USE_OLD_RELOAD",
+  "offset": 628,
+  "str_va": "0xe9b66c",
+  "anchor_va": "0x3f82bc"
+ },
+ {
+  "name": "RECONNECT_THROUGH_PRODUCTION",
+  "offset": 629,
+  "str_va": "0xfc990f",
+  "anchor_va": "0x3f82f4"
+ },
+ {
+  "name": "VALIDATE_TROOP_UPGRADE_LEVELS",
+  "offset": 591,
+  "str_va": "0xd48175",
+  "anchor_va": "0x3f832c"
+ },
+ {
+  "name": "ALLIANCE_WAR_NUM_ATTACKS",
+  "offset": 600,
+  "str_va": "0xe86c5e",
+  "anchor_va": "0x3f8364"
+ },
+ {
+  "name": "ALLIANCE_WAR_PREPARATION_DURATION",
+  "offset": 604,
+  "str_va": "0xbdc960",
+  "anchor_va": "0x3f839c"
+ },
+ {
+  "name": "ALLIANCE_WAR_ATTACK_DURATION",
+  "offset": 608,
+  "str_va": "0xd5a758",
+  "anchor_va": "0x3f83cc"
+ },
+ {
+  "name": "ALLIANCE_WAR_ATTACK_WIN_EXP_MULTIPLIER",
+  "offset": 612,
+  "str_va": "0xbeb9de",
+  "anchor_va": "0x3f83f8"
+ },
+ {
+  "name": "ALLIANCE_WAR_LOOT_BONUS_PERCENT_WIN",
+  "offset": 616,
+  "str_va": "0xe83f2c",
+  "anchor_va": "0x3f8424"
+ },
+ {
+  "name": "ALLIANCE_WAR_LOOT_BONUS_PERCENT_LOSE",
+  "offset": 620,
+  "str_va": "0xe9df2d",
+  "anchor_va": "0x3f8450"
+ },
+ {
+  "name": "ALLIANCE_WAR_LOOT_BONUS_PERCENT_DRAW",
+  "offset": 624,
+  "str_va": "0xd2be7d",
+  "anchor_va": "0x3f847c"
+ },
+ {
+  "name": "ALLIANCE_WAR_STARS_BONUS_PERCENT",
+  "offset": 632,
+  "str_va": "0xd70307",
+  "anchor_va": "0x3f84d4"
+ },
+ {
+  "name": "ALLIANCE_WAR_STARS_BONUS_EXP",
+  "offset": 640,
+  "str_va": "0xbf3d42",
+  "anchor_va": "0x3f8534"
+ },
+ {
+  "name": "ALLIANCE_WAR_WIN_BONUS_EXP",
+  "offset": 648,
+  "str_va": "0xd479a1",
+  "anchor_va": "0x3f8568"
+ },
+ {
+  "name": "FIX_CLAN_PORTAL_BATTLE_NOT_ENDING",
+  "offset": 630,
+  "str_va": "0xbe7e9a",
+  "anchor_va": "0x3f8594"
+ },
+ {
+  "name": "DARK_ELIXIR_TO_ELIXIR_VALUE_MULTIPLIER",
+  "offset": 652,
+  "str_va": "0xe83618",
+  "anchor_va": "0x3f85c0"
+ },
+ {
+  "name": "MAX_ALLIANCE_MAIL_LENGTH",
+  "offset": 656,
+  "str_va": "0xd22a41",
+  "anchor_va": "0x3f85ec"
+ },
+ {
+  "name": "MAX_MESSAGE_LENGTH",
+  "offset": 660,
+  "str_va": "0xe99072",
+  "anchor_va": "0x3f8618"
+ },
+ {
+  "name": "LIVE_REPLAY_UPDATE_FREQUENCY_SECONDS",
+  "offset": 664,
+  "str_va": "0xbee148",
+  "anchor_va": "0x3f8644"
+ },
+ {
+  "name": "LIVE_REPLAY_ENABLED",
+  "offset": 668,
+  "str_va": "0xe8ebdd",
+  "anchor_va": "0x3f8670"
+ },
+ {
+  "name": "LIVE_REPLAY_ON_OWN_BASE_UNDER_ATTACK",
+  "offset": 669,
+  "str_va": "0xe92e66",
+  "anchor_va": "0x3f869c"
+ },
+ {
+  "name": "ENABLE_BASE_LAYOUT_COPYING",
+  "offset": 670,
+  "str_va": "0xd30c80",
+  "anchor_va": "0x3f86c8"
+ },
+ {
+  "name": "USE_WALL_WEIGHTS_FOR_JUMP_SPELL",
+  "offset": 107,
+  "str_va": "0xe84f2f",
+  "anchor_va": "0x3f86f4"
+ },
+ {
+  "name": "ENABLE_TROOP_DELETION",
+  "offset": 671,
+  "str_va": "0xe8b3b4",
+  "anchor_va": "0x3f8720"
+ },
+ {
+  "name": "WAR_MAX_EXCLUDE_MEMBERS",
+  "offset": 672,
+  "str_va": "0xe95ea9",
+  "anchor_va": "0x3f874c"
+ },
+ {
+  "name": "LAYOUT_SLOT_2_TH_LEVEL",
+  "offset": 676,
+  "str_va": "0xe7dcb4",
+  "anchor_va": "0x3f8778"
+ },
+ {
+  "name": "LAYOUT_SLOT_3_TH_LEVEL",
+  "offset": 680,
+  "str_va": "0xfca0dc",
+  "anchor_va": "0x3f87a8"
+ },
+ {
+  "name": "LAYOUT_SLOT_2_TH_LEVEL_VILLAGE2",
+  "offset": 684,
+  "str_va": "0xbe5033",
+  "anchor_va": "0x3f87d8"
+ },
+ {
+  "name": "LAYOUT_SLOT_3_TH_LEVEL_VILLAGE2",
+  "offset": 688,
+  "str_va": "0xe93790",
+  "anchor_va": "0x3f8808"
+ },
+ {
+  "name": "USE_STICK_TO_CLOSEST_UNIT_HEALER",
+  "offset": 692,
+  "str_va": "0xe7e7af",
+  "anchor_va": "0x3f8838"
+ },
+ {
+  "name": "REVERT_BROKEN_WAR_LAYOUTS",
+  "offset": 693,
+  "str_va": "0xe6e0e4",
+  "anchor_va": "0x3f8864"
+ },
+ {
+  "name": "CLEAR_ALERT_STATE_IF_NO_TARGET_FOUND",
+  "offset": 694,
+  "str_va": "0xe93e88",
+  "anchor_va": "0x3f8890"
+ },
+ {
+  "name": "IGNORE_ALLIANCE_ALERT_FOR_NON_VALID_TARGETS",
+  "offset": 695,
+  "str_va": "0xe8cfd8",
+  "anchor_va": "0x3f88bc"
+ },
+ {
+  "name": "BATTLELOG_STORES_CLAN_CASTLE_TROOPS_SEPARATELY",
+  "offset": 696,
+  "str_va": "0xbf3a3d",
+  "anchor_va": "0x3f88e8"
+ },
+ {
+  "name": "ALLOW_CLANCASTLE_DEPLOY_ON_OBSTACLES",
+  "offset": 697,
+  "str_va": "0xe7e074",
+  "anchor_va": "0x3f8914"
+ },
+ {
+  "name": "MORE_PRECISE_TARGET_SELECTION",
+  "offset": 698,
+  "str_va": "0xbfb301",
+  "anchor_va": "0x3f8940"
+ },
+ {
+  "name": "MOVING_UNITS_USE_SIMPLE_SELECT",
+  "offset": 699,
+  "str_va": "0xe7cc6a",
+  "anchor_va": "0x3f896c"
+ },
+ {
+  "name": "ALLOW_WAR_PRACTICE_ATTACKS",
+  "offset": 565,
+  "str_va": "0xe98ee2",
+  "anchor_va": "0x3f8998"
+ },
+ {
+  "name": "BOOKMARKS_MAX_ALLIANCES",
+  "offset": 712,
+  "str_va": "0xfcc674",
+  "anchor_va": "0x3f89c4"
+ },
+ {
+  "name": "ENABLE_NAME_CHANGE",
+  "offset": 700,
+  "str_va": "0xe93cf8",
+  "anchor_va": "0x3f89f0"
+ },
+ {
+  "name": "ENABLE_NAME_CHANGE_TH_LEVEL",
+  "offset": 704,
+  "str_va": "0xbe8aba",
+  "anchor_va": "0x3f8a1c"
+ },
+ {
+  "name": "VALKYRIE_PREFERS_4_BUILDINGS",
+  "offset": 708,
+  "str_va": "0xe80f38",
+  "anchor_va": "0x3f8a48"
+ },
+ {
+  "name": "REMEMBER_ORIGINAL_TARGET",
+  "offset": 709,
+  "str_va": "0xe8049a",
+  "anchor_va": "0x3f8a74"
+ },
+ {
+  "name": "BLOCKED_ATTACK_POSITION_PENALTY",
+  "offset": 716,
+  "str_va": "0xe808d5",
+  "anchor_va": "0x3f8aa0"
+ },
+ {
+  "name": "MAYBE_BLOCKED_ATTACK_POSITION_PENALTY",
+  "offset": 720,
+  "str_va": "0xe1b4cc",
+  "anchor_va": "0x3f8acc"
+ },
+ {
+  "name": "TIGHTER_ATTACK_POSITION",
+  "offset": 710,
+  "str_va": "0xe0bfd7",
+  "anchor_va": "0x3f8af8"
+ },
+ {
+  "name": "DEVELOPER_PAYLOAD_ENABLED",
+  "offset": 188,
+  "str_va": "0xe9fc85",
+  "anchor_va": "0x3f8b24"
+ },
+ {
+  "name": "JUMP_WHEN_HIT_JUMPABLE",
+  "offset": 726,
+  "str_va": "0xd6b8a1",
+  "anchor_va": "0x3f8b50"
+ },
+ {
+  "name": "SLIDE_ALONG_OBSTACLES",
+  "offset": 727,
+  "str_va": "0xfcbfcc",
+  "anchor_va": "0x3f8b7c"
+ },
+ {
+  "name": "WAR_TIE_BREAKING_MODE",
+  "offset": 728,
+  "str_va": "0xe83904",
+  "anchor_va": "0x3f8ba8"
+ },
+ {
+  "name": "WAR_EXP_AVAILABLE",
+  "offset": 732,
+  "str_va": "0xbf9b51",
+  "anchor_va": "0x3f8bd4"
+ },
+ {
+  "name": "WAR_BASES_LOCKED_DURING_PREPARATION",
+  "offset": 733,
+  "str_va": "0xbed72b",
+  "anchor_va": "0x3f8c00"
+ },
+ {
+  "name": "END_WAR_IF_NO_ATTACKS_LEFT",
+  "offset": 734,
+  "str_va": "0xe7b04c",
+  "anchor_va": "0x3f8c2c"
+ },
+ {
+  "name": "ELO_OFFSET_DAMPENING_FACTOR",
+  "offset": 736,
+  "str_va": "0xe8dd68",
+  "anchor_va": "0x3f8c58"
+ },
+ {
+  "name": "ELO_OFFSET_DAMPENING_LIMIT",
+  "offset": 740,
+  "str_va": "0xbe8285",
+  "anchor_va": "0x3f8c84"
+ },
+ {
+  "name": "ELO_OFFSET_DAMPENING_SCORE_LIMIT",
+  "offset": 744,
+  "str_va": "0xbf97b9",
+  "anchor_va": "0x3f8cb0"
+ },
+ {
+  "name": "ELO_OFFSET_DAMPENING_ENABLED",
+  "offset": 724,
+  "str_va": "0xe94c54",
+  "anchor_va": "0x3f8cdc"
+ },
+ {
+  "name": "READY_FOR_WAR_ATTACK_CHECK",
+  "offset": 725,
+  "str_va": "0xd6bae8",
+  "anchor_va": "0x3f8d08"
+ },
+ {
+  "name": "DARK_SPELL_DONATION_XP",
+  "offset": 748,
+  "str_va": "0xd45d5c",
+  "anchor_va": "0x3f8d34"
+ },
+ {
+  "name": "MORE_ACCURATE_TIME",
+  "offset": 190,
+  "str_va": "0xe9ce54",
+  "anchor_va": "0x3f8d60"
+ },
+ {
+  "name": "ATTACK_SHIELD_REDUCE_HOURS",
+  "offset": 752,
+  "str_va": "0xd5c799",
+  "anchor_va": "0x3f8db8"
+ },
+ {
+  "name": "DEFAULT_DEFENSE_VILLAGE_GUARD",
+  "offset": 760,
+  "str_va": "0xe8587d",
+  "anchor_va": "0x3f8dec"
+ },
+ {
+  "name": "SHIELD_TRIGGER_PERCENTAGE_HOUSING_SPACE",
+  "offset": 764,
+  "str_va": "0xbe9cae",
+  "anchor_va": "0x3f8e18"
+ },
+ {
+  "name": "HEAL_STACK_PERCENT",
+  "offset": 768,
+  "str_va": "0xe8471b",
+  "anchor_va": "0x3f8e70"
+ },
+ {
+  "name": "LEAGUE_BONUS_PERCENTAGES",
+  "offset": 776,
+  "str_va": "0xd2b4f5",
+  "anchor_va": "0x3f8ed0"
+ },
+ {
+  "name": "LEAGUE_BONUS_PERCENTAGES",
+  "offset": 784,
+  "str_va": "0xd2b4f5",
+  "anchor_va": "0x3f8f30"
+ },
+ {
+  "name": "USE_MORE_ACCURATE_LOOT_CAP",
+  "offset": 1074,
+  "str_va": "0xe9c510",
+  "anchor_va": "0x3f8f64"
+ },
+ {
+  "name": "UNIT_HOUSING_COST_MULTIPLIER",
+  "offset": 792,
+  "str_va": "0xe762e7",
+  "anchor_va": "0x3f8f90"
+ },
+ {
+  "name": "SPELL_HOUSING_COST_MULTIPLIER",
+  "offset": 796,
+  "str_va": "0xd260bc",
+  "anchor_va": "0x3f8fbc"
+ },
+ {
+  "name": "HERO_HOUSING_COST_MULTIPLIER",
+  "offset": 800,
+  "str_va": "0xe64c6a",
+  "anchor_va": "0x3f8fe8"
+ },
+ {
+  "name": "ALLIANCE_UNIT_HOUSING_COST_MULTIPLIER",
+  "offset": 804,
+  "str_va": "0xbfa63c",
+  "anchor_va": "0x3f9014"
+ },
+ {
+  "name": "UNIT_HOUSING_COST_MULTIPLIER_FOR_TOTAL",
+  "offset": 808,
+  "str_va": "0xe9cb5a",
+  "anchor_va": "0x3f9040"
+ },
+ {
+  "name": "SPELL_HOUSING_COST_MULTIPLIER_FOR_TOTAL",
+  "offset": 812,
+  "str_va": "0xe9b74f",
+  "anchor_va": "0x3f906c"
+ },
+ {
+  "name": "HERO_HOUSING_COST_MULTIPLIER_FOR_TOTAL",
+  "offset": 816,
+  "str_va": "0xd21768",
+  "anchor_va": "0x3f9098"
+ },
+ {
+  "name": "ALLIANCE_UNIT_HOUSING_COST_MULTIPLIER_FOR_TOTAL",
+  "offset": 820,
+  "str_va": "0xbfb036",
+  "anchor_va": "0x3f90c4"
+ },
+ {
+  "name": "PERSONAL_BREAK_LIMIT_SECONDS",
+  "offset": 824,
+  "str_va": "0xe636e0",
+  "anchor_va": "0x3f90f0"
+ },
+ {
+  "name": "STAR_BONUS_STAR_COUNT",
+  "offset": 828,
+  "str_va": "0xbe1d98",
+  "anchor_va": "0x3f911c"
+ },
+ {
+  "name": "STAR_BONUS_COOLDOWN_MINUTES",
+  "offset": 832,
+  "str_va": "0xd2c720",
+  "anchor_va": "0x3f9148"
+ },
+ {
+  "name": "TREASURY_SIZE_BASED_ON_TH",
+  "offset": 836,
+  "str_va": "0xc018f6",
+  "anchor_va": "0x3f9174"
+ },
+ {
+  "name": "USE_TREASURY_WINDOW",
+  "offset": 837,
+  "str_va": "0xbe56c0",
+  "anchor_va": "0x3f91a0"
+ },
+ {
+  "name": "USE_STAR_BONUS",
+  "offset": 838,
+  "str_va": "0xe7a510",
+  "anchor_va": "0x3f91cc"
+ },
+ {
+  "name": "LOOT_CART_ENABLED_FOR_TH",
+  "offset": 840,
+  "str_va": "0xe8e170",
+  "anchor_va": "0x3f91f8"
+ },
+ {
+  "name": "REPLAY_REMOVE_UNTRIGGERED",
+  "offset": 844,
+  "str_va": "0xea8635",
+  "anchor_va": "0x3f9224"
+ },
+ {
+  "name": "ALLOW_CANCEL_BUILDING_CONSTRUCTION",
+  "offset": 845,
+  "str_va": "0xe79bb0",
+  "anchor_va": "0x3f9250"
+ },
+ {
+  "name": "USE_POISON_AVOIDANCE",
+  "offset": 846,
+  "str_va": "0xd2e1c7",
+  "anchor_va": "0x3f927c"
+ },
+ {
+  "name": "REVENGE_GIVE_LEAGUE_BONUS",
+  "offset": 847,
+  "str_va": "0xfcc4ac",
+  "anchor_va": "0x3f92a8"
+ },
+ {
+  "name": "REVENGE_GIVE_STAR_BONUS",
+  "offset": 848,
+  "str_va": "0xd46410",
+  "anchor_va": "0x3f92d4"
+ },
+ {
+  "name": "CHAINED_PROJECTILE_BOUNCE_COUNT",
+  "offset": 852,
+  "str_va": "0xd47e3e",
+  "anchor_va": "0x3f9300"
+ },
+ {
+  "name": "CLAMP_UPGRADE_TIMES",
+  "offset": 856,
+  "str_va": "0xbf3b93",
+  "anchor_va": "0x3f932c"
+ },
+ {
+  "name": "CLAMP_BUILDING_TIMES",
+  "offset": 857,
+  "str_va": "0xbface1",
+  "anchor_va": "0x3f9358"
+ },
+ {
+  "name": "REMOVE_UNTRIGGERED_TESLA",
+  "offset": 864,
+  "str_va": "0xe8e1bc",
+  "anchor_va": "0x3f9384"
+ },
+ {
+  "name": "USE_TRAP_TRIGGER_CMD",
+  "offset": 865,
+  "str_va": "0xbdfc94",
+  "anchor_va": "0x3f93b0"
+ },
+ {
+  "name": "USE_TESLA_TRIGGER_CMD",
+  "offset": 866,
+  "str_va": "0xd6e637",
+  "anchor_va": "0x3f93dc"
+ },
+ {
+  "name": "USE_VERSUS_BATTLE",
+  "offset": 867,
+  "str_va": "0xd30a34",
+  "anchor_va": "0x3f9408"
+ },
+ {
+  "name": "CLAMP_LONG_TIME_STAMPS_TO_DAYS",
+  "offset": 860,
+  "str_va": "0xe1b3d7",
+  "anchor_va": "0x3f9434"
+ },
+ {
+  "name": "USE_SWAP_BUILDINGS",
+  "offset": 868,
+  "str_va": "0xe9dbc5",
+  "anchor_va": "0x3f9460"
+ },
+ {
+  "name": "UNIT_PRODUCTION_FIND_BIGGEST",
+  "offset": 869,
+  "str_va": "0xea037a",
+  "anchor_va": "0x3f948c"
+ },
+ {
+  "name": "PUBLISH_WAR_LOG_BY_DEFAULT",
+  "offset": 839,
+  "str_va": "0xbfb2e2",
+  "anchor_va": "0x3f94b8"
+ },
+ {
+  "name": "ENABLE_QUICK_DONATE",
+  "offset": 870,
+  "str_va": "0xbe1af2",
+  "anchor_va": "0x3f94e4"
+ },
+ {
+  "name": "ENABLE_QUICK_DONATE_WAR",
+  "offset": 871,
+  "str_va": "0xe1b1f7",
+  "anchor_va": "0x3f9510"
+ },
+ {
+  "name": "ENABLE_REQUIRED_TROOP_REQUEST",
+  "offset": 872,
+  "str_va": "0xe6dcc5",
+  "anchor_va": "0x3f953c"
+ },
+ {
+  "name": "CHALLENGE_BASE_SAVE_COOLDOWN",
+  "offset": 876,
+  "str_va": "0xfcc214",
+  "anchor_va": "0x3f9568"
+ },
+ {
+  "name": "CHALLENGE_BASE_COOLDOWN_ENABLED_ON_TH",
+  "offset": 880,
+  "str_va": "0xe5f59c",
+  "anchor_va": "0x3f9594"
+ },
+ {
+  "name": "SKELETON_OPEN_CC",
+  "offset": 894,
+  "str_va": "0xe9d26d",
+  "anchor_va": "0x3f95c4"
+ },
+ {
+  "name": "MINER_HIDE_TIME",
+  "offset": 884,
+  "str_va": "0xe8098e",
+  "anchor_va": "0x3f95f0"
+ },
+ {
+  "name": "MINER_HIDE_TIME_RANDOM",
+  "offset": 888,
+  "str_va": "0xe9eb2b",
+  "anchor_va": "0x3f961c"
+ },
+ {
+  "name": "DRAG_IN_TRAINING",
+  "offset": 892,
+  "str_va": "0xe80433",
+  "anchor_va": "0x3f965c"
+ },
+ {
+  "name": "SKELETON_TRIGGER_TESLA",
+  "offset": 896,
+  "str_va": "0xe6ec43",
+  "anchor_va": "0x3f9688"
+ },
+ {
+  "name": "USE_PREPARATION_DAY_HOME_VIEW",
+  "offset": 893,
+  "str_va": "0xe64441",
+  "anchor_va": "0x3f96b4"
+ },
+ {
+  "name": "FIX_WAR_PREP_BUILDING_VISIBILITY",
+  "offset": 895,
+  "str_va": "0xd307f4",
+  "anchor_va": "0x3f96e0"
+ },
+ {
+  "name": "MINER_TARGET_RAND_P",
+  "offset": 900,
+  "str_va": "0xd66f0f",
+  "anchor_va": "0x3f970c"
+ },
+ {
+  "name": "MINER_SPEED_RAND_P",
+  "offset": 904,
+  "str_va": "0xd68c5f",
+  "anchor_va": "0x3f9738"
+ },
+ {
+  "name": "USE_ARRANGED_WARS",
+  "offset": 897,
+  "str_va": "0xbf3ba7",
+  "anchor_va": "0x3f9764"
+ },
+ {
+  "name": "USE_TROOP_WALKS_OUT_FROM_TRAINING",
+  "offset": 928,
+  "str_va": "0xd2b541",
+  "anchor_va": "0x3f9790"
+ },
+ {
+  "name": "ARRANGED_WAR_ITEMS_FIRST_X_ITEMS_NOT_IN_PRODUCTION",
+  "offset": 908,
+  "str_va": "0xd70003",
+  "anchor_va": "0x3f97bc"
+ },
+ {
+  "name": "ENABLE_PRESETS",
+  "offset": 971,
+  "str_va": "0xd3f758",
+  "anchor_va": "0x3f97e8"
+ },
+ {
+  "name": "ENABLE_PRESETS_TH_LEVEL",
+  "offset": 972,
+  "str_va": "0xd6946c",
+  "anchor_va": "0x3f9814"
+ },
+ {
+  "name": "ENABLE_PREVIOUS_ARMY",
+  "offset": 976,
+  "str_va": "0xe9dfda",
+  "anchor_va": "0x3f9840"
+ },
+ {
+  "name": "ENABLE_PREVIOUS_ARMY_TH_LEVEL",
+  "offset": 980,
+  "str_va": "0xe7fd60",
+  "anchor_va": "0x3f986c"
+ },
+ {
+  "name": "ADJUST_END_SUBTICK_USE_CURRENT_TIME",
+  "offset": 984,
+  "str_va": "0xe990a9",
+  "anchor_va": "0x3f9898"
+ },
+ {
+  "name": "ARRANGED_WAR_DURATIONS_MINUTES",
+  "offset": 920,
+  "str_va": "0xe7a2b3",
+  "anchor_va": "0x3f98f0"
+ },
+ {
+  "name": "ARRANGED_WAR_PREPARATION_DURATIONS_MINUTES",
+  "offset": 912,
+  "str_va": "0xe76193",
+  "anchor_va": "0x3f9988"
+ },
+ {
+  "name": "BARRACK_REDUCE_TRAINING_DIVISOR",
+  "offset": null,
+  "str_va": "0xe9e07e",
+  "anchor_va": "0x3f99dc"
+ },
+ {
+  "name": "DARK_BARRACK_REDUCE_TRAINING_DIVISOR",
+  "offset": null,
+  "str_va": "0xe95043",
+  "anchor_va": "0x3f9a3c"
+ },
+ {
+  "name": "INVITE_FRIENDS_TO_ALLIANCE",
+  "offset": 968,
+  "str_va": "0xe95c68",
+  "anchor_va": "0x3f9ab4"
+ },
+ {
+  "name": "NEW_TRAINING_BOOST_BARRACKS_COST",
+  "offset": 956,
+  "str_va": "0xbfc89c",
+  "anchor_va": "0x3f9ae0"
+ },
+ {
+  "name": "NEW_TRAINING_BOOST_LABORATORY_COST",
+  "offset": 964,
+  "str_va": "0xe7b156",
+  "anchor_va": "0x3f9b0c"
+ },
+ {
+  "name": "BARRACKS_BOOST_MULTIPLIER_NEW",
+  "offset": 952,
+  "str_va": "0xe8e119",
+  "anchor_va": "0x3f9b38"
+ },
+ {
+  "name": "SPELL_FACTORY_BOOST_MULTIPLIER_NEW",
+  "offset": 960,
+  "str_va": "0xd68eef",
+  "anchor_va": "0x3f9b64"
+ },
+ {
+  "name": "USE_ALLIANCE_WARS_XP_BY_STRENGTH",
+  "offset": 969,
+  "str_va": "0xbf96b3",
+  "anchor_va": "0x3f9b90"
+ },
+ {
+  "name": "USE_TOWNHALL_LOOT_PENALTY_IN_WAR",
+  "offset": 970,
+  "str_va": "0xd230da",
+  "anchor_va": "0x3f9bbc"
+ },
+ {
+  "name": "USE_VILLAGE_OBJECTS",
+  "offset": 985,
+  "str_va": "0xd3feb7",
+  "anchor_va": "0x3f9be8"
+ },
+ {
+  "name": "SAVE_VILLAGE_OBJECTS",
+  "offset": 986,
+  "str_va": "0xe90ab0",
+  "anchor_va": "0x3f9c14"
+ },
+ {
+  "name": "MAX_FRIENDLY_WAR_OPEN_CHALLENGES_AT_SAME_TIME",
+  "offset": 988,
+  "str_va": "0xe81f6a",
+  "anchor_va": "0x3f9c40"
+ },
+ {
+  "name": "REFUND_OVERTRAINING_IN_TRANSITION_TO_NEW_T",
+  "offset": 993,
+  "str_va": "0xbeb92e",
+  "anchor_va": "0x3f9c6c"
+ },
+ {
+  "name": "DO_MIGRATION_FROM_OLD_TRAINING_TO_NEW",
+  "offset": 994,
+  "str_va": "0xe8fb0a",
+  "anchor_va": "0x3f9c98"
+ },
+ {
+  "name": "TROOP_TRAINING_SPEED_UP_COST_TUTORIAL",
+  "offset": 996,
+  "str_va": "0xbfd4bf",
+  "anchor_va": "0x3f9cc4"
+ },
+ {
+  "name": "DUEL_MATCHMAKING_ALLOWED_OFFLINE",
+  "offset": 995,
+  "str_va": "0xe8f8cb",
+  "anchor_va": "0x3f9cf0"
+ },
+ {
+  "name": "USE_NEW_VILLAGE_SCRAMBLER",
+  "offset": 1032,
+  "str_va": "0xe7dde3",
+  "anchor_va": "0x3f9d1c"
+ },
+ {
+  "name": "CLEAN_UP_PRESET_ARMIES_FROM_CALENDAR_UNITS",
+  "offset": 1033,
+  "str_va": "0xd2e768",
+  "anchor_va": "0x3f9d48"
+ },
+ {
+  "name": "NEW_MEMBER_CANT_GET_GIFT_MINUTES",
+  "offset": 1004,
+  "str_va": "0xfc95e9",
+  "anchor_va": "0x3f9d74"
+ },
+ {
+  "name": "COLLECT_ALL_RESOURCES_AT_ONCE",
+  "offset": 992,
+  "str_va": "0xd242ab",
+  "anchor_va": "0x3f9da0"
+ },
+ {
+  "name": "TALLGRASS_RESPAWN_SECONDS",
+  "offset": 1008,
+  "str_va": "0xd71369",
+  "anchor_va": "0x3f9dcc"
+ },
+ {
+  "name": "VILLAGE2_START_UNIT_LEVEL",
+  "offset": 1012,
+  "str_va": "0xe8b1d0",
+  "anchor_va": "0x3f9df8"
+ },
+ {
+  "name": "MINIMUM_CHANGE_FOR_REAL_BATTLE",
+  "offset": 1048,
+  "str_va": "0xd59aca",
+  "anchor_va": "0x3f9e24"
+ },
+ {
+  "name": "VILLAGE2_FIRST_VICTORY_TROPHIES",
+  "offset": 1052,
+  "str_va": "0xbee936",
+  "anchor_va": "0x3f9e50"
+ },
+ {
+  "name": "VILLAGE2_FIRST_VICTORY_GOLD",
+  "offset": 1056,
+  "str_va": "0xe673f0",
+  "anchor_va": "0x3f9e7c"
+ },
+ {
+  "name": "VILLAGE2_FIRST_VICTORY_ELIXIR",
+  "offset": 1060,
+  "str_va": "0xbde6cf",
+  "anchor_va": "0x3f9ea8"
+ },
+ {
+  "name": "VILLAGE2_LOW_TROPHY_LIMIT",
+  "offset": 1064,
+  "str_va": "0xd2331c",
+  "anchor_va": "0x3f9ed4"
+ },
+ {
+  "name": "VILLAGE2_LOW_TROPHY_OFFER",
+  "offset": 1068,
+  "str_va": "0xe0afbd",
+  "anchor_va": "0x3f9f00"
+ },
+ {
+  "name": "START_IN_LAST_USED_VILLAGE",
+  "offset": 1034,
+  "str_va": "0xe81d9d",
+  "anchor_va": "0x3f9f2c"
+ },
+ {
+  "name": "ALLOW_STARS_OVERFLOW_IN_STAR_BONUS",
+  "offset": 1035,
+  "str_va": "0xbf3f18",
+  "anchor_va": "0x3f9f58"
+ },
+ {
+  "name": "GUARD_POST_NOT_FUNCTIONAL_UNDER_UGPRADE",
+  "offset": 1072,
+  "str_va": "0xe90106",
+  "anchor_va": "0x3f9f84"
+ },
+ {
+  "name": "TROOP_HOUSING_V2_COST",
+  "offset": null,
+  "str_va": "0xd6e9e9",
+  "anchor_va": "0x3f9fb0"
+ },
+ {
+  "name": "TROOP_HOUSING_V2_BUILD_TIME_SECONDS",
+  "offset": null,
+  "str_va": "0xc01abd",
+  "anchor_va": "0x3fa010"
+ },
+ {
+  "name": "VILLAGE2_START_UNIT",
+  "offset": null,
+  "str_va": "0xe0a140",
+  "anchor_va": "0x3fa070"
+ },
+ {
+  "name": "DUEL_LOOT_LIMIT_FREE_SPEEDUPS",
+  "offset": 1000,
+  "str_va": "0xe96934",
+  "anchor_va": "0x3fa0bc"
+ },
+ {
+  "name": "BUILDER_BASE_SNAPSHOT_SAVE_HOME",
+  "offset": 1073,
+  "str_va": "0xbecb9b",
+  "anchor_va": "0x3fa0e8"
+ },
+ {
+  "name": "STOP_BOOST_PAUSE_WHEN_BOOST_TIME_ZERO_ON_LOAD",
+  "offset": 1084,
+  "str_va": "0xd303df",
+  "anchor_va": "0x3fa114"
+ },
+ {
+  "name": "FIX_MERGE_OLD_BARRACK_BOOST_PAUSING",
+  "offset": 1085,
+  "str_va": "0xd481e8",
+  "anchor_va": "0x3fa140"
+ },
+ {
+  "name": "TARGET_LIST_SIZE",
+  "offset": 1088,
+  "str_va": "0xea7bfd",
+  "anchor_va": "0x3fa16c"
+ },
+ {
+  "name": "CLAMP_AVATAR_TIMERS_TO_MAX",
+  "offset": 1092,
+  "str_va": "0xbf9c99",
+  "anchor_va": "0x3fa1b0"
+ },
+ {
+  "name": "ENABLE_COPY_LAYOUT_AT_TH",
+  "offset": 1096,
+  "str_va": "0xe6ea08",
+  "anchor_va": "0x3fa1dc"
+ },
+ {
+  "name": "COPY_LAYOUT_ALLOWED_TH_DIFFERENCE",
+  "offset": 1100,
+  "str_va": "0xe99ccd",
+  "anchor_va": "0x3fa20c"
+ },
+ {
+  "name": "BOOSTER_DIAMOND_DIVIDER",
+  "offset": 1104,
+  "str_va": "0xbe172e",
+  "anchor_va": "0x3fa238"
+ },
+ {
+  "name": "BOOSTER_MAX_OUT_ARMY_COST",
+  "offset": 1108,
+  "str_va": "0xfd701f",
+  "anchor_va": "0x3fa264"
+ },
+ {
+  "name": "BOOSTER_MAX_OUT_HEROES",
+  "offset": 1112,
+  "str_va": "0xd70fd9",
+  "anchor_va": "0x3fa290"
+ },
+ {
+  "name": "BOOSTER_MAX_OUT_ARMY_DURATION",
+  "offset": 1116,
+  "str_va": "0xe94130",
+  "anchor_va": "0x3fa2bc"
+ },
+ {
+  "name": "BOOSTER_MAX_OUT_ARMY_CONFIRMATION",
+  "offset": 1120,
+  "str_va": "0xe99e92",
+  "anchor_va": "0x3fa2e8"
+ },
+ {
+  "name": "BOOSTER_BUILDERS_SPEEDUP",
+  "offset": 1124,
+  "str_va": "0xe97b9c",
+  "anchor_va": "0x3fa314"
+ },
+ {
+  "name": "BOOSTER_BUILDERS_DURATION",
+  "offset": 1128,
+  "str_va": "0xea83de",
+  "anchor_va": "0x3fa340"
+ },
+ {
+  "name": "CLAN_GAMES_MAX_TIME_AFTER_EVENT_FOR_REWARDS",
+  "offset": 1132,
+  "str_va": "0xd6ce81",
+  "anchor_va": "0x3fa36c"
+ },
+ {
+  "name": "CLAN_GAMES_AUTO_EXPIRE_REWARDS_ON_NEW_GAMES",
+  "offset": 1136,
+  "str_va": "0xfcf0ea",
+  "anchor_va": "0x3fa398"
+ },
+ {
+  "name": "CLAN_GAMES_AUTO_EXPIRE_REWARDS_ON_TIME_LIMIT",
+  "offset": 1137,
+  "str_va": "0xfcc32f",
+  "anchor_va": "0x3fa3c4"
+ },
+ {
+  "name": "CLAN_GAMES_DELAY_AFTER_END_FOR_SCORE",
+  "offset": 1140,
+  "str_va": "0xd464ca",
+  "anchor_va": "0x3fa3f0"
+ },
+ {
+  "name": "CLAN_GAMES_TIME_BEFORE_END_LAST_TASK",
+  "offset": 1144,
+  "str_va": "0xbebb9e",
+  "anchor_va": "0x3fa41c"
+ },
+ {
+  "name": "CLAN_GAMES_INITIAL_TRASH_COOLDOWN",
+  "offset": 1148,
+  "str_va": "0xd2f697",
+  "anchor_va": "0x3fa448"
+ },
+ {
+  "name": "CLAN_GAMES_TRASH_COOLDOWN_INCREMENT",
+  "offset": 1152,
+  "str_va": "0xbddcff",
+  "anchor_va": "0x3fa474"
+ },
+ {
+  "name": "CLAN_GAMES_MAX_TRASH_COOLDOWN",
+  "offset": 1156,
+  "str_va": "0xe8f98c",
+  "anchor_va": "0x3fa4a0"
+ },
+ {
+  "name": "CLAN_GAMES_TRASH_COOLDOWN_SKIP_COST_PCT",
+  "offset": 1160,
+  "str_va": "0xfd7b61",
+  "anchor_va": "0x3fa4cc"
+ },
+ {
+  "name": "CLAN_GAMES_MIN_TOWN_HALL",
+  "offset": 1164,
+  "str_va": "0xbe7c07",
+  "anchor_va": "0x3fa4f8"
+ },
+ {
+  "name": "ENABLE_TRADER",
+  "offset": 1168,
+  "str_va": "0xe60aa6",
+  "anchor_va": "0x3fa524"
+ },
+ {
+  "name": "MIN_TH_LEVEL_FOR_TRADER",
+  "offset": 1172,
+  "str_va": "0xe77f0c",
+  "anchor_va": "0x3fa550"
+ },
+ {
+  "name": "REQUIRE_ALL_BUILDINGS_PLACED_FOR_TOWN_HALL_UPGRADE",
+  "offset": 1191,
+  "str_va": "0xbfa350",
+  "anchor_va": "0x3fa57c"
+ },
+ {
+  "name": "MAX_WAR_CALLS_FOR_PLAYER",
+  "offset": 1180,
+  "str_va": "0xe95227",
+  "anchor_va": "0x3fa5a8"
+ },
+ {
+  "name": "MAX_WAR_CALLS_FOR_TARGET",
+  "offset": 1184,
+  "str_va": "0xfd82b7",
+  "anchor_va": "0x3fa5d4"
+ },
+ {
+  "name": "CAN_ELDER_EDIT_WAR_TOOLS_NOTES",
+  "offset": 1188,
+  "str_va": "0xbfb079",
+  "anchor_va": "0x3fa600"
+ },
+ {
+  "name": "CAN_MEMBER_EDIT_WAR_TOOLS_NOTES",
+  "offset": 1189,
+  "str_va": "0xe5f3fe",
+  "anchor_va": "0x3fa62c"
+ },
+ {
+  "name": "USE_WAR_TOOLS",
+  "offset": 1176,
+  "str_va": "0xbe7a6b",
+  "anchor_va": "0x3fa658"
+ },
+ {
+  "name": "SIEGE_MACHINE_SELF_DESTRUCT_ON_REACHING_TARGET",
+  "offset": 1192,
+  "str_va": "0xbe5ba0",
+  "anchor_va": "0x3fa684"
+ },
+ {
+  "name": "NAME_CHANGE_GEM_COST",
+  "offset": 1200,
+  "str_va": "0xe7cd94",
+  "anchor_va": "0x3fa6dc"
+ },
+ {
+  "name": "USE_VILLAGE_OBJECT_SELECT_FIX",
+  "offset": 1213,
+  "str_va": "0xbee172",
+  "anchor_va": "0x3fa710"
+ },
+ {
+  "name": "PAID_NAME_CHANGES_ENABLED",
+  "offset": 1193,
+  "str_va": "0xea89ea",
+  "anchor_va": "0x3fa73c"
+ },
+ {
+  "name": "NAME_CHANGE_COOLDOWN_HOURS",
+  "offset": 1208,
+  "str_va": "0xd6d079",
+  "anchor_va": "0x3fa768"
+ },
+ {
+  "name": "LAYOUT_GEM_PRICES",
+  "offset": 1224,
+  "str_va": "0xe9f366",
+  "anchor_va": "0x3fa7c8"
+ },
+ {
+  "name": "SIEGE_MACHINE_USE_DOUBLE_TAP_DEPLOY_FIX",
+  "offset": 1214,
+  "str_va": "0xfcb5c9",
+  "anchor_va": "0x3fa818"
+ },
+ {
+  "name": "CLEAN_UP_CALENDAR_UNITS",
+  "offset": 1215,
+  "str_va": "0xd23975",
+  "anchor_va": "0x3fa844"
+ },
+ {
+  "name": "CLEAN_UP_ALLIANCE_UNITS",
+  "offset": 1216,
+  "str_va": "0xe9931c",
+  "anchor_va": "0x3fa870"
+ },
+ {
+  "name": "PREVIOUS_ARMY_ONLY_DEPLOYED_UNITS",
+  "offset": 1212,
+  "str_va": "0xfd7156",
+  "anchor_va": "0x3fa89c"
+ },
+ {
+  "name": "USE_FIREMODES_WITH_COPY_LAYOUT",
+  "offset": 1190,
+  "str_va": "0xe79c6f",
+  "anchor_va": "0x3fa8c8"
+ },
+ {
+  "name": "TORNADO_FORCE",
+  "offset": 1232,
+  "str_va": "0xe9ff39",
+  "anchor_va": "0x3fa920"
+ },
+ {
+  "name": "TORNADO_FORCE_AIR",
+  "offset": 1240,
+  "str_va": "0xbee8c5",
+  "anchor_va": "0x3fa980"
+ },
+ {
+  "name": "TORNADO_ROTATION_SPEED",
+  "offset": 1248,
+  "str_va": "0xe70006",
+  "anchor_va": "0x3fa9b4"
+ },
+ {
+  "name": "TORNADO_INNER_RADIUS",
+  "offset": 1252,
+  "str_va": "0xe972d1",
+  "anchor_va": "0x3fa9e0"
+ },
+ {
+  "name": "TORNADO_SPEED_TOWARDS_CENTER",
+  "offset": 1256,
+  "str_va": "0xbeba84",
+  "anchor_va": "0x3faa0c"
+ },
+ {
+  "name": "TORNADO_INNER_FORCE_PERCENT",
+  "offset": 1260,
+  "str_va": "0xe86a56",
+  "anchor_va": "0x3faa38"
+ },
+ {
+  "name": "TORNADO_OUTER_FORCE_PERCENT",
+  "offset": 1264,
+  "str_va": "0xfcaca6",
+  "anchor_va": "0x3faa64"
+ },
+ {
+  "name": "TORNADO_SIEGE_FORCE_TIER",
+  "offset": 1268,
+  "str_va": "0xe8d9e8",
+  "anchor_va": "0x3faa90"
+ },
+ {
+  "name": "BOOSTER_CLOCKTOWER_DURATION",
+  "offset": 1272,
+  "str_va": "0xe78929",
+  "anchor_va": "0x3faabc"
+ },
+ {
+  "name": "BOOSTER_HERO_POTION_DURATION",
+  "offset": 1276,
+  "str_va": "0xd21700",
+  "anchor_va": "0x3faae8"
+ },
+ {
+  "name": "BOOSTER_HERO_POTION_ADD_LEVELS",
+  "offset": 1280,
+  "str_va": "0xfcc781",
+  "anchor_va": "0x3fab14"
+ },
+ {
+  "name": "BOOSTER_LABORATORY_DURATION",
+  "offset": 1288,
+  "str_va": "0xbfe1f0",
+  "anchor_va": "0x3fab40"
+ },
+ {
+  "name": "BOOSTER_LABORATORY_SPEEDUP",
+  "offset": 1284,
+  "str_va": "0xbdce94",
+  "anchor_va": "0x3fab6c"
+ },
+ {
+  "name": "CRL_SUPPORT",
+  "offset": 1292,
+  "str_va": "0xbddff2",
+  "anchor_va": "0x3fab98"
+ },
+ {
+  "name": "MAX_MEDALS",
+  "offset": 1296,
+  "str_va": "0xe0c289",
+  "anchor_va": "0x3fabc4"
+ },
+ {
+  "name": "MEDAL_GEM_CONVERSION_PCT",
+  "offset": 1300,
+  "str_va": "0xe978b2",
+  "anchor_va": "0x3fabf0"
+ },
+ {
+  "name": "EVENT_REWARD_OVERFLOW_ALLOWED",
+  "offset": 1304,
+  "str_va": "0xbe9d22",
+  "anchor_va": "0x3fac1c"
+ },
+ {
+  "name": "SHOW_CLAN_CHAT_RULES_INTERVAL_DAYS",
+  "offset": 1308,
+  "str_va": "0xe21a50",
+  "anchor_va": "0x3fac48"
+ },
+ {
+  "name": "SHOW_CLAN_CHAT_RULES_PERIODICALLY",
+  "offset": 1305,
+  "str_va": "0xe8da33",
+  "anchor_va": "0x3fac80"
+ },
+ {
+  "name": "STICK_TO_TARGETED_BUILDING_WHEN_FORCING_RETARGET",
+  "offset": 1312,
+  "str_va": "0xbef300",
+  "anchor_va": "0x3facac"
+ },
+ {
+  "name": "BATTLE_PASS_MIN_TOWN_HALL",
+  "offset": 1316,
+  "str_va": "0xd22118",
+  "anchor_va": "0x3facd8"
+ },
+ {
+  "name": "USE_DEPLOY_STEP_3STARS_WARNING_POPUP",
+  "offset": 444,
+  "str_va": "0xe0bbee",
+  "anchor_va": "0x3fad04"
+ },
+ {
+  "name": "NPC_CHALLENGE_TEST_ENABLED",
+  "offset": 1320,
+  "str_va": "0xd480f9",
+  "anchor_va": "0x3fad30"
+ },
+ {
+  "name": "AUTO_UPGRADE_BUILDINGS_WITH_UPGRADE_TASKS",
+  "offset": 1321,
+  "str_va": "0xe8e00a",
+  "anchor_va": "0x3fad5c"
+ },
+ {
+  "name": "LEGENDS_SECONDS_ATTACKS_DISABLED_BEFORE_DAY_END",
+  "offset": 1324,
+  "str_va": "0xd6fc65",
+  "anchor_va": "0x3fad88"
+ },
+ {
+  "name": "USE_GOBLIN_PRACTICE_STAR_BUG_WORKAROUND",
+  "offset": 1340,
+  "str_va": "0xe9eacb",
+  "anchor_va": "0x3fadb4"
+ },
+ {
+  "name": "SHOW_LEGEND_LOOT_IN_STORAGES",
+  "offset": 1322,
+  "str_va": "0xe5f81e",
+  "anchor_va": "0x3fade0"
+ },
+ {
+  "name": "MIN_BUILDINGS_FOR_VALID_LEGEND_LAYOUT",
+  "offset": 1328,
+  "str_va": "0xe211de",
+  "anchor_va": "0x3fae0c"
+ },
+ {
+  "name": "LOOT_CART_DEFENSE_PERCENTAGE",
+  "offset": 1344,
+  "str_va": "0xe64ab3",
+  "anchor_va": "0x3fae38"
+ },
+ {
+  "name": "SUPPORT_CREATOR_ENABLED",
+  "offset": 1332,
+  "str_va": "0xe6e038",
+  "anchor_va": "0x3fae64"
+ },
+ {
+  "name": "SUPPORT_CREATOR_VALID_DAYS",
+  "offset": 1336,
+  "str_va": "0xe92dd3",
+  "anchor_va": "0x3fae90"
+ },
+ {
+  "name": "CLAN_TAG_COUNT",
+  "offset": 1348,
+  "str_va": "0xbfdcb3",
+  "anchor_va": "0x3faec4"
+ },
+ {
+  "name": "CLAN_TAG_COUNT",
+  "offset": 1352,
+  "str_va": "0xbfdcb3",
+  "anchor_va": "0x3faeec"
+ },
+ {
+  "name": "USE_SIEGE_IN_PRESETS",
+  "offset": 1356,
+  "str_va": "0xe0b49f",
+  "anchor_va": "0x3faf18"
+ },
+ {
+  "name": "USE_NEW_ATTACK_POSITION_CALCULATOR",
+  "offset": 1357,
+  "str_va": "0xe9540b",
+  "anchor_va": "0x3faf44"
+ },
+ {
+  "name": "WARDEN_WAITS_FOR_GROUP_RETARGETING",
+  "offset": 1358,
+  "str_va": "0xe8de86",
+  "anchor_va": "0x3faf70"
+ },
+ {
+  "name": "PRUNE_ATTACK_POSITION_EVALUATION_PATHS",
+  "offset": 1359,
+  "str_va": "0xfca42f",
+  "anchor_va": "0x3faf9c"
+ },
+ {
+  "name": "RETARGET_AFTER_DESTROYING_WALL",
+  "offset": 1360,
+  "str_va": "0xe968af",
+  "anchor_va": "0x3fafc8"
+ },
+ {
+  "name": "AIR_WARDEN_TARGETED_EFFECT_OFFSET",
+  "offset": 1364,
+  "str_va": "0xbea384",
+  "anchor_va": "0x3faff4"
+ },
+ {
+  "name": "USE_SMART_SPRING_TRAPS",
+  "offset": 1368,
+  "str_va": "0xbe163e",
+  "anchor_va": "0x3fb03c"
+ },
+ {
+  "name": "MAX_ACTIVE_SUPER_LICENCES",
+  "offset": 1372,
+  "str_va": "0xe8d47e",
+  "anchor_va": "0x3fb068"
+ },
+ {
+  "name": "MIN_TH_LEVEL_FOR_SUPER_LICENCES",
+  "offset": 1376,
+  "str_va": "0xfccfbc",
+  "anchor_va": "0x3fb094"
+ },
+ {
+  "name": "INFERNO_DRAGON_BEAM_COOLDOWN_TIME",
+  "offset": 1380,
+  "str_va": "0xd23336",
+  "anchor_va": "0x3fb0c0"
+ },
+ {
+  "name": "MIN_ABSENCE_TRIGGER_REENGAGEMENT_DAYS",
+  "offset": 1384,
+  "str_va": "0xd45bb2",
+  "anchor_va": "0x3fb0ec"
+ },
+ {
+  "name": "MAX_ABSENCE_REENGAGEMENT_SCALING_DAYS",
+  "offset": 1388,
+  "str_va": "0xbed94c",
+  "anchor_va": "0x3fb11c"
+ },
+ {
+  "name": "MIN_TIME_TRIGGER_REENGAGEMENT_DAYS",
+  "offset": 1392,
+  "str_va": "0xd273e9",
+  "anchor_va": "0x3fb14c"
+ },
+ {
+  "name": "MIN_REENGAGEMENT_SCALING",
+  "offset": 1396,
+  "str_va": "0xd255c1",
+  "anchor_va": "0x3fb17c"
+ },
+ {
+  "name": "MIN_REENGAGEMENT_TOWN_HALL",
+  "offset": 1400,
+  "str_va": "0xe9e80f",
+  "anchor_va": "0x3fb1a8"
+ },
+ {
+  "name": "REENGAGEMENT_REINFORCEMENT_COUNTDOWN",
+  "offset": 1404,
+  "str_va": "0xe6e6d1",
+  "anchor_va": "0x3fb1d4"
+ },
+ {
+  "name": "REENGAGEMENT_REINFORCEMENT_MAX_HOUSING_FILLED",
+  "offset": 1408,
+  "str_va": "0xfd707b",
+  "anchor_va": "0x3fb200"
+ },
+ {
+  "name": "REENGAGEMENT_TRAINING_BOOST_HOURS",
+  "offset": 1412,
+  "str_va": "0xbef331",
+  "anchor_va": "0x3fb22c"
+ },
+ {
+  "name": "REENGAGEMENT_STAR_BONUS_BOOST_DAYS",
+  "offset": 1416,
+  "str_va": "0xbfa03f",
+  "anchor_va": "0x3fb260"
+ },
+ {
+  "name": "REENGAGEMENT_VILLAGE_GUARD_HOURS",
+  "offset": 1420,
+  "str_va": "0xfcabc3",
+  "anchor_va": "0x3fb290"
+ },
+ {
+  "name": "REENGAGEMENT_TROPHY_DECAY_PERCENTAGE",
+  "offset": 1424,
+  "str_va": "0xd714a6",
+  "anchor_va": "0x3fb2c0"
+ },
+ {
+  "name": "REENGAGEMENT_PVP_VERY_EASY_ATTACK_COUNT",
+  "offset": 1428,
+  "str_va": "0xe7d6f7",
+  "anchor_va": "0x3fb2ec"
+ },
+ {
+  "name": "REENGAGEMENT_PVP_EASY_ATTACK_COUNT",
+  "offset": 1432,
+  "str_va": "0xbdf35b",
+  "anchor_va": "0x3fb318"
+ },
+ {
+  "name": "AUTO_RETURN_MAIN_VILLAGE_DAYS",
+  "offset": 1436,
+  "str_va": "0xd566e1",
+  "anchor_va": "0x3fb344"
+ },
+ {
+  "name": "RETARGET_WHEN_EXITING_JUMP_SPELL",
+  "offset": 1440,
+  "str_va": "0xbdefeb",
+  "anchor_va": "0x3fb374"
+ },
+ {
+  "name": "PAUSE_BOOSTS_THRESHOLD_SECONDS",
+  "offset": 1444,
+  "str_va": "0xe83e87",
+  "anchor_va": "0x3fb3a0"
+ },
+ {
+  "name": "TH_UPGRADE_STAR_BONUS_BOOST_MULTIPLIER",
+  "offset": 1448,
+  "str_va": "0xbfbdcb",
+  "anchor_va": "0x3fb3cc"
+ },
+ {
+  "name": "TH_UPGRADE_EASY_ATTACK_COUNT",
+  "offset": 1452,
+  "str_va": "0xd6ddb1",
+  "anchor_va": "0x3fb3f8"
+ },
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x4b6a24"
+ },
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x521fbc"
+ },
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x5525a8"
+ },
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x66b8ac"
+ },
+ {
+  "name": null,
+  "offset": null,
+  "str_va": null,
+  "anchor_va": "0x705a38"
+ },
+ {
+  "name": "#ifdef GL_ES\nprecision lowp float;\n#else\n#define highp \n#define mediump \n#define lowp \n#endif\nvd_vcxz&e\")yp\u007f\u0018Gt/?iBy'j&I",
+  "offset": null,
+  "str_va": "0xe708d9",
+  "anchor_va": "0x85ca78"
+ }
+]

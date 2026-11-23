@@ -11,11 +11,11 @@
 
 **Verdict: BERAT — feasible secara prinsip, tapi BUKAN proyek cepat. Skala usaha 2–6 bulan untuk hasil setara Nara di 13.x, dengan risiko gagal nyata di tengah jalan.**
 
-Alasan singkatnya: klien 13.369.4 resmi jauh lebih tertutup dari 5.2. String `libg.so` terenkripsi (hostname server dan materi kripto tidak bisa dibaca dari statis), kunci RC4 era UCS tidak ada lagi, CSV gameplay kini bertanda tangan (`Sig:` + 64 byte), ada cek signature APK (11 hash hardcoded) dan jalur verifikasi integritas perangkat. Jalur Nara (ganti IP + pakai kunci RC4 publik + server UCS) **tidak bisa dipakai ulang** untuk 13.x — protokolnya harus di-RE dari nol lewat analisis runtime.
+Alasan singkatnya: klien 13.369.4 resmi jauh lebih tertutup dari 5.2. String `libg.so` terenkripsi, CSV gameplay kini bertanda tangan (`Sig:` + 64 byte), ada cek signature APK (11 hash hardcoded) dan jalur verifikasi integritas perangkat. Jalur Nara (ganti IP + pakai kunci RC4 publik + server UCS) **tidak bisa dipakai ulang mentah-mentah** untuk 13.x — nomor pesan dan format 13.x tetap harus di-RE — tapi fondasinya ternyata masih sama: **addendum arm64 membuktikan skema enkripsi string terpecahkan (XOR keystream), hostname `gamea.clashofclans.com` + `and.game.coc.qq.com` ditemukan di port 9339, dan kunci RC4 UCS `fhsd6f86…` MASIH ADA** — lihat [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md).
 
-Ada satu jalur pintas yang lebih ringan (jalur B di §5 — mode offline bawaan klien via patch flag, seperti yang dilakukan komunitas 8133 untuk versi lama), tapi itu pun belum terbukti untuk 13.x dan cakupannya lebih sempit dari server penuh.
+Jalur pintas Jalur B (§5 — mode offline bawaan klien via patch flag, seperti yang dilakukan komunitas 8133 untuk versi lama) **kini terbukti tidak punya target**: tabel LogicDefines lengkap (397 nama) tidak mengandung flag `OFFLINE_MODE` sama sekali — satu-satunya define offline adalah `DUEL_MATCHMAKING_ALLOWED_OFFLINE`. **Rekomendasi berubah: Jalur A menjadi jalur utama; Jalur B turun prioritas.**
 
-**Satu koreksi penting:** file yang berhasil didapat dan dianalisis ternyata **varian armeabi-v7a (32-bit), BUKAN arm64** — lihat §1. `libg.so` arm64 belum didapat; itu prasyarat sebelum pekerjaan lanjutan apa pun.
+**Koreksi varian:** file yang pertama didapat ternyata **varian armeabi-v7a (32-bit), BUKAN arm64** — lihat §1. **Varian arm64-v8a yang benar SUDAH didapat dan dianalisis penuh pada 23 Nov 2026** — laporan addendum [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md) (file `CoC-13.369.4-arm64-v8a.apk`, 155.005.470 B, SHA-256 `199eb3a70ca0c79e2bc51859f6bf91db97bd375bb044632c38eed43cb9640ac2`).
 
 ---
 
@@ -32,16 +32,17 @@ Ada satu jalur pintas yang lebih ringan (jalur B di §5 — mode offline bawaan 
 | Signer | `CN=Visa Forsten, OU=Supercell, O=Supercell, L=Helsinki, ST=Uusimaa, C=FI`, RSA 4096; SHA-256 signer `9ea146d9…0d4d9c`; skema v1+v2 terverifikasi |
 | Activity utama | `com.supercell.titan.GameApp`; app class `TitanMultidexApplication` |
 | File lokal | `~/workspace/rea-coc-13x/CoC-13.369.4-armeabi-v7a.apk` (nama diganti 23 Nov — semula `…-arm64.apk`, menyesatkan) |
+| **Varian arm64 (UPDATE 23 Nov)** | **`CoC-13.369.4-arm64-v8a.apk` — 155.005.470 B, SHA-256 `199eb3a70ca0c79e2bc51859f6bf91db97bd375bb044632c38eed43cb9640ac2`, native-code `arm64-v8a`, signer Supercell IDENTIK — dianalisis penuh di [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md)** |
 
 ### 1.1 Koreksi varian — BUKAN arm64
 
 Bukti (terverifikasi langsung): `aapt dump badging` → `native-code: 'armeabi-v7a'`; direktori `lib/` hanya berisi 5 file `armeabi-v7a`, tidak ada `lib/arm64-v8a`; kelima `.so` terverifikasi ELF32 ARM. APK ini adalah **base APK dari Android App Bundle** (signer `BNDLTOOL`, ada `res/xml/splits0.xml` yang isinya hanya modul bahasa) — library arm64 semestinya ada di split APK terpisah (`config.arm64_v8a`) yang tidak ikut terunduh.
 
-**Konsekuensi:** semua pernyataan tentang `libg.so` di laporan ini adalah tentang `libg.so` **ARM32** (13.607.752 B, SHA-256 `1be70496…b5b1bf1`). Temuan DEX, manifest, assets, dan CSV berlaku umum antar varian ABI; pola/offset native arm64 bisa berbeda dan **belum dianalisis**.
+**Konsekuensi:** semua pernyataan tentang `libg.so` di laporan ini adalah tentang `libg.so` **ARM32** (13.607.752 B, SHA-256 `1be70496…b5b1bf1`). Temuan DEX, manifest, assets, dan CSV berlaku umum antar varian ABI. **UPDATE 23 Nov: `libg.so` arm64 (16.822.096 B, SHA-256 `d7b57c1b…c468`) SUDAH didapat dan dianalisis — skema enkripsi stringnya TERPECAHKAN (XOR keystream K, 138 byte), hostname + kunci RC4 ditemukan, tabel LogicDefines lengkap diekstrak. Detail di [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md).**
 
 ### 1.2 Sumber APK — link user + fallback
 
-- **Link langsung APKMirror yang dikirim user** (tautan unduhan langsung disensor — minta ke Alyaa bila perlu; varian arm64) dicoba 2× dari VM: selalu **HTTP 403** dari Cloudflare APKMirror (dengan dan tanpa header Referer). Penyebab paling mungkin: key unduhan sudah kedaluwarsa (key APKMirror berumur pendek) dan/atau Cloudflare memblokir IP datacenter VM. APKPure (`d.apkpure.com`, `download.apkpure.com`) juga 403; direct link a2zapk JS-gated.
+- **Link langsung APKMirror yang dikirim user** (tautan unduhan langsung disensor — minta ke Alyaa bila perlu), varian arm64) dicoba 2× dari VM: selalu **HTTP 403** dari Cloudflare APKMirror (dengan dan tanpa header Referer). Penyebab paling mungkin: key unduhan sudah kedaluwarsa (key APKMirror berumur pendek) dan/atau Cloudflare memblokir IP datacenter VM. APKPure (`d.apkpure.com`, `download.apkpure.com`) juga 403; direct link a2zapk JS-gated.
 - **Fallback yang dipakai:** androidapks.com / androidapksfree CDN (22 Jun 2020), MD5 terverifikasi cocok dengan katalog mirror. Mayoritas mirror lain (Downzen dkk.) juga menyajikan varian armeabi-v7a sebagai "13.369.4" — varian arm64 terutama tersedia di APKMirror.
 - **Catatan ukuran:** APKMirror mencantumkan varian arm64 nodpi ±147,82 MB; file yang didapat 147,10 MiB — selisih ini konsisten dengan perbedaan varian ABI, bukan file rusak.
 
@@ -51,11 +52,11 @@ Bukti (terverifikasi langsung): `aapt dump badging` → `native-code: 'armeabi-v
 
 Detail + bukti di [`analysis/REA-FINDINGS.md`](analysis/REA-FINDINGS.md) §3.
 
-1. **Varian sebenarnya armeabi-v7a, bukan arm64** (§1.1). `libg.so` arm64 belum didapat — prasyarat riset lanjutan.
-2. **String `libg.so` terenkripsi.** `.rodata` hanya 125 KB berisi nama JNI; `.data` ±4 MB ber-entropi **7,983** (nyaris acak); brute-force XOR 1-byte atas 13,6 MB untuk `gamea`, `clashofclans`, `127.0.0.1`, `Connecting`, `fhsd6f86`, `nonce` → **nol hit**. Hostname, pesan login, dan kripto sesi baru bisa dibaca setelah dekripsi runtime.
-3. **Hostname `gamea.clashofclans.com`: 0 kemunculan** di `libg.so`, `classes.dex`, `assets/`, `resources.arsc`. `127.0.0.1` / `9339` / `10101` / `20104` / `LoginOk`: juga 0. Satu-satunya host Supercell plaintext adalah link bantuan Helpshift.
-4. **Kunci RC4 UCS tidak ada.** String `"fhsd6f86f67rt8fw78fw789we78r9789wer6re"` + `"nonce"`: 0 kemunculan di libg/dex/libcrypt. RC4 **tidak terkonfirmasi** masih dipakai — server Nara tidak bisa diarahkan ke klien ini hanya dengan ganti IP.
-5. **Tidak ada jejak libsodium/Blake2/nacl.** `blake2` / `sodium` / `Pepper` / `ChaCha` / `X25519` / `Ed25519` / `HKDF` / `AES`: 0 kemunculan plaintext. Algoritma kripto 13.x **tidak teridentifikasi dari statis** — implementasinya hidup di `libg.so` yang ter-obfuscasi.
+1. **Varian pertama yang didapat ternyata armeabi-v7a, bukan arm64** (§1.1). **UPDATE 23 Nov: varian arm64-v8a yang benar SUDAH didapat dan dianalisis penuh** — addendum [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md).
+2. **String `libg.so` terenkripsi — TAPI SKEMANYA TERPECAHKAN (addendum arm64).** `.rodata` hanya 125 KB berisi nama JNI; `.data` ±4 MB ber-entropi **7,983** (nyaris acak); brute-force XOR 1-byte atas 13,6 MB untuk `gamea`, `clashofclans`, `127.0.0.1`, `Connecting`, `fhsd6f86`, `nonce` → **nol hit**. Enkripsinya ternyata **XOR dengan keystream tetap K (138 byte) yang restart di tiap awal string** — di-derive dari known-plaintext nama class JNI. Hostname, pesan login, dan kripto sesi kini **bisa dibaca statis** (K tersimpan di `analysis/keystream-arm64.bin`).
+3. **Hostname `gamea.clashofclans.com`: 0 kemunculan PLAINTEXT** di `libg.so`, `classes.dex`, `assets/`, `resources.arsc` — **tapi ADA dalam bentuk terenkripsi (addendum arm64)**, beserta hostname kedua `and.game.coc.qq.com` (Tencent/China) dan port `9339`; fungsi setup koneksi terpetakan (0x764458). `127.0.0.1` / `10101` / `20104` / `LoginOk`: tetap 0. Satu-satunya host Supercell plaintext adalah link bantuan Helpshift.
+4. **Kunci RC4 UCS — TERBALIKKAN (addendum arm64).** String `"fhsd6f86f67rt8fw78fw789we78r9789wer6re"` + `"nonce"`: 0 kemunculan plaintext di libg/dex/libcrypt — **tapi kunci itu ADA, terenkripsi di `.data` libg arm64 (vaddr 0xbe5a00), beserta handshake `nonce` + `ServerHello`**. RC4 **terkonfirmasi** masih dipakai 13.x — fondasi protokol UCS masih hidup.
+5. **Tidak ada jejak libsodium/Blake2/nacl.** `blake2` / `sodium` / `Pepper` / `ChaCha` / `X25519` / `Ed25519` / `HKDF` / `AES`: 0 kemunculan plaintext — dan **0 juga di semua fase dekripsi arm64**. Kripto sesi 13.x = **RC4 era UCS** (butir 4), bukan kripto modern.
 6. **Format CSV baru `Sig:`** — 44 file `assets/logic/*.csv` + `client_globals.csv` diawali `Sig:` + **tanda tangan 64 byte**, baru payload kompresi `5d…` di offset 68. Inferensi: signature 64 byte ≈ Ed25519; CSV modifikasi tanpa signature valid kemungkinan ditolak klien. (16 CSV lama di `assets/csv/` masih format `0x5D` seperti 5.2; `fingerprint.json` SHA-1 mencakup prefix `Sig:` — terverifikasi untuk `buildings.csv`.)
 7. **`checkSignature()` (GameApp.java:568–585)** — SHA-1 signature APK → Base64 vs **11 hash hardcoded** (`RWEg0wzahyAlW2DQMkx9FUMH9SU=`, `LhjT+HJrHeYxMicWUY+yrsLr654=`, …). Repack dengan signer lain gagal cek ini kecuali ceknya di-patch.
 8. **Jalur integritas perangkat** — `testDeviceIntegrity(byte[])` stub no-op di Java + native `setDeviceVerificationResult(boolean, boolean, String)` tanpa pemanggil Java (hasil atestasi diteruskan ke native). Server resmi kemungkinan menolak klien yang gagal atestasi; server privat harus memutuskan mengimplementasikan atau mengabaikan pesan ini (formatnya belum diketahui).
@@ -75,9 +76,9 @@ DEX tunggal `classes.dex` 8.276.280 B, 9.635 class / 58.490 method (vs 939 class
 | Aspek | 5.2 (2013, Nara) | 13.369.4 (2020, resmi) |
 |---|---|---|
 | Signer | self-signed "Nara Archieve" 2026 | Supercell resmi, RSA 4096 |
-| `libg.so` | 3.098.452 B, string plaintext | 13.607.752 B, **string terenkripsi** |
-| Hostname server | `127.0.0.1` (patch Nara) | Tidak ditemukan plaintext |
-| Kunci RC4 UCS | Ada (di server Nara) | **0 kemunculan** |
+| `libg.so` | 3.098.452 B, string plaintext | 13.607.752 B, **string terenkripsi — tapi skema TERPECAHKAN di addendum arm64 (XOR keystream K, 138 B; semua string kini bisa dibaca statis)** |
+| Hostname server | `127.0.0.1` (patch Nara) | 0 plaintext; **ADA terenkripsi: `gamea.clashofclans.com` + `and.game.coc.qq.com`, port 9339 (addendum arm64)** |
+| Kunci RC4 UCS | Ada (di server Nara) | 0 plaintext; **ADA terenkripsi di arm64 `.data` (addendum arm64) — MEMBALIKKAN temuan ini** |
 | CSV game | 31 file `csv/`, format `0x5D` | 44 file `logic/` + 17 `csv/`; logic ber-prefix **`Sig:` + 64 B** |
 | Level JSON | 61 file `level/*.json` | **Hilang** |
 | Server tertanam | Ada (`com.nara.server`) | **Tidak ada** |
@@ -107,52 +108,51 @@ Tidak ada server open-source yang menarget 13.x. Yang paling baru mentok di 9.25
 
 **Closed-source (fakta, bukan solusi):** **Null's Clash** (nulls.gg, engine proprietary, kini 19.32.4 — pernah mendukung 13.369.4; membuktikan klien 13.369.4 *bisa* dilayani server privat); **Atrasis** (memakai Supercell.Magic, kini 19.32.4, TH19); **Clash of Magic** (komersial sejak 2015, S1–S4, tanpa source publik). Ketiganya membuktikan jalur 13.x mungkin — tapi tidak ada satu baris pun kodenya yang bisa dipakai ulang.
 
-**Kesimpulan survei:** lompatan dari server open-source terbaru (9.256.x) ke 13.369.4 mencakup 4 tahun perubahan protokol — enkripsi sesi baru (bukan RC4), format pesan baru, CSV bertanda tangan, Supercell ID native, cek integritas. Tidak ada fondasi siap pakai; semuanya harus di-RE.
+**Kesimpulan survei:** lompatan dari server open-source terbaru (9.256.x) ke 13.369.4 mencakup 4 tahun perubahan protokol — format pesan baru, CSV bertanda tangan, Supercell ID native, cek integritas. **KOREKSI dari addendum arm64: enkripsi sesi ternyata MASIH RC4 era UCS (kunci + nonce terkonfirmasi), bukan enkripsi baru** — jadi lompatan itu lebih kecil dari perkiraan: fondasi protokol UCS masih berlaku, yang harus di-RE adalah delta pesan/format 9.256→13.369. Tidak ada fondasi siap pakai untuk 13.x; tapi fondasi 9.256 kini terbukti masih relevan.
 
 ---
 
 ## 5. Tiga jalur yang mungkin
 
-### Jalur A — Server privat penuh ala Nara (repack klien + server localhost tertanam)
+### Jalur A — Server privat penuh ala Nara (repack klien + server localhost tertanam) — **JALUR UTAMA (update addendum arm64)**
 Sama seperti Nara: klien 13.369.4 di-patch (alamat server → 127.0.0.1, cek signature dimatikan), server C#/Java tertanam yang melayani login → home → battle NPC → klan/chat/ranking bot → gems awal + TH pre-upgrade.
-- **Butuh:** RE protokol 13.x lengkap dari nol (handshake, enkripsi sesi, ratusan nomor pesan, format Home/Battle/Chat), kunci/algoritma kripto, kunci verifikasi `Sig:` CSV (atau patch verifikasi di klien), implementasi logika game server-side (ekonomi, upgrade, battle).
-- **Skala:** **2–6 bulan** kerja fokus untuk setara Nara (Fase 1: libg arm64 + REA lanjut 1–3 hari; Fase 2: runtime RE host/handshake/kripto 1–3 minggu; Fase 3: server minimal login+home+NPC 1–2 bulan; Fase 4: klan/chat/ranking bot + konten TH13 +1–2 bulan). Ini estimasi kasar untuk reverser berpengalaman; untuk pemula bisa jauh lebih lama.
-- **Risiko gagal terbesar:** enkripsi sesi memakai kunci yang diturunkan server-side / pinning native / gate SafetyNet — bila tidak bisa ditembus dari runtime, jalur ini mentok di Fase 2.
+- **Butuh:** RE delta protokol 9.256→13.369 (ratusan nomor pesan, format Home/Battle/Chat), kunci verifikasi `Sig:` CSV (atau patch verifikasi di klien), implementasi logika game server-side (ekonomi, upgrade, battle). **SUDAH DIKETAHUI dari addendum arm64: hostname `gamea.clashofclans.com` (+ Tencent `and.game.coc.qq.com`), port 9339, fungsi koneksi 0x764458, kunci RC4 UCS `fhsd6f86…`, handshake nonce + ServerHello.**
+- **Skala:** **2–6 bulan** kerja fokus untuk setara Nara (Fase 1: libg arm64 + REA lanjut — **SELESAI**; Fase 2: runtime RE nomor pesan/handshake 1–3 minggu; Fase 3: server minimal login+home+NPC 1–2 bulan; Fase 4: klan/chat/ranking bot + konten TH13 +1–2 bulan). Ini estimasi kasar untuk reverser berpengalaman; untuk pemula bisa jauh lebih lama.
+- **Risiko gagal terbesar (update):** enkripsi sesi yang tadinya ancaman terbesar **kini kecil** (RC4 + kunci publik terkonfirmasi). Risiko utama bergeser ke delta pesan/format dan logika game server-side — plus pinning native / gate SafetyNet bila ada.
 
-### Jalur B — Mode offline bawaan klien (patch flag, tanpa server) — JALUR RINGAN
-Klien CoC punya flag offline internal (`LogicDefines::OFFLINE_MODE`) yang dipakai mode debug; komunitas 8133 menyalakannya via Frida untuk versi 1.70–7.1.1 (dan mengklaim sampai 18.0.5). Bila flag yang sama masih ada di `libg.so` 13.369.4, klien bisa jalan tanpa server sama sekali: desa lokal, bangun/upgrade, lawan NPC.
-- **Butuh:** `libg.so` arm64 (atau arm32 untuk riset alamat), menemukan alamat flag offline di 13.369.4, dan mekanisme patch yang tahan di POCO (Frida Gadget / patch biner permanen — ingat ada string anti-Frida di `libg.so`, jadi Frida mungkin dideteksi).
-- **Skala:** **hari–2 minggu** bila flag ketemu dan klien mau jalan offline; bila flag sudah dihapus/diubah di 13.x, jalur ini gugur dan kembali ke Jalur A.
-- **Keterbatasan:** cakupan lebih sempit dari server penuh — klan/chat/ranking "bot" ala Nara kemungkinan tidak ada (itu logika server); yang didapat adalah permainan solo offline. Perlu verifikasi runtime apakah 13.x masih bisa main penuh tanpa server (data level tidak lagi dibundel di APK — §2 butir 10 — jadi sebagian konten mungkin tetap butuh server).
+### Jalur B — Mode offline bawaan klien (patch flag, tanpa server) — **TIDAK TERBUKTI (update addendum arm64)**
+Klien CoC versi lama punya flag offline internal (`LogicDefines::OFFLINE_MODE`) yang dipakai mode debug; komunitas 8133 menyalakannya via Frida untuk versi 1.70–7.1.1 (dan mengklaim sampai 18.0.5). **Tapi di 13.369.4 flag itu TIDAK ADA**: tabel LogicDefines lengkap berhasil diekstrak dari `libg.so` arm64 (403 entri, 397 nama terdekripsi) — satu-satunya define yang mengandung "OFFLINE" adalah `DUEL_MATCHMAKING_ALLOWED_OFFLINE` (offset struct +995), toggle gameplay biasa, bukan saklar mode offline. String `"available in OFFLINE_MODE only"` memang ada, tapi fungsinya (0x420e9c) tidak punya satu pun pemanggil langsung di `.text` (kemungkinan dead code). Detail di [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md) §7/§8/§10.
+- **Versi "flip flag" GUGUR** — tidak ada alamat variabel flag yang bisa di-patch dari tabel config.
+- **Versi "cari bool offline di runtime" masih hipotesis** — butuh runtime probing di POCO (dump memori, lacak dari fungsi koneksi saat jaringan mati); tidak ada target yang diketahui, hasil tidak dijamin.
+- **Keterbatasan:** cakupan lebih sempit dari server penuh — klan/chat/ranking "bot" ala Nara kemungkinan tidak ada (itu logika server); data level tidak lagi dibundel di APK (§2 butir 10), jadi sebagian konten kemungkinan tetap butuh server meski offline dinyalakan.
 
 ### Jalur C — Port Supercell.Magic (9.256.x) maju ke 13.x
 Ambil server open-source paling baru (9.256.x) lalu perbarui protokolnya ke 13.369.4.
 - **Butuh:** RE delta protokol 9.256 → 13.369 (enkripsi, nomor pesan, field baru, CSV `Sig:`, Supercell ID) — praktis sama beratnya dengan Jalur A, ditambah harus memahami dulu basis kode 9.256 yang ditinggalkan penulisnya ("some logic bugs").
-- **Skala:** sebanding Jalur A (2–6 bulan), dengan keuntungan fondasi arsitektur server sudah ada.
+- **Skala:** sebanding Jalur A (2–6 bulan), dengan keuntungan fondasi arsitektur server sudah ada. **Update addendum arm64: jalur ini lebih menarik dari perkiraan** — karena protokol dasar ternyata masih UCS/RC4, jarak 9.256→13.369 kemungkinan lebih kecil dari yang dikira.
 
-**Rekomendasi riset (bukan build):** bila user memerintahkan lanjut, mulai dari **Jalur B dulu** — paling murah untuk membuktikan apakah 13.369.4 masih bisa hidup offline. Hasilnya menentukan apakah Jalur A/C layak diteruskan atau tidak.
+**Rekomendasi riset (bukan build) — UPDATE:** bila user memerintahkan lanjut, mulai dari **Jalur A** — fondasinya terbukti (alamat, port, kunci, handshake). Langkah berikutnya yang paling bernilai adalah **analisis runtime di POCO** (tangkap handshake login, petakan nomor pesan). **Jalur B turun prioritas** (hanya hipotesis runtime tanpa target). Jalur C tetap alternatif Jalur A.
 
 ---
 
 ## 6. Unknown terbesar + risiko
 
-1. **Enkripsi sesi 13.x** — algoritma + kunci tidak diketahui; string terenkripsi. Hanya bisa dipecahkan lewat analisis runtime (dump memori setelah dekripsi) atau disassembly `libg.so` mendalam. Ini unknown #1.
+1. ~~Enkripsi sesi 13.x~~ — **TERPECAHKAN secara prinsip (addendum arm64): RC4 + kunci UCS `fhsd6f86…` + nonce + ServerHello.** Sisa: cara kunci direferensikan runtime (0 ref ADRP+ADD) + konfirmasi lewat tangkapan handshake.
 2. **Nomor + format pesan 13.x** — login (dulu 10101→20104) dan seluruh set pesan belum diketahui; tidak ada di DEX/resources.
 3. **Verifikasi `Sig:` CSV** — algoritma + lokasi public key belum diketahui; bila klien menolak CSV tanpa signature valid, konten game tidak bisa dimodifikasi/di-serve dari server privat tanpa patch klien.
 4. **Cek signature APK + integritas perangkat** — repack harus mem-patch keduanya; seberapa dalam cek native-nya belum diketahui.
 5. **Anti-Frida** — string deteksi Frida ada di `libg.so`; analisis runtime mungkin harus memakai teknik selain Frida (atau mem-patch deteksinya dulu).
 6. **Ketergantungan server untuk konten** — `level/` hilang dari APK dan sebagian tuning pindah ke JSON server-driven; klien 13.x mungkin tidak bisa jalan penuh tanpa server meski flag offline dinyalakan.
-7. **Varian arm64 belum didapat** — semua pekerjaan native lanjutan butuh `libg.so` arm64 yang benar (atau tetap memakai arm32 untuk riset pola, lalu porting).
+7. ~~Varian arm64 belum didapat~~ — **SELESAI (addendum arm64): arm64 didapat + dianalisis penuh.**
 8. **Legal/ToS** — private server melanggar ToS Supercell; hanya untuk pemakaian offline/localhost, jangan pakai akun asli, jangan sentuh server resmi.
 
 ---
 
 ## 7. Langkah konkret berikutnya (bila user memerintahkan build)
 
-1. **Dapatkan varian arm64-v8a 13.369.4 yang benar** — link APKMirror baru yang masih segar dari user (key lama 403), atau unduh via APKMirror Installer di perangkat. Verifikasi `native-code: arm64-v8a` + hash sebelum dipakai.
-2. **Riset Jalur B (murah, menentukan):** cari flag `OFFLINE_MODE` di `libg.so` 13.369.4 (string terenkripsi → butuh disassembly / pola dari versi lama), uji nyalakan offline di POCO (root) dan lihat sejauh mana game jalan tanpa server.
-3. **Analisis runtime di POCO (root, klien resmi, tanpa repack dulu):** amati koneksi keluar (host/port aktual), dump string `libg.so` dari memori setelah dekripsi, tangkap handshake login. Ini satu-satunya jalan realistis menemukan host + kripto sesi 13.x.
-4. **Baru setelah 2–3 terbukti:** putuskan Jalur A vs C, lalu bangun server minimal (login + home + simpan desa lokal) sebelum fitur klan/bot.
+1. ~~**Dapatkan varian arm64-v8a 13.369.4 yang benar**~~ — **SELESAI 23 Nov** (link APKMirror user; `native-code: arm64-v8a` + hash terverifikasi; analisis penuh di [`REA-COC-13X-ARM64.md`](REA-COC-13X-ARM64.md)).
+2. **Analisis runtime di POCO (root, klien resmi, tanpa repack dulu):** amati koneksi keluar (`gamea.clashofclans.com:9339` — sudah diketahui dari statis), tangkap handshake login (nonce/ServerHello), petakan nomor pesan login (dulu 10101→20104). Jalur B (flag offline) **tidak lagi** langkah pertama — flag master tidak ditemukan; hanya hipotesis runtime bila ada waktu.
+3. **Baru setelah 2 terbukti:** putuskan Jalur A vs C, lalu bangun server minimal (login + home + simpan desa lokal) sebelum fitur klan/bot.
 5. **Yang TIDAK dilakukan sebelum ada perintah:** build server, repack klien, install/jalankan APK apa pun, push hasil ke mana pun.
 
 ---
@@ -162,10 +162,18 @@ Ambil server open-source paling baru (9.256.x) lalu perbarui protokolnya ke 13.3
 Semua di `~/workspace/rea-coc-13x/` — APK **tidak** dihapus, tidak di-push (parent yang urus):
 
 - `CoC-13.369.4-armeabi-v7a.apk` — 154.243.348 B, MD5 `92c62442…`, SHA-256 `ee077e51…` (nama diganti dari `…-arm64.apk` karena varian sebenarnya armeabi-v7a)
+- `CoC-13.369.4-arm64-v8a.apk` — 155.005.470 B, SHA-256 `199eb3a70ca0c79e2bc51859f6bf91db97bd375bb044632c38eed43cb9640ac2` (varian arm64 yang benar)
 - `REA-COC-13X-64BIT.md` — laporan ini
+- `REA-COC-13X-ARM64.md` — **addendum arm64 (skema enkripsi string terpecahkan, hostname + kunci RC4, tabel LogicDefines, verdict Jalur B berubah)**
 - `analysis/REA-FINDINGS.md` — laporan REA lengkap (431 baris)
 - `analysis/INVENTORY.txt` — inventaris 2.714 baris
 - `analysis/libg_strings.txt` (120.612 baris), `dex_strings.txt` (92.723), `libcrypt_strings.txt`, `libfmod_strings.txt`, `libg_strings_utf16.txt`
 - `analysis/aapt_badging.txt`, `apksigner_verify.txt`, `manifest_xmltree.txt`, `aapt_resources.txt`, `filelist.txt`
 - `analysis/jadx-out/sources/` — 6.190 file Java (JADX 1.5.1, 9 error; log `analysis/jadx.log`)
 - `dump-full/` — unzip lengkap APK (2.569 file)
+- `dump-full-arm64/` — unzip lengkap APK arm64 (2.569 file, 176.773.796 B)
+- `analysis/INVENTORY-arm64.txt`, `analysis/filelist-arm64.txt`, `analysis/aapt_badging-arm64.txt`, `analysis/apksigner_verify-arm64.txt`, `analysis/manifest_xmltree-arm64.txt`
+- `analysis/libg_strings-arm64.txt`, `analysis/libg_strings_utf16-arm64.txt`, `analysis/dex_strings-arm64.txt`
+- `analysis/keystream-arm64.bin` — keystream XOR K (138 byte) untuk dekripsi string `libg.so`
+- `analysis/decrypted_strings-arm64.txt` — string hasil dekripsi + xref + peta JNI
+- `analysis/defines_table_full-arm64.json`, `analysis/defines_list-arm64.txt` — tabel LogicDefines lengkap (403 lookup, 397 nama)

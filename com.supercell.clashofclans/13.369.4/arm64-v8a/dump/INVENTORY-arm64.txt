@@ -1,0 +1,100 @@
+INVENTORY — Clash of Clans 13.369.4 (arm64-v8a) — static REA
+APK: CoC-13.369.4-arm64-v8a.apk  155005470 B
+MD5: 47540b67f1b4839a83a84574ea0a3ce8  SHA-256: 199eb3a70ca0c79e2bc51859f6bf91db97bd375bb044632c38eed43cb9640ac2
+Unzipped: 2026-11-23, dump-full-arm64/ — 2569 files, 176773796 B uncompressed
+
+AndroidManifest.xml: 1 files, 27964 B
+META-INF: 58 files, 517037 B
+androidsupportmultidexversion.txt: 1 files, 53 B
+assets: 837 files, 144848817 B
+classes.dex: 1 files, 8276280 B
+com: 542 files, 305341 B
+firebase-analytics-impl.properties: 1 files, 84 B
+firebase-analytics.properties: 1 files, 74 B
+firebase-common.properties: 1 files, 68 B
+firebase-core.properties: 1 files, 64 B
+firebase-iid-interop.properties: 1 files, 78 B
+firebase-iid.properties: 1 files, 62 B
+firebase-measurement-connector-impl.properties: 1 files, 108 B
+firebase-measurement-connector.properties: 1 files, 98 B
+firebase-messaging.properties: 1 files, 74 B
+kotlin: 7 files, 27596 B
+lib: 5 files, 19083384 B
+play-services-ads-identifier.properties: 1 files, 94 B
+play-services-analytics-impl.properties: 1 files, 94 B
+play-services-analytics.properties: 1 files, 84 B
+play-services-base.properties: 1 files, 74 B
+play-services-basement.properties: 1 files, 82 B
+play-services-drive.properties: 1 files, 76 B
+play-services-games.properties: 1 files, 76 B
+play-services-instantapps.properties: 1 files, 88 B
+play-services-measurement-api.properties: 1 files, 96 B
+play-services-measurement-base.properties: 1 files, 98 B
+play-services-stats.properties: 1 files, 76 B
+play-services-tagmanager-v4-impl.properties: 1 files, 102 B
+play-services-tasks.properties: 1 files, 76 B
+res: 1094 files, 2420162 B
+resources.arsc: 1 files, 1265336 B
+
+== lib/ (native) ==
+lib/arm64-v8a/libcrypt-lib.so  309472 B  sha256=9a726601689d6e4f77fa51534e99f0833ce1e5f0f5a1c8a357bba4a13f8c33c8
+lib/arm64-v8a/libfmod.so  1157064 B  sha256=a91163a0e6329a7e6ff65a90f04949ce8e0761d9e99bec2bc91615ed930c0c98
+lib/arm64-v8a/libg.so  16822096 B  sha256=d7b57c1bedd97f137f3d82f38fa1cc34d1811c1f5cddd7a84c388cdcffa3c468
+lib/arm64-v8a/libsentry-android.so  10064 B  sha256=be833eb339e7b0f68b571427cfce554f69e2138ef5571c367454c7b7a81a5eb0
+lib/arm64-v8a/libsentry.so  784688 B  sha256=588b4af76b1fb85be8d55ce203a81257300ab9100fa25a18e2b85824b25283dd
+
+== DEX ==
+classes.dex  8276280 B  sha256=17263fe664f3f5a17c0ffb3dc37123a6d0c1970f770d9d156e4690e97b646fa9
+DEX dex\n035\x00; header counts: strings=49172 types=11339 protos=12040 fields=61668 methods=58490 classes=9635
+Single DEX file (no classes2.dex) but app extends MultiDexApplication (TitanMultidexApplication).
+classes.dex MD5 IDENTICAL to 32-bit variant (e43fa2a5322ad8072997626941572aa9) — all DEX findings carry over.
+
+== assets/ breakdown ==
+assets/csv: 17 files, 119463 B
+assets/defaultEnglish.strings: 1 files, 30448 B
+assets/fingerprint.json: 1 files, 106630 B
+assets/font: 7 files, 6222033 B
+assets/globals.json: 1 files, 2398 B
+assets/globals_definition.json: 1 files, 2956 B
+assets/hs__data: 1 files, 353578 B
+assets/image: 15 files, 1198969 B
+assets/localization: 2 files, 1886602 B
+assets/logic: 44 files, 124968 B
+assets/music: 23 files, 8616290 B
+assets/sc: 168 files, 113295190 B
+assets/sc3d: 57 files, 3606207 B
+assets/sfx: 488 files, 5483909 B
+assets/shader: 2 files, 9577 B
+assets/supercell_id_config.json: 1 files, 355 B
+assets/titan: 8 files, 3789244 B
+
+== assets/csv/ (17 files) ==
+  animations.csv  10328 B  head=5d000004 (Supercell-compressed 0x5d)
+  billing_packages.csv  2092 B  head=5d000004 (Supercell-compressed 0x5d)
+  boombox.csv  311 B  head=5d000004 (Supercell-compressed 0x5d)
+  chat_rules.csv  126 B  head=5d000004 (Supercell-compressed 0x5d)
+  client_globals.csv  5176 B  head=5369673a (Sig:)
+  credits.csv  815 B  head=5d000004 (Supercell-compressed 0x5d)
+  deeplinks.csv  888 B  head=5d000004 (Supercell-compressed 0x5d)
+  deploy_steps.csv  4584 B  head=5d000004 (Supercell-compressed 0x5d)
+  event_entries.csv  953 B  head=5d000004 (Supercell-compressed 0x5d)
+  helpshift.csv  131 B  head=5d000004 (Supercell-compressed 0x5d)
+  hints.csv  2468 B  head=5d000004 (Supercell-compressed 0x5d)
+  news.csv  1975 B  head=5d000004 (Supercell-compressed 0x5d)
+  particle_effects_3d.csv  393 B  head=5d000004 (Supercell-compressed 0x5d)
+  particle_emitters.csv  18455 B  head=5d000004 (Supercell-compressed 0x5d)
+  particle_emitters_3d.json  70086 B  head=0d0a7b0d (other)
+  resource_packs.csv  358 B  head=5d000004 (Supercell-compressed 0x5d)
+  skin_projectile_vis.csv  324 B  head=5d000004 (Supercell-compressed 0x5d)
+
+== assets/logic/ (44 files) ==
+  44/44 files begin with 'Sig:' + 64 B signature (same as 32-bit).
+
+== DELTA vs 32-bit (armeabi-v7a) ==
+  Same file count (2,569). Of 2,449 shared paths only 5 differ byte-wise:
+  AndroidManifest.xml (same size), META-INF/BNDLTOOL.RSA, META-INF/BNDLTOOL.SF,
+  META-INF/MANIFEST.MF, resources.arsc (+6,908 B).
+  Path differences: 5 native libs (armeabi-v7a -> arm64-v8a) + 115 drawable-density
+  variants (32-bit: mdpi/hdpi; 64-bit: xhdpi/xxxhdpi).
+  classes.dex byte-identical. All assets/ byte-identical (incl. logic/ CSVs,
+  fingerprint.json v13.369.5, globals.json, supercell_id_config.json).

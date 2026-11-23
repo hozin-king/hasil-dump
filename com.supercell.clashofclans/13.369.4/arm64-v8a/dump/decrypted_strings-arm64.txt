@@ -1,0 +1,52 @@
+DECRYPTED STRINGS — libg.so arm64-v8a, CoC 13.369.4 (code 1242)
+Scheme: XOR with fixed keystream K restarting at each string start (c[i] = p[i] ^ K[i]).
+K: 138 bytes, saved in analysis/keystream-arm64.bin; first 32 bytes hex:
+  4ea6dac4b238480a36e93692588e4cad2e50042be464797ff7437a8317c39d52
+Derivation: K[0:20] = cipher(class names) XOR 'com/supercell/titan/'; K[20:28] from 'GameApp\0';
+K[28:32] from 'lId\0' (tail of 'SupercellId'); extended via JNI signature 'createGameMain' (137 char + NUL) from DEX.
+Section .data: file offset = vaddr - 0x10000. All strings below verified by re-decryption.
+
+  vaddr 0xfd7492 (file 0xfc7492): 'gamea.clashofclans.com'
+  vaddr 0xd26cd1 (file 0xd16cd1): 'and.game.coc.qq.com'
+  vaddr 0xbea2bb (file 0xbda2bb): '9339'
+  vaddr 0xbe5a00 (file 0xbd5a00): '\x04\x1e[�p<��m�@�eH�\x07\x01��� 9n\x06��8N,"���\x1c��|\x08�<��\x17���\x1f8\x02��D\x18�\x1d3@\x04爩Ƭ�;A�\x1ct�_�8���+\x13�f\x02RO��)et\x06���t�ݔ�.\x1aa_���{ 1�\x14jZ9\x1c�{m܁�'
+  vaddr 0xe83854 (file 0xe73854): 'available in OFFLINE_MODE only'
+  vaddr 0xe8f8cb (file 0xe7f8cb): 'DUEL_MATCHMAKING_ALLOWED_OFFLINE'
+  vaddr 0xe97be0 (file 0xe87be0): 'nonce'
+  [phase>0, addr TBD] waiting for nonce from ServerHello
+  [phase>0, addr TBD] Messaging: expecting ServerHelloMessage during state %d %s, received %d 
+  vaddr 0xd2bedb (file 0xd1bedb): 'offlinedata/calendar.json'
+  [phase>0, addr TBD] friend_offline
+
+NOT FOUND in any phase (searched whole .data with K at all phases):
+  LogicDefines, IsOffline/isOffline, setOfflineMode, UseOffline, NoServer, LOCAL_MODE,
+  DEBUG_MODE/DebugMode, OFFLINE_MODE_ENABLED, blake2, sodium, ChaCha, X25519, Ed25519,
+  SHA256/sha256, HMAC, AES256/aes256, ChaCha20, Poly1305, curve25519, secp256, ECDSA, 127.0.0.1.
+  (RC4/DES/RSA hits are substrings of longer words — noise.)
+
+XREFS (ADRP+ADD scan of whole .text, capstone):
+  gamea hostname (0xfd7492): 1 ref — 0x76447c, in connection-setup fn 0x764458.
+    Chooses between gamea.clashofclans.com and and.game.coc.qq.com by runtime flag (tst w0,#1),
+    then calls connect fn 0x24cba0(host, port='9339').
+  OFFLINE_MODE string (0xe83854): 1 ref — 0x420ea4, in tiny fn 0x420e9c (calls 0x17a3cc, returns 0).
+    Fn 0x420e9c has NO direct BL callers in .text (dead code or function-pointer call).
+  DUEL define (0xe8f8cb): 1 ref — 0x3f9cd8, in LogicDefines loader; value -> struct field [x19,#995].
+  nonce (0xe97be0): 1 ref — 0x552808, in login-message construction fn.
+  RC4 key (0xbe5a00): 0 ADRP+ADD refs (referenced via another mechanism — unresolved).
+
+JNI REGISTRATION TABLE (JNI_OnLoad @0x47f7ac; table vaddr 0xb98ec8; 14 entries x 24 B):
+  [0] SupercellId (29 methods)  [1] NativeFacebookManager (8)  [2] UnbotifyManager (2)
+  [3] GoogleServiceClient (5)  [4] GameApp (39)  [5] NativeHTTPClientManager (2)
+  [6] LocationService (1)  [7] VirtualKeyboardHandler (6)  [8] PurchaseManager (7)
+  [9] TitanWebView (6)  [10] UnityAdsTitan (4)  [11] Kakao (5)
+  [12] GoogleAppLicensing (1)  [13] CrashReporter (1) — total 116 methods, 66 names identified.
+  GameApp natives: createGameMain 0x3d31a4, init 0x6b75dc, start 0x111110, stop 0x396270,
+    nOnCreate 0x34969c, nOnSurfaceCreated 0x3cd738, nOnSurfaceChanged 0x3c3718, nRunFromUiThread 0x216490.
+  SupercellId natives: getConfig 0x459530, bindAccount 0x619048, loadAccount 0x337bc4,
+    getCurrentAccount 0x6183dc, getAccounts 0x4da428, getIngameFriends 0x4d70d0.
+  50/116 method names still unidentified (short/ambiguous names, no DEX candidate).
+
+LOGICDEFINES CONFIG TABLE: see analysis/defines_table_full-arm64.json + defines_list-arm64.txt
+  403 calls to lookup helper 0x4b8398; 397 names decrypted; struct offsets 88..1452.
+  ONLY offline-related define: DUEL_MATCHMAKING_ALLOWED_OFFLINE @ +995.
+  No OFFLINE_MODE / IsOffline / LOCAL_MODE / DEBUG_MODE define exists.
