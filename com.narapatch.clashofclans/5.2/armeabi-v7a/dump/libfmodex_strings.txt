@@ -1,0 +1,1753 @@
+FMOD_Reverb_GetMemoryInfo
+_ZN4FMOD6Reverb13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_Reverb_GetUserData
+_ZN4FMOD6Reverb11getUserDataEPPv
+FMOD_Reverb_SetUserData
+_ZN4FMOD6Reverb11setUserDataEPv
+FMOD_Reverb_GetActive
+_ZN4FMOD6Reverb9getActiveEPb
+FMOD_Reverb_SetActive
+_ZN4FMOD6Reverb9setActiveEb
+FMOD_Reverb_GetProperties
+_ZN4FMOD6Reverb13getPropertiesEP22FMOD_REVERB_PROPERTIES
+FMOD_Reverb_SetProperties
+_ZN4FMOD6Reverb13setPropertiesEPK22FMOD_REVERB_PROPERTIES
+FMOD_Reverb_Get3DAttributes
+_ZN4FMOD6Reverb15get3DAttributesEP11FMOD_VECTORPfS3_
+FMOD_Reverb_Set3DAttributes
+_ZN4FMOD6Reverb15set3DAttributesEPK11FMOD_VECTORff
+FMOD_Reverb_Release
+_ZN4FMOD6Reverb7releaseEv
+FMOD_Geometry_GetMemoryInfo
+_ZN4FMOD8Geometry13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_Geometry_GetUserData
+_ZN4FMOD8Geometry11getUserDataEPPv
+FMOD_Geometry_SetUserData
+_ZN4FMOD8Geometry11setUserDataEPv
+FMOD_Geometry_Save
+_ZN4FMOD8Geometry4saveEPvPi
+FMOD_Geometry_GetScale
+_ZN4FMOD8Geometry8getScaleEP11FMOD_VECTOR
+FMOD_Geometry_SetScale
+_ZN4FMOD8Geometry8setScaleEPK11FMOD_VECTOR
+FMOD_Geometry_GetPosition
+_ZN4FMOD8Geometry11getPositionEP11FMOD_VECTOR
+FMOD_Geometry_SetPosition
+_ZN4FMOD8Geometry11setPositionEPK11FMOD_VECTOR
+FMOD_Geometry_GetRotation
+_ZN4FMOD8Geometry11getRotationEP11FMOD_VECTORS2_
+FMOD_Geometry_SetRotation
+_ZN4FMOD8Geometry11setRotationEPK11FMOD_VECTORS3_
+FMOD_Geometry_GetActive
+_ZN4FMOD8Geometry9getActiveEPb
+FMOD_Geometry_SetActive
+_ZN4FMOD8Geometry9setActiveEb
+FMOD_Geometry_GetPolygonAttributes
+_ZN4FMOD8Geometry20getPolygonAttributesEiPfS1_Pb
+FMOD_Geometry_SetPolygonAttributes
+_ZN4FMOD8Geometry20setPolygonAttributesEiffb
+FMOD_Geometry_GetPolygonVertex
+_ZN4FMOD8Geometry16getPolygonVertexEiiP11FMOD_VECTOR
+FMOD_Geometry_SetPolygonVertex
+_ZN4FMOD8Geometry16setPolygonVertexEiiPK11FMOD_VECTOR
+FMOD_Geometry_GetPolygonNumVertices
+_ZN4FMOD8Geometry21getPolygonNumVerticesEiPi
+FMOD_Geometry_GetMaxPolygons
+_ZN4FMOD8Geometry14getMaxPolygonsEPiS1_
+FMOD_Geometry_GetNumPolygons
+_ZN4FMOD8Geometry14getNumPolygonsEPi
+FMOD_Geometry_AddPolygon
+_ZN4FMOD8Geometry10addPolygonEffbiPK11FMOD_VECTORPi
+FMOD_Geometry_Release
+_ZN4FMOD8Geometry7releaseEv
+FMOD_DSPConnection_GetMemoryInfo
+_ZN4FMOD13DSPConnection13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_DSPConnection_GetUserData
+_ZN4FMOD13DSPConnection11getUserDataEPPv
+FMOD_DSPConnection_SetUserData
+_ZN4FMOD13DSPConnection11setUserDataEPv
+FMOD_DSPConnection_GetLevels
+_ZN4FMOD13DSPConnection9getLevelsE12FMOD_SPEAKERPfi
+FMOD_DSPConnection_SetLevels
+_ZN4FMOD13DSPConnection9setLevelsE12FMOD_SPEAKERPfi
+FMOD_DSPConnection_GetMix
+_ZN4FMOD13DSPConnection6getMixEPf
+FMOD_DSPConnection_SetMix
+_ZN4FMOD13DSPConnection6setMixEf
+FMOD_DSPConnection_GetOutput
+_ZN4FMOD13DSPConnection9getOutputEPPNS_3DSPE
+FMOD_DSPConnection_GetInput
+_ZN4FMOD13DSPConnection8getInputEPPNS_3DSPE
+FMOD_DSP_GetMemoryInfo
+_ZN4FMOD3DSP13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_DSP_GetUserData
+_ZN4FMOD3DSP11getUserDataEPPv
+FMOD_DSP_SetUserData
+_ZN4FMOD3DSP11setUserDataEPv
+FMOD_DSP_GetDefaults
+_ZN4FMOD3DSP11getDefaultsEPfS1_S1_Pi
+FMOD_DSP_SetDefaults
+_ZN4FMOD3DSP11setDefaultsEfffi
+FMOD_DSP_GetType
+_ZN4FMOD3DSP7getTypeEP13FMOD_DSP_TYPE
+FMOD_DSP_GetInfo
+_ZN4FMOD3DSP7getInfoEPcPjPiS3_S3_
+FMOD_DSP_ShowConfigDialog
+_ZN4FMOD3DSP16showConfigDialogEPvb
+FMOD_DSP_GetParameterInfo
+_ZN4FMOD3DSP16getParameterInfoEiPcS1_S1_iPfS2_
+FMOD_DSP_GetNumParameters
+_ZN4FMOD3DSP16getNumParametersEPi
+FMOD_DSP_GetParameter
+_ZN4FMOD3DSP12getParameterEiPfPci
+FMOD_DSP_SetParameter
+_ZN4FMOD3DSP12setParameterEif
+FMOD_DSP_Reset
+_ZN4FMOD3DSP5resetEv
+FMOD_DSP_GetSpeakerActive
+_ZN4FMOD3DSP16getSpeakerActiveE12FMOD_SPEAKERPb
+FMOD_DSP_SetSpeakerActive
+_ZN4FMOD3DSP16setSpeakerActiveE12FMOD_SPEAKERb
+FMOD_DSP_GetBypass
+_ZN4FMOD3DSP9getBypassEPb
+FMOD_DSP_SetBypass
+_ZN4FMOD3DSP9setBypassEb
+FMOD_DSP_GetActive
+_ZN4FMOD3DSP9getActiveEPb
+FMOD_DSP_SetActive
+_ZN4FMOD3DSP9setActiveEb
+FMOD_DSP_GetOutput
+_ZN4FMOD3DSP9getOutputEiPPS0_PPNS_13DSPConnectionE
+FMOD_DSP_GetInput
+_ZN4FMOD3DSP8getInputEiPPS0_PPNS_13DSPConnectionE
+FMOD_DSP_GetNumOutputs
+_ZN4FMOD3DSP13getNumOutputsEPi
+FMOD_DSP_GetNumInputs
+_ZN4FMOD3DSP12getNumInputsEPi
+FMOD_DSP_Remove
+_ZN4FMOD3DSP6removeEv
+FMOD_DSP_DisconnectAll
+_ZN4FMOD3DSP13disconnectAllEbb
+FMOD_DSP_DisconnectFrom
+_ZN4FMOD3DSP14disconnectFromEPS0_
+FMOD_DSP_AddInput
+_ZN4FMOD3DSP8addInputEPS0_PPNS_13DSPConnectionE
+FMOD_DSP_GetSystemObject
+_ZN4FMOD3DSP15getSystemObjectEPPNS_6SystemE
+FMOD_DSP_Release
+_ZN4FMOD3DSP7releaseEv
+FMOD_SoundGroup_GetMemoryInfo
+_ZN4FMOD10SoundGroup13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_SoundGroup_GetUserData
+_ZN4FMOD10SoundGroup11getUserDataEPPv
+FMOD_SoundGroup_SetUserData
+_ZN4FMOD10SoundGroup11setUserDataEPv
+FMOD_SoundGroup_GetNumPlaying
+_ZN4FMOD10SoundGroup13getNumPlayingEPi
+FMOD_SoundGroup_GetSound
+_ZN4FMOD10SoundGroup8getSoundEiPPNS_5SoundE
+FMOD_SoundGroup_GetNumSounds
+_ZN4FMOD10SoundGroup12getNumSoundsEPi
+FMOD_SoundGroup_GetName
+_ZN4FMOD10SoundGroup7getNameEPci
+FMOD_SoundGroup_Stop
+_ZN4FMOD10SoundGroup4stopEv
+FMOD_SoundGroup_GetVolume
+_ZN4FMOD10SoundGroup9getVolumeEPf
+FMOD_SoundGroup_SetVolume
+_ZN4FMOD10SoundGroup9setVolumeEf
+FMOD_SoundGroup_GetMuteFadeSpeed
+_ZN4FMOD10SoundGroup16getMuteFadeSpeedEPf
+FMOD_SoundGroup_SetMuteFadeSpeed
+_ZN4FMOD10SoundGroup16setMuteFadeSpeedEf
+FMOD_SoundGroup_GetMaxAudibleBehavior
+_ZN4FMOD10SoundGroup21getMaxAudibleBehaviorEP24FMOD_SOUNDGROUP_BEHAVIOR
+FMOD_SoundGroup_SetMaxAudibleBehavior
+_ZN4FMOD10SoundGroup21setMaxAudibleBehaviorE24FMOD_SOUNDGROUP_BEHAVIOR
+FMOD_SoundGroup_GetMaxAudible
+_ZN4FMOD10SoundGroup13getMaxAudibleEPi
+FMOD_SoundGroup_SetMaxAudible
+_ZN4FMOD10SoundGroup13setMaxAudibleEi
+FMOD_SoundGroup_GetSystemObject
+_ZN4FMOD10SoundGroup15getSystemObjectEPPNS_6SystemE
+FMOD_SoundGroup_Release
+_ZN4FMOD10SoundGroup7releaseEv
+FMOD_ChannelGroup_GetMemoryInfo
+_ZN4FMOD12ChannelGroup13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_ChannelGroup_GetUserData
+_ZN4FMOD12ChannelGroup11getUserDataEPPv
+FMOD_ChannelGroup_SetUserData
+_ZN4FMOD12ChannelGroup11setUserDataEPv
+FMOD_ChannelGroup_GetWaveData
+_ZN4FMOD12ChannelGroup11getWaveDataEPfii
+FMOD_ChannelGroup_GetSpectrum
+_ZN4FMOD12ChannelGroup11getSpectrumEPfii19FMOD_DSP_FFT_WINDOW
+FMOD_ChannelGroup_GetChannel
+_ZN4FMOD12ChannelGroup10getChannelEiPPNS_7ChannelE
+FMOD_ChannelGroup_GetNumChannels
+_ZN4FMOD12ChannelGroup14getNumChannelsEPi
+FMOD_ChannelGroup_GetName
+_ZN4FMOD12ChannelGroup7getNameEPci
+FMOD_ChannelGroup_AddDSP
+_ZN4FMOD12ChannelGroup6addDSPEPNS_3DSPEPPNS_13DSPConnectionE
+FMOD_ChannelGroup_GetDSPHead
+_ZN4FMOD12ChannelGroup10getDSPHeadEPPNS_3DSPE
+FMOD_ChannelGroup_GetParentGroup
+_ZN4FMOD12ChannelGroup14getParentGroupEPPS0_
+FMOD_ChannelGroup_GetGroup
+_ZN4FMOD12ChannelGroup8getGroupEiPPS0_
+FMOD_ChannelGroup_GetNumGroups
+_ZN4FMOD12ChannelGroup12getNumGroupsEPi
+FMOD_ChannelGroup_AddGroup
+_ZN4FMOD12ChannelGroup8addGroupEPS0_
+FMOD_ChannelGroup_OverrideSpeakerMix
+_ZN4FMOD12ChannelGroup18overrideSpeakerMixEffffffff
+FMOD_ChannelGroup_Override3DAttributes
+_ZN4FMOD12ChannelGroup20override3DAttributesEPK11FMOD_VECTORS3_
+FMOD_ChannelGroup_OverrideReverbProperties
+_ZN4FMOD12ChannelGroup24overrideReverbPropertiesEPK29FMOD_REVERB_CHANNELPROPERTIES
+FMOD_ChannelGroup_OverridePan
+_ZN4FMOD12ChannelGroup11overridePanEf
+FMOD_ChannelGroup_OverrideFrequency
+_ZN4FMOD12ChannelGroup17overrideFrequencyEf
+FMOD_ChannelGroup_OverrideVolume
+_ZN4FMOD12ChannelGroup14overrideVolumeEf
+FMOD_ChannelGroup_Stop
+_ZN4FMOD12ChannelGroup4stopEv
+FMOD_ChannelGroup_GetMute
+_ZN4FMOD12ChannelGroup7getMuteEPb
+FMOD_ChannelGroup_SetMute
+_ZN4FMOD12ChannelGroup7setMuteEb
+FMOD_ChannelGroup_GetPaused
+_ZN4FMOD12ChannelGroup9getPausedEPb
+FMOD_ChannelGroup_SetPaused
+_ZN4FMOD12ChannelGroup9setPausedEb
+FMOD_ChannelGroup_Get3DOcclusion
+_ZN4FMOD12ChannelGroup14get3DOcclusionEPfS1_
+FMOD_ChannelGroup_Set3DOcclusion
+_ZN4FMOD12ChannelGroup14set3DOcclusionEff
+FMOD_ChannelGroup_GetPitch
+_ZN4FMOD12ChannelGroup8getPitchEPf
+FMOD_ChannelGroup_SetPitch
+_ZN4FMOD12ChannelGroup8setPitchEf
+FMOD_ChannelGroup_GetVolume
+_ZN4FMOD12ChannelGroup9getVolumeEPf
+FMOD_ChannelGroup_SetVolume
+_ZN4FMOD12ChannelGroup9setVolumeEf
+FMOD_ChannelGroup_GetSystemObject
+_ZN4FMOD12ChannelGroup15getSystemObjectEPPNS_6SystemE
+FMOD_ChannelGroup_Release
+_ZN4FMOD12ChannelGroup7releaseEv
+FMOD_Channel_GetMemoryInfo
+_ZN4FMOD7Channel13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_Channel_GetUserData
+_ZN4FMOD7Channel11getUserDataEPPv
+FMOD_Channel_SetUserData
+_ZN4FMOD7Channel11setUserDataEPv
+FMOD_Channel_GetLoopPoints
+_ZN4FMOD7Channel13getLoopPointsEPjjS1_j
+FMOD_Channel_SetLoopPoints
+_ZN4FMOD7Channel13setLoopPointsEjjjj
+FMOD_Channel_GetLoopCount
+_ZN4FMOD7Channel12getLoopCountEPi
+FMOD_Channel_SetLoopCount
+_ZN4FMOD7Channel12setLoopCountEi
+FMOD_Channel_GetMode
+_ZN4FMOD7Channel7getModeEPj
+FMOD_Channel_SetMode
+_ZN4FMOD7Channel7setModeEj
+FMOD_Channel_GetIndex
+_ZN4FMOD7Channel8getIndexEPi
+FMOD_Channel_GetWaveData
+_ZN4FMOD7Channel11getWaveDataEPfii
+FMOD_Channel_GetSpectrum
+_ZN4FMOD7Channel11getSpectrumEPfii19FMOD_DSP_FFT_WINDOW
+FMOD_Channel_GetCurrentSound
+_ZN4FMOD7Channel15getCurrentSoundEPPNS_5SoundE
+FMOD_Channel_GetAudibility
+_ZN4FMOD7Channel13getAudibilityEPf
+FMOD_Channel_IsVirtual
+_ZN4FMOD7Channel9isVirtualEPb
+FMOD_Channel_IsPlaying
+_ZN4FMOD7Channel9isPlayingEPb
+FMOD_Channel_AddDSP
+_ZN4FMOD7Channel6addDSPEPNS_3DSPEPPNS_13DSPConnectionE
+FMOD_Channel_GetDSPHead
+_ZN4FMOD7Channel10getDSPHeadEPPNS_3DSPE
+FMOD_Channel_Get3DDistanceFilter
+_ZN4FMOD7Channel19get3DDistanceFilterEPbPfS2_
+FMOD_Channel_Set3DDistanceFilter
+_ZN4FMOD7Channel19set3DDistanceFilterEbff
+FMOD_Channel_Get3DDopplerLevel
+_ZN4FMOD7Channel17get3DDopplerLevelEPf
+FMOD_Channel_Set3DDopplerLevel
+_ZN4FMOD7Channel17set3DDopplerLevelEf
+FMOD_Channel_Get3DPanLevel
+_ZN4FMOD7Channel13get3DPanLevelEPf
+FMOD_Channel_Set3DPanLevel
+_ZN4FMOD7Channel13set3DPanLevelEf
+FMOD_Channel_Get3DSpread
+_ZN4FMOD7Channel11get3DSpreadEPf
+FMOD_Channel_Set3DSpread
+_ZN4FMOD7Channel11set3DSpreadEf
+FMOD_Channel_Get3DOcclusion
+_ZN4FMOD7Channel14get3DOcclusionEPfS1_
+FMOD_Channel_Set3DOcclusion
+_ZN4FMOD7Channel14set3DOcclusionEff
+FMOD_Channel_Get3DCustomRolloff
+_ZN4FMOD7Channel18get3DCustomRolloffEPP11FMOD_VECTORPi
+FMOD_Channel_Set3DCustomRolloff
+_ZN4FMOD7Channel18set3DCustomRolloffEP11FMOD_VECTORi
+FMOD_Channel_Get3DConeOrientation
+_ZN4FMOD7Channel20get3DConeOrientationEP11FMOD_VECTOR
+FMOD_Channel_Set3DConeOrientation
+_ZN4FMOD7Channel20set3DConeOrientationEP11FMOD_VECTOR
+FMOD_Channel_Get3DConeSettings
+_ZN4FMOD7Channel17get3DConeSettingsEPfS1_S1_
+FMOD_Channel_Set3DConeSettings
+_ZN4FMOD7Channel17set3DConeSettingsEfff
+FMOD_Channel_Get3DMinMaxDistance
+_ZN4FMOD7Channel19get3DMinMaxDistanceEPfS1_
+FMOD_Channel_Set3DMinMaxDistance
+_ZN4FMOD7Channel19set3DMinMaxDistanceEff
+FMOD_Channel_Get3DAttributes
+_ZN4FMOD7Channel15get3DAttributesEP11FMOD_VECTORS2_
+FMOD_Channel_Set3DAttributes
+_ZN4FMOD7Channel15set3DAttributesEPK11FMOD_VECTORS3_
+FMOD_Channel_SetCallback
+_ZN4FMOD7Channel11setCallbackEPF11FMOD_RESULTP12FMOD_CHANNEL25FMOD_CHANNEL_CALLBACKTYPEPvS5_E
+FMOD_Channel_GetChannelGroup
+_ZN4FMOD7Channel15getChannelGroupEPPNS_12ChannelGroupE
+FMOD_Channel_SetChannelGroup
+_ZN4FMOD7Channel15setChannelGroupEPNS_12ChannelGroupE
+FMOD_Channel_GetLowPassGain
+_ZN4FMOD7Channel14getLowPassGainEPf
+FMOD_Channel_SetLowPassGain
+_ZN4FMOD7Channel14setLowPassGainEf
+FMOD_Channel_GetReverbProperties
+_ZN4FMOD7Channel19getReverbPropertiesEP29FMOD_REVERB_CHANNELPROPERTIES
+FMOD_Channel_SetReverbProperties
+_ZN4FMOD7Channel19setReverbPropertiesEPK29FMOD_REVERB_CHANNELPROPERTIES
+FMOD_Channel_GetPosition
+_ZN4FMOD7Channel11getPositionEPjj
+FMOD_Channel_SetPosition
+_ZN4FMOD7Channel11setPositionEjj
+FMOD_Channel_GetPriority
+_ZN4FMOD7Channel11getPriorityEPi
+FMOD_Channel_SetPriority
+_ZN4FMOD7Channel11setPriorityEi
+FMOD_Channel_GetMute
+_ZN4FMOD7Channel7getMuteEPb
+FMOD_Channel_SetMute
+_ZN4FMOD7Channel7setMuteEb
+FMOD_Channel_GetInputChannelMix
+_ZN4FMOD7Channel18getInputChannelMixEPfi
+FMOD_Channel_SetInputChannelMix
+_ZN4FMOD7Channel18setInputChannelMixEPfi
+FMOD_Channel_GetSpeakerLevels
+_ZN4FMOD7Channel16getSpeakerLevelsE12FMOD_SPEAKERPfi
+FMOD_Channel_SetSpeakerLevels
+_ZN4FMOD7Channel16setSpeakerLevelsE12FMOD_SPEAKERPfi
+FMOD_Channel_GetSpeakerMix
+_ZN4FMOD7Channel13getSpeakerMixEPfS1_S1_S1_S1_S1_S1_S1_
+FMOD_Channel_SetSpeakerMix
+_ZN4FMOD7Channel13setSpeakerMixEffffffff
+FMOD_Channel_GetDelay
+_ZN4FMOD7Channel8getDelayE14FMOD_DELAYTYPEPjS2_
+FMOD_Channel_SetDelay
+_ZN4FMOD7Channel8setDelayE14FMOD_DELAYTYPEjj
+FMOD_Channel_GetPan
+_ZN4FMOD7Channel6getPanEPf
+FMOD_Channel_SetPan
+_ZN4FMOD7Channel6setPanEf
+FMOD_Channel_GetFrequency
+_ZN4FMOD7Channel12getFrequencyEPf
+FMOD_Channel_SetFrequency
+_ZN4FMOD7Channel12setFrequencyEf
+FMOD_Channel_GetVolume
+_ZN4FMOD7Channel9getVolumeEPf
+FMOD_Channel_SetVolume
+_ZN4FMOD7Channel9setVolumeEf
+FMOD_Channel_GetPaused
+_ZN4FMOD7Channel9getPausedEPb
+FMOD_Channel_SetPaused
+_ZN4FMOD7Channel9setPausedEb
+FMOD_Channel_Stop
+_ZN4FMOD7Channel4stopEv
+FMOD_Channel_GetSystemObject
+_ZN4FMOD7Channel15getSystemObjectEPPNS_6SystemE
+FMOD_Sound_GetMemoryInfo
+_ZN4FMOD5Sound13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_Sound_GetUserData
+_ZN4FMOD5Sound11getUserDataEPPv
+FMOD_Sound_SetUserData
+_ZN4FMOD5Sound11setUserDataEPv
+FMOD_Sound_GetMusicSpeed
+_ZN4FMOD5Sound13getMusicSpeedEPf
+FMOD_Sound_SetMusicSpeed
+_ZN4FMOD5Sound13setMusicSpeedEf
+FMOD_Sound_GetMusicChannelVolume
+_ZN4FMOD5Sound21getMusicChannelVolumeEiPf
+FMOD_Sound_SetMusicChannelVolume
+_ZN4FMOD5Sound21setMusicChannelVolumeEif
+FMOD_Sound_GetMusicNumChannels
+_ZN4FMOD5Sound19getMusicNumChannelsEPi
+FMOD_Sound_GetLoopPoints
+_ZN4FMOD5Sound13getLoopPointsEPjjS1_j
+FMOD_Sound_SetLoopPoints
+_ZN4FMOD5Sound13setLoopPointsEjjjj
+FMOD_Sound_GetLoopCount
+_ZN4FMOD5Sound12getLoopCountEPi
+FMOD_Sound_SetLoopCount
+_ZN4FMOD5Sound12setLoopCountEi
+FMOD_Sound_GetMode
+_ZN4FMOD5Sound7getModeEPj
+FMOD_Sound_SetMode
+_ZN4FMOD5Sound7setModeEj
+FMOD_Sound_DeleteSyncPoint
+_ZN4FMOD5Sound15deleteSyncPointEP14FMOD_SYNCPOINT
+FMOD_Sound_AddSyncPoint
+_ZN4FMOD5Sound12addSyncPointEjjPKcPP14FMOD_SYNCPOINT
+FMOD_Sound_GetSyncPointInfo
+_ZN4FMOD5Sound16getSyncPointInfoEP14FMOD_SYNCPOINTPciPjj
+FMOD_Sound_GetSyncPoint
+_ZN4FMOD5Sound12getSyncPointEiPP14FMOD_SYNCPOINT
+FMOD_Sound_GetNumSyncPoints
+_ZN4FMOD5Sound16getNumSyncPointsEPi
+FMOD_Sound_GetSoundGroup
+_ZN4FMOD5Sound13getSoundGroupEPPNS_10SoundGroupE
+FMOD_Sound_SetSoundGroup
+_ZN4FMOD5Sound13setSoundGroupEPNS_10SoundGroupE
+FMOD_Sound_SeekData
+_ZN4FMOD5Sound8seekDataEj
+FMOD_Sound_ReadData
+_ZN4FMOD5Sound8readDataEPvjPj
+FMOD_Sound_GetOpenState
+_ZN4FMOD5Sound12getOpenStateEP14FMOD_OPENSTATEPjPbS4_
+FMOD_Sound_GetTag
+_ZN4FMOD5Sound6getTagEPKciP8FMOD_TAG
+FMOD_Sound_GetNumTags
+_ZN4FMOD5Sound10getNumTagsEPiS1_
+FMOD_Sound_GetNumSubSounds
+_ZN4FMOD5Sound15getNumSubSoundsEPi
+FMOD_Sound_GetFormat
+_ZN4FMOD5Sound9getFormatEP15FMOD_SOUND_TYPEP17FMOD_SOUND_FORMATPiS5_
+FMOD_Sound_GetLength
+_ZN4FMOD5Sound9getLengthEPjj
+FMOD_Sound_GetName
+_ZN4FMOD5Sound7getNameEPci
+FMOD_Sound_SetSubSoundSentence
+_ZN4FMOD5Sound19setSubSoundSentenceEPii
+FMOD_Sound_GetSubSound
+_ZN4FMOD5Sound11getSubSoundEiPPS0_
+FMOD_Sound_SetSubSound
+_ZN4FMOD5Sound11setSubSoundEiPS0_
+FMOD_Sound_Get3DCustomRolloff
+_ZN4FMOD5Sound18get3DCustomRolloffEPP11FMOD_VECTORPi
+FMOD_Sound_Set3DCustomRolloff
+_ZN4FMOD5Sound18set3DCustomRolloffEP11FMOD_VECTORi
+FMOD_Sound_Get3DConeSettings
+_ZN4FMOD5Sound17get3DConeSettingsEPfS1_S1_
+FMOD_Sound_Set3DConeSettings
+_ZN4FMOD5Sound17set3DConeSettingsEfff
+FMOD_Sound_Get3DMinMaxDistance
+_ZN4FMOD5Sound19get3DMinMaxDistanceEPfS1_
+FMOD_Sound_Set3DMinMaxDistance
+_ZN4FMOD5Sound19set3DMinMaxDistanceEff
+FMOD_Sound_GetVariations
+_ZN4FMOD5Sound13getVariationsEPfS1_S1_
+FMOD_Sound_SetVariations
+_ZN4FMOD5Sound13setVariationsEfff
+FMOD_Sound_GetDefaults
+_ZN4FMOD5Sound11getDefaultsEPfS1_S1_Pi
+FMOD_Sound_SetDefaults
+_ZN4FMOD5Sound11setDefaultsEfffi
+FMOD_Sound_Unlock
+_ZN4FMOD5Sound6unlockEPvS1_jj
+FMOD_Sound_Lock
+_ZN4FMOD5Sound4lockEjjPPvS2_PjS3_
+FMOD_Sound_GetSystemObject
+_ZN4FMOD5Sound15getSystemObjectEPPNS_6SystemE
+FMOD_Sound_Release
+_ZN4FMOD5Sound7releaseEv
+FMOD_System_GetMemoryInfo
+_ZN4FMOD6System13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+FMOD_System_GetUserData
+_ZN4FMOD6System11getUserDataEPPv
+FMOD_System_SetUserData
+_ZN4FMOD6System11setUserDataEPv
+FMOD_System_GetNetworkTimeout
+_ZN4FMOD6System17getNetworkTimeoutEPi
+FMOD_System_SetNetworkTimeout
+_ZN4FMOD6System17setNetworkTimeoutEi
+FMOD_System_GetNetworkProxy
+_ZN4FMOD6System15getNetworkProxyEPci
+FMOD_System_SetNetworkProxy
+_ZN4FMOD6System15setNetworkProxyEPKc
+FMOD_System_GetGeometryOcclusion
+_ZN4FMOD6System20getGeometryOcclusionEPK11FMOD_VECTORS3_PfS4_
+FMOD_System_LoadGeometry
+_ZN4FMOD6System12loadGeometryEPKviPPNS_8GeometryE
+FMOD_System_GetGeometrySettings
+_ZN4FMOD6System19getGeometrySettingsEPf
+FMOD_System_SetGeometrySettings
+_ZN4FMOD6System19setGeometrySettingsEf
+FMOD_System_CreateGeometry
+_ZN4FMOD6System14createGeometryEiiPPNS_8GeometryE
+FMOD_System_IsRecording
+_ZN4FMOD6System11isRecordingEiPb
+FMOD_System_RecordStop
+_ZN4FMOD6System10recordStopEi
+FMOD_System_RecordStart
+_ZN4FMOD6System11recordStartEiPNS_5SoundEb
+FMOD_System_GetRecordPosition
+_ZN4FMOD6System17getRecordPositionEiPj
+FMOD_System_GetRecordDriverCaps
+_ZN4FMOD6System19getRecordDriverCapsEiPjPiS2_
+FMOD_System_GetRecordDriverInfoW
+_ZN4FMOD6System20getRecordDriverInfoWEiPsiP9FMOD_GUID
+FMOD_System_GetRecordDriverInfo
+_ZN4FMOD6System19getRecordDriverInfoEiPciP9FMOD_GUID
+FMOD_System_GetRecordNumDrivers
+_ZN4FMOD6System19getRecordNumDriversEPi
+FMOD_System_GetDSPClock
+_ZN4FMOD6System11getDSPClockEPjS1_
+FMOD_System_UnlockDSP
+_ZN4FMOD6System9unlockDSPEv
+FMOD_System_LockDSP
+_ZN4FMOD6System7lockDSPEv
+FMOD_System_AddDSP
+_ZN4FMOD6System6addDSPEPNS_3DSPEPPNS_13DSPConnectionE
+FMOD_System_GetDSPHead
+_ZN4FMOD6System10getDSPHeadEPPNS_3DSPE
+FMOD_System_GetReverbAmbientProperties
+_ZN4FMOD6System26getReverbAmbientPropertiesEP22FMOD_REVERB_PROPERTIES
+FMOD_System_SetReverbAmbientProperties
+_ZN4FMOD6System26setReverbAmbientPropertiesEP22FMOD_REVERB_PROPERTIES
+FMOD_System_GetReverbProperties
+_ZN4FMOD6System19getReverbPropertiesEP22FMOD_REVERB_PROPERTIES
+FMOD_System_SetReverbProperties
+_ZN4FMOD6System19setReverbPropertiesEPK22FMOD_REVERB_PROPERTIES
+FMOD_System_GetMasterSoundGroup
+_ZN4FMOD6System19getMasterSoundGroupEPPNS_10SoundGroupE
+FMOD_System_GetMasterChannelGroup
+_ZN4FMOD6System21getMasterChannelGroupEPPNS_12ChannelGroupE
+FMOD_System_GetChannel
+_ZN4FMOD6System10getChannelEiPPNS_7ChannelE
+FMOD_System_PlayDSP
+_ZN4FMOD6System7playDSPE17FMOD_CHANNELINDEXPNS_3DSPEbPPNS_7ChannelE
+FMOD_System_PlaySound
+_ZN4FMOD6System9playSoundE17FMOD_CHANNELINDEXPNS_5SoundEbPPNS_7ChannelE
+FMOD_System_CreateReverb
+_ZN4FMOD6System12createReverbEPPNS_6ReverbE
+FMOD_System_CreateSoundGroup
+_ZN4FMOD6System16createSoundGroupEPKcPPNS_10SoundGroupE
+FMOD_System_CreateChannelGroup
+_ZN4FMOD6System18createChannelGroupEPKcPPNS_12ChannelGroupE
+FMOD_System_CreateDSPByType
+_ZN4FMOD6System15createDSPByTypeE13FMOD_DSP_TYPEPPNS_3DSPE
+FMOD_System_CreateDSP
+_ZN4FMOD6System9createDSPEP20FMOD_DSP_DESCRIPTIONPPNS_3DSPE
+FMOD_System_CreateStream
+_ZN4FMOD6System12createStreamEPKcjP22FMOD_CREATESOUNDEXINFOPPNS_5SoundE
+FMOD_System_CreateSound
+_ZN4FMOD6System11createSoundEPKcjP22FMOD_CREATESOUNDEXINFOPPNS_5SoundE
+FMOD_System_GetWaveData
+_ZN4FMOD6System11getWaveDataEPfii
+FMOD_System_GetSpectrum
+_ZN4FMOD6System11getSpectrumEPfii19FMOD_DSP_FFT_WINDOW
+FMOD_System_GetCDROMDriveName
+_ZN4FMOD6System17getCDROMDriveNameEiPciS1_iS1_i
+FMOD_System_GetNumCDROMDrives
+_ZN4FMOD6System17getNumCDROMDrivesEPi
+FMOD_System_GetSoundRAM
+_ZN4FMOD6System11getSoundRAMEPiS1_S1_
+FMOD_System_GetCPUUsage
+_ZN4FMOD6System11getCPUUsageEPfS1_S1_S1_S1_
+FMOD_System_GetHardwareChannels
+_ZN4FMOD6System19getHardwareChannelsEPi
+FMOD_System_GetChannelsPlaying
+_ZN4FMOD6System18getChannelsPlayingEPi
+FMOD_System_GetOutputHandle
+_ZN4FMOD6System15getOutputHandleEPPv
+FMOD_System_GetVersion
+_ZN4FMOD6System10getVersionEPj
+FMOD_System_GetStreamBufferSize
+_ZN4FMOD6System19getStreamBufferSizeEPjS1_
+FMOD_System_SetStreamBufferSize
+_ZN4FMOD6System19setStreamBufferSizeEjj
+FMOD_System_Get3DSpeakerPosition
+_ZN4FMOD6System20get3DSpeakerPositionE12FMOD_SPEAKERPfS2_Pb
+FMOD_System_Set3DSpeakerPosition
+_ZN4FMOD6System20set3DSpeakerPositionE12FMOD_SPEAKERffb
+FMOD_System_Set3DRolloffCallback
+_ZN4FMOD6System20set3DRolloffCallbackEPFfP12FMOD_CHANNELfE
+FMOD_System_Get3DListenerAttributes
+_ZN4FMOD6System23get3DListenerAttributesEiP11FMOD_VECTORS2_S2_S2_
+FMOD_System_Set3DListenerAttributes
+_ZN4FMOD6System23set3DListenerAttributesEiPK11FMOD_VECTORS3_S3_S3_
+FMOD_System_Get3DNumListeners
+_ZN4FMOD6System17get3DNumListenersEPi
+FMOD_System_Set3DNumListeners
+_ZN4FMOD6System17set3DNumListenersEi
+FMOD_System_Get3DSettings
+_ZN4FMOD6System13get3DSettingsEPfS1_S1_
+FMOD_System_Set3DSettings
+_ZN4FMOD6System13set3DSettingsEfff
+FMOD_System_Update
+_ZN4FMOD6System6updateEv
+FMOD_System_Close
+_ZN4FMOD6System5closeEv
+FMOD_System_Init
+_ZN4FMOD6System4initEijPv
+FMOD_System_RegisterDSP
+_ZN4FMOD6System11registerDSPEP20FMOD_DSP_DESCRIPTIONPj
+FMOD_System_RegisterCodec
+_ZN4FMOD6System13registerCodecEP22FMOD_CODEC_DESCRIPTIONPjj
+FMOD_System_CreateDSPByPlugin
+_ZN4FMOD6System17createDSPByPluginEjPPNS_3DSPE
+FMOD_System_GetOutputByPlugin
+_ZN4FMOD6System17getOutputByPluginEPj
+FMOD_System_SetOutputByPlugin
+_ZN4FMOD6System17setOutputByPluginEj
+FMOD_System_GetPluginInfo
+_ZN4FMOD6System13getPluginInfoEjP15FMOD_PLUGINTYPEPciPj
+FMOD_System_GetPluginHandle
+_ZN4FMOD6System15getPluginHandleE15FMOD_PLUGINTYPEiPj
+FMOD_System_GetNumPlugins
+_ZN4FMOD6System13getNumPluginsE15FMOD_PLUGINTYPEPi
+FMOD_System_UnloadPlugin
+_ZN4FMOD6System12unloadPluginEj
+FMOD_System_LoadPlugin
+_ZN4FMOD6System10loadPluginEPKcPjj
+FMOD_System_SetPluginPath
+_ZN4FMOD6System13setPluginPathEPKc
+FMOD_System_SetCallback
+_ZN4FMOD6System11setCallbackEPF11FMOD_RESULTP11FMOD_SYSTEM24FMOD_SYSTEM_CALLBACKTYPEPvS5_E
+FMOD_System_GetSpeakerMode
+_ZN4FMOD6System14getSpeakerModeEP16FMOD_SPEAKERMODE
+FMOD_System_SetSpeakerMode
+_ZN4FMOD6System14setSpeakerModeE16FMOD_SPEAKERMODE
+FMOD_System_GetAdvancedSettings
+_ZN4FMOD6System19getAdvancedSettingsEP21FMOD_ADVANCEDSETTINGS
+FMOD_System_SetAdvancedSettings
+_ZN4FMOD6System19setAdvancedSettingsEP21FMOD_ADVANCEDSETTINGS
+FMOD_System_AttachFileSystem
+_ZN4FMOD6System16attachFileSystemEPF11FMOD_RESULTPKciPjPPvS6_EPFS1_S5_S5_EPFS1_S5_S5_jS4_S5_EPFS1_S5_jS5_E
+FMOD_System_SetFileSystem
+_ZN4FMOD6System13setFileSystemEPF11FMOD_RESULTPKciPjPPvS6_EPFS1_S5_S5_EPFS1_S5_S5_jS4_S5_EPFS1_S5_jS5_EPFS1_P18FMOD_ASYNCREADINFOS5_ESA_i
+FMOD_System_GetDSPBufferSize
+_ZN4FMOD6System16getDSPBufferSizeEPjPi
+FMOD_System_SetDSPBufferSize
+_ZN4FMOD6System16setDSPBufferSizeEji
+FMOD_System_GetSoftwareFormat
+_ZN4FMOD6System17getSoftwareFormatEPiP17FMOD_SOUND_FORMATS1_S1_P18FMOD_DSP_RESAMPLERS1_
+FMOD_System_SetSoftwareFormat
+_ZN4FMOD6System17setSoftwareFormatEi17FMOD_SOUND_FORMATii18FMOD_DSP_RESAMPLER
+FMOD_System_GetSoftwareChannels
+_ZN4FMOD6System19getSoftwareChannelsEPi
+FMOD_System_SetSoftwareChannels
+_ZN4FMOD6System19setSoftwareChannelsEi
+FMOD_System_SetHardwareChannels
+_ZN4FMOD6System19setHardwareChannelsEi
+FMOD_System_GetDriver
+_ZN4FMOD6System9getDriverEPi
+FMOD_System_SetDriver
+_ZN4FMOD6System9setDriverEi
+FMOD_System_GetDriverCaps
+_ZN4FMOD6System13getDriverCapsEiPjPiP16FMOD_SPEAKERMODE
+FMOD_System_GetDriverInfoW
+_ZN4FMOD6System14getDriverInfoWEiPsiP9FMOD_GUID
+FMOD_System_GetDriverInfo
+_ZN4FMOD6System13getDriverInfoEiPciP9FMOD_GUID
+FMOD_System_GetNumDrivers
+_ZN4FMOD6System13getNumDriversEPi
+FMOD_System_GetOutput
+_ZN4FMOD6System9getOutputEP15FMOD_OUTPUTTYPE
+FMOD_System_SetOutput
+_ZN4FMOD6System9setOutputE15FMOD_OUTPUTTYPE
+FMOD_System_Release
+_ZN4FMOD6System7releaseEv
+FMOD_System_Create
+FMOD_Memory_GetStats
+FMOD_Memory_Initialize
+_ZN4FMOD11AsyncThread11addCallbackEPF11FMOD_RESULTiE
+_ZN4FMOD7SystemI19createSoundInternalEPKcjjjP22FMOD_CREATESOUNDEXINFOPPNS_4FileEbPPNS_6SoundIE
+_ZN4FMOD11AsyncThread12wakeupThreadEv
+_ZN4FMOD11AsyncThread14removeCallbackEPF11FMOD_RESULTiE
+_ZN4FMOD11AsyncThread14getAsyncThreadEPNS_7SystemIEiPPS0_
+_ZdlPv
+memset
+__aeabi_uldivmod
+__aeabi_uidiv
+memcpy
+_ZN4FMOD8ChannelI17getFinalFrequencyEPf
+_ZN4FMOD8ChannelI8validateEPNS_7ChannelEPPS0_
+PLII_Encode
+FMOD_MyEars_GetError
+_ZN4FMOD9GeometryI11setUserDataEPv
+_ZN4FMOD9GeometryI11getUserDataEPPv
+_ZN4FMOD9GeometryI13getMemoryInfoEjjPjP25FMOD_MEMORY_USAGE_DETAILS
+__aeabi_atexit
+memcmp
+_ZN4FMOD6SoundI19setUserDataInternalEPv
+_ZN4FMOD6SoundI19getUserDataInternalEPPv
+__aeabi_f2ulz
+_ZN4FMOD7SystemI12getSoundListEPPNS_6SoundIE
+_ZN4FMOD7SystemI10getGlobalsEPPNS_6GlobalE
+_ZN4FMOD20System_SetDebugLevelEj
+_ZN4FMOD20System_GetDebugLevelEv
+_ZN4FMOD19System_SetDebugModeEj
+_ZN4FMOD19System_GetDebugModeEv
+_ZN4FMOD7SystemI26createChannelGroupInternalEPKcPPNS_13ChannelGroupIEbb
+_ZN4FMOD7SystemI17getMemoryUsedImplEPNS_13MemoryTrackerE
+__cxa_pure_virtual
+__aeabi_idiv
+__aeabi_idivmod
+__aeabi_uidivmod
+sprintf
+log10f
+strncpy
+strcpy
+memmove
+__aeabi_f2lz
+FMOD_DSP_Connection_MixStereoToStereo_Neon
+FMOD_DSP_Connection_MixStereoToStereo_VFP
+FMOD_DSP_Connection_MixMonoToStereo_Neon
+FMOD_DSP_Connection_MixMonoToStereo_VFP
+FMOD_Resampler_Linear_8Bit_Mono_Neon
+FMOD_Resampler_Linear_16Bit_Mono_Neon
+FMOD_Resampler_Linear_8Bit_Stereo_Neon
+FMOD_Resampler_Linear_16Bit_Stereo_Neon
+FMOD_Resampler_Linear_16Bit_Mono_VFP
+FMOD_Resampler_Linear_8Bit_Mono_VFP
+FMOD_Resampler_Linear_16Bit_Stereo_VFP
+FMOD_Resampler_Linear_8Bit_Stereo_VFP
+FMOD_Debug_SetLevel
+FMOD_Debug_GetLevel
+FMOD_Debug_SetMode
+FMOD_Debug_GetMode
+FMOD_File_GetDiskBusy
+FMOD_File_SetDiskBusy
+sscanf
+vsnprintf
+fwrite
+fclose
+dlclose
+dlopen
+sem_post
+sem_wait
+sem_destroy
+sem_init
+pthread_mutex_unlock
+pthread_mutex_lock
+pthread_mutex_destroy
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_attr_setstacksize
+pthread_create
+pthread_attr_destroy
+pthread_self
+usleep
+gettimeofday
+__android_log_write
+realloc
+malloc
+__errno
+accept
+socket
+setsockopt
+listen
+inet_addr
+connect
+select
+gethostbyname
+Java_org_fmod_FMODAudioDevice_fmodGetInfo
+Java_org_fmod_FMODAudioDevice_fmodProcess
+fprintf
+calloc
+__aeabi_ul2d
+strlen
+fseeko
+strrchr
+strcat
+unlink
+rename
+strdup
+ftello
+strcmp
+memchr
+strncasecmp
+__aeabi_d2lz
+__aeabi_lasr
+__aeabi_l2f
+lrintf
+pthread_once
+memmem
+strtol
+libc.so
+libstdc++.so
+__udivsi3
+__div0
+__divsi3
+__ashrdi3
+__aeabi_drsub
+__subdf3
+__aeabi_dsub
+__adddf3
+__aeabi_dadd
+__floatunsidf
+__aeabi_ui2d
+__floatsidf
+__aeabi_i2d
+__extendsfdf2
+__aeabi_f2d
+__floatundidf
+__floatdidf
+__aeabi_l2d
+__aeabi_frsub
+__subsf3
+__aeabi_fsub
+__addsf3
+__aeabi_fadd
+__floatunsisf
+__aeabi_ui2f
+__floatsisf
+__aeabi_i2f
+__floatundisf
+__aeabi_ul2f
+__floatdisf
+__gnu_uldivmod_helper
+__fixsfdi
+__aeabi_fcmplt
+__fixdfdi
+__aeabi_dcmplt
+__aeabi_d2ulz
+__fixunssfdi
+__aeabi_dmul
+__aeabi_d2uiz
+__fixunsdfdi
+__udivdi3
+__aeabi_unwind_cpp_pr0
+__gnu_ldivmod_helper
+__divdi3
+_Unwind_VRS_Get
+_Unwind_VRS_Set
+_Unwind_GetCFA
+_Unwind_Complete
+_Unwind_DeleteException
+__cxa_begin_cleanup
+__cxa_type_match
+__gnu_unwind_execute
+__cxa_call_unexpected
+__aeabi_unwind_cpp_pr2
+__aeabi_unwind_cpp_pr1
+__gnu_Unwind_Find_exidx
+__exidx_end
+__exidx_start
+__gnu_Unwind_Restore_VFP_D
+__gnu_Unwind_Restore_VFP
+__gnu_Unwind_Restore_VFP_D_16_to_31
+__gnu_Unwind_Restore_WMMXD
+__gnu_Unwind_Restore_WMMXC
+__gnu_Unwind_Backtrace
+__gnu_Unwind_ForcedUnwind
+__gnu_Unwind_RaiseException
+__gnu_Unwind_Resume_or_Rethrow
+__gnu_Unwind_Resume
+_Unwind_VRS_Pop
+__gnu_Unwind_Save_VFP_D
+__gnu_Unwind_Save_VFP
+__gnu_Unwind_Save_VFP_D_16_to_31
+__gnu_Unwind_Save_WMMXD
+__gnu_Unwind_Save_WMMXC
+__restore_core_regs
+___Unwind_RaiseException
+___Unwind_Resume
+___Unwind_Resume_or_Rethrow
+___Unwind_ForcedUnwind
+___Unwind_Backtrace
+_Unwind_GetTextRelBase
+_Unwind_GetDataRelBase
+_Unwind_GetLanguageSpecificData
+_Unwind_GetRegionStart
+__gnu_unwind_frame
+__muldf3
+__divdf3
+__aeabi_ddiv
+__gtdf2
+__gedf2
+__ltdf2
+__ledf2
+__cmpdf2
+__nedf2
+__eqdf2
+__aeabi_cdrcmple
+__aeabi_cdcmpeq
+__aeabi_cdcmple
+__aeabi_dcmpeq
+__aeabi_dcmple
+__aeabi_dcmpge
+__aeabi_dcmpgt
+__fixunsdfsi
+__gtsf2
+__gesf2
+__ltsf2
+__lesf2
+__cmpsf2
+__nesf2
+__eqsf2
+__aeabi_cfrcmple
+__aeabi_cfcmpeq
+__aeabi_cfcmple
+__aeabi_fcmpeq
+__aeabi_fcmple
+__aeabi_fcmpge
+__aeabi_fcmpgt
+libm.so
+libdl.so
+liblog.so
+__cxa_finalize
+__cxa_atexit
+PLII_Encode_Init
+nPreviousInit
+p_MainLPFCoeffs
+p_SurrLPFCoeffs
+MainHPFVars_L
+MainLPFVars_L
+MainHPFVars_C
+MainLPFVars_C
+MainHPFVars_R
+MainPhase1Vars_L
+MainLPFVars_R
+MainPhase1Vars_C
+MainPhase1Vars_R
+MainPhase2Vars_L
+MainPhase2Vars_C
+MainPhase2Vars_R
+MainPhase3Vars_L
+MainPhase3Vars_C
+SurrHPF1Vars_Rs
+MainPhase3Vars_R
+MainPhase4Vars_L
+MainPhase4Vars_C
+MainPhase4Vars_R
+SurrHPF1Vars_Ls
+SurrHPF2Vars_Ls
+SurrLPF1Vars_Ls
+SurrLPF1Vars_Rs
+SurrHPF2Vars_Rs
+SurrLPF2Vars_Ls
+SurrPhase1Vars_Ls
+SurrLPF2Vars_Rs
+SurrPhase1Vars_Rs
+SurrPhase2Vars_Ls
+SurrPhase2Vars_Rs
+SurrPhase3Vars_Ls
+SurrPhase3Vars_Rs
+SurrPhase4Vars_Ls
+SurrPhase4Vars_Rs
+MainHPFCoeffs_48
+SurrHPFCoeffs_48
+SurrPhase4Coeffs_48
+MainPhase1Coeffs_48
+SurrPhase1Coeffs_48
+MainPhase2Coeffs_48
+SurrPhase2Coeffs_48
+MainPhase3Coeffs_48
+MainPhase4Coeffs_48
+SurrPhase3Coeffs_48
+p_SurrPhase4Coeffs
+SurrHPFCoeffs_32
+SurrPhase4Coeffs_32
+MainPhase1Coeffs_32
+SurrPhase1Coeffs_32
+MainPhase2Coeffs_32
+SurrPhase2Coeffs_32
+MainPhase3Coeffs_32
+MainPhase4Coeffs_32
+SurrPhase3Coeffs_32
+p_SurrHPFCoeffs
+p_MainHPFCoeffs
+MainHPFCoeffs_44
+SurrHPFCoeffs_44
+SurrPhase4Coeffs_44
+p_SurrPhase1Coeffs
+p_MainPhase1Coeffs
+MainPhase1Coeffs_44
+SurrPhase1Coeffs_44
+p_MainPhase2Coeffs
+p_SurrPhase2Coeffs
+MainPhase2Coeffs_44
+p_MainPhase3Coeffs
+SurrPhase2Coeffs_44
+MainPhase3Coeffs_44
+p_MainPhase4Coeffs
+p_SurrPhase3Coeffs
+MainPhase4Coeffs_44
+SurrPhase3Coeffs_44
+DSP_Saturate
+Biquad_Filter
+__assert2
+Pole_Zero_Filter_Phase
+Pole_Zero_Filter
+__data_start
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+libfmodex.so
+D,G(knN
+MfjvN@z
+UUUUUUU?
+tZ:p@-
+?fff?#
+G!?p@-
+../src/fmod.cpp
+../src/fmod_async.cpp
+FMOD nonblocking thread (%d)
+EmulatedChannel DSPHead Unit
+*?FMOD Resampler Unit
+FMOD Channel DSPHead Unit
+FMOD WaveTable Unit
+(null)
+../src/fmod_channelgroupi.cpp
+../src/fmod_channelpool.cpp
+../src/fmod_geometry_mgr.cpp
+FMOD geometry thread
+../src/fmod_geometryi.cpp
+../src/fmod_globals.cpp
+../src/fmod_historybuffer_pool.cpp
+../src/fmod_metadata.cpp
+../src/fmod_plugin.cpp
+../src/fmod_pluginfactory.cpp
+../src/fmod_profile.cpp
+../src/fmod_profile_channel.cpp
+../src/fmod_profile_codec.cpp
+../src/fmod_profile_cpu.cpp
+../src/fmod_profile_dsp.cpp
+../src/fmod_autocleanup.h
+../src/fmod_reverbi.cpp
+../src/fmod_sample_software.cpp
+../src/fmod_soundgroupi.cpp
+../src/fmod_soundi.cpp
+../src/fmod_speakerlevels_pool.cpp
+../src/fmod_systemi.cpp
+ChannelGroup
+FMOD Mixer unit
+FMOD SoundCard Unit
+FMOD ChannelGroup Target Unit
+FMOD master group
+FMOD stream thread
+http://
+http:\\
+https://
+https:\\
+mms://
+mms:\\
+FMOD FSB 5 Codec
+../src/fmod_codec_fsb5.cpp
+../src/fmod_codec_aiff.cpp
+FMOD AIFF Codec
+../src/fmod_codec_dls.cpp
+FMOD DLS Codec
+../src/fmod_codec_flac.cpp
+FMOD FLAC Codec
+FMOD FSB Codec
+../src/fmod_codec_fsb.cpp
+../src/fmod_codec_it.cpp
+FMOD IT Codec
+Song message
+Number of channels
+Sample name %d
+FMOD IT final mixdown unit
+FMOD IT Target Unit
+Flanger
+Chorus
+DX;B`e;l	y;o
+B<;pN<>
+=L7	=sh
+???WK?
+eW?=,d?
+#AX92A
+RA}?eA
+LACX9RC
+"GFMOD MIDI Codec
+../src/fmod_codec_midi.cpp
+ran out of FMOD channels?????
+Text (Time Ms)
+Copyright
+Track %d Name
+Instrument
+Marker
+Cue Point
+Patch Name
+Port Name
+Proprietory Data
+SRC_NONE
+SRC_LFO
+SRC_KEYONVELOCITY
+SRC_KEYNUMBER
+SRC_EG1
+SRC_EG2
+SRC_PITCHWHEEL
+SRC_CC1
+SRC_CC7
+SRC_CC10
+SRC_CC11
+DST_NONE
+DST_ATTENUATION
+DST_RESERVED
+DST_PITCH
+DST_PAN
+DST_LFO_FREQUENCY
+DST_LFO_STARTDELAY
+DST_EG1_ATTACKTIME
+DST_EG1_DECAYTIME
+DST_EG1_RESERVED
+DST_EG1_RELEASETIME
+DST_EG1_SUSTAINLEVEL
+DST_EG2_ATTACKTIME
+DST_EG2_DECAYTIME
+DST_EG2_RESERVED
+DST_EG2_RELEASETIME
+DST_EG2_SUSTAINLEVEL
+TRN_NONE
+TRN_CONCAVE
+%2d | %-13s | %-8s | %-20s | %08x | %-10s
+FMOD MIDI Target Unit
+../src/fmod_codec_mod.cpp
+FMOD MOD Codec
+FMOD MOD Target Unit
+../src/fmod_codec_mpeg.cpp
+FMOD MPEG Codec
+Sample Rate Change
+NONAME
+FMOD Ogg Vorbis Codec
+../src/fmod_codec_oggvorbis.cpp
+[reference]
+[playlist]
+Length
+LENGTH
+NumberOfEntries
+Version
+#EXTM3U
+#EXTINF
+?XML VERSION
+ENTRY PLAYSTRING=
+?WPL VERSION
+MEDIA SRC
+ASX VERSION
+REF HREF
+MOREINFO HREF
+MOREINFO
+DURATION VALUE
+DURATION
+LOGO HREF
+BANNER HREF
+BANNER
+FMOD Playlist Reader Codec
+[PLAYLIST]
+<ASX VERSION
+<?WPL VERSION
+<?XML VERSION
+[REFERENCE]
+FMOD Raw Codec
+../src/fmod_codec_s3m.cpp
+FMOD S3M Codec
+FMOD S3M Target Unit
+../src/fmod_codec_tag.cpp
+FMOD Tag Reader Codec
+ARTIST
+COMMENT
+FMOD User Reader Codec
+q../src/fmod_codec_wav.cpp
+FMOD Wav Codec
+ADH~OqW/`
+../src/fmod_codec_wav_riff.cpp
+../src/fmod_codec_xm.cpp
+FMOD XM Codec
+Extended Module: 
+FMOD XM Target Unit
+../src/fmod_dsp_chorus.cpp
+FMOD Chorus
+Volume of original signal to pass to output.  0.0 to 1.0. Default = 0.5.
+Volume of 1st chorus tap.  0.0 to 1.0.  Default = 0.5.
+Volume of 2nd chorus tap. This tap is 90 degrees out of phase of the first tap.  0.0 to 1.0.  Default = 0.5.
+Volume of 3rd chorus tap. This tap is 90 degrees out of phase of the second tap.  0.0 to 1.0.  Default = 0.5.
+Chorus delay in ms.  0.1 to 100.0.  Default = 40.0 ms.
+Chorus modulation rate in hz.  0.0 to 20.0.  Default = 0.8 hz.
+Chorus modulation depth.  0.0 to 1.0.  Default = 0.03.
+Chorus feedback.  Controls how much of the wet signal gets fed back into the chorus buffer.  -1.0 to 1.0.  Default = 0.0.
+../src/fmod_dsp_codec.cpp
+FMOD DSP Codec
+../src/fmod_dsp_codecpool.cpp
+FMOD Compressor
+Compressor threshold [-60dB, 0dB]  Default = 0dB.
+Compressor attack time. [10ms,200ms]  Default = 50ms.
+Compressor release time. [10ms,1000ms]  Default = 50ms.
+Compressor make up gain [0dB, 30dB]  Default = 0dB.
+../src/fmod_dsp_connectionpool.cpp
+../src/fmod_dsp_delay.cpp
+FMOD Delay
+Channel #0 delay in ms.  0  to 10000.  Default = 0.
+Channel #1 delay in ms.  0  to 10000.  Default = 0.
+Channel #2 delay in ms.  0  to 10000.  Default = 0.
+Channel #3 delay in ms.  0  to 10000.  Default = 0.
+Channel #4 delay in ms.  0  to 10000.  Default = 0.
+Channel #5 delay in ms.  0  to 10000.  Default = 0.
+Channel #6 delay in ms.  0  to 10000.  Default = 0.
+Channel #7 delay in ms.  0  to 10000.  Default = 0.
+Channel #8 delay in ms.  0  to 10000.  Default = 0.
+Channel #9 delay in ms.  0  to 10000.  Default = 0.
+Channel #10 delay in ms.  0  to 10000.  Default = 0.
+Channel #11 delay in ms.  0  to 10000.  Default = 0.
+Channel #12 delay in ms.  0  to 10000.  Default = 0.
+Channel #13 delay in ms.  0  to 10000.  Default = 0.
+Channel #14 delay in ms.  0  to 10000.  Default = 0.
+Channel #15 delay in ms.  0  to 10000.  Default = 0.
+Maximum delay in ms.  1  to 10000.  Default = 10.
+FMOD Distortion
+Distortion value.  0.0 to 1.0.  Default = 0.5.
+../src/fmod_dsp_echo.cpp
+FMOD Echo
+Echo delay in ms.  10  to 5000.  Default = 500.
+Echo decay per delay.  0 to 1.  1.0 = No decay, 0.0 = total decay.  Default = 0.5.
+Maximum channels supported.  0 to 16.  0 = same as fmod's default output polyphony, 1 = mono, 2 = stereo etc.  Default = 0.  It is suggested to leave at 0!
+Volume of original signal to pass to output.  0.0 to 1.0. Default = 1.0.
+Volume of echo delay signal to pass to output.  0.0 to 1.0. Default = 1.0.
+../src/fmod_dsp_flange.cpp
+FMOD Flange
+Volume of original signal to pass to output.  0.0 to 1.0. Default = 0.45.
+Volume of flange signal to pass to output.  0.0 to 1.0. Default = 0.55.
+Flange depth.  0.01 to 1.0.  Default = 1.0.
+Flange speed in hz.  0.0 to 20.0.  Default = 0.1.
+FMOD Highpass
+Highpass cutoff frequency in hz.   10.0 to 22000.0.  Default = 5000.0.
+Highpass resonance Q value. 1.0 to 10.0.  Default = 1.0.
+FMOD Highpass Simple
+Highpass cutoff frequency in hz.  10.0 to 22000.0.  Default = 1000.0
+../src/fmod_dsp_itecho.cpp
+FMOD IT Echo
+Ratio of wet (processed) signal to dry (unprocessed) signal. Must be in the range from 0.0 through 100.0 (all wet). The default value is 50.
+Percentage of output fed back into input, in the range from 0.0 through 100.0. The default value is 50.
+Delay for left channel, in milliseconds, in the range from 1.0 through 2000.0. The default value is 500 ms.
+Delay for right channel, in milliseconds, in the range from 1.0 through 2000.0. The default value is 500 ms.
+Value that specifies whether to swap left and right delays with each successive echo. The default value is zero, meaning no swap. Possible values are defined as 0.0 (equivalent to FALSE) and 1.0 (equivalent to TRUE).
+FMOD Lowpass
+Lowpass cutoff frequency in hz.   1.0 to output 22000.0.  Default = 5000.0.
+Lowpass resonance Q value. 1.0 to 10.0.  Default = 1.0.
+FMOD Lowpass Simple
+Lowpass cutoff frequency in hz.  1.0 to 22000.0.  Default = 5000.0
+FMOD IT Lowpass
+Lowpass resonance Q value. 0.0 to 127.0.  Default = 1.0
+FMOD Normalize
+Time to ramp the silence to full in ms.  0.0 to 20000.0. Default = 5000.0.
+Lower volume range threshold to ignore.  0.0 to 1.0.  Default = 0.1.  Raise higher to stop amplification of very quiet signals.
+Maximum amplification allowed.  1.0 to 100000.0.  Default = 20.0.  1.0 = no amplifaction, higher values allow more boost.
+square
+saw up
+saw down
+triangle
+FMOD Oscillator
+Select a waveform type
+Playback frequency of tone, for example music note A above middle C is 440.0.
+FMOD ParamEQ
+Frequency center.  20.0 to 22000.0.  Default = 8000.0.
+Octave range around the center frequency to filter.  0.2 to 5.0.  Default = 1.0.
+Frequency Gain.  0.05 to 3.0.  Default = 1.0.
+../src/fmod_dsp_pitchshift.cpp
+FMOD Pitch Shifter
+Pitch value.  0.5 to 2.0.  Default = 1.0. 0.5 = one octave down, 2.0 = one octave up.  1.0 does not change the pitch.
+FFT window size.  256, 512, 1024, 2048, 4096.  Default = 1024.  Increase this to reduce 'smearing'.  This effect is a warbling sound similar to when an mp3 is encoded at very low bitrates.
+Window overlap.  1 to 32.  Default = 4.  Increase this to reduce 'tremolo' effect.  Increasing it by a factor of 2 doubles the CPU usage.
+Maximum channels supported.  0 to 16.  0 = same as fmod's default output polyphony, 1 = mono, 2 = stereo etc.  See remarks for more.  Default = 0.  It is suggested to leave at 0!
+../src/fmod_dsp_resampler.cpp
+SFX Reverb
+Dry Level
+Room HF
+Decay Time
+Decay HF Ratio
+Reflections
+Reflections Delay
+Reverb Delay
+Diffusion
+Density
+HF Reference
+Room LF
+LF Reference
+>FMOD Tremolo
+LFO frequency in Hz.  0.01 to 20.  Default = 5.
+Tremolo depth.  0 to 1.  Default = 1.
+LFO shape morph between triangle and sine.  0 to 1.  Default = 0.
+Time-skewing of LFO cycle.  -1 to 1.  Default = 0.
+LFO on-time.  0 to 1.  Default = 0.5.
+Flatness of the LFO shape.  0 to 1.  Default = 0.
+Instantaneous LFO phase.  0 to 1.  Default = 0.
+Rotation / auto-pan effect.  -1 to 1.  Default = 0.
+../src/fmod_dspi.cpp
+../lib/sfx/foreverb/aSfxDsp.cpp
+../src/fmod_codec.cpp
+../src/fmod_output.cpp
+../src/fmod_file.cpp
+FMOD file thread
+../src/fmod_file_net.cpp
+StreamTitle='
+StreamUrl='
+FMODEx/%x.%02x.%02x
+GET %s HTTP/1.1
+Host: %s
+User-Agent: %s
+Icy-MetaData:1
+Proxy-Authorization: Basic 
+Authorization: Basic 
+Connection: close
+Content-Length:
+Transfer-Encoding: chunked
+icy-metaint:
+icy-br:
+icy-br
+icy-pub:
+icy-pub
+icy-notice1:
+icy-notice1
+icy-notice2:
+icy-notice2
+icy-name:
+icy-name
+icy-genre:
+icy-genre
+icy-url:
+icy-url
+icy-irc:
+icy-irc
+icy-icq:
+icy-icq
+icy-aim:
+icy-aim
+ice-bitrate: 
+ice-bitrate
+ice-description: 
+ice-description
+ice-public: 
+ice-public
+ice-name: 
+ice-name
+ice-genre: 
+ice-genre
+ice-url: 
+ice-url
+ice-irc: 
+ice-irc
+ice-icq: 
+ice-icq
+ice-aim: 
+ice-aim
+ice-audio-info: 
+ice-audio-info
+ice-private: 
+ice-private
+Location: 
+Winamp
+../src/fmod_memory.cpp
+%s (%d)
+../src/fmod_net.cpp
+HTTP/1.0
+HTTP/1.1
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+../src/fmod_string.cpp
+../src/fmod_thread.cpp
+../src/fmod_output_emulated.cpp
+../src/fmod_output_nosound.cpp
+NoSound Driver
+FMOD NoSound Output
+../src/fmod_output_nosound_nrt.cpp
+FMOD NoSound Output - Non real-time
+FMOD mixer thread
+../src/fmod_output_software.cpp
+FMOD Software Output
+qfmt (
+../src/fmod_output_wavwriter.cpp
+fmodoutput.wav
+FMOD WavWriter Output
+qfmt (
+q../src/fmod_output_wavwriter_nrt.cpp
+FMOD WavWriter Output - Non real-time
+q../android/src/fmod_os_misc.cpp
+libOpenSLES.so
+Audio Track output
+FMOD Audio Track Output
+FMOD OpenSL ES Output
+androidRecordingPreset
+../android/src/fmod_output_opensl.cpp
+Android audio input
+Android audio output
+slCreateEngine
+SL_IID_ENGINE
+SL_IID_ANDROIDSIMPLEBUFFERQUEUE
+SL_IID_ANDROIDCONFIGURATION
+SL_IID_PLAY
+SL_IID_RECORD
+androidPlaybackStreamType
+8?61$#*-pw~ylkbeHOFATSZ]
+' ).;<52
+WPY^KLEBohafst}z
+ing`ur{|QV_XMJCD
+!&/(=:34NI@GRU\[vqx
+jmdc>907"%,+
+14P;=4p
+d4Ums4
+&57{15
+=5^LI5;aV5
+u&62G16t
+I6e"V6
+c8nPr8
+`H9SfU9
+Dc9h	r9
+/=mJ;=@vG=
+;G>M.T>7
+?vorbis
+/proc/cpuinfo
+CPU architecture
+Features
+vfpv3d16
+Processor
+Biquad_Filter
+Pole_Zero_Filter_Phase
+Pole_Zero_Filter
+?../../src/pl2_encode_subroutine.c
+0 == dspsBlockSize % 2
+ !"$%&')*+,-./01234567889:;;<<==>>>???@@@@@@@@@@@???>>>==<<;;:98876543210/.-,+*)'&%$"! 
+						
+?Dry mix
+?Wet mix tap 1
+?Wet mix tap 2
+?Wet mix tap 3
+ BDelay
+L?Rate
+<Depth
+Feedback
+Threshold
+HBAttack
+HBRelease
+Make up gain
+Delay ch0
+Delay ch1
+Delay ch2
+Delay ch3
+Delay ch4
+Delay ch5
+Delay ch6
+Delay ch7
+Delay ch8
+Delay ch9
+Delay ch10
+Delay ch11
+Delay ch12
+Delay ch13
+Delay ch14
+Delay ch15
+ AMax delay
+?Level
+CDelay
+?Decay
+Max channels
+channels
+?Drymix
+?Wetmix
+>Drymix
+?Wetmix
+?Depth
+ECutoff freq
+?Resonance
+zDCutoff freq
+HBWetDryMix
+HBFeedback
+CLeftDelay
+CRightDelay
+PanDelay
+ECutoff freq
+?Resonance
+ECutoff freq
+ECutoff freq
+?Resonance
+EFade in time
+seconds
+=Lowest volume
+AMaximum amp
+Oscillator type
+\CFrequency
+ECenter freq
+?Octave range
+octaves
+?Frequency gain
+?Pitch
+DFFT size
+@Overlap
+Max channels
+channels
+G;Ln^;<nv;
+1<z/<<T
+G<76R<	
+Z=k\`=3
+%>m)(>
+[>fX^>
+c>_*f>*
+z{>80~>'t
+#?wg$?
+,?;U-?
+1?Un2?
+9?.@:?
+s@?Y!A?
+A?BzB?
+zD?W$E?6
+E?huF?
+N?	^O?e
+T?A`U?
+X?edY?
+\?R>]?
+_?mh`?8
+c?Zld?
+e?=Wf?
+g?X2h?
+k?)$l?5
+l?(bm?
+q?-Ur?
+s?f_s?
+v?_#w?Olw?
+w?3@x?
+	y?|Jy?$
+)|?=Z|?L
+~?X?~?
+Dry Level
+Room HF
+?Decay Time
+?Decay HF Ratio
+Reflections
+<Reflect Delay
+Reverb
+#=Reverb Delay
+BDiffusion
+BDensity
+EHF Reference
+Room LF
+zCLF Reference
+@Frequency
+?Depth
+Square
+Spread
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.4.3
+GCC: (GNU) 4.6 20120106 (prerelease)
+GCC: (GNU) 4.4.3
+.shstrtab
+.dynsym
+.dynstr
+.rel.dyn
+.rel.plt
+.rodata
+.ARM.extab
+.ARM.exidx
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.comment
+.ARM.attributes

@@ -1,0 +1,7816 @@
+YuozRD
+ SQ[b	
+Sn0~!2
+ 10[@1
+ T T08
+1p@H	0
+!2n0_	
+!n0_	S
+Cq s	2
+n@!"C!TQ
+Tr o!!
+P!n0""$
+M!n0$"
+n@!"4e
+[ n0""T
+N n0""
+ n0""C
+333333
+ZQ		TQ
+S 		n0
+%	[	&	Y
+T@ 	n 
+R@#	n 
+T@$	n 
+T@&	n0i
+T!5	p 
+TT5	n 
+3	[	4	[
+T0.	n 
+T0/	n 
+S00	n0
+R01	n 
+T02	n 
+R03	n 
+T04	n 
+T05	n 
+\2<	[57	q
+[09	q 
+[0;	T0;	n 
+Z0>	\2?	
+S1>	r0
+S1>	r0
+TB@	TCA	p0Y
+R1F	RBF	3!
+R1G	RBG	3!
+R1H	RBH	3!
+T1I	TBI	q 
+T1J	TBJ	q 
+!R2H	q
+1T2I	M
+AT2J	M
+RPG	3@
+T0X	n 
+TQW	n 
+T0Z	T1[	T
+\	T2[	n
+@![0[	
+R2]	n0
+R2^	n0
+R2_	n0
+R2`	n0
+R2a	n0
+R2b	n0
+Y ^	Y!_	Y!`	Y!a	Y!b	Y#]	[$\	
+RBl	n 
+RBc	n 
+UBd	n 
+RBe	n 
+UBf	n 
+TBg	n 
+RBh	n 
+T m	T!j	n 6
+Y#l	Y$c	\%d	Y&e	\'f	[(g	Y)h	9
+[!i	[!j	9
+[ i	[*j	(
+[0q	T0o	n
+[0q	n s
+@![0p	
+p	YP^	T
+TPw	n 
+Tq~	n 
+TQ~	n 
+TA~	n 
+RBR	q0L
+1RBT	q0L
+b	M	q0
+RBy	q0L
+!TBz	q@D
+1TB{	qSC
+RBu	q0L
+!TBv	q@D
+1TBw	q@E
+g n0[!1
+3 n0""!
+ffffff
+*333333
+333333
+ffffff
+ffffff
+?333333
+ffffff
+rQv!PC
+333333
+ RS!"!
+ Q#Tqa
+JK-<<--KKKKKKK-
+,K<<--<KKKKKK
+wx<xZiiii
+<Ziiii
+iZxiMZK
+<<x-KK-
+ZZZ<ZZ
+ZKKKKKKx
+xZZZZx
+<-<yyK-
+iZiZi=
+iZiZiZi=
+KKiiiiiK
+_;xyx{xxxxxz
+1xy1-------L
+[<<y=<<<<
+l[y<<y=W<$
+Pxyxx{xxxy
+xyyxxx
+KZ[Lii=
+rwtttt
+jiKi=j
+theqqr
+xK---i[x
+--=K--L
+Zi-xxxK-i-
+LZK=iK
+`KKZZ]
+-xxyjZ
+xxx--i-
+/xx}xxxyk-Z<ii---
+h-KZ[K>\
+-KZ[K>\
+-KZ[K>\
+-KZ[K>\
+-KZ[K>\
+-KZ[K>\
+jZZZZZj
+                 typeIn=
+                typeOut=
+            typeInArray=
+            versionCode=
+           typeOutArray=
+          converterName=
+        outputFieldName=
+       concreteTypeName=
+      safeParcelFieldId=
+     concreteType.class=
+	  %s:	%s
+  Attachments:
+  Created new loader 
+  Destroying: 
+  Filter did not match: 
+  Filter matched!  match=0x
+  Finished Retaining: 
+  Op #
+  Parameters:
+  Re-using existing loader 
+  Reseting: 
+  Retaining: 
+  Starting: 
+  Stopping: 
+  Switching to pending loader: 
+  mAvailIndices: 
+  mCurState=
+  mDeliveredData=
+  mNeedMenuInvalidate=
+  mNoTransactionsBecause=
+  onLoadFinished in 
+  trim considering time=
+  trim removing 
+ (index 
+ CLAN created name=
+ CLAN joined name=
+ CONNECT stage=
+ DATA 
+ ERROR 
+ FATAL 
+ FacebookAndroidSDK
+ GOHOME
+ IS NOT the main thread 
+ IS the main thread 
+ LOGIN 
+ NPC attack ref=
+ NPC rejected ref=
+ Parcel: pos=
+ RAW rest=
+ RAW unrecognised header=
+ RENAME name=
+ SENDDATA 
+ State:
+ URL: 
+ VISIT target=
+  being reused. This is not safe.
+ by server
+ bytes
+ bytes)
+2 did not call through to super.onActivityCreated()
+) did not call through to super.onAttach()
+) did not call through to super.onCreate()
+* did not call through to super.onDestroy()
+. did not call through to super.onDestroyView()
+) did not call through to super.onDetach()
+( did not call through to super.onPause()
+) did not call through to super.onResume()
+( did not call through to super.onStart()
+' did not call through to super.onStop()
+ did not create a view.
+ directly.
+ event to server...
+ existing=
+ exitAnim=#
+ expireIn=
+	 fastest=
+ file:
+ filter=
+ fname=
+ for fragment 
+ fragment=
+% got an unexpected method signature: 
+ has cleared index: 
+% has target not in fragment manager: 
+ header_encrypted=
+ id=0x
+ is not a graph object.
+( is not currently in the FragmentManager
+ mAbandoned=
+ mArgs=
+ mBackStackNesting=
+ mBreadCrumbShortTitleText=
+ mBreadCrumbTitleText=
+ mCommitted=
+ mContainerId=#
+ mContentChanged=
+ mDestroyed=
+ mDetached=
+ mExitAnim=#
+ mFromLayout=
+ mHasMenu=
+ mInLayout=
+ mIndex=
+ mListener=
+ mListenerRegistered=
+ mMenuVisible=
+ mPopExitAnim=#
+ mReallyStopped=
+ mRemoving=
+ mReportNextStart=
+ mReset=
+ mResumed=
+ mRetaining=
+ mRetainingStarted=
+ mStateSaved=
+ mStopped=
+ mTag=
+ mTargetRequestCode=
+ mTransitionStyle=#
+ mUserVisibleHint=
+ mWho=
+ name=
+	 nesting=
+ not attached to Activity
+ null 
+ of intent 
+ of senders 
+ permissions:
+ popExitAnim=#
+ pos: 
+ position=
+ requested=
+ scheme 
+ set base fragment #
+ set remove fragment #
+ sha1=
+ should not be null!
+ size: 
+ size=
+ target no longer exists: 
+ token:
+ too small; defaulting to 1
+ tutorial=
+ when expected 
+ while retrieving bitmap from 
+ with 
+ with another fragment for 
+k" was not found on the action.  The name of the preview property must match the name of an action property.
+"%s", implicit: %b, json: %s
+", "$id" : "
+$$SwitchMap$com$facebook$SessionState
+E$SwitchMap$com$facebook$widget$GraphObjectAdapter$SectionAndItem$Type
+$VALUES
+$assertionsDisabled
+$maxKey
+$minKey
+$options
+$regex
+$scope
+$where
+/%s CLAN donation donor=%s units=%d castle=%d/%d
+"%s CLAN troop request castle=%d/%d
+"%s DISCONNECT stage=%s after=%.2fs
+I%s MATCH result placed=%d destruction=%.2f stars=%d trophies=%+d total=%d
+U%s MATCH tag=%s next=%s th=%d name=%s gold=%d elixir=%d cost=%d bytes=%d buildings=%d
+8%s NPC result ref=%d placed=%d destruction=%.2f stars=%d
+%s PUSH id=%d len=%d
+4%s RAID attacker=%s gold=-%d elixir=-%d trophies=-%d
+%s RECV id=%d ver=%d len=%d
+%s SEND id=%d len=%d
+3%s STATE gold=%d elixir=%d dark=%d gems=%d xp=%d/%d
+%s%s/%s/%s
+%s/accounts/test-users
+%s/activities
+%s: %s
+%s: EGL error: 0x%x
+%s[%d]
+%s[%s]
+&advertiser_id=
+&campaign_id=
+&data=
+&debug=1
+&fb_cookie_id=
+&install_log_id=
+&keys[device_id]=
+&keys[mac_address]=
+&package_name=
+&publisher_advertiser_id=
+&publisher_id=
+&response_format=json
+&skip_dup=1
+&source=
+&update_log_id=
+' cannot be empty
+' cannot be null
+' cannot be null or empty
+' cannot contain empty values
+' cannot contain null values
+#' was not one of the allowed values
+(I)TCONCRETE;
+(I)TE;
+(I)TT;
+(I)[TT;
+(ITE;)V
+	(ITT;)TT;
+(ITT;)V
+(TA;)TB;
+(TD;)V
+(TE;)Z
+(TK;)TV;
+	(TK;TV;)I
+(TK;TV;)TV;
+(TK;TV;TV;)Z
+(TM;)V
+(TO;)TI;
+(TSTATE;)V
+(TT;)I
+(TT;)V
+(TT;)Z
+(TV;)I
+([a-z])([A-Z])
+)TCONCRETE;
+, appId:
+, body: 
+, confidence=
+, elapsedRealtimeMillis=
+, error = 
+	, error: 
+, errorCode: 
+, errorMessage: 
+, errorType: 
+, facebookErrorCode: 
+, facebookErrorType: 
+, graphObject: 
+, graphPath: 
+, httpMethod: 
+, isFromCache:
+, message: 
+, or parent id 0x
+, parameters: 
+, requests: 
+, restMethod: 
+, tag 
+, timeMillis=
+, token:
+, unregistered = 
+!, which will destroy all old data
+--elixir
+--fresh
+--gems
+--gold
+--host
+--level-dir
+--match-th
+--name
+--no-tutorial
+--port
+--reply-version
+--resources
+--stage
+--state
+	-Infinity
+. Using 
+.GCMIntentService
+.facebook.com
+.permission.C2D_MESSAGE
+,.sizeOf() is reporting inconsistent results!
+/custom_audience_third_party_id
+/friends
+/proc/meminfo
+/referrer_apps
+/serve?s=android&ver=2.5&pn=
+0123456789abcdef
+0_auth_logger_id
+	127.0.0.1
+1_timestamp_ms
+2_result
+	30820268308201d102044a9c4610300d06092a864886f70d0101040500307a310b3009060355040613025553310b3009060355040813024341311230100603550407130950616c6f20416c746f31183016060355040a130f46616365626f6f6b204d6f62696c653111300f060355040b130846616365626f6f6b311d301b0603550403131446616365626f6f6b20436f72706f726174696f6e3020170d3039303833313231353231365a180f32303530303932353231353231365a307a310b3009060355040613025553310b3009060355040813024341311230100603550407130950616c6f20416c746f31183016060355040a130f46616365626f6f6b204d6f62696c653111300f060355040b130846616365626f6f6b311d301b0603550403131446616365626f6f6b20436f72706f726174696f6e30819f300d06092a864886f70d010101050003818d0030818902818100c207d51df8eb8c97d93ba0c8c1002c928fab00dc1b42fca5e66e99cc3023ed2d214d822bc59e8e35ddcf5f44c7ae8ade50d7e0c434f500e6c131f4a2834f987fc46406115de2018ebbb0d5a3c261bd97581ccfef76afc7135a6d59e8855ecd7eacc8f8737e794c60a761c536b72b11fac8e603f5da1a2d54aa103b8a13c0dbc10203010001300d06092a864886f70d0101040500038181005ee9be8bcbb250648d3b741290a82a1c9dc2e76a0af2f2228f1d9f9c4007529c446a70175c5a900d5141812866db46be6559e2141616483998211f4a673149fb2232a10d247663b26a9031e15f84bc1c74d141ff98a02d76f85b2c8ab2571b6469b232d8e768a7f7ca04f7abe4a775615916c07940656b58717457b42bd928a2
+3_method
+(3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f
+4_error_code
+5_error_message
+6_extras
+9774d56d682e549c
+: (null)
+: Duplicate id 0x
+: args=
+: index 
+U: make sure class name exists, is public, and has an empty constructor that is public
+; filename="%s"
+; resetting registration id
+<**>;)
+<**>;)V
+<**>;>;
+<**>;>;)
+	<**>;>;)V
+	<**>;>;>;
+)<*>.com/google/android/gms/internal/cs;)V
+)<*>.com/google/android/gms/internal/cs;)Z
+)<*>.com/google/android/gms/internal/cs;>;
+<*>;)TT;
+<*>;)V
+<*>;)Z
+<*>;>;
+<*>;>;)V
+<*>;>;>;
+<*>;TT;)TT;
+	<*>;TT;>;
+	<+TE;>;)Z
+<+TK;+TV;>;
+<+TK;+TV;>;)V
+<+TK;+TV;>;>(TN;
+<+TK;+TV;>;>(TN;)
+<+TK;+TV;>;>(TN;)TM;
+<<default account>>
+<Binary Data>
+<CONCRETE:
+'<Can't encode events for debug logging>
+<Data: %d>
+<Image>
+<None Provided>
+<STATE:
+<TD;>;
+<TD;>;)
+<TD;>;)V
+<TD;>;TD;)V
+<TE;>;
+	<TI;TO;>;
+<TI;TO;>;)V
+<TK;>;
+<TK;TV;
+	<TK;TV;>;
+<TK;TV;>;)
+<TK;TV;>;)V
+<TK;TV;>;>
+<TK;TV;>;>(
+<TK;TV;>;>;
+<TK;TV;TM;>.b;
+<TK;TV;TM;>.d;
+<TK;TV;TM;>.g;
+<TK;TV;TM;>;)
+<TT;>.
+!<TT;>.PickerFragmentAdapter<TT;>;
+<TT;>.SelectionStrategy;
+<TT;>.SelectionStrategy;)V
+)<TT;>.com/google/android/gms/internal/cq<
+.<TT;>.com/google/android/gms/internal/cq<*>;)V
+.<TT;>.com/google/android/gms/internal/cq<*>;>;
+)<TT;>.com/google/android/gms/internal/cs;
+<TT;>;
+<TT;>;)
+<TT;>;)TT;
+<TT;>;)V
+<TT;>;)Z
+<TT;>;>;
+<TT;>;>;)V
+<TT;>;I
+	<TT;>;Z)V
+	<TT;TT;>;
+<TU;>;
+<TU;>;)
+<TV;>;
+<clinit>
+<init>
+'=;expires=Sat, 1 Jan 2000 00:00:01 UTC;
+	>(TT;)TT;
+>(TT;TT;)Z
+>([TT;)
+>([TT;)[TT;
+>.PickerFragmentAdapter<
+>.SelectionStrategy;
+%>.com/google/android/gms/internal/cq<
+>;>;)[B
+>;>;J)I
+>;>;J)J
+>;II)V
+>;III)V
+MA fatal developer error has occurred. Check the logs for further information.
+A property named "
+ACCESS_TOKEN_KEY
+ACCESS_TOKEN_PARAM
+ACCESS_TOKEN_REMOVED
+ACHIEVEMENT_BASE
+ACHIEVEMENT_GEMS
+ACHIEVEMENT_TARGETS
+ACHIEVEMENT_XP
+ACTION_ACTIVE_SESSION_CLOSED
+ACTION_ACTIVE_SESSION_OPENED
+ACTION_ACTIVE_SESSION_SET
+ACTION_ACTIVE_SESSION_UNSET
+ACTION_APP_EVENTS_FLUSHED
+ACTION_FEED_DIALOG
+ACTION_FEED_DIALOG_REPLY
+ACTION_LOGIN_DIALOG
+ACTION_LOGIN_DIALOG_REPLY
+ACTION_OGACTIONPUBLISH_DIALOG
+#ACTION_OGACTIONPUBLISH_DIALOG_REPLY
+ACTIVE
+ACTIVITY_CIRCLE
+ACTIVITY_CIRCLE_SHOW_KEY
+ACTIVITY_CIRCLE_VIEW_TYPE
+ACTIVITY_CREATED
+ACTIVITY_NULL_MESSAGE
+AES/CBC/NoPadding
+AES/CBC/PKCS5Padding
+AES/ECB/PKCS5Padding
+ALLIANCE_BADGES
+ALLIANCE_BADGE_BASE
+ALLIANCE_CREATE_FAILED
+ALLIANCE_DATA
+ALLIANCE_ID
+ALLIANCE_JOINABLE_LIST
+ALLIANCE_JOIN_OK
+ALLIANCE_LEAVE_OK
+ALLIANCE_MEMBER
+ALLIANCE_MEMBER_REMOVED
+ALLIANCE_NAME_LIMIT
+ALLIANCE_RANKING
+ALLIANCE_ROLE_LEADER
+ALLIANCE_SEARCH_RESULT
+ALLIANCE_STREAM
+ALLIANCE_STREAM_ENTRY
+ALLIANCE_TEXT_LIMIT
+ALLOW_ALL_HOSTNAME_VERIFIER
+ALL_FRIENDS
+ALREADY_EXPIRED_EXPIRATION_TIME
+ANALYTICS_EVENT
+ANGLE_0
+	ANGLE_180
+	ANGLE_270
+ANGLE_90
+API method must be specified. (parameters must contain key "method" and value). See http://developers.facebook.com/docs/reference/rest/
+APPLICATION_FIELDS
+APPLICATION_ID_PROPERTY
+APPLINK_BRIDGE_ARGS_KEY
+APPLINK_METHOD_ARGS_KEY
+APPLINK_VERSION_KEY
+APPREQUESTS_DIALOG
+APP_EVENTS
+APP_EVENTS_EXTRA_FLUSH_RESULT
+#APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED
+APP_EVENT_PREFERENCES
+APP_SETTING_FIELDS
+5APP_SUPPORTS_ATTRIBUTION_ID_RECHECK_PERIOD_IN_SECONDS
+ARCHIVE_ID
+ARCHIVE_LEVEL
+ARCHIVE_NAME
+ARCHIVE_TROPHIES
+	ARGB_8888
+ARGUMENTS_TAPTIME_KEY
+ASK_ALLIANCE_DATA
+ASK_ALLIANCE_RANKING
+ASK_ALLIANCE_STREAM
+ASK_AVATAR_PROFILE
+ASK_AVATAR_RANKING
+ASK_JOINABLE_ALLIANCES
+ASK_LOCAL_RANKING
+ATTACHED_FILES_PARAM
+ATTACHMENTS_DIR_NAME
+ATTACHMENT_FILENAME_PREFIX
+ATTACHMENT_URL_BASE
+ATTACK_COST
+ATTACK_NPC
+ATTACK_REPORT_LIST
+ATTACK_SOURCE_MATCHED
+ATTRIBUTION_ID_COLUMN_NAME
+ATTRIBUTION_ID_CONTENT_URI
+ATTRIBUTION_KEY
+ATTRIBUTION_PREFERENCES
+AUDIENCE_EVERYONE
+AUDIENCE_FRIENDS
+AUDIENCE_ME
+AUTHENTICATION_REOPEN_SESSION
+AUTHENTICATION_RETRY
+AUTH_BUNDLE_SAVE_KEY
+AUTO_PUBLISH
+AVATAR_PROFILE
+AVATAR_RANKING
+Accept
+AchievementTotalCount
+"Action does not contain a property
+Action list: 
+Active Fragments in 
+Active Loaders:
+#Active members only. Come and join!
+/Activity result fragment index out of range: 0x
+0Activity result no fragment exists for index: 0x
+.ActivityRecognitionResult [probableActivities=
+Added Fragments:
+"Adding available back stack index 
+Adding back stack index 
+After eglCreateContext
+After last object.
+Agus Gaming
+Allocated fragment index 
+	Anastasia
+Android 
+Android Simulator
+AndroidAuthKillSwitchException
+AndroidServer.java
+Anh Tuan
+App version changed from 
+	AppEvents
+AppEventsLogger.persistedevents
+6Application requires permission to access the Internet
+ApplicationError
+ApplicationId
+Archer Queen
+Argument '
+,Argument timeoutInMilliseconds must be >= 0.
+Arrow Storm
+aAt least one request in a batch must have an open Session, or a default app ID must be specified.
+2Attempted to authorize while a request is pending.
+>Attempted to continue authorization without a pending request.
+-Attempted to use a Session that was not open.
++Attempting to unregister the wrong listener
+AutoMatchCriteria
+AvatarOptions
+BACKGROUND_GRAY
+BAD_REQUEST
+BARRACK_ID
+BASIC_INFO
+BATCHED_REST_METHOD_URL_BASE
+BATCH_APP_ID_PARAM
+BATCH_BODY_PARAM
+BATCH_ENTRY_DEPENDS_ON_PARAM
+BATCH_ENTRY_NAME_PARAM
+*BATCH_ENTRY_OMIT_RESPONSE_ON_SUCCESS_PARAM
+BATCH_METHOD_PARAM
+BATCH_PARAM
+BATCH_RELATIVE_URL_PARAM
+BATTLE_SECONDS
++BILLING_RESPONSE_RESULT_BILLING_UNAVAILABLE
+'BILLING_RESPONSE_RESULT_DEVELOPER_ERROR
+BILLING_RESPONSE_RESULT_ERROR
+*BILLING_RESPONSE_RESULT_ITEM_ALREADY_OWNED
+&BILLING_RESPONSE_RESULT_ITEM_NOT_OWNED
+(BILLING_RESPONSE_RESULT_ITEM_UNAVAILABLE
+BILLING_RESPONSE_RESULT_OK
+%BILLING_RESPONSE_RESULT_USER_CANCELED
+BITMAP_HEIGHT_KEY
+BITMAP_KEY
+BITMAP_WIDTH_KEY
+BODY_KEY
+BOOST_COST
+BOOST_SECONDS
+BOT_ID_BASE
+	BOT_NAMES
+BRIDGE_ARGS_METHOD_KEY
+BUILDING_ALT_AIR
+BUILDING_ALT_GROUND
+BUILDING_ALT_MODE
+BUILDING_AMMO
+BUILDING_AMMO_COST
+BUILDING_AMMO_RES
+BUILDING_CANNOT_SELL_LAST
+BUILDING_DPS
+BUILDING_H
+BUILDING_HP
+BUILDING_LEVELS
+BUILDING_REQUIRED_TH
+BUILDING_TARGET_AIR
+BUILDING_TARGET_GROUND
+BUILDING_W
+BUILD_CANCEL_MULT
+BUILD_COST
+	BUILD_RES
+BUILD_SECS
+BUNDLE_APPLINK_ARGS_KEY
+BUY_INTENT
+Back Stack Indices:
+Back Stack:
+	Barbarian
+BattleOutcome
+Before eglCreateContext
+Before first object.
+/Both context and applicationId must be non-null
+Budi Santoso
+Buffer is closed.
+Builders.java
+Bump nesting in 
+Bump nesting of 
+8Buy us a coffee on Ko-fi: https://ko-fi.com/nara_archive
+CACHED_RESULT_REFRESH_DELAY
+CACHE_READ_QUEUE_MAX_CONCURRENT
+CAMP_SPACE
+CANCEL
+CANCEL_URI
+CANON_EQ
+CAPTION_PARAM
+CASE_INSENSITIVE
+CASTLE_CAPACITY
+	CASTLE_ID
+CASTTOMAP_METHOD
+CAST_METHOD
+CATEGORY
+CBAnalytics
+CBAnimationTypeBounce
+CBAnimationTypeNone
+ CBAnimationTypePerspectiveRotate
+CBAnimationTypePerspectiveZoom
+CBAnimationTypeSlideFromBottom
+CBAnimationTypeSlideFromTop
+CBImpressionStateCached
+-CBImpressionStateDisplayedByDefaultController
+CBImpressionStateOther
+"CBImpressionStateWaitingForCaching
+$CBImpressionStateWaitingForDismissal
+"CBImpressionStateWaitingForDisplay
+CBImpressionTypeInterstitial
+CBImpressionTypeMoreApps
+CBImpressionTypeOther
+CBQueuedRequests-
+CENTER_INSIDE
+CHANGE_HOME_NAME
+CHAR_SEQUENCE_CREATOR
+CHAT_ALLIANCE
+CHAT_LIMIT
+CHAT_LINES
+CHAT_MAX_SECONDS
+CHAT_MIN_SECONDS
+CIRCLE
+CLAN_CHAT_LINES
+CLAN_ID_BASE
+CLAN_MAX_MEMBERS
+CLAN_MAX_SECONDS
+CLAN_MIN_SECONDS
+CLAN_ROLE_MEMBER
+CLEAR_METHOD
+CLIENT
+CLIENT_TOKEN
+CLOSED
+CLOSED_CATEGORY
+CLOSED_LOGIN_FAILED
+CMD_BOOST_BUILDING
+CMD_BUY_BUILDING
+CMD_BUY_DECO
+CMD_BUY_FREE_BUILDING
+CMD_BUY_RESOURCES
+CMD_BUY_SHIELD
+CMD_BUY_TRAP
+CMD_CANCEL_CONSTRUCTION
+CMD_CANCEL_HERO_UPGRADE
+CMD_CANCEL_TRAINING
+CMD_CANCEL_UPGRADE_UNIT
+CMD_CAST_SPELL
+CMD_CLAIM_ACHIEVEMENT
+CMD_CLEAR_OBSTACLE
+CMD_COLLECT
+CMD_END_ATTACK_PREP
+CMD_END_COMBAT
+CMD_FREE_WORKER
+CMD_LOAD_AMMO
+CMD_MATCHMAKING
+CMD_MISSION_PROGRESS
+CMD_MOVE_BUILDING
+CMD_MOVE_MULTIPLE
+CMD_PLACE_ALLIANCE_PORTAL
+CMD_PLACE_ATTACKER
+CMD_PLACE_HERO
+CMD_REQUEST_UNITS
+CMD_SELL_BUILDING
+CMD_SPEED_UP_CLEARING
+CMD_SPEED_UP_CONSTRUCTION
+CMD_SPEED_UP_HERO
+CMD_SPEED_UP_HERO_HEALTH
+CMD_SPEED_UP_TRAINING
+CMD_SPEED_UP_UPGRADE_UNIT
+CMD_TOGGLE_ATTACK_MODE
+CMD_TOGGLE_HERO_SLEEP
+CMD_TRAIN_UNIT
+CMD_UNLOCK_BUILDING
+CMD_UPGRADE_BUILDING
+CMD_UPGRADE_HERO
+CMD_UPGRADE_UNIT
+CN=Android Debug,O=Android,C=US
+CODENAME
+CODE_KEY
+COMMENTS
+COMPLETION_GESTURE_CANCEL
+CONTAINSKEY_METHOD
+CONTAINSVALUE_METHOD
+CONTENT_SCHEME
+CONTENT_TYPE_HEADER
+CREATED
+CREATED_CATEGORY
+CREATED_TOKEN_LOADED
+CREATE_ALLIANCE
+CREATOR
+CUSTOM
+CUSTOM_APP_EVENTS
+#Cache byte-count limit must be >= 0
+#Cache file count limit must be >= 0
+Callback proxy 
+"Called doRetain when not started: 
+%Called doStart when already started: 
+ Called doStop when not started: 
+Called while creating a loader
+Camila
+5Can not perform this action after onSaveInstanceState
+&Can not perform this action inside of 
+0Can not set attachments prior to setting action.
+*Can only use lower 16 bits for requestCode
+9Can't cast GraphObjectCollection of non-GraphObject type 
+8Can't change HTTP method on request with overridden URL.
+Can't convert type
+Can't create Collection from 
+Can't create GraphObject from 
+,Can't have more than one test application ID
+0Can't have more than one test application secret
+5Can't issue requests until Fragment has been created.
+&Can't override URL for a batch request
+Can't validate without a token
+	Cancelled
+)Cannot add pager decor view during layout
+#Cannot advance the iterator beyond 
+0Cannot call %s after setSession has been called.
+xCannot call LoginActivity with a null calling package. This can occur if the launchMode of the caller is singleInstance.
+KCannot call setPublishPermissions after setReadPermissions has been called.
+KCannot call setReadPermissions after setPublishPermissions has been called.
+$Cannot choose from an empty sequence
+&Cannot convert to JSON on client side.
+JCannot create an AuthorizationRequest without a valid Activity or Fragment
+Cannot have both %s and %s!
+SCannot pass a publish or manage permission (%s) to a request for read authorization
+.Cannot read files larger than 2147483647 bytes
+/Cannot readObject, serialization proxy required
+0Cannot remove elements from a DataBufferIterator
+CCannot request publish or manage authorization with no permissions.
+`Cannot use SessionLoginBehavior %s when %s is not declared as an activity in AndroidManifest.xml
+Capabilities
+Carlos
+!Casual clan, everyone is welcome.
+Caught exception
+,Caught unexpected exception while flushing: 
+Chartboost Analytics
+Chartboost impression activity not declared in manifest. Please add the following inside your manifest's <application> tag: 
+<activity android:name="com.chartboost.sdk.CBImpressionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:excludeFromRecents="true" />
+Chartboost-Android-SDK 3.1.5
+Chen Hao
+Chill clan for chill players.
+Cipher.java
+Circle [%s] %s
+ClientAddress
+Command
+	Completed
+*Concrete field shouldn't be value object: 
+"Concrete type arrays not supported
+Concrete types not supported
+Config.java
+ConnectedToRoom
+Connection
+Container '
+*Content-Disposition: form-data; filename="
+&Content-Disposition: form-data; name="
+)Content-Disposition: form-data; name="%s"
+Content-Type
+Content-Type: content/unknown
+0Converting to JSON does not require this method.
+Could not create file at 
+Could not create instance of 
+$Could not delete test account %s: %s
+0Could not delete test account %s: unknown reason
+3Could not update saved web view auth handler token.
+Coult not get package name: 
+Created app event '%s'
+CreationTimestamp
+	CreatorId
+DARK_BARRACK_ID
+DARK_ELIXIR
+DARK_GEM_POINTS
+DATA_PARAM
+DEBUG.DBTIMESTAMP
+DEBUG.MONGO
+	DECO_BASE
+	DECO_COST
+DECO_COUNT
+DECO_H
+DECO_MAX_COUNT
+DECO_OBJECT_CLASS
+DECO_REQ_EXP
+DECO_RES
+DECO_W
+DEFAULT_ACCESS_TOKEN_SOURCE
+DEFAULT_AUTHORIZE_ACTIVITY_CODE
+DEFAULT_AUTH_ACTIVITY_CODE
+DEFAULT_BOLD
+DEFAULT_CACHE_KEY
+DEFAULT_CORE_POOL_SIZE
+DEFAULT_EXPIRATION_TIME
+DEFAULT_KEEP_ALIVE
+DEFAULT_LAST_REFRESH_TIME
+DEFAULT_MAXIMUM_POOL_SIZE
+DEFAULT_MAX_CONCURRENT
+DEFAULT_RADIUS_IN_METERS
+DEFAULT_RESULTS_LIMIT
+DEFAULT_STREAM_BUFFER_SIZE
+DEFAULT_THEME
+DEFAULT_THREAD_FACTORY
+DEFAULT_WORK_QUEUE
+DEFENSE_IDS
+DELETE
+DESCRIPTION_PARAM
+DESTRUCTION_XP
+DETAILS_LIST
+DEVELOPER_ERROR
+DEVELOPER_ERRORS
+DIALOG_AUTHORITY_FORMAT
+DIALOG_BASE_URL
+DIALOG_CALL_BUNDLE_SAVE_KEY
+DIALOG_PARAM_ACCESS_TOKEN
+DIALOG_PARAM_APP_ID
+DIALOG_PARAM_CLIENT_ID
+DIALOG_PARAM_DISPLAY
+DIALOG_PARAM_E2E
+DIALOG_PARAM_REDIRECT_URI
+DIALOG_PARAM_SCOPE
+DIALOG_PARAM_TYPE
+DIALOG_PATH
+DIALOG_REQUEST_CODE
+DIAMONDS
+DISABLE_SSL_CHECK_FOR_TESTING
+DISPLAY_SECTIONS_THRESHOLD
+DISPLAY_TOUCH
+DONATE_MAX_SECONDS
+DONATE_MIN_SECONDS
+DONATE_POOL
+DONE_BUTTON_TEXT_BUNDLE_KEY
+DOTALL
+DOWNLOAD_QUEUE_MAX_CONCURRENT
+DROP TABLE IF EXISTS siteids
+DUMMY_CLAN_BADGES
+DUMMY_CLAN_CACHE
+DUMMY_CLAN_NAMES
+DUMMY_CLAN_TEXTS
+Daichi
+	Data.java
+Default
+Description
+Destroying Active in 
+Destroying Inactive in 
+DetectedActivity [type=
+DeveloperName
+DisplayName
+Dmitri
+&Don't know how to handle this message.
+Donations and good vibes only.
+Dragon
+Dragon Slayer
+Dragon Slayers
+DynamicSenderIds
+EAGER_FLUSHING_EVENT
+EC_APP_NOT_INSTALLED
+EC_APP_TOO_MANY_CALLS
+EC_EXPIRED
+EC_INVALID_SESSION
+EC_INVALID_TOKEN
+EC_PASSWORD_CHANGED
+EC_PERMISSION_DENIED
+EC_RANGE_PERMISSION
+EC_SERVICE_UNAVAILABLE
+EC_UNCONFIRMED_USER
+EC_UNKNOWN_ERROR
+EC_USER_CHECKPOINTED
+EC_USER_TOO_MANY_CALLS
+EGL_NO_CONTEXT
+ELIXIR
+ENCODED_EVENTS_KEY
+END_TURN
+ENEMY_HOME_DATA
+ENEMY_NAMES
+ENGLISH
+ENTRYSET_METHOD
+EQUALS_METHOD
+ERROR_APPLICATION_ERROR
+ERROR_CODE_FIELD_KEY
+ERROR_CODE_KEY
+	ERROR_KEY
+ERROR_MESSAGE_FIELD_KEY
+ERROR_MSG_KEY
+ERROR_NETWORK_ERROR
+ERROR_PERMISSION_DENIED
+ERROR_PROTOCOL_ERROR
+ERROR_REASON_KEY
+ERROR_SERVICE_DISABLED
+ERROR_SUB_CODE_KEY
+ERROR_TYPE_FIELD_KEY
+ERROR_UNKNOWN_ERROR
+ERROR_USER_CANCELED
+EVENT_COUNT_KEY
+EVENT_EXTRAS_APP_CALL_ID
+EVENT_EXTRAS_DEFAULT_AUDIENCE
+EVENT_EXTRAS_IS_LEGACY
+EVENT_EXTRAS_LOGIN_BEHAVIOR
+(EVENT_EXTRAS_MISSING_INTERNET_PERMISSION
+EVENT_EXTRAS_NEW_PERMISSIONS
+EVENT_EXTRAS_NOT_TRIED
+EVENT_EXTRAS_PERMISSIONS
+EVENT_EXTRAS_PROTOCOL_VERSION
+EVENT_EXTRAS_REQUEST_CODE
+EVENT_EXTRAS_SERVICE_DISABLED
+EVENT_EXTRAS_TRY_LEGACY
+EVENT_EXTRAS_TRY_LOGIN_ACTIVITY
+EVENT_EXTRAS_WRITE_PRIVACY
+EVENT_FRIEND_PICKER_USAGE
+EVENT_JOINED
+EVENT_LEFT
+EVENT_LOGIN_VIEW_USAGE
+EVENT_NAME_ACHIEVED_LEVEL
+EVENT_NAME_ACTIVATED_APP
+EVENT_NAME_ADDED_PAYMENT_INFO
+EVENT_NAME_ADDED_TO_CART
+EVENT_NAME_ADDED_TO_WISHLIST
+!EVENT_NAME_COMPLETED_REGISTRATION
+EVENT_NAME_COMPLETED_TUTORIAL
+EVENT_NAME_INITIATED_CHECKOUT
+EVENT_NAME_LOGIN_COMPLETE
+ EVENT_NAME_LOGIN_METHOD_COMPLETE
+EVENT_NAME_LOGIN_METHOD_START
+EVENT_NAME_LOGIN_START
+EVENT_NAME_LOG_CONVERSION_PIXEL
+EVENT_NAME_PURCHASED
+EVENT_NAME_RATED
+EVENT_NAME_SEARCHED
+EVENT_NAME_SPENT_CREDITS
+EVENT_NAME_UNLOCKED_ACHIEVEMENT
+EVENT_NAME_VIEWED_CONTENT
+"EVENT_NATIVE_LOGIN_DIALOG_COMPLETE
+EVENT_NATIVE_LOGIN_DIALOG_START
+EVENT_PARAMETER_PIXEL_ID
+EVENT_PARAMETER_PIXEL_VALUE
+EVENT_PARAM_AUTH_LOGGER_ID
+EVENT_PARAM_CONTENT_ID
+EVENT_PARAM_CONTENT_TYPE
+EVENT_PARAM_CURRENCY
+EVENT_PARAM_DESCRIPTION
+EVENT_PARAM_ERROR_CODE
+EVENT_PARAM_ERROR_MESSAGE
+EVENT_PARAM_EXTRAS
+EVENT_PARAM_LEVEL
+EVENT_PARAM_LOGIN_RESULT
+EVENT_PARAM_MAX_RATING_VALUE
+EVENT_PARAM_METHOD
+!EVENT_PARAM_METHOD_RESULT_SKIPPED
+EVENT_PARAM_NUM_ITEMS
+"EVENT_PARAM_PAYMENT_INFO_AVAILABLE
+EVENT_PARAM_REGISTRATION_METHOD
+EVENT_PARAM_SEARCH_STRING
+EVENT_PARAM_SUCCESS
+EVENT_PARAM_TIMESTAMP
+EVENT_PARAM_VALUE_NO
+EVENT_PARAM_VALUE_YES
+EVENT_PLACE_PICKER_USAGE
+EVENT_THRESHOLD
+EVENT_USER_SETTINGS_USAGE
+EVENT_WEB_LOGIN_COMPLETE
+EVERYONE
+EXPIRATION_DATE_KEY
+EXPIRES
+EXPIRES_IN_KEY
+EXPLICIT
+EXPLICIT_ONLY
+EXTRA_ACCESS_TOKEN
+EXTRA_ACTION
+EXTRA_ACTION_TYPE
+EXTRA_APPLICATION_ID
+EXTRA_APPLICATION_NAME
+EXTRA_DATA_FAILURES_FATAL
+EXTRA_DESCRIPTION
+EXTRA_DIALOG_COMPLETE_KEY
+#EXTRA_DIALOG_COMPLETION_GESTURE_KEY
+EXTRA_DIALOG_COMPLETION_ID_KEY
+!EXTRA_EXPIRES_SECONDS_SINCE_EPOCH
+EXTRA_FIELDS_BUNDLE_KEY
+EXTRA_FRIEND_TAGS
+EXTRA_GET_INSTALL_DATA_PACKAGE
+EXTRA_IMAGE
+EXTRA_LINK
+EXTRA_PERMISSIONS
+EXTRA_PLACE_TAG
+EXTRA_PREVIEW_PROPERTY_NAME
+EXTRA_PROTOCOL_ACTION
+EXTRA_PROTOCOL_CALL_ID
+EXTRA_PROTOCOL_VERSION
+EXTRA_PROTOCOL_VERSIONS
+	EXTRA_REF
+EXTRA_REQUEST
+EXTRA_SUBTITLE
+EXTRA_TITLE
+EXTRA_WRITE_PRIVACY
+0Either location or searchText must be specified.
+-Either width or height must be greater than 0
+Eko Prasetyo
+Empty string
+Encoding exception: 
+Error 
++Error creating JSON header for cache file: 
+%Error creating buffer output stream: 
+4Error in downloading profile picture for profileId: 
+Error loading data : %s
+!Error processing value for key: '
+%Error reading cached value for key: '
+#Error while retrieving bitmap from 
+Event was 
+*Event was rejected by server: status code 
+Exception on http request: 
+PExpect collection properties to be of a type with exactly one generic parameter.
+Expected object header. Got 0x
+Expected size 
+Expecting ',' delimiter
+Expecting ':'
+Expecting property name
+Expecting value
+Extra data
+FACEBOOK_APPLICATION_NATIVE
+FACEBOOK_APPLICATION_SERVICE
+FACEBOOK_APPLICATION_WEB
+FACEBOOK_COM
+FACEBOOK_NON_JSON_RESULT
+FACEBOOK_PACKAGE
+FACEBOOK_PROXY_AUTH_ACTIVITY
+FACEBOOK_PROXY_AUTH_APP_ID_KEY
+FACEBOOK_PROXY_AUTH_E2E_KEY
+#FACEBOOK_PROXY_AUTH_PERMISSIONS_KEY
+FACEBOOK_TOKEN_REFRESH_ACTIVITY
+FAILED
+FBAndroidSDK
+FB_APP_SIGNATURE
+FEED_DIALOG
+FIELDS
+FIIFZZ)V
+FILE_NAME_PREFIX
+FIT_CENTER
+FLUSH_PERIOD_IN_SECONDS
+;FMOD: AudioDevice::run               : Actual buffer size: 
+8FMOD: AudioDevice::run               : Min buffer size: 
+FORCE_DIALOG_AUTH
+FORMAT_JSON
+FORMAT_PARAM
+FRIENDS
+FROM_PARAM
+$Facebook App ID cannot be determined
+Facebook-AuthorizationClient
+Facebook-Util
+Facebook-publish
+FacebookSDK
+FacebookSDK.
+FacebookSDK.TestSession
+FacebookSDK.WebDialog
+FacebookSdk #
+-Factory can only wrap interfaces, not class: 
+Factory can't proxy method: 
+Failed
+Failed to initialize game
+Failed to insert row into 
+!Failed:
+  Response: %s
+  Error %s
+Failed: No Connectivity
+Failure saving state: 
+Failure saving state: active 
+Fatima
+FeaturedImageUri
+Felipe
+Finished Retaining in 
+9Flush completed
+Params: %s
+  Result: %s
+  Events JSON: %s
+Flushing %d events due to %s.
+#Fragement no longer exists for key 
+	Fragment 
+Fragment already active
+FragmentManager
+FragmentManager misc state:
+FragmentManager{
+FragmentPager.SavedState{
+Fragments Created Menus:
+Freeing back stack index 
+Freeing fragment index 
+#Friendly clan. Donate and have fun!
+Frost Mage
+GCM IntentService class: 
+1GCM returned invalid number of deleted messages: 
+GCMIntentService-
+GCM_LIB
+GENDER_FEMALE
+GENDER_MALE
+GETINNERJSONOBJECT_METHOD
+GETPROPERTYASLIST_METHOD
+GETPROPERTYAS_METHOD
+GETPROPERTY_METHOD
+GET_METHOD
+GLOBAL
+GLOBAL_CHAT_LINE
+GO_HOME
+GRAPH_BASE_URL
+GRAPH_OBJECT
+GRAPH_OBJECT_VIEW_TYPE
+GRAPH_URL_FORMAT
+Gabriel
+GameplayAclStatus
+$GamesClient requires %s to function.
+7Geofence[%s id:%s transitions:%d %.6f, %.6f %.0fm, @%d]
+	GmsClient
+Goblin King
+Goblin Raider
+Gold Hunter
+Golden Hawks
+;Google Play services missing when getting application info.
+>Google Play services out of date.  Requires 3225100 but found 
+GooglePlayServicesUtil
+"Got an unexpected non-JSON object.
+Got unexpected exception:
+Got unexpected exception: 
+/Got unexpected object type in response, class: 
+&GraphObjectList{itemType=%s, state=%s}
+?GraphObjectPagingLoader received neither a result nor an error.
+*GraphObject{graphObjectClass=%s, state=%s}
+Group [%s] %s
+HASH_ALGORITHM_MD5
+HASH_MULTIPLIER
+	HASH_SEED
+HEADER_CACHEKEY_KEY
+HEADER_CACHE_CONTENT_TAG_KEY
+HEADER_SIZE
+HEADER_VERSION
+HEADER_VIEW_TYPE
+HEIGHT_PARAM
+	HERO_BASE
+HERO_CANCEL_MULT
+	HERO_COST
+HERO_DPS
+HERO_HEALTH_SPEED_UP_MULT
+HERO_HP
+HERO_READY
+HERO_REGEN_SECONDS
+HERO_REQUIRED_TH
+HERO_SECONDS
+HH:mm:ss
+HTTP Request Body 
+HTTP_1_1
+HTTP_RANGE_CLIENT_ERROR
+HTTP_RANGE_SERVER_ERROR
+HTTP_RANGE_SUCCESS
+Haruto
+Hassan Ali
+aHi, {name}!
+This project was created and developed by Nara Archieve through the "revive" project!
+HiResImage
+HiResImageUri
+	Hog Rider
+Hub.java
+'I/O error while retrieving bitmap from 
+ILDLLL
+ILLDLLL
+ILLLLL
+ILLLLLL
+IMAGE_URL_KEY
+IMAGE_USER_GENERATED_KEY
+INAPP_DATA_SIGNATURE
+INAPP_DATA_SIGNATURE_LIST
+INAPP_PURCHASE_DATA
+INAPP_PURCHASE_DATA_LIST
+INAPP_PURCHASE_ITEM_LIST
+INCLUDE_ACCESS_TOKENS
+INCLUDE_RAW_RESPONSES
+INITIALIZING
+INSIGHTS
+INTENT_ACTION_PLATFORM_ACTIVITY
+INTENT_ACTION_PLATFORM_SERVICE
+INTERNAL_ERROR
+	INTERSECT
+INVALID_ACCOUNT
+INVALID_BUNDLE_MILLISECONDS
+INVALID_ERROR_CODE
+INVALID_HTTP_STATUS_CODE
+INVALID_MESSAGE_ID
+#INVALID_SESSION_FACEBOOK_ERROR_CODE
+ISEMPTY_METHOD
+ISO_8601_FORMAT_STRING
+IS_CROPPED_DEFAULT_VALUE
+IS_CROPPED_KEY
+IS_SSO_KEY
+ITEM_ID_LIST
+	IconImage
+IconImageUri
+/Identifier '%s' must be less than %d characters
+If you are satisfied with this project, you can make a donation:
+Saweria:
+https://saweria.co/naraarchieve
+Ko-fi:
+https://ko-fi.com/nara_archive
+Inactive Loaders:
+Incorrect URL: 
+Indo Warriors
+Infinity
+Insights
+4Install attribution has been disabled on the server.
+InstanceInstalled
+InstancePackageName
+Instantiated fragment 
+Intent service name: 
+Invalid \u escape
+Invalid access token.
+Invalid control character
+Invalid creation type: 
+Invalid escape
+InvitationId
+InvitationType
+Inviter
+	Iron Fist
+Iron Legion
+Isabella
+It is illegal to call this method from any thread other than the UI thread. Please call it from the onBackPressed() method of your host activity.
+It is illegal to call this method from any thread other than the UI thread. Please call it from the onCreate() method of your host activity.
+It is illegal to call this method from any thread other than the UI thread. Please call it from the onStart() method of your host activity.
+It is illegal to call this method from any thread other than the UI thread. Please call it from the onStop() method of your host activity.
+(JSON encoding for app event failed: '%s'
+JSONObjectEntry is immutable
+JSON_VALUE
+JSON_VALUE_ENUM_TYPE
+JSON_VALUE_TYPE
+	JellyBean
+9Join our Discord community: https://discord.gg/2dHDk36YBk
+;Join our Telegram community: https://t.me/+SptgKXM7uqA4OTA1
+Join us and grow strong!
+JsonParser
+KATANA_SIGNATURE
+KEEP_ALIVE
+KEEP_ALIVE_OK
+KEYSET_METHOD
+KNOWN_PROTOCOL_VERSIONS
+Keep-Alive
+Komang
+	LANDSCAPE
+LANDSCAPE_LEFT
+LANDSCAPE_REVERSE
+LANDSCAPE_RIGHT
+LAST_REFRESH_DATE_KEY
+LEAGUE_FLOORS
+LEAGUE_MAX_INDEX
+LEAVE_ALLIANCE
+LEVEL_MAX_BYTES
+LEVEL_NAME
+LICENSE_CHECK_FAILED
+LILLLL
+LINK_DISCORD
+	LINK_KOFI
+LINK_PARAM
+LINK_SAWERIA
+LINK_TELEGRAM
+LITERAL
+LITTLE_ENDIAN
+LLIILLL
+LLJLLLL
+LLLDLIL
+LLLIILL
+LLLLDL
+LLLLIII
+LLLLLL
+LLLLLLL
+LLLLLLLL
+	LLLLLLLLL
+LLLLLLLLLLJ
+LLLLLZ
+LLLLZL
+LOCAL_RANKING
+LOCATION
+LOCATION_BUNDLE_KEY
+LOGIN_OK
+LOG_TAG
+LOG_TAG_BASE
+LOOPBACK
+!Landroid/animation/ValueAnimator;
+Landroid/app/Activity;
+Landroid/app/AlarmManager;
+!Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog;
+Landroid/app/Application;
+Landroid/app/Dialog;
+Landroid/app/DialogFragment;
+Landroid/app/Fragment;
+Landroid/app/FragmentManager;
+Landroid/app/IntentService;
+"Landroid/app/Notification$Builder;
+Landroid/app/Notification;
+!Landroid/app/NotificationManager;
+Landroid/app/PendingIntent;
+Landroid/app/ProgressDialog;
+Landroid/app/Service;
++Landroid/content/ActivityNotFoundException;
+#Landroid/content/BroadcastReceiver;
+$Landroid/content/ComponentCallbacks;
+Landroid/content/ComponentName;
+!Landroid/content/ContentProvider;
+!Landroid/content/ContentResolver;
+Landroid/content/ContentUris;
+Landroid/content/ContentValues;
+Landroid/content/Context;
+2Landroid/content/DialogInterface$OnCancelListener;
+1Landroid/content/DialogInterface$OnClickListener;
+!Landroid/content/DialogInterface;
+Landroid/content/Intent;
+Landroid/content/IntentFilter;
+2Landroid/content/IntentSender$SendIntentException;
+Landroid/content/IntentSender;
+#Landroid/content/ServiceConnection;
+*Landroid/content/SharedPreferences$Editor;
+#Landroid/content/SharedPreferences;
+Landroid/content/UriMatcher;
+!Landroid/content/pm/ActivityInfo;
+$Landroid/content/pm/ApplicationInfo;
+ Landroid/content/pm/PackageInfo;
+9Landroid/content/pm/PackageManager$NameNotFoundException;
+#Landroid/content/pm/PackageManager;
+ Landroid/content/pm/ResolveInfo;
+ Landroid/content/pm/ServiceInfo;
+Landroid/content/pm/Signature;
+"Landroid/content/res/AssetManager;
+#Landroid/content/res/Configuration;
+Landroid/content/res/Resources;
+ Landroid/content/res/TypedArray;
+"Landroid/database/ContentObserver;
+Landroid/database/Cursor;
+2Landroid/database/CursorIndexOutOfBoundsException;
+Landroid/database/CursorWindow;
+$Landroid/database/DataSetObservable;
+"Landroid/database/DataSetObserver;
+Landroid/database/SQLException;
+6Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
+(Landroid/database/sqlite/SQLiteDatabase;
+*Landroid/database/sqlite/SQLiteOpenHelper;
+,Landroid/database/sqlite/SQLiteQueryBuilder;
+(Landroid/graphics/Bitmap$CompressFormat;
+ Landroid/graphics/Bitmap$Config;
+Landroid/graphics/Bitmap;
+(Landroid/graphics/BitmapFactory$Options;
+ Landroid/graphics/BitmapFactory;
+Landroid/graphics/Camera;
+Landroid/graphics/Canvas;
+Landroid/graphics/ColorFilter;
+!Landroid/graphics/LinearGradient;
+Landroid/graphics/Matrix;
+Landroid/graphics/Paint$Style;
+Landroid/graphics/Paint;
+!Landroid/graphics/Path$Direction;
+Landroid/graphics/Path;
+Landroid/graphics/Point;
+"Landroid/graphics/PorterDuff$Mode;
+%Landroid/graphics/PorterDuffXfermode;
+Landroid/graphics/Rect;
+Landroid/graphics/RectF;
+Landroid/graphics/Region$Op;
+"Landroid/graphics/Shader$TileMode;
+Landroid/graphics/Shader;
+Landroid/graphics/Typeface;
+Landroid/graphics/Xfermode;
+*Landroid/graphics/drawable/BitmapDrawable;
+-Landroid/graphics/drawable/Drawable$Callback;
+2Landroid/graphics/drawable/Drawable$ConstantState;
+$Landroid/graphics/drawable/Drawable;
+8Landroid/graphics/drawable/GradientDrawable$Orientation;
+,Landroid/graphics/drawable/GradientDrawable;
+Landroid/location/Location;
+Landroid/media/AudioTrack;
+!Landroid/net/ConnectivityManager;
+Landroid/net/LocalSocket;
+Landroid/net/NetworkInfo;
+Landroid/net/Uri$Builder;
+Landroid/net/Uri;
+Landroid/net/http/SslError;
+Landroid/net/wifi/WifiInfo;
+'Landroid/net/wifi/WifiManager$WifiLock;
+Landroid/net/wifi/WifiManager;
+/Landroid/opengl/GLSurfaceView$EGLConfigChooser;
+0Landroid/opengl/GLSurfaceView$EGLContextFactory;
+'Landroid/opengl/GLSurfaceView$Renderer;
+Landroid/opengl/GLSurfaceView;
+Landroid/os/AsyncTask
+Landroid/os/AsyncTask;
+Landroid/os/Binder;
+Landroid/os/Build$VERSION;
+Landroid/os/Build;
+Landroid/os/Bundle;
+Landroid/os/Environment;
+Landroid/os/Handler$Callback;
+Landroid/os/Handler;
+Landroid/os/IBinder;
+Landroid/os/IInterface;
+Landroid/os/Looper;
+Landroid/os/Message;
+Landroid/os/Messenger;
+Landroid/os/Parcel;
+6Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;
+!Landroid/os/ParcelFileDescriptor;
+)Landroid/os/Parcelable$ClassLoaderCreator
+*Landroid/os/Parcelable$ClassLoaderCreator;
+Landroid/os/Parcelable$Creator
+Landroid/os/Parcelable$Creator;
+Landroid/os/Parcelable;
+"Landroid/os/PowerManager$WakeLock;
+Landroid/os/PowerManager;
+Landroid/os/Process;
+Landroid/os/RemoteException;
+Landroid/os/ResultReceiver;
+Landroid/os/SystemClock;
+"Landroid/provider/Settings$Secure;
+Landroid/support/v4/a/a
+Landroid/support/v4/a/a;
+Landroid/support/v4/a/b
+Landroid/support/v4/a/b;
+Landroid/support/v4/a/c;
+Landroid/support/v4/a/d;
+Landroid/support/v4/a/e;
+Landroid/support/v4/a/f;
+'Landroid/support/v4/app/BackStackState;
+,Landroid/support/v4/app/Fragment$SavedState;
+!Landroid/support/v4/app/Fragment;
+)Landroid/support/v4/app/FragmentActivity;
+CLandroid/support/v4/app/FragmentManager$OnBackStackChangedListener;
+-Landroid/support/v4/app/FragmentManagerState;
+&Landroid/support/v4/app/FragmentState;
+Landroid/support/v4/app/a;
+Landroid/support/v4/app/b;
+Landroid/support/v4/app/c;
+Landroid/support/v4/app/d;
+Landroid/support/v4/app/e;
+Landroid/support/v4/app/f;
+Landroid/support/v4/app/g;
+Landroid/support/v4/app/h;
+Landroid/support/v4/app/i;
+Landroid/support/v4/app/j;
+Landroid/support/v4/app/k;
+Landroid/support/v4/app/l;
+Landroid/support/v4/app/m;
+Landroid/support/v4/app/n;
+Landroid/support/v4/app/o;
+Landroid/support/v4/app/p;
+Landroid/support/v4/app/q
+Landroid/support/v4/app/q;
+Landroid/support/v4/app/r;
+Landroid/support/v4/app/s;
+Landroid/support/v4/app/t;
+Landroid/support/v4/app/u;
+Landroid/support/v4/b/a;
+Landroid/support/v4/b/b;
+Landroid/support/v4/b/c
+Landroid/support/v4/b/c;
+Landroid/support/v4/b/d;
+Landroid/support/v4/c/a;
+Landroid/support/v4/c/b;
+Landroid/support/v4/c/c
+Landroid/support/v4/c/c;
+Landroid/support/v4/d/a;
+Landroid/support/v4/d/b;
+Landroid/support/v4/d/c;
+Landroid/support/v4/d/d;
+.Landroid/support/v4/view/ViewPager$SavedState;
+#Landroid/support/v4/view/ViewPager;
+Landroid/support/v4/view/a;
+Landroid/support/v4/view/aa;
+Landroid/support/v4/view/ab;
+Landroid/support/v4/view/ac;
+Landroid/support/v4/view/b;
+Landroid/support/v4/view/c;
+Landroid/support/v4/view/d;
+Landroid/support/v4/view/e;
+Landroid/support/v4/view/f;
+Landroid/support/v4/view/g;
+Landroid/support/v4/view/h;
+Landroid/support/v4/view/i;
+Landroid/support/v4/view/j;
+Landroid/support/v4/view/k;
+Landroid/support/v4/view/l;
+Landroid/support/v4/view/m;
+Landroid/support/v4/view/n;
+Landroid/support/v4/view/o;
+Landroid/support/v4/view/p;
+Landroid/support/v4/view/q;
+Landroid/support/v4/view/r;
+Landroid/support/v4/view/s;
+Landroid/support/v4/view/t;
+Landroid/support/v4/view/u;
+Landroid/support/v4/view/v;
+Landroid/support/v4/view/w;
+Landroid/support/v4/view/x;
+Landroid/support/v4/view/y;
+Landroid/support/v4/view/z;
+$Landroid/telephony/TelephonyManager;
+Landroid/text/Editable;
+'Landroid/text/InputFilter$LengthFilter;
+#Landroid/text/TextUtils$TruncateAt;
+Landroid/text/TextUtils;
+Landroid/text/TextWatcher;
+&Landroid/util/AndroidRuntimeException;
+Landroid/util/AttributeSet;
+Landroid/util/Base64;
+Landroid/util/DisplayMetrics;
+Landroid/util/Log;
+Landroid/util/Pair
+Landroid/util/Pair;
+Landroid/util/SparseArray
+Landroid/util/SparseArray;
+*Landroid/view/ContextMenu$ContextMenuInfo;
+Landroid/view/ContextMenu;
+Landroid/view/Display;
+Landroid/view/FocusFinder;
+Landroid/view/KeyEvent;
+%Landroid/view/LayoutInflater$Factory;
+Landroid/view/LayoutInflater;
+Landroid/view/Menu;
+Landroid/view/MenuInflater;
+Landroid/view/MenuItem;
+Landroid/view/MotionEvent;
+'Landroid/view/OrientationEventListener;
+#Landroid/view/SoundEffectConstants;
+Landroid/view/VelocityTracker;
+"Landroid/view/View$BaseSavedState;
+Landroid/view/View$MeasureSpec;
+/Landroid/view/View$OnAttachStateChangeListener;
+#Landroid/view/View$OnClickListener;
+/Landroid/view/View$OnCreateContextMenuListener;
+'Landroid/view/View$OnLongClickListener;
+#Landroid/view/View$OnTouchListener;
+Landroid/view/View;
+%Landroid/view/ViewGroup$LayoutParams;
+Landroid/view/ViewGroup;
+Landroid/view/ViewParent;
+Landroid/view/ViewStub;
+6Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+Landroid/view/ViewTreeObserver;
+Landroid/view/Window;
+)Landroid/view/WindowManager$LayoutParams;
+Landroid/view/WindowManager;
+/Landroid/view/accessibility/AccessibilityEvent;
+/Landroid/view/animation/AccelerateInterpolator;
+'Landroid/view/animation/AlphaAnimation;
+4Landroid/view/animation/Animation$AnimationListener;
+"Landroid/view/animation/Animation;
+%Landroid/view/animation/AnimationSet;
+'Landroid/view/animation/AnimationUtils;
+/Landroid/view/animation/DecelerateInterpolator;
+%Landroid/view/animation/Interpolator;
+'Landroid/view/animation/ScaleAnimation;
+'Landroid/view/animation/Transformation;
++Landroid/view/animation/TranslateAnimation;
+-Landroid/view/inputmethod/InputMethodManager;
+Landroid/webkit/CookieManager;
+"Landroid/webkit/CookieSyncManager;
+ Landroid/webkit/SslErrorHandler;
+Landroid/webkit/WebSettings;
+Landroid/webkit/WebView;
+Landroid/webkit/WebViewClient;
+)Landroid/widget/AbsListView$LayoutParams;
+-Landroid/widget/AbsListView$OnScrollListener;
+Landroid/widget/AbsListView;
+,Landroid/widget/AbsoluteLayout$LayoutParams;
+Landroid/widget/AbsoluteLayout;
+Landroid/widget/AdapterView
+0Landroid/widget/AdapterView$OnItemClickListener;
+Landroid/widget/AdapterView;
+Landroid/widget/ArrayAdapter
+Landroid/widget/ArrayAdapter;
+Landroid/widget/BaseAdapter;
+Landroid/widget/Button;
+Landroid/widget/CheckBox;
+Landroid/widget/EdgeEffect;
+Landroid/widget/EditText;
+)Landroid/widget/FrameLayout$LayoutParams;
+Landroid/widget/FrameLayout;
+%Landroid/widget/HorizontalScrollView;
+$Landroid/widget/ImageView$ScaleType;
+Landroid/widget/ImageView;
+*Landroid/widget/LinearLayout$LayoutParams;
+Landroid/widget/LinearLayout;
+Landroid/widget/ListAdapter;
+Landroid/widget/ListView;
+Landroid/widget/ProgressBar;
+,Landroid/widget/RelativeLayout$LayoutParams;
+Landroid/widget/RelativeLayout;
+Landroid/widget/ScrollView;
+Landroid/widget/Scroller;
+Landroid/widget/SectionIndexer;
+$Landroid/widget/TextView$BufferType;
+0Landroid/widget/TextView$OnEditorActionListener;
+Landroid/widget/TextView;
+ Latch interrupted while posting 
+7Lcom/android/vending/billing/IInAppBillingService$Stub;
+2Lcom/android/vending/billing/IInAppBillingService;
+Lcom/android/vending/billing/a;
+*Lcom/chartboost/sdk/Analytics/CBAnalytics;
+)Lcom/chartboost/sdk/CBImpressionActivity;
+!Lcom/chartboost/sdk/Chartboost$1;
+#Lcom/chartboost/sdk/Chartboost$2$1;
+!Lcom/chartboost/sdk/Chartboost$2;
+!Lcom/chartboost/sdk/Chartboost$3;
+!Lcom/chartboost/sdk/Chartboost$4;
+!Lcom/chartboost/sdk/Chartboost$5;
+!Lcom/chartboost/sdk/Chartboost$6;
+!Lcom/chartboost/sdk/Chartboost$a;
+!Lcom/chartboost/sdk/Chartboost$b;
+!Lcom/chartboost/sdk/Chartboost$c;
+Lcom/chartboost/sdk/Chartboost;
+'Lcom/chartboost/sdk/ChartboostDelegate;
+7Lcom/chartboost/sdk/Libraries/CBOrientation$Difference;
+,Lcom/chartboost/sdk/Libraries/CBOrientation;
+"Lcom/chartboost/sdk/Libraries/a$a;
+ Lcom/chartboost/sdk/Libraries/a;
+ Lcom/chartboost/sdk/Libraries/b;
+ Lcom/chartboost/sdk/Libraries/c;
+ Lcom/chartboost/sdk/Libraries/d;
+"Lcom/chartboost/sdk/Libraries/e$a;
+"Lcom/chartboost/sdk/Libraries/e$b;
+"Lcom/chartboost/sdk/Libraries/e$c;
+"Lcom/chartboost/sdk/Libraries/e$d;
+"Lcom/chartboost/sdk/Libraries/e$e;
+ Lcom/chartboost/sdk/Libraries/e;
+Lcom/chartboost/sdk/a$1;
+Lcom/chartboost/sdk/a$a;
+Lcom/chartboost/sdk/a$b;
+Lcom/chartboost/sdk/a;
+Lcom/chartboost/sdk/b$a;
+Lcom/chartboost/sdk/b$b$1;
+Lcom/chartboost/sdk/b$b;
+Lcom/chartboost/sdk/b$c;
+Lcom/chartboost/sdk/b;
+Lcom/chartboost/sdk/impl/a$1;
+Lcom/chartboost/sdk/impl/a$2;
+Lcom/chartboost/sdk/impl/a$3;
+Lcom/chartboost/sdk/impl/a$4;
+Lcom/chartboost/sdk/impl/a$a;
+Lcom/chartboost/sdk/impl/a$b;
+Lcom/chartboost/sdk/impl/a$c;
+Lcom/chartboost/sdk/impl/a;
+Lcom/chartboost/sdk/impl/aa;
+Lcom/chartboost/sdk/impl/ab;
+Lcom/chartboost/sdk/impl/ac;
+Lcom/chartboost/sdk/impl/ad$1;
+Lcom/chartboost/sdk/impl/ad$a;
+Lcom/chartboost/sdk/impl/ad$b;
+Lcom/chartboost/sdk/impl/ad$c;
+Lcom/chartboost/sdk/impl/ad$d;
+Lcom/chartboost/sdk/impl/ad$e;
+Lcom/chartboost/sdk/impl/ad$f;
+Lcom/chartboost/sdk/impl/ad$g;
+Lcom/chartboost/sdk/impl/ad$h;
+Lcom/chartboost/sdk/impl/ad$i;
+Lcom/chartboost/sdk/impl/ad$j;
+Lcom/chartboost/sdk/impl/ad$k;
+Lcom/chartboost/sdk/impl/ad$l;
+Lcom/chartboost/sdk/impl/ad$m;
+Lcom/chartboost/sdk/impl/ad$n;
+Lcom/chartboost/sdk/impl/ad$o;
+Lcom/chartboost/sdk/impl/ad$p;
+Lcom/chartboost/sdk/impl/ad$q;
+Lcom/chartboost/sdk/impl/ad$r;
+Lcom/chartboost/sdk/impl/ad;
+Lcom/chartboost/sdk/impl/ae$a;
+Lcom/chartboost/sdk/impl/ae;
+Lcom/chartboost/sdk/impl/af;
+Lcom/chartboost/sdk/impl/ag$1;
+Lcom/chartboost/sdk/impl/ag$2;
+Lcom/chartboost/sdk/impl/ag$a;
+Lcom/chartboost/sdk/impl/ag;
+Lcom/chartboost/sdk/impl/ah;
+Lcom/chartboost/sdk/impl/ai;
+Lcom/chartboost/sdk/impl/aj;
+Lcom/chartboost/sdk/impl/ak;
+Lcom/chartboost/sdk/impl/al;
+Lcom/chartboost/sdk/impl/am;
+Lcom/chartboost/sdk/impl/an;
+Lcom/chartboost/sdk/impl/ao;
+Lcom/chartboost/sdk/impl/ap;
+Lcom/chartboost/sdk/impl/aq$1;
+Lcom/chartboost/sdk/impl/aq$a;
+Lcom/chartboost/sdk/impl/aq;
+Lcom/chartboost/sdk/impl/ar;
+Lcom/chartboost/sdk/impl/as;
+Lcom/chartboost/sdk/impl/at;
+Lcom/chartboost/sdk/impl/au;
+Lcom/chartboost/sdk/impl/av;
+Lcom/chartboost/sdk/impl/aw;
+Lcom/chartboost/sdk/impl/ax;
+Lcom/chartboost/sdk/impl/ay;
+Lcom/chartboost/sdk/impl/az;
+Lcom/chartboost/sdk/impl/b$1;
+Lcom/chartboost/sdk/impl/b$2;
+Lcom/chartboost/sdk/impl/b$3;
+Lcom/chartboost/sdk/impl/b$4;
+Lcom/chartboost/sdk/impl/b$5;
+Lcom/chartboost/sdk/impl/b$a$1;
+Lcom/chartboost/sdk/impl/b$a$2;
+Lcom/chartboost/sdk/impl/b$a;
+Lcom/chartboost/sdk/impl/b;
+Lcom/chartboost/sdk/impl/ba
+Lcom/chartboost/sdk/impl/ba$1;
+Lcom/chartboost/sdk/impl/ba$a
+Lcom/chartboost/sdk/impl/ba$a;
+Lcom/chartboost/sdk/impl/ba$b;
+Lcom/chartboost/sdk/impl/ba$c;
+Lcom/chartboost/sdk/impl/ba$d;
+Lcom/chartboost/sdk/impl/ba$e;
+Lcom/chartboost/sdk/impl/ba$f;
+Lcom/chartboost/sdk/impl/ba$g;
+Lcom/chartboost/sdk/impl/ba$h
+"Lcom/chartboost/sdk/impl/ba$h$a$1;
+"Lcom/chartboost/sdk/impl/ba$h$a$2;
+ Lcom/chartboost/sdk/impl/ba$h$a;
+Lcom/chartboost/sdk/impl/ba$h;
+Lcom/chartboost/sdk/impl/ba;
+Lcom/chartboost/sdk/impl/bb$a;
+Lcom/chartboost/sdk/impl/bb;
+Lcom/chartboost/sdk/impl/bc;
+Lcom/chartboost/sdk/impl/bd
+Lcom/chartboost/sdk/impl/bd$1;
+Lcom/chartboost/sdk/impl/bd$a;
+Lcom/chartboost/sdk/impl/bd;
+Lcom/chartboost/sdk/impl/be;
+Lcom/chartboost/sdk/impl/bf
+Lcom/chartboost/sdk/impl/bf$a
+Lcom/chartboost/sdk/impl/bf$a;
+Lcom/chartboost/sdk/impl/bf$b;
+Lcom/chartboost/sdk/impl/bf;
+Lcom/chartboost/sdk/impl/bg
+Lcom/chartboost/sdk/impl/bg;
+Lcom/chartboost/sdk/impl/bh
+Lcom/chartboost/sdk/impl/bh;
+Lcom/chartboost/sdk/impl/c;
+Lcom/chartboost/sdk/impl/d;
+Lcom/chartboost/sdk/impl/e;
+Lcom/chartboost/sdk/impl/f$1;
+Lcom/chartboost/sdk/impl/f;
+Lcom/chartboost/sdk/impl/g;
+Lcom/chartboost/sdk/impl/h$1;
+Lcom/chartboost/sdk/impl/h$2;
+Lcom/chartboost/sdk/impl/h$3;
+Lcom/chartboost/sdk/impl/h$4;
+Lcom/chartboost/sdk/impl/h$a$1;
+Lcom/chartboost/sdk/impl/h$a$2;
+!Lcom/chartboost/sdk/impl/h$a$a$1;
+Lcom/chartboost/sdk/impl/h$a$a;
+Lcom/chartboost/sdk/impl/h$a;
+Lcom/chartboost/sdk/impl/h$b;
+Lcom/chartboost/sdk/impl/h;
+Lcom/chartboost/sdk/impl/i$1;
+Lcom/chartboost/sdk/impl/i;
+Lcom/chartboost/sdk/impl/j$1;
+Lcom/chartboost/sdk/impl/j$a;
+Lcom/chartboost/sdk/impl/j$b;
+Lcom/chartboost/sdk/impl/j$c;
+Lcom/chartboost/sdk/impl/j;
+Lcom/chartboost/sdk/impl/k$a;
+Lcom/chartboost/sdk/impl/k;
+Lcom/chartboost/sdk/impl/l;
+Lcom/chartboost/sdk/impl/m$1;
+Lcom/chartboost/sdk/impl/m$a;
+Lcom/chartboost/sdk/impl/m;
+Lcom/chartboost/sdk/impl/n$1;
+Lcom/chartboost/sdk/impl/n$2;
+Lcom/chartboost/sdk/impl/n$a;
+Lcom/chartboost/sdk/impl/n$b;
+Lcom/chartboost/sdk/impl/n;
+Lcom/chartboost/sdk/impl/o$a;
+Lcom/chartboost/sdk/impl/o;
+Lcom/chartboost/sdk/impl/p;
+Lcom/chartboost/sdk/impl/q$1;
+Lcom/chartboost/sdk/impl/q$2;
+Lcom/chartboost/sdk/impl/q;
+Lcom/chartboost/sdk/impl/r;
+Lcom/chartboost/sdk/impl/s$1;
+Lcom/chartboost/sdk/impl/s$2;
+Lcom/chartboost/sdk/impl/s$a;
+Lcom/chartboost/sdk/impl/s;
+Lcom/chartboost/sdk/impl/t;
+Lcom/chartboost/sdk/impl/u$1;
+Lcom/chartboost/sdk/impl/u;
+Lcom/chartboost/sdk/impl/v$a;
+Lcom/chartboost/sdk/impl/v$b;
+Lcom/chartboost/sdk/impl/v$c;
+Lcom/chartboost/sdk/impl/v;
+Lcom/chartboost/sdk/impl/w;
+Lcom/chartboost/sdk/impl/x;
+Lcom/chartboost/sdk/impl/y;
+Lcom/chartboost/sdk/impl/z;
+Lcom/facebook/AccessToken$1;
+/Lcom/facebook/AccessToken$SerializationProxyV1;
+Lcom/facebook/AccessToken;
+ Lcom/facebook/AccessTokenSource;
+!Lcom/facebook/AppEventsConstants;
+ Lcom/facebook/AppEventsLogger$1;
+ Lcom/facebook/AppEventsLogger$2;
+ Lcom/facebook/AppEventsLogger$3;
+ Lcom/facebook/AppEventsLogger$4;
+HLcom/facebook/AppEventsLogger$AccessTokenAppIdPair$SerializationProxyV1;
+3Lcom/facebook/AppEventsLogger$AccessTokenAppIdPair;
+<Lcom/facebook/AppEventsLogger$AppEvent$SerializationProxyV1;
+'Lcom/facebook/AppEventsLogger$AppEvent;
+,Lcom/facebook/AppEventsLogger$FlushBehavior;
+*Lcom/facebook/AppEventsLogger$FlushReason;
+*Lcom/facebook/AppEventsLogger$FlushResult;
+.Lcom/facebook/AppEventsLogger$FlushStatistics;
+.Lcom/facebook/AppEventsLogger$PersistedEvents;
+1Lcom/facebook/AppEventsLogger$SessionEventsState;
+Lcom/facebook/AppEventsLogger;
+Lcom/facebook/AppLinkData$1;
+Lcom/facebook/AppLinkData$2;
+,Lcom/facebook/AppLinkData$CompletionHandler;
+4Lcom/facebook/AppLinkData$DeferredAppLinkDataClient;
+Lcom/facebook/AppLinkData;
+$Lcom/facebook/AuthorizationClient$1;
+$Lcom/facebook/AuthorizationClient$2;
+$Lcom/facebook/AuthorizationClient$3;
+$Lcom/facebook/AuthorizationClient$4;
+$Lcom/facebook/AuthorizationClient$5;
+4Lcom/facebook/AuthorizationClient$AuthDialogBuilder;
+.Lcom/facebook/AuthorizationClient$AuthHandler;
+7Lcom/facebook/AuthorizationClient$AuthorizationRequest;
+?Lcom/facebook/AuthorizationClient$BackgroundProcessingListener;
+8Lcom/facebook/AuthorizationClient$GetTokenAuthHandler$1;
+6Lcom/facebook/AuthorizationClient$GetTokenAuthHandler;
+4Lcom/facebook/AuthorizationClient$KatanaAuthHandler;
+?Lcom/facebook/AuthorizationClient$KatanaLoginDialogAuthHandler;
+9Lcom/facebook/AuthorizationClient$KatanaProxyAuthHandler;
+6Lcom/facebook/AuthorizationClient$OnCompletedListener;
+.Lcom/facebook/AuthorizationClient$Result$Code;
+)Lcom/facebook/AuthorizationClient$Result;
+8Lcom/facebook/AuthorizationClient$StartActivityDelegate;
+7Lcom/facebook/AuthorizationClient$WebViewAuthHandler$1;
+5Lcom/facebook/AuthorizationClient$WebViewAuthHandler;
+"Lcom/facebook/AuthorizationClient;
+-Lcom/facebook/FacebookAuthorizationException;
+&Lcom/facebook/FacebookDialogException;
+ Lcom/facebook/FacebookException;
++Lcom/facebook/FacebookGraphObjectException;
+1Lcom/facebook/FacebookOperationCanceledException;
+%Lcom/facebook/FacebookRequestError$1;
+,Lcom/facebook/FacebookRequestError$Category;
+)Lcom/facebook/FacebookRequestError$Range;
+#Lcom/facebook/FacebookRequestError;
+!Lcom/facebook/FacebookSdkVersion;
+'Lcom/facebook/FacebookServiceException;
+Lcom/facebook/GetTokenClient;
+Lcom/facebook/HttpMethod;
+Lcom/facebook/InsightsLogger;
+Lcom/facebook/LegacyHelper;
+Lcom/facebook/LoggingBehavior;
+Lcom/facebook/LoginActivity$1;
+Lcom/facebook/LoginActivity$2;
+Lcom/facebook/LoginActivity;
++Lcom/facebook/NativeAppCallAttachmentStore;
+@Lcom/facebook/NativeAppCallContentProvider$AttachmentDataSource;
++Lcom/facebook/NativeAppCallContentProvider;
+-Lcom/facebook/NonCachingTokenCachingStrategy;
+Lcom/facebook/Request$1;
+Lcom/facebook/Request$2;
+Lcom/facebook/Request$3;
+Lcom/facebook/Request$4;
+Lcom/facebook/Request$5;
+Lcom/facebook/Request$Callback;
+-Lcom/facebook/Request$GraphPlaceListCallback;
+(Lcom/facebook/Request$GraphUserCallback;
+,Lcom/facebook/Request$GraphUserListCallback;
+)Lcom/facebook/Request$KeyValueSerializer;
+9Lcom/facebook/Request$ParcelFileDescriptorWithMimeType$1;
+7Lcom/facebook/Request$ParcelFileDescriptorWithMimeType;
+!Lcom/facebook/Request$Serializer;
+Lcom/facebook/Request;
+Lcom/facebook/RequestAsyncTask;
+$Lcom/facebook/RequestBatch$Callback;
+Lcom/facebook/RequestBatch;
+$Lcom/facebook/Response$PagedResults;
+'Lcom/facebook/Response$PagingDirection;
+"Lcom/facebook/Response$PagingInfo;
+Lcom/facebook/Response;
+Lcom/facebook/Session$1;
+Lcom/facebook/Session$2;
+Lcom/facebook/Session$3$1;
+Lcom/facebook/Session$3;
+Lcom/facebook/Session$4;
+-Lcom/facebook/Session$AuthorizationRequest$1;
+-Lcom/facebook/Session$AuthorizationRequest$2;
+-Lcom/facebook/Session$AuthorizationRequest$3;
+-Lcom/facebook/Session$AuthorizationRequest$4;
+KLcom/facebook/Session$AuthorizationRequest$AuthRequestSerializationProxyV1;
++Lcom/facebook/Session$AuthorizationRequest;
++Lcom/facebook/Session$AutoPublishAsyncTask;
+Lcom/facebook/Session$Builder;
+,Lcom/facebook/Session$NewPermissionsRequest;
+"Lcom/facebook/Session$OpenRequest;
++Lcom/facebook/Session$SerializationProxyV1;
+,Lcom/facebook/Session$StartActivityDelegate;
+%Lcom/facebook/Session$StatusCallback;
+*Lcom/facebook/Session$TokenRefreshRequest;
+1Lcom/facebook/Session$TokenRefreshRequestHandler;
+Lcom/facebook/Session;
+%Lcom/facebook/SessionDefaultAudience;
+#Lcom/facebook/SessionLoginBehavior;
+$Lcom/facebook/SessionState$Category;
+Lcom/facebook/SessionState;
+Lcom/facebook/Settings$1;
+Lcom/facebook/Settings$2$1;
+Lcom/facebook/Settings$2;
+Lcom/facebook/Settings;
+4Lcom/facebook/SharedPreferencesTokenCachingStrategy;
+Lcom/facebook/TestSession$1;
+&Lcom/facebook/TestSession$FqlResponse;
+$Lcom/facebook/TestSession$FqlResult;
+Lcom/facebook/TestSession$Mode;
+&Lcom/facebook/TestSession$TestAccount;
+3Lcom/facebook/TestSession$TestTokenCachingStrategy;
+&Lcom/facebook/TestSession$UserAccount;
+Lcom/facebook/TestSession;
+#Lcom/facebook/TokenCachingStrategy;
+"Lcom/facebook/UiLifecycleHelper$1;
+?Lcom/facebook/UiLifecycleHelper$ActiveSessionBroadcastReceiver;
+ Lcom/facebook/UiLifecycleHelper;
+,Lcom/facebook/android/AsyncFacebookRunner$1;
+,Lcom/facebook/android/AsyncFacebookRunner$2;
+:Lcom/facebook/android/AsyncFacebookRunner$RequestListener;
+*Lcom/facebook/android/AsyncFacebookRunner;
+"Lcom/facebook/android/DialogError;
+!Lcom/facebook/android/Facebook$1;
+.Lcom/facebook/android/Facebook$DialogListener;
+/Lcom/facebook/android/Facebook$ServiceListener;
+:Lcom/facebook/android/Facebook$SetterTokenCachingStrategy;
+=Lcom/facebook/android/Facebook$TokenRefreshConnectionHandler;
+=Lcom/facebook/android/Facebook$TokenRefreshServiceConnection;
+Lcom/facebook/android/Facebook;
+$Lcom/facebook/android/FacebookError;
+!Lcom/facebook/android/FbDialog$1;
+Lcom/facebook/android/FbDialog;
+Lcom/facebook/android/R$attr;
+Lcom/facebook/android/R$color;
+Lcom/facebook/android/R$dimen;
+!Lcom/facebook/android/R$drawable;
+Lcom/facebook/android/R$id;
+Lcom/facebook/android/R$layout;
+Lcom/facebook/android/R$string;
+Lcom/facebook/android/R$style;
+"Lcom/facebook/android/R$styleable;
+Lcom/facebook/android/R;
+Lcom/facebook/android/Util;
+'Lcom/facebook/internal/AnalyticsEvents;
+-Lcom/facebook/internal/CacheableRequestBatch;
+&Lcom/facebook/internal/FileLruCache$1;
+&Lcom/facebook/internal/FileLruCache$2;
+&Lcom/facebook/internal/FileLruCache$3;
+1Lcom/facebook/internal/FileLruCache$BufferFile$1;
+1Lcom/facebook/internal/FileLruCache$BufferFile$2;
+/Lcom/facebook/internal/FileLruCache$BufferFile;
+>Lcom/facebook/internal/FileLruCache$CloseCallbackOutputStream;
+7Lcom/facebook/internal/FileLruCache$CopyingInputStream;
++Lcom/facebook/internal/FileLruCache$Limits;
+1Lcom/facebook/internal/FileLruCache$ModifiedFile;
+8Lcom/facebook/internal/FileLruCache$StreamCloseCallback;
+1Lcom/facebook/internal/FileLruCache$StreamHeader;
+$Lcom/facebook/internal/FileLruCache;
+)Lcom/facebook/internal/ImageDownloader$1;
+9Lcom/facebook/internal/ImageDownloader$CacheReadWorkItem;
+=Lcom/facebook/internal/ImageDownloader$DownloadImageWorkItem;
+9Lcom/facebook/internal/ImageDownloader$DownloaderContext;
+2Lcom/facebook/internal/ImageDownloader$RequestKey;
+'Lcom/facebook/internal/ImageDownloader;
+&Lcom/facebook/internal/ImageRequest$1;
+,Lcom/facebook/internal/ImageRequest$Builder;
+-Lcom/facebook/internal/ImageRequest$Callback;
+$Lcom/facebook/internal/ImageRequest;
+%Lcom/facebook/internal/ImageResponse;
+BLcom/facebook/internal/ImageResponseCache$BufferedHttpInputStream;
+*Lcom/facebook/internal/ImageResponseCache;
+Lcom/facebook/internal/Logger;
+&Lcom/facebook/internal/NativeProtocol;
+/Lcom/facebook/internal/PlatformServiceClient$1;
+?Lcom/facebook/internal/PlatformServiceClient$CompletedListener;
+-Lcom/facebook/internal/PlatformServiceClient;
+&Lcom/facebook/internal/ServerProtocol;
+0Lcom/facebook/internal/SessionAuthorizationType;
+(Lcom/facebook/internal/SessionTracker$1;
+ELcom/facebook/internal/SessionTracker$ActiveSessionBroadcastReceiver;
+6Lcom/facebook/internal/SessionTracker$CallbackWrapper;
+&Lcom/facebook/internal/SessionTracker;
+(Lcom/facebook/internal/UrlRedirectCache;
+!Lcom/facebook/internal/Utility$1;
+2Lcom/facebook/internal/Utility$FetchedAppSettings;
+Lcom/facebook/internal/Utility;
+ Lcom/facebook/internal/Validate;
+#Lcom/facebook/internal/WorkQueue$1;
+*Lcom/facebook/internal/WorkQueue$WorkItem;
+*Lcom/facebook/internal/WorkQueue$WorkNode;
+!Lcom/facebook/internal/WorkQueue;
+$Lcom/facebook/internal/package-info;
+&Lcom/facebook/model/CreateGraphObject;
+"Lcom/facebook/model/GraphLocation;
+%Lcom/facebook/model/GraphMultiResult;
+<Lcom/facebook/model/GraphObject$Factory$GraphObjectListImpl;
+;Lcom/facebook/model/GraphObject$Factory$GraphObjectProxy$1;
+9Lcom/facebook/model/GraphObject$Factory$GraphObjectProxy;
+1Lcom/facebook/model/GraphObject$Factory$ProxyBase
+2Lcom/facebook/model/GraphObject$Factory$ProxyBase;
+(Lcom/facebook/model/GraphObject$Factory;
+ Lcom/facebook/model/GraphObject;
+#Lcom/facebook/model/GraphObjectList
+$Lcom/facebook/model/GraphObjectList;
+Lcom/facebook/model/GraphPlace;
+Lcom/facebook/model/GraphUser;
+-Lcom/facebook/model/JsonUtil$JSONObjectEntry;
+Lcom/facebook/model/JsonUtil;
+,Lcom/facebook/model/OpenGraphAction$Factory;
+$Lcom/facebook/model/OpenGraphAction;
+,Lcom/facebook/model/OpenGraphObject$Factory;
+$Lcom/facebook/model/OpenGraphObject;
+!Lcom/facebook/model/PropertyName;
+&Lcom/facebook/widget/FacebookDialog$1;
++Lcom/facebook/widget/FacebookDialog$Builder
+,Lcom/facebook/widget/FacebookDialog$Builder;
+-Lcom/facebook/widget/FacebookDialog$Callback;
+2Lcom/facebook/widget/FacebookDialog$DialogFeature;
+6Lcom/facebook/widget/FacebookDialog$OnPresentCallback;
+CLcom/facebook/widget/FacebookDialog$OpenGraphActionDialogBuilder$1;
+ALcom/facebook/widget/FacebookDialog$OpenGraphActionDialogBuilder;
+ALcom/facebook/widget/FacebookDialog$OpenGraphActionDialogFeature;
+2Lcom/facebook/widget/FacebookDialog$PendingCall$1;
+0Lcom/facebook/widget/FacebookDialog$PendingCall;
+7Lcom/facebook/widget/FacebookDialog$ShareDialogBuilder;
+7Lcom/facebook/widget/FacebookDialog$ShareDialogFeature;
+$Lcom/facebook/widget/FacebookDialog;
+(Lcom/facebook/widget/FacebookFragment$1;
+CLcom/facebook/widget/FacebookFragment$DefaultSessionStatusCallback;
+&Lcom/facebook/widget/FacebookFragment;
+,Lcom/facebook/widget/FriendPickerFragment$1;
+CLcom/facebook/widget/FriendPickerFragment$ImmediateLoadingStrategy;
+*Lcom/facebook/widget/FriendPickerFragment;
+'Lcom/facebook/widget/GraphObjectAdapter
+*Lcom/facebook/widget/GraphObjectAdapter$1;
+*Lcom/facebook/widget/GraphObjectAdapter$2;
+*Lcom/facebook/widget/GraphObjectAdapter$3;
+;Lcom/facebook/widget/GraphObjectAdapter$DataNeededListener;
+.Lcom/facebook/widget/GraphObjectAdapter$Filter
+/Lcom/facebook/widget/GraphObjectAdapter$Filter;
+4Lcom/facebook/widget/GraphObjectAdapter$ItemPicture;
+8Lcom/facebook/widget/GraphObjectAdapter$ItemPictureData;
+8Lcom/facebook/widget/GraphObjectAdapter$OnErrorListener;
+6Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem
+<Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem$Type;
+7Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem;
+(Lcom/facebook/widget/GraphObjectAdapter;
+&Lcom/facebook/widget/GraphObjectCursor
+'Lcom/facebook/widget/GraphObjectCursor;
+,Lcom/facebook/widget/GraphObjectPagingLoader
+/Lcom/facebook/widget/GraphObjectPagingLoader$1;
+/Lcom/facebook/widget/GraphObjectPagingLoader$2;
+/Lcom/facebook/widget/GraphObjectPagingLoader$3;
+=Lcom/facebook/widget/GraphObjectPagingLoader$OnErrorListener;
+:Lcom/facebook/widget/GraphObjectPagingLoader$PagedResults;
+-Lcom/facebook/widget/GraphObjectPagingLoader;
+#Lcom/facebook/widget/LoginButton$1;
+5Lcom/facebook/widget/LoginButton$LoginButtonCallback;
+7Lcom/facebook/widget/LoginButton$LoginButtonProperties;
+6Lcom/facebook/widget/LoginButton$LoginClickListener$1;
+4Lcom/facebook/widget/LoginButton$LoginClickListener;
+1Lcom/facebook/widget/LoginButton$OnErrorListener;
+9Lcom/facebook/widget/LoginButton$UserInfoChangedCallback;
+!Lcom/facebook/widget/LoginButton;
+#Lcom/facebook/widget/PickerFragment
+&Lcom/facebook/widget/PickerFragment$1;
+&Lcom/facebook/widget/PickerFragment$2;
+&Lcom/facebook/widget/PickerFragment$3;
+&Lcom/facebook/widget/PickerFragment$4;
+&Lcom/facebook/widget/PickerFragment$5;
+&Lcom/facebook/widget/PickerFragment$6;
+5Lcom/facebook/widget/PickerFragment$GraphObjectFilter
+6Lcom/facebook/widget/PickerFragment$GraphObjectFilter;
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$1;
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$2;
+6Lcom/facebook/widget/PickerFragment$LoadingStrategy$3;
+4Lcom/facebook/widget/PickerFragment$LoadingStrategy;
+;Lcom/facebook/widget/PickerFragment$MultiSelectionStrategy;
+:Lcom/facebook/widget/PickerFragment$OnDataChangedListener;
+@Lcom/facebook/widget/PickerFragment$OnDoneButtonClickedListener;
+4Lcom/facebook/widget/PickerFragment$OnErrorListener;
+?Lcom/facebook/widget/PickerFragment$OnSelectionChangedListener;
+:Lcom/facebook/widget/PickerFragment$PickerFragmentAdapter;
+6Lcom/facebook/widget/PickerFragment$SelectionStrategy;
+<Lcom/facebook/widget/PickerFragment$SingleSelectionStrategy;
+$Lcom/facebook/widget/PickerFragment;
++Lcom/facebook/widget/PlacePickerFragment$1;
++Lcom/facebook/widget/PlacePickerFragment$2;
++Lcom/facebook/widget/PlacePickerFragment$3;
+CLcom/facebook/widget/PlacePickerFragment$AsNeededLoadingStrategy$1;
+ALcom/facebook/widget/PlacePickerFragment$AsNeededLoadingStrategy;
+;Lcom/facebook/widget/PlacePickerFragment$SearchTextWatcher;
+)Lcom/facebook/widget/PlacePickerFragment;
+*Lcom/facebook/widget/ProfilePictureView$1;
+8Lcom/facebook/widget/ProfilePictureView$OnErrorListener;
+(Lcom/facebook/widget/ProfilePictureView;
+,Lcom/facebook/widget/SimpleGraphObjectCursor
+-Lcom/facebook/widget/SimpleGraphObjectCursor;
+,Lcom/facebook/widget/UserSettingsFragment$1;
+,Lcom/facebook/widget/UserSettingsFragment$2;
+*Lcom/facebook/widget/UserSettingsFragment;
+!Lcom/facebook/widget/WebDialog$1;
+!Lcom/facebook/widget/WebDialog$2;
+!Lcom/facebook/widget/WebDialog$3;
+'Lcom/facebook/widget/WebDialog$Builder;
+*Lcom/facebook/widget/WebDialog$BuilderBase
++Lcom/facebook/widget/WebDialog$BuilderBase;
+3Lcom/facebook/widget/WebDialog$DialogWebViewClient;
+1Lcom/facebook/widget/WebDialog$FeedDialogBuilder;
+2Lcom/facebook/widget/WebDialog$OnCompleteListener;
+5Lcom/facebook/widget/WebDialog$RequestsDialogBuilder;
+Lcom/facebook/widget/WebDialog;
+-Lcom/google/android/gcm/GCMBroadcastReceiver;
+Lcom/google/android/gcm/a;
+Lcom/google/android/gcm/b;
+ Lcom/google/android/gms/a/a/a/a;
+ Lcom/google/android/gms/a/a/a/b;
+ Lcom/google/android/gms/a/a/b/a;
+ Lcom/google/android/gms/a/a/b/b;
+ Lcom/google/android/gms/a/a/b/c;
+ Lcom/google/android/gms/a/a/b/d;
+ Lcom/google/android/gms/a/a/b/e;
+ Lcom/google/android/gms/a/a/b/f;
+ Lcom/google/android/gms/a/a/b/g;
+ Lcom/google/android/gms/a/a/b/h;
+ Lcom/google/android/gms/a/a/b/i;
+ Lcom/google/android/gms/a/a/b/j;
+ Lcom/google/android/gms/a/a/b/k;
+Lcom/google/android/gms/a;
+Lcom/google/android/gms/b;
+"Lcom/google/android/gms/common/a/a
+#Lcom/google/android/gms/common/a/a;
+"Lcom/google/android/gms/common/a/b
+#Lcom/google/android/gms/common/a/b;
+!Lcom/google/android/gms/common/a;
+!Lcom/google/android/gms/common/b;
+!Lcom/google/android/gms/common/c;
+!Lcom/google/android/gms/common/d;
+!Lcom/google/android/gms/common/e;
+5Lcom/google/android/gms/common/images/ImageManager$c;
+3Lcom/google/android/gms/common/images/ImageManager;
+(Lcom/google/android/gms/common/images/a;
+(Lcom/google/android/gms/common/images/b;
+(Lcom/google/android/gms/common/images/c;
+(Lcom/google/android/gms/common/images/d;
+BLcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+#Lcom/google/android/gms/games/Game;
+)Lcom/google/android/gms/games/GameEntity;
+%Lcom/google/android/gms/games/Player;
++Lcom/google/android/gms/games/PlayerEntity;
+ Lcom/google/android/gms/games/a;
+ Lcom/google/android/gms/games/b;
+ Lcom/google/android/gms/games/c;
+ Lcom/google/android/gms/games/d;
+ Lcom/google/android/gms/games/e;
+ Lcom/google/android/gms/games/f;
+ Lcom/google/android/gms/games/g;
+ Lcom/google/android/gms/games/h;
+5Lcom/google/android/gms/games/multiplayer/Invitation;
+;Lcom/google/android/gms/games/multiplayer/InvitationEntity;
+6Lcom/google/android/gms/games/multiplayer/Participant;
+<Lcom/google/android/gms/games/multiplayer/ParticipantEntity;
+,Lcom/google/android/gms/games/multiplayer/a;
+,Lcom/google/android/gms/games/multiplayer/b;
+,Lcom/google/android/gms/games/multiplayer/c;
+,Lcom/google/android/gms/games/multiplayer/d;
+,Lcom/google/android/gms/games/multiplayer/e;
+CLcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;
+8Lcom/google/android/gms/games/multiplayer/realtime/Room;
+>Lcom/google/android/gms/games/multiplayer/realtime/RoomEntity;
+5Lcom/google/android/gms/games/multiplayer/realtime/a;
+5Lcom/google/android/gms/games/multiplayer/realtime/b;
+5Lcom/google/android/gms/games/multiplayer/realtime/c;
+#Lcom/google/android/gms/internal/a;
+$Lcom/google/android/gms/internal/aa;
+$Lcom/google/android/gms/internal/ab;
+$Lcom/google/android/gms/internal/ac;
+$Lcom/google/android/gms/internal/ad;
+$Lcom/google/android/gms/internal/ae;
+$Lcom/google/android/gms/internal/af;
+$Lcom/google/android/gms/internal/ag;
+$Lcom/google/android/gms/internal/ah;
+$Lcom/google/android/gms/internal/ai;
+$Lcom/google/android/gms/internal/aj;
+$Lcom/google/android/gms/internal/ak;
+$Lcom/google/android/gms/internal/al;
+$Lcom/google/android/gms/internal/am;
+$Lcom/google/android/gms/internal/an;
+&Lcom/google/android/gms/internal/ao$a;
+$Lcom/google/android/gms/internal/ao;
+$Lcom/google/android/gms/internal/ap;
+$Lcom/google/android/gms/internal/aq;
+%Lcom/google/android/gms/internal/ar$a
+&Lcom/google/android/gms/internal/ar$a;
+$Lcom/google/android/gms/internal/ar;
+$Lcom/google/android/gms/internal/as;
+$Lcom/google/android/gms/internal/at;
+&Lcom/google/android/gms/internal/au$a;
+&Lcom/google/android/gms/internal/au$b;
+$Lcom/google/android/gms/internal/au;
+$Lcom/google/android/gms/internal/av;
+$Lcom/google/android/gms/internal/aw;
+$Lcom/google/android/gms/internal/ax;
+$Lcom/google/android/gms/internal/ay;
+$Lcom/google/android/gms/internal/az;
+#Lcom/google/android/gms/internal/b;
+$Lcom/google/android/gms/internal/ba;
+$Lcom/google/android/gms/internal/bb;
+$Lcom/google/android/gms/internal/bc;
+$Lcom/google/android/gms/internal/bd;
+$Lcom/google/android/gms/internal/be;
+$Lcom/google/android/gms/internal/bf;
+$Lcom/google/android/gms/internal/bg;
+$Lcom/google/android/gms/internal/bh;
+$Lcom/google/android/gms/internal/bi;
+$Lcom/google/android/gms/internal/bj;
+$Lcom/google/android/gms/internal/bk;
+$Lcom/google/android/gms/internal/bl;
+$Lcom/google/android/gms/internal/bm;
+$Lcom/google/android/gms/internal/bn;
+$Lcom/google/android/gms/internal/bo;
+$Lcom/google/android/gms/internal/bp;
+$Lcom/google/android/gms/internal/bq;
+$Lcom/google/android/gms/internal/br;
+$Lcom/google/android/gms/internal/bs;
+$Lcom/google/android/gms/internal/bt;
+$Lcom/google/android/gms/internal/bu;
+$Lcom/google/android/gms/internal/bv;
+$Lcom/google/android/gms/internal/bw;
+$Lcom/google/android/gms/internal/bx;
+$Lcom/google/android/gms/internal/by;
+$Lcom/google/android/gms/internal/bz;
+#Lcom/google/android/gms/internal/c;
+$Lcom/google/android/gms/internal/ca;
+$Lcom/google/android/gms/internal/cb;
+$Lcom/google/android/gms/internal/cc;
+$Lcom/google/android/gms/internal/cd;
+$Lcom/google/android/gms/internal/ce;
+$Lcom/google/android/gms/internal/cf;
+$Lcom/google/android/gms/internal/cg;
+$Lcom/google/android/gms/internal/ch;
+$Lcom/google/android/gms/internal/ci;
+$Lcom/google/android/gms/internal/cj;
+$Lcom/google/android/gms/internal/ck;
+$Lcom/google/android/gms/internal/cl;
+$Lcom/google/android/gms/internal/cm;
+$Lcom/google/android/gms/internal/cn;
+#Lcom/google/android/gms/internal/co
+$Lcom/google/android/gms/internal/co;
+$Lcom/google/android/gms/internal/cp;
+$Lcom/google/android/gms/internal/cq;
+$Lcom/google/android/gms/internal/cr;
+$Lcom/google/android/gms/internal/cs;
+$Lcom/google/android/gms/internal/ct;
+$Lcom/google/android/gms/internal/cu;
+$Lcom/google/android/gms/internal/cv;
+$Lcom/google/android/gms/internal/cw;
+$Lcom/google/android/gms/internal/cx;
+$Lcom/google/android/gms/internal/cy;
+$Lcom/google/android/gms/internal/cz;
+#Lcom/google/android/gms/internal/d;
+$Lcom/google/android/gms/internal/da;
+$Lcom/google/android/gms/internal/db;
+$Lcom/google/android/gms/internal/dc;
+$Lcom/google/android/gms/internal/dd;
+$Lcom/google/android/gms/internal/de;
+#Lcom/google/android/gms/internal/e;
+$Lcom/google/android/gms/internal/ed;
+$Lcom/google/android/gms/internal/en;
+$Lcom/google/android/gms/internal/ep;
+$Lcom/google/android/gms/internal/er;
+&Lcom/google/android/gms/internal/eu$a;
+(Lcom/google/android/gms/internal/eu$b$a;
+(Lcom/google/android/gms/internal/eu$b$b;
+&Lcom/google/android/gms/internal/eu$b;
+&Lcom/google/android/gms/internal/eu$c;
+&Lcom/google/android/gms/internal/eu$d;
+&Lcom/google/android/gms/internal/eu$e;
+&Lcom/google/android/gms/internal/eu$g;
+&Lcom/google/android/gms/internal/eu$h;
+&Lcom/google/android/gms/internal/eu$i;
+$Lcom/google/android/gms/internal/eu;
+#Lcom/google/android/gms/internal/f;
+$Lcom/google/android/gms/internal/fh;
+$Lcom/google/android/gms/internal/fj;
+"Lcom/google/android/gms/internal/g
+#Lcom/google/android/gms/internal/g;
+#Lcom/google/android/gms/internal/h;
+#Lcom/google/android/gms/internal/i;
+#Lcom/google/android/gms/internal/j;
+#Lcom/google/android/gms/internal/k;
+#Lcom/google/android/gms/internal/l;
+"Lcom/google/android/gms/internal/m
+#Lcom/google/android/gms/internal/m;
+#Lcom/google/android/gms/internal/n;
+#Lcom/google/android/gms/internal/o;
+#Lcom/google/android/gms/internal/p;
+#Lcom/google/android/gms/internal/q;
+#Lcom/google/android/gms/internal/r;
+#Lcom/google/android/gms/internal/s;
+#Lcom/google/android/gms/internal/t;
+#Lcom/google/android/gms/internal/u;
+#Lcom/google/android/gms/internal/v;
+#Lcom/google/android/gms/internal/w;
+#Lcom/google/android/gms/internal/x;
+#Lcom/google/android/gms/internal/y;
+#Lcom/google/android/gms/internal/z;
+;Lcom/google/android/gms/location/ActivityRecognitionResult;
+2Lcom/google/android/gms/location/DetectedActivity;
+1Lcom/google/android/gms/location/LocationRequest;
+#Lcom/google/android/gms/location/a;
+#Lcom/google/android/gms/location/b;
+#Lcom/google/android/gms/location/c;
+.Lcom/google/android/gms/maps/GoogleMapOptions;
+Lcom/google/android/gms/maps/a;
+2Lcom/google/android/gms/maps/model/CameraPosition;
+1Lcom/google/android/gms/maps/model/CircleOptions;
+8Lcom/google/android/gms/maps/model/GroundOverlayOptions;
+*Lcom/google/android/gms/maps/model/LatLng;
+0Lcom/google/android/gms/maps/model/LatLngBounds;
+1Lcom/google/android/gms/maps/model/MarkerOptions;
+2Lcom/google/android/gms/maps/model/PolygonOptions;
+3Lcom/google/android/gms/maps/model/PolylineOptions;
+(Lcom/google/android/gms/maps/model/Tile;
+6Lcom/google/android/gms/maps/model/TileOverlayOptions;
+1Lcom/google/android/gms/maps/model/VisibleRegion;
+%Lcom/google/android/gms/maps/model/a;
+%Lcom/google/android/gms/maps/model/b;
+%Lcom/google/android/gms/maps/model/c;
+%Lcom/google/android/gms/maps/model/d;
+%Lcom/google/android/gms/maps/model/e;
+%Lcom/google/android/gms/maps/model/f;
+%Lcom/google/android/gms/maps/model/g;
+%Lcom/google/android/gms/maps/model/h;
+%Lcom/google/android/gms/maps/model/i;
+%Lcom/google/android/gms/maps/model/j;
+%Lcom/google/android/gms/maps/model/k;
+%Lcom/google/android/gms/maps/model/l;
+%Lcom/google/android/gms/maps/model/m;
+%Lcom/google/android/gms/maps/model/n;
+"Lcom/mobileapptracker/BuildConfig;
+!Lcom/mobileapptracker/Encryption;
+'Lcom/mobileapptracker/FacebookReceiver;
+#Lcom/mobileapptracker/MATConstants;
+#Lcom/mobileapptracker/MATEventItem;
+"Lcom/mobileapptracker/MATProvider;
+"Lcom/mobileapptracker/MATResponse;
+'Lcom/mobileapptracker/MobileAppTracker;
+-Lcom/mobileapptracker/TimeIgnoringComparator;
+Lcom/mobileapptracker/Tracker;
+#Lcom/mobileapptracker/UrlRequester;
+Lcom/mobileapptracker/a;
+Lcom/mobileapptracker/b;
+Lcom/mobileapptracker/c;
+Lcom/mobileapptracker/d;
+#Lcom/nara/server/AndroidServer$1$1;
+!Lcom/nara/server/AndroidServer$1;
+Lcom/nara/server/AndroidServer;
+Lcom/nara/server/Builders$1;
+Lcom/nara/server/Builders$2;
+Lcom/nara/server/Builders$3;
+Lcom/nara/server/Builders$4;
+Lcom/nara/server/Builders$5;
+Lcom/nara/server/Builders$6;
+(Lcom/nara/server/Builders$AvatarOptions;
+(Lcom/nara/server/Builders$BattleOutcome;
+"Lcom/nara/server/Builders$Command;
+(Lcom/nara/server/Builders$ParsedCommand;
+&Lcom/nara/server/Builders$SimAttacker;
+&Lcom/nara/server/Builders$SimBuilding;
+Lcom/nara/server/Builders;
+Lcom/nara/server/Cipher$RC4;
+Lcom/nara/server/Cipher$Reader;
+Lcom/nara/server/Cipher$Writer;
+Lcom/nara/server/Cipher;
+Lcom/nara/server/Config$Queue;
+Lcom/nara/server/Config;
+Lcom/nara/server/Data;
+Lcom/nara/server/Hub$1;
+Lcom/nara/server/Hub$2;
+Lcom/nara/server/Hub$3;
+Lcom/nara/server/Hub;
+Lcom/nara/server/Levels$1;
+Lcom/nara/server/Levels$Source;
+Lcom/nara/server/Levels;
+Lcom/nara/server/Log;
+Lcom/nara/server/Py$JsonParser;
+Lcom/nara/server/Py$Random;
+ Lcom/nara/server/Py$StructError;
+Lcom/nara/server/Py$ValueError;
+Lcom/nara/server/Py;
+Lcom/nara/server/Server$1;
+Lcom/nara/server/Server$2;
+Lcom/nara/server/Server$3;
+Lcom/nara/server/Server;
+Lcom/nara/server/Session$1$1;
+Lcom/nara/server/Session$1;
+Lcom/nara/server/Session$2;
+Lcom/nara/server/Session$3;
+Lcom/nara/server/Session$4$1;
+Lcom/nara/server/Session$4;
+!Lcom/nara/server/Session$Message;
+Lcom/nara/server/Session$Reply;
+Lcom/nara/server/Session;
+-Lcom/supercell/clashofclans/GCMIntentService;
+$Lcom/supercell/clashofclans/GameApp;
+&Lcom/supercell/clashofclans/TimeAlarm;
+%Lcom/supercell/titan/ApplicationUtil;
+%Lcom/supercell/titan/ChartboostTitan;
+&Lcom/supercell/titan/GCMIntentService;
+Lcom/supercell/titan/GameApp;
+)Lcom/supercell/titan/GoogleServiceClient;
+)Lcom/supercell/titan/NativeDialogManager;
++Lcom/supercell/titan/NativeFacebookManager;
+-Lcom/supercell/titan/NativeHTTPClientManager;
+%Lcom/supercell/titan/PurchaseManager;
+,Lcom/supercell/titan/VirtualKeyboardHandler;
+Lcom/supercell/titan/a;
+Lcom/supercell/titan/aa;
+Lcom/supercell/titan/ab;
+Lcom/supercell/titan/ac;
+Lcom/supercell/titan/ad;
+Lcom/supercell/titan/ae;
+Lcom/supercell/titan/af;
+Lcom/supercell/titan/ag;
+Lcom/supercell/titan/ah;
+Lcom/supercell/titan/ai;
+Lcom/supercell/titan/aj;
+Lcom/supercell/titan/ak;
+Lcom/supercell/titan/al;
+Lcom/supercell/titan/am;
+Lcom/supercell/titan/an;
+Lcom/supercell/titan/ao;
+Lcom/supercell/titan/ap;
+Lcom/supercell/titan/aq;
+Lcom/supercell/titan/ar;
+Lcom/supercell/titan/as;
+Lcom/supercell/titan/at;
+Lcom/supercell/titan/au;
+Lcom/supercell/titan/av;
+Lcom/supercell/titan/aw;
+Lcom/supercell/titan/ax;
+Lcom/supercell/titan/ay;
+Lcom/supercell/titan/az;
+Lcom/supercell/titan/b;
+Lcom/supercell/titan/ba;
+Lcom/supercell/titan/bb;
+Lcom/supercell/titan/bc;
+Lcom/supercell/titan/bd;
+Lcom/supercell/titan/c;
+Lcom/supercell/titan/d;
+Lcom/supercell/titan/e;
+Lcom/supercell/titan/f;
+Lcom/supercell/titan/g;
+Lcom/supercell/titan/h;
+Lcom/supercell/titan/i;
+Lcom/supercell/titan/j;
+Lcom/supercell/titan/k;
+Lcom/supercell/titan/l;
+Lcom/supercell/titan/m;
+Lcom/supercell/titan/n;
+Lcom/supercell/titan/o;
+Lcom/supercell/titan/p;
+Lcom/supercell/titan/q;
+Lcom/supercell/titan/r;
+Lcom/supercell/titan/s;
+Lcom/supercell/titan/t;
+Lcom/supercell/titan/u;
+Lcom/supercell/titan/v;
+Lcom/supercell/titan/w;
+Lcom/supercell/titan/x;
+Lcom/supercell/titan/y;
+Lcom/supercell/titan/z;
+"Ldalvik/annotation/EnclosingClass;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+!Ldalvik/annotation/MemberClasses;
+Ldalvik/annotation/Signature;
+Ldalvik/annotation/Throws;
+LeaderboardCount
+Levels.java
+aLike this project? Donate here: https://saweria.co/naraarchieve or https://ko-fi.com/nara_archive
+Linux; U; Android 
+DList of type BASE64, BASE64_URL_SAFE, or STRING_MAP is not supported
+Listener must not be null
+Listener:Ljava/lang/Object;
+	Listener;
+Ljava/io/BufferedInputStream;
+Ljava/io/BufferedOutputStream;
+Ljava/io/BufferedReader;
+Ljava/io/ByteArrayInputStream;
+Ljava/io/ByteArrayOutputStream;
+Ljava/io/Closeable;
+Ljava/io/File;
+Ljava/io/FileDescriptor;
+Ljava/io/FileInputStream;
+Ljava/io/FileNotFoundException;
+Ljava/io/FileOutputStream;
+Ljava/io/FileReader;
+Ljava/io/FilenameFilter;
+Ljava/io/FilterInputStream;
+Ljava/io/IOException;
+Ljava/io/InputStream;
+Ljava/io/InputStreamReader;
+ Ljava/io/InvalidObjectException;
+Ljava/io/ObjectInputStream;
+Ljava/io/ObjectOutputStream;
+Ljava/io/OutputStream;
+Ljava/io/PrintStream;
+Ljava/io/PrintWriter;
+Ljava/io/Reader;
+Ljava/io/Serializable;
+Ljava/io/StringWriter;
+&Ljava/io/UnsupportedEncodingException;
+Ljava/io/Writer;
+Ljava/lang/AssertionError;
+Ljava/lang/Boolean;
+Ljava/lang/Byte;
+Ljava/lang/CharSequence;
+Ljava/lang/Character;
+Ljava/lang/Class
+Ljava/lang/Class;
+Ljava/lang/ClassLoader;
+"Ljava/lang/ClassNotFoundException;
+Ljava/lang/Comparable
+Ljava/lang/Comparable;
+Ljava/lang/Deprecated;
+Ljava/lang/Double;
+Ljava/lang/Enum
+Ljava/lang/Enum;
+Ljava/lang/Error;
+Ljava/lang/Exception;
+Ljava/lang/Float;
+"Ljava/lang/IllegalAccessException;
+$Ljava/lang/IllegalArgumentException;
+!Ljava/lang/IllegalStateException;
+%Ljava/lang/IndexOutOfBoundsException;
+"Ljava/lang/InstantiationException;
+Ljava/lang/Integer;
+ Ljava/lang/InterruptedException;
+Ljava/lang/Iterable
+Ljava/lang/Iterable;
+Ljava/lang/Long;
+Ljava/lang/Math;
+Ljava/lang/NoSuchFieldError;
+ Ljava/lang/NoSuchFieldException;
+ Ljava/lang/NullPointerException;
+Ljava/lang/Number;
+!Ljava/lang/NumberFormatException;
+Ljava/lang/Object;
+Ljava/lang/OutOfMemoryError;
+Ljava/lang/Runnable;
+Ljava/lang/Runtime;
+Ljava/lang/RuntimeException;
+Ljava/lang/SecurityException;
+Ljava/lang/Short;
+Ljava/lang/String;
+Ljava/lang/StringBuffer;
+Ljava/lang/StringBuilder;
+Ljava/lang/System;
+Ljava/lang/Thread;
+Ljava/lang/ThreadLocal
+Ljava/lang/ThreadLocal;
+Ljava/lang/Throwable;
+)Ljava/lang/UnsupportedOperationException;
+Ljava/lang/Void;
+!Ljava/lang/annotation/Annotation;
+ Ljava/lang/annotation/Retention;
+&Ljava/lang/annotation/RetentionPolicy;
+(Ljava/lang/management/ManagementFactory;
+$Ljava/lang/management/RuntimeMXBean;
+Ljava/lang/ref/WeakReference
+Ljava/lang/ref/WeakReference;
+Ljava/lang/reflect/Array;
+Ljava/lang/reflect/Constructor;
+Ljava/lang/reflect/Field;
+%Ljava/lang/reflect/InvocationHandler;
+-Ljava/lang/reflect/InvocationTargetException;
+Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Modifier;
+%Ljava/lang/reflect/ParameterizedType;
+Ljava/lang/reflect/Proxy;
+Ljava/lang/reflect/Type;
+Ljava/math/BigDecimal;
+Ljava/math/BigInteger;
+Ljava/net/HttpURLConnection;
+Ljava/net/InetAddress;
+Ljava/net/InetSocketAddress;
+ Ljava/net/MalformedURLException;
+Ljava/net/NetworkInterface;
+Ljava/net/ServerSocket;
+Ljava/net/Socket;
+Ljava/net/SocketAddress;
+Ljava/net/URI;
+Ljava/net/URISyntaxException;
+Ljava/net/URL;
+Ljava/net/URLConnection;
+Ljava/net/URLDecoder;
+Ljava/net/URLEncoder;
+Ljava/nio/Buffer;
+Ljava/nio/ByteBuffer;
+Ljava/nio/ByteOrder;
+Ljava/nio/charset/Charset;
+(Ljava/security/GeneralSecurityException;
+)Ljava/security/InvalidParameterException;
+Ljava/security/Key;
+Ljava/security/KeyStore;
+Ljava/security/MessageDigest;
+(Ljava/security/NoSuchAlgorithmException;
+Ljava/security/SecureRandom;
+ Ljava/security/cert/Certificate;
+)Ljava/security/cert/CertificateException;
+0Ljava/security/cert/CertificateExpiredException;
+'Ljava/security/cert/CertificateFactory;
+4Ljava/security/cert/CertificateNotYetValidException;
+$Ljava/security/cert/X509Certificate;
++Ljava/security/spec/AlgorithmParameterSpec;
+Ljava/text/Collator;
+Ljava/text/ParseException;
+Ljava/text/SimpleDateFormat;
+Ljava/util/AbstractList
+Ljava/util/AbstractList;
+Ljava/util/ArrayList
+Ljava/util/ArrayList;
+Ljava/util/Arrays;
+Ljava/util/Calendar;
+Ljava/util/Collection
+Ljava/util/Collection;
+Ljava/util/Collections;
+Ljava/util/Comparator
+Ljava/util/Comparator;
+Ljava/util/Comparator<
+Ljava/util/Currency;
+Ljava/util/Date;
+Ljava/util/EnumSet;
+Ljava/util/Enumeration;
+Ljava/util/GregorianCalendar;
+Ljava/util/HashMap
+Ljava/util/HashMap;
+Ljava/util/HashSet
+Ljava/util/HashSet;
+Ljava/util/Iterator
+Ljava/util/Iterator;
+Ljava/util/LinkedHashMap
+Ljava/util/LinkedHashMap;
+Ljava/util/LinkedHashSet;
+Ljava/util/List
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Locale;
+Ljava/util/Map
+Ljava/util/Map$Entry
+Ljava/util/Map$Entry;
+Ljava/util/Map;
+Ljava/util/Map<
+"Ljava/util/NoSuchElementException;
+Ljava/util/PriorityQueue;
+Ljava/util/Properties;
+Ljava/util/Queue
+Ljava/util/Queue;
+Ljava/util/Random;
+Ljava/util/Set
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/SimpleTimeZone;
+Ljava/util/TimeZone;
+Ljava/util/Timer;
+Ljava/util/TimerTask;
+Ljava/util/TreeMap;
+Ljava/util/TreeMap<
+Ljava/util/TreeSet;
+Ljava/util/TreeSet<
+Ljava/util/UUID;
+Ljava/util/Vector
+Ljava/util/Vector;
+#Ljava/util/concurrent/BlockingQueue
+$Ljava/util/concurrent/BlockingQueue;
+(Ljava/util/concurrent/ConcurrentHashMap;
+,Ljava/util/concurrent/ConcurrentLinkedQueue;
+#Ljava/util/concurrent/ConcurrentMap
+$Ljava/util/concurrent/ConcurrentMap;
+%Ljava/util/concurrent/CountDownLatch;
+Ljava/util/concurrent/Executor;
+&Ljava/util/concurrent/ExecutorService;
+ Ljava/util/concurrent/Executors;
+*Ljava/util/concurrent/LinkedBlockingQueue;
+/Ljava/util/concurrent/ScheduledExecutorService;
+&Ljava/util/concurrent/ScheduledFuture;
+ Ljava/util/concurrent/Semaphore;
+$Ljava/util/concurrent/ThreadFactory;
+)Ljava/util/concurrent/ThreadPoolExecutor;
+Ljava/util/concurrent/TimeUnit;
++Ljava/util/concurrent/atomic/AtomicInteger;
+(Ljava/util/concurrent/atomic/AtomicLong;
+!Ljava/util/concurrent/locks/Lock;
+*Ljava/util/concurrent/locks/ReentrantLock;
+Ljava/util/logging/Level;
+Ljava/util/logging/Logger;
+Ljava/util/regex/Matcher;
+Ljava/util/regex/Pattern;
+Ljavax/crypto/Cipher;
+%Ljavax/crypto/NoSuchPaddingException;
+#Ljavax/crypto/spec/IvParameterSpec;
+!Ljavax/crypto/spec/SecretKeySpec;
+&Ljavax/microedition/khronos/egl/EGL10;
+*Ljavax/microedition/khronos/egl/EGLConfig;
++Ljavax/microedition/khronos/egl/EGLContext;
++Ljavax/microedition/khronos/egl/EGLDisplay;
+*Ljavax/microedition/khronos/opengles/GL10;
+Ljavax/net/ssl/SSLContext;
+ Ljavax/net/ssl/SSLSocketFactory;
+ Ljavax/net/ssl/X509TrustManager;
+(Ljavax/security/auth/x500/X500Principal;
+?LoadBitmapFromDiskRunnable can't be executed in the main thread
+Loader Manager 
+Loader Manager:
+LoaderInfo{
+LoaderManager{
+Loading...
+LoadingStrategy;
+Local FragmentActivity 
+LocalBroadcastManager
+Location
+Log in attempt aborted.
+QLog in attempt failed: LoginActivity could not be started, and not legacy request
+Log in with Facebook
+Log.java
+Login attempt failed.
+Lorg/OpenUDID/OpenUDID_manager;
+Lorg/OpenUDID/OpenUDID_service;
+Lorg/OpenUDID/a;
+Lorg/OpenUDID/b;
+Lorg/apache/http/Header;
+Lorg/apache/http/HttpEntity;
+Lorg/apache/http/HttpResponse;
+Lorg/apache/http/HttpVersion;
+!Lorg/apache/http/ProtocolVersion;
+Lorg/apache/http/StatusLine;
+0Lorg/apache/http/client/ClientProtocolException;
+#Lorg/apache/http/client/HttpClient;
+(Lorg/apache/http/client/methods/HttpGet;
+)Lorg/apache/http/client/methods/HttpPost;
+/Lorg/apache/http/client/methods/HttpUriRequest;
+.Lorg/apache/http/conn/ClientConnectionManager;
+0Lorg/apache/http/conn/scheme/PlainSocketFactory;
+$Lorg/apache/http/conn/scheme/Scheme;
+,Lorg/apache/http/conn/scheme/SchemeRegistry;
++Lorg/apache/http/conn/scheme/SocketFactory;
++Lorg/apache/http/conn/ssl/SSLSocketFactory;
+/Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+(Lorg/apache/http/entity/ByteArrayEntity;
+%Lorg/apache/http/entity/StringEntity;
+/Lorg/apache/http/impl/client/DefaultHttpClient;
+=Lorg/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager;
+%Lorg/apache/http/message/BasicHeader;
+(Lorg/apache/http/params/BasicHttpParams;
+-Lorg/apache/http/params/HttpConnectionParams;
+#Lorg/apache/http/params/HttpParams;
++Lorg/apache/http/params/HttpProtocolParams;
+Lorg/fmod/FMODAudioDevice;
+Lorg/json/JSONArray;
+Lorg/json/JSONException;
+Lorg/json/JSONObject;
+Lorg/json/JSONTokener;
+3LruCache[maxSize=%d,hits=%d,misses=%d,hitRate=%d%%]
+Lucas Silva
+MANAGE_PERMISSION_PREFIX
+MANUFACTURER
+	MAP_LIMIT
+MAXIMUM_BATCH_SIZE
+MAX_ACCUMULATED_LOG_EVENTS
+MAX_BUFFER_SCREEN_WIDTH
+MAX_BUILDINGS
+MAX_CONNECTIONS
+MAX_DATE
+MAX_LOG_BYTES
+MAX_PAYLOAD
+MAX_PREFETCHED_PICTURES
+MESSAGE_GET_ACCESS_TOKEN_REPLY
+ MESSAGE_GET_ACCESS_TOKEN_REQUEST
+MESSAGE_GET_INSTALL_DATA_REPLY
+ MESSAGE_GET_INSTALL_DATA_REQUEST
+#MESSAGE_GET_PROTOCOL_VERSIONS_REPLY
+%MESSAGE_GET_PROTOCOL_VERSIONS_REQUEST
+MESSAGE_PARAM
+METHOD_ARGS_REF_KEY
+METHOD_ARGS_TARGET_URL_KEY
+MIGRATION_BUNDLE
+MIGRATION_BUNDLE_PARAM
+MIGRATION_PARAM
+MIGRATION_VALUE
+MIICUjCCAbsCBEk0mH4wDQYJKoZIhvcNAQEEBQAwcDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUsIEluYzEUMBIGA1UECxMLR29vZ2xlLCBJbmMxEDAOBgNVBAMTB1Vua25vd24wHhcNMDgxMjAyMDIwNzU4WhcNMzYwNDE5MDIwNzU4WjBwMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC0dvb2dsZSwgSW5jMRQwEgYDVQQLEwtHb29nbGUsIEluYzEQMA4GA1UEAxMHVW5rbm93bjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAn0gDGZD5sUcmOE4EU9GPjAu/jcd7JQSksSB8TGxEurwArcZhD6a2qy2oDjPy7vFrJqP2uFua+sqQn/u+s/TJT36BIqeY4OunXO090in6c2X0FRZBWqnBYX3Vg84Zuuigu9iF/BeptL0mQIBRIarbk3fetAATOBQYiC7FIoL8WA0CAwEAATANBgkqhkiG9w0BAQQFAAOBgQBAhmae1jHaQ4Td0GHSJuBzuYzEuZ34teS+njy+l1Aeg98cb6lZwM5gXE/SrG0chM7eIEdsurGb6PIgOv93F61lLY/MiQcI0SFtqERXWSZJ4OnTxLtM9Y2hnbHU/EG8uVhPZOZfQQ0FKf1baIOMFB0Km9HbEZHLKg33kOoMsS2zpA==
+MIICXzCCAcigAwIBAgIESxmxnTANBgkqhkiG9w0BAQUFADB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEVMBMGA1UEChMMR29vZ2xlLCBJbmMuMRAwDgYDVQQLEwdVbmtub3duMQ8wDQYDVQQDEwZCYXphYXIwHhcNMDkxMjA1MDEwNDI5WhcNMzcwNDIyMDEwNDI5WjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEVMBMGA1UEChMMR29vZ2xlLCBJbmMuMRAwDgYDVQQLEwdVbmtub3duMQ8wDQYDVQQDEwZCYXphYXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKkIiN6W4zU0dwndSyUeeimoRzdrLly6W1vVBD6DiAECmBkUlBP6M6rlRDsDU0rOSq1vUJcSSdmOdqOafkzM4dcbp74+dWdNtfEHWphzcAFGSKfOcDwtx4g0iQWSEq+cbFsoq9VPg2QRyDGin1APKALRbObRhW+GcKr8omVBg3s5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEASYTG80FHASNiOidP6eE3PXUxzA386adq5n/7cFtATL0bwRaMqxi7EcN4lb+082zBTOwdLMVRag7O1AdOtWiCiVBkAK/43MjvVAQSAv3v8f2C4PMjEHL9zN5KNovgxsP5uLOqDWg8Or/amre7iDLpvl42GbqS3TrMA2qttaYZr1A=
+MIICpzCCAmWgAwIBAgIEUAV8QjALBgcqhkjOOAQDBQAwNzELMAkGA1UEBhMCVVMxEDAOBgNVBAoTB0FuZHJvaWQxFjAUBgNVBAMTDUFuZHJvaWQgRGVidWcwHhcNMTIwNzE3MTQ1MjUwWhcNMjIwNzE1MTQ1MjUwWjA3MQswCQYDVQQGEwJVUzEQMA4GA1UEChMHQW5kcm9pZDEWMBQGA1UEAxMNQW5kcm9pZCBEZWJ1ZzCCAbcwggEsBgcqhkjOOAQBMIIBHwKBgQD9f1OBHXUSKVLfSpwu7OTn9hG3UjzvRADDHj+AtlEmaUVdQCJR+1k9jVj6v8X1ujD2y5tVbNeBO4AdNG/yZmC3a5lQpaSfn+gEexAiwk+7qdf+t8Yb+DtX58aophUPBPuD9tPFHsMCNVQTWhaRMvZ1864rYdcq7/IiAxmd0UgBxwIVAJdgUI8VIwvMspK5gqLrhAvwWBz1AoGBAPfhoIXWmz3ey7yrXDa4V7l5lK+7+jrqgvlXTAs9B4JnUVlXjrrUWU/mcQcQgYC0SRZxI+hMKBYTt88JMozIpuE8FnqLVHyNKOCjrh4rs6Z1kW6jfwv6ITVi8ftiegEkO8yk8b6oUZCJqIPf4VrlnwaSi2ZegHtVJWQBTDv+z0kqA4GEAAKBgGrRG9fVZtJ69DnALkForP1FtL6FvJmMe5uOHHdUaT+MDUKKpPzhEISBOEJPpozRMFJO7/bxNzhjgi+mNymL/k1GoLhmZe7wQRc5AQNbHIBqoxgYDTA6qMyeWSPgam+r+nVoPEU7sgd3fPL958+xmxQwOBSqHfe0PVsiK1cGtIuUMAsGByqGSM44BAMFAAMvADAsAhQJ0tGwRwIptb7SkCZh0RLycMXmHQIUZ1ACBqeAULp4rscXTxYEf4Tqovc=
+MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+MIIEqDCCA5CgAwIBAgIJAIR+T/LWtd6OMA0GCSqGSIb3DQEBBQUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0xMDAxMjAwMTAxMzVaFw0zNzA2MDcwMTAxMzVaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANgocXw20RcP1E0Kew8HESboW7/fM7A0YABalMz7ZaXboLJD32Cxkb+dBt8dilwKM+LRY/UT3x0iU0HqPDN5IuhcAuw0ztlMuAcjpiP/S6/7tOXv5nc7PqK+uLyyAmfP54VRH4Mu+YerdZT+HinPvE0IOh8SUgB3c5byFltpewCjoME6zDCKk/IhY8FunD1KshSfNkxFwEMUMnA58doJYJPxs/wYtlYQlcYiX8cQK5h8bxOkXSTj4MVOhZ1n41tnCCcT0tbwV900V9GfxP6N3eyMOk8/lyMFGacKKDY0rDWBo0q9oX2EWgoJhfv4BgsDaid4YIFj+gw3uefyoQ52vHcCAQOjgfwwgfkwHQYDVR0OBBYEFLXH+RJveA06+8plc3M/9SJrmxc3MIHJBgNVHSMEgcEwgb6AFLXH+RJveA06+8plc3M/9SJrmxc3oYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJAIR+T/LWtd6OMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAEw+p2V9Jua71xEMjxnfH42hCX0zhg9p3r/K20ajfoflsw+7NHscdVW8uzyZVBSARpZfnHkqAtDb5aZHYbN5R6tr/7C6xqLBoM34Yvh3qWcN/W8GLkBuzhgGDGBJjfw2nycRcZjlb8uhUuYFjc6UzlkfxPSpmCszutgZbXdvVbfQGs8x3dcM7LeJeHYGZRD5SaVSSjExs8tlQc+LNUIOvMRSJVmWP0JmaQVyZmJPs5jP21IXiB0RHG4DRhb4USEY0KKmnRPXkvDNEdvVjiODWlSlSsJR59IsRGo/7hQSEOlER0tAYwe7JoQrT2vTVYIcc5ZR/6JgWwXiJJXXFdh6kfY=
+MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+MILLISECONDS
+MIME_BOUNDARY
+MIN_DATE
+!MIN_NATIVE_SHARE_PROTOCOL_VERSION
+MIN_SCALE_FACTOR
+MIN_SIZE
+MISMATCH
+MISSIONS
+MM-dd-yyyy
+MOBILE_APP_INSTALL
+MOBILE_INSTALL_EVENT
+MONGO.POOLSIZE
+	MULTILINE
+MULTI_SELECT_BUNDLE_KEY
+MY_FEED
+MY_FRIENDS
+MY_OBJECTS_FORMAT
+	MY_PHOTOS
+MY_STAGING_RESOURCES
+	MY_VIDEOS
+Matching against filter 
+MaxKey
+Mehmet
+Mei Lin
+Message
+Method
+%Method does not accept concrete type.
+Mikhail
+Min Jun
+MinKey
+*Must be called from main thread of process
+Must have a valid inviter!
+7Must pass in a valid interface that extends GraphObject
+Must provide app ID and secret
+!Must use a predefined preset size
+NAME_PARAM
+NETWORK_ERROR
+NON_JSON_RESPONSE_PROPERTY
+NORMAL
+NO_BUFFER_SCREEN_WIDTH
+NO_CONNECTIVITY
+NO_PROTOCOL_AVAILABLE
+NPC_ACCOUNT_BASE
+NPC_BASE
+	NPC_COUNT
+NPC_DATA
+NPC_GRID
+NPC_LOOT
+NULL_CALLING_PKG_ERROR_MSG
+$NUM_LOG_EVENTS_TO_TRY_TO_FLUSH_AFTER
+NUM_SKIPPED_KEY
+Nara Archieve
+DNara Archieve revive project - Discord https://discord.gg/2dHDk36YBk
+FNara Archieve revive project - Telegram https://t.me/+SptgKXM7uqA4OTA1
+Nara Revive
+Nara community clan. Welcome!
+Nara-raid-v7
+NaraHubChat
+NaraHubClan
+NaraHubTimer
+NaraServer
+NaraServerAccept
+NaraSession
+Natalia
+NativeDialog
+Negative size: 
+NetworkError
+	Night Owl
+Night Owls
+No Billing service available
+No activity
+8No attribution id returned from the Facebook application
+No configs match configSpec
+$No instantiated fragment for index #
+No listener register
+No senderIds
+No such column: 
+#No supported transition specified: 
+No view found for id 0x
+2Nonexistent connection status for service action: 
+FNot connected. Call connect() and wait for onConnected() to be called.
+Not on back stack
+BNot using cache for cacheable request because no key was specified
+OAUTH_DIALOG
+OAuthAccessDeniedException
+OBJECT_BASE
+OBJECT_PARAM
+OBSTACLE_COST
+OBSTACLE_COUNT
+OBSTACLE_H
+OBSTACLE_RES
+OBSTACLE_SECONDS
+OBSTACLE_W
+OG_ACTION_DIALOG
+ONLY_ME
+"OOM while loading bitmap for uri: 
+OPENED
+OPENED_CATEGORY
+OPENED_TOKEN_UPDATED
+OPENING
+OPEN_GRAPH_CREATE_OBJECT_KEY
+OP_REPLACE: adding=
+OTHER_PUBLISH_PERMISSIONS
+OWN_HOME_DATA
+QObject returned from onCreateLoader must not be a non-static inner member class: 
+:OnBitmapLoadedRunnable must be executed in the main thread
+iOne or more children of this LayerDrawable does not have constant state; this drawable cannot be mutated.
+6Only adding items at the end of the list is supported.
+EOnly one of a graph path or REST method may be specified per request.
+OpenGraphObject cannot be null
+OpenGraphObject must have an id
+3OpenGraphObject must have non-null 'title' property
+2OpenGraphObject must have non-null 'type' property
+Operation canceled
+Operations:
+qOr, you can join our community!
+Discord: 
+https://discord.gg/2dHDk36YBk
+Telegram:
+https://t.me/+SptgKXM7uqA4OTA1
+Overread allowed size end=
+PARAMETER_ACTION_ID
+PARAMETER_APP_ID
+PARAMETER_DIALOG_OUTCOME
+(PARAMETER_DIALOG_OUTCOME_VALUE_CANCELLED
+(PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED
+%PARAMETER_DIALOG_OUTCOME_VALUE_FAILED
+&PARAMETER_DIALOG_OUTCOME_VALUE_UNKNOWN
++PARAMETER_NATIVE_LOGIN_DIALOG_COMPLETE_TIME
+(PARAMETER_NATIVE_LOGIN_DIALOG_START_TIME
+PARAMETER_WEB_LOGIN_E2E
+#PARAMETER_WEB_LOGIN_SWITCHBACK_TIME
+PARAM_FULLSCREEN
+	PATCH_TAG
+PENDING_REFRESH_KEY
+PERMISSION
+PERMISSIONS_KEY
+PERSISTED_EVENTS
+PERSISTED_EVENTS_FILENAME
+PICTURE
+PICTURE_PARAM
+PLATFORM_PROVIDER
+PLATFORM_PROVIDER_VERSIONS_URI
+ PLATFORM_PROVIDER_VERSION_COLUMN
+	PLAYER_ID
+PORTRAIT
+PORTRAIT_LEFT
+PORTRAIT_REVERSE
+PORTRAIT_RIGHT
+PRESET_SIZE_KEY
+PREVIOUS
+ PRIORITY_BALANCED_POWER_ACCURACY
+PRIORITY_HIGH_ACCURACY
+PRIORITY_LOW_POWER
+PRIORITY_NO_POWER
+PRIVATE
+PRODUCER_2
+PRODUCER_23
+PRODUCER_4
+PRODUCER_IDS
+PRODUCE_MAX
+PRODUCE_RES
+PRODUCE_RPH
+PRODUCT
+PROFILEPIC_URL_FORMAT
+PROFILE_ID_KEY
+PROFILE_PICTURE_PREFETCH_BUFFER
+PROMO_CHANCE
+PROMO_LINES
+PROTOCOL_VERSION_20121101
+PROTOCOL_VERSION_20130502
+PROTOCOL_VERSION_20130618
+PUBLISH
+PUBLISHER_PACKAGE_NAME
+PUBLISH_ACTIVITY_PATH
+PUBLISH_PERMISSION_PREFIX
+PUTALL_METHOD
+PUT_METHOD
+GParameter value '%s' for key '%s' should be a string or a numeric type.
+ParsedCommand
+Participants
+Pattern.CANON_EQ
+Pattern.DOTALL
+Pattern.LITERAL
+Pattern.UNICODE_CASE
+Pattern.UNIX_LINES
+Pending Actions:
+Pending Loader 
+PermissionDenied
+8Permissions for publish actions cannot be null or empty.
+Person [%s] %s
+Phoenix Rising
+PlacePickerFragment
+PlayEnabledGame
+Player
+PlayerId
+-Pre-Eclair does not support multiple pointers
+PrimaryCategory
+ProfilePictureView_bitmap
+ProfilePictureView_height
+ProfilePictureView_isCropped
+ProfilePictureView_presetSize
+ProfilePictureView_profileId
+ProfilePictureView_refresh
+ProfilePictureView_superState
+ProfilePictureView_width
+	Property 
+ProtocolError
+	Putri Ayu
+Py.java
+QUEUE_LIMIT
+RADIUS_IN_METERS_BUNDLE_KEY
+RAID_AGE_RANGE
+RAID_CHANCE
+RAID_LOOT_CAP
+RAID_LOOT_RANGE
+RAID_REPORT_DELAY
+RAID_TROPHY_LOSS
+RANDOM
+RANKING_LIMIT
+RC4_KEY
+	RC4_NONCE
+REDIRECT_CONTENT_TAG
+REDIRECT_URI
+REFRESH_TOKEN_BARRIER
+RELEASE
+REMOVEPROPERTY_METHOD
+REMOVE_METHOD
+REPEAT
+REPLACE
+REPLY_CHANCE
+REPLY_LINES
+REQUESTS
+REQUEST_FIELDS
+RESOLUTION_REQUIRED
+RESOURCE_GEM_POINTS
+RESOURCE_LIMIT
+RESPONSE_CACHE_TAG
+RESPONSE_CODE
+RESPONSE_LOG_TAG
+RESTSERVER_URL
+REST_URL_FORMAT
+RESULTS_LIMIT_BUNDLE_KEY
+RESULT_KEY
+RESUMED
+ROSTER_CACHE
+ROSTER_NAMES
+ROSTER_SIZE
+ROSTER_TAGS
+RUNTIME
+Rafael
+Random
+Re-attaching retained fragment 
+Reader
+(Received %d responses while expecting %d
+!Received an object without an ID.
+%Received callback for unknown loader.
+(Received deleted messages notification: 
+Received install referrer 
+Received invalid token: 
+"Received unknown special message: 
+	Receiver{
+-Recursive entry to executePendingTransactions
+	Red Baron
+Redirect URL: 
+Registering app 
+Registration error: 
+Removed:
+	Removed: 
+Request
+Request failed with status 
+Request failed. Response code: 
+	Request:
+Request[
+Requested offscreen page limit 
+.Required method destroyItem was not overridden
+2Required method instantiateItem was not overridden
+Resolving type 
+Response
+-Response
+  Id: %s
+  Size: %d
+  Responses:
+)Response (raw)
+  Size: %d
+  Response:
+Response <Error>: %s
+ResponseCache
+Retaining in 
+RetrievedTimestamp
+	Rizky Pro
+RoomId
+RoomStatus
+SAFE_PARCELABLE_NULL_STRING
+SAVED_AUTH_CLIENT
+SAVED_CALLING_PKG_KEY
+SDK_ANDROID
+SDK_INT
+	SDK_PARAM
+SEARCH
+SEARCH_ALLIANCES
+SEARCH_TEXT_BUNDLE_KEY
+SECONDS
+SECTION_HEADER
+:SELECT id,access_token FROM test_account WHERE app_id = %s
+FSELECT uid,name FROM user WHERE uid IN (SELECT id FROM #test_accounts)
+SELECTION_BUNDLE_KEY
+SEND_GLOBAL_CHAT
+SERVER
+SERVER_CMD_CHANGE_NAME
+SERVER_CMD_UNIT_RECEIVED
+SERVER_COMMAND
+SERVER_ERROR
+SERVICE_DISABLED
+SERVICE_INVALID
+SERVICE_MISSING
+SERVICE_NOT_AVAILABLE
+SERVICE_VERSION_UPDATE_REQUIRED
+SESSION_BUNDLE_SAVE_KEY
+SESSION_CHANGE
+SETPROPERTY_METHOD
+SHA-256
+SHARED
+SHARE_DIALOG
+SHIELD_BASE
+SHIELD_GEMS
+SHIELD_SECONDS
+SHOW_PICTURES_BUNDLE_KEY
+SHOW_SEARCH_BOX_BUNDLE_KEY
+SHOW_TITLE_BAR_BUNDLE_KEY
+SIGN_IN_REQUIRED
+SINGLE_SIGN_ON_DISABLED
+SIZE_METHOD
+SOCKET_TIMEOUT
+SOURCE_PARAM
+	SPANNABLE
+SPEED_POINTS
+SPELL_BOOST_PERCENT
+SPELL_CAPACITY
+SPELL_COST
+SPELL_DAMAGE
+SPELL_FIRST
+SPELL_FORGE_ID
+SPELL_FREEZE_MS
+SPELL_HITS
+SPELL_LAST
+SPELL_MAX_LEVELS
+	SPELL_RES
+SPELL_SPACE
+SPELL_TIME
+SPELL_TRAIN_COST
+SPELL_TRAIN_RES
+SPELL_UPGRADE_COST
+SPELL_UPGRADE_RES
+SPELL_UPGRADE_SECONDS
+SRC_IN
+SSO_ONLY
+SSO_WITH_FALLBACK
+STABLE
+STAGING_PARAM
+STARTED
+STAR_MAX
+STAR_STEPS
+STATE_MAX_BYTES
+STATIC_LOCK
+STATUS_ERROR_CODE
+STATUS_ERROR_DESCRIPTION
+STATUS_ERROR_JSON
+STATUS_ERROR_SUBCODE
+STATUS_ERROR_TYPE
+STOPPED
+STORE_DARK
+STORE_ELIXIR
+STORE_GOLD
+STREAM_CHAT
+STREAM_DONATE
+STREAM_EVENT
+STREAM_LIMIT
+STROKE
+SUCCESS
+SUPER_STATE_KEY
+SUPPORTS_ATTRIBUTION
+SUPPORTS_IMPLICIT_SDK_LOGGING
+SUPPRESS_SSO
+Sakura
+Samira
+Sanjay
+Santiago
+Saved state of 
+Saving regId on app version 
+)Scheduling registration retry, backoff = 
+SecondaryCategory
+Send email
+Sending 
+Sergei
+Server failed
+Server response: 
+Server.java
+Service connection error
+Service disconnected
+ServiceDisabled
+1Session provided to a Request in un-opened state.
+Session.java
+ASession: an attempt was made to open a previously-closed session.
+JSession: an attempt was made to open a session that has a pending request.
+?Session: an attempt was made to open an already opened session.
+aSession: an attempt was made to request new permissions for a session that has a pending request.
+[Session: an attempt was made to request new permissions for a session that has been closed.
+aSession: an attempt was made to request new permissions for a session that is not currently open.
+Setting back stack index 
+Setting lastModified to 
+,Setting the name of retry receiver class to 
+Shadow Wolf
+Shared %s Testuser
+4SharedPreferences.Editor.commit() was not successful
+WShould not pass a read permission (%s) to a request for publish or manage authorization
+ShowDialog
+Signature not valid.  Found: 
+SimAttacker
+SimBuilding
+Size read is invalid start=
+Skipping event named '%s' due to illegal name - must be under 40 chars and alphanumeric, _, - or space, and not start with a space or hyphen.
+Somchai
+Source
+Starting embedded server state=
+Starting in 
+Status
+Stone Giant
+Stopping in 
+Storm Riders
+StructError
+Success
+BSupport the Nara Archieve project: https://saweria.co/naraarchieve
+	TEST_USER
+THREAD_POOL_EXECUTOR
+THROTTLING
+TH_BUILDING_CAPS
+TH_TRAP_CAPS
+TICKS_PER_SECOND
+TITLE_PARAM
+TITLE_TEXT_BUNDLE_KEY
+TOKEN_EXTEND_RETRY_SECONDS
+TOKEN_EXTEND_THRESHOLD_SECONDS
+	TOKEN_KEY
+TOKEN_SOURCE_KEY
+TOSTRING_METHOD
+TO_PARAM
+TRACKING_ID
+	TRAP_BASE
+	TRAP_COST
+TRAP_COUNT
+TRAP_H
+TRAP_OBJECT_CLASS
+TRAP_RES
+TRAP_W
+TS time:
+TSTATE;
+TT;)TT;
+	TT;>;)TT;
+TT;>;)V
+TT;I)V
+TYPE_BOOLEAN
+TYPE_BOOLEAN_ARRAY
+	TYPE_BYTE
+TYPE_BYTE_ARRAY
+	TYPE_CHAR
+TYPE_CHAR_ARRAY
+TYPE_DOUBLE
+TYPE_DOUBLE_ARRAY
+	TYPE_ENUM
+TYPE_FLOAT
+TYPE_FLOAT_ARRAY
+TYPE_INTEGER
+TYPE_INTEGER_ARRAY
+	TYPE_LONG
+TYPE_LONG_ARRAY
+TYPE_SHORT
+TYPE_SHORT_ARRAY
+TYPE_STRING
+TYPE_STRING_LIST
+The Chartboost methods onCreate(), onStart(), onStop(), and onDestroy() must be called in the corresponding methods of your activity in order for Chartboost to function properly.
+dThe context must be set through the Chartboost method onCreate() before calling cacheInterstitial().
+`The context must be set through the Chartboost method onCreate() before calling cacheMoreApps().
+^The context must be set through the Chartboost method onCreate() before calling orientation().
+kThe context must be set through the Chartboost method onCreate() before calling recordPaymentTransaction().
+cThe context must be set through the Chartboost method onCreate() before calling showInterstitial().
+_The context must be set through the Chartboost method onCreate() before calling showMoreApps().
+_The context must be set through the Chartboost method onCreate() before calling startSession().
+]The context must be set through the Chartboost method onCreate() before calling trackEvent().
+&There is already a listener registered
+8There was no converter wrapped in this ConverterWrapper.
+Thiago
++This method requires UTF-8 encoding support
++Tilt needs to be between 0 and 90 inclusive
+]Trying to bind a GmsServiceConnection that was already connected before.  startServiceAction=
+XTrying to unbind a GmsServiceConnection  that was not bound before.  startServiceAction=
+UNABLE TO GET PRODUCTS
+	UNDEFINED
+UNICODE_CASE
+UNIT_ARCHER
+UNIT_BARBARIAN
+UNIT_CAP
+	UNIT_COST
+UNIT_DPS
+UNIT_FIRST
+UNIT_FLYING
+UNIT_HP
+	UNIT_LAST
+UNIT_LEVEL_DPS
+UNIT_LEVEL_HP
+UNIT_MAX_LEVELS
+UNIT_PREF_KIND
+UNIT_PREF_MOD
+UNIT_RES
+UNIT_SPACE
+UNIT_TARGET_AIR
+UNIT_TARGET_GROUND
+	UNIT_TIME
+UNIT_TRAIN_COST
+UNIT_UPGRADE_COST
+UNIT_UPGRADE_RES
+UNIT_UPGRADE_SECONDS
+UNIT_WIZARD
+UNIX_LINES
+UNKNOWN_ERROR
+UNSPECIFIED
+UNSPECIFIED_DIMENSION
+URL_SCHEME
+USER_AGENT
+USER_AGENT_BASE
+USER_AGENT_HEADER
+USER_FBID_KEY
+USER_ID_BUNDLE_KEY
+Unable to attach images
+MUnable to create Intent; this likely means the Facebook app is not installed.
+Unable to instantiate fragment 
+Unable to save session.
+!Unable to start activity to open 
++Unexpected call to Session.onActivityResult
+/Unexpected call to finishAuthOrReauth in state 
+RUnexpected call to logAuthorizationComplete with null pendingAuthorizationRequest.
+KUnexpected call to logAuthorizationMethodComplete with null pendingRequest.
+Unexpected error code 
+Unexpected number of results
++Unexpected number of results from FQL query
+)Unexpected resultCode from authorization.
+$Unexpected type of section and item.
+Unknown
+Unknown App
+Unknown URI 
+Unknown billing error 
+Unknown cmd: 
+Unknown field out type = 
+Unknown field type out
+Unknown field type out.
+Unknown safe parcelable id=
+Unknown service error
+Unknown type = 
+UnknownError
+Unregistering app 
+Unsupported URI: 
+.Unsupported parameter type for GET request: %s
+Unsupported parameter type.
+2Unsupported safe parcelable field converter class.
+Unterminated string
+ Upgrading database from version 
+User canceled log in.
+User canceled operation.
+*User logged in as different Facebook user.
+User-Agent
+UserCanceled
+VALUES_METHOD
+	VFFFFIFIF
+VFFFFIIL
+VFFFFL
+VFFFFLLL
+VFFFFZ
+VIBBILBBBBBB
+VIIIII
+VIIIIII
+VIIILLLL
+VIIILLLLLL
+VIIILLLLLLL
+VIIJLLL
+VIIZIZLILL
+	VILDFIIFZ
+VILFFF
+VILFIFZZ
+	VILISDDFJ
+VILLFFLFFZFFF
+VILLFIIFZZ
+VILLJILILL
+	VILLJILLI
+VILLLLFFZZ
+VILLLLILZLI
+VILLLLJ
+VILLLLL
+	VILLLLLLL
+VILLLLLLLLL
+VILLLLLLLLLZZLIII
+VILLLZ
+VISITED_HOME_DATA
+VISIT_HOME
+	VIZIZLILL
+VIZLLLZ
+VJDDDDDDDZZJD
+VJDDDDZZDZZZ
+	VJJJLLZLL
+VLIDDLLLLL
+VLIICL
+VLIIIII
+VLIIIL
+VLIIIZ
+VLIILI
+VLIIZZ
+VLILII
+VLILIII
+VLILIL
+VLILIZ
+VLILLI
+VLILLIL
+VLILLL
+VLILLLLILLLLILLZLLLILLIILLLZ
+VLILLLLL
+	VLILLLLLL
+VLILLLLLLL
+9VLILLLLLLLILLLLLLLLLLLLLLLLLLLLLLLLLDLDLLLLLLLLLLLLLLLLLL
+VLILLLLLZLLI
+VLILLZLL
+	VLILLZLLL
+VLILZZ
+VLIZIL
+VLIZLLLLLL
+VLLIIIZ
+VLLILL
+VLLILLZJ
+VLLIZZ
+	VLLLDLLLZ
+VLLLIIIZ
+VLLLIL
+VLLLILL
+VLLLLD
+	VLLLLDLLL
+VLLLLDLLLZ
+VLLLLI
+VLLLLL
+VLLLLLI
+VLLLLLIL
+VLLLLLL
+	VLLLLLLIL
+VLLLLLLILB
+VLLLLZL
+VLLLLZLL
+VLLLZJ
+VLLLZL
+VLLLZZ
+VLLZIL
+VLLZLL
+VZIIII
+	Valentina
+ValueError
+Variant
+Vikram
+Viktor
+WALK_SECONDS
+	WALL_DATA
+WALL_INDEX
+WARNING
+WARNING: you have an outdated version of the SDK (Current: %s, Latest: %s). Get the latest version at chartboost.com/support/sdk#android
+	WATERMARK
+WEB_VIEW
+WEB_VIEW_AUTH_HANDLER_STORE
+WEB_VIEW_AUTH_HANDLER_TOKEN_KEY
+WEB_VIEW_ERROR_CODE_KEY
+WEB_VIEW_FAILING_URL_KEY
+WELCOME_PARTS
+WERE_HERE_COUNT
+WIDTH_PARAM
+WORKER_COSTS
+	WORKER_ID
+Wall Breaker
+We push trophies together!
+Webview loading URL: 
+Wei Chen
+Wizard
+Writer
+X-Chartboost-API
+X-Chartboost-App
+X-Chartboost-Client
+X-Chartboost-Signature
+X-timestamp
+XP_THRESHOLDS
+bYou must specify your application ID when instantiating a Facebook object. See README for details.
+ZFFFFL
+ZJJJJI
+ZLLILL
+ZLLJJJ
+ZLLLIL
+ZLLLZZ
+ZLZIII
+Zeynep
+[J>;J)D
+[Landroid/content/pm/Signature;
+ [Landroid/database/CursorWindow;
+%[Landroid/graphics/drawable/Drawable;
+[Landroid/os/Parcel;
+[Landroid/os/Parcelable;
+[Landroid/support/v4/a/e;
+([Landroid/support/v4/app/BackStackState;
+-[Landroid/support/v4/app/Fragment$SavedState;
+.[Landroid/support/v4/app/FragmentManagerState;
+'[Landroid/support/v4/app/FragmentState;
+/[Landroid/support/v4/view/ViewPager$SavedState;
+[Landroid/text/InputFilter;
+8[Lcom/chartboost/sdk/Libraries/CBOrientation$Difference;
+-[Lcom/chartboost/sdk/Libraries/CBOrientation;
+[Lcom/chartboost/sdk/impl/a$b;
+[Lcom/chartboost/sdk/impl/a$c;
+[Lcom/chartboost/sdk/impl/ag$a;
+![Lcom/chartboost/sdk/impl/ba$h$a;
+[Lcom/chartboost/sdk/impl/j$b;
+[Lcom/chartboost/sdk/impl/n$b;
+![Lcom/facebook/AccessTokenSource;
+-[Lcom/facebook/AppEventsLogger$FlushBehavior;
++[Lcom/facebook/AppEventsLogger$FlushReason;
++[Lcom/facebook/AppEventsLogger$FlushResult;
+/[Lcom/facebook/AuthorizationClient$Result$Code;
+-[Lcom/facebook/FacebookRequestError$Category;
+[Lcom/facebook/HttpMethod;
+[Lcom/facebook/LoggingBehavior;
+8[Lcom/facebook/Request$ParcelFileDescriptorWithMimeType;
+[Lcom/facebook/Request;
+([Lcom/facebook/Response$PagingDirection;
+&[Lcom/facebook/SessionDefaultAudience;
+$[Lcom/facebook/SessionLoginBehavior;
+%[Lcom/facebook/SessionState$Category;
+[Lcom/facebook/SessionState;
+ [Lcom/facebook/TestSession$Mode;
+1[Lcom/facebook/internal/SessionAuthorizationType;
+B[Lcom/facebook/widget/FacebookDialog$OpenGraphActionDialogFeature;
+1[Lcom/facebook/widget/FacebookDialog$PendingCall;
+8[Lcom/facebook/widget/FacebookDialog$ShareDialogFeature;
+=[Lcom/facebook/widget/GraphObjectAdapter$SectionAndItem$Type;
+*[Lcom/google/android/gms/games/GameEntity;
+,[Lcom/google/android/gms/games/PlayerEntity;
+<[Lcom/google/android/gms/games/multiplayer/InvitationEntity;
+=[Lcom/google/android/gms/games/multiplayer/ParticipantEntity;
+D[Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;
+?[Lcom/google/android/gms/games/multiplayer/realtime/RoomEntity;
+%[Lcom/google/android/gms/internal/ak;
+%[Lcom/google/android/gms/internal/am;
+'[Lcom/google/android/gms/internal/ao$a;
+%[Lcom/google/android/gms/internal/ao;
+'[Lcom/google/android/gms/internal/ar$a;
+'[Lcom/google/android/gms/internal/au$a;
+'[Lcom/google/android/gms/internal/au$b;
+%[Lcom/google/android/gms/internal/au;
+%[Lcom/google/android/gms/internal/ax;
+%[Lcom/google/android/gms/internal/cn;
+%[Lcom/google/android/gms/internal/ed;
+%[Lcom/google/android/gms/internal/en;
+%[Lcom/google/android/gms/internal/ep;
+%[Lcom/google/android/gms/internal/er;
+'[Lcom/google/android/gms/internal/eu$a;
+)[Lcom/google/android/gms/internal/eu$b$a;
+)[Lcom/google/android/gms/internal/eu$b$b;
+'[Lcom/google/android/gms/internal/eu$b;
+'[Lcom/google/android/gms/internal/eu$c;
+'[Lcom/google/android/gms/internal/eu$d;
+'[Lcom/google/android/gms/internal/eu$e;
+'[Lcom/google/android/gms/internal/eu$g;
+'[Lcom/google/android/gms/internal/eu$h;
+'[Lcom/google/android/gms/internal/eu$i;
+%[Lcom/google/android/gms/internal/eu;
+%[Lcom/google/android/gms/internal/fh;
+%[Lcom/google/android/gms/internal/fj;
+$[Lcom/google/android/gms/internal/l;
+<[Lcom/google/android/gms/location/ActivityRecognitionResult;
+3[Lcom/google/android/gms/location/DetectedActivity;
+2[Lcom/google/android/gms/location/LocationRequest;
+/[Lcom/google/android/gms/maps/GoogleMapOptions;
+3[Lcom/google/android/gms/maps/model/CameraPosition;
+2[Lcom/google/android/gms/maps/model/CircleOptions;
+9[Lcom/google/android/gms/maps/model/GroundOverlayOptions;
++[Lcom/google/android/gms/maps/model/LatLng;
+1[Lcom/google/android/gms/maps/model/LatLngBounds;
+2[Lcom/google/android/gms/maps/model/MarkerOptions;
+3[Lcom/google/android/gms/maps/model/PolygonOptions;
+4[Lcom/google/android/gms/maps/model/PolylineOptions;
+)[Lcom/google/android/gms/maps/model/Tile;
+7[Lcom/google/android/gms/maps/model/TileOverlayOptions;
+2[Lcom/google/android/gms/maps/model/VisibleRegion;
+[Lcom/supercell/titan/ak;
+[Lcom/supercell/titan/al;
+[Ljava/io/File;
+[Ljava/lang/Class;
+[Ljava/lang/Enum;
+[Ljava/lang/Integer;
+[Ljava/lang/Object;
+[Ljava/lang/Runnable;
+[Ljava/lang/String;
+[Ljava/lang/Void;
+[Ljava/lang/reflect/Method;
+[Ljava/lang/reflect/Type;
+[Ljava/math/BigDecimal;
+[Ljava/math/BigInteger;
+%[Ljava/security/cert/X509Certificate;
+[Ljava/text/SimpleDateFormat;
+[Ljava/util/List;
++[Ljavax/microedition/khronos/egl/EGLConfig;
+[Ljavax/net/ssl/KeyManager;
+[Ljavax/net/ssl/TrustManager;
+[TT;)V
+[decrypt] 
+[encrypt] 
+\u%04x
+^[0-9a-zA-Z_]+[0-9a-zA-Z _-]*$
+^[a-z0-9_]+\.json$
+	_Redirect
+_appVersion
+_eventName
+_implicitlyLogged
+_logTime
+_transientFields
+_valueToSum
+abandon
+abortAnimation
+aboutMe
+accept
+access$000
+access$002
+access$100
+access$1000
+access$102
+access$1100
+access$1200
+access$1202
+access$1300
+access$1400
+access$1402
+access$1500
+access$1600
+access$1700
+access$1800
+access$200
+access$202
+access$300
+access$400
+access$402
+access$500
+access$502
+access$600
+access$700
+access$702
+access$800
+access$900
+#accessExpiresMillisecondsAfterEpoch
+accessFlags
+accessToken
+accessTokenAppId
+access_denied
+access_token
+3account=%d token=%s version=%d.%d.%d fingerprint=%s
+	accountId
+accountName
+accumulatePersistedEvents
+accumulatedEvents
+achievementRefs
+achievement_total_count
+achievements
+acquire
+action
+actionType
+	action_id
+activateApp
+activeSession
+activeWorkerCount
+activity
+activity cannot be null
+activityCircle
+activityInfo
+ad-landscape
+ad-portrait
+adShown
+ada yang mau join clan?
+adapter
+	addAction
+addActiveWorkItem
+addAll
+addAnimation
+addAttachmentsForCall
+addBroadcastReceiver
+addBuilding
+addCallback
+addCastleUnit
+addCategory
+addCommonParameters
+addContentView
+addDeco
+addEvent
+	addEvents
+addFlags
+addFocusables
+addGraphObjects
+addHeaderView
+addImageAttachment
+addImageAttachments
+addLoggingBehavior
+addLoggingExtra
+addMovement
+addOnAttachStateChangeListener
+addOnGlobalLayoutListener
+addResults
+addRoundRect
+addRule
+addSku
+addTextChangedListener
+&addToBackStack() called after commit()
+	addToList
+addTouchables
+addTrap
+addURI
+addView
+addViewInLayout
+additionalName
+address
+addressCountry
+addressLocality
+addressRegion
+ads_management
+advance
+advanceQueues
+afterTextChanged
+ageRange
+o clan kh
+akamaihd.net
+alguem quer entrar no cla?
+ alguien quiere unirse a mi clan?
+alliance
+allianceBlock
+allianceOverride
+allocateDirect
+allowCachedRedirects
+allowsKatanaAuth
+allowsWebViewAuth
+	altarHero
+altitude
+android
+android.intent.action.SENDTO
+android.intent.action.VIEW
+android.intent.category.DEFAULT
+'android.net.SSLCertificateSocketFactory
+android.net.SSLSessionCache
+$android.net.conn.CONNECTIVITY_CHANGE
+android.permission.INTERNET
+)android.permission.WRITE_EXTERNAL_STORAGE
+-android.settings.APPLICATION_DETAILS_SETTINGS
+android:fragment:
+android:support:fragments
+android:target_req_state
+android:target_state
+android:user_visible_hint
+android:view_state
+android_id
+android_id_md5
+android_id_sha1
+android_id_sha256
+android_purchase_status
+	animation
+anyone online?
+anyone want to join my clan?
+appCall
+appEventsLogged
+appEventsLogger
+appTestAccounts
+appVersion
+app_ad_tracking
+app_id
+append
+appendCodePoint
+appendEntry
+appendFrom
+appendKeyValue
+appendParametersToBaseUrl
+appendPath
+appendPermissions
+appendQueryParameter
+appendReplacement
+appendResults
+appendTail
+application/json
+application/json; charset=UTF-8
+applicationContext
+applicationId
+applicationInfo
+applicationName
+application_package_name
+application_tracking_enabled
+applicationsContext
+applink
+applyCommand
+	applyRaid
+applyTransformation
+apprequests
+areAllItemsEnabled
+areEqual
+areMoreObjectsAvailable
+areObjectsEqual
+arePaymentsAvailable
+	arguments
+	arrayList
+	arraycopy
+asBinder
+asList
+asListNoNulls
+assets
+associated_media
+attach
+attach: 
+attachInterface
+attached_files
+attachmentStore
+attachmentsDirectory
+attackLost
+attackRange
+attackUnits
+	attackWon
+attack_lost
+attack_mode
+attack_won
++attempted to add unsupported type to Bundle
+attendeeCount
+	attendees
+attribute_sub1
+attribute_sub2
+attribute_sub3
+attribute_sub4
+attribute_sub5
+attribution
+attributionId
+audience
+auth.expireSession
+auth.expireSession failed
+authId
+ auth_client_needs_enabling_title
+$auth_client_needs_installation_title
+auth_client_needs_update_title
+.auth_client_play_services_err_notification_msg
+auth_client_requested_by_msg
+#auth_client_using_bad_version_title
+author
+	authority
+authorizationBundle
+authorizationClient
+authorizationType
+	authorize
+authorizeCallback
+autoPublishAsync
+autoPublishAsyncTask
+auto_publish
+automatch_bit_mask
+automatch_max_players
+automatch_min_players
+	available
+avatarName
+	awardLoot
+ayo war
+backButtonPressed
+backgroundProcessingListener
+backoff_ms
+bad arguments
+balance
+banner
+barrack
+baseHome
+basic_info
+batchApplicationId
+batchEntryDependsOn
+batchEntryName
+batchEntryOmitResultOnSuccess
+batchRequestResult
+batch_app_id
+battleStartedAt
+battleStats
+battleTick
+bearing
+before
+beforeTextChanged
+behavior
+bestRating
+	bien joue
+billingProductBought
+billingProductCanceled
+billingProductFailed
+bindService
+	birthDate
+birthday
+bitmap
+bitmaps
+	boa sorte
+bonne chance
+bool[]
+booleanValue
+boostBuilding
+boost_t
+bora jogar
+bottom
+bottomMargin
+braggingRights
+bridge_args
+broadcastManager
+broken
+buen juego
+buffer
+bufferIndex
+buildAllianceData
+buildAllianceRanking
+buildAndExecuteRequests
+buildAttackReport
+buildAvatarProfile
+buildAvatarRanking
+buildBotChatLine
+buildChangeNameCommand
+buildChatLine
+buildDummyAllianceData
+buildEnemyHome
+buildFullEntry
+buildJoinOk
+buildJoinableList
+buildLoginOk
+buildMemberMessage
+buildNpcData
+buildOwnHomeData
+buildRequestForSession
+buildSearchResult
+buildStreamEntryMessage
+buildStreamMessage
+buildUnitReceived
+	buildUpon
+buildUri
+buildVisitedHome
+building
+buildingCost
+buildingDataByName
+buildingUids
+	buildings
+bundle
+buona fortuna
+button
+button2
+button3
+buyProduct
+	buyShield
+byArtist
+	byteCount
+	byteValue
+byte[]
+bytesToHex
+cacheInterstitial
+cacheKey
+cacheMoreApps
+cacheReadQueue
+cacheUriRedirect
+callDialogListener
+callId
+callOnErrorListener
+call_id
+callback
+callbackHandler
+	callbacks
+	callerTag
+callingPackage
+callingPackageName
+	campSpace
+can't infer generic type of: 
+can't save a null object
+can't serialize 
+canExtendToken
+canPresent
+canPresentOpenGraphActionDialog
+canPresentShareDialog
+canScrollHorizontally
+cancel
+	cancelAll
+cancelAllNotifications
+cancelConstruction
+cancelCurrentHandler
+cancelHeroUpgrade
+cancelNotification
+cancelPendingAppCall
+cancelRequest
+cancelTraining
+cancelUpgradeUnit
+cannon
+\cannot call addViewToContainer() on CBRotatableContainer that was set up with a default view
+capFloor
+capabilities
+capacity
+caption
+castToListOf
+castle
+castleInfo
+castleSlots
+castleUnits
+castle_units
+category
+cbIdentityTrackingDisabled
+cbPrefSessionCount
+cbPrefs
+ccDrop
+center
+changeCursor
+changeMembers
+charAt
+	charCount
+char[]
+chartboost
+checkCallingOrSelfPermission
+checkClientTrusted
+checkIndex
+checkInternetPermission
+checkLayoutParams
+ checkMainThread: current thread 
+#checkNotMainThread: current thread 
+checkPermission
+checkResponseAndCreateError
+checkServerTrusted
+checkUserSession
+checkValidity
+checkedInternetPermission
+checksum
+chi vuole entrare nel clan?
+choice
+chooseConfig
+c may m
+ciao a tutti
+circledByCount
+circles
+claimAchievement
+claimed
+clan aku masih kosong
+	clanBlock
+	clanEvent
+clanInfo
+clanPlayerSaid
+clanRun
+clanSay
+clanSnapshotReplies
+cleanAllianceExtras
+cleanExtras
+cleanIntMap
+cleanLevel
+cleanSection
+cleanup
+cleanupAllAttachments
+cleanupAttachmentsForCall
+clearAnimation
+clearCache
+clearCache failed 
+clearCaches
+clearCookiesForDomain
+clearFacebookCookies
+clearFocus
+clearImageCache
+clearInFlightAndStats
+clearLoggingBehaviors
+clearObstacle
+clearPermissions
+clearResults
+clearTouches
+clear_t
+client_address
+	client_id
+clipPath
+clipRect
+closeAndClearTokenInformation
+closeQuietly
+closeSession
+$closeSessionAndClearTokenInformation
+closed
+codePointAt
+codePointBefore
+codePointCount
+coerceValueToExpectedType
+collect
+collectProducerEntry
+com.android.vending
+0com.android.vending.billing.IInAppBillingService
+4com.android.vending.billing.InAppBillingService.BIND
+Ccom.facebook.AuthorizationClient.WebViewAuthHandler.TOKEN_STORE_KEY
+!com.facebook.LoginActivity:Result
+/com.facebook.NativeAppCallAttachmentStore.files
+>com.facebook.SharedPreferencesTokenCachingStrategy.DEFAULT_KEY
+3com.facebook.TokenCachingStrategy.AccessTokenSource
+0com.facebook.TokenCachingStrategy.ExpirationDate
+'com.facebook.TokenCachingStrategy.IsSSO
+1com.facebook.TokenCachingStrategy.LastRefreshDate
+-com.facebook.TokenCachingStrategy.Permissions
+'com.facebook.TokenCachingStrategy.Token
+*com.facebook.TokenCachingStrategy.UserFBID
+;com.facebook.UiLifecycleHelper.pendingFacebookDialogCallKey
+7com.facebook.android.PickerFragment.ActivityCircleShown
+-com.facebook.android.PickerFragment.Selection
+com.facebook.katana
+com.facebook.katana.ProxyAuth
+0com.facebook.katana.platform.TokenRefreshService
+-com.facebook.katana.provider.PlatformProvider
+"com.facebook.platform.APPLINK_ARGS
+*com.facebook.platform.APPLINK_TAP_TIME_UTC
+'com.facebook.platform.PLATFORM_ACTIVITY
+&com.facebook.platform.PLATFORM_SERVICE
+.com.facebook.platform.action.reply.FEED_DIALOG
+/com.facebook.platform.action.reply.LOGIN_DIALOG
+9com.facebook.platform.action.reply.OGACTIONPUBLISH_DIALOG
+0com.facebook.platform.action.request.FEED_DIALOG
+1com.facebook.platform.action.request.LOGIN_DIALOG
+;com.facebook.platform.action.request.OGACTIONPUBLISH_DIALOG
+(com.facebook.platform.extra.ACCESS_TOKEN
+"com.facebook.platform.extra.ACTION
+'com.facebook.platform.extra.ACTION_TYPE
+*com.facebook.platform.extra.APPLICATION_ID
+,com.facebook.platform.extra.APPLICATION_NAME
+.com.facebook.platform.extra.COMPLETION_GESTURE
+/com.facebook.platform.extra.DATA_FAILURES_FATAL
+'com.facebook.platform.extra.DESCRIPTION
+(com.facebook.platform.extra.DID_COMPLETE
+7com.facebook.platform.extra.EXPIRES_SECONDS_SINCE_EPOCH
+#com.facebook.platform.extra.FRIENDS
+!com.facebook.platform.extra.IMAGE
+/com.facebook.platform.extra.INSTALLDATA_PACKAGE
+ com.facebook.platform.extra.LINK
+'com.facebook.platform.extra.PERMISSIONS
+!com.facebook.platform.extra.PLACE
+#com.facebook.platform.extra.POST_ID
+1com.facebook.platform.extra.PREVIEW_PROPERTY_NAME
+-com.facebook.platform.extra.PROTOCOL_VERSIONS
+com.facebook.platform.extra.REF
+$com.facebook.platform.extra.SUBTITLE
+!com.facebook.platform.extra.TITLE
+)com.facebook.platform.extra.WRITE_PRIVACY
+&com.facebook.platform.protocol.CALL_ID
+.com.facebook.platform.protocol.PROTOCOL_ACTION
+/com.facebook.platform.protocol.PROTOCOL_VERSION
+'com.facebook.platform.status.ERROR_CODE
+.com.facebook.platform.status.ERROR_DESCRIPTION
+'com.facebook.platform.status.ERROR_JSON
+*com.facebook.platform.status.ERROR_SUBCODE
+'com.facebook.platform.status.ERROR_TYPE
+&com.facebook.sdk.ACTIVE_SESSION_CLOSED
+&com.facebook.sdk.ACTIVE_SESSION_OPENED
+#com.facebook.sdk.ACTIVE_SESSION_SET
+%com.facebook.sdk.ACTIVE_SESSION_UNSET
+#com.facebook.sdk.APP_EVENTS_FLUSHED
+(com.facebook.sdk.APP_EVENTS_FLUSH_RESULT
+.com.facebook.sdk.APP_EVENTS_NUM_EVENTS_FLUSHED
+com.facebook.sdk.ApplicationId
+com.facebook.sdk.FailingUrl
+&com.facebook.sdk.Session.authBundleKey
+'com.facebook.sdk.Session.saveSessionKey
+!com.facebook.sdk.WebViewErrorCode
+$com.facebook.sdk.appEventPreferences
+$com.facebook.sdk.attributionTracking
+4com.facebook.widget.FriendPickerFragment.MultiSelect
+/com.facebook.widget.FriendPickerFragment.UserId
+1com.facebook.widget.PickerFragment.DoneButtonText
+.com.facebook.widget.PickerFragment.ExtraFields
+/com.facebook.widget.PickerFragment.ShowPictures
+/com.facebook.widget.PickerFragment.ShowTitleBar
+,com.facebook.widget.PickerFragment.TitleText
+0com.facebook.widget.PlacePickerFragment.Location
+6com.facebook.widget.PlacePickerFragment.RadiusInMeters
+4com.facebook.widget.PlacePickerFragment.ResultsLimit
+2com.facebook.widget.PlacePickerFragment.SearchText
+5com.facebook.widget.PlacePickerFragment.ShowSearchBox
+&com.google.android.c2dm.intent.RECEIVE
+'com.google.android.c2dm.intent.REGISTER
++com.google.android.c2dm.intent.REGISTRATION
+)com.google.android.c2dm.intent.UNREGISTER
+com.google.android.gcm
+#com.google.android.gcm.intent.RETRY
+com.google.android.gms
+4com.google.android.gms.common.internal.IGmsCallbacks
+8com.google.android.gms.common.internal.IGmsServiceBroker
+-com.google.android.gms.dynamic.IObjectWrapper
++com.google.android.gms.extra.fileDescriptor
+.com.google.android.gms.games.VIEW_ACHIEVEMENTS
+5com.google.android.gms.games.internal.IGamesCallbacks
+3com.google.android.gms.games.internal.IGamesService
++com.google.android.gms.games.key.isHeadless
+*com.google.android.gms.games.service.START
+@com.google.android.gms.maps.model.internal.ITileProviderDelegate
+com.google.android.gsf
+com.mongodb
+com_facebook_blue
+com_facebook_button_blue
+ com_facebook_button_blue_focused
+com_facebook_button_blue_normal
+ com_facebook_button_blue_pressed
+com_facebook_button_check
+com_facebook_button_check_off
+com_facebook_button_check_on
+ com_facebook_button_grey_focused
+com_facebook_button_grey_normal
+ com_facebook_button_grey_pressed
+com_facebook_choose_friends
+com_facebook_close
+*com_facebook_dialogloginactivity_ok_button
+#com_facebook_friend_picker_fragment
+0com_facebook_friend_picker_fragment_multi_select
+!com_facebook_friendpickerfragment
+.com_facebook_internet_permission_error_message
+,com_facebook_internet_permission_error_title
+com_facebook_inverse_icon
+com_facebook_list_divider
++com_facebook_list_section_header_background
+com_facebook_loading
+"com_facebook_login_activity_layout
+(com_facebook_login_activity_progress_bar
+com_facebook_login_view
+&com_facebook_login_view_confirm_logout
+'com_facebook_login_view_fetch_user_info
+"com_facebook_login_view_login_text
+#com_facebook_login_view_logout_text
+com_facebook_loginbutton_silver
+$com_facebook_loginview_cancel_action
+0com_facebook_loginview_compound_drawable_padding
+$com_facebook_loginview_default_style
+$com_facebook_loginview_log_in_button
+%com_facebook_loginview_log_out_action
+%com_facebook_loginview_log_out_button
+#com_facebook_loginview_logged_in_as
+/com_facebook_loginview_logged_in_using_facebook
+%com_facebook_loginview_padding_bottom
+#com_facebook_loginview_padding_left
+$com_facebook_loginview_padding_right
+"com_facebook_loginview_padding_top
+#com_facebook_loginview_silver_style
+!com_facebook_loginview_text_color
+ com_facebook_loginview_text_size
+com_facebook_logo
+%com_facebook_logo_content_description
+com_facebook_nearby
+#com_facebook_picker_activity_circle
+'com_facebook_picker_activity_circle_row
+com_facebook_picker_checkbox
+!com_facebook_picker_checkbox_stub
++com_facebook_picker_default_separator_color
+com_facebook_picker_divider
+!com_facebook_picker_divider_width
+com_facebook_picker_done_button
+$com_facebook_picker_done_button_text
+com_facebook_picker_fragment
+3com_facebook_picker_fragment_done_button_background
+-com_facebook_picker_fragment_done_button_text
+)com_facebook_picker_fragment_extra_fields
+*com_facebook_picker_fragment_show_pictures
++com_facebook_picker_fragment_show_title_bar
+1com_facebook_picker_fragment_title_bar_background
+'com_facebook_picker_fragment_title_text
+com_facebook_picker_image
+#com_facebook_picker_item_background
+ com_facebook_picker_list_focused
+$com_facebook_picker_list_longpressed
+ com_facebook_picker_list_pressed
+com_facebook_picker_list_row
+'com_facebook_picker_list_section_header
+!com_facebook_picker_list_selector
+7com_facebook_picker_list_selector_background_transition
+*com_facebook_picker_list_selector_disabled
+com_facebook_picker_list_view
+com_facebook_picker_magnifier
+$com_facebook_picker_place_image_size
+$com_facebook_picker_profile_pic_stub
+'com_facebook_picker_row_activity_circle
+)com_facebook_picker_search_bar_background
+#com_facebook_picker_search_bar_text
+com_facebook_picker_search_box
+com_facebook_picker_search_text
+com_facebook_picker_title
+com_facebook_picker_title_bar
+"com_facebook_picker_title_bar_stub
+com_facebook_picker_top_bar
+com_facebook_picker_top_button
+com_facebook_place_default_icon
+"com_facebook_place_picker_fragment
+3com_facebook_place_picker_fragment_radius_in_meters
+0com_facebook_place_picker_fragment_results_limit
+.com_facebook_place_picker_fragment_search_text
+2com_facebook_place_picker_fragment_show_search_box
+6com_facebook_placepicker_subtitle_catetory_only_format
+(com_facebook_placepicker_subtitle_format
+7com_facebook_placepicker_subtitle_were_here_only_format
+ com_facebook_placepickerfragment
+)com_facebook_placepickerfragment_list_row
+!com_facebook_profile_default_icon
++com_facebook_profile_picture_blank_portrait
+)com_facebook_profile_picture_blank_square
+!com_facebook_profile_picture_view
+,com_facebook_profile_picture_view_is_cropped
+-com_facebook_profile_picture_view_preset_size
+1com_facebook_profilepictureview_preset_size_large
+2com_facebook_profilepictureview_preset_size_normal
+1com_facebook_profilepictureview_preset_size_small
+*com_facebook_requesterror_password_changed
+%com_facebook_requesterror_permissions
+#com_facebook_requesterror_reconnect
+!com_facebook_requesterror_relogin
+#com_facebook_requesterror_web_login
+com_facebook_search_bar_layout
+com_facebook_search_bar_view
+com_facebook_top_background
+com_facebook_top_button
+!com_facebook_usersettingsfragment
+5com_facebook_usersettingsfragment_background_gradient
+8com_facebook_usersettingsfragment_connected_shadow_color
+6com_facebook_usersettingsfragment_connected_text_color
+/com_facebook_usersettingsfragment_log_in_button
++com_facebook_usersettingsfragment_logged_in
+.com_facebook_usersettingsfragment_login_button
+,com_facebook_usersettingsfragment_logo_image
+:com_facebook_usersettingsfragment_not_connected_text_color
+/com_facebook_usersettingsfragment_not_logged_in
+.com_facebook_usersettingsfragment_profile_name
+8com_facebook_usersettingsfragment_profile_picture_height
+7com_facebook_usersettingsfragment_profile_picture_width
+combatEndedExplicitly
+command
+commandSize
+commit
+)common_google_play_services_enable_button
+'common_google_play_services_enable_text
+(common_google_play_services_enable_title
+*common_google_play_services_install_button
+.common_google_play_services_install_text_phone
+/common_google_play_services_install_text_tablet
+)common_google_play_services_install_title
+)common_google_play_services_unknown_issue
+,common_google_play_services_unsupported_text
+-common_google_play_services_unsupported_title
+)common_google_play_services_update_button
+'common_google_play_services_update_text
+(common_google_play_services_update_title
+common_signin_button_text
+common_signin_button_text_long
+compare
+compareGraphObjects
+	compareTo
+compile
+complete
+completeAndValidate
+completeBuilding
+completeBuildingUpgrade
+completeHeroUpgrade
+completeLabUpgrade
+completeWithFailure
+	completed
+completionHandler
+compress
+computeCurrentVelocity
+computeScroll
+computeScrollOffset
+config
+confirmLogout
+confirm_logout
+connect
+	connected
+connectedStateLabel
+connection
+connectionWeakReference
+connection_type
+connectivity
+const_t
+constructErrorResponses
+consume
+consumeContent
+consumeSpells
+contains
+containsAll
+containsKey
+containsNoNullOrEmpty
+containsNoNulls
+containsValue
+content/unknown
+content://
+7content://com.facebook.app.NativeAppCallContentProvider
+<content://com.facebook.katana.provider.AttributionIdProvider
+@content://com.facebook.katana.provider.PlatformProvider/versions
+contentFrameLayout
+contentSize
+contentUrl
+contents
+context
+continueAuth
+contributor
+controller
+conversion
+conversion_status
+*convertCamelCaseToLowercaseWithUnderscores
+convertJSONObjectToHashMap
+	cooldowns
+copyOf
+#could not construct URL for request
+ could not construct request body
+countActions
+countByData
+	countDown
+countSubstring
+counter
+country
+	coverInfo
+coverPhoto
+cpSlice
+cpTail
+cppBillingCreated
+cppBillingDestroyed
+create
+create table referrer_apps (_id integer primary key autoincrement, publisher_package_name text not null, tracking_id text, unique(publisher_package_name) on conflict replace);
+createAdapter
+createAlliance
+createBitmap
+createBooleanArray
+createByteArray
+createCancelOrErrorResult
+createCancelResult
+createChooser
+createClientConnectionManager
+createConnection
+createContext
+createCrossImage
+createDoubleArray
+createEmptyToken
+createErrorResult
+createFloatArray
+createForPost
+createFromActivity
+createFromBundle
+createFromCache
+createFromExistingAccessToken
+createFromJson
+createFromNativeLinkingIntent
+createFromNativeLogin
+createFromParcel
+createFromRefresh
+createFromString
+'createFromTokenWithRefreshedPermissions
+createFromUri
+createFromWebBundle
+createGameMain
+createGetPermissionsRequest
+createGetProfileIdRequest
+createGraphObjectProxy
+createGraphObjectProxyForMap
+createGraphObjectView
+ createGraphObjectsFromParameters
+createInstance
+createIntArray
+createList
+createLoadingStrategy
+createLoginDialog20121101Intent
+createLongArray
+	createNew
+createNewFile
+createNotification
+createPlatformActivityIntent
+createPlatformServiceIntent
+createProxyAuthIntent
+createReauthValidationBatch
+createRequest
+createResponseFromObject
+createResponsesFromObject
+createResponsesFromStream
+createResponsesFromString
+createScaledBitmap
+createSearchTextTimer
+createSelectionStrategy
+createSessionWithPrivateUser
+createSessionWithSharedUser
+createSocket
+createStringArray
+createStringArrayList
+createTempFile
+createTestAccountAndFinishAuth
+createTestSession
+createTokenRefreshIntent
+createTokenResult
+createTypedArray
+createTypedArrayList
+createWifiLock
+create_event
+creation_timestamp
+creative
+creator_external
+crossImageView
+currency
+currency cannot be null
+currentActivity
+currentHandler
+currentLocation
+currentRequest
+currentThread
+currentTimeMillis
+currentTokenRefreshRequest
+cursor
+custom_events_file
+customizedDefaultProfilePicture
+dataDir
+dataErrorsFatal
+dataNeededListener
+dataPosition
+dataSize
+dataSource
+dataToString
+dateCreated
+dateFormats
+dateModified
+datePublished
+"debug.engine.mobileapptracking.com
+debuggerException
+decoUids
+decode
+decodeByteArray
+decodeFileDescriptor
+decodeResource
+decodeStream
+	decodeUrl
+decrypt
+	deep-link
+	deep-text
+deepCopy
+defaultAudience
+defaultBatchApplicationId
+default_audience
+default_display_image_uri
+default_display_name
+defaults
+defenseLost
+defenseRange
+defenseWon
+defense_lost
+defense_won
+deinit
+delegate
+delete
+	deleteAll
+deleteDirectory
+deleteTestAccount
+deleted_messages
+deliver
+deliverRaidReport
+deliverResult
+density
+densityDpi
+department
+depends_on
+	deploySec
+describeContents
+describeLogin
+description
+deserializeKey
+desiredAssertionStatus
+destroy
+destroyContext
+destructInstance
+destruction
+destructionXp
+detach
+detach: 
+developerPayload
+developer_name
+device_type
+dialog
+dialog/
+dialogDismissed
+didCacheInterstitial
+didCacheMoreApps
+didClickInterstitial
+didClickMoreApps
+didCloseInterstitial
+didCloseMoreApps
+didDismissInterstitial
+didDismissMoreApps
+didFailToLoadInterstitial
+didFailToLoadMoreApps
+didShowInterstitial
+didShowMoreApps
+didSucceedWithData
+digest
+	directory
+disable
+disconnect
+disconnectQuietly
+dismiss
+dismissKeyboard
+dispatch
+dispatchDraw
+dispatchFreezeSelfOnly
+dispatchKeyEvent
+"dispatchPopulateAccessibilityEvent
+dispatchRestoreInstanceState
+dispatchSaveInstanceState
+dispatchThawSelfOnly
+dispatchTouchEvent
+display
+displayActivityCircle
+displayName
+displaySections
+display_name
+distance
+doFinal
+doInBackground
+donate please
+donated
+doneButton
+doneButtonBackground
+doneButtonText
+done_button_background
+done_button_text
+donors
+double
+doubleToLongBits
+doubleToRawLongBits
+doubleValue
+double[]
+download
+downloadAsync
+downloadProfilePicture
+downloadQueue
+drawARGB
+drawBitmap
+drawPath
+drawRect
+drawRoundRect
+drawableStateChanged
+	dummyClan
+dummyClanRows
+dummyClans
+dummyHeaders
+dummy_id
+dumpString
+duration
+eagerFlush
+eglChooseConfig
+eglCreateContext
+eglGetConfigAttrib
+eglGetError
+elapsedRealtime
+elixir
+elixir_cap
+elixir_pump
+elixir_storage
+emails
+embedUrl
+empty range
+empty-home
+	emptyList
+emptyMap
+enable
+enabled
+encode
+encodePostBody
+encodeToString
+	encodeUrl
+encodedPath
+encoded_events
+encrypt
+endDate
+endsWith
+enforceInterface
+engaged
+engine.mobileapptracking.com
+enqueueCacheRead
+enqueueDownload
+enqueueRequest
+ ensureAttachmentsDirectoryExists
+ensureDefaultAudience
+ensureDefaultPermissions
+ensureDelivery
+enterAnim=#
+entrySet
+	entryUids
+enumType
+equals
+equalsIgnoreCase
+eraseColor
+	errorCode
+errorMessage
+	errorType
+error_code
+error_description
+error_message
+	error_msg
+error_reason
+error_subcode
+error_type
+errorsProxyAuthDisabled
+errorsUserCanceled
+estimateDestruction
+event_count
+event_items
+event_referrer
+	exception
+excludeBufferFiles
+excludeNonBufferFiles
+exclusive_bit_mask
+execSQL
+execute
+executeAndWait
+executeAndWaitImpl
+executeAsync
+executeAsyncImpl
+executeBatchAndWait
+executeBatchAsync
+executeConnectionAndWait
+executeConnectionAsync
+executeGraphPathRequestAsync
+executeMeRequestAsync
+executeMyFriendsRequestAsync
+executeOnExecutor
+executeOnExecutorMethod
+executeOnSettingsExecutor
+executePlacesSearchRequestAsync
+executePostRequestAsync
+executeRestRequestAsync
+executeStatusUpdateRequestAsync
+executeUploadPhotoRequestAsync
+executor
+exists
+existsKeyValue
+experience
+expires
+expires_in
+extendAccessToken
+extendAccessTokenIfNeeded
+extendTokenCompleted
+external_game_id
+external_invitation_id
+external_match_id
+external_participant_id
+external_player_id
+extraFields
+extra_fields
+facebook.com
+facebookDomain
+facebookFriends
+facebookLogged
+facebookLogout
+facebookReceivedAppRequest
+facebookSentAppRequst
+facebookUserInfo
+facebookWeakReference
+failingUrl
+fakeTokenRefreshAttempt
+familyName
+farLeft
+farRight
+farming gold right now
+fb_content_id
+fb_content_type
+fb_currency
+fb_description
+fb_dialog_outcome
+'fb_dialogs_native_login_dialog_complete
+$fb_dialogs_native_login_dialog_start
+$fb_dialogs_web_login_dialog_complete
+fb_friend_picker_usage
+fb_level
+fb_log_offsite_pixel
+fb_login_view_usage
+fb_max_rating_value
+fb_mobile_achievement_unlocked
+fb_mobile_activate_app
+fb_mobile_add_payment_info
+fb_mobile_add_to_cart
+fb_mobile_add_to_wishlist
+fb_mobile_complete_registration
+fb_mobile_content_view
+fb_mobile_initiated_checkout
+fb_mobile_level_achieved
+fb_mobile_login_complete
+fb_mobile_login_method_complete
+fb_mobile_login_method_start
+fb_mobile_login_start
+fb_mobile_purchase
+fb_mobile_rate
+fb_mobile_search
+fb_mobile_spent_credits
+fb_mobile_tutorial_completion
+$fb_native_login_dialog_complete_time
+!fb_native_login_dialog_start_time
+fb_num_items
+fb_offsite_pixel_id
+fb_offsite_pixel_value
+fb_payment_info_available
+fb_place_picker_usage
+fb_registration_method
+fb_search_string
+fb_success
+fb_user_settings_vc_usage
+fb_web_login_e2e
+fb_web_login_switchback_time
+	fbcdn.net
+	fbconnect
+fbconnect://cancel
+fbconnect://success
+fbsdk:20130708
+fbsdk:create_object
+featured
+featured_image_uri
+female
+fetchDeferredAppLinkData
+fetchUserInfo
+fetch_user_info
+fetchedAppSettings
+&fhsd6f86f67rt8fw78fw789we78r9789wer6re
+fields
+file:///android_asset/
+file:///android_res/
+	fileCount
+fileDescriptor
+fillInStackTrace
+filter
+filterExcludeBufferFiles
+filterExcludeNonBufferFiles
+filterIncludesItem
+filterKeep
+	findByUid
+	findFocus
+findFragmentByTag
+findNextFocus
+findOrCreateSharedTestAccount
+findPointerIndex
+!findTestAccountMatchingIdentifier
+findViewById
+fingerprint.json
+finish
+finishAuthOrReauth
+finishAuthWithTestAccount
+finishAuthorization
+finishInit
+finishItemAndStartNew
+finishReauthorization
+finishShortestWorkerTask
+finishTransaction
+firstKey
+firstWrite
+fixedNow
+flattenChildrenOfGraphObject
+flattenObject
+#fldsjfodasjifudslfjdsaofshaufihadsf
+	floatRepr
+floatToIntBits
+float[]
+flushAndWait
+flushBehavior
+flushIfNecessary
+flushTimer
+flying
+fmodGetInfo
+fmodProcess
+fmodex
+followNextLink
+forName
+forNative_signIn
+forNative_signOut
+forceExtendAccessToken
+	forceLoad
+forceRoundTrip
+format
+	formatted
+fragment
+frame-landscape
+frame-portrait
+freeWorker
+freezeLeft
+friends
+	fromCache
+fromDirectory
+fromHttpConnection
+	fromParts
+fromSource
+fromString
+fulfillRequest
+fullScroll
+function
+game_description
+game_hi_res_image_uri
+game_icon_image_uri
+gameplay_acl_status
+gas push trophy
+gender
+generateCallId
+generateCertificate
+generateDefaultLayoutParams
+generateEnemy
+generateLayoutParams
+generic
+genrand
+getAbsolutePath
+getAcceptedIssuers
+getAccessExpires
+getAccessToken
+getAccumulatedEventCount
+	getAction
+getActionIndex
+getActionMasked
+getActiveNetworkInfo
+getActiveSession
+getActivity
+getActivityCircleView
+getActivityContext
+getActualTypeArguments
+getAdapter
+getAddress
+getAdvertiserId
+getAge
+getAll
+getAllowedScreenRotations
+getAltitude
+getAndIncrement
+getAndroidID
+getAndroidId
+getAndroidIdMd5
+getAndroidIdSha1
+getAndroidIdSha256
+getAnnotation
+getAppAccessToken
+getAppEventsLogger
+getAppID
+getAppId
+getAppName
+getAppSignature
+getAppVersion
+getApplication
+getApplicationContext
+getApplicationId
+getApplicationInfo
+getApplicationLabel
+getApplicationWindowToken
+getArguments
+getAsInt
+	getAssets
+getAsyncTaskExecutor
+getAttachmentFile
+getAttachmentStore
+getAttachmentUrl
+getAttachmentsDirectory
+getAttachmentsDirectoryForCall
+getAttributeValue
+getAttributes
+getAttributionId
+getAudio
+	getAuthId
+getAuthorizationBundle
+getAuthorizationClientRequest
+getBackground
+getBackgroundProcessingListener
+getBatchAppId
+getBatchApplicationId
+getBatchEntryDependsOn
+getBatchEntryName
+ getBatchEntryOmitResultOnSuccess
+getBatchRequestResult
+getBirthday
+	getBitmap
+getBlockSize
+getBoolean
+getBooleanExtra
+	getBottom
+	getBounds
+getBroadcast
+	getBundle
+getBundleLongAsDate
+	getByName
+getByteArray
+getByteCount
+getBytes
+getCache
+getCacheDir
+getCacheKeyOverride
+getCachedImageStream
+	getCallId
+getCallback
+getCallbackHandler
+getCallbacks
+getCallerTag
+getCallingPackage
+getCanonicalFile
+getCanonicalName
+getCarrier
+getCategories
+getCategory
+getChangingConfigurations
+getChartboost
+getChildAt
+getChildCount
+getCity
+getClass
+getClassLoader
+getColor
+getColumnIndex
+getComments
+getCompoundDrawables
+getCompoundDrawablesRelative
+getConfiguration
+getConnection
+getConnectionInfo
+getConnectionManager
+getConnectionType
+getConstantState
+getConstructor
+getContantForFocusDirection
+getContent
+getContentResolver
+getContents
+getContext
+	getCookie
+getCount
+getCountry
+getCountryCode
+getCreateObject
+getCreatedTime
+getCurrX
+getCurrY
+getCurrencyCode
+getCurrentFocus
+getCurrentItem
+	getCursor
+getData
+getDataNeededListener
+getDate
+getDeclaringClass
+getDecorView
+getDefault
+getDefaultAudience
+getDefaultBatchApplicationId
+getDefaultDisplay
+getDefaultDoneButtonText
+getDefaultPicture
+getDefaultSize
+getDefaultTitleText
+getDefaultType
+getDefaultUserAgent
+getDelegate
+getDepthBits
+getDescendantFocusability
+getDescription
+getDeterminer
+getDeviceBrand
+getDeviceId
+getDeviceModel
+getDeviceType
+getDialogAuthority
+getDimension
+getDimensionPixelSize
+getDisplay
+getDisplayId
+getDisplayLanguage
+getDisplayMetrics
+getDoneButtonText
+	getDouble
+getDrawable
+getDrawableState
+getDuration
+getE2E
+getEdgeFlags
+getEditableText
+getEndTime
+	getEntity
+getError
+getErrorCode
+getErrorFromResult
+getErrorMessage
+getErrorStream
+getErrorType
+getEventId
+getEventName
+getEventReferrer
+	getEvents
+getEventsToPersist
+getException
+getExecutor
+getExpirationDate
+getExpirationMilliseconds
+getExpires
+getExpiresTime
+getExternalFilesDir
+getExternalStorageState
+getExtraFields
+	getExtras
+getFacebookDomain
+getFactory
+getFailingUrl
+getField
+getFile
+getFileCount
+getFileDescriptor
+getFileStreamPath
+getFilesDir
+	getFilter
+	getFinalX
+getFinished
+getFirstName
+getFirstVisiblePosition
+getFlags
+getFlushBehavior
+getForceRoundTrip
+getForcedOrientationDifference
+getFqlResultSet
+getFragmentManager
+getFrameDelay
+getFrom
+getGameDataKey
+	getGender
+getGenericReturnType
+getGraphObject
+getGraphObjectAs
+getGraphObjectList
+getGraphObjectListAs
+getGraphObjectRowLayoutId
+getGraphObjectView
+getGraphObjectsById
+getGraphPath
+getGraphUrlBase
+getGroupByField
+getHandler
+getHandlerTypes
+getHeaderField
+	getHeight
+getHost
+getHostAddress
+getHostname
+getHttpMethod
+getHttpSocketFactory
+getIMEI
+getIdOfGraphObject
+getImage
+getImageAttachmentNames
+getImageMatrix
+getImageRequest
+getImageUri
+getImpressionsUseActivities
+getInProgress
+getInnerJSONArray
+getInnerJSONObject
+getInputStream
+getInstallDate
+getInstallLogId
+getInstance
+getInt
+getIntExtra
+getInteger
+	getIntent
+getIntentSender
+getInterfaceDescriptor
+getInterfaces
+getInterpolation
+getIntrinsicHeight
+getIntrinsicWidth
+getInvocationHandler
+getIsFromCache
+getIsImplicit
+getIsScraped
+getItem
+getItemAtPosition
+	getItemId
+getItemViewType
+getJSONArray
+getJSONObject
+getKey
+getKeyCode
+getKeyValue
+getLanguage
+getLastAccessUpdate
+getLastAttemptedTokenExtendDate
+getLastName
+getLastNonConfigurationInstance
+getLastRefresh
+getLastRefreshDate
+getLastRefreshMilliseconds
+getLastVisiblePosition
+!getLatestAvailableProtocolVersion
+getLatitude
+getLayoutInflater
+getLayoutParams
+getLeastSignificantBits
+getLeft
+	getLength
+getLevel
+getLikes
+getLimitEventUsage
+getLink
+getListener
+getLoaderManager
+getLocalizedMessage
+getLocation
+getLocationInWindow
+	getLogger
+getLoggingBehaviors
+getLoggingValue
+getLoginActivityIntent
+getLoginBehavior
+getLong
+getLongitude
+	getLooper
+getMCC
+getMNC
+getMacAddress
+getMainLooper
+getMargins
+getMatId
+	getMatrix
+getMeasuredHeight
+getMeasuredWidth
+getMenuInflater
+getMessage
+getMetaState
+getMetadataApplicationId
+	getMethod
+getMethods
+getMetrics
+getMiddleName
+getMigrationBundle
+getMimeContentType
+getMimeType
+getMinBufferSize
+getMinVersion
+getMinVersionForFeatures
+getMode
+getModified
+getModifiers
+getMostSignificantBits
+getMultiSelect
+getName
+getNameForLogging
+ getNativeDialogCompletionGesture
+getNativeDialogDidComplete
+getNativeDialogPostId
+getNativeProtocolAudience
+getNetworkCountryIso
+getNetworkInfo
+getNetworkInterfaces
+getNetworkOperator
+getNetworkOperatorName
+getNext
+getNotification
+getNumRows
+getOffscreenPageLimit
+getOnCompleteListener
+getOnCompletedListener
+getOnDataChangedListener
+getOnDoneButtonClickedListener
+getOnErrorListener
+getOnPresentCallback
+getOnSelectionChangedListener
+getOpacity
+getOpenSession
+getOpenUDID
+getOsId
+getOsVersion
+getOutputStream
+getOverScrollMode
+getOwnerType
+getPackageInfo
+getPackageManager
+getPackageName
+getPaddingBottom
+getPaddingLeft
+getPaddingRight
+getPaddingTop
+getPageMargin
+	getPaging
+getPaint
+getParameterTypes
+getParameters
+	getParams
+getParcelable
+	getParent
+getParentFile
+getPath
+getPermissions
+getPermissionsString
+getPictureFieldSpecifier
+getPictureUriOfGraphObject
+getPlace
+getPlayerDisplayName
+getPlayerId
+getPointerCount
+getPointerId
+getPort
+getPosition
+getPositionDescription
+getPositionForSection
+getPostActionId
+getPreferredLanguage
+getPresetSize
+getPresetSizeInPixels
+getPrevious
+getPreviousAccessToken
+getPriority
+getProductDetails
+getProfileId
+getProfilePictureUrl
+getProperties
+getProperty
+getPropertyAs
+getPropertyAsList
+!getProtocolVersionForNativeDialog
+getPublishTime
+getQuery
+getRadiusInMeters
+getRawType
+getRawX
+getRawY
+getRedirectedUri
+getRef
+getRefId
+getReferrer
+getRemoteSocketAddress
+getRenderMode
+getRepeatCount
+getRequest
+getRequestCode
+getRequestError
+getRequestForLoadData
+getRequestForPagedResults
+getRequestIntent
+getRequestMethod
+getRequestProperty
+getRequestResult
+getRequestResultBody
+getRequestStatusCode
+getRequestedOrientation
+getRequests
+getResourceId
+getResources
+getResponseCache
+getResponseCode
+getRestMethod
+getRestUrlBase
+getResultsLimit
+getRetainInstance
+getReturnType
+getRevenue
+getRight
+getRotation
+getRowBytes
+getRuntime
+getRuntimeMXBean
+	getScheme
+getSchemeRegistry
+getScreenDensity
+getScreenSize
+getScrollX
+getScrollY
+getSdkVersion
+getSearchText
+getSectionAndItem
+getSectionForPosition
+getSectionHeaderView
+getSectionKeyOfGraphObject
+getSections
+getSeeAlso
+getSelectedGraphObjects
+getSelectedIds
+getSelection
+getSerializable
+getSerializableExtra
+getSession
+getSessionEventsState
+getSessionPermissions
+getSessionState
+getSessionStatusCallback
+getSettings
+getSharedPreferences
+getSharedTestAccountIdentifier
+getShouldAutoPublishInstall
+getShowCheckbox
+getShowPicture
+getShowPictures
+getShowTitleBar
+getSimCountryIso
+getSimpleName
+	getSiteId
+getSiteName
+getSize
+getSocketFactory
+getSortFields
+	getSource
+getSparseParcelableArray
+getStartActivityDelegate
+getStartTime
+getState
+getStaticContext
+getStatusCode
+getStatusLine
+	getStreet
+	getString
+getStringArrayList
+getStringArrayListExtra
+getStringAsByteArray
+getStringExtra
+getStringPropertyAsJSON
+getStyleAttribute
+getSubErrorCode
+getSubTitleOfGraphObject
+getSubjectX500Principal
+getSuperState
+getSuperclass
+getSurfaceFormat
+getSystemService
+getSystemVersion
+getTRUSTeId
+getTag
+getTags
+getTargetFragment
+getTargetRequestCode
+getTargetUri
+getTestApplicationId
+getTestApplicationSecret
+getTestUserId
+getText
+getTheme
+	getThread
+getTime
+getTimeZone
+getTimeout
+getTitle
+getTitleOfGraphObject
+getTitleText
+getToken
+getTokenCache
+getTokenClient
+getTokenCompleted
+getTokenInfo
+getTop
+getTotalMemory
+getType
+getURL
+getUid
+getUnderlyingJSONObject
+getUpdateLogId
+getUpdatedTime
+getUrl
+getUrlForBatchedRequest
+getUrlForSingleRequest
+getUserActionMessageId
+getUserAgent
+getUserAgentString
+	getUserId
+getUserInfoChangedCallback
+getUserVisibleHint
+getUsername
+getValidateSameFbidAsToken
+getValue
+getVideo
+getView
+getViewTreeObserver
+getViewTypeCount
+getVisibility
+getWasAskedToExtendAccessToken
+getWidth
+	getWindow
+getWindowManager
+getWindowToken
+getWindowVisibility
+getWindowVisibleDisplayFrame
+getWritableDatabase
+getXVelocity
+getXfermode
+getZip
+	get_token
+getrandbits
+	givenName
+glFinish
+gms_unknown
+gold_cap
+	gold_mine
+gold_storage
+	good luck
+good luck!
+gracias
+grants
+graphObject
+graphObjectClass
+graphObjectList
+graphObjects
+graphObjectsById
+graphObjectsBySection
+	graphPath
+gravity
+	great job
+groupByField
+guter angriff
+hallo zusammen
+halo semua
+handleActivityResult
+handleAllianceRanking
+handleAskAllianceData
+handleAskAllianceStream
+handleAttackNpc
+handleAuthorizationResult
+handleAvatarProfile
+handleAvatarRanking
+handleAvatarRankingLocal
+handleBuild
+handleCanPresent
+handleChangeHomeName
+handleClanChat
+handleCreateAlliance
+handleEndTurn
+handleError
+"handleFacebookDialogActivityResult
+handleGlobalChat
+handleGoHome
+handleJoinAlliance
+handleJoinableAlliances
+handleKeepAlive
+handleLeaveAlliance
+handleLogin
+handleMessage
+%handleRegistration: registrationId = 
+handleResponse
+handleResultOk
+handleSearchAlliances
+handleTroopRequest
+handleVisitHome
+handler
+handlersToTry
+hasAllianceOverride
+hasCachedInterstitial
+hasCachedMoreApps
+hasClassBeenVerified
+hasExtra
+hasFinishedBuilding
+hasFocus
+hasMessages
+hasMoreElements
+hasNext
+hasOverlap
+	hasSameId
+"hasSearchTextChangedSinceLastQuery
+hasStableIds
+hasTokenInformation
+hasValue
+hasVisibleItems
+hasWorkerSlot
+has_automatch_criteria
+hashCode
+heF9BATUfWuISyO8
+header-center
+header-tile
+headerEncrypted
+headers
+height
+heightPixels
+hej allihop
+hello :)
+herkese kolay gelsin
+heroDamageFraction
+heroHealth
+heroHealthSlots
+heroLevelAll
+heroLevels
+heroRef
+heroStateSlots
+heroStates
+hero_health
+hero_levels
+hero_states
+hero_upg
+heroes
+heroesPlaced
+hexToBytes
+hexdump
+hey guys
+hide: 
+hideActivityCircle
+hideKeyboard
+hideSoftInputFromWindow
+hola a todos
+	homeEntry
+homeInBounds
+homeJson
+honorificPrefix
+honorificSuffix
+http.agent
+http.protocol.expect-continue
+http://
+http://market.android.com/
+http://plus.google.com/
+httpMethod
+https://
+https://.facebook.com
+https://api.%s/method
+'https://api.facebook.com/restserver.php
+https://discord.gg/2dHDk36YBk
+Chttps://engine.mobileapptracking.com/serve?action=click&sdk=android
+Yhttps://engine.mobileapptracking.com/v1/Integrations/Sdk/GetLog?sdk=android&package_name=
+https://facebook.com
+https://graph.%s
+https://graph.facebook.com/
+%https://graph.facebook.com/%s/picture
+https://ko-fi.com/nara_archive
+https://m.facebook.com/dialog/
+https://saweria.co/naraarchieve
+https://t.me/+SptgKXM7uqA4OTA1
+https://www.chartboost.com
+%https://www.googleapis.com/auth/games
+0https://www.googleapis.com/auth/games.firstparty
+iap_data
+iap_signature
+;id,name,picture,first_name,gender,locale,username,installed
+;id,name,picture,first_name,gender,username,locale,installed
+idGenerator
+identity
+identityHashCode
+	image/png
+imageAttachments
+imageCache
+imageContents
+imageUri
+imageUrl
+in the middle of something
+inAlbum
+inDither
+inFlightEvents
+inInputShareable
+inJustDecodeBounds
+inPurgeable
+inSampleSize
+inTempStorage
+in_a_relationship
+in_civil_union
+in_domestic_partnership
+includeItem
+incrementAndGet
+indexOf
+inflate
+inflateTitleBar
+inflater
+initByArray
+initGenrand
+initLoader in 
+	initState
+initialValue
+initialize
+&initializeActiveSessionWithCachedToken
+initializeStaticContext
+initializeTimersIfNeeded
+innerStream
+inputKeyboardDismissed
+inputOkPressed
+inputTextChanged
+input_method
+insert
+install
+	installed
+instantiate
+intValue
+intent
+interceptAndCacheImageStream
+interceptAndPut
+	interrupt
+invalid ObjectId [
+invalid latitude: 
+invalid longitude: 
+invalid object id: 
+invalid radius: 
+)invalid state: expected a single response
+invalidate
+invalidateDrawable
+invalidateOptionsMenu
+invalidateSelf
+invert
+invoke
+isAbandoned
+isAdded
+isAfterLast
+isAlive
+isAnnotationPresent
+isArray
+isAsciiDigit
+isAssignableFrom
+isAvailable
+isBeforeFirst
+isCDNURL
+isCachedRedirect
+isCachedRedirectAllowed
+isCancelled
+isClosed
+isConnected
+isConnectedOrConnecting
+	isCropped
+isDataPresentOrLoading
+	isDefense
+isDefenseId
+isDetached
+isDialogVisible
+isDigit
+isDigits
+isDirectory
+isEmpty
+	isEnabled
+isErrorResult
+isFile
+isFinished
+isFinishing
+isFirst
+isFocusable
+isFocusableInTouchMode
+isFromCache
+isGraphObjectSelected
+isHealer
+isHeld
+isHidden
+&isIdentityTrackingDisabledOnThisDevice
+isImplicit
+isInBackStack
+isInEditMode
+isInLayout
+isInTouchMode
+isInfinite
+isInitialized
+isInterface
+	isInvalid
+isLandscape
+isLast
+isLegacy
+isLetter
+	isLoading
+isLoggable
+isLoggingBehaviorEnabled
+isMemberClass
+isNull
+isNullOrEmpty
+isNumber
+isOpened
+isPlusUser
+isPortrait
+isPrimitive
+isPrintable
+isProducerId
+isPublishPermission
+isRecycled
+isRemoving
+isReset
+isResource
+	isResumed
+	isReverse
+	isRunning
+isSelected
+isServiceDisabledResult20121101
+isSessionOpen
+isSessionValid
+	isShowing
+isSignedIn
+isSpace
+isSpaceChar
+isSpell
+	isStarted
+isStateful
+isStatic
+isSubset
+isSupportedAttachmentType
+isSupportedParameterType
+isTownHall
+isTracking
+isTrackingActiveSession
+isTrimPending
+isValidForSession
+	isVisible
+isWaitingForTransaction
+isWhitespace
+is_cropped
+	is_legacy
+issueResponse
+itemCost
+itemResource
+	itemSpace
+itemTime
+itemType
+itemname
+iterator
+its_complicated
+iyi oyunlar
+jniAppRequestDialog
+jniAuthorize
+jniCheckAppRequests
+jniDeleteAppRequest
+jniDestroy
+jniIsLogged
+	jniLogout
+jniRequestFriends
+jniRequestUserInfo
+jniSetAppId
+joinDummyAlliance
+json can't serialize type : 
+jsonObject
+jsonObjectClear
+jsonObjectContainsValue
+jsonObjectEntrySet
+jsonObjectKeySet
+jsonObjectPutAll
+jsonObjectValues
+jsonString
+just got 3 stars
+katana_login_dialog
+katana_proxy_auth
+key == null || value == null
+keySet
+killProcess
+klan ariyorum
+labelRes
+lagi farming nih
+	landscape
+language
+&lastAccessUpdateMillisecondsAfterEpoch
+lastAttemptedTokenExtendDate
+lastClearCacheTime
+lastIndexOf
+lastLogIdDate
+lastModified
+lastNpc
+lastOpenDate
+lastRefresh
+lastRequest
+last_updated
+lat/lng: (
+latLngBounds
+latest-sdk-version
+latitude
+layout
+layoutActivityCircle
+layoutJson
+leader
+leaderboard_count
+league
+	leagueFor
+leaveAlliance
+	leftFloat
+leftImageOffset
+leftMargin
+	leftValue
+length
+level 
+level files found: 
+level/
+levelDir
+levelValue
+limitEventUsage
+limits
+lineTo
+	listFiles
+listView
+listener
+listenerCalled
+loadAmmo
+loadAnimation
+	loadClass
+loadCookieToken
+loadData
+!loadDataSkippingRoundTripIfCached
+loadDataWithBaseURL
+	loadLevel
+loadLibrary
+	loadState
+loadUrl
+loader
+loading
+loadingStrategy
+localNotifications
+localPrefs
+locale
+location
+locked
+logAppEvents
+logAuthorizationComplete
+logAuthorizationMethodComplete
+logAuthorizationMethodStart
+logAuthorizationStart
+logConversionPixel
+logDebuggerException
+logEvent
+logPurchase
+logSdkEvent
+	logString
+logWebLoginCompleted
+log_action
+log_id
+loggedIn
+logger
+loggingBehaviors
+loggingExtras
+loggingValue
+logging_in
+login parse failed: 
+login-only
+loginBehavior
+loginButton
+loginButtonProperties
+loginDialog
+loginLogoutEventName
+	loginText
+login_behavior
+login_text
+logout
+logoutImpl
+logoutText
+logout_text
+	longValue
+long[]
+	longitude
+looking for a clan
+	lootSlots
+mAbandoned
+	mActivity
+mActivity=
+mAdded
+mAdded=
+mAnimatingAway
+mAnimatingAway=
+mAppId
+mApplicationContext
+mApplicationId
+mArguments
+mArguments=
+mAvailBackStackIndices: 
+mBackStackNesting
+mBreadCrumbShortTitleRes=#
+mBreadCrumbTitleRes=#
+mCallbacks=
+mCalled
+mCheckedForLoaderManager
+mContainer
+mContainer=
+mContainerId
+mContentChanged
+mContext
+	mCreated=
+mData=
+mDeferStart
+	mDetached
+mEnterAnim=#
+mErrorCode
+mErrorType
+mFailingUrl
+mFragmentId
+mFragmentId=#
+mFragmentManager
+mFragmentManager=
+mFromLayout
+mHasMenu
+mHaveData=
+mHidden
+mHidden=
+	mInLayout
+mIndex
+mInnerView
+mInnerView=
+	mListener
+mLoader=
+mLoaderManager
+mLoadersStarted
+mLoadersStarted=
+mMenuVisible
+mName=
+	mNextAnim
+mNextAnim=
+mPopEnterAnim=#
+	mRemoving
+mReset
+	mRestored
+mResumed
+	mResumed=
+mRetainInstance
+mRetainInstance=
+mRetaining
+mRetaining=
+mSavedFragmentState
+mSavedFragmentState=
+mSavedViewState
+mSavedViewState=
+mStarted
+	mStarted=
+mState
+mState=
+mStateAfterAnimating
+mStateAfterAnimating=
+mTarget
+mTarget=
+mTargetIndex
+mTargetRequestCode
+mTransition=#
+mUserVisibleHint
+mView=
+machine : 
+machine piece post: 
+mailto:
+makeCipher
+makeMeasureSpec
+manage
+mantap
+	mapPoints
+mapRect
+markSupported
+	market://
+market://details
+market://details?id=
+/market://play.google.com/store/apps/details?id=
+married
+mat_app_version
+mat_fb_intent
+mat_id
+mat_install
+mat_last_log_id
+mat_last_open
+mat_log_id_install
+mat_log_id_update
+	mat_queue
+mat_referrer
+matchLevel
+matcher
+matches
+maxConcurrent
+	maxMemory
+max_automatch_players
+	maybeRaid
+md5hash
+me/feed
+me/friends
+me/objects/%s
+me/permissions
+	me/photos
+me/staging_resources
+	me/videos
+measure
+measureChildren
+	memberRow
+memberRows
+members
+message
+messageReceiver
+messageSender
+message_type
+metaData
+metaStateHasModifiers
+metaStateHasNoModifiers
+method
+method/
+methodLoggingExtras
+method_args
+middleName
+migration_bundle
+migration_overrides
+mimeType
+minVersion
+min_automatch_players
+mirrorStdout
+missionRewards
+mission_rewards
+missions
+mkdirs
+mobile
+mobileAppTrackerStart
+mobile_country_code
+mobile_network_code
+modified
+moreObjectsAvailable
+	more_type
+mounted
+moveBuilding
+moveBuildingByUid
+moveDeco
+moveTarget
+moveTo
+moveToFirst
+moveToFront
+moveToLast
+moveToNext
+moveToPosition
+moveToPrevious
+moveTrap
+movefrom ACTIVITY_CREATED: 
+movefrom CREATED: 
+movefrom RESUMED: 
+movefrom STARTED: 
+movefrom STOPPED: 
+moveto ACTIVITY_CREATED: 
+moveto CREATED: 
+moveto RESUMED: 
+moveto STARTED: 
+multiSelect
+multi_select
+ multipart/form-data; boundary=%s
+multipart/form-data;boundary=
+mutate
+myLooper
+nanoTime
+nara coc server listening on 
+nara_coc_capture.log
+nara_server.log
+nara_state.json
+native
+nativeDialogDismissAll
+nativeProtocolAudience
+nearLeft
+	nearRight
+need donations
+need troops
+needsInternetPermission
+needsNewTokenValidation
+needsRestart
+newArray
+newAuthorizationLoggingBundle
+newCachedThreadPool
+$newCustomAudienceThirdPartyIdRequest
+newDeleteObjectRequest
+newDrawable
+newFile
+newGraphPathRequest
+newInstance
+	newLogger
+newMeRequest
+newMyFriendsRequest
+newPlacesSearchRequest
+newPostOpenGraphObjectRequest
+newPostRequest
+newProxyInstance
+newRestRequest
+newScheduledThreadPool
+newShopBuildings
+newShopDecos
+newShopTraps
+ newSingleThreadScheduledExecutor
+newStatusUpdateRequest
+	newThread
+newUpdateOpenGraphObjectRequest
+newUploadPhotoRequest
+(newUploadStagingResourceWithImageRequest
+newUploadVideoRequest
+newWakeLock
+new_permissions
+nextElement
+nextInt
+nextLong
+nextPos
+nextPosAfterString
+nextRequest
+nextUid
+	nextValue
+next_id
+	nice base
+nickname
+no_internet_permission
+normal
+	northeast
+not serializable: 
+notEmpty
+notEmptyAndContainsNoNulls
+notNull
+notNullOrEmpty
+	not_tried
+notification
+notify
+	notifyAll
+notifyBackgroundProcessingStart
+notifyBackgroundProcessingStop
+notifyChange
+notifyDataSetChanged
+notifyDeveloperError
+notifyOnCompleteListener
+npcFile
+npcJson
+null camera target
+null northeast
+null reference
+null southwest
+	numEvents
+numSkippedEventsDueToFullBuffer
+num_friends_picked
+num_places_picked
+num_skipped
+num_skipped_events
+number
+numberOfLeadingZeros
+object
+objectProperty
+objectType
+obrigado
+obstacle
+obstacleClearCounter
+obstacleUids
+	obstacles
+obtain
+obtainMessage
+obtainStyledAttributes
+offset
+offsetByCodePoints
+offsetLeftAndRight
+oi pessoal
+omit_response_on_success
+	onAbandon
+onActivityCreated
+onActivityResult
+onAnimationEnd
+onAnimationRepeat
+onAnimationStart
+onAttach
+onAttachedToWindow
+onAuthClientCompleted
+onBackPressed
+onBackgroundProcessingStarted
+onBackgroundProcessingStopped
+onBatchCompleted
+onBind
+onBoundsChange
+onCancel
+	onChanged
+onClick
+onClose
+onComplete
+onCompleteListener
+onCompleted
+onCompletedListener
+onConfigurationChanged
+onConnected
+onConnectionFailed
+onContentChanged
+onContextItemSelected
+onContextStop
+onCreate
+onCreateAnimation
+onCreateContextMenu
+onCreateDialog
+onCreateLoader
+onCreateOptionsMenu
+onCreatePanelMenu
+onCreateView
+onCreateView: id=0x
+onDataChanged
+onDataChangedListener
+onDataNeeded
+onDeferredAppLinkDataFetched
+	onDestroy
+onDestroyOptionsMenu
+onDestroyView
+onDetach
+onDetachedFromWindow
+onDisconnected
+	onDismiss
+onDoneButtonClicked
+onDoneButtonClickedListener
+onDraw
+onDrawFrame
+onEditorAction
+onError
+onErrorListener
+onFacebookError
+onFileNotFoundException
+onFinishInflate
+onForceLoad
+onGlobalLayout
+onHandleIntent
+onHiddenChanged
+onIOException
+	onInflate
+onInterceptTouchEvent
+onInvalidated
+onItemClick
+	onKeyDown
+onKeyUp
+onLayout
+onListItemClick
+onLoadComplete: 
+onLoadFinished
+onLoadReset
+onLoaderReset
+onLoadingData
+onLongClick
+onLowMemory
+onMalformedURLException
+	onMeasure
+onMenuItemSelected
+onNewIntent
+onOptionsItemSelected
+onOptionsMenuClosed
+onOrientationChanged
+onPageFinished
+5onPageScrolled did not call superclass implementation
+onPageStarted
+onPanelClosed
+onPause
+onPostExecute
+7onPostExecute: exception encountered during request: %s
+KonPostInitComplete can be called only once per call to getServiceFromBroker
+onPostResume
+onPreExecute
+onPrepareOptionsMenu
+onPreparePanel
+	onPresent
+onPresentCallback
+onPull
+	onReceive
+onReceive: 
+onReceiveResult
+onReceivedError
+onReceivedSslError
+	onRelease
+onRequestFocusInDescendants
+onReset
+	onRestart
+onRestoreInstanceState
+onResume
+ onRetainNonConfigurationInstance
+onSaveInstanceState
+onScroll
+onScrollListener
+onScrollStateChanged
+onSearchBoxTextChanged
+onSearchTextTimerTriggered
+onSelectionChanged
+onSelectionChangedListener
+onServiceConnected
+onServiceDisconnected
+onSessionCallback
+onSessionStateChange
+onSignIn
+onSignInCanceled
+onSignInFailed
+	onSignOut
+onSignOutComplete
+onSizeChanged
+onStart
+onStartLoading
+onStateChange
+onStop
+onStopLoading
+onSurfaceChanged
+onSurfaceCreated
+onTextChanged
+onTouch
+onTouchEvent
+onTransact
+	onUpgrade
+onUserInfoFetched
+onViewAttachedToWindow
+onViewCreated
+onViewDetachedFromWindow
+onWebDialogComplete
+onWindowFocusChanged
+onWindowVisibilityChanged
+openActiveSession
+openActiveSessionFromCache
+ openActiveSessionWithAccessToken
+openAttachment
+openConnection
+openFile
+openFileInput
+openFileOutput
+openForPublish
+openForRead
+openMarketURL
+openPutStream
+5openRequest cannot be null when opening a new Session
+openSession
+openSessionForPublish
+openSessionForRead
+openURL
+openUrl
+open_relationship
+openudid
+openudid_prefs
+optBoolean
+optInt
+optJSONArray
+optJSONObject
+	optString
+options
+orderId
+ordinal
+org.OpenUDID.GETUDID
+org.bson.BSON
+org.bson.ObjectId
+organizations
+orientation
+originalRequest
+otherProfile
+out is null
+output
+outputStream
+overriddenURL
+packHeader
+package
+packageName
+packageNameForAuth
+package_name
+package_name=
+paramFullscreen
+paramNoMemoryCache
+parameterToString
+parameters
+params
+parentFragment
+parseAttributes
+parseCallIdAndAttachmentName
+parseDouble
+parseInt
+	parseJson
+	parseLong
+parseUrl
+partOfTVSeries
+pattern
+payload
+pendingAuthorizationActivity
+pendingAuthorizationPermissions
+pendingAuthorizationRequest
+pendingFacebookDialogCall
+pendingIntent
+pendingJobs
+pendingOpeningSession
+pendingRequest
+pendingRequests
+performDestroyView
+performReallyStop
+performStart
+performStop
+performers
+permissions
+persistEvents
+persistedEvents
+person
+pickDonation
+	pickLevel
+pickMessage
+	pickStage
+pickTarget
+picker_subtitle
+picture
+picture.height(%d).width(%d)
+pixelID cannot be null
+placements
+placesLived
+plainEntries
+	plausible
+playSoundEffect
+play_enabled_game
+playerSaid
+playerType
+player_status
+plusOneCount
+popEnterAnim=#
+popFromBackStack: 
+populateGraphObjectView
+populateIntentExtras
+populateRequest
+populateRequestBundle
+populateTestAccounts
+popupLocationInfo.bottom
+popupLocationInfo.displayId
+popupLocationInfo.gravity
+popupLocationInfo.left
+popupLocationInfo.right
+popupLocationInfo.top
+portrait
+position
+postActiveSessionAction
+postDelayed
+postFinished
+postInvalidateDelayed
+postInvalidateOnAnimation
+postOfficeBoxNumber
+postStateChange
+postTranslate
+postTrim
+postalCode
+powodzenia
+preTranslate
+	precision
+prefKind
+prefMod
+prefetchedPictureCache
+prefetchedProfilePictureIds
+present
+presetSizeType
+preset_size
+previewPropertyName
+previous
+previousAccessToken
+primary
+primary_category
+printStackTrace
+	printable
+println
+prioritizeRequest
+prioritizeViewRange
+priority
+process
+process piece: 
+processGraphObject
+processGraphObjectProperty
+processImageResponse
+processResponse
+producer
+producerMaxSeconds
+	productId
+product_id
+profile
+	profileId
+profile_hi_res_image_uri
+profile_icon_image_uri
+profile_name
+progress
+properties
+protocolVersion
+protocol_version
+!proxyGraphObjectGettersAndSetters
+proxyGraphObjectMethods
+proxyMapMethods
+proxyObjectMethods
+publish
+publishInstall
+publishInstallAndWait
+ publishInstallAndWaitForResponse
+publishInstallAsync
+publish_actions
+publisher_package_name
+publisher_package_name desc
+purchase
+purchaseAmount cannot be null
+purchaseState
+purchaseToken
+	pushEntry
+putAll
+putBoolean
+putBooleanArray
+	putBundle
+putByte
+putByteArray
+putChar
+putCharArray
+putDate
+	putDouble
+putDoubleArray
+putExpirationDate
+putExpirationMilliseconds
+putExtra
+	putExtras
+putFloat
+putFloatArray
+putIfAbsent
+putInt
+putIntArray
+putLastRefreshDate
+putLastRefreshMilliseconds
+putLong
+putLongArray
+putObjectInBundle
+putOpt
+putParcelable
+putPermissions
+putRequestIntoBatch
+putSerializable
+putShort
+putShortArray
+	putSource
+putSparseParcelableArray
+	putString
+putStringArrayList
+putStringArrayListExtra
+putToken
+quantity
+queryAppSettings
+queryHeight
+queryIntentActivities
+queryIntentServices
+queryLocalInterface
+queryWidth
+queueSeconds
+queues
+	queuesize
+qui veut rejoindre mon clan ?
+radiusInMeters
+radius_in_meters
+	randbelow
+randint
+random
+randomUUID
+	randrange
+range too large
+rankingRows
+ratingValue
+readAll
+readAndClearStore
+readBool
+readBounded
+readBundle
+readCommand
+readDouble
+readException
+readFileDescriptor
+readFingerprint
+	readFlags
+	readFloat
+readFromCache
+readHeader
+%readHeader: expected JSONObject, got 
+=readHeader: stream.read returned -1 while reading header size
+#readHeader: stream.read stopped at 
+readInt
+	readIntBE
+	readLevel
+readLine
+readList
+readLong
+readMessage
+readObject
+readParcelable
+readResolve
+readSelectionFromBundle
+readStreamToString
+readString
+readStrongBinder
+readyAt
+rebuildAndNotify
+rebuildSections
+received
+receiver
+	reconnect
+recordBattle
+recordClassHasBeenVerified
+recordHeroBattleResult
+recordPaymentTransaction
+recvCipher
+	recvExact
+recycle
+redirect_uri
+referrer
+referrer_apps
+refreshDrawableState
+refreshImage
+refreshOriginalRequest
+RrefreshOriginalRequest may not be called until after startLoading has been called.
+refreshRequestWeakReference
+refreshToken
+refreshToken ignored in state 
+refunded
+register
+registerAccessToken
+registerDataSetObserver
+registerForContextMenu
+registerListener
+registerObserver
+registerReceiver
+registerStringToReplace
+registration_id
+regular
+rejected
+relationshipStatus
+relative_url
+release
+remove
+remove: 
+	removeAll
+removeAllViews
+removeBuildingAt
+removeCallback
+removeCallbacks
+removeExpiredCookie
+removeFromList
+removeGlobalOnLayoutListener
+removeKeyValue
+removeLoggingBehavior
+removeMessages
+!removeOnAttachStateChangeListener
+removeOnGlobalLayoutListener
+removeOutOfDateNotifications
+removePendingRequest
+removeProperty
+removeView
+removeViewAt
+renameTo
+renameToTargetAndTrim
+replace
+replaceAll
+replaceStrings
+replyMessage
+replyTo
+replyVersion
+reprioritizeDownloads
+request
+request failed
+	requestAd
+requestCode
+requestCompleted
+requestFocus
+requestId is null or too long: 
+requestImpl
+requestInFlight
+requestIntent
+requestLayout
+requestMessage
+requestNewPermissions
+requestNewPublishPermissions
+requestNewReadPermissions
+requestRender
+requestResult
+requestResultBody
+requestStatusCode
+requestUrl
+requestWindowFeature
+request_code
+requestedPermissions
+requestedScopes
+requests
+required
+requiredFeatures
+res_time
+resetProducerTimer
+resetting backoff for 
+resolution
+resolveActivity
+resolveBuildingIndex
+resolveIntent
+resolveLogFile
+resolveOpacity
+resolveService
+resolveTypeIfNeeded
+resolveUid
+resourceCode
+resourceGemCost
+respawnSeed
+respawnVars
+responseCache
+restMethod
+restore
+restoreAllState: adding #
+restoreAllState: adding avail #
+restoreAllState: adding bse #
+restoreAllState: making added #
+'restoreAllState: re-attaching retained 
+restoreHierarchyState
+restoreSession
+restoreToCount
+restoreViewState
+result
+resultsLimit
+results_limit
+	retainAll
+"retainNonConfig: keeping retained 
+"retrieveTestAccountsForAppIfNeeded
+revenue
+reverse
+reverseOrder
+reviewRating
+rightMargin
+roster
+rosterAvatarOptions
+rosterEntry
+rotate
+	rotate180
+	rotate270
+rotate90
+rotateX
+rotateY
+rsvp_event
+runCallbacks
+runOnUiThread
+runWithHandlerOrExecutor
+running
+runningCount
+runningJobs
+	sClassMap
+safeClanEvent
+safeClanSay
+safeGetBooleanFromResponse
+safeRun
+saludos desde Mexico
+salut tout le monde
+!saveAllState: adding back stack #
+saveAllState: adding fragment #
+saveCookieToken
+saveHierarchyState
+	saveLayer
+saveSelectionToBundle
+saveSession
+saveSettingsToBundle
+saveTokenToCache
+scanCommands
+schedule
+scheduleDrawable
+	scheduler
+scheme
+school
+screenLayout
+screen_density
+screen_layout_size
+scrollTo
+search
+	searchBox
+searchText
+searchTextTimer
+"searchTextTimerDelayInMilliseconds
+search_text
+second
+secondary_category
+secondsFromLastRespawn
+sectionBase
+sectionKey
+sectionKeys
+selam millet
+selectedId
+selectedIds
+selectionStrategy
+sellObjectByUid
+semangat
+semangat ya
+	semangat!
+sendCancelToListener
+sendCipher
+sendEmptyMessage
+sendErrorToListener
+sendImageRequest
+sendLock
+sendMessage
+sendMessageDelayed
+sendPurchasingEvent
+sendSuccessToListener
+sender
+ sender id not set on constructor
+serialVersionUID
+serializeAttachments
+serializeKey
+serializeParameters
+serializeRequestsAsJSON
+serializeToBatch
+serializeToUrlConnection
+serve_no_log
+serviceInfo
+serviceListener
+service_disabled
+service_esmobile
+service_googleme
+session
+session cannot be null
+sessionInvalidated
+sessionStatusCallback
+sessionTracker
+sessionUniqueUserTag
+sessionWeakReference
+sessions
+setAccessExpires
+setAccessExpiresIn
+setAccessToken
+	setAction
+setActiveSession
+setAdapter
+setAdvertiserId
+setAge
+setAllowCachedRedirects
+setAllowDuplicates
+setAlpha
+setAltitude
+setAnimationListener
+setAntiAlias
+setAppAdTracking
+setAppID
+setAppId
+setAppSignature
+setAppVersion
+setApplication
+setApplicationId
+setApplicationName
+setArguments
+setAudio
+setBackgroundColor
+setBackgroundDrawable
+setBackgroundProcessingListener
+setBackgroundResource
+setBatchApplicationId
+setBatchEntryDependsOn
+setBatchEntryName
+ setBatchEntryOmitResultOnSuccess
+setBirthday
+setBlankProfilePicture
+setBooleanParameter
+	setBounds
+setButtonText
+setByteCount
+setCacheKeyOverride
+setCalendar
+setCallback
+setCallbackHandler
+setCallerTag
+setCancelable
+setCaption
+setCategory
+setChecked
+setChunkedStreamingMode
+setCity
+setClass
+setClassLoader
+setClassName
+setClickable
+setColor
+setColorFilter
+setComments
+setCompletedListener
+setComponent
+setCompoundDrawablePadding
+setCompoundDrawables
+/setCompoundDrawablesRelativeWithIntrinsicBounds
+'setCompoundDrawablesWithIntrinsicBounds
+setConnectTimeout
+setConnectionTimeout
+setContentCharset
+setContentIntent
+setContentText
+setContentTitle
+setContentType
+setContentView
+setContext
+	setCookie
+setCountry
+setCreateObject
+setCreatedTime
+setCropped
+setCurrencyCode
+setCurrentItem
+setCurrentItem$2563266
+setCurrentTokenRefreshRequest
+	setDaemon
+setData
+setDataErrorsFatal
+setDataNeededListener
+setDataPosition
+setDebugMode
+setDefaultAudience
+setDefaultBatchApplicationId
+setDefaultProfilePicture
+setDelegate
+setDescription
+setDeterminer
+setDialogListener
+	setDither
+setDoInput
+setDoOutput
+setDoneButtonText
+setDuration
+setE2E
+setEGLConfigChooser
+setEGLContextClientVersion
+setEGLContextFactory
+setEllipsize
+setEndTime
+	setEntity
+setEventId
+setEventName
+setEventReferrer
+setExecutor
+setExpiresTime
+setExtraFields
+setFacebookDomain
+setFactory
+setFileCount
+setFillAfter
+setFillViewport
+	setFilter
+setFilters
+setFirstName
+setFlags
+setFlushBehavior
+setFocusable
+setFocusableInTouchMode
+setForceRoundTrip
+setFragment
+!setFriendPickerSettingsFromBundle
+setFriends
+setFrom
+setFromCache
+	setGender
+setGradientCenter
+setGradientRadius
+setGradientType
+setGraphObject
+setGraphPath
+setGravity
+setGroupByField
+setHasOptionsMenu
+	setHeader
+	setHeight
+setHorizontalScrollBarEnabled
+setHostnameVerifier
+setHttpMethod
+setHttpsEncryption
+'setIdentityTrackingDisabledOnThisDevice
+setImage
+setImageAttachmentsForAction
+setImageAttachmentsForObject
+setImageBitmap
+setImageDrawable
+setImageResource
+setImageUrls
+setImeOptions
+setImpressionsUseActivities
+setIndex
+setInitialSavedState
+setInputType
+setInstanceFollowRedirects
+setInterpolator
+setIsLegacy
+setIsRunning
+setIsScraped
+setJSONProperty
+setJavaScriptEnabled
+setKeepScreenOn
+setKey
+setLastAttemptedTokenExtendDate
+setLastModified
+setLastName
+setLatitude
+setLayerType
+setLayoutParams
+setLeft
+setLevel
+setLikes
+setLimitEventUsage
+setLink
+setLocation
+setLoginBehavior
+setLoginLogoutEventName
+setLongitude
+setMATResponse
+setMargins
+setMaxHeight
+setMaxTextLength
+setMaxWidth
+setMeasuredDimension
+setMenuVisibility
+setMessage
+setMiddleName
+setMinHeight
+setMinWidth
+setMoreObjectsAvailable
+setMultiSelect
+setName
+setNegativeButton
+setNeutralButton
+setNotificationUri
+setOffscreenPageLimit
+setOnAdapterChangeListener
+setOnCancelListener
+setOnClickListener
+setOnCompleteListener
+setOnCompletedListener
+setOnCreateContextMenuListener
+setOnDataChangedListener
+setOnDoneButtonClickedListener
+setOnEditorActionListener
+setOnErrorListener
+setOnItemClickListener
+setOnLongClickListener
+setOnPageChangeListener
+setOnScrollListener
+setOnSelectionChangedListener
+setOnTouchListener
+setOrientation
+setOsId
+setPackage
+setPackageName
+setPadding
+setPageMargin
+setPageMarginDrawable
+setParameters
+setPermissions
+#setPickerFragmentSettingsFromBundle
+setPicture
+setPlace
+ setPlacePickerSettingsFromBundle
+setPositiveButton
+setPostActionId
+setPreserveEGLContextOnPause
+setPresetSize
+setPriority
+setProfileId
+setProperties
+setProperty
+setPublishPermissions
+setPublishTime
+setPushNotificationValues
+setRadiusInMeters
+setReadPermissions
+setReadTimeout
+setReadable
+setRef
+setRefId
+setReferrer
+setRenderMode
+setRenderer
+setRequestCode
+setRequestIntent
+setRequestMethod
+setRequestProperty
+setResources
+setRestMethod
+	setResult
+setResultsLimit
+setRetainInstance
+setReuseAddress
+setRevenue
+setSaveEnabled
+setSavePassword
+setScale
+setScaleType
+setScrollState
+setScrollingCacheEnabled
+setSearchText
+setSeeAlso
+setSelectionFromTop
+setSelectionStrategy
+setSession
+setSessionStatusCallback
+setSettingsFromBundle
+	setShader
+setShadowLayer
+setShouldAutoPublishInstall
+setShowCheckbox
+setShowPicture
+setShowPictures
+setShowTitleBar
+setSingleLine
+	setSiteId
+setSiteName
+setSize
+setSmallIcon
+setSoTimeout
+setSocketBufferSize
+setSortFields
+setSound
+	setSource
+setStartOffset
+setStartTime
+setState
+	setStreet
+setStrokeWidth
+setStyle
+setSystemUiVisibility
+setTRUSTeId
+	setTables
+setTag
+setTags
+setTargetFragment
+setTestApplicationId
+setTestApplicationSecret
+setText
+setTextColor
+setTextSize
+setTheme
+	setTicker
+setTileModeX
+setTileModeY
+setTime
+setTimeZone
+setTimeout
+setTitle
+setTitleText
+setTokenCachingStrategy
+setTokenFromCache
+setTokenInfo
+setTouch
+setTracking
+setType
+setTypeface
+setUpWebView
+setUpdatedTime
+setUrl
+setUseAndroidIdMd5
+setUseAndroidIdSha1
+setUseAndroidIdSha256
+setUserAgent
+	setUserId
+setUserInfoChangedCallback
+setUserVisibleHint
+setUsername
+setValidateSameFbidAsToken
+setValue
+setVersion
+setVerticalScrollBarEnabled
+setVideo
+setVisibility
+setWebViewClient
+setWidth
+setWillNotDraw
+setWindowAnimations
+setWritable
+setXfermode
+setZip
+settle
+settleTimers
+setupViews
+sha256
+sharedAnalytics
+sharedChartboost
+	shieldEnd
+shieldSeconds
+shield_end
+short[]
+shortestWorkerTaskSeconds
+should be impossible
+shouldAutoPublish
+shouldAutoPublishInstall
+shouldDisplayInterstitial
+#shouldDisplayLoadingViewForMoreApps
+shouldDisplayMoreApps
+shouldExtendAccessToken
+	shouldLog
+shouldNotifyUser
+shouldOverrideUrlLoading
+shouldRequestInterstitial
+(shouldRequestInterstitialsInFirstSession
+shouldRequestMoreApps
+shouldShowActivityCircleCell
+shouldShowCheckBoxIfUnselected
+should_build_data
+show: 
+showAchievements
+	showAlert
+showCheckbox
+showInterstitial
+showKeyboard
+showMoreApps
+showPicture
+showPictures
+showSearchBox
+showSoftInput
+showTitleBar
+show_pictures
+show_search_box
+show_title_bar
+show_welcome_popup
+shuffle
+signIn
+signOut
+signatures
+signum
+simulateBattle
+single
+singletonList
+sizeInBytesForTest
+skipRoundtripIfCached
+skipped
+smallestScreenWidthDp
+#some flags could not be recognized.
+something is wrong
+sortFields
+sortedHeroHealth
+sortedLongs
+source
+	sourceDir
+5southern latitude exceeds northern latitude (%s > %s)
+	southwest
+	speedCost
+speedUpClearing
+speedUpConstruction
+speedUpHero
+speedUpHeroHealth
+speedUpTraining
+speedUpUpgradeUnit
+spellLevelSlots
+spellLevels
+spellSlots
+spellSpace
+	spellUsed
+spell_levels
+spells
+spendSpeedUpGems
+spinner
+	starSlots
+startActivity
+startActivityDelegate
+startActivityForResult
+startAnimation
+startBillingTransactions
+	startDate
+startGetRequest
+startIntentSenderForResult
+	startItem
+startLoading
+startMatch
+startOrContinueAuth
+startPostRequest
+startScroll
+startService
+startSession
+startTracking
+started
+starting_home.json
+startsWith
+stateMap
+	statePath
+staticContext
+staticLock
+status
+statusCallback
+statusCode
+status_code
+stopBillingTransactions
+stopLoading
+stopTracking
+storage
+storage_type
+storeKeyValue
+storeTestAccount
+store_iap_data
+store_iap_signature
+stream
+streamSender
+streetAddress
+string
+stringArray
+stringList
+stringsEqualOrEmpty
+stringsToReplace
+stripTrailingZeros
+subErrorCode
+subLeft
+subList
+	substring
+success
+supportsAttribution
+supportsAttributionRecheckTimer
+supportsImplicitLogging
+supports_attribution
+supports_implicit_sdk_logging
+syncSessionUids
+syncTutorialRewards
+synchronizedMap
+tagEntries
+tagline
+takeContentChanged
+target
+	targetAir
+targetGround
+	targetUri
+target_url
+testAccountId
+testApplicationId
+testApplicationSecret
+test_accounts
+	text/html
+thanks!
+this game is so fun
+this$0
+this$1
+throwUnexpectedMethodSignature
+	thumbnail
+thumbnailUrl
+tickerSymbol
+timePassed
+timeoutInMilliseconds
+	timestamp
+titleBarBackground
+	titleText
+titleTextView
+title_bar_background
+title_text
+toArray
+toBinaryString
+toByteArray
+toBytes
+toCacheBundle
+toCharArray
+toCharsString
+toHexString
+toHttpConnection
+toJSON
+toLowerCase
+toMillis
+toPlainString
+	toSeconds
+toString
+toTileCoord
+toUpperCase
+toggleAttackMode
+toggleHeroSleep
+toggleSelection
+tokenCache
+tokenCachingStrategy
+	tokenInfo
+tokenToString
+topImageOffset
+	topMargin
+total_deleted
+townHall
+townHallLevel
+	town_hall
+townhall
+trackAction
+trackEvent
+trackInstall
+trackPendingDialogCall
+trackPurchase
+trackUpdate
+tracking_id
+trainingCost
+transact
+transformHome
+	translate
+trapUids
+trim started
+troop_housing
+trophies
+truthy
+tryAcquire
+tryAuthorize
+tryCurrentHandler
+	tryIntent
+tryLegacyAuth
+tryLoginActivity
+tryNextHandler
+trySpend
+try_legacy
+try_login_activity
+tutorial
+tutorialAfterAttack
+tutorialBeforeAttack
+tutorial_npc.json
+tutorial_npc2.json
+typedListFromResponse
+unable to connect to service: 
+unbindService
+uniform
+unitLevelSlots
+unitLevels
+	unitPrice
+	unitRange
+	unitSpeed
+unit_levels
+unit_price
+	unit_prod
+	unit_type
+unit_upg
+unknown
+unknown reason
+unknown status code 
+	unknown:0
+unlisted
+unlock
+unlockAchievement
+unlockBuilding
+unmodifiableCollection
+unmodifiableList
+unmodifiableSet
+"unpack requires a buffer of 1 byte
+#unpack requires a buffer of 4 bytes
+unpackHeader
+unregisterDataSetObserver
+unregisterForContextMenu
+unregisterListener
+unregisterObserver
+unregisterReceiver
+unregistered
+unscaledValue
+unscheduleDrawable
+update
+updateAdapter
+updateBillingProductDetails
+updateCheckboxState
+updateDetails
+updateEntry
+updateImageQueryParameters
+updateNativeInstance
+updateUI
+upgradeBuilding
+upgradeHero
+upgradeUnit
+upgrading my town hall
+uptimeMillis
+urlRedirectCache
+	usedSpace
+userActionMessageId
+	userAgent
+userId
+userInfoChangedCallback
+userInfoSession
+userProfilePic
+userProfilePicID
+userSetSession
+user_agent
+user_generated
+val$accessTokenAppId
+val$activity
+val$appContext
+val$applicationContext
+val$applicationId
+val$assets
+val$base
+	val$batch
+val$bitmap
+val$buffer
+val$bufferFileCreateTime
+val$callback
+val$callbacks
+val$collator
+val$completionHandler
+val$context
+val$currentSession
+	val$entry
+val$entryId
+	val$error
+val$exception
+val$expectedType
+	val$fbids
+val$filesToDelete
+val$flushState
+val$fragment
+val$graphPath
+val$httpMethod
+val$hub
+val$imageView
+val$isCachedRedirect
+val$key
+val$keysAndValues
+val$listener
+val$newState
+val$node
+val$openSession
+val$parameters
+val$pendingResult
+val$postRequest
+val$profileId
+val$reason
+val$report
+val$request
+val$requests
+val$response
+val$rng
+val$session
+val$sessionEventsState
+	val$slots
+	val$state
+val$text
+val$tokenPermissions
+	validItem
+validNameStringFromInteger
+validate
+validateAppSignatureForPackage
+validateIdentifier
+validateKatanaActivityIntent
+validateKatanaServiceIntent
+validateLoginBehavior
+validatePermissions
+validateSameFbidAndFinish
+validateSameFbidAsToken
+validateServiceIntent
+validateSignature
+validatedIdentifiers
+5value is not a supported type: String, Bitmap, byte[]
+valueOf
+	valueType
+values
+variant
+varyHome
+verified
+verifiedGraphObjectClasses
+verify
+verifyCanProxyClass
+verifyDrawable
+verifyLevels
+version
+versionCode
+versionName
+viel gluck
+viewType
+villageBuildings
+villageDecos
+villageObstacles
+villageTraps
+visibleActivities
+:vnd.android.cursor.dir/vnd.mobileapptracker.referrer_apps 
+wasAskedToExtendAccessToken
+webView
+web_view
+website
+webview
+weight
+welcome
+welcome!
+wer will in meinen clan?
+were_here_count
+who is online?
+who wants to attack together?
+who wants to trade?
+widowed
+widthPixels
+window
+windowAnimations
+witam wszystkich
+withAppendedId
+workItem
+workLock
+worker
+worstRating
+wrapped
+writeAvatar
+writeBitmap
+	writeBool
+writeBundle
+writeByteArray
+writeBytes
+writeContentDisposition
+writeDouble
+	writeFile
+writeFileDescriptor
+writeFlags
+writeFloat
+writeHeader
+writeInt
+writeIntArray
+writeInterfaceToken
+	writeLine
+	writeList
+	writeLong
+writeLongArray
+writeMember
+writeNoException
+writeObject
+writeParcelable
+writeRankingEntry
+writeRecordBoundary
+	writeRefs
+writeReplace
+writeSlots
+writeStreamEntry
+writeString
+writeStringArray
+writeStringList
+writeStrongBinder
+writeToParcel
+writeTypedArray
+write_privacy
+xpLevel
+xpPoints
+xp_level
+	xp_points
+yang online siapa aja?
+yyyy-MM-dd
+yyyy-MM-dd HH:mm:ss
+yyyy-MM-dd'T'HH:mm:ss
+yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+yyyy-MM-dd'T'HH:mm:ssZ
+{ "$ref" : "
+{AccessToken
+-{FacebookServiceException: httpResponseCode: 
+{FileLruCache: tag:
+{HttpStatus: 
+{Request:  session: 
+ {RequestAsyncTask:  connection: 
+{Response:  responseCode: 
+{Session state:
+{TestSession testUserId:
+{name}
+{october_2012:true}
+{value : true}
+~~D8{"backend":"dex","compilation-mode":"release","has-checksums":false,"min-api":15,"sha-1":"facedf41bbd28b563d1e9e09c5f72d7c5ca598d5","version":"8.2.2-dev"}
+	7		7	
+71	71	7
+7G 7H 7
+333333
+&67&*^
+_&S_FFB
+&T_&u'&
+ffffff
+333333
+	=&1^&!7
+78 7: 
+7o 7u 
