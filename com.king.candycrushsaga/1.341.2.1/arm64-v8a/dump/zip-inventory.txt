@@ -1,0 +1,148 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== ZIP INVENTORY ===
+----- base.apk -----
+entries: 10091   uncompressed total: 180686147 bytes (172.3 MiB)   compressed file size: 93578884 bytes
+-- by top-level directory (count, uncompressed bytes) --
+    8189     138288272  assets
+      45      38299043  (root)
+     986       2972064  res
+     371        432583  kotlin
+     226        417469  commonMain
+     151         68549  META-INF
+      10         52301  google
+      10         52301  src
+       2         37948  okhttp3
+      47         33350  nativeMain
+      17          9750  kotlinx
+       5          9616  nonJvmMain
+       8          4036  concurrentMain
+       4          2479  nonAppleMain
+       5          2369  hashFunctions
+       5          2081  unixMain
+       3          1163  nativeOtherMain
+       7           773  linuxMain
+-- by file extension (top 30) --
+    5313  .xml
+    1112  .json
+     643  .webp
+     380  .kotlin_metadata
+     314  .ogg
+     292  .knm
+     266  .prefab
+     227  .md5
+     188  .ng
+     173  .ffm
+     157  .ffsb
+     141  .csv
+     134  .ffa
+      92  .version
+      79  .preload
+      78  .index
+      71  .png
+      70  .manifest
+      59  .txt
+      45  .properties
+      32  .js
+      31  .(no ext)
+      25  .font
+      23  .proto
+      16  .kotlin_module
+      14  .ttf
+      13  .pro
+      11  .html
+      11  .css
+      11  .lua
+-- files > 1 MiB: 11 --
+      44728320  assets/res_output/bundled/ccsm_levels/assets/levels_batched/levels_batched.db
+       9157528  classes4.dex
+       9146304  classes.dex
+       8248776  classes2.dex
+       7955140  classes3.dex
+       5455144  assets/audience_network/classes.dex
+       2951756  classes5.dex
+       2655362  assets/res_output/bundled/ccsm_levels/assets/levels.xml
+       1928944  assets/res_output/bundled/candycrushsaga/assets/group_fonts/fonts/DroidSans.HappyRuika.ttf
+       1724800  assets/res_output/bundled/king-fonts/assets/king-fonts/fonts/king_super_happy_grotesk_ruika.otf
+       1386257  assets/res_output/bundled/candycrushsaga/package.index
+
+----- split_config.arm64_v8a.apk -----
+entries: 8   uncompressed total: 86357395 bytes (82.4 MiB)   compressed file size: 86397543 bytes
+-- by top-level directory (count, uncompressed bytes) --
+       3      86354032  lib
+       3          2355  META-INF
+       2          1008  (root)
+-- by file extension (top 30) --
+       3  .so
+       1  .xml
+       1  .(no ext)
+       1  .sf
+       1  .rsa
+       1  .mf
+-- files > 1 MiB: 1 --
+      85487344  lib/arm64-v8a/libcandycrushsaga.so
+
+----- base.apk root entries -----
+         56204  AndroidManifest.xml
+          1733  DebugProbesKt.bin
+            58  age-signals.properties
+            50  billing.properties
+       9146304  classes.dex
+       8248776  classes2.dex
+       7955140  classes3.dex
+       9157528  classes4.dex
+       2951756  classes5.dex
+          2982  client_analytics.proto
+            58  core-common.properties
+            74  firebase-analytics.properties
+            82  firebase-encoders-json.properties
+            84  firebase-encoders-proto.properties
+            72  firebase-encoders.properties
+            78  firebase-iid-interop.properties
+            98  firebase-measurement-connector.properties
+            70  inputmapping.properties
+            54  integrity.properties
+          2381  messaging_event.proto
+           883  messaging_event_extension.proto
+            20  nativedeps
+            80  play-services-ads-api.properties
+            94  play-services-ads-identifier.properties
+            72  play-services-ads.properties
+            78  play-services-appset.properties
+            74  play-services-base.properties
+            82  play-services-basement.properties
+            96  play-services-cloud-messaging.properties
+            78  play-services-cronet.properties
+            76  play-services-drive.properties
+            82  play-services-games-v2.properties
+            82  play-services-location.properties
+            96  play-services-measurement-api.properties
+            98  play-services-measurement-base.properties
+            98  play-services-measurement-impl.properties
+           104  play-services-measurement-sdk-api.properties
+            96  play-services-measurement-sdk.properties
+            88  play-services-measurement.properties
+           102  play-services-places-placereport.properties
+            76  play-services-stats.properties
+            76  play-services-tasks.properties
+        772716  resources.arsc
+            82  user-messaging-platform.properties
+            32  stamp-cert-sha256
+
+----- split_config.arm64_v8a.apk: full listing (8 entries) -----
+           976  AndroidManifest.xml
+        859832  lib/arm64-v8a/libapplovin-native-crash-reporter.so
+      85487344  lib/arm64-v8a/libcandycrushsaga.so
+          6856  lib/arm64-v8a/libdatastore_shared_counter.so
+            32  stamp-cert-sha256
+           562  META-INF/BNDLTOOL.SF
+          1339  META-INF/BNDLTOOL.RSA
+           454  META-INF/MANIFEST.MF
+
+NOTE: base.apk contains ZERO .so files — all native code lives in the
+arm64 split (lib/arm64-v8a/libcandycrushsaga.so, 85,487,344 bytes).
+base.apk has NO v1 (JAR) signature entries (no META-INF/*.SF/*.RSA);
+the split DOES carry bundletool v1 signature files (META-INF/BNDLTOOL.*).

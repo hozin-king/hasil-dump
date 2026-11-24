@@ -65,6 +65,7 @@ file, mayoritas ekstrak mentah) dan tidak realistis di-push ke satu repo.
 - `com.hozinking.gameTTT.TapTapTycoon`
 - `com.jetstartgames.chess`
 - `com.julian.wildhunter`
+- `com.king.candycrushsaga`
 - `com.kipas.studio`
 - `com.lahelu`
 - `com.litapps.selfly`

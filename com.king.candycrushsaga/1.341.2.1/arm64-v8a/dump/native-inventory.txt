@@ -1,0 +1,595 @@
+======================================================================
+NATIVE INVENTORY — Candy Crush Saga 1.341.2.1 (versionCode 13412010)
+Package: com.king.candycrushsaga | ABI: arm64-v8a | min_api: 24
+Source APK: split_config.arm64_v8a.apk (86.397.543 bytes)
+base.apk: contains NO .so (verified with unzip -l)
+Method: static only — readelf / nm / objdump / strings / sha256sum / file
+Date (UTC): 2026-11-24 14:24:49 UTC
+======================================================================
+
+######################################################################
+## libapplovin-native-crash-reporter.so
+######################################################################
+
+--- file / size / hashes ---
+libapplovin-native-crash-reporter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=e2f66954998479c0ab5892ff8cc003d70304d5ce, stripped
+-rw-r--r-- 1 root nogroup 859832 Jan  1  1981 libapplovin-native-crash-reporter.so
+size_bytes: 859832
+sha256: e25727f6a898b701d21cc1f403d3db66e445ef9c7be6eca4b5b6cbd27c1e4147
+md5:    5c0f7ea89096e9a298e1b0fdff8ba80d
+
+--- ELF header (readelf -h) ---
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x60694
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          858168 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         26
+  Section header string table index: 25
+
+--- Program headers (readelf -l) ---
+
+Elf file type is DYN (Shared object file)
+Entry point 0x60694
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040
+                 0x00000000000001f8 0x00000000000001f8  R      0x8
+  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x00000000000c9cf0 0x00000000000c9cf0  R E    0x4000
+  LOAD           0x00000000000c9cf0 0x00000000000cdcf0 0x00000000000cdcf0
+                 0x0000000000007958 0x0000000000007958  RW     0x4000
+  LOAD           0x00000000000d1648 0x00000000000d9648 0x00000000000d9648
+                 0x00000000000000f0 0x0000000000001e68  RW     0x4000
+  DYNAMIC        0x00000000000d0328 0x00000000000d4328 0x00000000000d4328
+                 0x00000000000001e0 0x00000000000001e0  RW     0x8
+  GNU_RELRO      0x00000000000c9cf0 0x00000000000cdcf0 0x00000000000cdcf0
+                 0x0000000000007958 0x0000000000008310  R      0x1
+  GNU_EH_FRAME   0x000000000004e014 0x000000000004e014 0x000000000004e014
+                 0x00000000000036f4 0x00000000000036f4  R      0x4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x0
+  NOTE           0x0000000000000238 0x0000000000000238 0x0000000000000238
+                 0x00000000000000bc 0x00000000000000bc  R      0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .hash .dynstr .rela.dyn .rela.plt .gcc_except_table .rodata .eh_frame_hdr .eh_frame .text .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt 
+   03     .data .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt 
+   06     .eh_frame_hdr 
+   07     
+   08     .note.android.ident .note.gnu.build-id 
+
+--- Section headers (readelf -S) ---
+There are 26 section headers, starting at offset 0xd1838:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .note.androi[...] NOTE             0000000000000238  00000238
+       0000000000000098  0000000000000000   A       0     0     4
+  [ 2] .note.gnu.bu[...] NOTE             00000000000002d0  000002d0
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 3] .dynsym           DYNSYM           00000000000002f8  000002f8
+       000000000000c870  0000000000000018   A       8     1     8
+  [ 4] .gnu.version      VERSYM           000000000000cb68  0000cb68
+       00000000000010b4  0000000000000002   A       3     0     2
+  [ 5] .gnu.version_r    VERNEED          000000000000dc1c  0000dc1c
+       0000000000000040  0000000000000000   A       8     2     4
+  [ 6] .gnu.hash         GNU_HASH         000000000000dc60  0000dc60
+       0000000000003700  0000000000000000   A       3     0     8
+  [ 7] .hash             HASH             0000000000011360  00011360
+       00000000000042d8  0000000000000004   A       3     0     4
+  [ 8] .dynstr           STRTAB           0000000000015638  00015638
+       0000000000019212  0000000000000000   A       0     0     1
+  [ 9] .rela.dyn         RELA             000000000002e850  0002e850
+       0000000000011e98  0000000000000018   A       3     0     8
+  [10] .rela.plt         RELA             00000000000406e8  000406e8
+       00000000000024f0  0000000000000018  AI       3    22     8
+  [11] .gcc_except_table PROGBITS         0000000000042bd8  00042bd8
+       0000000000005048  0000000000000000   A       0     0     4
+  [12] .rodata           PROGBITS         0000000000047c20  00047c20
+       00000000000063f3  0000000000000000 AMS       0     0     16
+  [13] .eh_frame_hdr     PROGBITS         000000000004e014  0004e014
+       00000000000036f4  0000000000000000   A       0     0     4
+  [14] .eh_frame         PROGBITS         0000000000051708  00051708
+       000000000000ef8c  0000000000000000   A       0     0     8
+  [15] .text             PROGBITS         0000000000060694  00060694
+       0000000000067d9c  0000000000000000  AX       0     0     4
+  [16] .plt              PROGBITS         00000000000c8430  000c8430
+       00000000000018c0  0000000000000000  AX       0     0     16
+  [17] .data.rel.ro      PROGBITS         00000000000cdcf0  000c9cf0
+       0000000000006620  0000000000000000  WA       0     0     8
+  [18] .fini_array       FINI_ARRAY       00000000000d4310  000d0310
+       0000000000000010  0000000000000000  WA       0     0     8
+  [19] .init_array       INIT_ARRAY       00000000000d4320  000d0320
+       0000000000000008  0000000000000000  WA       0     0     8
+  [20] .dynamic          DYNAMIC          00000000000d4328  000d0328
+       00000000000001e0  0000000000000010  WA       8     0     8
+  [21] .got              PROGBITS         00000000000d4508  000d0508
+       00000000000004d8  0000000000000000  WA       0     0     8
+  [22] .got.plt          PROGBITS         00000000000d49e0  000d09e0
+       0000000000000c68  0000000000000000  WA       0     0     8
+  [23] .data             PROGBITS         00000000000d9648  000d1648
+       00000000000000f0  0000000000000000  WA       0     0     8
+  [24] .bss              NOBITS           00000000000d9740  000d1738
+       0000000000001d70  0000000000000000  WA       0     0     16
+  [25] .shstrtab         STRTAB           0000000000000000  000d1738
+       00000000000000fb  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+--- Dynamic section (readelf -d) ---
+
+Dynamic section at offset 0xd0328 contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libapplovin-native-crash-reporter.so]
+ 0x000000000000001e (FLAGS)              BIND_NOW
+ 0x000000006ffffffb (FLAGS_1)            Flags: NOW
+ 0x0000000000000007 (RELA)               0x2e850
+ 0x0000000000000008 (RELASZ)             73368 (bytes)
+ 0x0000000000000009 (RELAENT)            24 (bytes)
+ 0x000000006ffffff9 (RELACOUNT)          1238
+ 0x0000000000000017 (JMPREL)             0x406e8
+ 0x0000000000000002 (PLTRELSZ)           9456 (bytes)
+ 0x0000000000000003 (PLTGOT)             0xd49e0
+ 0x0000000000000014 (PLTREL)             RELA
+ 0x0000000000000006 (SYMTAB)             0x2f8
+ 0x000000000000000b (SYMENT)             24 (bytes)
+ 0x0000000000000005 (STRTAB)             0x15638
+ 0x000000000000000a (STRSZ)              102930 (bytes)
+ 0x000000006ffffef5 (GNU_HASH)           0xdc60
+ 0x0000000000000004 (HASH)               0x11360
+ 0x0000000000000019 (INIT_ARRAY)         0xd4320
+ 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)
+ 0x000000000000001a (FINI_ARRAY)         0xd4310
+ 0x000000000000001c (FINI_ARRAYSZ)       16 (bytes)
+ 0x000000006ffffff0 (VERSYM)             0xcb68
+ 0x000000006ffffffe (VERNEED)            0xdc1c
+ 0x000000006fffffff (VERNEEDNUM)         2
+ 0x0000000000000000 (NULL)               0x0
+
+--- Symbol-table summary ---
+dynsym count (readelf --dyn-syms): 2138
+dynsym FUNC count: 1494
+dynsym OBJECT count: 643
+symtab present? 0 section(s) named .symtab
+symtab: ABSENT — library is STRIPPED (no .symtab, no .debug_* sections)
+nm (full symtab): prints "no symbols" on all 3 libs (verified separately); nm exit code is 0 either way and is NOT a stripped-indicator
+nm -D (dynamic) symbol count: 2137
+undefined dynamic symbols (nm -D -u): 143
+defined dynamic symbols (nm -D --defined-only): 1994
+
+--- NEEDED libraries (from dynamic section) ---
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+--- SONAME ---
+ 0x000000000000000e (SONAME)             Library soname: [libapplovin-native-crash-reporter.so]
+--- RPATH / RUNPATH ---
+(none)
+
+
+######################################################################
+## libcandycrushsaga.so
+######################################################################
+
+--- file / size / hashes ---
+libcandycrushsaga.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[md5/uuid]=f7695dd5a2edfef3b7ddd62e00bb274e, stripped
+-rw-r--r-- 1 root nogroup 85487344 Jan  1  1981 libcandycrushsaga.so
+size_bytes: 85487344
+sha256: 2363a46a82e7dddf7360f76d625b0b54b7453d4a7cbf68ae08a699e444438548
+md5:    cc15ae5702dc512d59f1b594b7ead409
+
+--- ELF header (readelf -h) ---
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          85485552 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         28
+  Section header string table index: 27
+
+--- Program headers (readelf -l) ---
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040
+                 0x00000000000001f8 0x00000000000001f8  R      0x8
+  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000004dd9860 0x0000000004dd9860  R E    0x4000
+  LOAD           0x0000000004ddc000 0x0000000004ddc000 0x0000000004ddc000
+                 0x000000000039f7c8 0x00000000003a0000  RW     0x4000
+  LOAD           0x000000000517b7d0 0x000000000517f7d0 0x000000000517f7d0
+                 0x000000000000aef8 0x00000000001b1a28  RW     0x4000
+  DYNAMIC        0x0000000005171fb0 0x0000000005171fb0 0x0000000005171fb0
+                 0x0000000000000210 0x0000000000000210  RW     0x8
+  GNU_RELRO      0x0000000004ddc000 0x0000000004ddc000 0x0000000004ddc000
+                 0x000000000039f7c8 0x00000000003a0000  R      0x1
+  GNU_EH_FRAME   0x00000000013a3724 0x00000000013a3724 0x00000000013a3724
+                 0x000000000019985c 0x000000000019985c  R      0x4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x0
+  NOTE           0x0000000000000238 0x0000000000000238 0x0000000000000238
+                 0x00000000000000b8 0x00000000000000b8  R      0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .rodata .gcc_except_table .eh_frame_hdr .eh_frame .text malloc_hook .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   03     .data pb_defaults .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   06     .eh_frame_hdr 
+   07     
+   08     .note.android.ident .note.gnu.build-id 
+
+--- Section headers (readelf -S) ---
+There are 28 section headers, starting at offset 0x51867f0:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .note.androi[...] NOTE             0000000000000238  00000238
+       0000000000000098  0000000000000000   A       0     0     4
+  [ 2] .note.gnu.bu[...] NOTE             00000000000002d0  000002d0
+       0000000000000020  0000000000000000   A       0     0     4
+  [ 3] .dynsym           DYNSYM           00000000000002f0  000002f0
+       00000000000214f8  0000000000000018   A       7     1     8
+  [ 4] .gnu.version      VERSYM           00000000000217e8  000217e8
+       0000000000002c6a  0000000000000002   A       3     0     2
+  [ 5] .gnu.version_r    VERNEED          0000000000024454  00024454
+       0000000000000070  0000000000000000   A       7     3     4
+  [ 6] .gnu.hash         GNU_HASH         00000000000244c8  000244c8
+       0000000000008620  0000000000000000   A       3     0     8
+  [ 7] .dynstr           STRTAB           000000000002cae8  0002cae8
+       0000000000035c19  0000000000000000   A       0     0     1
+  [ 8] .rela.dyn         RELA             0000000000062708  00062708
+       0000000000924d50  0000000000000018   A       3     0     8
+  [ 9] .rela.plt         RELA             0000000000987458  00987458
+       000000000000b220  0000000000000018  AI       3    22     8
+  [10] .rodata           PROGBITS         0000000000992680  00992680
+       0000000000a07747  0000000000000000 AMS       0     0     64
+  [11] .gcc_except_table PROGBITS         0000000001399dc8  01399dc8
+       000000000000995c  0000000000000000   A       0     0     4
+  [12] .eh_frame_hdr     PROGBITS         00000000013a3724  013a3724
+       000000000019985c  0000000000000000   A       0     0     4
+  [13] .eh_frame         PROGBITS         000000000153cf80  0153cf80
+       00000000007778f8  0000000000000000   A       0     0     8
+  [14] .text             PROGBITS         0000000001cb4880  01cb4880
+       000000000311d6c4  0000000000000000  AX       0     0     16
+  [15] malloc_hook       PROGBITS         0000000004dd1f44  04dd1f44
+       0000000000000234  0000000000000000  AX       0     0     2
+  [16] .plt              PROGBITS         0000000004dd2180  04dd2180
+       00000000000076e0  0000000000000000  AX       0     0     16
+  [17] .data.rel.ro      PROGBITS         0000000004ddc000  04ddc000
+       0000000000393270  0000000000000000  WA       0     0     16
+  [18] .fini_array       FINI_ARRAY       000000000516f270  0516f270
+       0000000000000010  0000000000000000  WA       0     0     8
+  [19] .init_array       INIT_ARRAY       000000000516f280  0516f280
+       0000000000002d30  0000000000000000  WA       0     0     8
+  [20] .dynamic          DYNAMIC          0000000005171fb0  05171fb0
+       0000000000000210  0000000000000010  WA       7     0     8
+  [21] .got              PROGBITS         00000000051721c0  051721c0
+       0000000000005a90  0000000000000000  WA       0     0     8
+  [22] .got.plt          PROGBITS         0000000005177c50  05177c50
+       0000000000003b78  0000000000000000  WA       0     0     8
+  [23] .relro_padding    NOBITS           000000000517b7c8  0517b7c8
+       0000000000000838  0000000000000000  WA       0     0     1
+  [24] .data             PROGBITS         000000000517f7d0  0517b7d0
+       000000000000aee0  0000000000000000 WAo       0     0     16
+  [25] pb_defaults       PROGBITS         000000000518a6b0  051866b0
+       0000000000000018  0000000000000000  WA       0     0     8
+  [26] .bss              NOBITS           000000000518a700  051866c8
+       00000000001a6af8  0000000000000000 WAo       0     0     64
+  [27] .shstrtab         STRTAB           0000000000000000  051866c8
+       0000000000000122  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+--- Dynamic section (readelf -d) ---
+
+Dynamic section at offset 0x5171fb0 contains 33 entries:
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libGLESv3.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libEGL.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libGLESv2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libOpenSLES.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x000000000000000e (SONAME)             Library soname: [libcandycrushsaga]
+ 0x000000000000001e (FLAGS)              BIND_NOW
+ 0x000000006ffffffb (FLAGS_1)            Flags: NOW
+ 0x0000000000000007 (RELA)               0x62708
+ 0x0000000000000008 (RELASZ)             9588048 (bytes)
+ 0x0000000000000009 (RELAENT)            24 (bytes)
+ 0x000000006ffffff9 (RELACOUNT)          344250
+ 0x0000000000000017 (JMPREL)             0x987458
+ 0x0000000000000002 (PLTRELSZ)           45600 (bytes)
+ 0x0000000000000003 (PLTGOT)             0x5177c50
+ 0x0000000000000014 (PLTREL)             RELA
+ 0x0000000000000006 (SYMTAB)             0x2f0
+ 0x000000000000000b (SYMENT)             24 (bytes)
+ 0x0000000000000005 (STRTAB)             0x2cae8
+ 0x000000000000000a (STRSZ)              220185 (bytes)
+ 0x000000006ffffef5 (GNU_HASH)           0x244c8
+ 0x0000000000000019 (INIT_ARRAY)         0x516f280
+ 0x000000000000001b (INIT_ARRAYSZ)       11568 (bytes)
+ 0x000000000000001a (FINI_ARRAY)         0x516f270
+ 0x000000000000001c (FINI_ARRAYSZ)       16 (bytes)
+ 0x000000006ffffff0 (VERSYM)             0x217e8
+ 0x000000006ffffffe (VERNEED)            0x24454
+ 0x000000006fffffff (VERNEEDNUM)         3
+ 0x0000000000000000 (NULL)               0x0
+
+--- Symbol-table summary ---
+dynsym count (readelf --dyn-syms): 5685
+dynsym FUNC count: 3961
+dynsym OBJECT count: 1718
+symtab present? 0 section(s) named .symtab
+symtab: ABSENT — library is STRIPPED (no .symtab, no .debug_* sections)
+nm (full symtab): prints "no symbols" on all 3 libs (verified separately); nm exit code is 0 either way and is NOT a stripped-indicator
+nm -D (dynamic) symbol count: 5684
+undefined dynamic symbols (nm -D -u): 458
+defined dynamic symbols (nm -D --defined-only): 5226
+
+--- NEEDED libraries (from dynamic section) ---
+ 0x0000000000000001 (NEEDED)             Shared library: [libGLESv3.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libEGL.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libGLESv2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libOpenSLES.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+--- SONAME ---
+ 0x000000000000000e (SONAME)             Library soname: [libcandycrushsaga]
+--- RPATH / RUNPATH ---
+(none)
+
+
+######################################################################
+## libdatastore_shared_counter.so
+######################################################################
+
+--- file / size / hashes ---
+libdatastore_shared_counter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=17db37bd6770ac00dd2d1d2828839fd23a7959a3, stripped
+-rw-r--r-- 1 root nogroup 6856 Jan  1  1981 libdatastore_shared_counter.so
+size_bytes: 6856
+sha256: 1ae17d91da9324da6f0cf4e60e543b7d79d938ca4d300985969acb632cc9ed1c
+md5:    3a409e19c3aebf792ee432f6fb1e0f4b
+
+--- ELF header (readelf -h) ---
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          5384 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         23
+  Section header string table index: 22
+
+--- Program headers (readelf -l) ---
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040
+                 0x00000000000001f8 0x00000000000001f8  R      0x8
+  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x00000000000011c0 0x00000000000011c0  R E    0x4000
+  LOAD           0x00000000000011c0 0x00000000000051c0 0x00000000000051c0
+                 0x0000000000000268 0x0000000000000268  RW     0x4000
+  LOAD           0x0000000000001428 0x0000000000009428 0x0000000000009428
+                 0x0000000000000000 0x0000000000000001  RW     0x4000
+  DYNAMIC        0x00000000000011e0 0x00000000000051e0 0x00000000000051e0
+                 0x00000000000001c0 0x00000000000001c0  RW     0x8
+  GNU_RELRO      0x00000000000011c0 0x00000000000051c0 0x00000000000051c0
+                 0x0000000000000268 0x0000000000000e40  R      0x1
+  GNU_EH_FRAME   0x0000000000000aa8 0x0000000000000aa8 0x0000000000000aa8
+                 0x000000000000008c 0x000000000000008c  R      0x4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x0
+  NOTE           0x0000000000000238 0x0000000000000238 0x0000000000000238
+                 0x00000000000000bc 0x00000000000000bc  R      0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .hash .dynstr .rela.dyn .rela.plt .rodata .eh_frame_hdr .eh_frame .text .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got.plt 
+   03     .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got.plt 
+   06     .eh_frame_hdr 
+   07     
+   08     .note.android.ident .note.gnu.build-id 
+
+--- Section headers (readelf -S) ---
+There are 23 section headers, starting at offset 0x1508:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .note.androi[...] NOTE             0000000000000238  00000238
+       0000000000000098  0000000000000000   A       0     0     4
+  [ 2] .note.gnu.bu[...] NOTE             00000000000002d0  000002d0
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 3] .dynsym           DYNSYM           00000000000002f8  000002f8
+       00000000000001e0  0000000000000018   A       8     1     8
+  [ 4] .gnu.version      VERSYM           00000000000004d8  000004d8
+       0000000000000028  0000000000000002   A       3     0     2
+  [ 5] .gnu.version_r    VERNEED          0000000000000500  00000500
+       0000000000000020  0000000000000000   A       8     1     4
+  [ 6] .gnu.hash         GNU_HASH         0000000000000520  00000520
+       000000000000004c  0000000000000000   A       3     0     8
+  [ 7] .hash             HASH             000000000000056c  0000056c
+       00000000000000a8  0000000000000004   A       3     0     4
+  [ 8] .dynstr           STRTAB           0000000000000614  00000614
+       00000000000002bb  0000000000000000   A       0     0     1
+  [ 9] .rela.dyn         RELA             00000000000008d0  000008d0
+       0000000000000060  0000000000000018   A       3     0     8
+  [10] .rela.plt         RELA             0000000000000930  00000930
+       0000000000000150  0000000000000018  AI       3    20     8
+  [11] .rodata           PROGBITS         0000000000000a80  00000a80
+       0000000000000027  0000000000000001 AMS       0     0     1
+  [12] .eh_frame_hdr     PROGBITS         0000000000000aa8  00000aa8
+       000000000000008c  0000000000000000   A       0     0     4
+  [13] .eh_frame         PROGBITS         0000000000000b38  00000b38
+       00000000000001ec  0000000000000000   A       0     0     8
+  [14] .text             PROGBITS         0000000000000d30  00000d30
+       000000000000038c  0000000000000000  AX       0     0     16
+  [15] .plt              PROGBITS         00000000000010c0  000010c0
+       0000000000000100  0000000000000000  AX       0     0     16
+  [16] .data.rel.ro      PROGBITS         00000000000051c0  000011c0
+       0000000000000008  0000000000000000  WA       0     0     8
+  [17] .fini_array       FINI_ARRAY       00000000000051c8  000011c8
+       0000000000000010  0000000000000000  WA       0     0     8
+  [18] .init_array       INIT_ARRAY       00000000000051d8  000011d8
+       0000000000000008  0000000000000000  WA       0     0     8
+  [19] .dynamic          DYNAMIC          00000000000051e0  000011e0
+       00000000000001c0  0000000000000010  WA       8     0     8
+  [20] .got.plt          PROGBITS         00000000000053a0  000013a0
+       0000000000000088  0000000000000000  WA       0     0     8
+  [21] .bss              NOBITS           0000000000009428  00001428
+       0000000000000001  0000000000000000  WA       0     0     4
+  [22] .shstrtab         STRTAB           0000000000000000  00001428
+       00000000000000de  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+--- Dynamic section (readelf -d) ---
+
+Dynamic section at offset 0x11e0 contains 28 entries:
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libdatastore_shared_counter.so]
+ 0x000000000000001e (FLAGS)              BIND_NOW
+ 0x000000006ffffffb (FLAGS_1)            Flags: NOW
+ 0x0000000000000007 (RELA)               0x8d0
+ 0x0000000000000008 (RELASZ)             96 (bytes)
+ 0x0000000000000009 (RELAENT)            24 (bytes)
+ 0x000000006ffffff9 (RELACOUNT)          4
+ 0x0000000000000017 (JMPREL)             0x930
+ 0x0000000000000002 (PLTRELSZ)           336 (bytes)
+ 0x0000000000000003 (PLTGOT)             0x53a0
+ 0x0000000000000014 (PLTREL)             RELA
+ 0x0000000000000006 (SYMTAB)             0x2f8
+ 0x000000000000000b (SYMENT)             24 (bytes)
+ 0x0000000000000005 (STRTAB)             0x614
+ 0x000000000000000a (STRSZ)              699 (bytes)
+ 0x000000006ffffef5 (GNU_HASH)           0x520
+ 0x0000000000000004 (HASH)               0x56c
+ 0x0000000000000019 (INIT_ARRAY)         0x51d8
+ 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)
+ 0x000000000000001a (FINI_ARRAY)         0x51c8
+ 0x000000000000001c (FINI_ARRAYSZ)       16 (bytes)
+ 0x000000006ffffff0 (VERSYM)             0x4d8
+ 0x000000006ffffffe (VERNEED)            0x500
+ 0x000000006fffffff (VERNEEDNUM)         1
+ 0x0000000000000000 (NULL)               0x0
+
+--- Symbol-table summary ---
+dynsym count (readelf --dyn-syms): 20
+dynsym FUNC count: 19
+dynsym OBJECT count: 0
+symtab present? 0 section(s) named .symtab
+symtab: ABSENT — library is STRIPPED (no .symtab, no .debug_* sections)
+nm (full symtab): prints "no symbols" on all 3 libs (verified separately); nm exit code is 0 either way and is NOT a stripped-indicator
+nm -D (dynamic) symbol count: 19
+undefined dynamic symbols (nm -D -u): 10
+defined dynamic symbols (nm -D --defined-only): 9
+
+--- NEEDED libraries (from dynamic section) ---
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+--- SONAME ---
+ 0x000000000000000e (SONAME)             Library soname: [libdatastore_shared_counter.so]
+--- RPATH / RUNPATH ---
+(none)
+
+

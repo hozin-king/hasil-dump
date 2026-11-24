@@ -1,0 +1,107 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+Curated DEX strings (from DEX string_ids tables, parsed with pure-Python
+parser — no dexdump/jadx on this VM). Long lines (>300 chars) dropped.
+Attribution: a string proves a literal exists in that DEX, NOT which
+class uses it. See FINDINGS-dex.md for what is PROVEN vs INFERRED.
+
+===== A. King game host / deep links (manifest + strings) (3 lines) =====
+ccs.play.king.com (deep link host, AndroidManifest)
+candycrushsaga:// and candycrush:// (deep link schemes, AndroidManifest)
+midasplayer.com / midasplayer.cloud (cleartext-allowed domains, network_security_config.xml)
+
+===== B. King gateway protocol (classes5.dex, gatewayprotocol.v1 protobuf) (11 lines) =====
+InitializationRequest / InitializationResponse
+AdPlayerConfigRequest / AdPlayerConfigResponse
+AdDataRefreshRequest / AdDataRefreshResponse
+AdRequest / AdResponse, AdRevenueEventRequest, AdRevenueData
+HeaderBiddingToken / HeaderBiddingAdMarkup
+TransactionEventRequest / TransactionData
+GetTokenEventRequest, LimitedSessionToken, NativeConfiguration
+DiagnosticEventRequest, MonitoringEventRequest, LifecycleEventRequest
+PrivacyUpdateRequest / PrivacyUpdateResponse, DeveloperConsent
+FeatureFlags, ClientInfo, StaticDeviceInfo, DynamicDeviceInfo
+InstallReferrer, SessionCounters, TokenCounters, RequestPolicy / RequestRetryPolicy / RequestTimeoutPolicy / RequestUrlOverride
+
+===== C. Play Integrity / attestation (11 lines) =====
+IntegrityTokenRequest{nonce=
+Lcom/google/android/play/core/integrity/IntegrityManager;
+Lcom/google/android/play/core/integrity/IntegrityManagerFactory;
+Lcom/google/android/play/core/integrity/IntegrityServiceException;
+Lcom/google/android/play/core/integrity/IntegrityTokenRequest$Builder;
+Lcom/google/android/play/core/integrity/IntegrityTokenRequest;
+com.google.android.play.core.integrity.* (classes3.dex, full package incl. obfuscated a..au helpers)
+com.google.android.play.integrity.internal.* (classes3.dex)
+com.amazon.privacypass.* — AttestAPICallback (Amazon PrivacyPass attestation; permission com.amazon.privacypass.ATTEST in manifest)
+Attestation failed: ... / Error processing attestation request (OMID attestation strings, ads SDKs)
+com.facebook.appevents.integrity.* (Facebook event-integrity filtering, NOT device integrity)
+
+===== D. Billing / IAP (Google Play Billing 8.3.0) (9 lines) =====
+com.king.store.BillingManager / BillingQueue / BillingScheduler (classes4.dex)
+com.king.google.billing.GoogleBillingLibGlue (classes4.dex) — onPurchaseFinished / onConsumeFinished / onAcknowledgeFinished / onQueryProductDetailsFinished / onGetBillingConfigFinished (native callbacks)
+com.king.storemodule.google.GoogleBillingLibGlue (classes.dex)
+com.android.billingclient.api.ProxyBillingActivity / ProxyBillingActivityV2
+com.google.android.gms.internal.play_billing.* (318 classes, classes3.dex)
+manifest meta-data: com.google.android.play.billingclient.version = 8.3.0
+manifest permission: com.android.vending.BILLING + com.android.vending.CHECK_LICENSE
+No literal SKU / product-id strings found in DEX (product catalogue is server-driven or in native lib)
+com.amazon.device.iap.ResponseReceiver exported=true, action com.amazon.inapp.purchasing.NOTIFY (Amazon Appstore IAP path present but dormant on Google Play builds)
+
+===== E. Ads — SDK inventory + endpoints (12 lines) =====
+AppLovin MAX (classes2.dex: 1,247 com.applovin classes) — ms.applovin.com, rt.applovin.com, d.applovin.com, vid.applovin.com, assets.applovin.com, sts.applovin.com; AppLovinInitProvider; MAX debugger activities (not exported); libapplovin-native-crash-reporter.so in split
+ironSource / LevelPlay (classes4.dex: 3,241 com.ironsource classes incl. adqualitysdk) — ControllerActivity / InterstitialActivity / OpenUrlActivity; TestSuiteActivity present
+Unity Ads (classes4.dex: 2,576 com.unity3d classes) — gateway.unityads.unity3d.com/v1, o-sdk.mediation.unity3d.com, scar.unityads.unity3d.com, mediation.unity3d.com/mediation
+Vungle / Liftoff (classes4.dex: 767 com.vungle classes) — logs.ads.vungle.com, adx.ads.vungle.com
+Meta Audience Network (assets/audience_network/classes.dex, 3,605 classes, dex v035) — AudienceNetworkActivity, AudienceNetworkContentProvider
+Google Mobile Ads / AdMob (classes3.dex: 698 com.google.android.gms.ads + 6,566 gms.internal.ads) — AdMob app id ca-app-pub-6472038563747829~9001368100 (manifest); googleads.g.doubleclick.net, pagead2.googlesyndication.com
+Moloco (classes2.dex 243 + classes4.dex 1,910) — sdkapi.dsp-api.moloco.com, sdkopmetrics-us.dsp-api.moloco.com, dsp-api.moloco.com/v2/init
+King ABM (Ad Broker Mediation, com.king.abm.* — classes.dex + classes4.dex, ~490 classes) — AbmAdActivity, AbmMediaPlayerActivity, InteractiveAdActivity, BrowserComponentActivity, DebugViewerActivity; native JNI bridge AdProviderModuleAndroid / AdProviderSDKAndroid (collectBidderTokenJNI)
+OMID viewability: com.iab.omid.library.{activision,applovin,ironsrc,unity3d,vungle} + omsdk-v1.js / omid-session-client-v1.js in assets
+MRAID: assets/mraid.js, assets/mraid-bridge.js, assets/com.moloco.sdk.xenoss.sdkdevkit.mraid.js
+AppLovin SDK key NOT found in DEX strings or decoded resources (likely supplied from native code or server config)
+Unity Game ID / ironSource app key NOT found as literals (same)
+
+===== F. Analytics / attribution / consent (8 lines) =====
+Braze (classes2.dex: 2,623 com.braze classes) — sdk.iad-01.braze.com, sondheim.braze.com; BrazeFcmListenerService, Braze push receivers; manifest bools: com_braze_enable_location_collection=false, geofences=false
+AppsFlyer (classes2.dex: 459 com.appsflyer classes) — AppsFlyerLVL.java / AppsFlyerLVLImpl.java (license check helper); manifest meta-data APPSFLYER_ALLOW_CUSTOM_INSTALL_ID=true
+Firebase Analytics / Messaging / Installations (classes3.dex) — manifest: firebase_analytics_collection_enabled=false, google_analytics_default_allow_ad_user_data=false, google_analytics_default_allow_ad_personalization_signals=false (consent-gated); google_api_key present in res/values/strings.xml (value withheld from this report)
+OneTrust consent (classes4.dex: 861 com.onetrust classes; com.king.usdk.otconsent.OneTrustHelper JNI bridge; mobile-data.onetrust.io)
+Facebook SDK — App ID 210831918949520, ClientToken fb767b93... (manifest meta-data); AutoLogAppEventsEnabled=false; facebook.com / developers.facebook.com
+Google Play Games (classes2/3.dex: com.google.android.gms.games*) — PlayGamesInitProvider; auth scopes games / games_lite / drive.appdata
+Samsung Age Signals (com.google.android.gms.internal.playcore_age_signals; com.king.usdk.privacyagecompliance.UsdkSamsungAgeSignals JNI)
+King analytics receiver: com.king.usdk.kdid.AnalyticsReceiver exported=true — actions com.king.analytics.BOOT_COMPLETED / REQUEST_VALUE / RECEIVE_VALUE
+
+===== G. Anti-cheat / root / emulator signals (strings only — see caveats) (7 lines) =====
+DeviceRootedStatus (string literal, classes.dex) — adjacent to DeviceRiskyUtilities.java / DeviceUtilities.java; NO owning class resolved by string scan; most likely an ad-SDK device-info enum, NOT proven to be a King anti-cheat check
+FRIDA (string literal, classes2.dex) — alphabetically adjacent to FYBER / FOURSQUARE in the string table, i.e. inside an ad-network name list; NOT evidence of Frida detection
+KEY_MOCK_LOCATION (classes.dex) — mock-location key, owner unresolved
+No /system/bin/su, /system/xbin/su, Magisk, Xposed, RootBeer, SafetyNet class names found in DEX
+Play Integrity API present (see section C) — the only proven device-trust mechanism in DEX
+No tamper/cheat class names (no *AntiCheat*, *Tamper*, *CheatDetect*) in any class list
+Server-side validation cannot be assessed from DEX alone; game logic + validation live in libcandycrushsaga.so (85 MB, out of scope for this task)
+
+===== H. JNI / native bridge (method names resolved from DEX class_data) (12 lines) =====
+Entry: com.google.androidgamesdk.GameActivity (AGDK) — initializeNativeCode, onSurfaceCreated/Changed, onTouchEventNative, onKeyDown/UpNative, terminateNativeCode, etc.
+com.king.core.NativeApplication — create/createWithOptions/init/step/destroy/onTouchEvent/onKeyDown/onCommand/onSystemEvent/onWebViewMessage, etc.
+com.king.core.gameactivity.NativeApplication — create/createWithOptions/runOnGameThread
+com.king.candycrushsaga.PlatformProxy::createNativeInstance; MessageBox::userChoise (sic)
+com.king.usdk.* bridges (all JNI callbacks INTO native): lifecycle, braze, facebook sdk, appsflyer, localnotification, pushnotification, observo (tracing spans), otconsent, popupwebview, urllauncher, adinfo, kdId/AnalyticsReceiver, identitygpgs (NotifyRequestServerAuthCodeDone)
+com.king.abm.* ad bridge: AdProviderModuleAndroid (onAdLoaded/onPaidEvent/onPlayCompleted/...), AdProviderSDKAndroid (collectBidderTokenJNI, onSDKInitializedJNI)
+com.king.device.DeviceImpl — setScreenInfo/setStatics/updateLocale/updateNetwork/updateOperator/updateTimeZone
+com.king.store / com.king.google.billing — purchase callbacks listed in section D
+androidx.datastore.core.NativeSharedCounter — nativeCreateSharedCounter / nativeIncrementAndGetCounterValue (libdatastore_shared_counter.so)
+com.applovin.impl.sdk.NativeCrashReporter — enable/disable/updateAdInfo (libapplovin-native-crash-reporter.so)
+com.android.billingclient.api.zzci — nativeOnPurchasesUpdated / nativeOnSkuDetailsResponse / ... (billing client JNI)
+TOTAL native methods resolved: classes.dex 92, classes2.dex 10, classes3.dex 25, classes4.dex 106, classes5.dex 0, audience dex 0 (full list: work/dex/dex-native-methods.txt)
+
+===== I. Framework / SDK fingerprints (7 lines) =====
+Kotlin (kotlin.* metadata dirs, kotlinx.coroutines 454 + kotlinx.serialization 323 classes in classes5.dex)
+Ktor client + OkHttp3 + Retrofit2 (classes5.dex; ktor, okhttp3.internal, retrofit2.http)
+Jetpack Compose (classes.dex: 2,355 androidx.compose classes) + media3 ExoPlayer (1,923 androidx.media3) + DataStore (729) + WorkManager (450) + Room (107)
+Coil image loading (coil.* ~200 classes), Glide (com.bumptech 542 classes)
+Chromium WebView (org.chromium 83 classes in classes5.dex) + androidx.webkit 70 — GDPR/King-account webviews in assets (gdpr-commons, king-account-html-views)
+support.ada (Ada support SDK, 40 classes) — AdaActivity / AdaEmbedActivity
+R8: $r8$lambda$* names + com.android.tools/r8 proguard files in META-INF; META-INF/proguard/*.pro present

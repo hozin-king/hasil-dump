@@ -1,0 +1,129 @@
+==============================================================================
+INTERESTING STRINGS — libapplovin-native-crash-reporter.so (AppLovin MAX native crash reporter)
+Total ASCII strings: 3,974 | UTF-16LE strings: 3 (no readable content).
+This is a THIRD-PARTY crash-reporting library (AppLovin SDK), NOT game logic.
+It installs signal handlers + an alternate signal stack to catch native crashes
+(SIGSEGV etc.) and cache a crash report. No anti-cheat role.
+==============================================================================
+
+### JNI entry points
+_ZN26NativeCrashReporterContext25invoke_old_signal_handlerEiP7siginfoPv
+_ZN26NativeCrashReporterContext28invoke_old_terminate_handlerEv
+_ZN26NativeCrashReporterContextC1ERNSt6__ndk16vectorIiNS0_9allocatorIiEEEEPFviP7siginfoPvEPFvvE
+_ZN26NativeCrashReporterContextC2ERNSt6__ndk16vectorIiNS0_9allocatorIiEEEEPFviP7siginfoPvEPFvvE
+_ZN26NativeCrashReporterContextD1Ev
+_ZN26NativeCrashReporterContextD2Ev
+Java_com_applovin_impl_sdk_NativeCrashReporter_disable
+Java_com_applovin_impl_sdk_NativeCrashReporter_enable
+Java_com_applovin_impl_sdk_NativeCrashReporter_updateAdInfo
+NativeCrashReporter
+
+### Crash handling (signal handlers, alt stack, report caching)
+[%s] Failed to cache crash report
+[%s] Failed to initialize native crash reporter: %s
+[%s] Failed to rethrow exception
+__cxa_allocate_dependent_exception
+__cxa_allocate_exception
+__cxa_current_exception_type
+__cxa_current_primary_exception
+__cxa_decrement_exception_refcount
+__cxa_free_dependent_exception
+__cxa_free_exception
+__cxa_get_exception_ptr
+__cxa_increment_exception_refcount
+__cxa_rethrow_primary_exception
+__cxa_terminate_handler
+__cxa_uncaught_exception
+__cxa_uncaught_exceptions
+__stack_chk_fail
+_Z13handle_signaliP7siginfoPv
+_Z14crash_detectedv
+_Z16get_signal_causeii
+_Z16handle_terminatev
+_Z18end_handling_crashv
+_Z18get_exception_namev
+_Z20begin_handling_crashv
+_ZN26NativeCrashReporterContext25invoke_old_signal_handlerEiP7siginfoPv
+_ZN26NativeCrashReporterContext28invoke_old_terminate_handlerEv
+_ZN26NativeCrashReporterContextC1ERNSt6__ndk16vectorIiNS0_9allocatorIiEEEEPFviP7siginfoPvEPFvvE
+_ZN26NativeCrashReporterContextC2ERNSt6__ndk16vectorIiNS0_9allocatorIiEEEEPFviP7siginfoPvEPFvvE
+_ZN26NativeCrashReporterContextD1Ev
+_ZN26NativeCrashReporterContextD2Ev
+_ZNKSt13bad_exception4whatEv
+_ZNKSt16nested_exception14rethrow_nestedEv
+_ZNKSt9exception4whatEv
+_ZNSt13bad_exceptionD0Ev
+_ZNSt13bad_exceptionD1Ev
+_ZNSt13bad_exceptionD2Ev
+_ZNSt13exception_ptraSERKS_
+_ZNSt13exception_ptrC1ERKS_
+_ZNSt13exception_ptrC2ERKS_
+_ZNSt13exception_ptrD1Ev
+_ZNSt13exception_ptrD2Ev
+_ZNSt16nested_exceptionC1Ev
+_ZNSt16nested_exceptionC2Ev
+_ZNSt16nested_exceptionD0Ev
+_ZNSt16nested_exceptionD1Ev
+_ZNSt16nested_exceptionD2Ev
+_ZNSt6__ndk117__assoc_sub_state13set_exceptionESt13exception_ptr
+_ZNSt6__ndk117__assoc_sub_state28set_exception_at_thread_exitESt13exception_ptr
+_ZNSt6__ndk17promiseIvE13set_exceptionESt13exception_ptr
+_ZNSt6__ndk17promiseIvE28set_exception_at_thread_exitESt13exception_ptr
+_ZNSt9exceptionD0Ev
+_ZNSt9exceptionD1Ev
+_ZNSt9exceptionD2Ev
+_ZSt13get_terminatev
+_ZSt13set_terminatePFvvE
+_ZSt17current_exceptionv
+_ZSt17rethrow_exceptionSt13exception_ptr
+_ZSt18uncaught_exceptionv
+_ZSt19uncaught_exceptionsv
+_ZSt9terminatev
+_ZTISt13bad_exception
+_ZTISt16nested_exception
+_ZTISt9exception
+_ZTSSt13bad_exception
+_ZTSSt16nested_exception
+_ZTSSt9exception
+_ZTVSt13bad_exception
+_ZTVSt16nested_exception
+_ZTVSt9exception
+Child has terminated abnormally and created a core file
+Child has terminated abnormally and did not create a core file
+Failed to initialize alternate signal stack
+Failed to install alternate signal stack
+Internal stack error
+Java_com_applovin_impl_sdk_NativeCrashReporter_disable
+Java_com_applovin_impl_sdk_NativeCrashReporter_enable
+Java_com_applovin_impl_sdk_NativeCrashReporter_updateAdInfo
+libapplovin-native-crash-reporter.so
+N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+NativeCrashReporter
+pthread_cond_signal
+sigaltstack
+St13bad_exception
+St16nested_exception
+St9exception
+std::bad_exception
+std::exception
+strsignal
+terminate_handler unexpectedly returned
+terminate_handler unexpectedly threw an exception
+Terminated with C++ exception: 
+Terminated with signal: 
+terminating with %s exception of type %s
+terminating with %s exception of type %s: %s
+terminating with %s foreign exception
+
+### Other notable strings
+[%s] Failed to cache crash report
+[%s] Failed to initialize native crash reporter: %s
+[%s] Failed to rethrow exception
+_Z12cache_reportRKNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_
+AppLovinSdk
+Failed to initialize alternate signal stack
+Failed to install alternate signal stack
+Java_com_applovin_impl_sdk_NativeCrashReporter_disable
+Java_com_applovin_impl_sdk_NativeCrashReporter_enable
+Java_com_applovin_impl_sdk_NativeCrashReporter_updateAdInfo
+libapplovin-native-crash-reporter.so

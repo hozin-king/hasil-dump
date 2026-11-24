@@ -1,0 +1,888 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== DEX HEADER COUNTS (parsed from DEX headers with pure-Python parser;
+no dexdump/jadx available on this VM — see FINDINGS-dex.md limitations) ===
+
+== extracted/classes.dex (9146304 bytes, dex v037)
+   strings=70257 types=10963 protos=16738 fields=57788 methods=63699 classes=9062
+== extracted/classes2.dex (8248776 bytes, dex v037)
+   strings=57802 types=12774 protos=15796 fields=27909 methods=62343 classes=10030
+== extracted/classes3.dex (7955140 bytes, dex v037)
+   strings=39252 types=13261 protos=15383 fields=33350 methods=61791 classes=11005
+== extracted/classes4.dex (9157528 bytes, dex v037)
+   strings=67162 types=13475 protos=14099 fields=63840 methods=55636 classes=10096
+== extracted/classes5.dex (2951756 bytes, dex v037)
+   strings=20581 types=3883 protos=6915 fields=7230 methods=29019 classes=3328
+== extracted/assets/audience_network/classes.dex (5455144 bytes, dex v035)
+   strings=32685 types=5040 protos=7164 fields=15544 methods=30913 classes=3605
+
+=== TOP-LEVEL PACKAGE HISTOGRAM (per DEX, class_defs only) ===
+
+== extracted/classes.dex: 9062 classes, 104 top-level pkgs
+     2355  androidx.compose
+     1923  androidx.media3
+      729  androidx.datastore
+      710  androidx.core
+      450  androidx.work
+      429  com.king
+      362  androidx.appcompat
+      272  com.android
+      154  androidx.recyclerview
+      149  androidx.fragment
+      126  androidx.lifecycle
+      107  androidx.room
+       88  androidx.constraintlayout
+       83  android.support
+       76  androidx.activity
+       74  androidx.transition
+       73  androidx.emoji2
+       70  androidx.webkit
+       62  androidx.privacysandbox
+       47  androidx.dynamicanimation
+       41  coil.compose
+       38  androidx.sqlite
+       34  androidx.preference
+       32  com.applovin
+       30  androidx.viewpager2
+       29  androidx.profileinstaller
+       29  coil.decode
+       28  coil.request
+       28  coil.util
+       27  androidx.browser
+       26  coil.fetch
+       23  androidx.collection
+       20  androidx.vectordrawable
+       19  androidx.customview
+       19  androidx.swiperefreshlayout
+       19  coil.size
+       19  coil.memory
+       18  androidx.concurrent
+       17  coil.disk
+       16  androidx.arch
+== extracted/classes2.dex: 10030 classes, 9 top-level pkgs
+     3620  com.google
+     2623  com.braze
+     1247  com.applovin
+      806  com.facebook
+      542  com.bumptech
+      489  com.iab
+      459  com.appsflyer
+      243  com.moloco
+        1  com.ff
+== extracted/classes3.dex: 11005 classes, 1 top-level pkgs
+    11005  com.google
+== extracted/classes4.dex: 10096 classes, 6 top-level pkgs
+     3241  com.ironsource
+     2576  com.unity3d
+     1910  com.moloco
+      861  com.onetrust
+      767  com.vungle
+      741  com.king
+== extracted/classes5.dex: 3328 classes, 344 top-level pkgs
+      704  gatewayprotocol.v1
+      598  io.ktor
+      454  kotlinx.coroutines
+      323  kotlinx.serialization
+      188  okhttp3.internal
+       91  kotlin.collections
+       89  kotlin.jvm
+       83  org.chromium
+       54  kotlin.text
+       51  kotlin.reflect
+       45  kotlin.coroutines
+       40  support.ada
+       37  kotlinx.io
+       31  kotlin.sequences
+       31  org.slf4j
+       30  org.jetbrains
+       28  kotlin.io
+       25  retrofit2.http
+       21  kotlin.ranges
+       21  kotlin.time
+       16  okio.internal
+       11  kotlin.random
+       11  retrofit2.converter
+        8  kotlin.internal
+        6  kotlin.comparisons
+        6  kotlin.uuid
+        5  kotlin.enums
+        3  kotlin.math
+        2  kotlin.concurrent
+        2  kotlin.properties
+        1  kotlin.Function
+        1  javax.inject
+        1  kotlin.DeepRecursiveFunction
+        1  kotlin.DeepRecursiveKt
+        1  kotlin.DeepRecursiveScope
+        1  kotlin.DeepRecursiveScopeImpl
+        1  kotlin.ExceptionsKt__ExceptionsKt
+        1  kotlin.ExceptionsKt
+        1  kotlin.Lazy
+        1  kotlin.InitializedLazyImpl
+== extracted/assets/audience_network/classes.dex: 3605 classes, 10 top-level pkgs
+     3570  com.facebook
+       12  org.checkerframework
+        9  com.google
+        5  javax.annotation
+        3  kotlin.annotation
+        2  kotlin.jvm
+        1  androidx.annotation
+        1  kotlin.Metadata
+        1  kotlin.DeprecatedSinceKotlin
+        1  kotlin.Deprecated
+
+=== ALL com.king.* CLASSES (classes.dex + classes4.dex, deduplicated) ===
+--- 741 classes ---
+
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticApiModelOutline0;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda10;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda11;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda12;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda13;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda14;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda15;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda1;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda2;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda3;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda4;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda5;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda6;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda7;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda8;
+Lcom/king/abm/AbmAdActivity$$ExternalSyntheticLambda9;
+Lcom/king/abm/AbmAdActivity$10$1;
+Lcom/king/abm/AbmAdActivity$10;
+Lcom/king/abm/AbmAdActivity$11;
+Lcom/king/abm/AbmAdActivity$12$1;
+Lcom/king/abm/AbmAdActivity$12;
+Lcom/king/abm/AbmAdActivity$13$1;
+Lcom/king/abm/AbmAdActivity$13;
+Lcom/king/abm/AbmAdActivity$14$1;
+Lcom/king/abm/AbmAdActivity$14;
+Lcom/king/abm/AbmAdActivity$1;
+Lcom/king/abm/AbmAdActivity$2;
+Lcom/king/abm/AbmAdActivity$3;
+Lcom/king/abm/AbmAdActivity$4;
+Lcom/king/abm/AbmAdActivity$5;
+Lcom/king/abm/AbmAdActivity$6;
+Lcom/king/abm/AbmAdActivity$7;
+Lcom/king/abm/AbmAdActivity$8$1;
+Lcom/king/abm/AbmAdActivity$8;
+Lcom/king/abm/AbmAdActivity$9;
+Lcom/king/abm/AbmAdActivity$HapticEqualizerView;
+Lcom/king/abm/AbmAdActivity$TouchDelegateComposite;
+Lcom/king/abm/AbmAdActivity;
+Lcom/king/abm/BrowserComponentActivity$1$1;
+Lcom/king/abm/BrowserComponentActivity$1;
+Lcom/king/abm/BrowserComponentActivity$CustomTabsLauncher;
+Lcom/king/abm/BrowserComponentActivity;
+Lcom/king/abm/R$anim;
+Lcom/king/abm/R$animator;
+Lcom/king/abm/R$array;
+Lcom/king/abm/R$attr;
+Lcom/king/abm/R$bool;
+Lcom/king/abm/R$color;
+Lcom/king/abm/R$dimen;
+Lcom/king/abm/R$drawable;
+Lcom/king/abm/R$font;
+Lcom/king/abm/R$id;
+Lcom/king/abm/R$integer;
+Lcom/king/abm/R$interpolator;
+Lcom/king/abm/R$layout;
+Lcom/king/abm/R$plurals;
+Lcom/king/abm/R$raw;
+Lcom/king/abm/R$string;
+Lcom/king/abm/R$style;
+Lcom/king/abm/R$styleable;
+Lcom/king/abm/R$xml;
+Lcom/king/abm/R;
+Lcom/king/abm/adapter/AbmAdapterLoader;
+Lcom/king/abm/adprovider/AdProviderModuleAndroid;
+Lcom/king/abm/adprovider/AdProviderSDKAndroid$1;
+Lcom/king/abm/adprovider/AdProviderSDKAndroid;
+Lcom/king/abm/adquality/BuildConfig;
+Lcom/king/abm/adquality/IronSourceAdQualityAdapter;
+Lcom/king/abm/applovin/AbmAdProviderAppLovin;
+Lcom/king/abm/applovin/BuildConfig;
+Lcom/king/abm/databinding/AbmAdActivityBinding;
+Lcom/king/abm/databinding/AbmChapterFragmentBinding;
+Lcom/king/abm/databinding/AbmChapterVideoFragmentBinding;
+Lcom/king/abm/databinding/AbmHtmlFragmentBinding;
+Lcom/king/abm/databinding/AbmImageFragmentBinding;
+Lcom/king/abm/databinding/AbmMixedChapterAdItemBinding;
+Lcom/king/abm/databinding/AbmVideoFragmentBinding;
+Lcom/king/abm/databinding/BrowserComponentActivityBinding;
+Lcom/king/abm/databinding/PromptDialogViewBinding;
+Lcom/king/abm/facebook/AbmAdProviderFacebook$1$1;
+Lcom/king/abm/facebook/AbmAdProviderFacebook$1;
+Lcom/king/abm/facebook/AbmAdProviderFacebook;
+Lcom/king/abm/facebook/AbmAdProviderRewardAdFacebookRV$1;
+Lcom/king/abm/facebook/AbmAdProviderRewardAdFacebookRV$2;
+Lcom/king/abm/facebook/AbmAdProviderRewardAdFacebookRV;
+Lcom/king/abm/facebook/BuildConfig;
+Lcom/king/abm/google/AbmAdProviderGoogle$$ExternalSyntheticBackport0;
+Lcom/king/abm/google/AbmAdProviderGoogle$$ExternalSyntheticBackport1;
+Lcom/king/abm/google/AbmAdProviderGoogle$1$1;
+Lcom/king/abm/google/AbmAdProviderGoogle$1;
+Lcom/king/abm/google/AbmAdProviderGoogle$2;
+Lcom/king/abm/google/AbmAdProviderGoogle$3$1;
+Lcom/king/abm/google/AbmAdProviderGoogle$3;
+Lcom/king/abm/google/AbmAdProviderGoogle$4;
+Lcom/king/abm/google/AbmAdProviderGoogle$ProviderState;
+Lcom/king/abm/google/AbmAdProviderGoogle;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$1;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$2$1$1$1;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$2$1$1;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$2$1;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$2;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$3$1;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle$3;
+Lcom/king/abm/google/AbmAdProviderInterstitialAdGoogle;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$1;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$2;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$3$1$1;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$3$1;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$3;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$4$1;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV$4;
+Lcom/king/abm/google/AbmAdProviderRewardAdGoogleRV;
+Lcom/king/abm/google/BuildConfig;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$anim;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$animator;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$attr;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$bool;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$color;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$dimen;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$drawable;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$id;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$integer;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$interpolator;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$layout;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$menu;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$raw;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$string;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$style;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$styleable;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R$xml;
+Lcom/king/abm/integration/thirdparties/android/abmsdk3pbundle/R;
+Lcom/king/abm/internal/AbmAdCommonViewModel;
+Lcom/king/abm/internal/AbmAdPlayer$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmAdPlayer$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmAdPlayer$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/AbmAdPlayer;
+Lcom/king/abm/internal/AbmAdPlayerChapterAdIndicatorView$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmAdPlayerChapterAdIndicatorView$PieIndicatorView;
+Lcom/king/abm/internal/AbmAdPlayerChapterAdIndicatorView;
+Lcom/king/abm/internal/AbmAdPlayerLayoutConfig;
+Lcom/king/abm/internal/AbmAdPlayerPromptDialogFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmAdPlayerPromptDialogFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmAdPlayerPromptDialogFragment$1;
+Lcom/king/abm/internal/AbmAdPlayerPromptDialogFragment;
+Lcom/king/abm/internal/AbmAdProviderAdapter;
+Lcom/king/abm/internal/AbmAdProviderAdapterListener;
+Lcom/king/abm/internal/AbmAdProviderRewardAd;
+Lcom/king/abm/internal/AbmAdProviderRewardedAdListener;
+Lcom/king/abm/internal/AbmAdapterNameValuePairs;
+Lcom/king/abm/internal/AbmHtmlBridge$AbmInteractiveAdListener;
+Lcom/king/abm/internal/AbmHtmlBridge$ViewState;
+Lcom/king/abm/internal/AbmHtmlBridge;
+Lcom/king/abm/internal/AbmHtmlFragment;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticBackport0;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticLambda4;
+Lcom/king/abm/internal/AbmHtmlPage$$ExternalSyntheticLambda5;
+Lcom/king/abm/internal/AbmHtmlPage$1;
+Lcom/king/abm/internal/AbmHtmlPage$2;
+Lcom/king/abm/internal/AbmHtmlPage$3;
+Lcom/king/abm/internal/AbmHtmlPage$4;
+Lcom/king/abm/internal/AbmHtmlPage$5;
+Lcom/king/abm/internal/AbmHtmlPage$EWebViewState;
+Lcom/king/abm/internal/AbmHtmlPage;
+Lcom/king/abm/internal/AbmImageFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmImageFragment$1;
+Lcom/king/abm/internal/AbmImageFragment$2$1;
+Lcom/king/abm/internal/AbmImageFragment$2;
+Lcom/king/abm/internal/AbmImageFragment$3;
+Lcom/king/abm/internal/AbmImageFragment$4;
+Lcom/king/abm/internal/AbmImageFragment;
+Lcom/king/abm/internal/AbmJsInjector;
+Lcom/king/abm/internal/AbmJsReportFailures;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter$1;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter$ContentType;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter$MixedChapterItemHolder;
+Lcom/king/abm/internal/AbmMixedChapterAdMediaAdapter;
+Lcom/king/abm/internal/AbmMixedChapterContent;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda4;
+Lcom/king/abm/internal/AbmMixedChapterFragment$$ExternalSyntheticLambda5;
+Lcom/king/abm/internal/AbmMixedChapterFragment$1;
+Lcom/king/abm/internal/AbmMixedChapterFragment$2;
+Lcom/king/abm/internal/AbmMixedChapterFragment$OmSdkPageState;
+Lcom/king/abm/internal/AbmMixedChapterFragment;
+Lcom/king/abm/internal/AbmSafeValueAnimator$1;
+Lcom/king/abm/internal/AbmSafeValueAnimator$EndListener;
+Lcom/king/abm/internal/AbmSafeValueAnimator$UpdateListener;
+Lcom/king/abm/internal/AbmSafeValueAnimator;
+Lcom/king/abm/internal/AbmVideoFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmVideoFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AbmVideoFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/AbmVideoFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/AbmVideoFragment$1;
+Lcom/king/abm/internal/AbmVideoFragment$2;
+Lcom/king/abm/internal/AbmVideoFragment$State;
+Lcom/king/abm/internal/AbmVideoFragment;
+Lcom/king/abm/internal/AbmWebHelpers;
+Lcom/king/abm/internal/AbmWebView$AbmWebviewVisibilityListener;
+Lcom/king/abm/internal/AbmWebView;
+Lcom/king/abm/internal/AbmWebViewClient$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AbmWebViewClient$1;
+Lcom/king/abm/internal/AbmWebViewClient$2;
+Lcom/king/abm/internal/AbmWebViewClient$3;
+Lcom/king/abm/internal/AbmWebViewClient$EPageLoadEvent;
+Lcom/king/abm/internal/AbmWebViewClient;
+Lcom/king/abm/internal/AdProviderNameValuePairs;
+Lcom/king/abm/internal/AdRunnable;
+Lcom/king/abm/internal/AdVerification$Verification;
+Lcom/king/abm/internal/AdVerification;
+Lcom/king/abm/internal/AdsPlatformAbstraction$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/AdsPlatformAbstraction$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/AdsPlatformAbstraction$Orientation;
+Lcom/king/abm/internal/AdsPlatformAbstraction;
+Lcom/king/abm/internal/AdvertisingIdSource;
+Lcom/king/abm/internal/AttitudeManager;
+Lcom/king/abm/internal/BandwidthHandler;
+Lcom/king/abm/internal/BaseMediaFragment$FriendlyObstructionConfig;
+Lcom/king/abm/internal/BaseMediaFragment;
+Lcom/king/abm/internal/BidderTokenListener;
+Lcom/king/abm/internal/BrowserComponent;
+Lcom/king/abm/internal/DefaultAdvertisingIdSource;
+Lcom/king/abm/internal/DefaultFileSystem;
+Lcom/king/abm/internal/DownloadChunkConfig$Timeout;
+Lcom/king/abm/internal/DownloadChunkConfig;
+Lcom/king/abm/internal/DownloadChunkExecutor$1;
+Lcom/king/abm/internal/DownloadChunkExecutor$2;
+Lcom/king/abm/internal/DownloadChunkExecutor$Error;
+Lcom/king/abm/internal/DownloadChunkExecutor;
+Lcom/king/abm/internal/DownloadChunkTask$State;
+Lcom/king/abm/internal/DownloadChunkTask;
+Lcom/king/abm/internal/DownloadFileRunnable;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline0;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline1;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline2;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline3;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline4;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline5;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline6;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline7;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline8;
+Lcom/king/abm/internal/HapticPlaybackController$$ExternalSyntheticApiModelOutline9;
+Lcom/king/abm/internal/HapticPlaybackController$DebugListener;
+Lcom/king/abm/internal/HapticPlaybackController$HapticEntry;
+Lcom/king/abm/internal/HapticPlaybackController$ImpactEntry;
+Lcom/king/abm/internal/HapticPlaybackController$PatternEntry;
+Lcom/king/abm/internal/HapticPlaybackController$Schedule;
+Lcom/king/abm/internal/HapticPlaybackController;
+Lcom/king/abm/internal/HtmlClickBridge$HtmlClickListener;
+Lcom/king/abm/internal/HtmlClickBridge;
+Lcom/king/abm/internal/Http$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/Http$HttpRequestConfiguration;
+Lcom/king/abm/internal/Http;
+Lcom/king/abm/internal/HttpErrorExtra;
+Lcom/king/abm/internal/HttpGetHandler;
+Lcom/king/abm/internal/HttpGetRunnable;
+Lcom/king/abm/internal/HttpPostHandler;
+Lcom/king/abm/internal/HttpPostRunnable;
+Lcom/king/abm/internal/IAbmAdapter;
+Lcom/king/abm/internal/IAbmAdapterAndroid;
+Lcom/king/abm/internal/IAbmAdapterListener;
+Lcom/king/abm/internal/IAbmPlayerInterface;
+Lcom/king/abm/internal/IDownloadChunkListener;
+Lcom/king/abm/internal/IHttpDownloadHandler;
+Lcom/king/abm/internal/IWebViewClientEventsListener;
+Lcom/king/abm/internal/Logging;
+Lcom/king/abm/internal/MraidUsageDetector;
+Lcom/king/abm/internal/NameValuePairs;
+Lcom/king/abm/internal/NetworkListener$1;
+Lcom/king/abm/internal/NetworkListener;
+Lcom/king/abm/internal/NetworkObstructionChecker$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/NetworkObstructionChecker$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/NetworkObstructionChecker$Callback;
+Lcom/king/abm/internal/NetworkObstructionChecker$NetworkInterfaceGetter;
+Lcom/king/abm/internal/NetworkObstructionChecker$URLConnectionFactory;
+Lcom/king/abm/internal/NetworkObstructionChecker;
+Lcom/king/abm/internal/NetworkType;
+Lcom/king/abm/internal/OmSdkWrapper$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/OmSdkWrapper$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/OmSdkWrapper$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/OmSdkWrapper$1;
+Lcom/king/abm/internal/OmSdkWrapper$ErrorType;
+Lcom/king/abm/internal/OmSdkWrapper$EventType;
+Lcom/king/abm/internal/OmSdkWrapper$ObstructionPurpose;
+Lcom/king/abm/internal/OmSdkWrapper$PlaybackConfig;
+Lcom/king/abm/internal/OmSdkWrapper$Quartile;
+Lcom/king/abm/internal/OmSdkWrapper;
+Lcom/king/abm/internal/Optional$Consumer;
+Lcom/king/abm/internal/Optional$Supplier;
+Lcom/king/abm/internal/Optional;
+Lcom/king/abm/internal/PlayerButtonStyle$Fill;
+Lcom/king/abm/internal/PlayerButtonStyle;
+Lcom/king/abm/internal/PlayerLayoutIds;
+Lcom/king/abm/internal/PromptFragmentViewModel;
+Lcom/king/abm/internal/UUID;
+Lcom/king/abm/internal/Utils;
+Lcom/king/abm/internal/debugviewer/DebugViewerActivity$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerActivity$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerActivity$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/debugviewer/DebugViewerActivity;
+Lcom/king/abm/internal/debugviewer/DebugViewerApi;
+Lcom/king/abm/internal/debugviewer/DebugViewerAppConfigFragment;
+Lcom/king/abm/internal/debugviewer/DebugViewerButton;
+Lcom/king/abm/internal/debugviewer/DebugViewerColors;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$1;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$EventLogAdapter$VH$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$EventLogAdapter$VH$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$EventLogAdapter$VH;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$EventLogAdapter;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$ParsedEvent;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment$RowTapListener;
+Lcom/king/abm/internal/debugviewer/DebugViewerEventLogFragment;
+Lcom/king/abm/internal/debugviewer/DebugViewerInfoFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerInfoFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerInfoFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/debugviewer/DebugViewerInfoFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/debugviewer/DebugViewerInfoFragment;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda4;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda5;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda6;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda7;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda8;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$$ExternalSyntheticLambda9;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$LineAdapter$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$LineAdapter$VH;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment$LineAdapter;
+Lcom/king/abm/internal/debugviewer/DebugViewerJsonFragment;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementConfigFragment;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda0;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda1;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda2;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda3;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda4;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$$ExternalSyntheticLambda5;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment$PlacementRow;
+Lcom/king/abm/internal/debugviewer/DebugViewerPlacementsFragment;
+Lcom/king/abm/internal/debugviewer/KnnEventNames;
+Lcom/king/abm/internal/google/GoogleAdvertisingIdSource$LoadTask;
+Lcom/king/abm/internal/google/GoogleAdvertisingIdSource;
+Lcom/king/abm/ironsource/AbmAdProviderIronSource$1;
+Lcom/king/abm/ironsource/AbmAdProviderIronSource$2;
+Lcom/king/abm/ironsource/AbmAdProviderIronSource$3;
+Lcom/king/abm/ironsource/AbmAdProviderIronSource;
+Lcom/king/abm/ironsource/AbmAdProviderRewardAdIronSourceRV$1;
+Lcom/king/abm/ironsource/AbmAdProviderRewardAdIronSourceRV$2;
+Lcom/king/abm/ironsource/AbmAdProviderRewardAdIronSourceRV;
+Lcom/king/abm/ironsource/BuildConfig;
+Lcom/king/abm/moloco/AbmAdProviderMoloco$$ExternalSyntheticLambda0;
+Lcom/king/abm/moloco/AbmAdProviderMoloco$$ExternalSyntheticLambda1;
+Lcom/king/abm/moloco/AbmAdProviderMoloco;
+Lcom/king/abm/moloco/AbmAdProviderRewardAdMolocoRV$$ExternalSyntheticLambda0;
+Lcom/king/abm/moloco/AbmAdProviderRewardAdMolocoRV;
+Lcom/king/abm/moloco/BuildConfig;
+Lcom/king/abm/unity/AbmAdProviderRewardAdUnityRV$1;
+Lcom/king/abm/unity/AbmAdProviderRewardAdUnityRV$2;
+Lcom/king/abm/unity/AbmAdProviderRewardAdUnityRV$3;
+Lcom/king/abm/unity/AbmAdProviderRewardAdUnityRV;
+Lcom/king/abm/unity/AbmAdProviderUnity$1$1;
+Lcom/king/abm/unity/AbmAdProviderUnity$1;
+Lcom/king/abm/unity/AbmAdProviderUnity;
+Lcom/king/abm/unity/BuildConfig;
+Lcom/king/abm/vungle/AbmAdProviderRewardAdVungleRV;
+Lcom/king/abm/vungle/AbmAdProviderVungle$1;
+Lcom/king/abm/vungle/AbmAdProviderVungle$2;
+Lcom/king/abm/vungle/AbmAdProviderVungle;
+Lcom/king/abm/vungle/BuildConfig;
+Lcom/king/audio/AudioSessionHandler$1;
+Lcom/king/audio/AudioSessionHandler$2;
+Lcom/king/audio/AudioSessionHandler$3;
+Lcom/king/audio/AudioSessionHandler$AudioAttributesBuilder;
+Lcom/king/audio/AudioSessionHandler$AudioFocusChangeType;
+Lcom/king/audio/AudioSessionHandler$AudioFocusRequestBuilder;
+Lcom/king/audio/AudioSessionHandler$AudioSessionException;
+Lcom/king/audio/AudioSessionHandler;
+Lcom/king/candycrushsaga/CandyCrushSagaActivity$$ExternalSyntheticLambda0;
+Lcom/king/candycrushsaga/CandyCrushSagaActivity$1$$ExternalSyntheticLambda0;
+Lcom/king/candycrushsaga/CandyCrushSagaActivity$1;
+Lcom/king/candycrushsaga/CandyCrushSagaActivity;
+Lcom/king/candycrushsaga/HelpLog;
+Lcom/king/candycrushsaga/Notifier;
+Lcom/king/candycrushsaga/PlatformProxy;
+Lcom/king/candycrushsaga/R$anim;
+Lcom/king/candycrushsaga/R$animator;
+Lcom/king/candycrushsaga/R$array;
+Lcom/king/candycrushsaga/R$attr;
+Lcom/king/candycrushsaga/R$bool;
+Lcom/king/candycrushsaga/R$color;
+Lcom/king/candycrushsaga/R$dimen;
+Lcom/king/candycrushsaga/R$drawable;
+Lcom/king/candycrushsaga/R$font;
+Lcom/king/candycrushsaga/R$id;
+Lcom/king/candycrushsaga/R$integer;
+Lcom/king/candycrushsaga/R$interpolator;
+Lcom/king/candycrushsaga/R$layout;
+Lcom/king/candycrushsaga/R$menu;
+Lcom/king/candycrushsaga/R$mipmap;
+Lcom/king/candycrushsaga/R$plurals;
+Lcom/king/candycrushsaga/R$raw;
+Lcom/king/candycrushsaga/R$string;
+Lcom/king/candycrushsaga/R$style;
+Lcom/king/candycrushsaga/R$styleable;
+Lcom/king/candycrushsaga/R$xml;
+Lcom/king/candycrushsaga/R;
+Lcom/king/candycrushsaga/UuidGenerator;
+Lcom/king/candycrushsaga/ccsm_platform/messagebox/MessageBox$1;
+Lcom/king/candycrushsaga/ccsm_platform/messagebox/MessageBox$2;
+Lcom/king/candycrushsaga/ccsm_platform/messagebox/MessageBox$3;
+Lcom/king/candycrushsaga/ccsm_platform/messagebox/MessageBox;
+Lcom/king/candycrushsaga/ccsm_platform/screenshot/ScreenshotCapture$$ExternalSyntheticApiModelOutline0;
+Lcom/king/candycrushsaga/ccsm_platform/screenshot/ScreenshotCapture$$ExternalSyntheticLambda1;
+Lcom/king/candycrushsaga/ccsm_platform/screenshot/ScreenshotCapture;
+Lcom/king/candycrushsaga/debug/WebViewRemoteDebugging;
+Lcom/king/core/AndroidCallstackUtils$$ExternalSyntheticLambda0;
+Lcom/king/core/AndroidCallstackUtils;
+Lcom/king/core/AppExitInfoUtils$$ExternalSyntheticLambda0;
+Lcom/king/core/AppExitInfoUtils$$ExternalSyntheticLambda1;
+Lcom/king/core/AppExitInfoUtils$ExitInfo;
+Lcom/king/core/AppExitInfoUtils;
+Lcom/king/core/AppNotRespondingTaskProcessor$$ExternalSyntheticLambda0;
+Lcom/king/core/AppNotRespondingTaskProcessor;
+Lcom/king/core/AppNotRespondingTest$$ExternalSyntheticLambda0;
+Lcom/king/core/AppNotRespondingTest$$ExternalSyntheticLambda1;
+Lcom/king/core/AppNotRespondingTest$$ExternalSyntheticLambda2;
+Lcom/king/core/AppNotRespondingTest$$ExternalSyntheticLambda3;
+Lcom/king/core/AppNotRespondingTest;
+Lcom/king/core/BatteryStatus$1;
+Lcom/king/core/BatteryStatus;
+Lcom/king/core/BuildConfig;
+Lcom/king/core/Clipboard;
+Lcom/king/core/ConfigChooser$ConfigSettings;
+Lcom/king/core/ConfigChooser;
+Lcom/king/core/Device;
+Lcom/king/core/DeviceLocale;
+Lcom/king/core/Dialog$1$1$1;
+Lcom/king/core/Dialog$1$1;
+Lcom/king/core/Dialog$1;
+Lcom/king/core/Dialog$2$1;
+Lcom/king/core/Dialog$2;
+Lcom/king/core/Dialog$3$1;
+Lcom/king/core/Dialog$3;
+Lcom/king/core/Dialog$4$1;
+Lcom/king/core/Dialog$4;
+Lcom/king/core/Dialog;
+Lcom/king/core/EditableWatcher;
+Lcom/king/core/FileHandle;
+Lcom/king/core/FileLib;
+Lcom/king/core/FileSystem;
+Lcom/king/core/GameLib$1;
+Lcom/king/core/GameLib$2;
+Lcom/king/core/GameLib;
+Lcom/king/core/GameRenderer$$ExternalSyntheticLambda0;
+Lcom/king/core/GameRenderer$ScreenRotation;
+Lcom/king/core/GameRenderer;
+Lcom/king/core/GameView$$ExternalSyntheticApiModelOutline0;
+Lcom/king/core/GameView$$ExternalSyntheticLambda1;
+Lcom/king/core/GameView$$ExternalSyntheticLambda2;
+Lcom/king/core/GameView$$ExternalSyntheticLambda3;
+Lcom/king/core/GameView$$ExternalSyntheticLambda4;
+Lcom/king/core/GameView$1$$ExternalSyntheticLambda0;
+Lcom/king/core/GameView$1;
+Lcom/king/core/GameView$2;
+Lcom/king/core/GameView$InitializationOptions;
+Lcom/king/core/GameView;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline0;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline10;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline11;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline12;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline13;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline14;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline1;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline2;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline3;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline4;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline5;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline6;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline7;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline8;
+Lcom/king/core/HapticManager$$ExternalSyntheticApiModelOutline9;
+Lcom/king/core/HapticManager;
+Lcom/king/core/IEngineActivity;
+Lcom/king/core/ITextBox;
+Lcom/king/core/InputMapPC$MouseControls;
+Lcom/king/core/InputMapPC;
+Lcom/king/core/InputMapProvider;
+Lcom/king/core/JavaExceptionGeneratorForTest;
+Lcom/king/core/KeyboardManager$1;
+Lcom/king/core/KeyboardManager$2;
+Lcom/king/core/KeyboardManager$3;
+Lcom/king/core/KeyboardManager$4;
+Lcom/king/core/KeyboardManager;
+Lcom/king/core/KeyboardMapping;
+Lcom/king/core/Messaging;
+Lcom/king/core/NativeApplication$ESystemEvent;
+Lcom/king/core/NativeApplication;
+Lcom/king/core/NativeEditText$OnKeyPreIme;
+Lcom/king/core/NativeEditText;
+Lcom/king/core/NativeTextBox$1;
+Lcom/king/core/NativeTextBox$2;
+Lcom/king/core/NativeTextBox$3;
+Lcom/king/core/NativeTextBox$4;
+Lcom/king/core/NativeTextBox$5;
+Lcom/king/core/NativeTextBox$6;
+Lcom/king/core/NativeTextBox$7;
+Lcom/king/core/NativeTextBox$AnimationState;
+Lcom/king/core/NativeTextBox$NativeTextBoxSettings;
+Lcom/king/core/NativeTextBox;
+Lcom/king/core/OnAppEventListener;
+Lcom/king/core/OrientationManager;
+Lcom/king/core/PlatformSetup;
+Lcom/king/core/SimpleInputConnection$1;
+Lcom/king/core/SimpleInputConnection$EditableReplaceCallback;
+Lcom/king/core/SimpleInputConnection;
+Lcom/king/core/SoftTextBox;
+Lcom/king/core/SplashView;
+Lcom/king/core/SplashViewBuilder;
+Lcom/king/core/TextInput$KeyboardType;
+Lcom/king/core/TextInput$ReturnKey;
+Lcom/king/core/TextInput;
+Lcom/king/core/Time;
+Lcom/king/core/UncaughtExceptionWriter;
+Lcom/king/core/activityhelper/ActivityHelper$ActivityLifeCycleExtrasListener;
+Lcom/king/core/activityhelper/ActivityHelper$ActivityLifeCycleListener;
+Lcom/king/core/activityhelper/ActivityHelper$ActivityPermissionListener;
+Lcom/king/core/activityhelper/ActivityHelper$ActivityResultListener;
+Lcom/king/core/activityhelper/ActivityHelper$Cache;
+Lcom/king/core/activityhelper/ActivityHelper$CacheEntry;
+Lcom/king/core/activityhelper/ActivityHelper;
+Lcom/king/core/gameactivity/BuildConfig;
+Lcom/king/core/gameactivity/GameLib$1;
+Lcom/king/core/gameactivity/GameLib$2;
+Lcom/king/core/gameactivity/GameLib;
+Lcom/king/core/gameactivity/NativeApplication$ESystemEvent;
+Lcom/king/core/gameactivity/NativeApplication;
+Lcom/king/core/gameactivity/SplashView;
+Lcom/king/core/gameactivity/SplashViewBuilder;
+Lcom/king/core/openurlsystem/OpenUrlSystem$1;
+Lcom/king/core/openurlsystem/OpenUrlSystem;
+Lcom/king/device/DeviceImpl$LocaleReceiver;
+Lcom/king/device/DeviceImpl$NetworkConnectivityStatus$1;
+Lcom/king/device/DeviceImpl$NetworkConnectivityStatus;
+Lcom/king/device/DeviceImpl$NetworkConnectivityStatusHolder;
+Lcom/king/device/DeviceImpl$TimeZoneReceiver;
+Lcom/king/device/DeviceImpl-IA;
+Lcom/king/device/DeviceImpl;
+Lcom/king/firebaseanalytics/ComplianceDMA$Helper$OTIABKeys;
+Lcom/king/firebaseanalytics/ComplianceDMA$Helper;
+Lcom/king/firebaseanalytics/ComplianceDMA;
+Lcom/king/firebaseanalytics/FirebaseAnalyticsManager$$ExternalSyntheticLambda0;
+Lcom/king/firebaseanalytics/FirebaseAnalyticsManager;
+Lcom/king/firebaseanalytics/R$anim;
+Lcom/king/firebaseanalytics/R$animator;
+Lcom/king/firebaseanalytics/R$attr;
+Lcom/king/firebaseanalytics/R$bool;
+Lcom/king/firebaseanalytics/R$color;
+Lcom/king/firebaseanalytics/R$dimen;
+Lcom/king/firebaseanalytics/R$drawable;
+Lcom/king/firebaseanalytics/R$id;
+Lcom/king/firebaseanalytics/R$integer;
+Lcom/king/firebaseanalytics/R$interpolator;
+Lcom/king/firebaseanalytics/R$layout;
+Lcom/king/firebaseanalytics/R$raw;
+Lcom/king/firebaseanalytics/R$string;
+Lcom/king/firebaseanalytics/R$style;
+Lcom/king/firebaseanalytics/R$styleable;
+Lcom/king/firebaseanalytics/R;
+Lcom/king/google/billing/GoogleBillingLibGlue$$ExternalSyntheticLambda0;
+Lcom/king/google/billing/GoogleBillingLibGlue$$ExternalSyntheticLambda1;
+Lcom/king/google/billing/GoogleBillingLibGlue$1;
+Lcom/king/google/billing/GoogleBillingLibGlue$2;
+Lcom/king/google/billing/GoogleBillingLibGlue$3;
+Lcom/king/google/billing/GoogleBillingLibGlue$4;
+Lcom/king/google/billing/GoogleBillingLibGlue$5;
+Lcom/king/google/billing/GoogleBillingLibGlue$6;
+Lcom/king/google/billing/GoogleBillingLibGlue;
+Lcom/king/google/billing/R$anim;
+Lcom/king/google/billing/R$animator;
+Lcom/king/google/billing/R$attr;
+Lcom/king/google/billing/R$color;
+Lcom/king/google/billing/R$dimen;
+Lcom/king/google/billing/R$drawable;
+Lcom/king/google/billing/R$id;
+Lcom/king/google/billing/R$integer;
+Lcom/king/google/billing/R$layout;
+Lcom/king/google/billing/R$raw;
+Lcom/king/google/billing/R$string;
+Lcom/king/google/billing/R$style;
+Lcom/king/google/billing/R$styleable;
+Lcom/king/google/billing/R$xml;
+Lcom/king/google/billing/R;
+Lcom/king/google/billing/UsedByNativeCode;
+Lcom/king/http/CalledByNative;
+Lcom/king/http/HttpHeaders$Header;
+Lcom/king/http/HttpHeaders;
+Lcom/king/http/HttpManager;
+Lcom/king/http/HttpTask$Listener;
+Lcom/king/http/HttpTask;
+Lcom/king/installreferrer/KingInstallReferrerClient$ClientState;
+Lcom/king/installreferrer/KingInstallReferrerClient$InstallReferrerServiceConnection;
+Lcom/king/installreferrer/KingInstallReferrerClient-IA;
+Lcom/king/installreferrer/KingInstallReferrerClient;
+Lcom/king/installreferrer/KingInstallReferrerDetails;
+Lcom/king/jnihelpers/UsedByNativeCode;
+Lcom/king/libsocial/SocialLib;
+Lcom/king/lifecycletracking/WebViewHelper$1;
+Lcom/king/lifecycletracking/WebViewHelper;
+Lcom/king/logging/BuildConfig;
+Lcom/king/logging/Logging;
+Lcom/king/main/BuildConfig;
+Lcom/king/main/EngineActivity$$ExternalSyntheticApiModelOutline0;
+Lcom/king/main/EngineActivity$$ExternalSyntheticApiModelOutline1;
+Lcom/king/main/EngineActivity$$ExternalSyntheticApiModelOutline2;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda10;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda11;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda12;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda3;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda4;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda5;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda6;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda7;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda8;
+Lcom/king/main/EngineActivity$$ExternalSyntheticLambda9;
+Lcom/king/main/EngineActivity$1$$ExternalSyntheticLambda0;
+Lcom/king/main/EngineActivity$1$$ExternalSyntheticLambda1;
+Lcom/king/main/EngineActivity$1$$ExternalSyntheticLambda2;
+Lcom/king/main/EngineActivity$1$$ExternalSyntheticLambda3;
+Lcom/king/main/EngineActivity$1$$ExternalSyntheticLambda4;
+Lcom/king/main/EngineActivity$1;
+Lcom/king/main/EngineActivity$2;
+Lcom/king/main/EngineActivity$3$$ExternalSyntheticLambda0;
+Lcom/king/main/EngineActivity$3;
+Lcom/king/main/EngineActivity$CommandBroadcastReceiver$$ExternalSyntheticLambda0;
+Lcom/king/main/EngineActivity$CommandBroadcastReceiver;
+Lcom/king/main/EngineActivity$OrientationConstraint;
+Lcom/king/main/EngineActivity$SafeAreaCalculator$$ExternalSyntheticApiModelOutline0;
+Lcom/king/main/EngineActivity$SafeAreaCalculator$$ExternalSyntheticApiModelOutline1;
+Lcom/king/main/EngineActivity$SafeAreaCalculator$$ExternalSyntheticApiModelOutline2;
+Lcom/king/main/EngineActivity$SafeAreaCalculator;
+Lcom/king/main/EngineActivity;
+Lcom/king/main/R$anim;
+Lcom/king/main/R$animator;
+Lcom/king/main/R$attr;
+Lcom/king/main/R$bool;
+Lcom/king/main/R$color;
+Lcom/king/main/R$dimen;
+Lcom/king/main/R$drawable;
+Lcom/king/main/R$id;
+Lcom/king/main/R$integer;
+Lcom/king/main/R$interpolator;
+Lcom/king/main/R$layout;
+Lcom/king/main/R$string;
+Lcom/king/main/R$style;
+Lcom/king/main/R$styleable;
+Lcom/king/main/R;
+Lcom/king/network/Network$NetworkConnectivityStatus$1;
+Lcom/king/network/Network$NetworkConnectivityStatus;
+Lcom/king/network/Network$NetworkConnectivityStatusHolder;
+Lcom/king/network/Network;
+Lcom/king/sdk/core/KsdkCoreActivityHelper;
+Lcom/king/store/BillingManager$$ExternalSyntheticLambda0;
+Lcom/king/store/BillingManager$$ExternalSyntheticLambda1;
+Lcom/king/store/BillingManager$$ExternalSyntheticLambda2;
+Lcom/king/store/BillingManager$$ExternalSyntheticLambda3;
+Lcom/king/store/BillingManager$1;
+Lcom/king/store/BillingManager$2;
+Lcom/king/store/BillingManager$3;
+Lcom/king/store/BillingManager$4;
+Lcom/king/store/BillingManager$5$$ExternalSyntheticBackport0;
+Lcom/king/store/BillingManager$5$$ExternalSyntheticBackport1;
+Lcom/king/store/BillingManager$5;
+Lcom/king/store/BillingManager$6;
+Lcom/king/store/BillingManager$7;
+Lcom/king/store/BillingManager$8$$ExternalSyntheticLambda0;
+Lcom/king/store/BillingManager$8;
+Lcom/king/store/BillingManager;
+Lcom/king/store/BillingManagerListener;
+Lcom/king/store/BillingQueue;
+Lcom/king/store/BillingScheduler$1;
+Lcom/king/store/BillingScheduler$BillingAction;
+Lcom/king/store/BillingScheduler$BillingState;
+Lcom/king/store/BillingScheduler$TaskPriority;
+Lcom/king/store/BillingScheduler;
+Lcom/king/store/R$anim;
+Lcom/king/store/R$animator;
+Lcom/king/store/R$attr;
+Lcom/king/store/R$color;
+Lcom/king/store/R$dimen;
+Lcom/king/store/R$drawable;
+Lcom/king/store/R$id;
+Lcom/king/store/R$integer;
+Lcom/king/store/R$layout;
+Lcom/king/store/R$raw;
+Lcom/king/store/R$string;
+Lcom/king/store/R$style;
+Lcom/king/store/R$styleable;
+Lcom/king/store/R$xml;
+Lcom/king/store/R;
+Lcom/king/store/billingutil/Base64;
+Lcom/king/store/billingutil/Base64DecoderException;
+Lcom/king/store/billingutil/Security;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$10;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$11;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$1;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$2;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$3;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$4;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$5;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$6;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$7;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$8;
+Lcom/king/storemodule/google/GoogleBillingLibGlue$9;
+Lcom/king/storemodule/google/GoogleBillingLibGlue;
+Lcom/king/storemodule/google/R$anim;
+Lcom/king/storemodule/google/R$animator;
+Lcom/king/storemodule/google/R$attr;
+Lcom/king/storemodule/google/R$color;
+Lcom/king/storemodule/google/R$dimen;
+Lcom/king/storemodule/google/R$drawable;
+Lcom/king/storemodule/google/R$id;
+Lcom/king/storemodule/google/R$integer;
+Lcom/king/storemodule/google/R$layout;
+Lcom/king/storemodule/google/R$raw;
+Lcom/king/storemodule/google/R$string;
+Lcom/king/storemodule/google/R$style;
+Lcom/king/storemodule/google/R$styleable;
+Lcom/king/storemodule/google/R$xml;
+Lcom/king/storemodule/google/R;
+
+=== NOTES ===
+- classes3.dex is 100% com.google (11,005 classes: GMS ads/measurement,
+  Play Billing internals, Play Integrity, Firebase, Material).
+- classes5.dex is mostly Kotlin runtime + Ktor/OkHttp + gatewayprotocol.v1
+  (King's own protobuf gateway protocol, 704 classes).
+- Full per-DEX sorted class lists live in the work dir:
+  ~/workspace/candy-crush-dump/work/dex/classes-*.txt

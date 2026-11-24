@@ -1,0 +1,22 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== SHA-256 ===
+7886948de978b25dde0763d0dc14834b12f5c590c19a4d952cf4aa7ab5c8b94a  source .apkm (123819026 bytes)
+b88abacfd686de815c1eea4e7edc36b080b2f5a8f444a0c2894b3acbc7f5a009  base.apk (93578884 bytes)
+4e90061d2858629fa28c067b5fa0c14e5b2302a4d4eb0730ad70fe79045f15f9  split_config.arm64_v8a.apk (86397543 bytes)
+
+--- DEX files (as extracted from base.apk) ---
+8714b3e8291428ed857313fd1225be412e1ea6c568f9837db2dfe4ae66fa6e47  classes.dex (9146304 bytes)
+4462d8289c316c5e30f35f1caffb27406031eff9c5f080ec00d20001ff0de9d2  classes2.dex (8248776 bytes)
+058e1c21c7e879fe6a6043cae84867f946831c5c591b1fac3c7514df0212af45  classes3.dex (7955140 bytes)
+4191908d9689bb485966e00891fede2c82c4b9e4da241051939e5b1e9f5f0bc6  classes4.dex (9157528 bytes)
+36f16cbda6d54b5f7f17285639959df6df176a767d669049c9dc3e1dd5a16948  classes5.dex (2951756 bytes)
+215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a  assets/audience_network/classes.dex (5455144 bytes)
+
+--- native libs in split (inventory only, not analysed) ---
+2363a46a82e7dddf7360f76d625b0b54b7453d4a7cbf68ae08a699e444438548  lib/arm64-v8a/libcandycrushsaga.so (85487344 bytes)
+e25727f6a898b701d21cc1f403d3db66e445ef9c7be6eca4b5b6cbd27c1e4147  lib/arm64-v8a/libapplovin-native-crash-reporter.so (859832 bytes)
+1ae17d91da9324da6f0cf4e60e543b7d79d938ca4d300985969acb632cc9ed1c  lib/arm64-v8a/libdatastore_shared_counter.so (6856 bytes)

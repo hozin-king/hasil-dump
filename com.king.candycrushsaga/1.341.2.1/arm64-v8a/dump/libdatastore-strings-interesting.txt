@@ -1,0 +1,62 @@
+==============================================================================
+INTERESTING STRINGS — libdatastore_shared_counter.so (AndroidX DataStore, Google library)
+Total ASCII strings: 50 | UTF-16LE strings: 1 (empty). Size only 6,856 bytes.
+This is Google's stock AndroidX DataStore native helper (shared counter via mmap).
+No game logic, no ads, no anti-cheat. Only 4 JNI methods (see exports file).
+==============================================================================
+
+### All strings (complete — only 50 lines total)
+Android
+r25c
+9519653
+__cxa_finalize
+__cxa_atexit
+_Z16ThrowIoExceptionP7_JNIEnvPKc
+Java_androidx_datastore_core_NativeSharedCounter_nativeTruncateFile
+_ZN9datastore12TruncateFileEi
+strerror
+Java_androidx_datastore_core_NativeSharedCounter_nativeCreateSharedCounter
+_ZN9datastore19CreateSharedCounterEiPPv
+__stack_chk_fail
+Java_androidx_datastore_core_NativeSharedCounter_nativeGetCounterValue
+_ZN9datastore15GetCounterValueEPNSt6__ndk16atomicIjEE
+Java_androidx_datastore_core_NativeSharedCounter_nativeIncrementAndGetCounterValue
+_ZN9datastore27IncrementAndGetCounterValueEPNSt6__ndk16atomicIjEE
+ftruncate
+__errno
+mmap
+getauxval
+__system_property_get
+strncmp
+libc.so
+LIBC
+libm.so
+libdl.so
+libdatastore_shared_counter.so
+exynos9810
+java/io/IOException
+ro.arch
+.init_array
+.fini_array
+.text
+.note.android.ident
+.got.plt
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+
+NOTE: the strings 'exynos9810' and 'ro.arch' in this tiny library come from the
+NDK cpu-features / system-property code path it links (getauxval +
+__system_property_get); they are NOT game logic and NOT a device check list.

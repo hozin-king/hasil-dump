@@ -1,0 +1,162 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== ASSETS INVENTORY (base.apk — listing only, no bulk extraction) ===
+
+Total entries: 10091; assets/ entries: 8189 (138288272 bytes uncompressed); res/ entries: 986 (2972064 bytes uncompressed).
+
+--- assets/ top-level (non res_output) ---
+assets/ad-viewer/omid-session-client-v1.js, omsdk-v1.js (OMID viewability)
+assets/audience_network/classes.dex (5,455,144 bytes, dex v035, Meta Audience Network)
+assets/braze-html-bridge.js, assets/braze-html-in-app-message-bridge.js
+assets/mraid.js, assets/mraid-bridge.js, assets/com.moloco.sdk.xenoss.sdkdevkit.mraid.js
+assets/embed.html, assets/favicon.ico, assets/fontawesome-webfont.ttf
+assets/com/appsflyer/internal/<hash>- (4 obfuscated files, no extension)
+
+--- assets/res_output/bundled/ packages (file counts) ---
+   5298  candycrushsaga
+    880  performance_messaging
+    333  ota-curved_map-autumn
+    211  sfx_ingame
+    142  map-refresh
+    123  ccsm_shaders_bundled
+    107  servicelayer-views
+    102  ccsm-widget-system
+     89  sfx_menu_map
+     62  ads_egp
+     58  ads_prelevel
+     45  ccsm-quest-system-common-quests
+     42  ccsm_levels
+     33  social-sharing
+     32  king-fonts
+     26  ads_ool
+     25  loading_screen
+     25  vo_ingame
+     24  ff-optional-assets
+     23  view-foundations
+     21  render_screen
+     18  monocle
+     17  ccsm_chests
+     17  unified_web_view
+     16  candycrushsaga-social-facebook
+     15  ccsm_shaders
+     15  typeface
+     14  ff-builtin-assets
+     13  ota-dynamic_difficulty_v6-default
+     13  ota-first_attempt_challenge-default
+     13  season-pass
+     12  ccsm-gui-system
+     12  merge_minigame
+     12  ota-dynamic_difficulty_ps-default
+     11  music_ingame
+     11  prize_draw
+     10  bank_seeding
+      9  ads_arcade
+      9  ads_map_balloon
+      9  marathon_leagues
+      9  music_menu_map
+      9  partner_event
+      9  season-pass-revamp
+      9  short_leaderboard_tiers
+      9  tap_them_all
+      9  time_pressure
+      9  vo_menu_map
+      8  ads_rewards_tiering
+      8  debug_broker_binding
+      8  game_logic_listener_binding
+      8  gui-system
+      8  sale
+      7  ccsm-quest-system
+      7  cds_binding
+      7  expeditions
+      7  game_hud_binding
+      7  ota_binding
+      7  popup_binding
+      7  root_scene_binding
+      7  speed_select
+
+--- files > 1 MiB in base.apk (11) ---
+      44728320  assets/res_output/bundled/ccsm_levels/assets/levels_batched/levels_batched.db
+       9157528  classes4.dex
+       9146304  classes.dex
+       8248776  classes2.dex
+       7955140  classes3.dex
+       5455144  assets/audience_network/classes.dex
+       2951756  classes5.dex
+       2655362  assets/res_output/bundled/ccsm_levels/assets/levels.xml
+       1928944  assets/res_output/bundled/candycrushsaga/assets/group_fonts/fonts/DroidSans.HappyRuika.ttf
+       1724800  assets/res_output/bundled/king-fonts/assets/king-fonts/fonts/king_super_happy_grotesk_ruika.otf
+       1386257  assets/res_output/bundled/candycrushsaga/package.index
+
+--- LEVEL DATA (the single most important asset) ---
+assets/res_output/bundled/ccsm_levels/assets/levels_batched/levels_batched.db
+  44,728,320 bytes, SQLite format 3, page size 16384.
+  Tables: batched_levels (24,005 rows: ordinal, level_data BLOB-as-TEXT)
+          level_metadata (24,005 rows: ordinal, hll, level_definition_id, level_version)
+  Each level_data is JSON, protocolVersion "0.3": numberOfColours,
+  preferredColors, boardRows/boardColumns, randomSeed, qa, scoreTargets[3],
+  moveLimit, gameModeName ("Order", "Light up", ...), tileMap (string codes
+  like "001002057"), _itemsToOrder, levelDefinitionId_meta, version_meta, id_meta.
+  Example row 0: id_meta=1, levelDefinitionId 106496383, v17, Order mode,
+  9x9, 28 moves, targets [5120, 47233, 92400], 4 colours.
+assets/res_output/bundled/ccsm_levels/assets/levels.xml (2,655,362 bytes)
+  BIN1 index: Level / filename levels/episodeNlevelM.txt / hll / qa /
+  levelDefinitionId_meta / levelVersion. Last entry episode1601level15.
+  Only 4 standalone levels/*.txt exist in the APK (episode437level1,
+  episode699level1, episode699level2 + 1 more) — the rest live ONLY in the .db.
+  Standalone sample (episode437level1.txt): JSON protocolVersion 0.3,
+  gameModeName "Light up", episodeId 0, levelId "108560", 22 moves.
+
+--- CONFIG / DATA FORMATS ---
+  .json  1,112 files — mostly per-package data_sources.json / events.json
+         (ad packages: ads_arcade, ads_egp, ads_map_balloon, ads_ool,
+         ads_prelevel, ads_rewards_tiering, candycrushsaga ads_*), plus
+         ads_att_preprompt.json, bank_seeding/events.json.
+  .xml   5,313 files — King scene/prefab/particle/effect definitions
+         (scenes/, prefabs/, animations/, timelines/, particles/, sounds.xml,
+         packages.xml, effects.xml) per res_output package.
+  .lua   11 files — native<->Java binding scripts (ccs/*.lua): cds.lua,
+         debug_broker.lua (+internal/debug_broker.lua), game_hud.lua,
+         game_logic_listener.lua, level_data.lua, ota.lua, popup.lua,
+         scene_root.lua, update.lua, widget_system.lua.
+  .ffm/.ffa/.ffsb/.ng/.prefab/.manifest/.csv/.index/.preload/.version —
+         King proprietary asset formats (not parsed; contents unknown).
+  .ogg   314 audio files (sfx_ingame, sfx_menu_map, vo_ingame, vo_menu_map,
+         music_ingame, music_menu_map).
+  .webp  643 + .png 71 — textures/atlases (incl. assets_hd variants).
+  .ttf 14 / .font 25 — fonts incl. DroidSans.HappyRuika.ttf (1,928,944 B),
+         king_super_happy_grotesk_ruika.otf (1,724,800 B).
+  .proto 23 files (protobuf descriptors shipped in APK).
+  .js/.html/.css 32+11+11 — WebViews: gdpr (age-gate, rtbf, toupp),
+         king-account-html-views, identity-att-consent, servicelayer-views/sharelog.
+  package.index + package.index.md5 per bundled package (integrity manifest
+         per package; candycrushsaga/package.index 1,386,257 bytes).
+  OTA/dynamic-difficulty packages: ota-curved_map-autumn,
+         ota-dynamic_difficulty_v6-default, ota-dynamic_difficulty_ps-default,
+         ota-first_attempt_challenge-default (server-tunable configs).
+
+--- FEATURE PACKAGES (names that indicate systems) ---
+  season-pass, season-pass-revamp, sale, bank_seeding, prize_draw,
+  ccsm_chests, marathon_leagues, weekly-race, episode_race, expeditions,
+  partner_event, merge_minigame, tap_them_all, time_pressure, treasure_defense,
+  speed_select, short_leaderboard_tiers, ads_* (rewarded-ad economy),
+  performance_messaging (880 files), map-refresh, monocle, onfire,
+  candycrushsaga-social-facebook, social-sharing, unified_web_view.
+
+--- res/ (Android resources, 986 files) ---
+  res/drawable 283, res/layout 246, res/color 187, res/anim 47,
+  res/animator 32, res/raw 12 (incl. res/raw/css_icon_3d.vbl 702,770 B),
+  res/xml 8 (network_security_config.xml, file_provider_paths.xml,
+  image_share_filepaths.xml, ad_services_config.xml, appsflyer_*_rules.xml,
+  com_android_billingclient_phenotype.xml, splits0.xml).
+  Biggest res files: css_icon_3d.vbl (702,770 B), adaptive_icon_background.png
+  (465,545 B), loading_logo.png (105,265 B).
+  network_security_config.xml: cleartext ONLY for 127.0.0.1, midasplayer.com,
+  midasplayer.cloud (all subdomains). Everything else must be HTTPS.
+
+--- kotlin/ + Kotlin/Native linkdata dirs ---
+  kotlin/ 371 .kotlin_metadata files; commonMain/ 226 .knm files,
+  nativeMain/ 47, nonJvmMain/ 5, etc. — Kotlin Multiplatform linkdata
+  shipped in the APK (build artefact leakage, useful for symbol recovery).

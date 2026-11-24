@@ -1,0 +1,133 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== SIGNER — base.apk (apksigner verify --print-certs --verbose) ===
+
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Cristian Bidea, OU=Mobile, O=king.com, L=Bucharest, ST=Romania, C=RO
+Signer #1 certificate SHA-256 digest: ac7f3b3537e8e6797be7270fa4f9f6a2414e660f51a86efd47c75f00603bc328
+Signer #1 certificate SHA-1 digest: 9e93b3336c767c3aba6fcc4deada9f179ee4a05b
+Signer #1 certificate MD5 digest: 020fe83363be035cf1b47cd24d9af969
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 573e0f377d0d982e287c1d8ca1d194c4d96e6de3bfbc5e0fcb5aeee9c4c8d83f
+Signer #1 public key SHA-1 digest: 770ec0a9ed81f5543e9af9cb6d8cfa3aa7770c91
+Signer #1 public key MD5 digest: eca05d11c033a8516b7d48cc7e2e3cd6
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1794850276
+
+=== SIGNER — split_config.arm64_v8a.apk ===
+
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: true
+Number of signers: 1
+Signer #1 certificate DN: CN=Cristian Bidea, OU=Mobile, O=king.com, L=Bucharest, ST=Romania, C=RO
+Signer #1 certificate SHA-256 digest: ac7f3b3537e8e6797be7270fa4f9f6a2414e660f51a86efd47c75f00603bc328
+Signer #1 certificate SHA-1 digest: 9e93b3336c767c3aba6fcc4deada9f179ee4a05b
+Signer #1 certificate MD5 digest: 020fe83363be035cf1b47cd24d9af969
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 573e0f377d0d982e287c1d8ca1d194c4d96e6de3bfbc5e0fcb5aeee9c4c8d83f
+Signer #1 public key SHA-1 digest: 770ec0a9ed81f5543e9af9cb6d8cfa3aa7770c91
+Signer #1 public key MD5 digest: eca05d11c033a8516b7d48cc7e2e3cd6
+Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+Source Stamp Signer key algorithm: RSA
+Source Stamp Signer key size (bits): 4096
+Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+Source Stamp Timestamp: 1794850278
+
+=== SIGNER CERTIFICATE (DER extracted from APK Signature Scheme v2 block) ===
+
+subject=C = RO, ST = Romania, L = Bucharest, O = king.com, OU = Mobile, CN = Cristian Bidea
+issuer=C = RO, ST = Romania, L = Bucharest, O = king.com, OU = Mobile, CN = Cristian Bidea
+notBefore=Jan 12 14:00:07 2012 GMT
+notAfter=May 30 14:00:07 2039 GMT
+serial=4F0EE767
+sha256 Fingerprint=AC:7F:3B:35:37:E8:E6:79:7B:E7:27:0F:A4:F9:F6:A2:41:4E:66:0F:51:A8:6E:FD:47:C7:5F:00:60:3B:C3:28
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1326376807 (0x4f0ee767)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C = RO, ST = Romania, L = Bucharest, O = king.com, OU = Mobile, CN = Cristian Bidea
+        Validity
+            Not Before: Jan 12 14:00:07 2012 GMT
+            Not After : May 30 14:00:07 2039 GMT
+        Subject: C = RO, ST = Romania, L = Bucharest, O = king.com, OU = Mobile, CN = Cristian Bidea
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:9d:48:8c:64:ae:53:7e:7c:6a:1a:f0:f3:cb:a0:
+                    a8:bb:d0:40:54:cd:cf:2f:72:7d:d9:e9:20:a4:73:
+                    1f:c6:70:3c:a0:bd:b6:a8:64:2d:a8:38:b3:86:a9:
+                    a0:31:33:d1:83:ac:11:2a:9f:d9:2d:61:ed:28:98:
+                    5d:a3:dd:47:ca:af:f2:fc:bd:20:7c:d3:50:4c:19:
+                    8c:b5:e5:28:83:28:29:b6:19:5e:c6:cf:a7:ce:dd:
+                    f2:c6:bd:53:cc:a4:57:55:e3:f9:17:c1:c1:02:62:
+                    5a:92:91:c1:bd:a9:ce:a0:bd:be:cc:db:79:23:9f:
+                    02:1d:e2:f2:f2:9f:fd:d6:80:16:09:68:32:2c:aa:
+                    4c:0c:30:e8:79:8c:f8:eb:3d:a9:67:d0:c2:50:6a:
+                    22:0e:a4:3d:33:d8:93:f0:d5:f4:d1:0f:be:f8:ad:
+                    bd:3d:ef:a7:62:00:a6:00:22:81:4f:e6:26:93:dc:
+                    d9:c1:3c:5f:f8:43:b8:ae:f0:e5:85:54:55:1c:ab:
+                    34:be:16:55:3b:3a:59:03:b5:90:df:30:5d:ad:5f:
+                    2e:a5:2f:de:21:d1:c4:fa:ca:e9:98:f6:91:07:bc:
+                    43:80:69:a2:6a:70:eb:1e:b4:86:21:52:35:a6:90:
+                    a9:86:df:65:17:9c:09:d4:99:2e:24:09:ec:16:fe:
+                    83:4d
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha1WithRSAEncryption
+    Signature Value:
+        7a:6d:d5:cc:78:6f:47:6b:62:9e:0e:9d:f0:2d:e6:68:9b:df:
+        53:e9:4f:5a:3c:72:8e:e6:49:5a:79:3a:90:44:b2:0b:76:a9:
+        f2:34:8c:42:fb:ac:21:f3:57:50:9d:61:02:2f:d1:1e:f2:46:
+        35:ed:03:2e:f8:fa:4b:11:b9:7a:de:a7:a8:94:ce:5f:d9:5b:
+        1b:a4:3d:19:18:79:ab:27:60:be:b2:2a:62:fc:e5:df:c4:7e:
+        7a:fb:38:4e:6d:1a:a6:83:c7:33:33:4e:1d:7a:7b:97:38:98:
+        1f:46:43:16:a6:31:65:b8:11:3e:0e:d8:9e:df:e9:b7:d9:b4:
+        ab:b5:9e:df:b1:fe:17:17:39:94:e3:ac:bf:a9:da:22:64:56:
+        31:c4:8a:48:98:93:a9:5c:6a:27:80:b4:d6:97:25:9d:18:ee:
+        93:7d:e9:e3:03:9a:16:c0:0d:be:a1:b8:bf:af:5f:3f:0e:c4:
+        26:4f:b1:71:7e:a4:3e:44:16:12:24:7f:6a:3a:ea:5e:bf:85:
+        69:10:dc:8e:9f:42:26:c5:cb:c1:c4:21:83:55:de:65:fd:ac:
+        1c:e6:56:3a:9e:c0:1c:63:69:dd:e2:fb:1e:07:a6:04:7e:19:
+        fc:7e:ff:c2:df:e8:e2:c6:6f:77:33:a0:da:4d:02:fb:72:0e:
+        8c:a2:50:1b
+
+=== NOTES ===
+- base.apk: v1 (JAR) signing FALSE, v2 TRUE, v3 TRUE, v3.1 FALSE, v4 FALSE.
+  No META-INF/*.SF/*.RSA entries exist in base.apk at all.
+- split: v1 TRUE (bundletool BNDLTOOL.SF/RSA), v2 TRUE, v3 TRUE.
+- Same signer cert for base + split (SHA-256 ac7f3b35...), self-signed.
+- Cert signature algorithm is sha1WithRSAEncryption (legacy) — cert itself
+  dates from 2012-01-12 to 2039-05-30; this is King's long-lived release key.
+- SourceStamp present (Google, RSA 4096, SHA-256 3257d599...), timestamp 1794850276.
+- Veracity block (id 0x42726577) also present in the v2 signing block.

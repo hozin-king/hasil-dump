@@ -1,0 +1,58 @@
+Candy Crush Saga 1.341.2.1 — static REA dump
+package com.king.candycrushsaga, versionCode 13412010
+Source .apkm: /home/hatch/workspace/downloads/candy-crush-saga-1.341.2.1.apk
+Dump date: 2026-11-24 (WIB). Static analysis only — APK never installed/run.
+
+=== aapt2 dump badging (verbatim) ===
+
+package: name='com.king.candycrushsaga' versionCode='13412010' versionName='1.341.2.1' platformBuildVersionName='17' platformBuildVersionCode='37' compileSdkVersion='37' compileSdkVersionCodename='17'
+install-location:'auto'
+minSdkVersion:'24'
+targetSdkVersion:'37'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='com.king.candycrushsaga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.google.android.gms.permission.AD_ID'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_ADSERVICES_AD_ID'
+uses-permission: name='android.permission.ACCESS_ADSERVICES_ATTRIBUTION'
+uses-permission: name='android.permission.ACCESS_ADSERVICES_TOPICS'
+uses-permission: name='com.amazon.privacypass.ATTEST'
+uses-permission: name='com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE'
+uses-permission: name='com.android.vending.CHECK_LICENSE'
+uses-permission: name='com.samsung.android.mapsagent.permission.READ_APP_INFO'
+uses-permission: name='com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA'
+uses-permission: name='android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE'
+uses-permission: name='android.permission.POST_NOTIFICATIONS'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+application-label:'Candy Crush Saga'
+application-icon-120:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-160:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-240:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-320:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-480:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-640:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-65534:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-65535:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application: label='Candy Crush Saga' icon='res/mipmap-anydpi-v26/ic_launcher.xml'
+launchable-activity: name='com.king.candycrushsaga.CandyCrushSagaActivity'  label='Candy Crush Saga' icon=''
+uses-library-not-required:'app-inputmapping'
+uses-library-not-required:'android.ext.adservices'
+uses-library-not-required:'com.amazon.privacypass'
+feature-group: label=''
+  uses-feature-not-required: name='android.hardware.touchscreen'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission'
+main
+other-activities
+other-receivers
+other-services
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '120' '160' '240' '320' '480' '640' '65534' '65535'

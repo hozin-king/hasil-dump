@@ -1,0 +1,593 @@
+==============================================================================
+INTERESTING STRINGS — libcandycrushsaga.so (Candy Crush Saga 1.341.2.1)
+Package com.king.candycrushsaga | arm64-v8a | SHA-256 2363a46a82e7dddf7360f76d625b0b54b7453d4a7cbf68ae08a699e444438548
+Source: strings -a (ASCII, min length 4) over the extracted .so.
+Total ASCII strings: 249,527 | UTF-16LE strings: 228 (mostly binary noise,
+  only 'out of memory' / 'bad parameter or other API misuse' are readable).
+Full raw strings (10,770,482 bytes): libcandycrushsaga-strings.txt.gz
+Selection below is CURATED (~600 lines max): duplicates removed, very long
+mangled C++ names truncated to 220 chars. Mangled names are shown as stored
+(often without the leading _Z); a few key ones are demangled in FINDINGS-native.md.
+==============================================================================
+
+### 1. ANTI-CHEAT / ANTI-TAMPER (usdk::AntiCheat + game AntiCheat plugin)  (60 of 90 shown)
+-- Anti-cheats active --
+16CAntiCheatPlugin
+17CAntiCheatRollout
+Adding time offset: Use 0 to reset. WARNING this overrides all timestamp anticheat.
+AntiCheat
+ANTICHEAT
+anticheat
+ANTICHEAT COMMAND
+AntiCheat::checkAndTrack
+anticheat_config.dat
+anticheat_plugin
+ANTICHEAT_QUIT_DURING_LEVEL
+ANTICHEAT_UNKNOWN_PROGRESS
+AntiCheatConfig
+AntiCheatResetForced
+bool Plugin::CPluginManager<CServiceManager, Plataforma::KINGAPP_CANDYCRUSH>::RegisterPlugin(UnmanagedDeps &&...) [ServiceManager = CServiceManager, GameKingAppId = Plataforma::KINGAPP_CANDYCRUSH, featureId = usdk::Track [...]
+CandyRoyale::CPlugin::CImpl::CImpl(Services::IUpdateServiceFacade &, Services::ICdsServiceFacade &, Services::IOtaServiceFacade &, const Services::IParameterServiceFacade &, Services::IStoreServiceFacade &, Services::IPr [...]
+CandyRoyale::Logic::V3::CInProgressState::TriggerQuitDuringLevelAntiCheat.candyRoyaleCheaterFlow
+IAntiCheatTimeProvider
+N11CandyRoyale16IAntiCheatConfigE
+N11CandyRoyale19CAntiCheatValidatorE
+N11CandyRoyale19IAntiCheatValidatorE
+N11EventSystem20CEventListenerHandle22CEventListenerInternalIZN6OnFire7CPlugin5CImplC1ERKN8Services17IOtaServiceFacadeERNS5_17ICdsServiceFacadeERNS5_20IUpdateServiceFacadeERKNS5_23IParameterServiceFacadeERNS5_29IProductD [...]
+N12SuperCharger10CAntiCheatE
+N12SuperCharger10IAntiCheatE
+N12SuperCharger16IAntiCheatConfigE
+N21AntiCheatTimeProvider17IAntiCheatStorageE
+N21AntiCheatTimeProvider22CAntiCheatTimeProviderE
+N21AntiCheatTimeProvider22IAntiCheatTimeProviderE
+N21AntiCheatTimeProvider30CAntiCheatSystemStorageAdapterE
+N21AntiCheatTimeProvider31CAntiCheatServiceStorageAdapterE
+N21AntiCheatTimeProvider31IAntiCheatTimeAvailableListenerE
+N4usdk9AntiCheat10IAntiCheatE
+N4usdk9AntiCheat14AntiCheatValueIiEE
+N4usdk9AntiCheat14ICheatDetectorE
+N4usdk9AntiCheat15IMonitoredValueE
+N4usdk9AntiCheat23MemoryTamperingDetectorE
+N4usdk9AntiCheat24CheatDetectorAccessPointE
+N4usdk9AntiCheat25ICheatDetectorAccessPointE
+N4usdk9AntiCheat9AntiCheatE
+N6OnFire16CAntiCheatConfigE
+N6OnFire16IAntiCheatConfigE
+N6Plugin28CServiceBindingPluginFactoryI16CAntiCheatPlugin15CServiceManagerJN8Services23IParameterServiceFacadeEEEE
+N9OnFireLua16CAntiCheatConfigE
+NSt6__ndk110__function6__funcIZN11CandyRoyale5Logic2V316CInProgressState31TriggerQuitDuringLevelAntiCheatEvE3$_0NS_9allocatorIS6_EEFvRN4usdk7Observo11AdaptWriterEEEE
+NSt6__ndk110__function6__funcIZN11CandyRoyale7CPlugin5CImplC1ERN8Services20IUpdateServiceFacadeERNS5_17ICdsServiceFacadeERNS5_17IOtaServiceFacadeERKNS5_23IParameterServiceFacadeERNS5_19IStoreServiceFacadeERNS5_29IProduct [...]
+NSt6__ndk110__function6__funcIZN11CandyRoyale7CPlugin5CImplC1ERN8Services20IUpdateServiceFacadeERNS5_17ICdsServiceFacadeERNS5_17IOtaServiceFacadeERKNS5_23IParameterServiceFacadeERNS5_19IStoreServiceFacadeERNS5_29IProduct [...]
+NSt6__ndk110__function6__funcIZN12SuperCharger11CControllerC1ER16IEventDispatcherRN7Shieldo13IRegistrationER26IGameLogicListenerRegistryR27IIngameInfoExtensionManagerR16IConnectionCheckRN4usdk18SessionKeyProvider19ISessi [...]
+NSt6__ndk110__function6__funcIZN21AntiCheatTimeProvider22CAntiCheatTimeProvider18AddConsoleCommandsERN3cli13CGroupCommandER18CCancellationTokenE3$_0NS_9allocatorIS9_EEFbRN2ff7Console17ITokenizedCommandERNSD_11ITextOutput [...]
+NSt6__ndk110__function6__funcIZN3cli8CCommand17ToParsingFunctionIZN21AntiCheatTimeProvider22CAntiCheatTimeProvider18AddConsoleCommandsERNS2_13CGroupCommandER18CCancellationTokenE3$_1JETpTnmJEEENS_8functionIFbRNS_13basic_ [...]
+NSt6__ndk110__function6__funcIZN3cli8CCommand17ToParsingFunctionIZN24CAntiCheatConsoleCommandC1ERN2ff7Console7Command12IRegistratorERN4usdk9AntiCheat10IAntiCheatEE3$_0JETpTnmJEEENS_8functionIFbRNS_13basic_ostreamIcNS_11c [...]
+NSt6__ndk110__function6__funcIZN4usdk9AntiCheat23MemoryTamperingDetector10setEnabledEbE3$_0NS_9allocatorIS5_EEFvvEEE
+NSt6__ndk110__function6__funcIZN4usdk9AntiCheat23MemoryTamperingDetectorC1ERNS3_10IAntiCheatEE3$_0NS_9allocatorIS7_EEFvvEEE
+NSt6__ndk110__function6__funcIZN4usdk9AntiCheat9AntiCheatC1ERNS2_6Logger7ILoggerERNS2_9TaskQueue10ITaskQueueERNS2_8Tracking9ITrackingENS3_6ConfigEE3$_0NS_9allocatorISF_EEFvvEEE
+NSt6__ndk110__function6__funcIZN6OnFire6CLogicC1ERNS2_6CModelERNS2_11CDataBrokerERKNS2_14CRewardManagerER26IGameLogicListenerRegistryRKNS2_7CConfigER22IGamePlayMetricTrackerRNS2_20CInGameInfoExtensionER16IEventDispatcher [...]
+NSt6__ndk110__function6__funcIZN6OnFire7CPlugin5CImplC1ERKN8Services17IOtaServiceFacadeERNS5_17ICdsServiceFacadeERNS5_20IUpdateServiceFacadeERKNS5_23IParameterServiceFacadeERNS5_29IProductDeliveryServiceFacadeERNS5_34ISt [...]
+NSt6__ndk110__function6__funcIZN6OnFire7CPlugin5CImplC1ERKN8Services17IOtaServiceFacadeERNS5_17ICdsServiceFacadeERNS5_20IUpdateServiceFacadeERKNS5_23IParameterServiceFacadeERNS5_29IProductDeliveryServiceFacadeERNS5_34ISt [...]
+NSt6__ndk110__function6__funcIZN6Plugin28CServiceBindingPluginFactoryI16CAntiCheatPlugin15CServiceManagerJN8Services23IParameterServiceFacadeEEEC1IJNS_17reference_wrapperI17CAntiCheatRolloutEEEEERKNS_12basic_stringIcNS_1 [...]
+NSt6__ndk110__function6__funcIZN9OnFireLua14COnFireBindingC1ERN6OnFire10ILevelDataERNS2_6CModelERNS2_16CAntiCheatConfigERKNS4_13MaxtierReward7IFacadeER22IGamePlayMetricTrackerRKNS2_7CConfigERKNS2_14CRewardManagerERNS2_20 [...]
+NSt6__ndk110__function6__funcIZN9OnFireLua14COnFireBindingC1ERN6OnFire10ILevelDataERNS2_6CModelERNS2_16CAntiCheatConfigERKNS4_13MaxtierReward7IFacadeER22IGamePlayMetricTrackerRKNS2_7CConfigERKNS2_14CRewardManagerERNS2_20 [...]
+... (+30 more in full strings gzip)
+
+### 2. DEBUGGER DETECTION (TracerPid via /proc/self/status)  (4 of 4 shown)
+/proc/self/status
+Debugger detector
+debugger_detector_enabled
+TracerPid:
+
+### 3. CRYPTO — OpenSSL statically linked; usdk FileEncryptorOpenSsl (file encryption)  (40 of 211 shown)
+%s:%d: OpenSSL internal error: %s
+AES-128-CBC
+AES-128-CBC-CTS
+AES-128-CBC-HMAC-SHA1
+AES-128-CBC-HMAC-SHA256
+AES-128-CBC:AES128:2.16.840.1.101.3.4.1.2
+AES-128-CCM:id-aes128-CCM:2.16.840.1.101.3.4.1.7
+AES-128-CFB
+AES-128-CFB1
+AES-128-CFB8
+AES-128-CFB:2.16.840.1.101.3.4.1.4
+AES-128-CTR
+AES-128-ECB
+AES-128-ECB:2.16.840.1.101.3.4.1.1
+AES-128-GCM-SIV
+AES-128-GCM:id-aes128-GCM:2.16.840.1.101.3.4.1.6
+AES-128-OCB
+AES-128-OFB
+AES-128-OFB:2.16.840.1.101.3.4.1.3
+AES-128-SIV
+AES-128-WRAP
+AES-128-WRAP-INV:AES128-WRAP-INV
+AES-128-WRAP-PAD-INV:AES128-WRAP-PAD-INV
+AES-128-WRAP-PAD:id-aes128-wrap-pad:AES128-WRAP-PAD:2.16.840.1.101.3.4.1.8
+AES-128-WRAP:id-aes128-wrap:AES128-WRAP:2.16.840.1.101.3.4.1.5
+AES-128-XTS
+AES-128-XTS:1.3.111.2.1619.0.1.1
+AES-192-CBC-HMAC-SHA256
+AES-256-CBC
+AES-256-CBC-CTS
+AES-256-CBC-HMAC-SHA1
+AES-256-CBC-HMAC-SHA256
+AES-256-CBC:AES256:2.16.840.1.101.3.4.1.42
+AES-256-CCM:id-aes256-CCM:2.16.840.1.101.3.4.1.47
+AES-256-CFB
+AES-256-CFB1
+AES-256-CFB8
+AES-256-CFB:2.16.840.1.101.3.4.1.44
+AES-256-CTR
+AES-256-ECB
+... (+171 more in full strings gzip)
+
+### 4. INTEGRITY / VERIFY / CHECKSUM / SIGNATURE (plain strings only)  (40 of 151 shown)
+%*sSignature : 
+%*sSignature Algorithm: 
+%*sSignature Value:
+%*sSignature Value: 
+%s digest_verify:%s
+%s digest_verify_final:%s
+%s digest_verify_init:%s
+%s digest_verify_update:%s
+altSignatureAlgorithm
+altSignatureValue
+AppPurchaseApi.verifyPurchase
+bad signature
+CA signature digest algorithm too weak
+CandyRoyale::CTracking::TriggerCandyRoyaleAnticheatLevelChecksumCheck.candyRoyaleLevelChecksumCheck
+CandyRoyale::CTracking::TriggerCandyRoyaleAnticheatLevelChecksumUpdated.candyRoyaleLevelChecksumUpdated
+CandyRoyaleMPCheckSum
+CandyRoyaleMPCheckSum_v2
+Cannot find certificate signature algorithm
+cert info signature and signature algorithm mismatch
+certificate signature failure
+checksum
+Checksum
+checkSum
+checksum()
+Could not find field {} with signature {}
+Could not find method {} with signature {}
+countersignature
+CRL signature failure
+crypto/evp/signature.c
+Digital Signature
+digitalSignature
+doIntegrityCheck
+electronic-signature-standard
+error validating signature
+EVP_PKEY_CTX_get_signature_md
+EVP_PKEY_CTX_set_signature
+evp_pkey_signature_init
+evp_signature_from_algorithm
+Expeditions.OrlockIntegrity
+external_receipt_signature
+... (+111 more in full strings gzip)
+
+### 5. URLS / DOMAINS (unique, asset thumbnails excluded except note)  (23 of 23 shown)
+http://127.0.0.1:
+http://candycrush-
+http://json-schema.org/draft-04/schema#
+http://plataforma.qa.midasplayer.com:8008/goto/candycrush/ops/
+https://candycrushqa.midasplayer.com/FacebookServlet
+https://ccs.play.king.com/
+https://ccs.play.king.com/qsWL/
+https://deferred/appsflyer?
+https://graph.facebook.com/v2.12/
+https://king-webview-popup-campaign-dev.web.app/
+https://king.com/ko/termsAndConditions#4.10
+https://king.com/privacyPolicy
+https://king.com/termsAndConditions
+https://kingfluence.com/pages/viewpage.action?pageId=6225932
+https://observo-receiver.ext.p.midasplayer.cloud/collect
+https://sharelog-qa.midasplayer.com
+https://sharelog.midasplayer.com
+https://support.google.com/googleplay/answer/1075738
+https://trackita-live-privacy.ext.p.midasplayer.cloud/rpc/events
+https://up-
+https://www.facebook.com/
+https://www.king.com
+https://www.king.com/termsAndConditions
+NOTE: 16 additional asset-thumbnail URLs https://p.midasplayer.com/a/aNN_100x100.png (a1..aNN) omitted.
+
+### 6. IAP / BILLING / STORE (Google Play billing glue, purchase verification)  (55 of 1042 shown)
+	Offline purchases: {}
+                   <delivery source> (2nd param is EProductDeliverySource)
+  purchases: {}
+ (purchase)
+ GetNumberOfPurchasedPiggyBanks: 
+ IAP: 
+#{} was purchased successfully
+%%MEDIAPLAYHEAD%%
+()Lcom/android/billingclient/api/ProductDetails$OneTimePurchaseOfferDetails;
+- forceReminderOffer <goldBars> [gift|purchase]: [debug] Inject a fake reminder offer (a free gift, or a priced purchase; default purchase)
+.TriggerBoosterPurchasedEffect
+13IItemDelivery
+14CListCompositeIP16IProductDelivery28NoActionRemovedElementPolicy19UniqueElementPolicyE
+14CListCompositeIP16IProductDelivery33DeletePointerRemovedElementPolicy22NonUniqueElementPolicyE
+16CGuardedFunctionIZN11CandyRoyale20CCooldownSkipManager12FreePurchaseEvE3$_0vE
+16CGuardedFunctionIZN11CandyRoyale20CCooldownSkipManager12FreePurchaseEvE3$_1vE
+16CGuardedFunctionIZN3EGP11BundleOffer35CEGPBundleOfferPurchaseSuccessPopupC1ER21IPopupFactoryRegistryR11IPopupQueueR19IUIComponentFactoryE3$_0vE
+16CGuardedFunctionIZN3EGP11BundleOffer35CEGPBundleOfferPurchaseSuccessPopupC1ER21IPopupFactoryRegistryR11IPopupQueueR19IUIComponentFactoryE3$_1vE
+16CGuardedFunctionIZN9PiggyBank9CPurchase11SyncBalanceEvE3$_0vE
+16CGuardedFunctionIZN9PiggyBank9CPurchase11SyncBalanceEvE3$_1vE
+16CGuardedFunctionIZN9PiggyBank9CPurchase15ReserveGoldbarsEvE3$_0vE
+16CGuardedFunctionIZN9PiggyBank9CPurchase15ReserveGoldbarsEvE3$_1vE
+16IProductDelivery
+17CNoTimerUpdatableIN3EGP16IPurchaseHandlerEE
+18IStoreItemDelivery
+19CItemDeliverySystem
+19IItemDeliverySystem
+19UniqueElementPolicyIP16IProductDeliveryE
+20CMercadoItemDelivery
+20CProductDeliveryImpl
+20CPurchaseFlowTracker
+20IPurchaseFlowTracker
+22CInGameBoosterPurchase
+22CProductDeliveryFacade
+22IProductDeliveryFacade
+22IStorePurchaseObserver
+22NonUniqueElementPolicyIP16IProductDeliveryE
+23CStoreItemDeliveryProxy
+24CNullPurchaseFlowTracker
+24CPinsProductDeliveryImpl
+24CProductDeliveryTracking
+24CSimpleStoreItemDelivery
+24IProductDeliveryListener
+24IPurchaseGoldbarsStorage
+25CCharmProductDeliveryImpl
+25CGameRoundPurchaseDetails
+25CLivesProductDeliveryImpl
+25IGameRoundPurchaseDetails
+26COnFireProductDeliveryImpl
+26ISeasonPassProductDelivery
+27CBoosterProductDeliveryImpl
+27CFeatureProductDeliveryImpl
+27CIgnoredProductDeliveryImpl
+27CInvalidPurchaseFlowTracker
+27CPurchaseFlowDeferredEvents
+... (+987 more in full strings gzip)
+
+### 7. ADS — King ABM mediation (Unity/AppLovin/IronSource/Vungle/Moloco adapters)  (40 of 157 shown)
+ AdProvider errors: 
+ AdProviderWithStateMachine OnShowFailed with error code 
+ enableIronSource
+ { AdProviderActionResult
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/AbmAdPlayer.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/adprovider/AdProviderSDKAndroid.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdPlayback.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdPlayerBase.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdProvider.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AbmAdapterManager.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/adprovider/AdProviderNameValuePairs.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderImplBase.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderManager.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderMultiplexer.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderSdkMap.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderStateMachine.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderWithStateMachine.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdTrackingService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdTrackingServiceFactory.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/MultiAdProvider.cpp
+11IAdProvider
+13AbmAdProvider
+13AdProviderSDK
+14IAdProviderSDK
+15ListenerManagerI19IAdProviderListenerE
+15MultiAdProvider
+16AdProviderModule
+16IMultiAdProvider
+17AdProviderFactory
+17AdProviderManager
+17AdTrackingService
+17IAbmAdapterLoader
+18AdProviderImplBase
+18IAdProviderFactory
+18IAdProviderManager
+18IAdTrackingService
+19IAdProviderListener
+20AdProviderSDKAndroid
+21AdProviderMultiplexer
+22AdProviderStateMachine
+... (+117 more in full strings gzip)
+
+### 8. NETWORK / HTTP (usdk::Http, no libcurl/okhttp/Cronet strings found) + dlopen targets  (30 of 174 shown)
+%s() could not find libaaudio.so
+%s.so
+::usdk::Observo::LazyAttributeFactory<"currentState">() << std::bind_front( &HttpEventSourceClient::getConnectionStateUnsafe, this)
+AAudioLoader::open() could not find libaaudio.so
+app.social.friendship.friend.max-friends
+AppCoreIdentityApi.solveMergeConflict
+auto COtaDownloader::Download(const Ota::Types::SOtaPackageDescriptor &)::(anonymous class)::operator()(bool, const SOtaCrate &) const
+AvatarDownloader::waitTimeout
+com/king/http/HttpManager
+createRequest
+DirectMessage::HttpEventSourceClient
+Downloader::CacheManager
+Downloader::createDownload
+executeRequest
+external/meta+/usdk/modules/livetask/impl/shared/HttpEventSourceClient.cpp
+HttpBase.onHttpData
+HttpBase.onHttpResponse.onClose
+HttpBase.onHttpResponse.onOpen
+HttpEventSourceClient
+Java_com_king_abm_internal_Http_onHttpDataReceived
+Java_com_king_abm_internal_Http_onHttpDownloadCompleted
+Java_com_king_abm_internal_Http_onHttpDownloadFailed
+Java_com_king_abm_internal_Http_onHttpDownloadStarted
+Java_com_king_http_HttpManager_on_1data
+Java_com_king_http_HttpManager_on_1response
+lib%s.so
+libaaudio.so
+libandroid.so
+libc.so
+libdl.so
+... (+144 more in full strings gzip)
+
+### 9. BUILD/SOURCE PATHS — King-internal layout (Jenkins tibranch pipeline, usdk modules, ccsm_plugins)  (45 of 1768 shown)
+()Lcom/king/usdk/adinfo/AdvertisingId$AdvertisingInfo;
+(JLjava/lang/String;Ljava/lang/String;Lcom/king/usdk/popupwebview/internal/NativeResponder;)V
+(Landroid/app/Activity;)Lcom/king/usdk/popupwebview/internal/PopupFactory;
+(Landroid/app/Activity;JJJZLcom/king/usdk/braze/BrazeAndroidModule$ForcedIGPOrientation;ZZZ)V
+(Ljava/lang/String;)Lcom/king/usdk/braze/BrazeAndroidModule$ForcedIGPOrientation;
+(Z)Lcom/king/usdk/popupwebview/internal/NativeController;
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/include/adcommon/JsonTraits.h
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/include/adcommon/ListenerManager.h
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/AbmAdPlayer.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/adprovider/AdProviderSDKAndroid.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/AdsPlatformAbstraction_Android.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/BrowserComponent.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/android/Http.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdPlayback.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdPlayerBase.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmAdProvider.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmProgressHandler.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/abm-rewarded/AbmRewardStrategy.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AbmAdapterManager.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdConsentManager.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdList.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/ADMParser.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/adprovider/AdProviderNameValuePairs.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderImplBase.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderManager.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderMultiplexer.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderSdkMap.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderStateMachine.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdProviderWithStateMachine.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdReportingRpcApi.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdReportingService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdRequirements.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdsBackOffService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdServiceFactory.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdsPacingService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdTrackingService.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AdTrackingServiceFactory.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AppConfig.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AppConfigRequestMetadata.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AssetCache.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AssetDownloader.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AssetDownloadRetryStrategy.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AssetHelpers.cpp
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/AsyncAdEventsDispatcher.cpp
+... (+1723 more in full strings gzip)
+
+### 10. ENGINE MARKERS — CCSM (Candy Crush Saga Mobile) custom King engine, NOT Unity/Cocos/Unreal  (25 of 598 shown)
+					[serverRequest] byDefault = AppSagaApi.getCurrentUser
+	N7CcsmGui9Component14GUIToastLoaderE
+	N7CcsmGui9Component18GUIToastNodeLoaderE
+ Note: Run this command only in Saga Map
+"N7CcsmGui9Component36GUIHapticFeedbackPatternPlayerLoaderE
+"N7CcsmGui9Component40GUIHapticFeedbackPatternPlayerNodeLoaderE
+$CandyCrushSaga.png
+%mN7CcsmGui9Component25GUIIntegerIncrementLoaderE
+%mN7CcsmGui9Component29GUIIntegerIncrementNodeLoaderE
+&N7CcsmGui9Component25GUICloneDestinationLoaderE
+(9N4Saga4CHudE
+(Lcom/king/candycrushsaga/CandyCrushSagaActivity;)V
+)	x0N4Saga9CLockViewE
++kWYN7CcsmGui9Component24GUITutorialManagerLoaderE
++N7CcsmGui9Component23CAnimationsPlayerLoaderE
++N7CcsmGui9Component27CAnimationsPlayerNodeLoaderE
+,4N7CcsmGui9Component20CTextFormatterLoaderE
+,4N7CcsmGui9Component24CTextFormatterNodeLoaderE
+,N7CcsmGui9Component42CGUILevelPinModSpeechBubbleComponentLoaderE
+0N7CcsmGui9Component13GUIItemSliderE
+1+ N7CcsmGui9Component32GUICurrentPlayerCoreUserIdLoaderE
+1+ N7CcsmGui9Component36GUICurrentPlayerCoreUserIdNodeLoaderE
+16CGuardedFunctionIZN7CcsmGui9Component11GUIUsername9SetUserIdExE3$_0vE
+16CGuardedFunctionIZN7CcsmGui9Component11GUIUsername9SetUserIdExE3$_1vE
+16CGuardedFunctionIZN7CcsmGui9Component14GUIPlayerLevel9SetUserIdExE3$_0vE
+... (+573 more in full strings gzip)
+
+### 11. BUNDLED LIBS (sample strings: Duktape JS, SQLite, FreeType, Vorbis/Ogg, Spine, AGDK GameActivity/Swappy, zlib)  (45 of 66 shown)
+deflate
+deflateBound
+deflateEnd
+deflateInit2_
+duk_config_buffer
+duk_dump_function
+duk_push_buffer_raw
+duk_remove
+duk_resize_buffer
+duk_steal_buffer
+FT_Activate_Size
+FT_Add_Default_Modules
+FT_Done_Library
+FT_Get_Char_Index
+FT_New_Library
+FT_Set_Var_Design_Coordinates
+GameActivity_getTextInputState
+GameActivity_hideSoftInput
+GameActivity_setImeEditorInfo
+GameActivity_setTextInputState
+GameActivity_showSoftInput
+GameActivityPointerAxes_enableAxis
+inflate
+inflate_fast
+inflateEnd
+inflateInit2_
+inflateInit_
+inflateReset
+oggpack_bytes
+oggpack_get_buffer
+oggpack_write
+oggpack_writeclear
+oggpack_writeinit
+oggpack_writetrunc
+spSkeleton_create
+spSkeletonData_dispose
+spSkeletonData_findSlotIndex
+spSkeletonJson_createWithLoader
+spSkeletonJson_dispose
+spSkeletonJson_readSkeletonData
+sqlite3_db_status
+sqlite3_log
+sqlite3_mutex_enter
+sqlite3_mutex_leave
+sqlite3_status
+... (+21 more in full strings gzip)
+
+### 12. FILE / ASSET PATHS (sample)  (40 of 580 shown)
+/abm_tracking_request_buffer.data
+/crash_compensation_config_store.dat
+/data/data/
+/dev/hwrng
+/dev/null
+/dev/random
+/dev/srandom
+/dev/tty
+/dev/urandom
+/mercadostore_transactions.json.0
+/proc/cpuinfo
+/proc/self/cmdline
+/proc/self/status
+/proc/stat
+/tape_layer_a1.png
+/tape_layer_a2.png
+/tape_layer_a3.png
+/tape_layer_a4.png
+/tape_layer_a5.png
+/tape_layer_b1.png
+/tape_layer_b10.png
+/tape_layer_b11.png
+/tape_layer_b12.png
+/tape_layer_b13.png
+/tape_layer_b14.png
+/tape_layer_b15.png
+/tape_layer_b2.png
+/tape_layer_b3.png
+/tape_layer_b4.png
+/tape_layer_b5.png
+/tape_layer_b6.png
+/tape_layer_b7.png
+/tape_layer_b8.png
+/tape_layer_b9.png
+/tape_layer_c1.png
+/tape_layer_c2.png
+/tape_layer_c3.png
+ads_att_popup/textures/textures_ads_att_popup/att_booster_stripedWrapped.png
+app_updater_config/default_config.json
+candy_shop/bundles_config.json
+... (+540 more in full strings gzip)
+
+### 13. ERROR / DIAGNOSTIC MESSAGES (sample, plain strings)  (50 of 1930 shown)
+				fserver rpcerror <1|0>: Set whether or not the next command will fail
+			known error codes:
+		clubs chat_picker content|sending|error|timeout - Opens the chat picker and forces the sticker send state
+		local pcall, error = pcall, error
+		show [debug | info | warning | error] Show debug message box
+	ERROR:  Invalid win streak number
+	Invalid medals given. The podium has 3 positions (1st-gold,2nd-silver,3rd-bronze).
+	Invalid number of medals given. You must provide medals for 1 to 
+	RejectedInvalidPresentation - the SugarNova presentation failed the presenter's validation gate.
+	ss se - show error popup
+        return 'Error: ' + e.message;
+ , "iad-error-code" : "
+ - configuration error, 
+ AdProviderWithStateMachine OnShowFailed with error code 
+ API call error. No valid JsonRpc Error received.
+ API call error. ResultCode: 
+ Error: Command is only available while on map
+ Error: Missing required OpenLevel action
+ Error: Trying to open an invalid LevelGUID (it needs to be from the current branch!)
+ Error: {} message: {}
+ Error: {} Message: {}
+ failed to parse with error: 
+ not allowed -- generating the most appropriate error callback
+!getInitializationExceptionOrError
+# = 0.00, Invalid target
+%12sUnable to load Public Key
+%F %TN3fmt3v1212format_errorE
+%s at depth = %d error = %d (%s)
+%s() invalid config. Error %s
+%s() multiple error callbacks called!
+%s, load error code: %d, desc: %s
+%s, show error code: %d, desc: %s
+%s:%d: OpenSSL internal error: %s
+(non-string Lua error)
+(Signal Segmentation Violation) Invalid access to storage: When a program tries to read or write outside the memory it has allocated.
+,Invalid instance count
+. No additional error information available.
+/home/jenkins/agent/workspace/tibranch-pipeline_release_0.45.2/ads-core/packages/amp/amp/source/common/JrpcError.cpp
+20CCancellableCallbackIFvN12PartnerEvent18EServerErrorReasonEEE
+20CScopedErrorReporter
+20IScopedErrorReporter
+22CDeepLinksErrorAdapter
+22IDeepLinksErrorAdapter
+23CScriptingErrorReporter
+23IScriptingErrorReporter
+27CInvalidPurchaseFlowTracker
+27CNullScriptingErrorReporter
+27CScopedErrorReporterFactory
+27IScopedErrorReporterFactory
+: OnRequestFailed received error code 
+... (+1880 more in full strings gzip)
+
+### 14. JAVA / JNI CLASS REFERENCES (sample; full JNI list in libcandycrushsaga-exports.txt)  (40 of 112 shown)
+'Lcom/google/androidgamesdk/BuildConfig;
+()Landroidx/core/graphics/Insets;
+()Lcom/king/core/activityhelper/ActivityHelper;
+()Lcom/king/core/AppExitInfoUtils$ExitInfo;
+()Lcom/king/http/HttpHeaders;
+()Lcom/king/usdk/adinfo/AdvertisingId$AdvertisingInfo;
+(I)Landroidx/core/graphics/Insets;
+(JILjava/lang/String;IZLcom/king/http/HttpHeaders;[B)Lcom/king/http/HttpTask;
+(JLcom/google/androidgamesdk/gametextinput/InputConnection;)V
+(JLcom/google/androidgamesdk/gametextinput/State;)V
+(JLjava/lang/String;Ljava/lang/String;Lcom/king/usdk/popupwebview/internal/NativeResponder;)V
+(Landroid/app/Activity;)Lcom/king/usdk/popupwebview/internal/PopupFactory;
+(Landroid/app/Activity;JJJZLcom/king/usdk/braze/BrazeAndroidModule$ForcedIGPOrientation;ZZZ)V
+(Lcom/google/androidgamesdk/gametextinput/State;)V
+(Lcom/king/candycrushsaga/CandyCrushSagaActivity;)V
+(Lcom/king/http/HttpHeaders;Ljava/lang/String;Ljava/lang/String;)V
+(Lcom/king/http/HttpTask;)V
+(Ljava/lang/String;)Lcom/king/usdk/braze/BrazeAndroidModule$ForcedIGPOrientation;
+(Z)Lcom/king/usdk/popupwebview/internal/NativeController;
+0Lcom/google/androidgamesdk/GameSdkDeviceInfoJni;
+0Lcom/google/androidgamesdk/SwappyDisplayManager;
+1Lcom/google/androidgamesdk/ChoreographerCallback;
+2Lcom/google/androidgamesdk/SwappyDisplayManager$1;
+3Lcom/google/androidgamesdk/ChoreographerCallback$1;
+=Lcom/google/androidgamesdk/SwappyDisplayManager$LooperThread;
+>Lcom/google/androidgamesdk/ChoreographerCallback$LooperThread;
+androidx/core/graphics/Insets
+androidx/core/view/WindowInsetsCompat$Type
+com.king.abm.adquality.IronSourceAdQualityAdapter
+com.king.abm.applovin.AbmAdProviderAppLovin
+com.king.abm.facebook.AbmAdProviderFacebook
+com.king.abm.facebook.AbmAdProviderRewardAdFacebookRV
+com.king.abm.google.AbmAdProviderGoogle
+com.king.abm.google.AbmAdProviderInterstitialAdGoogle
+com.king.abm.google.AbmAdProviderRewardAdGoogleRV
+com.king.abm.ironsource.AbmAdProviderIronSource
+com.king.abm.ironsource.AbmAdProviderRewardAdIronSourceRV
+com.king.abm.moloco.AbmAdProviderMoloco
+com.king.abm.moloco.AbmAdProviderRewardAdMolocoRV
+com.king.abm.unity.AbmAdProviderRewardAdUnityRV
+... (+72 more in full strings gzip)
+
+==============================================================================
+END — total lines in this file: (see wc -l). Full strings: libcandycrushsaga-strings.txt.gz
+==============================================================================
