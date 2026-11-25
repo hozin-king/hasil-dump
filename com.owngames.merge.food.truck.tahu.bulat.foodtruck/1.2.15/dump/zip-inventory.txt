@@ -1,0 +1,972 @@
+ZIP INVENTORY — Food Truck City 1.2.15 (APKPure XAPK)
+XAPK: downloads/Food_Truck_City_1.2.15_APKPure.xapk  (24989058 byte, SHA-256 e6d7270b420751455c3a5089c5623890b022f66bfd8583101ad6598e4faefeba)
+
+com.owngames.merge.food.truck.tahu.bulat.foodtruck.apk                     18193805 byte  0
+config.fr.apk                                                                 33177 byte  0
+config.en.apk                                                                 41369 byte  0
+config.arm64_v8a.apk                                                        6636169 byte  0
+config.mdpi.apk                                                               82609 byte  0
+manifest.json                                                                  1033 byte  0
+
+--- isi base APK ---
+AndroidManifest.xml                                                           27356 byte
+META-INF/android.support.design_material.version                                 12 byte
+META-INF/androidx.activity_activity.version                                       6 byte
+META-INF/androidx.annotation_annotation-experimental.version                      6 byte
+META-INF/androidx.appcompat_appcompat-resources.version                           6 byte
+META-INF/androidx.appcompat_appcompat.version                                     6 byte
+META-INF/androidx.arch.core_core-runtime.version                                  6 byte
+META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version                 6 byte
+META-INF/androidx.browser_browser.version                                         6 byte
+META-INF/androidx.cardview_cardview.version                                       6 byte
+META-INF/androidx.coordinatorlayout_coordinatorlayout.version                     6 byte
+META-INF/androidx.core_core-ktx.version                                           6 byte
+META-INF/androidx.core_core.version                                               6 byte
+META-INF/androidx.cursoradapter_cursoradapter.version                             6 byte
+META-INF/androidx.customview_customview.version                                   6 byte
+META-INF/androidx.documentfile_documentfile.version                               6 byte
+META-INF/androidx.drawerlayout_drawerlayout.version                               6 byte
+META-INF/androidx.fragment_fragment.version                                       6 byte
+META-INF/androidx.interpolator_interpolator.version                               6 byte
+META-INF/androidx.legacy_legacy-support-core-ui.version                           6 byte
+META-INF/androidx.legacy_legacy-support-core-utils.version                        6 byte
+META-INF/androidx.legacy_legacy-support-v4.version                                6 byte
+META-INF/androidx.lifecycle_lifecycle-livedata-core.version                       6 byte
+META-INF/androidx.lifecycle_lifecycle-livedata.version                            6 byte
+META-INF/androidx.lifecycle_lifecycle-runtime.version                             6 byte
+META-INF/androidx.lifecycle_lifecycle-service.version                             6 byte
+META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version                6 byte
+META-INF/androidx.lifecycle_lifecycle-viewmodel.version                           6 byte
+META-INF/androidx.loader_loader.version                                           6 byte
+META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version             6 byte
+META-INF/androidx.media_media.version                                             6 byte
+META-INF/androidx.print_print.version                                             6 byte
+META-INF/androidx.recyclerview_recyclerview.version                               6 byte
+META-INF/androidx.room_room-runtime.version                                       6 byte
+META-INF/androidx.savedstate_savedstate.version                                   6 byte
+META-INF/androidx.slidingpanelayout_slidingpanelayout.version                     6 byte
+META-INF/androidx.sqlite_sqlite-framework.version                                 6 byte
+META-INF/androidx.sqlite_sqlite.version                                           6 byte
+META-INF/androidx.startup_startup-runtime.version                                 6 byte
+META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version                   6 byte
+META-INF/androidx.tracing_tracing.version                                         6 byte
+META-INF/androidx.transition_transition.version                                   6 byte
+META-INF/androidx.vectordrawable_vectordrawable-animated.version                  6 byte
+META-INF/androidx.vectordrawable_vectordrawable.version                           6 byte
+META-INF/androidx.versionedparcelable_versionedparcelable.version                 6 byte
+META-INF/androidx.viewpager_viewpager.version                                     6 byte
+META-INF/androidx.work_work-runtime.version                                       6 byte
+META-INF/com.google.android.material_material.version                            10 byte
+assets/3e_d3j_/3e_d243cfe36j.ogt                                              12070 byte
+assets/3e_d3j_/3e_d28cf3k_e92k7ok.ogt                                           986 byte
+assets/3e_d3j_/3e_d2a3i_.ogt                                                   3016 byte
+assets/3e_d3j_/3e_d2j3dg3 .ogt                                                 2465 byte
+assets/3e_d3j_/bfk3/3e_d24l_c6_e9.ogt                                           437 byte
+assets/3e_d3j_/bfk3/3e_d24l_c6_e926i39.ogt                                      756 byte
+assets/3e_d3j_/df4_c/3e_d2787bdf4_c8_e_j .ogt                                  1397 byte
+assets/3e_d3j_/df4_c/3e_d2df4_c_jf.ogt                                        16263 byte
+assets/3e_d3j_/df4_c/3e_d2df4_cki35b.ogt                                       8457 byte
+assets/3e_d3j_/df4_c/3e_d2df4_cki35b2bfk3.ogt                                  8425 byte
+assets/3e_d3j_/g3ik_5c7/5 78243697.ogt                                         2171 byte
+assets/3e_d3j_/g3ik_5c7/788236j4fo2435b.ogt                                    2298 byte
+assets/3e_d3j_/g3ik_5c7/788236j4fo28ifek.ogt                                   1212 byte
+assets/3e_d3j_/g3ik_5c7/7og4fo28ifek.ogt                                       1212 byte
+assets/3e_d3j_/g3ik_5c7/7og4fo2fg7e2435b.ogt                                   3173 byte
+assets/3e_d3j_/g3ik_5c7/7og4fo2fg7e28ifek.ogt                                  1210 byte
+assets/3e_d3j_/g3ik_5c7/8i774fo2435b.ogt                                       2293 byte
+assets/3e_d3j_/g3ik_5c7/8i774fo2fg7e2435b.ogt                                  2055 byte
+assets/3e_d3j_/g3ik_5c7/8i774fo2fg7e28ifek.ogt                                 1210 byte
+assets/3e_d3j_/g3ik_5c7/8i774fo2i7dfm72435b.ogt                                1178 byte
+assets/3e_d3j_/g3ik_5c7/8lcc2d7i972435b.ogt                                    1866 byte
+assets/3e_d3j_/g3ik_5c7/8lcc2d7i972e7n2435b.ogt                                1881 byte
+assets/3e_d3j_/g3ik_5c7/8lcc2d7i972e7n2435b2i7g73k.ogt                         3168 byte
+assets/3e_d3j_/g3ik_5c7/8lcc2d7i972e7n28ifek.ogt                               1227 byte
+assets/3e_d3j_/g3ik_5c7/97k5f_e.ogt                                            1314 byte
+assets/3e_d3j_/g3ik_5c7/Lz2jg3ibc7.ogt                                         1737 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g24le6c72S.ogt                                    1049 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62S.ogt                                   1043 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62T.ogt                                   1043 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62U.ogt                                   1047 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62V.ogt                                   1047 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62W.ogt                                   2016 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g26_3dfe62X.ogt                                   1045 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g2a3d2oS.ogt                                      1227 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g2a3d2oU.ogt                                      2376 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g2a3d7d3j2oS.ogt                                  2201 byte
+assets/3e_d3j_/g3ik_5c7/abc_3g2a3d7d3j2oU.ogt                                  1958 byte
+assets/3e_d3j_/g3ik_5c7/be3cgfk.ogt                                            1163 byte
+assets/3e_d3j_/g3ik_5c7/be3cgfk2cf36_e9.ogt                                    1225 byte
+assets/3e_d3j_/g3ik_5c7/be3cgfk2efj.ogt                                        1267 byte
+assets/3e_d3j_/g3ik_5c7/d7i972 fd72435b.ogt                                    3235 byte
+assets/3e_d3j_/g3ik_5c7/d7i972 fd728ifek.ogt                                   1223 byte
+assets/3e_d3j_/g3ik_5c7/e_kif28_i7.ogt                                         2849 byte
+assets/3e_d3j_/g3ik_5c7/f88c_e72bf_e236j.ogt                                   2170 byte
+assets/3e_d3j_/g3ik_5c7/f88c_e72bf_e2efid3c.ogt                                1215 byte
+assets/3e_d3j_/g3ik_5c7/f88c_e72bf_e2j5i77e236j.ogt                            3555 byte
+assets/3e_d3j_/g3ik_5c7/f88c_e72bf_e2j5i77e2efid3c.ogt                         2443 byte
+assets/3e_d3j_/g3ik_5c7/g24ffjk7i.ogt                                          2007 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2SoS.ogt                                       9971 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2ToS.ogt                                       9977 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2ToT.ogt                                      13097 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2ToU.ogt                                      16472 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2UoT.ogt                                      15761 byte
+assets/3e_d3j_/g3ik_5c7/g24l_c6j2UoU.ogt                                      19452 byte
+assets/3e_d3j_/g3ik_5c7/g2gc3ek2SoS.ogt                                        8049 byte
+assets/3e_d3j_/g3ik_5c7/k_c72787b.ogt                                          1201 byte
+assets/3e_d3j_/g3ik_5c7/ki3j 26ljk.ogt                                         3653 byte
+assets/435b9ifle6/Lz29lele9S.oga                                             505294 byte
+assets/435b9ifle6/Lz29lele9T.oga                                              38683 byte
+assets/435b9ifle6/Lz2ildglk.oga                                              916766 byte
+assets/43cfe/wKzjf243ccffeS.oga                                              123965 byte
+assets/43cfe/wKzjf243ccffeS3.oga                                              24844 byte
+assets/43cfe/wKzjf243ccffeT.oga                                               19007 byte
+assets/43cfe/wKzjf243ccffeT3.oga                                               5358 byte
+assets/43cfe/wKzjf243ccffeU.oga                                               10860 byte
+assets/43cfe/wKzjf243ccffeU3.oga                                               3300 byte
+assets/43cfe/wKzjf243ccffek3bf.oga                                            21099 byte
+assets/8fek/Cl5b_7jkxlp2I79lc3i.ogf                                           58292 byte
+assets/8fek/sff93cff2I79lc3i.ogf                                              31780 byte
+assets/8o2g3ik_5c7/g2 3dd7i.oga                                                1680 byte
+assets/8o2g3ik_5c7/g24fo26ljk.oga                                               915 byte
+assets/8o2g3ik_5c7/g24fo29i3jj.oga                                              364 byte
+assets/8o2g3ik_5c7/g24l_c62c738.oga                                            1242 byte
+assets/8o2g3ik_5c7/g24l_c62jk3i.oga                                             793 byte
+assets/8o2g3ik_5c7/g24l_c62jk3iT.oga                                            556 byte
+assets/8o2g3ik_5c7/g2788236j4fo.oga                                            3853 byte
+assets/8o2g3ik_5c7/g28_i72674i_j.oga                                            440 byte
+assets/8o2g3ik_5c7/g28_i729cfn.oga                                              799 byte
+assets/8o2g3ik_5c7/g2be3cgfk.oga                                                853 byte
+assets/8o2g3ik_5c7/g2d7i972c_e7.oga                                             723 byte
+assets/8o2g3ik_5c7/g2d7i972d3ib2c_e7.oga                                        643 byte
+assets/8o2g3ik_5c7/g2d7i972i_e9.oga                                            6798 byte
+assets/8o2g3ik_5c7/g2d7i972ifle6.oga                                            749 byte
+assets/8o2g3ik_5c7/g2d7i972jgfkc_9 k.oga                                       9214 byte
+assets/8o2g3ik_5c7/g2d7i972jk3i.oga                                             584 byte
+assets/8o2g3ik_5c7/g2efj.oga                                                    716 byte
+assets/8o2g3ik_5c7/g2efj28_i7.oga                                               834 byte
+assets/8o2g3ik_5c7/g2efj28_i7T.oga                                              706 byte
+assets/8o2g3ik_5c7/g2efj28_i7U.oga                                              585 byte
+assets/8o2g3ik_5c7/g2efj28_i7V.oga                                              749 byte
+assets/Jgc3j 1J5i77e/C39lCf9fFnex3d7j.ogm                                     15012 byte
+assets/Jgc3j 1J5i77e/Lz2jgc3j j5i77e.oga                                    1248070 byte
+assets/Jgc3j 1J5i77e/jgc3j 2j5i77e.oga                                       137485 byte
+assets/JwO/43i28_cc2c7m7clgre6E_kif.ogm                                        6840 byte
+assets/JwO/4foDle5lc.ogm                                                       9432 byte
+assets/JwO/5c_5b.ogm                                                           1296 byte
+assets/JwO/5c_5b24kef88c_e7i7m2oW.ogm                                         17904 byte
+assets/JwO/5f_e26ifg.ogm                                                       8179 byte
+assets/JwO/6ifg253i2c3e7.ogm                                                  11521 byte
+assets/JwO/6ifg253i2c3e7E_kif.ogm                                             14252 byte
+assets/JwO/6ifg253i2d7i976.ogm                                                15647 byte
+assets/JwO/6ifg253i2kfk_c7.ogm                                                 5601 byte
+assets/JwO/97k26_3dfe6Fit 78s3697.ogm                                          9432 byte
+assets/JwO/9i34253i.ogm                                                        2928 byte
+assets/JwO/c7m7clg2j5i77e.ogm                                                 14687 byte
+assets/JwO/kfgd7i972j5i77e.ogm                                                13165 byte
+assets/ODC/C7m7cu3k3.ogt                                                       8901 byte
+assets/ODC/c3e927e.ogt                                                        13981 byte
+assets/ODC/c3e92_6.ogt                                                        15718 byte
+assets/ODC/klkfi_3c.ogt                                                        8548 byte
+assets/Sg_o7c.oga                                                                89 byte
+assets/Sg_o7cki3ejg3i7ek.oga                                                     91 byte
+assets/XML/LevelData.xml                                                       8901 byte
+assets/XML/lang_en.xml                                                        13981 byte
+assets/XML/lang_id.xml                                                        15718 byte
+assets/XML/tutorial.xml                                                        8548 byte
+assets/audience_network.dex                                                 3167108 byte
+assets/bfk3/Lz29lele92bfk3.oga                                                82400 byte
+assets/bfk3/Lz2a3c3e2bfk32S.oga                                               11426 byte
+assets/bfk3/Lz2a3c3e2bfk32T.oga                                               27166 byte
+assets/bfk3/Lz2a3c3e2bfk32U.oga                                               47398 byte
+assets/bfk3/Lz2a3c3e2bfk32V.oga                                               17436 byte
+assets/bfk3/Lz2a3c3e2bfk32W.oga                                               14487 byte
+assets/bfk3/Lz2ildglk2bfk3.oga                                                99793 byte
+assets/bfk3/k_c7j267bfi.oga                                                     163 byte
+assets/bfk3/k_c7j267bfi23m3_c34c7.oga                                           155 byte
+assets/bfk3/k_c7j267bfi2le3m3_c34c7.oga                                         163 byte
+assets/bfk3/uvB2GyE2S2r.oga                                                    2550 byte
+assets/bfk3/uvB2GyE2S2s.oga                                                    2371 byte
+assets/bfk3/uvB2GyE2S2t.oga                                                    2757 byte
+assets/bfk3/uvB2GyE2S2u.oga                                                    2706 byte
+assets/bfk3/uvB2GyE2T2r.oga                                                    2375 byte
+assets/bfk3/uvB2GyE2T2s.oga                                                    2247 byte
+assets/bfk3/uvB2GyE2T2t.oga                                                    2770 byte
+assets/bfk3/uvB2GyE2T2u.oga                                                    2723 byte
+assets/bfk3/uvB2GyE2U2r.oga                                                    3355 byte
+assets/bfk3/uvB2GyE2U2s.oga                                                    3577 byte
+assets/bfk3/uvB2GyE2U2t.oga                                                    3900 byte
+assets/bfk3/uvB2GyE2U2u.oga                                                    3351 byte
+assets/bfk3/uvB2GyE2V2r.oga                                                    3097 byte
+assets/bfk3/uvB2GyE2V2s.oga                                                    3647 byte
+assets/bfk3/uvB2GyE2V2t.oga                                                    3739 byte
+assets/bfk3/uvB2GyE2V2u.oga                                                    3671 byte
+assets/bfk3/uvB2GyE2W2r.oga                                                    4040 byte
+assets/bfk3/uvB2GyE2W2s.oga                                                    3418 byte
+assets/bfk3/uvB2GyE2W2t.oga                                                    3832 byte
+assets/bfk3/uvB2GyE2W2u.oga                                                    3903 byte
+assets/bfk3/uvB2GyE2X2r.oga                                                    3879 byte
+assets/bfk3/uvB2GyE2X2s.oga                                                    4471 byte
+assets/bfk3/uvB2GyE2X2t.oga                                                    4039 byte
+assets/bfk3/uvB2GyE2X2u.oga                                                    3929 byte
+assets/bfk3/uvB2GyE2Y2r.oga                                                    3459 byte
+assets/bfk3/uvB2GyE2Y2s.oga                                                    4385 byte
+assets/bfk3/uvB2GyE2Y2t.oga                                                    3363 byte
+assets/bfk3/uvB2GyE2Y2u.oga                                                    4098 byte
+assets/bfk3/uvB2GyE2Z2r.oga                                                    3810 byte
+assets/bfk3/uvB2GyE2Z2s.oga                                                    4516 byte
+assets/bfk3/uvB2GyE2Z2t.oga                                                    4248 byte
+assets/bfk3/uvB2GyE2Z2u.oga                                                    4503 byte
+assets/bfk3/uvB2IDy2S2r.oga                                                    5070 byte
+assets/bfk3/uvB2IDy2S2s.oga                                                    5061 byte
+assets/bfk3/uvB2IDy2S2t.oga                                                    4860 byte
+assets/bfk3/uvB2IDy2S2u.oga                                                    5898 byte
+assets/bfk3/uvB2IDy2T2r.oga                                                    6182 byte
+assets/bfk3/uvB2IDy2T2s.oga                                                    6225 byte
+assets/bfk3/uvB2IDy2T2t.oga                                                    5848 byte
+assets/bfk3/uvB2IDy2T2u.oga                                                    7087 byte
+assets/bfk3/uvB2IDy2U2r.oga                                                    7285 byte
+assets/bfk3/uvB2IDy2U2s.oga                                                    7391 byte
+assets/bfk3/uvB2IDy2U2t.oga                                                    7133 byte
+assets/bfk3/uvB2IDy2U2u.oga                                                    9621 byte
+assets/bfk3/uvB2xux2S2r.oga                                                    5010 byte
+assets/bfk3/uvB2xux2S2s.oga                                                    4546 byte
+assets/bfk3/uvB2xux2S2t.oga                                                    4540 byte
+assets/bfk3/uvB2xux2S2u.oga                                                    4994 byte
+assets/bfk3/uvB2xux2T2r.oga                                                    6507 byte
+assets/bfk3/uvB2xux2T2s.oga                                                    8144 byte
+assets/bfk3/uvB2xux2T2t.oga                                                    6283 byte
+assets/bfk3/uvB2xux2T2u.oga                                                    8335 byte
+assets/c3pflk/Bfk3J57e7.ogt                                                   29855 byte
+assets/c3pflk/C7m7cLgJ57e7.ogt                                                 8585 byte
+assets/c3pflk/Cf36_e9J5i77e.ogt                                                2016 byte
+assets/c3pflk/E_kifsffjkJ57e7.ogt                                              9283 byte
+assets/c3pflk/F88c_e7ze5fd7Gfglg.ogt                                           1326 byte
+assets/c3pflk/Gif8_c7J57e7.ogt                                                19701 byte
+assets/c3pflk/J fgJ57e7.ogt                                                    3554 byte
+assets/c3pflk/Jg_ee7iJ57e7.ogt                                                 4872 byte
+assets/c3pflk/Klkfi_3cJ57e7.ogt                                                1133 byte
+assets/c3pflk/gfglg/F88c_e7ze5fd7Gfglg.ogt                                     2757 byte
+assets/c3pflk/gfglg/Gif8_c7J7c75kGfglg.ogt                                    12487 byte
+assets/c3pflk/gfglg/J_e9c7slkkfeGfglg.ogt                                      1657 byte
+assets/c3pflk/gfglg/K_c7zrGGfglg.ogt                                           2701 byte
+assets/c3pflk/gfglg/t 3e97C3e9l397Gfglg.ogt                                    1618 byte
+assets/c3pflk/gfglg/x7e7i3cGfglg.ogt                                           1616 byte
+assets/c3pflk/gfglg/zbc3esfoGfglg.ogt                                          1931 byte
+assets/c3pflk/l__k7d/Gif8_c7Kil5bj.ogt                                         1026 byte
+assets/c3pflk/l__k7d/Hl7jkr5 _7m7d7ek.ogt                                      1953 byte
+assets/c3pflk/l__k7d/J fgzk7d.ogt                                              1842 byte
+assets/c3pflk/l__k7d/KfgLz.ogt                                                 2893 byte
+assets/c3pflk/l__k7d/Lg9i367zk7d.ogt                                           1517 byte
+assets/c3pflk/l__k7d/sffjk7izk7d.ogt                                           2701 byte
+assets/c3pflk/l__k7d/sl_c6_e9K34zk7d.ogt                                       1191 byte
+assets/c3pflk/l__k7d/z3gCfe9zk7d.ogt                                           1648 byte
+assets/c3pflk/l__k7d/z3gJd3cczk7d.ogt                                          1107 byte
+assets/c3pflk/r5 _7m7d7ekJ57e7.ogt                                             1865 byte
+assets/c3pflk/tf_evo5 3e97J57e7.ogt                                            3952 byte
+assets/c3pflk/u3k3FecpJ57e7.ogt                                                2151 byte
+assets/c3pflk/wlccD7i97J57e7.ogt                                              12913 byte
+assets/c3pflk/x3d7gc3pJ57e7.ogt                                               13908 byte
+assets/c3pflk/z3gJ57e7.ogt                                                     5694 byte
+assets/df5blgYXZ/df5blg2976le92ToT.oga                                        23704 byte
+assets/df5blgYXZ/df5blg2976le92ToU.oga                                        27267 byte
+assets/df5blgYXZ/df5blg2976le92UoT.oga                                        32701 byte
+assets/df5blgYXZ/df5blg2976le92VoV.oga                                        85316 byte
+assets/df5blgYXZ/df5blg2gf fe23.oga                                            5652 byte
+assets/df5blgYXZ/df5blg2gf fe24.oga                                            4745 byte
+assets/df5blgYXZ/df5blg2gf fe25.oga                                            2499 byte
+assets/efk_8/abc_5feEfk_82wKKs.oga                                             3839 byte
+assets/efk_8/abc_d397Efk_82wKKs.oga                                           64825 byte
+assets/kil5bj/4fo/wKzjf24fo236.oga                                            27238 byte
+assets/kil5bj/4fo/wKzjf24fo27og.oga                                           29853 byte
+assets/kil5bj/4fo/wKzjf24fo28i77.oga                                          23039 byte
+assets/kil5bj/4fo/wKzjf24fo2g3_6.oga                                          24275 byte
+assets/kil5bj/g3k .oga                                                       182978 byte
+assets/kil5bj/k_c724lp.oga                                                     8776 byte
+assets/kil5bj/k_c72gi7d_ld.oga                                                 7113 byte
+assets/kil5bj/k_c743j7.oga                                                     4110 byte
+assets/kil5bj/kil5b147/wKs72R02Fd7c7kk7.oga                                   13590 byte
+assets/kil5bj/kil5b147/wKs72RS2K3 l4lc3k.oga                                  11754 byte
+assets/kil5bj/kil5b147/wKs72RT2t _gj.oga                                      12529 byte
+assets/kil5bj/kil5b147/wKs72RU2Jleepj_67lg.oga                                12678 byte
+assets/kil5bj/kil5b147/wKs72RV2Fe_fei_e9j.oga                                 13401 byte
+assets/kil5bj/kil5b147/wKs72RW2wi_7j.oga                                      12436 byte
+assets/kil5bj/kil5b147/wKs72RX2tif_jj3ek.oga                                  12322 byte
+assets/kil5bj/kil5b147/wKs72RY2xi_cc765 77j7.oga                              13024 byte
+assets/kil5bj/kil5b147/wKs72RZ2J3lj397.oga                                    11852 byte
+assets/kil5bj/kil5b147/wKs72S02sli97i6fl4c7.oga                               13207 byte
+assets/kil5bj/kil5b147/wKs72SR2J3e6n_5 .oga                                   12426 byte
+assets/kil5bj/kil5b147/wKs72SS2yfk6f9.oga                                     12392 byte
+assets/kil5bj/kil5b147/wKs72ST2Jg39 7kk_.oga                                  14405 byte
+assets/kil5bj/kil5b147/wKs72SU2Hl7j36_cc3.oga                                 14567 byte
+assets/kil5bj/kil5b147/wKs72SV2w_j 4li97i.oga                                 12157 byte
+assets/kil5bj/kil5b147/wKs72SW2Fe_9_i_.oga                                    12551 byte
+assets/kil5bj/kil5b147/wKs72SX2slii_kf.oga                                    14930 byte
+assets/kil5bj/kil5b147/wKs72SY2w_j e5 _gj.oga                                 15662 byte
+assets/kil5bj/kil5b147/wKs72SZ2J3e6n_5 6fl4c7.oga                             15603 byte
+assets/kil5bj/kil5b147/wKs72T02G_qq3.oga                                      14662 byte
+assets/kil5bj/kil5b147/wKs72TR2wi_765 _5b7e.oga                               11269 byte
+assets/kil5bj/kil5b147/wKs72TS2tliipi_57.oga                                  15569 byte
+assets/kil5bj/kil5b147/wKs72TT2tif_jj3ekj3e6n_5 .oga                          15550 byte
+assets/kil5bj/kil5b147/wKs72TU2t37j3ij3c36.oga                                16332 byte
+assets/kil5bj/kil5b147/wKs72TV2K7e67icf_e.oga                                 14870 byte
+assets/kil5bj/kil5b147/wKs72TW2I3d7e.oga                                      15412 byte
+assets/kil5bj/kil5b147/wKs72TX2xli3d7.oga                                     16038 byte
+assets/kil5bj/kil5b147/wKs72TY2Jli8kli8.oga                                   15881 byte
+assets/kil5bj/kil5b147/wKs72TZ2E3j_9fi7e9.oga                                 15797 byte
+assets/kil5bj/kil5b147/wKs72UR2Cf4jk7i.oga                                    15316 byte
+assets/kil5bj/kil5b1_jf/wKzjf2R02Fd7c7kk7.oga                                 90125 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RS2K3 l4lc3k.oga                                79718 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RT2t _gj.oga                                   100572 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RU2Jleepj_67lg.oga                             121859 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RV2Fe_fei_e9j.oga                               86141 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RW2wi_7j.oga                                    86664 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RX2tif_jj3ek.oga                                89658 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RY2xi_cc765 77j7.oga                           105353 byte
+assets/kil5bj/kil5b1_jf/wKzjf2RZ2J3lj397.oga                                 100246 byte
+assets/kil5bj/kil5b1_jf/wKzjf2S02sli97i6fl4c7.oga                             93559 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SR2J3e6n_5 .oga                                 99387 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SS2yfk6f9.oga                                  100779 byte
+assets/kil5bj/kil5b1_jf/wKzjf2ST2Jg39 7kk_.oga                                99245 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SU2Hl7j36_cc3.oga                               90841 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SV2w_j 4li97i.oga                              102230 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SW2Fe_9_i_.oga                                  78029 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SX2slii_kf.oga                                  97008 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SY2w_j e5 _gj.oga                              115224 byte
+assets/kil5bj/kil5b1_jf/wKzjf2SZ2J3e6n_5 6fl4c7.oga                          103840 byte
+assets/kil5bj/kil5b1_jf/wKzjf2T02G_qq3.oga                                   115086 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TR2wi_765 _5b7e.oga                             92731 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TS2tliipi_57.oga                                96805 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TT2tif_jj3ekj3e6n_5 .oga                       106645 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TU2t37j3ij3c36.oga                             100481 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TV2K7e67icf_e.oga                               94605 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TW2I3d7e.oga                                    98723 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TX2xli3d7.oga                                   96922 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TY2Jli8kli8.oga                                 88309 byte
+assets/kil5bj/kil5b1_jf/wKzjf2TZ2E3j_9fi7e9.oga                              101187 byte
+assets/kil5bj/kil5b1_jf/wKzjf2UR2Cf4jk7i.oga                                 109972 byte
+assets/kil5bj/l_2d7i972d3ib.oga                                                7780 byte
+assets/l_/ 3e62klkfi_3c.oga                                                    7675 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf923 3.oga                                    62713 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf9247c3a3i.oga                                47155 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92_6c7.oga                                   75257 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92_e93k.oga                                  51343 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92b397k.oga                                  50685 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92d3eklc.oga                                 64377 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92d3ki7.oga                                  51508 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92j3g3.oga                                   52584 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92j763g.oga                                  55691 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92j7d3e93k.oga                               44676 byte
+assets/l_/3b3e916_3cf9/3b3e9u_3cf92k7b36.oga                                  48339 byte
+assets/l_/Lz25 78436971jd3cc.oga                                               5617 byte
+assets/l_/Lz25 78436972c3i97.oga                                              96003 byte
+assets/l_/Lz2_5fen 77c.oga                                                    13675 byte
+assets/l_/Lz2g3ik_5c729cfn.oga                                                 2625 byte
+assets/l_/Lz2gif8_c7.oga                                                      24031 byte
+assets/l_/Lz2gif8_c720.oga                                                     6621 byte
+assets/l_/Lz2gif8_c72T.oga                                                     7153 byte
+assets/l_/Lz2gif8_c72U.oga                                                     7087 byte
+assets/l_/Lz2gif8_c72V.oga                                                     7169 byte
+assets/l_/Lz2gif8_c72W.oga                                                     7862 byte
+assets/l_/Lz2gif8_c72X.oga                                                     6908 byte
+assets/l_/Lz2gif8_c72Y.oga                                                     7366 byte
+assets/l_/Lz2gif8_c72Z.oga                                                     7694 byte
+assets/l_/Lz2i7jk3i73.oga                                                     11964 byte
+assets/l_/Lz2i7jk3i732c_e7S.oga                                                 119 byte
+assets/l_/Lz2i7jk3i732c_e7T.oga                                                 118 byte
+assets/l_/Lz2jk3ikgf_ek27dgkp.oga                                               316 byte
+assets/l_/Lz2jk3ikgf_ek28_cc.oga                                                223 byte
+assets/l_/Lz2jk3ikgf_ek2j_9e.oga                                               2342 byte
+assets/l_/Lz2lg9i3672jg73b7iS.oga                                             34128 byte
+assets/l_/Lz2lg9i3672jg73b7iT.oga                                             46945 byte
+assets/l_/Lz2lg9i3672jg73b7iU.oga                                             40257 byte
+assets/l_/Lz2lg9i3672jg73b7iV.oga                                             44374 byte
+assets/l_/Lz2lg9i3672kil5bjg776S.oga                                          25445 byte
+assets/l_/Lz2lg9i3672kil5bjg776T.oga                                          28597 byte
+assets/l_/Lz2lg9i3672kil5bjg776U.oga                                          35222 byte
+assets/l_/Lz2n 77c243j7.oga                                                   94942 byte
+assets/l_/Lz2n 77c25fm7i.oga                                                  34249 byte
+assets/l_/Lz2n 77c2S.oga                                                      12541 byte
+assets/l_/Lz2n 77c2T.oga                                                      11684 byte
+assets/l_/Lz2n 77c2_5fe2S.oga                                                 11228 byte
+assets/l_/Lz2n 77c2_5fe2T.oga                                                 13470 byte
+assets/l_/Lz2n 77c2_5fe2U.oga                                                 14418 byte
+assets/l_/Lz2n 77c2_5fe2V.oga                                                 15925 byte
+assets/l_/Lz2n 77c2_5fe2W.oga                                                 18702 byte
+assets/l_/Lz2n 77c2_5fe2X.oga                                                 17119 byte
+assets/l_/l_23c7ik2i76.oga                                                     3009 byte
+assets/l_/l_243n3 .oga                                                         4652 byte
+assets/l_/l_24ffjk7i2_526_j5flek.oga                                          31572 byte
+assets/l_/l_24ffjk7i2_5273ie_e9j.oga                                          35242 byte
+assets/l_/l_24ffjk7i2_527o5 3e97.oga                                          35113 byte
+assets/l_/l_24k_525cfl6J3m7.oga                                                 777 byte
+assets/l_/l_24k_52gc3pJ_9e_e.oga                                               1143 byte
+assets/l_/l_24ke2S.oga                                                         6892 byte
+assets/l_/l_24ke2S2_5fe.oga                                                    5394 byte
+assets/l_/l_24ke2T.oga                                                         7626 byte
+assets/l_/l_24ke2T263ib.oga                                                    8705 byte
+assets/l_/l_24ke2T2_5fe.oga                                                     754 byte
+assets/l_/l_24ke2U.oga                                                        12100 byte
+assets/l_/l_24ke2V.oga                                                         7842 byte
+assets/l_/l_24ke2V2_5fe.oga                                                    7545 byte
+assets/l_/l_24ke2W.oga                                                         6658 byte
+assets/l_/l_24ke2W2_5fe.oga                                                    5009 byte
+assets/l_/l_24ke2c7367i4f3i6.oga                                               6219 byte
+assets/l_/l_24ke2gclj.oga                                                      2382 byte
+assets/l_/l_24ketcfj7Gfglg.oga                                                 7634 byte
+assets/l_/l_25f_e.oga                                                         14820 byte
+assets/l_/l_26_3cf924fo.oga                                                    2743 byte
+assets/l_/l_26_3cf927e623iifn.oga                                               333 byte
+assets/l_/l_26_3cf927e62c_e7.oga                                                123 byte
+assets/l_/l_27o5 3e9724ke2d3o.oga                                              6722 byte
+assets/l_/l_27o5 3e9724ke2d_e.oga                                              6091 byte
+assets/l_/l_27o5 3e9724ke2d_elj.oga                                            3984 byte
+assets/l_/l_27o5 3e9724ke2gclj.oga                                             4477 byte
+assets/l_/l_27o5 3e972c4c.oga                                                  5793 byte
+assets/l_/l_297d.oga                                                           4214 byte
+assets/l_/l_2_3g2_5fe24le6c7S.oga                                             60346 byte
+assets/l_/l_2_3g2_5fe26_3dfe6S.oga                                            16119 byte
+assets/l_/l_2_3g2_5fe26_3dfe6T.oga                                            27654 byte
+assets/l_/l_2_3g2_5fe26_3dfe6U.oga                                            40290 byte
+assets/l_/l_2_3g2_5fe26_3dfe6V.oga                                            47548 byte
+assets/l_/l_2_3g2_5fe26_3dfe6W.oga                                            60823 byte
+assets/l_/l_2_3g2_5fe26_3dfe6X.oga                                            20743 byte
+assets/l_/l_2_3g2a3d24_3j3S.oga                                               12533 byte
+assets/l_/l_2_3g2a3d24_3j3U.oga                                               45632 byte
+assets/l_/l_2_3g2a3d27d3jS.oga                                                20198 byte
+assets/l_/l_2_3g2a3d27d3jU.oga                                                56948 byte
+assets/l_/l_2_3g2c4c2 _k3d.oga                                                 7058 byte
+assets/l_/l_2_3g2c4c2 _k3d2g7e67b.oga                                          6501 byte
+assets/l_/l_2_3g2c4c2g_k32T.oga                                                4228 byte
+assets/l_/l_2_3g2c4c2g_k32U.oga                                                4276 byte
+assets/l_/l_2_3g2c4c2g_k32V.oga                                                4345 byte
+assets/l_/l_2_3g2c4c2g_k32W.oga                                                4585 byte
+assets/l_/l_2_3g2c4c2g_k32X.oga                                                4534 byte
+assets/l_/l_2bfk324ke2 _67k34.oga                                              2496 byte
+assets/l_/l_2bfk324ke2 flj7j.oga                                               6648 byte
+assets/l_/l_2bfk324ke243j7.oga                                                 4877 byte
+assets/l_/l_2bfk324ke24l_c6_e9j.oga                                            7168 byte
+assets/l_/l_2bfk324ke2_52 flj7j.oga                                           12188 byte
+assets/l_/l_2bfk324ke2_524l_c6_e9j.oga                                        13839 byte
+assets/l_/l_2bfk324ke2_529f fd7.oga                                            1193 byte
+assets/l_/l_2bfk324ke2_529f5_kp.oga                                             660 byte
+assets/l_/l_2bfk324ke2_52gc3ekj.oga                                           10278 byte
+assets/l_/l_2bfk324ke2gc3ekj.oga                                               6907 byte
+assets/l_/l_2bfk324ke2m.oga                                                    8298 byte
+assets/l_/l_2bfk324ke2o.oga                                                    8735 byte
+assets/l_/l_2bfk32j fg2c4c23.oga                                                991 byte
+assets/l_/l_2bfk32j fg2c4c2_k7dj.oga                                           6095 byte
+assets/l_/l_2c4c23e9b320.oga                                                    855 byte
+assets/l_/l_2c4c23e9b32S.oga                                                    800 byte
+assets/l_/l_2c4c23e9b32SR.oga                                                   913 byte
+assets/l_/l_2c4c23e9b32T.oga                                                    876 byte
+assets/l_/l_2c4c23e9b32U.oga                                                    807 byte
+assets/l_/l_2c4c23e9b32V.oga                                                    942 byte
+assets/l_/l_2c4c23e9b32W.oga                                                    853 byte
+assets/l_/l_2c4c23e9b32X.oga                                                    911 byte
+assets/l_/l_2c4c23e9b32Y.oga                                                    881 byte
+assets/l_/l_2c4c23e9b32Z.oga                                                    918 byte
+assets/l_/l_2c4c257ek7i.oga                                                    4465 byte
+assets/l_/l_2c4c27og43i.oga                                                     492 byte
+assets/l_/l_2c4c27og8_cc.oga                                                    610 byte
+assets/l_/l_2c4c2S.oga                                                         1982 byte
+assets/l_/l_2c4c2al6lc.oga                                                    31975 byte
+assets/l_/l_2c4c2gif9i7jj43i.oga                                                238 byte
+assets/l_/l_2c4c2gif9i7jj8_cc.oga                                               186 byte
+assets/l_/l_2c4c2i_9 k.oga                                                     1277 byte
+assets/l_/l_2c4c2k3bf.oga                                                      7127 byte
+assets/l_/l_2c7m7clg2c4c243i2_j_.oga                                            925 byte
+assets/l_/l_2c7m7clg2c4c243i2bfjfe9.oga                                         948 byte
+assets/l_/l_2c7m7clg2c4c2i7n3i6.oga                                            8029 byte
+assets/l_/l_2cf36_e92a3c3e.oga                                                12251 byte
+assets/l_/l_2cf36_e92df4_c.oga                                                16256 byte
+assets/l_/l_2cf9f28k29cf43c.oga                                              240419 byte
+assets/l_/l_2cf9f28k2_e6f.oga                                                179218 byte
+assets/l_/l_2e_kif236j.oga                                                     3535 byte
+assets/l_/l_2e_kif243i.oga                                                     3855 byte
+assets/l_/l_2e_kif243i2_j_.oga                                                 1291 byte
+assets/l_/l_2e_kif243i2bfjfe9.oga                                               533 byte
+assets/l_/l_2e_kif243i2i7n3i6.oga                                              4878 byte
+assets/l_/l_2e_kif24ke236j.oga                                                 5657 byte
+assets/l_/l_2e_kif24ke297d.oga                                                 5626 byte
+assets/l_/l_2e_kif2c3i9728_i7.oga                                             22265 byte
+assets/l_/l_2e_kif2c3i972e.oga                                                10712 byte
+assets/l_/l_2f88c_e724ke25c3_d.oga                                             4650 byte
+assets/l_/l_2f88c_e72_d92bf_e.oga                                             57946 byte
+assets/l_/l_2f88c_e72_d92bf_e236j.oga                                        204348 byte
+assets/l_/l_2f88c_e72c4c2dlck_gc_7i.oga                                        3408 byte
+assets/l_/l_2gfglg23.oga                                                      27393 byte
+assets/l_/l_2gfglg24.oga                                                      15143 byte
+assets/l_/l_2gfglg24ke2ef.oga                                                  5369 byte
+assets/l_/l_2gfglg24ke2p7j.oga                                                 5279 byte
+assets/l_/l_2gfglg25.oga                                                        180 byte
+assets/l_/l_2gif8_c724ke276_ke3d7.oga                                          2951 byte
+assets/l_/l_2gif8_c724ke27d3_c.oga                                             3986 byte
+assets/l_/l_2gif8_c724ke284.oga                                                3545 byte
+assets/l_/l_2gif8_c724ke2_ejk3.oga                                             4463 byte
+assets/l_/l_2gif8_c724ke2pk.oga                                                4832 byte
+assets/l_/l_2gif8_c72_5fe2j7kk_e9j.oga                                         8515 byte
+assets/l_/l_2gif8_c72_5fe2jk3kj.oga                                           20869 byte
+assets/l_/l_2gif8_c72c4c23.oga                                                 2961 byte
+assets/l_/l_2gif8_c72c4c24.oga                                                 3611 byte
+assets/l_/l_2gif8_c72c4c25.oga                                                  203 byte
+assets/l_/l_2gif8_c72c4c2e3d3.oga                                              1527 byte
+assets/l_/l_2gif8_c72cf9f2fne.oga                                              4159 byte
+assets/l_/l_2hl7jk243i.oga                                                     2954 byte
+assets/l_/l_2hl7jk243i28_cc.oga                                                2823 byte
+assets/l_/l_2hl7jk2_5fe.oga                                                    6355 byte
+assets/l_/l_2j fg.oga                                                          9722 byte
+assets/l_/l_2j fg23iifn.oga                                                     315 byte
+assets/l_/l_2j fg24ffjk7ij243i.oga                                             2838 byte
+assets/l_/l_2j fg24ffjk7ij243i28_cc.oga                                        2304 byte
+assets/l_/l_2j fg24ffjk7ij24lkkfe.oga                                          4051 byte
+assets/l_/l_2j fg24ke24ffjk7ij.oga                                             9001 byte
+assets/l_/l_2j fg24ke24lp.oga                                                  5484 byte
+assets/l_/l_2j fg24ke25cfj7.oga                                               10542 byte
+assets/l_/l_2j fg24ke2lg9i367j.oga                                             9010 byte
+assets/l_/l_2j fg2_5fe24ffjk7ij.oga                                            9568 byte
+assets/l_/l_2j fg2_5fe2kil5bj.oga                                             21876 byte
+assets/l_/l_2j fg2_5fe2lg9i367j.oga                                            6008 byte
+assets/l_/l_2j fg2c4c2_k7d.oga                                                 8034 byte
+assets/l_/l_2j fg2cf5b.oga                                                     2948 byte
+assets/l_/l_2j fg2g3kk7ie.oga                                                 29927 byte
+assets/l_/l_2lecf5b243i2_j_.oga                                                 752 byte
+assets/l_/l_2lecf5b243i2bfjfe9.oga                                              771 byte
+assets/l_/l_2lecf5b2j 3i7.oga                                                  3351 byte
+assets/sxD/sxD2D3_e.ogm                                                      930192 byte
+assets/sxD/sxD2wi77sfosffjk.ogm                                              279648 byte
+billing.properties                                                               50 byte
+classes.dex                                                                 7461256 byte
+firebase-analytics.properties                                                    74 byte
+firebase-annotations.properties                                                  78 byte
+firebase-components.properties                                                   76 byte
+firebase-encoders-json.properties                                                82 byte
+firebase-encoders-proto.properties                                               84 byte
+firebase-encoders.properties                                                     72 byte
+firebase-installations-interop.properties                                        98 byte
+firebase-measurement-connector.properties                                        98 byte
+javax/annotation/CheckForNull.java                                              375 byte
+javax/annotation/CheckForSigned.java                                            698 byte
+javax/annotation/CheckReturnValue.java                                          494 byte
+javax/annotation/Detainted.java                                                 375 byte
+javax/annotation/MatchesPattern.java                                            883 byte
+javax/annotation/Nonnegative.java                                              1303 byte
+javax/annotation/Nonnull.java                                                   706 byte
+javax/annotation/Nullable.java                                                  373 byte
+javax/annotation/OverridingMethodsMustInvokeSuper.java                          580 byte
+javax/annotation/ParametersAreNonnullByDefault.java                             866 byte
+javax/annotation/ParametersAreNullableByDefault.java                           1096 byte
+javax/annotation/PropertyKey.java                                               366 byte
+javax/annotation/RegEx.java                                                    1064 byte
+javax/annotation/Signed.java                                                    424 byte
+javax/annotation/Syntax.java                                                   1406 byte
+javax/annotation/Tainted.java                                                   372 byte
+javax/annotation/Untainted.java                                                 364 byte
+javax/annotation/WillClose.java                                                 337 byte
+javax/annotation/WillCloseWhenClosed.java                                       385 byte
+javax/annotation/WillNotClose.java                                              344 byte
+javax/annotation/concurrent/GuardedBy.java                                     1611 byte
+javax/annotation/concurrent/Immutable.java                                     1333 byte
+javax/annotation/concurrent/NotThreadSafe.java                                  892 byte
+javax/annotation/concurrent/ThreadSafe.java                                     752 byte
+javax/annotation/meta/Exclusive.java                                            650 byte
+javax/annotation/meta/Exhaustive.java                                          1097 byte
+javax/annotation/meta/TypeQualifier.java                                        796 byte
+javax/annotation/meta/TypeQualifierDefault.java                                 590 byte
+javax/annotation/meta/TypeQualifierNickname.java                                822 byte
+javax/annotation/meta/TypeQualifierValidator.java                               687 byte
+javax/annotation/meta/When.java                                                 639 byte
+kotlin/annotation/annotation.kotlin_builtins                                    926 byte
+kotlin/collections/collections.kotlin_builtins                                 3685 byte
+kotlin/coroutines/coroutines.kotlin_builtins                                    200 byte
+kotlin/internal/internal.kotlin_builtins                                        939 byte
+kotlin/kotlin.kotlin_builtins                                                 14256 byte
+kotlin/ranges/ranges.kotlin_builtins                                           2301 byte
+kotlin/reflect/reflect.kotlin_builtins                                         2338 byte
+play-services-ads-base.properties                                                82 byte
+play-services-ads-identifier.properties                                          94 byte
+play-services-ads-lite.properties                                                82 byte
+play-services-ads.properties                                                     72 byte
+play-services-appset.properties                                                  78 byte
+play-services-base.properties                                                    74 byte
+play-services-basement.properties                                                82 byte
+play-services-drive.properties                                                   76 byte
+play-services-games-v2.properties                                                82 byte
+play-services-location.properties                                                82 byte
+play-services-measurement-api.properties                                         96 byte
+play-services-measurement-base.properties                                        98 byte
+play-services-measurement-impl.properties                                        98 byte
+play-services-measurement-sdk-api.properties                                    104 byte
+play-services-measurement-sdk.properties                                         96 byte
+play-services-measurement.properties                                             88 byte
+play-services-places-placereport.properties                                     102 byte
+play-services-stats.properties                                                   76 byte
+play-services-tasks.properties                                                   76 byte
+res/anim/abc_fade_in.xml                                                        388 byte
+res/anim/abc_fade_out.xml                                                       388 byte
+res/anim/abc_grow_fade_in_from_bottom.xml                                       852 byte
+res/anim/abc_popup_enter.xml                                                    508 byte
+res/anim/abc_popup_exit.xml                                                     508 byte
+res/anim/abc_shrink_fade_out_from_bottom.xml                                    852 byte
+res/anim/abc_slide_in_bottom.xml                                                396 byte
+res/anim/abc_slide_in_top.xml                                                   396 byte
+res/anim/abc_slide_out_bottom.xml                                               396 byte
+res/anim/abc_slide_out_top.xml                                                  396 byte
+res/anim/abc_tooltip_enter.xml                                                  388 byte
+res/anim/abc_tooltip_exit.xml                                                   388 byte
+res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml                2124 byte
+res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml                2780 byte
+res/anim/btn_checkbox_to_checked_icon_null_animation.xml                       1196 byte
+res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml              2360 byte
+res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml             2520 byte
+res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml                     1196 byte
+res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml                         1656 byte
+res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml                        1656 byte
+res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml                   1028 byte
+res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml                          1656 byte
+res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml                         1656 byte
+res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml                    1028 byte
+res/anim/design_snackbar_in.xml                                                 312 byte
+res/anim/design_snackbar_out.xml                                                312 byte
+res/anim-v21/design_bottom_sheet_slide_in.xml                                   616 byte
+res/anim-v21/design_bottom_sheet_slide_out.xml                                  616 byte
+res/anim-v21/fragment_fast_out_extra_slow_in.xml                                364 byte
+res/animator/design_fab_hide_motion_spec.xml                                    796 byte
+res/animator/design_fab_show_motion_spec.xml                                    796 byte
+res/animator/fragment_close_enter.xml                                          1128 byte
+res/animator/fragment_close_exit.xml                                           1128 byte
+res/animator/fragment_fade_enter.xml                                            452 byte
+res/animator/fragment_fade_exit.xml                                             452 byte
+res/animator/fragment_open_enter.xml                                           1128 byte
+res/animator/fragment_open_exit.xml                                            1128 byte
+res/animator/mtrl_btn_state_list_anim.xml                                      2664 byte
+res/animator/mtrl_btn_unelevated_state_list_anim.xml                            120 byte
+res/animator/mtrl_chip_state_list_anim.xml                                     1072 byte
+res/animator/mtrl_fab_hide_motion_spec.xml                                      796 byte
+res/animator/mtrl_fab_show_motion_spec.xml                                      796 byte
+res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml                   1888 byte
+res/animator/mtrl_fab_transformation_sheet_expand_spec.xml                     1888 byte
+res/animator-v21/design_appbar_state_list_animator.xml                         1216 byte
+res/color/abc_background_cache_hint_selector_material_dark.xml                  468 byte
+res/color/abc_background_cache_hint_selector_material_light.xml                 468 byte
+res/color/abc_btn_colored_text_material.xml                                     604 byte
+res/color/abc_hint_foreground_material_dark.xml                                 564 byte
+res/color/abc_hint_foreground_material_light.xml                                564 byte
+res/color/abc_primary_text_disable_only_material_dark.xml                       464 byte
+res/color/abc_primary_text_disable_only_material_light.xml                      464 byte
+res/color/abc_primary_text_material_dark.xml                                    464 byte
+res/color/abc_primary_text_material_light.xml                                   464 byte
+res/color/abc_search_url_text.xml                                               588 byte
+res/color/abc_secondary_text_material_dark.xml                                  464 byte
+res/color/abc_secondary_text_material_light.xml                                 464 byte
+res/color/abc_tint_btn_checkable.xml                                            728 byte
+res/color/abc_tint_default.xml                                                 1224 byte
+res/color/abc_tint_edittext.xml                                                 772 byte
+res/color/abc_tint_seek_thumb.xml                                               604 byte
+res/color/abc_tint_spinner.xml                                                  772 byte
+res/color/abc_tint_switch_track.xml                                             768 byte
+res/color/com_facebook_button_text_color.xml                                    588 byte
+res/color/com_facebook_send_button_text_color.xml                               508 byte
+res/color/common_google_signin_btn_text_dark.xml                                712 byte
+res/color/common_google_signin_btn_text_light.xml                               712 byte
+res/color/common_google_signin_btn_tint.xml                                     464 byte
+res/color/design_error.xml                                                      464 byte
+res/color/design_tint_password_toggle.xml                                       480 byte
+res/color/mtrl_bottom_nav_colored_item_tint.xml                                 684 byte
+res/color/mtrl_bottom_nav_item_tint.xml                                         684 byte
+res/color/mtrl_btn_bg_color_selector.xml                                        464 byte
+res/color/mtrl_btn_ripple_color.xml                                             948 byte
+res/color/mtrl_btn_stroke_color_selector.xml                                    376 byte
+res/color/mtrl_btn_text_btn_ripple_color.xml                                    948 byte
+res/color/mtrl_btn_text_color_selector.xml                                      464 byte
+res/color/mtrl_chip_background_color.xml                                        608 byte
+res/color/mtrl_chip_close_icon_tint.xml                                        1092 byte
+res/color/mtrl_chip_ripple_color.xml                                            948 byte
+res/color/mtrl_chip_text_color.xml                                              464 byte
+res/color/mtrl_fab_ripple_color.xml                                             948 byte
+res/color/mtrl_tabs_colored_ripple_color.xml                                    948 byte
+res/color/mtrl_tabs_icon_color_selector.xml                                     464 byte
+res/color/mtrl_tabs_icon_color_selector_colored.xml                             464 byte
+res/color/mtrl_tabs_legacy_text_color_selector.xml                              464 byte
+res/color/mtrl_tabs_ripple_color.xml                                           1672 byte
+res/color/mtrl_text_btn_text_color_selector.xml                                 464 byte
+res/color/switch_thumb_material_dark.xml                                        464 byte
+res/color/switch_thumb_material_light.xml                                       464 byte
+res/color-v21/abc_btn_colored_borderless_text_material.xml                      464 byte
+res/color-v23/abc_btn_colored_borderless_text_material.xml                      500 byte
+res/color-v23/abc_btn_colored_text_material.xml                                 500 byte
+res/color-v23/abc_color_highlight_material.xml                                  544 byte
+res/color-v23/abc_tint_btn_checkable.xml                                        624 byte
+res/color-v23/abc_tint_default.xml                                             1120 byte
+res/color-v23/abc_tint_edittext.xml                                             668 byte
+res/color-v23/abc_tint_seek_thumb.xml                                           500 byte
+res/color-v23/abc_tint_spinner.xml                                              668 byte
+res/color-v23/abc_tint_switch_track.xml                                         664 byte
+res/color-v23/design_tint_password_toggle.xml                                   376 byte
+res/drawable/abc_btn_borderless_material.xml                                    588 byte
+res/drawable/abc_btn_check_material.xml                                         464 byte
+res/drawable/abc_btn_check_material_anim.xml                                    816 byte
+res/drawable/abc_btn_default_mtrl_shape.xml                                     932 byte
+res/drawable/abc_btn_radio_material.xml                                         464 byte
+res/drawable/abc_btn_radio_material_anim.xml                                    816 byte
+res/drawable/abc_cab_background_internal_bg.xml                                 372 byte
+res/drawable/abc_cab_background_top_material.xml                                336 byte
+res/drawable/abc_ic_ab_back_material.xml                                        692 byte
+res/drawable/abc_ic_arrow_drop_right_black_24dp.xml                            1000 byte
+res/drawable/abc_ic_clear_material.xml                                          684 byte
+res/drawable/abc_ic_go_search_api_material.xml                                  640 byte
+res/drawable/abc_ic_menu_overflow_material.xml                                  792 byte
+res/drawable/abc_ic_search_api_material.xml                                     812 byte
+res/drawable/abc_ic_voice_search_api_material.xml                               828 byte
+res/drawable/abc_item_background_holo_dark.xml                                 1012 byte
+res/drawable/abc_item_background_holo_light.xml                                1012 byte
+res/drawable/abc_list_selector_background_transition_holo_dark.xml              424 byte
+res/drawable/abc_list_selector_background_transition_holo_light.xml             424 byte
+res/drawable/abc_list_selector_holo_dark.xml                                   1064 byte
+res/drawable/abc_list_selector_holo_light.xml                                  1064 byte
+res/drawable/abc_ratingbar_indicator_material.xml                               704 byte
+res/drawable/abc_ratingbar_material.xml                                         704 byte
+res/drawable/abc_ratingbar_small_material.xml                                   704 byte
+res/drawable/abc_seekbar_thumb_material.xml                                    1100 byte
+res/drawable/abc_seekbar_tick_mark_material.xml                                 516 byte
+res/drawable/abc_seekbar_track_material.xml                                    1408 byte
+res/drawable/abc_spinner_textfield_background_material.xml                     1160 byte
+res/drawable/abc_switch_thumb_material.xml                                      464 byte
+res/drawable/abc_tab_indicator_material.xml                                     468 byte
+res/drawable/abc_text_cursor_material.xml                                       516 byte
+res/drawable/abc_textfield_search_material.xml                                  756 byte
+res/drawable/abc_vector_test.xml                                                612 byte
+res/drawable/abubble_a.9.png                                                   1379 byte
+res/drawable/abubble_b.9.png                                                    937 byte
+res/drawable/admob_close_button_black_circle_white_cross.xml                    988 byte
+res/drawable/admob_close_button_white_circle_black_cross.xml                    988 byte
+res/drawable/btn_checkbox_checked_mtrl.xml                                     2688 byte
+res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml               688 byte
+res/drawable/btn_checkbox_unchecked_mtrl.xml                                   2660 byte
+res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml               688 byte
+res/drawable/btn_radio_off_mtrl.xml                                            1728 byte
+res/drawable/btn_radio_off_to_on_mtrl_animation.xml                             680 byte
+res/drawable/btn_radio_on_mtrl.xml                                             1656 byte
+res/drawable/btn_radio_on_to_off_mtrl_animation.xml                             680 byte
+res/drawable/cbubble_a.9.png                                                   2934 byte
+res/drawable/cbubble_b.9.png                                                   2713 byte
+res/drawable/chat_other.png                                                    2751 byte
+res/drawable/chat_self.png                                                     2811 byte
+res/drawable/com_facebook_auth_dialog_background.xml                            596 byte
+res/drawable/com_facebook_auth_dialog_cancel_background.xml                     972 byte
+res/drawable/com_facebook_auth_dialog_header_background.xml                     596 byte
+res/drawable/com_facebook_button_background.xml                                1360 byte
+res/drawable/com_facebook_button_icon.xml                                      1224 byte
+res/drawable/com_facebook_button_like_background.xml                           1360 byte
+res/drawable/com_facebook_button_send_background.xml                           1360 byte
+res/drawable/com_facebook_favicon_blue.xml                                      836 byte
+res/drawable/com_facebook_send_button_icon.xml                                  508 byte
+res/drawable/common_google_signin_btn_icon_dark.xml                             588 byte
+res/drawable/common_google_signin_btn_icon_dark_focused.xml                     892 byte
+res/drawable/common_google_signin_btn_icon_dark_normal.xml                      548 byte
+res/drawable/common_google_signin_btn_icon_disabled.xml                        1132 byte
+res/drawable/common_google_signin_btn_icon_light.xml                            588 byte
+res/drawable/common_google_signin_btn_icon_light_focused.xml                    892 byte
+res/drawable/common_google_signin_btn_icon_light_normal.xml                     548 byte
+res/drawable/common_google_signin_btn_text_dark.xml                             588 byte
+res/drawable/common_google_signin_btn_text_dark_focused.xml                     892 byte
+res/drawable/common_google_signin_btn_text_dark_normal.xml                      584 byte
+res/drawable/common_google_signin_btn_text_disabled.xml                        1152 byte
+res/drawable/common_google_signin_btn_text_light.xml                            588 byte
+res/drawable/common_google_signin_btn_text_light_focused.xml                    892 byte
+res/drawable/common_google_signin_btn_text_light_normal.xml                     584 byte
+res/drawable/cursor.xml                                                         444 byte
+res/drawable/design_fab_background.xml                                          372 byte
+res/drawable/design_snackbar_background.xml                                     484 byte
+res/drawable/ic_launcher_foreground.xml                                        1384 byte
+res/drawable/ic_mtrl_chip_checked_black.xml                                     600 byte
+res/drawable/ic_mtrl_chip_checked_circle.xml                                    940 byte
+res/drawable/ic_mtrl_chip_close_circle.xml                                      808 byte
+res/drawable/ic_profile.png                                                   16963 byte
+res/drawable/login_gradiant.xml                                                 492 byte
+res/drawable/messenger_button_blue_bg_round.xml                                1444 byte
+res/drawable/messenger_button_blue_bg_selector.xml                              972 byte
+res/drawable/messenger_button_white_bg_round.xml                               1444 byte
+res/drawable/messenger_button_white_bg_selector.xml                             972 byte
+res/drawable/mtrl_snackbar_background.xml                                       484 byte
+res/drawable/mtrl_tabs_default_indicator.xml                                    628 byte
+res/drawable/navigation_empty_icon.xml                                          516 byte
+res/drawable/notification_bg.xml                                                532 byte
+res/drawable/notification_bg_low.xml                                            532 byte
+res/drawable/notification_icon_background.xml                                   372 byte
+res/drawable/notification_tile_bg.xml                                           304 byte
+res/drawable/ocon_ic_berhasil.png                                             12683 byte
+res/drawable/ocon_ic_gagal.png                                                14730 byte
+res/drawable/ocon_logo.png                                                    14746 byte
+res/drawable/rectangle.xml                                                      828 byte
+res/drawable/tooltip_frame_dark.xml                                             484 byte
+res/drawable/tooltip_frame_light.xml                                            484 byte
+res/drawable-mdpi-v4/com_facebook_profile_picture_blank_portrait.png           1553 byte
+res/drawable-mdpi-v4/com_facebook_profile_picture_blank_square.png             1476 byte
+res/drawable-v21/$avd_hide_password__0.xml                                     1176 byte
+res/drawable-v21/$avd_hide_password__1.xml                                      592 byte
+res/drawable-v21/$avd_hide_password__2.xml                                      556 byte
+res/drawable-v21/$avd_show_password__0.xml                                     1136 byte
+res/drawable-v21/$avd_show_password__1.xml                                      592 byte
+res/drawable-v21/$avd_show_password__2.xml                                      556 byte
+res/drawable-v21/abc_action_bar_item_background_material.xml                    264 byte
+res/drawable-v21/abc_btn_colored_material.xml                                  1716 byte
+res/drawable-v21/abc_dialog_material_background.xml                             716 byte
+res/drawable-v21/abc_edit_text_material.xml                                    1172 byte
+res/drawable-v21/abc_list_divider_material.xml                                  516 byte
+res/drawable-v21/avd_hide_password.xml                                          660 byte
+res/drawable-v21/avd_show_password.xml                                          660 byte
+res/drawable-v21/design_bottom_navigation_item_background.xml                   264 byte
+res/drawable-v21/design_password_eye.xml                                        816 byte
+res/drawable-v21/notification_action_background.xml                            1180 byte
+res/drawable-v23/abc_control_background_material.xml                            304 byte
+res/drawable-watch-v20/abc_dialog_material_background.xml                       372 byte
+res/drawable-xhdpi-v4/notif_image.png                                         58233 byte
+res/drawable-xxhdpi-v4/btn_send_v2.png                                         8089 byte
+res/drawable-xxhdpi-v4/bubble_a.9.png                                          6647 byte
+res/drawable-xxhdpi-v4/bubble_b.9.png                                          6569 byte
+res/drawable-xxhdpi-v4/bubble_b_gray.9.png                                     3400 byte
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml          316 byte
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml          328 byte
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml          316 byte
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml          328 byte
+res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml             320 byte
+res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml              320 byte
+res/interpolator/fast_out_slow_in.xml                                           400 byte
+res/interpolator/mtrl_linear.xml                                                132 byte
+res/interpolator-v21/mtrl_fast_out_linear_in.xml                                400 byte
+res/interpolator-v21/mtrl_fast_out_slow_in.xml                                  400 byte
+res/interpolator-v21/mtrl_linear_out_slow_in.xml                                400 byte
+res/layout/abc_action_bar_title_item.xml                                        872 byte
+res/layout/abc_action_bar_up_container.xml                                      440 byte
+res/layout/abc_action_menu_item_layout.xml                                      768 byte
+res/layout/abc_action_menu_layout.xml                                           576 byte
+res/layout/abc_action_mode_bar.xml                                              464 byte
+res/layout/abc_action_mode_close_item_material.xml                              840 byte
+res/layout/abc_activity_chooser_view.xml                                       1684 byte
+res/layout/abc_activity_chooser_view_list_item.xml                             1304 byte
+res/layout/abc_alert_dialog_button_bar_material.xml                            1536 byte
+res/layout/abc_alert_dialog_material.xml                                       2476 byte
+res/layout/abc_alert_dialog_title_material.xml                                 1560 byte
+res/layout/abc_cascading_menu_item_layout.xml                                  1868 byte
+res/layout/abc_dialog_title_material.xml                                       1116 byte
+res/layout/abc_expanded_menu_layout.xml                                         388 byte
+res/layout/abc_list_menu_item_checkbox.xml                                      528 byte
+res/layout/abc_list_menu_item_icon.xml                                          684 byte
+res/layout/abc_list_menu_item_layout.xml                                       1396 byte
+res/layout/abc_list_menu_item_radio.xml                                         532 byte
+res/layout/abc_popup_menu_header_item_layout.xml                                848 byte
+res/layout/abc_popup_menu_item_layout.xml                                      2072 byte
+res/layout/abc_screen_content_include.xml                                       548 byte
+res/layout/abc_screen_simple.xml                                                832 byte
+res/layout/abc_screen_simple_overlay_action_mode.xml                            792 byte
+res/layout/abc_screen_toolbar.xml                                              1504 byte
+res/layout/abc_search_dropdown_item_icons_2line.xml                            1916 byte
+res/layout/abc_search_view.xml                                                 3472 byte
+res/layout/abc_select_dialog_material.xml                                      1020 byte
+res/layout/abc_tooltip.xml                                                     1056 byte
+res/layout/activity_contact.xml                                                2180 byte
+res/layout/activity_login.xml                                                 11628 byte
+res/layout/activity_main.xml                                                    456 byte
+res/layout/activity_password.xml                                               5044 byte
+res/layout/activity_register.xml                                               8304 byte
+res/layout/activity_report.xml                                                 3652 byte
+res/layout/activity_report_singlereport.xml                                    3016 byte
+res/layout/activity_uploadattachment.xml                                       1748 byte
+res/layout/browser_actions_context_menu_page.xml                               1660 byte
+res/layout/browser_actions_context_menu_row.xml                                1212 byte
+res/layout/collapse_notification_layout.xml                                    1380 byte
+res/layout/com_facebook_activity_layout.xml                                     356 byte
+res/layout/com_facebook_device_auth_dialog_fragment.xml                        3384 byte
+res/layout/com_facebook_login_fragment.xml                                      660 byte
+res/layout/com_facebook_smart_device_dialog_fragment.xml                       3660 byte
+res/layout/com_facebook_tooltip_bubble.xml                                     1804 byte
+res/layout/custom_dialog.xml                                                    612 byte
+res/layout/design_bottom_navigation_item.xml                                   1492 byte
+res/layout/design_bottom_sheet_dialog.xml                                      1184 byte
+res/layout/design_layout_snackbar.xml                                           528 byte
+res/layout/design_layout_snackbar_include.xml                                  1444 byte
+res/layout/design_layout_tab_icon.xml                                           408 byte
+res/layout/design_layout_tab_text.xml                                           436 byte
+res/layout/design_menu_item_action_area.xml                                     320 byte
+res/layout/design_navigation_item.xml                                           536 byte
+res/layout/design_navigation_item_header.xml                                    440 byte
+res/layout/design_navigation_item_separator.xml                                 472 byte
+res/layout/design_navigation_item_subheader.xml                                 564 byte
+res/layout/design_navigation_menu.xml                                           528 byte
+res/layout/design_navigation_menu_item.xml                                      856 byte
+res/layout/design_text_input_password_icon.xml                                  564 byte
+res/layout/expanded_notification_layout.xml                                    1340 byte
+res/layout/footer.xml                                                           812 byte
+res/layout/messenger_button_send_blue_large.xml                                 428 byte
+res/layout/messenger_button_send_blue_round.xml                                 392 byte
+res/layout/messenger_button_send_blue_small.xml                                 428 byte
+res/layout/messenger_button_send_white_large.xml                                428 byte
+res/layout/messenger_button_send_white_round.xml                                392 byte
+res/layout/messenger_button_send_white_small.xml                                428 byte
+res/layout/mtrl_layout_snackbar.xml                                             528 byte
+res/layout/mtrl_layout_snackbar_include.xml                                    1404 byte
+res/layout/notification_media_action.xml                                        564 byte
+res/layout/notification_media_cancel_action.xml                                 744 byte
+res/layout/notification_template_big_media.xml                                 1696 byte
+res/layout/notification_template_big_media_custom.xml                          3044 byte
+res/layout/notification_template_big_media_narrow.xml                          1824 byte
+res/layout/notification_template_big_media_narrow_custom.xml                   3216 byte
+res/layout/notification_template_lines_media.xml                               2872 byte
+res/layout/notification_template_media.xml                                     1292 byte
+res/layout/notification_template_media_custom.xml                              2756 byte
+res/layout/notification_template_part_chronometer.xml                           440 byte
+res/layout/notification_template_part_time.xml                                  440 byte
+res/layout/select_dialog_item_material.xml                                      640 byte
+res/layout/select_dialog_multichoice_material.xml                               864 byte
+res/layout/select_dialog_singlechoice_material.xml                              864 byte
+res/layout/support_simple_spinner_dropdown_item.xml                             464 byte
+res/layout/toolbar.xml                                                         1728 byte
+res/layout-sw600dp-v13/design_layout_snackbar.xml                               528 byte
+res/layout-sw600dp-v13/mtrl_layout_snackbar.xml                                 528 byte
+res/layout-v21/notification_action.xml                                         1052 byte
+res/layout-v21/notification_action_tombstone.xml                               1228 byte
+res/layout-v21/notification_template_custom_big.xml                            2456 byte
+res/layout-v21/notification_template_icon_group.xml                             988 byte
+res/layout-v22/abc_alert_dialog_button_bar_material.xml                        1584 byte
+res/layout-v26/abc_screen_toolbar.xml                                          1560 byte
+res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml                  1208 byte
+res/layout-watch-v20/abc_alert_dialog_title_material.xml                       1352 byte
+res/mipmap-anydpi-v26/ic_launcher.xml                                           448 byte
+res/mipmap-anydpi-v26/ic_launcher_round.xml                                     448 byte
+res/mipmap-hdpi-v4/ic_launcher.png                                             8693 byte
+res/mipmap-hdpi-v4/ic_launcher_background.png                                 14900 byte
+res/mipmap-hdpi-v4/ic_launcher_foreground.png                                 15718 byte
+res/mipmap-hdpi-v4/ic_launcher_round.png                                      11337 byte
+res/mipmap-mdpi-v4/ic_launcher.png                                             4759 byte
+res/mipmap-mdpi-v4/ic_launcher_background.png                                  9476 byte
+res/mipmap-mdpi-v4/ic_launcher_foreground.png                                  7970 byte
+res/mipmap-mdpi-v4/ic_launcher_round.png                                       5911 byte
+res/mipmap-xhdpi-v4/ic_launcher.png                                           13684 byte
+res/mipmap-xhdpi-v4/ic_launcher_background.png                                19989 byte
+res/mipmap-xhdpi-v4/ic_launcher_foreground.png                                25405 byte
+res/mipmap-xhdpi-v4/ic_launcher_round.png                                     18182 byte
+res/mipmap-xxhdpi-v4/ic_launcher.png                                          25650 byte
+res/mipmap-xxhdpi-v4/ic_launcher_background.png                               30686 byte
+res/mipmap-xxhdpi-v4/ic_launcher_foreground.png                               48252 byte
+res/mipmap-xxhdpi-v4/ic_launcher_round.png                                    33973 byte
+res/mipmap-xxxhdpi-v4/ic_launcher.png                                         39916 byte
+res/mipmap-xxxhdpi-v4/ic_launcher_background.png                              39894 byte
+res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png                              74639 byte
+res/mipmap-xxxhdpi-v4/ic_launcher_round.png                                   53263 byte
+res/raw/com_android_billingclient_heterodyne_info                                45 byte
+res/raw/com_android_billingclient_registration_info.binarypb                     34 byte
+res/raw/firebase_common_keep.xml                                                290 byte
+res/xml/com_android_billingclient_phenotype.xml                                 492 byte
+res/xml/image_share_filepaths.xml                                               308 byte
+res/xml/network_security_config.xml                                             688 byte
+res/xml/provider_paths.xml                                                      528 byte
+res/xml/splits0.xml                                                            9588 byte
+resources.arsc                                                               229860 byte
+transport-api.properties                                                         62 byte
+transport-backend-cct.properties                                                 78 byte
+transport-runtime.properties                                                     70 byte
+user-messaging-platform.properties                                               82 byte
+stamp-cert-sha256                                                                32 byte
+META-INF/BNDLTOOL.SF                                                         106186 byte
+META-INF/BNDLTOOL.RSA                                                          2182 byte
+META-INF/MANIFEST.MF                                                         106059 byte

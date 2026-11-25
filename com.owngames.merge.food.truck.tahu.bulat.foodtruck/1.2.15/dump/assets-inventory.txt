@@ -1,0 +1,64 @@
+ASSETS INVENTORY — base APK (477 file)
+
+total ukuran aset: 15855980 byte (15.86 MB)
+
+--- 30 aset terbesar ---
+     3167108  base/assets/audience_network.dex
+     1248070  base/assets/Jgc3j 1J5i77e/Lz2jgc3j j5i77e.oga
+      930192  base/assets/sxD/sxD2D3_e.ogm
+      916766  base/assets/435b9ifle6/Lz2ildglk.oga
+      505294  base/assets/435b9ifle6/Lz29lele9S.oga
+      279648  base/assets/sxD/sxD2wi77sfosffjk.ogm
+      240419  base/assets/l_/l_2cf9f28k29cf43c.oga
+      204348  base/assets/l_/l_2f88c_e72_d92bf_e236j.oga
+      182978  base/assets/kil5bj/g3k .oga
+      179218  base/assets/l_/l_2cf9f28k2_e6f.oga
+      137485  base/assets/Jgc3j 1J5i77e/jgc3j 2j5i77e.oga
+      123965  base/assets/43cfe/wKzjf243ccffeS.oga
+      121859  base/assets/kil5bj/kil5b1_jf/wKzjf2RU2Jleepj_67lg.oga
+      115224  base/assets/kil5bj/kil5b1_jf/wKzjf2SY2w_j e5 _gj.oga
+      115086  base/assets/kil5bj/kil5b1_jf/wKzjf2T02G_qq3.oga
+      109972  base/assets/kil5bj/kil5b1_jf/wKzjf2UR2Cf4jk7i.oga
+      106645  base/assets/kil5bj/kil5b1_jf/wKzjf2TT2tif_jj3ekj3e6n_5 .oga
+      105353  base/assets/kil5bj/kil5b1_jf/wKzjf2RY2xi_cc765 77j7.oga
+      103840  base/assets/kil5bj/kil5b1_jf/wKzjf2SZ2J3e6n_5 6fl4c7.oga
+      102230  base/assets/kil5bj/kil5b1_jf/wKzjf2SV2w_j 4li97i.oga
+      101187  base/assets/kil5bj/kil5b1_jf/wKzjf2TZ2E3j_9fi7e9.oga
+      100779  base/assets/kil5bj/kil5b1_jf/wKzjf2SS2yfk6f9.oga
+      100572  base/assets/kil5bj/kil5b1_jf/wKzjf2RT2t _gj.oga
+      100481  base/assets/kil5bj/kil5b1_jf/wKzjf2TU2t37j3ij3c36.oga
+      100246  base/assets/kil5bj/kil5b1_jf/wKzjf2RZ2J3lj397.oga
+       99793  base/assets/bfk3/Lz2ildglk2bfk3.oga
+       99387  base/assets/kil5bj/kil5b1_jf/wKzjf2SR2J3e6n_5 .oga
+       99245  base/assets/kil5bj/kil5b1_jf/wKzjf2ST2Jg39 7kk_.oga
+       98723  base/assets/kil5bj/kil5b1_jf/wKzjf2TW2I3d7e.oga
+       97008  base/assets/kil5bj/kil5b1_jf/wKzjf2SX2slii_kf.oga
+
+--- hitungan per ekstensi ---
+.oga         362
+.ogt         92
+.ogm         16
+.xml         4
+.ogf         2
+.dex         1
+
+--- direktori aset tingkat atas ---
+3e_d3j_/             57 file
+435b9ifle6/          3 file
+43cfe/               7 file
+8fek/                2 file
+8o2g3ik_5c7/         21 file
+Jgc3j 1J5i77e/       3 file
+JwO/                 13 file
+ODC/                 4 file
+Sg_o7c.oga           89 byte
+Sg_o7cki3ejg3i7ek.oga 91 byte
+XML/                 4 file
+audience_network.dex 3167108 byte
+bfk3/                62 file
+c3pflk/              31 file
+df5blgYXZ/           7 file
+efk_8/               2 file
+kil5bj/              69 file
+l_/                  187 file
+sxD/                 2 file

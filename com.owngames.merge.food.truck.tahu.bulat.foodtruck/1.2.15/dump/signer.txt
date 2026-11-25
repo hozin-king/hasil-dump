@@ -1,0 +1,82 @@
+SIGNER — Food Truck City 1.2.15
+
+package: com.owngames.merge.food.truck.tahu.bulat.foodtruck
+versionName: 1.2.15
+versionCode: 35
+minSdk: 21 targetSdk: 34
+app name: Food Truck City
+main activity: com.owngames.merge.MainActivity
+--- permissions ---
+  com.android.vending.BILLING
+  com.google.android.gms.permission.AD_ID
+  android.permission.WAKE_LOCK
+  android.permission.RECEIVE_BOOT_COMPLETED
+  android.permission.ACCESS_NETWORK_STATE
+  android.permission.INTERNET
+  com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+  android.permission.FOREGROUND_SERVICE
+  android.permission.WRITE_EXTERNAL_STORAGE
+--- activities ---
+  com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity
+  com.facebook.FacebookActivity
+  com.owngames.ownconnectsdk.ContactActivity
+  com.owngames.ownconnectsdk.PasswordActivity
+  com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity
+  com.owngames.ownconnectsdk.ReportActivity
+  com.android.billingclient.api.ProxyBillingActivity
+  com.android.billingclient.api.ProxyBillingActivityV2
+  com.owngames.ownconnectsdk.UploadAttachment
+  com.google.android.gms.ads.AdActivity
+  com.facebook.CustomTabMainActivity
+  com.owngames.ownconnectsdk.RegisterActivity
+  com.google.android.gms.common.api.GoogleApiActivity
+  com.facebook.ads.AudienceNetworkActivity
+  com.facebook.CustomTabActivity
+  com.owngames.merge.MainActivity
+  com.owngames.ownconnectsdk.LoginActivity
+--- services ---
+  com.google.firebase.components.ComponentDiscoveryService
+  com.google.android.gms.ads.AdService
+  androidx.work.impl.background.systemalarm.SystemAlarmService
+  androidx.work.impl.background.systemjob.SystemJobService
+  androidx.work.impl.foreground.SystemForegroundService
+  com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  com.google.android.gms.measurement.AppMeasurementService
+  com.google.android.gms.measurement.AppMeasurementJobService
+  androidx.room.MultiInstanceInvalidationService
+--- receivers ---
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  androidx.work.impl.background.systemalarm.RescheduleReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  androidx.work.impl.diagnostics.DiagnosticsReceiver
+  com.google.android.gms.measurement.AppMeasurementReceiver
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+--- providers ---
+  com.google.firebase.provider.FirebaseInitProvider
+  androidx.core.content.FileProvider
+  com.facebook.ads.AudienceNetworkContentProvider
+  com.facebook.internal.FacebookInitProvider
+  com.google.android.gms.games.provider.PlayGamesInitProvider
+  androidx.startup.InitializationProvider
+  com.google.android.gms.ads.MobileAdsInitProvider
+--- libraries ---
+  org.apache.http.legacy
+--- meta ---
+dex count: 7461256
+files: 961
+is_multidex: False
+is_signed: True
+signed v1: True v2: True v3: True
+cert subject: Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+cert issuer: Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+cert sha256: 192ab9cce76fbdeeacdc1a1b6d1d9af825d97e70d42db4a9b2121b884002db95
+cert serial: 873761150477812325231085907694454167154453721028
+cert ERR: 'Certificate' object has no attribute 'not_valid_before_utc'
+

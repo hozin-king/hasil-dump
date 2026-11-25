@@ -1,0 +1,52 @@
+NATIVE INVENTORY — split arm64-v8a (hanya ABI arm64-v8a di XAPK)
+
+libnative-lib.so
+  ukuran: 1800352 byte   SHA-256: 2d2f22694cfcf7b94f31256bf85f49719b1a5168feaf4ebf5bd798c3f1ed6b11
+  machine: AArch64
+  0x0000000000000001 (NEEDED)             Shared library: [libownlibxml.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libownengine.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libEGL.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libGLESv2.so]
+  0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+  0x000000000000000e (SONAME)             Library soname: [libnative-lib.so]
+  simbol dinamis terdefinisi: 2722
+  simbol dinamis tak terdefinisi: 471
+
+libownbox2d.so
+  ukuran: 551080 byte   SHA-256: f8e70da0a5e5108d3e2e614f5cd9c76ad824974f6ce2548261fd25412fac68bf
+  machine: AArch64
+  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+  0x000000000000000e (SONAME)             Library soname: [libownbox2d.so]
+  simbol dinamis terdefinisi: 1123
+  simbol dinamis tak terdefinisi: 47
+
+libownengine.so
+  ukuran: 2271472 byte   SHA-256: faf0b103b752e68506944d8054517fbaf8b4342e4a16b428b0c723184e4195e4
+  machine: AArch64
+  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libownlibxml.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libownbox2d.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libEGL.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libGLESv2.so]
+  0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+  0x000000000000000e (SONAME)             Library soname: [libownengine.so]
+  simbol dinamis terdefinisi: 4157
+  simbol dinamis tak terdefinisi: 220
+
+libownlibxml.so
+  ukuran: 1983848 byte   SHA-256: c4bc1aa0f9dde4f5c0dd6129092c19e2063c93e1c67e61a2632e7373a47e048c
+  machine: AArch64
+  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+  0x000000000000000e (SONAME)             Library soname: [libownlibxml.so]
+  simbol dinamis terdefinisi: 1605
+  simbol dinamis tak terdefinisi: 59
+

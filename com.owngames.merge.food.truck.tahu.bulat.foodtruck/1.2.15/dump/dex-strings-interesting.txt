@@ -1,0 +1,443 @@
+DEX STRINGS INTERESTING — Food Truck City 1.2.15 (diringkas dari dump-dex.txt)
+
+--- [owndata/own] 400 hits ---
+  
+
+Please take screenshot of this message and send this message to gamemaster@own-games.com for further help.
+   because ACTION_DOWN was not received 
+   downTo 
+   not found. Known fields are 
+   thrown from get()]
+  %n is not valid. No matched LogEventDropped-Reason found. Treated it as REASON_UNKNOWN
+  %s got null owned items list
+  , windowNoTitle: 
+  . LifecycleOwners must call register before they are STARTED.
+  . Setting mimeType to audio/x-unknown
+  /.well-known/oauth/openid/keys/
+  : owner=
+  <unknown>
+  ACHIEVEMENT_UNKNOWN
+  ACTION_PAGE_DOWN
+  ACTION_SCROLL_DOWN
+  ACTION_UNKNOWN
+  AEAD_UNKNOWN
+  API failed to connect while resuming due to an unknown error.
+  Activity result delivered for unknown Fragment 
+  Ad was shown.
+  Already attached to lifecycleOwner
+  AppId not known when logging event
+  Call to endAdUnitExposure for unknown ad unit id
+  Called getViewLifecycleOwner() but onCreateView() returned null
+  Can't get the number of an unknown enum value.
+  ChoreographerOwner:Handler
+  Could not get last known location. This is probably because the app does not have any location permissions. Falling back to hardcoded sunrise/sunset values.
+  DeadObjectException thrown while running ApiCallRunner.
+  Downtempo
+  Error during performing handleDownloadedImpression
+  Exception thrown from implementation: 
+  Failed to get last known location
+  Failed to turn on database read permission for owner
+  Failed to turn on database write permission for owner
+  ITEM_ALREADY_OWNED
+  ITEM_NOT_OWNED
+  Id cannot be QueueItem.UNKNOWN_ID
+  Ignoring unknown WAV chunk: 
+  Ignoring unknown action %s
+  Impression owner is none
+  Impression owner is null
+  ImpressionType/CreativeType can only be defined as DEFINED_BY_JAVASCRIPT if Impression Owner is JavaScript
+  Instream ad can not be shown after destroy().
+  Intent Sender result delivered for unknown Fragment 
+  Internal error: OnRecreation should be registered only on componentsthat implement ViewModelStoreOwner
+  Interstitial can not be shown before loaded.
+  KDF_UNKNOWN
+  KEM_UNKNOWN
+  Landroid/app/DownloadManager$Request;
+  Landroid/app/DownloadManager;
+  Landroid/webkit/DownloadListener;
+  Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
+  Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;
+  Lcom/owngames/merge/Helper$a;
+  Lcom/owngames/merge/Helper$b;
+  Lcom/owngames/merge/Helper;
+  ... (123 baris total, lihat dump-dex.txt)
+
+--- [save/load] 5 hits ---
+  Lcom/owngames/ownengine/io/OwnSaveData;
+  doLoad
+  doSave
+  loadData
+  loadDataWithBaseURL
+
+--- [url/http] 64 hits ---
+  
+
+******************************************************************************
+* Invalid application ID. Follow instructions here:                          *
+* https://googlemobileadssdk.page.link/admob-android-update-manifest         *
+* to find your app ID.                                                       *
+******************************************************************************
+
+
+  
+
+******************************************************************************
+* The Google Mobile Ads SDK was initialized incorrectly. AdMob publishers    *
+* should follow the instructions here:                                       *
+* https://googlemobileadssdk.page.link/admob-android-update-manifest         *
+* to add a valid App ID inside the AndroidManifest.                          *
+* Google Ad Manager publishers should follow instructions here:              *
+* https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.   *
+******************************************************************************
+
+
+  Ad inspector cannot be opened because the device is not in test mode. See https://developers.google.com/admob/android/test-ads#enable_test_devices for more information.
+  App measurement deactivated via resources. This method is being deprecated. Please refer to https://firebase.google.com/support/guides/disable-analytics
+  Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+  Cleartext HTTP traffic not permitted. See https://exoplayer.dev/issues/cleartext-not-permitted
+  Deferring to Google Analytics for Firebase for event data collection. https://firebase.google.com/docs/analytics
+  FacebookActivity is not declared in the AndroidManifest.xml. If you are using the facebook-common module or dependent modules please add com.facebook.FacebookActivity to your AndroidManifest.xml file. See https://developers.facebook.com/docs/android/getting-started for more info.
+  Interstitials that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit  https://googlemobileadssdk.page.link/admob-interstitial-policies
+  Invalid google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI. provided id
+  Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+  Player is accessed on the wrong thread.
+Current thread: '%s'
+Expected thread: '%s'
+See https://exoplayer.dev/issues/player-accessed-on-wrong-thread
+  Please set a valid API key. A Firebase API key is required to communicate with Firebase server APIs: It authenticates your project with Google.Please refer to https://firebase.google.com/support/privacy/init-options.
+  Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+  Please set your Application ID. A valid Firebase App ID is required to communicate with Firebase server APIs: It identifies your application with Firebase.Please refer to https://firebase.google.com/support/privacy/init-options.
+  Please set your Project ID. A valid Firebase Project ID is required to communicate with Firebase server APIs: It identifies your application with Firebase.Please refer to https://firebase.google.com/support/privacy/init-options.
+  Rewarded ads that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit https://googlemobileadssdk.page.link/admob-interstitial-policies
+  Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+  You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+  http://ns.adobe.com/xap/1.0/
+  http://schemas.android.com/apk/res/android
+  http://www.example.com
+  http://www.google.com
+  https://.facebook.com
+  https://admob-gmats.uc.r.appspot.com/
+  https://adservice.google.com/getconfig/pubvendors
+  https://app-measurement.com/a
+  https://csi.gstatic.com/csi
+  https://facebook.com
+  https://facebook.com/device?user_code=%1$s&qr=1
+  https://firebaseremoteconfig.googleapis.com/v1/projects/%s/namespaces/%s:fetch
+  https://firebaseremoteconfigrealtime.googleapis.com/v1/projects/%s/namespaces/%s:streamFetchInvalidations
+  https://google.com/search?
+  https://googleads.g.doubleclick.net
+  https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+  https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js
+  https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js
+  ... (87 baris total, lihat dump-dex.txt)
+
+--- [billing/purchase] 549 hits ---
+   and billing's responseCode: 
+  #008 Must be called on the main UI thread.: setRewardedAdSkuListener
+  ', productDetailsToken='
+  ', productType='
+  , product=
+  , productId='
+  ALTERNATIVE_BILLING_ACTION
+  ALTERNATIVE_BILLING_ONLY_DIALOG_INTENT
+  ALTERNATIVE_BILLING_USER_CHOICE_DATA
+  All SKUs must have the same package name.
+  All products must have the same package name.
+  All products should be of the same product type.
+  All products should have same ProductType.
+  Alternative billing only dialog finished with resultCode 
+  AlternativeBillingListener and UserChoiceBillingListener is null.
+  BILLING_UNAVAILABLE
+  Billing client should have a valid listener but the provided is null.
+  Billing dialog closed.
+  Billing service connected.
+  Billing service disconnected.
+  Billing service unavailable on device.
+  BillingBroadcastManager
+  BillingClient
+  BillingHelper
+  BillingLogger
+  Bundle returned from %s contains null SKUs list.
+  Bundle returned from %s contains null purchases list.
+  Client does not support ProductDetails.
+  Client does not support get purchase history.
+  Client does not support multi-item purchases.
+  Client does not support user choice billing.
+  Client is already in the process of connecting to billing service.
+  Connection to Billing service is blocked.
+  Consuming purchase with token: 
+  Couldn't find alternative billing user choice data in bundle.
+  Couldn't find single purchase data as well.
+  Currency.getInstance(sku…g("price_currency_code"))
+  Current client doesn't support multi-item purchases.
+  Current client doesn't support purchases with ProductDetails.
+  Details of the products must be provided.
+  Error acknowledge purchase!
+  Error consuming purchase with token. Response code: 
+  Error consuming purchase!
+  Error parsing in-app purchase data.
+  Error trying to decode SkuDetails.
+  Exception while checking if billing is supported; try to reconnect
+  Exception while launching billing flow. Try to reconnect
+  External offer dialog finished with resultCode: %s and billing's responseCode: %s
+  Found purchase list of 
+  Google Play In-app Billing API version is less than 3
+  Google Play In-app Billing API version is less than 9
+  Got JSONException while parsing purchase data: 
+  Got a JSON exception trying to decode ProductDetails. 
+ Exception: 
+  Got an exception trying to decode the purchase!
+  Got exception trying to get purchasesm try to reconnect
+  Got exception while trying to start a purchase flow.
+  Got product details: 
+  INAPP_CONTINUATION_TOKEN
+  ... (122 baris total, lihat dump-dex.txt)
+
+--- [ads] 109 hits ---
+  
+
+******************************************************************************
+* Invalid application ID. Follow instructions here:                          *
+* https://googlemobileadssdk.page.link/admob-android-update-manifest         *
+* to find your app ID.                                                       *
+******************************************************************************
+
+
+  
+
+******************************************************************************
+* The Google Mobile Ads SDK was initialized incorrectly. AdMob publishers    *
+* should follow the instructions here:                                       *
+* https://googlemobileadssdk.page.link/admob-android-update-manifest         *
+* to add a valid App ID inside the AndroidManifest.                          *
+* Google Ad Manager publishers should follow instructions here:              *
+* https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.   *
+******************************************************************************
+
+
+  ALTER TABLE apps ADD COLUMN admob_app_id TEXT;
+  ALTER TABLE apps ADD COLUMN linked_admob_app_id TEXT;
+  AUDIENCE_NETWORK_CODE_PATH
+  AUDIENCE_NETWORK_DEX
+  Ad from Meta Audience Network doesn't have all required assets.
+  Ad inspector cannot be opened because the device is not in test mode. See https://developers.google.com/admob/android/test-ads#enable_test_devices for more information.
+  AdMob - 
+  AdMob Offline Notifications
+  AdMob ad impression logged from app. Potentially duplicative.
+  AdMob exception reporter failed reporting the exception.
+  AdMobClearcutLogger.modify
+  AdMobCustomTabs can only work with Activity context. Bailing out.
+  AdMobCustomTabsAdapter overlay is closed.
+  AdMobCustomTabsAdapter overlay is paused.
+  AdMobCustomTabsAdapter overlay is resumed.
+  AdMobHandler.handleMessage
+  AdMobOfflineBufferedPings.db
+  Audience with no ID. appId
+  BOOL_MIXED_AUDIENCE_KEY
+  CREATE TABLE IF NOT EXISTS audience_filter_values ( app_id TEXT NOT NULL, audience_id INTEGER NOT NULL, current_results BLOB, PRIMARY KEY (app_id, audience_id));
+  CREATE TABLE IF NOT EXISTS event_filters ( app_id TEXT NOT NULL, audience_id INTEGER NOT NULL, filter_id INTEGER NOT NULL, event_name TEXT NOT NULL, data BLOB NOT NULL, PRIMARY KEY (app_id, event_name, audience_id, filter_id));
+  CREATE TABLE IF NOT EXISTS property_filters ( app_id TEXT NOT NULL, audience_id INTEGER NOT NULL, filter_id INTEGER NOT NULL, property_name TEXT NOT NULL, data BLOB NOT NULL, PRIMARY KEY (app_id, property_name, audience_id, filter_id));
+  Can't load Audience Network Dex. Please, check that audience_network.dex is inside of assets folder.
+  Can't load Audience Network Dex. Please, check that audience_network.dex is inside of assets folder.
+
+  Delay close AdMobCustomTabsAdapter overlay.
+  Destroying AdMobCustomTabsAdapter adapter.
+  Evaluating filter. audience, filter, event
+  Evaluating filter. audience, filter, property
+  Event filter already evaluated true and it is not associated with an enhanced audience. audience ID, filter ID
+  Event filter had no event name. Audience definition ignored. appId, audienceId, filterId
+  Event filter with no ID. Audience definition ignored. appId, audienceId
+  FBAudienceNetwork
+  Failed to fetch Context from  ActivityThread. Audience Network SDK won't work unless you call AudienceNetworkAds.buildInitSettings().withListener(InitListener).initialize().
+  Failed to merge filter results. appId, audienceId, error
+  Filter already evaluated. audience ID, filter ID
+  Google Play Service is out of date, the Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires updated Google Play Service.
+  Interstitials that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit  https://googlemobileadssdk.page.link/admob-interstitial-policies
+  ... (131 baris total, lihat dump-dex.txt)
+
+--- [crypto] 303 hits ---
+    Destroying: 
+   (or a descendant).
+   did not call through to super.onDestroy()
+   did not call through to super.onDestroyView()
+   mDestroyed=
+   order by rowid desc limit -1 offset ?)
+   was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(Migration ...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* methods.
+  #004 The webview is destroyed. Ignoring action.
+  '. Assuming AES-CTR crypto mode.
+  (TFieldDescriptorType;
+  (TFieldDescriptorType;)
+  ) for a copy destructive migration.
+  ) to destination (
+  , description=
+  , hermeticFileOverrides=
+  , mDescription=
+  .ModuleDescriptor
+  .action_destroy
+  : description=
+  ; contentDescription: 
+  <FieldDescriptorType::
+  ACTIVITY_DESTROYED
+  AES
+  AES/CBC/PKCS5Padding
+  AES/CTR/NOPADDING
+  AES/CTR/NoPadding
+  AES/ECB/NOPADDING
+  AES/ECB/NoPadding
+  AES/GCM-SIV/NoPadding
+  AES/GCM/NoPadding
+  AES128_CTR_HMAC_SHA256
+  AES128_CTR_HMAC_SHA256_RAW
+  AES128_EAX
+  AES128_EAX_RAW
+  AES128_GCM
+  AES128_GCM_RAW
+  AES128_GCM_SIV
+  AES128_GCM_SIV_RAW
+  AES256_CMAC
+  AES256_CMAC_RAW
+  AES256_CTR_HMAC_SHA256
+  AES256_CTR_HMAC_SHA256_RAW
+  AES256_EAX
+  AES256_EAX_RAW
+  AES256_GCM
+  AES256_GCM_RAW
+  AES256_GCM_SIV
+  AES256_GCM_SIV_RAW
+  AES256_SIV
+  AES256_SIV_RAW
+  AESSettingsCipherMode 
+  AES_128_GCM
+  AES_256_GCM
+  AES_CMAC
+  Activity has been destroyed
+  AdMediaPlayerView surface destroyed
+  AesCmacKey size wrong, must be 32 bytes
+  All nodes must be present in the graph before being added as an edge
+  Anchor must not be a descendant of the anchored view
+  ... (121 baris total, lihat dump-dex.txt)
+
+--- [root/debug] 121 hits ---
+  (TRESU
+  , Debug Message: 
+  ,DebugSignal: 
+  <Can't encode events for debug logging>
+  <RESU
+  Ad debug logging enablement is out of date.
+  AdDebugLogUpdater.updateEnablement
+  AndroidRootResolver::class.java.simpleName
+  BOOL_DEBUGGER_STATE_KEY
+  BOOL_DEBUG_BUILD_KEY
+  CN=Android Debug,O=Android,C=US
+  Context is null. Failed to open debug menu.
+  Could not find a modular square root
+  DEBUG
+  DEBUG_MENU
+  DEBUG_MESSAGE
+  Debug mode [Creative Preview] selected.
+  Debug mode [Troubleshooting] selected.
+  Debug-level message logging enabled
+  Device is linked for debug signals.
+  Fail to determine debug setting.
+  Fail to get debug mode response json.
+  Fail to get isAdIdFakeForDebugLogging
+  Failed getting root view of activity. Content not extracted.
+  Failed to find configured root that contains 
+  Failed to get visible insets. getViewRootImpl() returned null from the provided view. This means that the view is either not attached or the method has been overridden
+  Faster debug mode event logging enabled. To disable, run:
+  adb shell setprop debug.firebase.analytics.app .none.
+  GMA Debug BEGIN
+  GMA Debug CONTENT 
+  GMA Debug FINISH
+  GRAPH_API_DEBUG_INFO
+  GRAPH_API_DEBUG_WARNING
+  HasDebugAccess
+  INTEGRATION_ERROR_CRASH_DEBUG_MODE
+  Landroid/os/Debug$MemoryInfo;
+  Landroid/os/Debug;
+  Landroid/view/ViewDebug$CapturedViewProperty;
+  Landroid/view/ViewDebug$ExportedProperty;
+  Lcom/google/android/gms/internal/ads/su;
+  Locale.ROOT
+  NATIVE_AD_DEBUGGER_ENABLED
+  NEFdqqAAKqlTQEHTmI6xaqDgpQZyg1pRnKumbN+eqhQCHZmsI8VG5KhrQKR43pSu
+  No debug information
+  No reference is left (including root). Cleaning up engine.
+  Not linked for debug signals.
+  ROOT
+  Releasing root reference. JS Engine will be destroyed once other references are released.
+  Resolved path jumped beyond configured root
+  Screen exposed for less than 1000 ms. Event not sent. time
+  Select a debug mode
+  To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+  To enable faster debug mode event logging run:
+  adb shell setprop debug.firebase.analytics.app 
+  Unable to find configured root for 
+  Unexpected type for debug message: 
+  Update ad debug logging enablement as 
+  Updating ad debug logging enablement.
+  Wrapped context is null. Failed to open debug menu.
+  ... (123 baris total, lihat dump-dex.txt)
+
+--- [ownconnect] 60 hits ---
+  Lcom/owngames/ownconnectsdk/ContactActivity$a;
+  Lcom/owngames/ownconnectsdk/ContactActivity$b;
+  Lcom/owngames/ownconnectsdk/ContactActivity$c;
+  Lcom/owngames/ownconnectsdk/ContactActivity$d;
+  Lcom/owngames/ownconnectsdk/ContactActivity;
+  Lcom/owngames/ownconnectsdk/LoginActivity$a$a;
+  Lcom/owngames/ownconnectsdk/LoginActivity$a;
+  Lcom/owngames/ownconnectsdk/LoginActivity$b;
+  Lcom/owngames/ownconnectsdk/LoginActivity$c;
+  Lcom/owngames/ownconnectsdk/LoginActivity$d;
+  Lcom/owngames/ownconnectsdk/LoginActivity$e;
+  Lcom/owngames/ownconnectsdk/LoginActivity$f;
+  Lcom/owngames/ownconnectsdk/LoginActivity$g;
+  Lcom/owngames/ownconnectsdk/LoginActivity$h;
+  Lcom/owngames/ownconnectsdk/LoginActivity$i;
+  Lcom/owngames/ownconnectsdk/LoginActivity$j;
+  Lcom/owngames/ownconnectsdk/LoginActivity$k;
+  Lcom/owngames/ownconnectsdk/LoginActivity$l;
+  Lcom/owngames/ownconnectsdk/LoginActivity$m;
+  Lcom/owngames/ownconnectsdk/LoginActivity;
+  Lcom/owngames/ownconnectsdk/PasswordActivity$a;
+  Lcom/owngames/ownconnectsdk/PasswordActivity$b;
+  Lcom/owngames/ownconnectsdk/PasswordActivity$c;
+  Lcom/owngames/ownconnectsdk/PasswordActivity$d;
+  Lcom/owngames/ownconnectsdk/PasswordActivity;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$a;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$b$a;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$b;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$c;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$d;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$e;
+  Lcom/owngames/ownconnectsdk/RegisterActivity$f;
+  Lcom/owngames/ownconnectsdk/RegisterActivity;
+  Lcom/owngames/ownconnectsdk/ReportActivity$a;
+  Lcom/owngames/ownconnectsdk/ReportActivity$b;
+  Lcom/owngames/ownconnectsdk/ReportActivity$c;
+  Lcom/owngames/ownconnectsdk/ReportActivity$d;
+  Lcom/owngames/ownconnectsdk/ReportActivity$e;
+  Lcom/owngames/ownconnectsdk/ReportActivity$f;
+  Lcom/owngames/ownconnectsdk/ReportActivity$g;
+  Lcom/owngames/ownconnectsdk/ReportActivity;
+  Lcom/owngames/ownconnectsdk/UploadAttachment$a;
+  Lcom/owngames/ownconnectsdk/UploadAttachment$b;
+  Lcom/owngames/ownconnectsdk/UploadAttachment$c;
+  Lcom/owngames/ownconnectsdk/UploadAttachment$d;
+  Lcom/owngames/ownconnectsdk/UploadAttachment;
+  Lcom/owngames/ownconnectsdk/a$a;
+  Lcom/owngames/ownconnectsdk/a$b;
+  Lcom/owngames/ownconnectsdk/a;
+  Lcom/owngames/ownconnectsdk/b;
+  Lcom/owngames/ownconnectsdk/c$a;
+  Lcom/owngames/ownconnectsdk/c$b;
+  Lcom/owngames/ownconnectsdk/c$c;
+  Lcom/owngames/ownconnectsdk/c$d;
+  Lcom/owngames/ownconnectsdk/c$e;
+  Lcom/owngames/ownconnectsdk/c$f;
+  Lcom/owngames/ownconnectsdk/c;
+  Lcom/owngames/ownengine/sdk/ownconnectsdk/OwnConWrapper;
+  OwnConnect
+  ... (61 baris total, lihat dump-dex.txt)
+

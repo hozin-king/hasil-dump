@@ -1,0 +1,12 @@
+HASHES — Food Truck City 1.2.15 (code 35)
+XAPK  : e6d7270b420751455c3a5089c5623890b022f66bfd8583101ad6598e4faefeba  downloads/Food_Truck_City_1.2.15_APKPure.xapk
+base  : 43e8b1dfb2a3923ab51195be310ca441a1b06b4a9fa669c99997adbed53db3a4  extracted/com.owngames.merge.food.truck.tahu.bulat.foodtruck.apk
+split : 38fcc7d854dbb534d6a8e019547e9e6e1d6ad0f0e0ac9220b80b0b45ab0e77a1  extracted/config.fr.apk
+split : 4a13db2ff30371b10328c54a44a37a865b5fe95e7e3f0b1c3eaa96c26038ab31  extracted/config.en.apk
+split : 065df9536679a5741be65d963217ce517f19abce8e83bd6f98d8827e9cf6ffb8  extracted/config.arm64_v8a.apk
+split : 00927f6dfbf8f38c6388cc3ee198324e80480ee7b03379ed01ddfad299f080db  extracted/config.mdpi.apk
+dex   : eaa59a55fa778e8e9006ea0b5640a69388e3a09d075664f9db5859186a5c5cdb  base/classes.dex
+so    : 2d2f22694cfcf7b94f31256bf85f49719b1a5168feaf4ebf5bd798c3f1ed6b11  split-arm64/lib/arm64-v8a/libnative-lib.so
+so    : f8e70da0a5e5108d3e2e614f5cd9c76ad824974f6ce2548261fd25412fac68bf  split-arm64/lib/arm64-v8a/libownbox2d.so
+so    : faf0b103b752e68506944d8054517fbaf8b4342e4a16b428b0c723184e4195e4  split-arm64/lib/arm64-v8a/libownengine.so
+so    : c4bc1aa0f9dde4f5c0dd6129092c19e2063c93e1c67e61a2632e7373a47e048c  split-arm64/lib/arm64-v8a/libownlibxml.so
