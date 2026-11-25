@@ -1,0 +1,320 @@
+0x4442358: str      x30, [sp, #-0x30]!
+0x444235c: stp      x22, x21, [sp, #0x10]
+0x4442360: stp      x20, x19, [sp, #0x20]
+0x4442364: adrp     x21, #0x56b4000
+0x4442368: adrp     x22, #0x5339000
+0x444236c: mov      w20, w1
+0x4442370: ldrb     w8, [x21, #0x65e]
+0x4442374: ldr      x22, [x22, #0x3a8]    ; LDR ADDR 0x977b3a8
+0x4442378: mov      x19, x0
+0x444237c: tbnz     w8, #0, #0x44423a0
+0x4442380: adrp     x0, #0x5339000
+0x4442384: ldr      x0, [x0, #0x3a8]    ; LDR ADDR 0x977b3a8
+0x4442388: bl       #0x2195228
+0x444238c: adrp     x0, #0x5335000
+0x4442390: ldr      x0, [x0, #0x108]    ; LDR ADDR 0x9777108
+0x4442394: bl       #0x2195228
+0x4442398: mov      w8, #1
+0x444239c: strb     w8, [x21, #0x65e]
+0x44423a0: ldr      x0, [x22]
+0x44423a4: mov      w1, #0x38
+0x44423a8: bl       #0x21952d0
+0x44423ac: str      x0, [x19, #0x18]
+0x44423b0: mov      x0, x19
+0x44423b4: mov      x1, xzr
+0x44423b8: bl       #0x44731e8    ; CALL System.Object$$.ctor
+0x44423bc: mov      w8, #-0x80000000
+0x44423c0: cmp      w20, w8
+0x44423c4: b.ne     #0x44423d4
+0x44423c8: mov      w10, #0xec87
+0x44423cc: movk     w10, #0x89a4, lsl #16
+0x44423d0: b        #0x4442400
+0x44423d4: adrp     x8, #0x5335000
+0x44423d8: ldr      x8, [x8, #0x108]    ; LDR ADDR 0x9777108
+0x44423dc: ldr      x0, [x8]
+0x44423e0: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x97770e4
+0x44423e4: cbnz     w8, #0x44423ec
+0x44423e8: bl       #0x2195360
+0x44423ec: cmp      w20, #0
+0x44423f0: mov      w9, #0xec86
+0x44423f4: cneg     w8, w20, mi
+0x44423f8: movk     w9, #0x9a4, lsl #16
+0x44423fc: sub      w10, w9, w8
+0x4442400: ldr      x8, [x19, #0x18]
+0x4442404: cbz      x8, #0x44424f0
+0x4442408: ldr      w9, [x8, #0x18]    ; LDR ADDR 0x9777018
+0x444240c: cmp      w9, #0x37
+0x4442410: b.ls     #0x44424ec
+0x4442414: mov      w11, wzr
+0x4442418: mov      w12, #1
+0x444241c: mov      w13, #0x36
+0x4442420: mov      w14, #0x7fffffff
+0x4442424: str      w10, [x8, #0xfc]
+0x4442428: add      w15, w11, #0x15
+0x444242c: sub      w11, w11, #0x22
+0x4442430: cmp      w15, #0x37
+0x4442434: csel     w11, w15, w11, lt
+0x4442438: cmp      w11, w9
+0x444243c: b.hs     #0x44424ec
+0x4442440: sub      w10, w10, w12
+0x4442444: add      x15, x8, w11, sxtw #2
+0x4442448: add      w16, w10, w14
+0x444244c: cmp      w10, #0
+0x4442450: csel     w16, w16, w10, lt
+0x4442454: subs     w13, w13, #1
+0x4442458: str      w12, [x15, #0x20]
+0x444245c: mov      w10, w12
+0x4442460: mov      w12, w16
+0x4442464: b.ne     #0x4442428
+0x4442468: mov      w10, #1
+0x444246c: mov      w11, #-0x19
+0x4442470: mov      w12, #0x1e
+0x4442474: mov      w13, #0x7fffffff
+0x4442478: mov      w14, #9
+0x444247c: sub      x15, x14, #8
+0x4442480: cmp      x15, #0x19
+0x4442484: csel     w15, w12, w11, lo
+0x4442488: add      x15, x14, x15
+0x444248c: sub      x15, x15, #7
+0x4442490: cmp      w15, w9
+0x4442494: b.hs     #0x44424ec
+0x4442498: add      x15, x8, w15, sxtw #2
+0x444249c: ldr      w16, [x8, x14, lsl #2]
+0x44424a0: ldr      w15, [x15, #0x20]
+0x44424a4: sub      w15, w16, w15
+0x44424a8: add      w16, w15, w13
+0x44424ac: cmp      w15, #0
+0x44424b0: csel     w15, w16, w15, lt
+0x44424b4: str      w15, [x8, x14, lsl #2]
+0x44424b8: add      x14, x14, #1
+0x44424bc: cmp      x14, #0x40
+0x44424c0: b.ne     #0x444247c
+0x44424c4: add      w10, w10, #1
+0x44424c8: cmp      w10, #5
+0x44424cc: b.ne     #0x4442478
+0x44424d0: adrp     x8, #0xdf1000
+0x44424d4: ldp      x22, x21, [sp, #0x10]
+0x44424d8: ldr      d0, [x8, #0x738]    ; LDR ADDR 0x5233738
+0x44424dc: str      d0, [x19, #0x10]
+0x44424e0: ldp      x20, x19, [sp, #0x20]
+0x44424e4: ldr      x30, [sp], #0x30
+0x44424e8: ret      
+0x44424ec: bl       #0x2195494
+0x44424f0: bl       #0x219548c
+0x44424f4: str      x30, [sp, #-0x10]!
+0x44424f8: bl       #0x4442514    ; CALL System.Random$$InternalSample
+0x44424fc: scvtf    d0, w0
+0x4442500: adrp     x8, #0xdf1000
+0x4442504: ldr      d1, [x8, #0x478]    ; LDR ADDR 0x5233478
+0x4442508: fmul     d0, d0, d1
+0x444250c: ldr      x30, [sp], #0x10
+0x4442510: ret      
+0x4442514: str      x30, [sp, #-0x10]!
+0x4442518: ldr      x9, [x0, #0x18]    ; LDR ADDR 0x9777018
+0x444251c: cbz      x9, #0x44425a0
+0x4442520: movi     v0.2s, #1
+0x4442524: ldr      d1, [x0, #0x10]    ; LDR ADDR 0x9777010
+0x4442528: movi     v2.2s, #0x38
+0x444252c: ldr      w11, [x9, #0x18]
+0x4442530: mov      x8, x0
+0x4442534: add      v0.2s, v1.2s, v0.2s
+0x4442538: cmgt     v1.2s, v2.2s, v0.2s
+0x444253c: and      v0.8b, v0.8b, v1.8b
+0x4442540: mvn      v1.8b, v1.8b
+0x4442544: sub      v0.2s, v0.2s, v1.2s
+0x4442548: fmov     w10, s0
+0x444254c: cmp      w10, w11
+0x4442550: b.hs     #0x444259c
+0x4442554: mov      w12, v0.s[1]
+0x4442558: cmp      w12, w11
+0x444255c: b.hs     #0x444259c
+0x4442560: add      x9, x9, #0x20
+0x4442564: ldr      w11, [x9, w10, sxtw #2]
+0x4442568: ldr      w12, [x9, w12, sxtw #2]
+0x444256c: sub      w11, w11, w12
+0x4442570: mov      w12, #0x7fffffff
+0x4442574: add      w13, w11, w12
+0x4442578: cmp      w11, #0
+0x444257c: csel     w13, w13, w11, lt
+0x4442580: cmp      w11, w12
+0x4442584: mov      w11, #0x7ffffffe
+0x4442588: csel     w0, w11, w13, eq
+0x444258c: str      w0, [x9, w10, sxtw #2]
+0x4442590: str      d0, [x8, #0x10]
+0x4442594: ldr      x30, [sp], #0x10
+0x4442598: ret      
+0x444259c: bl       #0x2195494
+0x44425a0: bl       #0x219548c
+0x44425a4: str      x30, [sp, #-0x10]!
+0x44425a8: add      x0, sp, #0xc
+0x44425ac: mov      w1, #4
+0x44425b0: mov      x2, xzr
+0x44425b4: str      wzr, [sp, #0xc]
+0x44425b8: bl       #0x428c170    ; CALL Interop$$GetRandomBytes
+0x44425bc: ldr      w0, [sp, #0xc]
+0x44425c0: ldr      x30, [sp], #0x10
+0x44425c4: ret      
+0x44425c8: b        #0x4442514
+0x44425cc: str      x30, [sp, #-0x20]!
+0x44425d0: stp      x20, x19, [sp, #0x10]
+0x44425d4: mov      x19, x0
+0x44425d8: bl       #0x4442514    ; CALL System.Random$$InternalSample
+0x44425dc: mov      w20, w0
+0x44425e0: mov      x0, x19
+0x44425e4: bl       #0x4442514    ; CALL System.Random$$InternalSample
+0x44425e8: tst      w0, #1
+0x44425ec: cneg     w8, w20, eq
+0x44425f0: ldp      x20, x19, [sp, #0x10]
+0x44425f4: scvtf    d0, w8
+0x44425f8: adrp     x8, #0xdf1000
+0x44425fc: ldr      d1, [x8, #0xae8]    ; LDR ADDR 0x5233ae8
+0x4442600: adrp     x8, #0xdf1000
+0x4442604: fadd     d0, d0, d1
+0x4442608: ldr      d1, [x8, #0xe28]    ; LDR ADDR 0x5233e28
+0x444260c: fdiv     d0, d0, d1
+0x4442610: ldr      x30, [sp], #0x20
+0x4442614: ret      
+0x4442618: stp      x30, x21, [sp, #-0x20]!
+0x444261c: stp      x20, x19, [sp, #0x10]
+0x4442620: cmp      w1, w2
+0x4442624: b.gt     #0x44426a0
+0x4442628: sxtw     x8, w2
+0x444262c: mov      w19, w1
+0x4442630: sub      x20, x8, w1, sxtw
+0x4442634: mov      w8, #0x7fffffff
+0x4442638: cmp      x20, x8
+0x444263c: b.le     #0x4442664
+0x4442640: bl       #0x44425cc    ; CALL System.Random$$GetSampleForLargeRange
+0x4442644: scvtf    d1, x20
+0x4442648: mov      x8, #0x7ff0000000000000
+0x444264c: fmul     d0, d0, d1
+0x4442650: fmov     d1, x8
+0x4442654: fcvtzs   x9, d0
+0x4442658: fcmp     d0, d1
+0x444265c: csel     w8, wzr, w9, eq
+0x4442660: b        #0x4442690
+0x4442664: ldr      x8, [x0]
+0x4442668: ldp      x9, x1, [x8, #0x178]
+0x444266c: blr      x9
+0x4442670: scvtf    d1, x20
+0x4442674: mov      x8, #0x7ff0000000000000
+0x4442678: fmul     d0, d0, d1
+0x444267c: fmov     d1, x8
+0x4442680: mov      w8, #-0x80000000
+0x4442684: fcvtzs   w9, d0
+0x4442688: fcmp     d0, d1
+0x444268c: csel     w8, w8, w9, eq
+0x4442690: add      w0, w8, w19
+0x4442694: ldp      x20, x19, [sp, #0x10]
+0x4442698: ldp      x30, x21, [sp], #0x20
+0x444269c: ret      
+0x44426a0: adrp     x0, #0x5372000
+0x44426a4: ldr      x0, [x0, #0xc88]    ; LDR ADDR 0x97b4c88
+0x44426a8: bl       #0x219523c
+0x44426ac: adrp     x20, #0x5382000
+0x44426b0: mov      x19, x0
+0x44426b4: ldr      x20, [x20, #0x1b0]    ; LDR ADDR 0x97c41b0
+0x44426b8: mov      x0, x20
+0x44426bc: bl       #0x219523c
+0x44426c0: mov      x21, x0
+0x44426c4: adrp     x0, #0x5382000
+0x44426c8: ldr      x0, [x0, #0x1b8]    ; LDR ADDR 0x97c41b8
+0x44426cc: bl       #0x219523c
+0x44426d0: mov      x2, x0
+0x44426d4: mov      x0, x19
+0x44426d8: mov      x1, x21
+0x44426dc: mov      x3, xzr
+0x44426e0: bl       #0x428cef0    ; CALL SR$$Format
+0x44426e4: mov      x19, x0
+0x44426e8: adrp     x0, #0x5335000
+0x44426ec: ldr      x0, [x0, #0xc58]    ; LDR ADDR 0x9777c58
+0x44426f0: bl       #0x219523c
+0x44426f4: bl       #0x219547c
+0x44426f8: mov      x21, x0
+0x44426fc: mov      x0, x20
+0x4442700: bl       #0x219523c
+0x4442704: mov      x1, x0
+0x4442708: mov      x0, x21
+0x444270c: mov      x2, x19
+0x4442710: mov      x3, xzr
+0x4442714: bl       #0x4397268    ; CALL System.ArgumentOutOfRangeException$$.ctor
+0x4442718: adrp     x0, #0x5382000
+0x444271c: ldr      x0, [x0, #0x1c0]    ; LDR ADDR 0x97c41c0
+0x4442720: bl       #0x219523c
+0x4442724: mov      x1, x0
+0x4442728: mov      x0, x21
+0x444272c: bl       #0x2195350
+0x4442730: stp      x30, x21, [sp, #-0x20]!
+0x4442734: stp      x20, x19, [sp, #0x10]
+0x4442738: tbnz     w1, #0x1f, #0x4442778
+0x444273c: ldr      x8, [x0]
+0x4442740: mov      w19, w1
+0x4442744: ldp      x9, x1, [x8, #0x178]
+0x4442748: blr      x9
+0x444274c: scvtf    d1, w19
+0x4442750: mov      x8, #0x7ff0000000000000
+0x4442754: ldp      x20, x19, [sp, #0x10]
+0x4442758: fmul     d0, d0, d1
+0x444275c: fmov     d1, x8
+0x4442760: mov      w8, #-0x80000000
+0x4442764: fcvtzs   w9, d0
+0x4442768: fcmp     d0, d1
+0x444276c: csel     w0, w8, w9, eq
+0x4442770: ldp      x30, x21, [sp], #0x20
+0x4442774: ret      
+0x4442778: adrp     x0, #0x5378000
+0x444277c: ldr      x0, [x0, #0x890]    ; LDR ADDR 0x97ba890
+0x4442780: bl       #0x219523c
+0x4442784: adrp     x20, #0x5382000
+0x4442788: mov      x19, x0
+0x444278c: ldr      x20, [x20, #0x1b8]    ; LDR ADDR 0x97c41b8
+0x4442790: mov      x0, x20
+0x4442794: bl       #0x219523c
+0x4442798: mov      x1, x0
+0x444279c: mov      x0, x19
+0x44427a0: mov      x2, xzr
+0x44427a4: bl       #0x428bfac    ; CALL SR$$Format
+0x44427a8: mov      x19, x0
+0x44427ac: adrp     x0, #0x5335000
+0x44427b0: ldr      x0, [x0, #0xc58]    ; LDR ADDR 0x9777c58
+0x44427b4: bl       #0x219523c
+0x44427b8: bl       #0x219547c
+0x44427bc: mov      x21, x0
+0x44427c0: mov      x0, x20
+0x44427c4: bl       #0x219523c
+0x44427c8: mov      x1, x0
+0x44427cc: mov      x0, x21
+0x44427d0: mov      x2, x19
+0x44427d4: mov      x3, xzr
+0x44427d8: bl       #0x4397268    ; CALL System.ArgumentOutOfRangeException$$.ctor
+0x44427dc: adrp     x0, #0x5382000
+0x44427e0: ldr      x0, [x0, #0x1c8]    ; LDR ADDR 0x97c41c8
+0x44427e4: bl       #0x219523c
+0x44427e8: mov      x1, x0
+0x44427ec: mov      x0, x21
+0x44427f0: bl       #0x2195350
+0x44427f4: ldr      x8, [x0]
+0x44427f8: ldp      x2, x1, [x8, #0x178]
+0x44427fc: br       x2
+0x4442800: str      x30, [sp, #-0x30]!
+0x4442804: stp      x22, x21, [sp, #0x10]
+0x4442808: stp      x20, x19, [sp, #0x20]
+0x444280c: cbz      x1, #0x4442864
+0x4442810: ldr      w8, [x1, #0x18]    ; LDR ADDR 0x97c4018
+0x4442814: mov      x19, x1
+0x4442818: cmp      w8, #1
+0x444281c: b.lt     #0x4442850
+0x4442820: mov      x20, x0
+0x4442824: mov      x21, xzr
+0x4442828: add      x22, x19, #0x20    ; ADDR 0x97c4020
+0x444282c: mov      x0, x20
+0x4442830: bl       #0x4442514    ; CALL System.Random$$InternalSample
+0x4442834: ldr      w8, [x19, #0x18]    ; LDR ADDR 0x97c4018
+0x4442838: cmp      x21, x8
+0x444283c: b.hs     #0x4442860
+0x4442840: strb     w0, [x22, x21]
+0x4442844: add      x21, x21, #1    ; ADDR 0x9777001
+0x4442848: cmp      x21, w8, sxtw
+0x444284c: b.lt     #0x444282c
+0x4442850: ldp      x20, x19, [sp, #0x20]
+0x4442854: ldp      x22, x21, [sp, #0x10]

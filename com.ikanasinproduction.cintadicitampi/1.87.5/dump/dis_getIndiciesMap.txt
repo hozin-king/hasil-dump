@@ -1,0 +1,168 @@
+0x2481e40: str      x30, [sp, #-0x60]!
+0x2481e44: stp      x28, x27, [sp, #0x10]
+0x2481e48: stp      x26, x25, [sp, #0x20]
+0x2481e4c: stp      x24, x23, [sp, #0x30]
+0x2481e50: stp      x22, x21, [sp, #0x40]
+0x2481e54: stp      x20, x19, [sp, #0x50]
+0x2481e58: adrp     x19, #0x56ac000
+0x2481e5c: adrp     x23, #0x5335000
+0x2481e60: adrp     x22, #0x5339000
+0x2481e64: adrp     x21, #0x5339000
+0x2481e68: ldr      x23, [x23, #0xad8]    ; LDR ADDR 0x77b6ad8
+0x2481e6c: ldrb     w8, [x19, #0xe15]
+0x2481e70: ldr      x22, [x22, #0x248]    ; LDR ADDR 0x77ba248
+0x2481e74: ldr      x21, [x21, #0x238]    ; LDR ADDR 0x77ba238
+0x2481e78: mov      w20, w0
+0x2481e7c: tbnz     w8, #0, #0x2481ed0
+0x2481e80: adrp     x0, #0x5339000
+0x2481e84: ldr      x0, [x0, #0x228]    ; LDR ADDR 0x77ba228
+0x2481e88: bl       #0x2195228
+0x2481e8c: adrp     x0, #0x5339000
+0x2481e90: ldr      x0, [x0, #0xe48]    ; LDR ADDR 0x77bae48
+0x2481e94: bl       #0x2195228
+0x2481e98: adrp     x0, #0x5339000
+0x2481e9c: ldr      x0, [x0, #0x708]    ; LDR ADDR 0x77ba708
+0x2481ea0: bl       #0x2195228
+0x2481ea4: adrp     x0, #0x5339000
+0x2481ea8: ldr      x0, [x0, #0x238]    ; LDR ADDR 0x77ba238
+0x2481eac: bl       #0x2195228
+0x2481eb0: adrp     x0, #0x5339000
+0x2481eb4: ldr      x0, [x0, #0x248]    ; LDR ADDR 0x77ba248
+0x2481eb8: bl       #0x2195228
+0x2481ebc: adrp     x0, #0x5335000
+0x2481ec0: ldr      x0, [x0, #0xad8]    ; LDR ADDR 0x77b6ad8
+0x2481ec4: bl       #0x2195228
+0x2481ec8: mov      w8, #1
+0x2481ecc: strb     w8, [x19, #0xe15]
+0x2481ed0: ldr      x0, [x23]
+0x2481ed4: bl       #0x219547c
+0x2481ed8: mov      w1, w20
+0x2481edc: mov      x2, xzr
+0x2481ee0: mov      x19, x0
+0x2481ee4: bl       #0x4442358    ; CALL System.Random$$.ctor
+0x2481ee8: ldr      x0, [x22]
+0x2481eec: bl       #0x219547c
+0x2481ef0: ldr      x1, [x21]
+0x2481ef4: mov      x20, x0
+0x2481ef8: bl       #0x410d764    ; CALL System.Collections.Generic.List<int>$$.ctor
+0x2481efc: cbz      x19, #0x2481fec
+0x2481f00: adrp     x22, #0x5339000
+0x2481f04: adrp     x24, #0x5339000
+0x2481f08: adrp     x23, #0x5339000
+0x2481f0c: ldr      x22, [x22, #0xe48]    ; LDR ADDR 0x77bae48
+0x2481f10: ldr      x24, [x24, #0x228]    ; LDR ADDR 0x77ba228
+0x2481f14: ldr      x23, [x23, #0x708]    ; LDR ADDR 0x77ba708
+0x2481f18: mov      w25, #0x10
+0x2481f1c: mov      x26, #0x4048000000000000
+0x2481f20: mov      x27, #0x7ff0000000000000
+0x2481f24: mov      w28, #-0x80000000
+0x2481f28: ldr      x8, [x19]
+0x2481f2c: mov      x0, x19
+0x2481f30: ldp      x9, x1, [x8, #0x1b8]
+0x2481f34: blr      x9
+0x2481f38: cbz      x20, #0x2481fec
+0x2481f3c: fmov     d1, x26
+0x2481f40: ldr      x2, [x22]
+0x2481f44: mov      x0, x20
+0x2481f48: fmul     d0, d0, d1
+0x2481f4c: fmov     d1, x27
+0x2481f50: fcvtzs   w8, d0
+0x2481f54: fcmp     d0, d1
+0x2481f58: csel     w21, w28, w8, eq
+0x2481f5c: mov      w1, w21
+0x2481f60: bl       #0x410e318    ; CALL System.Collections.Generic.List<int>$$Contains
+0x2481f64: cbz      w21, #0x2481f28
+0x2481f68: tbnz     w0, #0, #0x2481f28
+0x2481f6c: ldr      w10, [x20, #0x1c]    ; LDR ADDR 0x77b601c
+0x2481f70: ldr      x8, [x20, #0x10]    ; LDR ADDR 0x77b6010
+0x2481f74: ldr      x9, [x24]
+0x2481f78: add      w10, w10, #1
+0x2481f7c: str      w10, [x20, #0x1c]
+0x2481f80: cbz      x8, #0x2481fec
+0x2481f84: ldrsw    x10, [x20, #0x18]
+0x2481f88: ldr      w11, [x8, #0x18]
+0x2481f8c: cmp      w10, w11
+0x2481f90: b.hs     #0x2481fa8
+0x2481f94: add      x8, x8, x10, lsl #2
+0x2481f98: add      w9, w10, #1
+0x2481f9c: str      w9, [x20, #0x18]
+0x2481fa0: str      w21, [x8, #0x20]
+0x2481fa4: b        #0x2481fc0
+0x2481fa8: ldr      x8, [x9, #0x20]
+0x2481fac: mov      x0, x20
+0x2481fb0: mov      w1, w21
+0x2481fb4: ldr      x8, [x8, #0xc0]
+0x2481fb8: ldr      x2, [x8, #0x70]
+0x2481fbc: bl       #0x410df98    ; CALL System.Collections.Generic.List<int>$$AddWithResize
+0x2481fc0: subs     w25, w25, #1
+0x2481fc4: b.ne     #0x2481f28
+0x2481fc8: ldr      x1, [x23]
+0x2481fcc: mov      x0, x20
+0x2481fd0: ldp      x20, x19, [sp, #0x50]
+0x2481fd4: ldp      x22, x21, [sp, #0x40]
+0x2481fd8: ldp      x24, x23, [sp, #0x30]
+0x2481fdc: ldp      x26, x25, [sp, #0x20]
+0x2481fe0: ldp      x28, x27, [sp, #0x10]
+0x2481fe4: ldr      x30, [sp], #0x60
+0x2481fe8: b        #0x410f9d4
+0x2481fec: bl       #0x219548c
+0x2481ff0: str      x30, [sp, #-0x10]!
+0x2481ff4: add      x1, sp, #0xc
+0x2481ff8: strh     wzr, [sp, #0xc]
+0x2481ffc: bl       #0x2482008    ; CALL Ikaan.Utility.IkaanDataFormat$$Decode
+0x2482000: ldr      x30, [sp], #0x10
+0x2482004: ret      
+0x2482008: sub      sp, sp, #0xc0
+0x248200c: stp      x29, x30, [sp, #0x60]
+0x2482010: stp      x28, x27, [sp, #0x70]
+0x2482014: stp      x26, x25, [sp, #0x80]
+0x2482018: stp      x24, x23, [sp, #0x90]
+0x248201c: stp      x22, x21, [sp, #0xa0]
+0x2482020: stp      x20, x19, [sp, #0xb0]
+0x2482024: adrp     x19, #0x56ac000
+0x2482028: mov      x20, x1
+0x248202c: mov      x21, x0
+0x2482030: ldrb     w8, [x19, #0xe14]
+0x2482034: tbnz     w8, #0, #0x24820b8
+0x2482038: adrp     x0, #0x5343000
+0x248203c: ldr      x0, [x0, #0x560]    ; LDR ADDR 0x77c5560
+0x2482040: bl       #0x2195228
+0x2482044: adrp     x0, #0x5334000
+0x2482048: ldr      x0, [x0, #0xbb0]    ; LDR ADDR 0x77b6bb0
+0x248204c: bl       #0x2195228
+0x2482050: adrp     x0, #0x5343000
+0x2482054: ldr      x0, [x0, #0x568]    ; LDR ADDR 0x77c5568
+0x2482058: bl       #0x2195228
+0x248205c: adrp     x0, #0x5334000
+0x2482060: ldr      x0, [x0, #0xbd8]    ; LDR ADDR 0x77b6bd8
+0x2482064: bl       #0x2195228
+0x2482068: adrp     x0, #0x5343000
+0x248206c: ldr      x0, [x0, #0x570]    ; LDR ADDR 0x77c5570
+0x2482070: bl       #0x2195228
+0x2482074: adrp     x0, #0x5343000
+0x2482078: ldr      x0, [x0, #0x578]    ; LDR ADDR 0x77c5578
+0x248207c: bl       #0x2195228
+0x2482080: adrp     x0, #0x5340000
+0x2482084: ldr      x0, [x0, #0x148]    ; LDR ADDR 0x77c2148
+0x2482088: bl       #0x2195228
+0x248208c: adrp     x0, #0x5339000
+0x2482090: ldr      x0, [x0, #0x248]    ; LDR ADDR 0x77bb248
+0x2482094: bl       #0x2195228
+0x2482098: adrp     x0, #0x5335000
+0x248209c: ldr      x0, [x0, #0xc78]    ; LDR ADDR 0x77b7c78
+0x24820a0: bl       #0x2195228
+0x24820a4: adrp     x0, #0x5343000
+0x24820a8: ldr      x0, [x0, #0x580]    ; LDR ADDR 0x77c5580
+0x24820ac: bl       #0x2195228
+0x24820b0: mov      w8, #1
+0x24820b4: strb     w8, [x19, #0xe14]
+0x24820b8: stp      xzr, xzr, [sp, #0x50]
+0x24820bc: str      xzr, [sp, #0x48]
+0x24820c0: cbz      x21, #0x24823b8
+0x24820c4: ldr      w8, [x21, #0x18]    ; LDR ADDR 0x77b6018
+0x24820c8: cmp      w8, #0x30
+0x24820cc: b.le     #0x24823b8
+0x24820d0: str      x20, [sp, #0x10]
+0x24820d4: adrp     x19, #0x5334000
+0x24820d8: mov      w1, #0x31
+0x24820dc: ldr      x19, [x19, #0xbb0]    ; LDR ADDR 0x77b6bb0

@@ -1,0 +1,27 @@
+# Native libraries — split-arm64/lib/arm64-v8a
+
+libFirebaseCppAnalytics.so: 68584 B, ET_DYN, machine=EM_AARCH64, dynsym=150, needed=liblog.so,libFirebaseCppApp-13_9_0.so,libm.so,libdl.so,libc.so
+libFirebaseCppApp-13_9_0.so: 5871040 B, ET_DYN, machine=EM_AARCH64, dynsym=10285, needed=liblog.so,libm.so,libdl.so,libc.so
+libFirebaseCppCrashlytics.so: 46928 B, ET_DYN, machine=EM_AARCH64, dynsym=101, needed=liblog.so,libFirebaseCppApp-13_9_0.so,libm.so,libdl.so,libc.so
+libFirebaseCppMessaging.so: 90056 B, ET_DYN, machine=EM_AARCH64, dynsym=182, needed=liblog.so,libFirebaseCppApp-13_9_0.so,libm.so,libdl.so,libc.so
+libFirebaseCppRemoteConfig.so: 95040 B, ET_DYN, machine=EM_AARCH64, dynsym=172, needed=liblog.so,libFirebaseCppApp-13_9_0.so,libm.so,libdl.so,libc.so
+lib_burst_generated.so: 5184 B, ET_DYN, machine=EM_AARCH64, dynsym=5, needed=libm.so,libdl.so,libc.so
+libapminsighta.so: 102256 B, ET_DYN, machine=EM_AARCH64, dynsym=111, needed=liblog.so,libc.so,libm.so,libdl.so
+libapminsightb.so: 124352 B, ET_DYN, machine=EM_AARCH64, dynsym=140, needed=liblog.so,libc.so,libm.so,libdl.so
+libapplovin-native-crash-reporter.so: 860200 B, ET_DYN, machine=EM_AARCH64, dynsym=2138, needed=libandroid.so,liblog.so,libm.so,libdl.so,libc.so
+libbuffer_pgl.so: 9000 B, ET_DYN, machine=EM_AARCH64, dynsym=30, needed=liblog.so,libm.so,libdl.so,libc.so
+libcrashlytics-common.so: 864616 B, ET_DYN, machine=EM_AARCH64, dynsym=182, needed=liblog.so,libz.so,libdl.so,libc.so,libm.so
+libcrashlytics-handler.so: 222056 B, ET_DYN, machine=EM_AARCH64, dynsym=51, needed=liblog.so,libz.so,libc.so,libm.so,libdl.so
+libcrashlytics-trampoline.so: 9216 B, ET_DYN, machine=EM_AARCH64, dynsym=8, needed=liblog.so,libc.so,libm.so,libdl.so
+libcrashlytics.so: 231960 B, ET_DYN, machine=EM_AARCH64, dynsym=60, needed=liblog.so,libc.so,libm.so,libdl.so
+libdatastore_shared_counter.so: 7112 B, ET_DYN, machine=EM_AARCH64, dynsym=20, needed=libm.so,libdl.so,libc.so
+libfile_lock_pgl.so: 6312 B, ET_DYN, machine=EM_AARCH64, dynsym=16, needed=liblog.so,libm.so,libdl.so,libc.so
+libil2cpp.so: 93227296 B, ET_DYN, machine=EM_AARCH64, dynsym=2503, needed=libpairipcore.so,liblog.so,libm.so,libdl.so,libc.so
+libmain.so: 6696 B, ET_DYN, machine=EM_AARCH64, dynsym=14, needed=liblog.so,libm.so,libdl.so,libc.so
+libnms.so: 296712 B, ET_DYN, machine=EM_AARCH64, dynsym=40, needed=liblog.so,libm.so,libdl.so,libc.so
+libpairipcore.so: 608192 B, ET_DYN, machine=EM_AARCH64, dynsym=78, needed=libdl.so,libc.so,libm.so,liblog.so
+libpglarmor.so: 68600 B, ET_DYN, machine=EM_AARCH64, dynsym=15, needed=liblog.so,libz.so,libm.so,libdl.so,libc.so
+libsigner.so: 1304840 B, ET_DYN, machine=EM_AARCH64, dynsym=62, needed=liblog.so,libm.so,libdl.so,libc.so
+libsqliteJni.so: 2066400 B, ET_DYN, machine=EM_AARCH64, dynsym=2374, needed=libpairipcore.so,libm.so,libandroid.so,liblog.so,libdl.so,libc.so
+libtt_ugen_layout.so: 440672 B, ET_DYN, machine=EM_AARCH64, dynsym=760, needed=liblog.so,libm.so,libdl.so,libc.so
+libunity.so: 24693136 B, ET_DYN, machine=EM_AARCH64, dynsym=227, needed=libpairipcore.so,libmain.so,libandroid.so,liblog.so,libz.so,libEGL.so,libmediandk.so,libm.so,libdl.so,libc.so

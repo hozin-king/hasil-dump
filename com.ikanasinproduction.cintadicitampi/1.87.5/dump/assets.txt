@@ -1,0 +1,14 @@
+# Assets inventory — base APK assets/
+
+NavMaps/: 95 files, 0 subdirs
+aa/: 3 files, 2 subdirs
+aa/AddressablesLink/: 1 files, 0 subdirs
+aa/Android/: 6 files, 0 subdirs
+ad-viewer/: 2 files, 0 subdirs
+bin/: 0 files, 1 subdirs
+bin/Data/: 10967 files, 2 subdirs
+bm_networks/: 2 files, 0 subdirs
+dexopt/: 2 files, 0 subdirs
+
+total files in top 2 levels: 11078
+assets/bin/Data: 10974 files total

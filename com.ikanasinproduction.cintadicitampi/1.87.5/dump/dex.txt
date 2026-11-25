@@ -1,0 +1,16 @@
+# DEX files — base APK
+
+classes.dex: 11174736 B, classes=8387, methods=54490, fields=30905, strings=67263
+classes2.dex: 807020 B, classes=190, methods=2102, fields=2239, strings=8825
+classes3.dex: 8721328 B, classes=6021, methods=57599, fields=20625, strings=52320
+classes4.dex: 1345676 B, classes=1806, methods=9095, fields=5039, strings=8290
+classes5.dex: 9125104 B, classes=8071, methods=55747, fields=33131, strings=68420
+classes6.dex: 8207764 B, classes=7347, methods=56301, fields=27235, strings=42721
+classes7.dex: 9118364 B, classes=7846, methods=57958, fields=39756, strings=60203
+classes8.dex: 7903200 B, classes=11139, methods=57227, fields=31966, strings=37262
+classes9.dex: 8490728 B, classes=8325, methods=55958, fields=28224, strings=57996
+classes10.dex: 9863568 B, classes=8603, methods=57988, fields=36015, strings=59143
+classes11.dex: 11402476 B, classes=10721, methods=56965, fields=28916, strings=63684
+classes12.dex: 8729220 B, classes=10991, methods=58669, fields=27421, strings=47801
+
+TOTAL classes: 89447

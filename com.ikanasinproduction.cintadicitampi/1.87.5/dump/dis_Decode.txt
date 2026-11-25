@@ -1,0 +1,384 @@
+0x2481ff0: str      x30, [sp, #-0x10]!
+0x2481ff4: add      x1, sp, #0xc
+0x2481ff8: strh     wzr, [sp, #0xc]
+0x2481ffc: bl       #0x2482008    ; CALL Ikaan.Utility.IkaanDataFormat$$Decode
+0x2482000: ldr      x30, [sp], #0x10
+0x2482004: ret      
+0x2482008: sub      sp, sp, #0xc0
+0x248200c: stp      x29, x30, [sp, #0x60]
+0x2482010: stp      x28, x27, [sp, #0x70]
+0x2482014: stp      x26, x25, [sp, #0x80]
+0x2482018: stp      x24, x23, [sp, #0x90]
+0x248201c: stp      x22, x21, [sp, #0xa0]
+0x2482020: stp      x20, x19, [sp, #0xb0]
+0x2482024: adrp     x19, #0x56ac000
+0x2482028: mov      x20, x1
+0x248202c: mov      x21, x0
+0x2482030: ldrb     w8, [x19, #0xe14]
+0x2482034: tbnz     w8, #0, #0x24820b8
+0x2482038: adrp     x0, #0x5343000
+0x248203c: ldr      x0, [x0, #0x560]    ; LDR ADDR 0x77c5560
+0x2482040: bl       #0x2195228
+0x2482044: adrp     x0, #0x5334000
+0x2482048: ldr      x0, [x0, #0xbb0]    ; LDR ADDR 0x77b6bb0
+0x248204c: bl       #0x2195228
+0x2482050: adrp     x0, #0x5343000
+0x2482054: ldr      x0, [x0, #0x568]    ; LDR ADDR 0x77c5568
+0x2482058: bl       #0x2195228
+0x248205c: adrp     x0, #0x5334000
+0x2482060: ldr      x0, [x0, #0xbd8]    ; LDR ADDR 0x77b6bd8
+0x2482064: bl       #0x2195228
+0x2482068: adrp     x0, #0x5343000
+0x248206c: ldr      x0, [x0, #0x570]    ; LDR ADDR 0x77c5570
+0x2482070: bl       #0x2195228
+0x2482074: adrp     x0, #0x5343000
+0x2482078: ldr      x0, [x0, #0x578]    ; LDR ADDR 0x77c5578
+0x248207c: bl       #0x2195228
+0x2482080: adrp     x0, #0x5340000
+0x2482084: ldr      x0, [x0, #0x148]    ; LDR ADDR 0x77c2148
+0x2482088: bl       #0x2195228
+0x248208c: adrp     x0, #0x5339000
+0x2482090: ldr      x0, [x0, #0x248]    ; LDR ADDR 0x77bb248
+0x2482094: bl       #0x2195228
+0x2482098: adrp     x0, #0x5335000
+0x248209c: ldr      x0, [x0, #0xc78]    ; LDR ADDR 0x77b7c78
+0x24820a0: bl       #0x2195228
+0x24820a4: adrp     x0, #0x5343000
+0x24820a8: ldr      x0, [x0, #0x580]    ; LDR ADDR 0x77c5580
+0x24820ac: bl       #0x2195228
+0x24820b0: mov      w8, #1
+0x24820b4: strb     w8, [x19, #0xe14]
+0x24820b8: stp      xzr, xzr, [sp, #0x50]
+0x24820bc: str      xzr, [sp, #0x48]
+0x24820c0: cbz      x21, #0x24823b8
+0x24820c4: ldr      w8, [x21, #0x18]
+0x24820c8: cmp      w8, #0x30
+0x24820cc: b.le     #0x24823b8
+0x24820d0: str      x20, [sp, #0x10]
+0x24820d4: adrp     x19, #0x5334000
+0x24820d8: mov      w1, #0x31
+0x24820dc: ldr      x19, [x19, #0xbb0]    ; LDR ADDR 0x77b6bb0
+0x24820e0: ldr      x0, [x19]
+0x24820e4: bl       #0x21952d0
+0x24820e8: cbz      x0, #0x2482544
+0x24820ec: mov      x23, x0
+0x24820f0: ldr      w4, [x0, #0x18]    ; LDR ADDR 0x77c5018
+0x24820f4: mov      x0, x21
+0x24820f8: mov      w1, wzr
+0x24820fc: mov      x2, x23
+0x2482100: mov      w3, wzr
+0x2482104: mov      x5, xzr
+0x2482108: bl       #0x445e784    ; CALL System.Buffer$$BlockCopy
+0x248210c: ldr      w8, [x23, #0x18]    ; LDR ADDR 0x77c5018
+0x2482110: cbz      w8, #0x2482540
+0x2482114: ldrb     w0, [x23, #0x20]
+0x2482118: str      w0, [sp, #0xc]
+0x248211c: bl       #0x2481e40    ; CALL Ikaan.Utility.IkaanDataFormat$$_getIndiciesMap
+0x2482120: adrp     x8, #0x5339000
+0x2482124: mov      x22, x0
+0x2482128: ldr      x8, [x8, #0x248]    ; LDR ADDR 0x77bb248
+0x248212c: ldr      x8, [x8]
+0x2482130: mov      x0, x8
+0x2482134: bl       #0x219547c
+0x2482138: adrp     x8, #0x5343000
+0x248213c: mov      x1, x22
+0x2482140: mov      x25, x0
+0x2482144: ldr      x8, [x8, #0x578]    ; LDR ADDR 0x77c5578
+0x2482148: ldr      x2, [x8]
+0x248214c: bl       #0x410d890    ; CALL System.Collections.Generic.List<int>$$.ctor
+0x2482150: cbz      x25, #0x2482544
+0x2482154: adrp     x8, #0x5343000
+0x2482158: mov      x0, x25
+0x248215c: ldr      x8, [x8, #0x570]    ; LDR ADDR 0x77c5570
+0x2482160: ldr      x1, [x8]
+0x2482164: bl       #0x410f85c    ; CALL System.Collections.Generic.List<int>$$Sort
+0x2482168: ldr      x0, [x19]
+0x248216c: mov      w1, #0x10
+0x2482170: bl       #0x21952d0
+0x2482174: ldr      x8, [x19]
+0x2482178: mov      x24, x0
+0x248217c: mov      w1, #0x20
+0x2482180: mov      x0, x8
+0x2482184: bl       #0x21952d0
+0x2482188: adrp     x20, #0x5340000
+0x248218c: mov      x22, x0
+0x2482190: mov      x28, xzr
+0x2482194: ldr      x20, [x20, #0x148]    ; LDR ADDR 0x77c2148
+0x2482198: mov      w26, wzr
+0x248219c: mov      w29, wzr
+0x24821a0: add      x19, x23, #0x21    ; ADDR 0x77c5021
+0x24821a4: cmp      w26, #0xf
+0x24821a8: add      x27, x28, #1
+0x24821ac: b.gt     #0x24821f4
+0x24821b0: ldr      x2, [x20]
+0x24821b4: mov      x0, x25
+0x24821b8: mov      w1, w26
+0x24821bc: bl       #0x410dca0    ; CALL System.Collections.Generic.List<int>$$get_Item
+0x24821c0: cmp      x27, w0, uxtw
+0x24821c4: b.ne     #0x24821f4
+0x24821c8: ldr      w8, [x23, #0x18]    ; LDR ADDR 0x77c5018
+0x24821cc: cmp      x27, x8
+0x24821d0: b.hs     #0x2482540
+0x24821d4: cbz      x24, #0x2482544
+0x24821d8: ldr      w8, [x24, #0x18]    ; LDR ADDR 0x77bb018
+0x24821dc: cmp      w26, w8
+0x24821e0: b.hs     #0x2482540
+0x24821e4: ldrb     w8, [x19, x28]
+0x24821e8: add      x9, x24, w26, sxtw
+0x24821ec: add      w26, w26, #1
+0x24821f0: b        #0x248221c
+0x24821f4: ldr      w8, [x23, #0x18]    ; LDR ADDR 0x77c5018
+0x24821f8: cmp      x27, x8
+0x24821fc: b.hs     #0x2482540
+0x2482200: cbz      x22, #0x2482544
+0x2482204: ldr      w8, [x22, #0x18]    ; LDR ADDR 0x77c5018
+0x2482208: cmp      w29, w8
+0x248220c: b.hs     #0x2482540
+0x2482210: ldrb     w8, [x19, x28]
+0x2482214: add      x9, x22, w29, sxtw
+0x2482218: add      w29, w29, #1
+0x248221c: strb     w8, [x9, #0x20]
+0x2482220: add      x28, x28, #1
+0x2482224: cmp      x28, #0x30
+0x2482228: b.ne     #0x24821a4
+0x248222c: adrp     x9, #0x5334000
+0x2482230: ldr      w8, [x21, #0x18]
+0x2482234: ldr      x9, [x9, #0xbb0]    ; LDR ADDR 0x77b6bb0
+0x2482238: sub      w1, w8, #0x31
+0x248223c: ldr      x0, [x9]
+0x2482240: bl       #0x21952d0
+0x2482244: cbz      x0, #0x2482544
+0x2482248: mov      x23, x0
+0x248224c: ldr      w4, [x0, #0x18]    ; LDR ADDR 0x77bb018
+0x2482250: mov      x0, x21
+0x2482254: mov      w1, #0x31
+0x2482258: mov      x2, x23
+0x248225c: mov      w3, wzr
+0x2482260: mov      x5, xzr
+0x2482264: bl       #0x445e784    ; CALL System.Buffer$$BlockCopy
+0x2482268: adrp     x8, #0x5343000
+0x248226c: ldr      x8, [x8, #0x560]    ; LDR ADDR 0x77c5560
+0x2482270: ldr      x0, [x8]
+0x2482274: bl       #0x219547c
+0x2482278: mov      x1, xzr
+0x248227c: mov      x21, x0
+0x2482280: bl       #0x46be818    ; CALL System.Security.Cryptography.AesManaged$$.ctor
+0x2482284: add      x8, sp, #0x58
+0x2482288: str      x21, [sp, #0x58]
+0x248228c: stp      xzr, x8, [sp, #0x38]
+0x2482290: cbz      x21, #0x2482548
+0x2482294: ldr      x8, [x21]
+0x2482298: ldp      x9, x2, [x8, #0x1e8]
+0x248229c: mov      x0, x21
+0x24822a0: mov      x1, x24
+0x24822a4: blr      x9
+0x24822a8: ldr      x0, [sp, #0x58]
+0x24822ac: cbz      x0, #0x2482550
+0x24822b0: ldr      x8, [x0]
+0x24822b4: ldr      x9, [x8, #0x208]    ; LDR ADDR 0x77c5208
+0x24822b8: ldr      x2, [x8, #0x210]    ; LDR ADDR 0x77c5210
+0x24822bc: mov      x1, x22
+0x24822c0: blr      x9
+0x24822c4: ldr      x0, [sp, #0x58]
+0x24822c8: cbz      x0, #0x2482554
+0x24822cc: ldr      x8, [x0]
+0x24822d0: ldr      x1, [x8, #0x2c0]    ; LDR ADDR 0x77c52c0
+0x24822d4: ldr      x9, [x8, #0x2b8]    ; LDR ADDR 0x77c52b8
+0x24822d8: blr      x9
+0x24822dc: adrp     x8, #0x5335000
+0x24822e0: mov      x21, x0
+0x24822e4: ldr      x8, [x8, #0xc78]    ; LDR ADDR 0x77b7c78
+0x24822e8: ldr      x0, [x8]
+0x24822ec: bl       #0x219547c
+0x24822f0: mov      x1, xzr
+0x24822f4: mov      x22, x0
+0x24822f8: bl       #0x43e3a20    ; CALL System.IO.MemoryStream$$.ctor
+0x24822fc: adrp     x8, #0x5343000
+0x2482300: add      x9, sp, #0x50
+0x2482304: ldr      x8, [x8, #0x568]    ; LDR ADDR 0x77c5568
+0x2482308: str      x22, [sp, #0x50]
+0x248230c: stp      xzr, x9, [sp, #0x28]
+0x2482310: ldr      x0, [x8]
+0x2482314: bl       #0x219547c
+0x2482318: mov      x1, x22
+0x248231c: mov      x2, x21
+0x2482320: mov      w3, #1
+0x2482324: mov      x4, xzr
+0x2482328: mov      x24, x0
+0x248232c: bl       #0x42d97a0    ; CALL System.Security.Cryptography.CryptoStream$$.ctor
+0x2482330: add      x8, sp, #0x48
+0x2482334: str      x24, [sp, #0x48]
+0x2482338: stp      xzr, x8, [sp, #0x18]
+0x248233c: cbz      x24, #0x2482558
+0x2482340: ldr      x8, [x24]
+0x2482344: ldr      w3, [x23, #0x18]    ; LDR ADDR 0x77bb018
+0x2482348: ldr      x9, [x8, #0x388]    ; LDR ADDR 0x77c5388
+0x248234c: ldr      x4, [x8, #0x390]    ; LDR ADDR 0x77c5390
+0x2482350: mov      x0, x24
+0x2482354: mov      x1, x23
+0x2482358: mov      w2, wzr
+0x248235c: blr      x9
+0x2482360: mov      x21, xzr
+0x2482364: add      x8, sp, #0x48
+0x2482368: ldr      x22, [x8]
+0x248236c: cbz      x22, #0x24823dc
+0x2482370: adrp     x10, #0x5334000
+0x2482374: ldr      x8, [x22]
+0x2482378: ldr      x10, [x10, #0xbd8]    ; LDR ADDR 0x77b6bd8
+0x248237c: ldrh     w9, [x8, #0x12e]
+0x2482380: ldr      x1, [x10]
+0x2482384: cbz      x9, #0x24823a8
+0x2482388: ldr      x10, [x8, #0xb0]    ; LDR ADDR 0x77c50b0
+0x248238c: add      x10, x10, #8    ; ADDR 0x77b6008
+0x2482390: ldur     x11, [x10, #-8]
+0x2482394: cmp      x11, x1
+0x2482398: b.eq     #0x24823c4
+0x248239c: subs     x9, x9, #1
+0x24823a0: add      x10, x10, #0x10    ; ADDR 0x77b6018
+0x24823a4: b.ne     #0x2482390
+0x24823a8: mov      x0, x22
+0x24823ac: mov      w2, wzr
+0x24823b0: bl       #0x21cd538
+0x24823b4: b        #0x24823d0
+0x24823b8: mov      x21, xzr
+0x24823bc: strh     wzr, [x20]
+0x24823c0: b        #0x248251c
+0x24823c4: ldrsw    x9, [x10]
+0x24823c8: add      x8, x8, x9, lsl #4
+0x24823cc: add      x0, x8, #0x138    ; ADDR 0x77c5138
+0x24823d0: ldp      x8, x1, [x0]
+0x24823d4: mov      x0, x22
+0x24823d8: blr      x8
+0x24823dc: cbnz     x21, #0x248255c
+0x24823e0: ldr      x0, [sp, #0x50]
+0x24823e4: cbz      x0, #0x2482568
+0x24823e8: ldr      x8, [x0]
+0x24823ec: ldr      x1, [x8, #0x3f0]    ; LDR ADDR 0x77c53f0
+0x24823f0: ldr      x9, [x8, #0x3e8]    ; LDR ADDR 0x77c53e8
+0x24823f4: blr      x9
+0x24823f8: mov      x21, x0
+0x24823fc: mov      w23, #9
+0x2482400: ldr      x8, [sp, #0x30]
+0x2482404: ldr      x22, [x8]
+0x2482408: cbz      x22, #0x248246c
+0x248240c: adrp     x10, #0x5334000
+0x2482410: ldr      x8, [x22]
+0x2482414: ldr      x10, [x10, #0xbd8]    ; LDR ADDR 0x77b6bd8
+0x2482418: ldrh     w9, [x8, #0x12e]
+0x248241c: ldr      x1, [x10]
+0x2482420: cbz      x9, #0x2482444
+0x2482424: ldr      x10, [x8, #0xb0]    ; LDR ADDR 0x77c50b0
+0x2482428: add      x10, x10, #8    ; ADDR 0x77b6008
+0x248242c: ldur     x11, [x10, #-8]
+0x2482430: cmp      x11, x1
+0x2482434: b.eq     #0x2482454
+0x2482438: subs     x9, x9, #1
+0x248243c: add      x10, x10, #0x10    ; ADDR 0x77b6018
+0x2482440: b.ne     #0x248242c
+0x2482444: mov      x0, x22
+0x2482448: mov      w2, wzr
+0x248244c: bl       #0x21cd538
+0x2482450: b        #0x2482460
+0x2482454: ldrsw    x9, [x10]
+0x2482458: add      x8, x8, x9, lsl #4
+0x248245c: add      x0, x8, #0x138    ; ADDR 0x77c5138
+0x2482460: ldp      x8, x1, [x0]
+0x2482464: mov      x0, x22
+0x2482468: blr      x8
+0x248246c: ldr      x0, [sp, #0x28]
+0x2482470: cbnz     x0, #0x2482564
+0x2482474: ldr      x8, [sp, #0x40]
+0x2482478: ldr      x22, [x8]
+0x248247c: cbz      x22, #0x24824e0
+0x2482480: adrp     x10, #0x5334000
+0x2482484: ldr      x8, [x22]
+0x2482488: ldr      x10, [x10, #0xbd8]    ; LDR ADDR 0x77b6bd8
+0x248248c: ldrh     w9, [x8, #0x12e]
+0x2482490: ldr      x1, [x10]
+0x2482494: cbz      x9, #0x24824b8
+0x2482498: ldr      x10, [x8, #0xb0]    ; LDR ADDR 0x77c50b0
+0x248249c: add      x10, x10, #8    ; ADDR 0x77b6008
+0x24824a0: ldur     x11, [x10, #-8]
+0x24824a4: cmp      x11, x1
+0x24824a8: b.eq     #0x24824c8
+0x24824ac: subs     x9, x9, #1
+0x24824b0: add      x10, x10, #0x10    ; ADDR 0x77b6018
+0x24824b4: b.ne     #0x24824a0
+0x24824b8: mov      x0, x22
+0x24824bc: mov      w2, wzr
+0x24824c0: bl       #0x21cd538
+0x24824c4: b        #0x24824d4
+0x24824c8: ldrsw    x9, [x10]
+0x24824cc: add      x8, x8, x9, lsl #4
+0x24824d0: add      x0, x8, #0x138    ; ADDR 0x77c5138
+0x24824d4: ldp      x8, x1, [x0]
+0x24824d8: mov      x0, x22
+0x24824dc: blr      x8
+0x24824e0: ldr      x0, [sp, #0x38]
+0x24824e4: cbnz     x0, #0x248254c
+0x24824e8: cmp      w23, #9
+0x24824ec: b.eq     #0x24824f4
+0x24824f0: cbnz     w23, #0x248251c
+0x24824f4: adrp     x8, #0x5343000
+0x24824f8: add      x0, sp, #0x38
+0x24824fc: ldr      x8, [x8, #0x580]    ; LDR ADDR 0x77c5580
+0x2482500: ldr      w1, [sp, #0xc]
+0x2482504: strh     wzr, [sp, #0x38]
+0x2482508: ldr      x2, [x8]
+0x248250c: bl       #0x3326534    ; CALL System.Nullable<byte>$$.ctor
+0x2482510: ldrh     w8, [sp, #0x38]
+0x2482514: ldr      x9, [sp, #0x10]
+0x2482518: strh     w8, [x9]
+0x248251c: mov      x0, x21
+0x2482520: ldp      x20, x19, [sp, #0xb0]
+0x2482524: ldp      x22, x21, [sp, #0xa0]
+0x2482528: ldp      x24, x23, [sp, #0x90]
+0x248252c: ldp      x26, x25, [sp, #0x80]
+0x2482530: ldp      x28, x27, [sp, #0x70]
+0x2482534: ldp      x29, x30, [sp, #0x60]
+0x2482538: add      sp, sp, #0xc0
+0x248253c: ret      
+0x2482540: bl       #0x2195494
+0x2482544: bl       #0x219548c
+0x2482548: bl       #0x219548c
+0x248254c: bl       #0x2195484
+0x2482550: bl       #0x219548c
+0x2482554: bl       #0x219548c
+0x2482558: bl       #0x219548c
+0x248255c: mov      x0, x21
+0x2482560: bl       #0x2195484
+0x2482564: bl       #0x2195484
+0x2482568: bl       #0x219548c
+0x248256c: b        #0x24825e0
+0x2482570: b        #0x24825e0
+0x2482574: b        #0x24825c8
+0x2482578: b        #0x24825c8
+0x248257c: mov      x23, x1
+0x2482580: mov      x22, x0
+0x2482584: cmp      w23, #1
+0x2482588: b.ne     #0x24825b0
+0x248258c: mov      x0, x22
+0x2482590: bl       #0x508a230
+0x2482594: ldr      x21, [x0]
+0x2482598: str      x21, [sp, #0x18]
+0x248259c: bl       #0x508a240
+0x24825a0: ldr      x8, [sp, #0x20]
+0x24825a4: b        #0x2482368
+0x24825a8: mov      x23, x1
+0x24825ac: mov      x22, x0
+0x24825b0: add      x0, sp, #0x18
+0x24825b4: bl       #0x1ef7fac
+0x24825b8: b        #0x24825e8
+0x24825bc: b        #0x24825e0
+0x24825c0: b        #0x24825c8
+0x24825c4: b        #0x24825c8
+0x24825c8: mov      x23, x1
+0x24825cc: mov      x22, x0
+0x24825d0: b        #0x2482620
+0x24825d4: mov      x23, x1
+0x24825d8: mov      x22, x0
+0x24825dc: b        #0x2482624
+0x24825e0: mov      x23, x1
+0x24825e4: mov      x22, x0
+0x24825e8: cmp      w23, #1
+0x24825ec: b.ne     #0x2482618

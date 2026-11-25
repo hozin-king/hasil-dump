@@ -1,0 +1,824 @@
+# REA keyword scan — global-metadata.strings.txt + libil2cpp.strings.txt
+
+## source: global-metadata.strings.txt (158602 lines)
+### URL: 134 unique hits
+                  configured correctly. Check SafeBrowsing Mode guide for more:  https://docs.uniwebview.com/guide/safe-browsing.htmlUnicodeUnicode (Big-Endian)Unicode (UTF-32 Big-Endian)Unicode (UTF-32
+   Rebuild Orchard Plots.hawhayop kahayuphehe-ILheaderheader cannot be emptyheader-templateheader-titleheaderTemplateheaderTitleheadershealthheartbeat elapsedSec={0:0.0} | frames={1} | hebrewheightheld 
+   There is no component `There is no element to infer schema.There is no handler for the channel method. Ignoring.There is no reader from which to load the document.There is no row at position {0}.Ther
+   calendar window not fully ended (or trusted online time unavailable)TryStampIndependenceDayOnWindDown: stamped IndependenceDay occurrenceTryStoreFishTryTransferFromInventoryTryUnaryOperationTryWriteC
+   refresh continues in the background.PreComputeUnionConstructorPreComputeUnionReaderPreComputeUnionTagReaderPreSolveEvent: physicsWorld={0}, shapeA={1}, shapeB={2}, point={3}, normal={4}Precondition F
+   unexpected error: [PlayGrouping] GetServerAuthCode threw: [PlayGrouping] Manual force-submit triggered.[PlayGrouping] POST https://googlegrouping.noctuaprojects.com/grouping/submit-tags[PlayGrouping]
+  "Deprecated. Use `RegisterOnRequestMediaCapturePermission` instead. Check https://docs.uniwebview.com/api/#registeronrequestmediacapturepermission
+  8xhttps://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/
+  <comm.ADP.TraceException|ERR|CATCH> '{0}'<comm.ADP.TraceException|ERR|THROW> '{0}'<complexType><ds.DataColumn.DataColumn|API> {0}, columnName='{1}', expr='{2}', type={3}<ds.DataColumn.set_AllowDBNull|
+  ?xmlRhttp://james.newtonking.com/projects/json
+  @http://www.w3.org/2001/XMLSchema
+  BSON reading and writing has been moved to its own package. See https://www.nuget.org/packages/Newtonsoft.Json.Bson for more details.
+  Bhttps://github.com/dotnet/runtime
+  Current version: Trying to play object {0}, but it doesn't implement {1}Trying to read custom property {0} value as {1} while parsed type is {2}Trying to read non binary data at path 'Trying to read v
+  D\https://api.ikaanstudio.com/update_newpurchaseZhttps://api.ikaanstudio.com/download_purchase\https://api.ikaanstudio.com/update_newpurchaseZhttps://api.ikaanstudio.com/download_purchase&noctua-provi
+  Dhttps://github.com/serilog/serilog
+  FThis property has been deprecated.  Use a type description provider to supply type information for COM types instead.  http://go.microsoft.com/fwlink/?linkid=14202
+  Hhttps://api.ikaanstudio.com/CGImages
+  ID not foundID serverIDCardTFIDREFIDREFSIDUL_ADHA_2025_EVENTIEIEnumerableIF YOU HAVE CONSISTENT REPRODUCTION STEPS THAT MAKE THIS ISSUE REOCCUR, please report it at this issue at 'https://bitbucket.or
+  JThis interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead.  https://go.microsoft.com/fwlink/?linkid=14202
+  Please report at: https://codestage.net/contacts
+  Quest Title:https://discord.gg/T99qmWAsEz:https://discord.gg/k5T8pNE67G
+  Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202
+  Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202
+  The prefix 'xml' is bound to the namespace name 'http://www.w3.org/XML/1998/namespace'. Other prefixes must not be bound to this namespace name, and it must not be declared as the default namespace.Th
+  The serialization stream contains no inner exceptions.The serialized Capacity property of StringBuilder must be positive, less than or equal to MaxCapacity and greater than or equal to the String leng
+  This attribute has been deprecated. Use DesignerSerializerAttribute instead.  For example, to specify a root designer for CodeDom, use DesignerSerializerAttribute(...,typeof(TypeCodeDomSerializer)).  
+  This can be used to detect unauthorized redistribution of your app.You can only call GUI functions from inside OnGUI.You can't add directly to this VisualElement. Use hierarchy.Add() if you know what 
+  This class has been deprecated.  http://go.microsoft.com/fwlink/?linkid=14202
+  This method has been deprecated.  Please use the Issuer property instead.  http://go.microsoft.com/fwlink/?linkid=14202
+  This method has been deprecated.  Please use the Subject property instead.  http://go.microsoft.com/fwlink/?linkid=14202
+  This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202
+  Use HandleEventBubbleUp. Before proceeding, make sure you understand the latest changes to UIToolkit event propagation rules by visiting Unity's manual page https://docs.unity3d.com/Manual/UIE-Events-
+  Use System.Xml.Schema.XmlSchemaSet for schema compilation and validation. https://go.microsoft.com/fwlink/?linkid=14202
+  Use XmlReader created by XmlReader.Create() method using appropriate XmlReaderSettings instead. https://go.microsoft.com/fwlink/?linkid=14202
+  Zhttps://api.ikaanstudio.com/saveGame/downloadVhttps://api.ikaanstudio.com/saveGame/upload\https://api.ikaanstudio.com/update_newpurchase2Assets/Resources/Cutscene
+  Zhttps://github.com/serilog/serilog-sinks-file
+  Zhttps://sdk-tracker.noctuaprojects.com/api/v1Xhttps://sdk-api-v2.noctuaprojects.com/api/v1hhttps://sandbox-sdk-api-v2.noctuaprojects.com/api/v1
+  [ACTk] Rhttps://codestage.net/uas_files/actk/api/<https://codestage.net/contacts$Anti-Cheat Toolkit
+  [PlayGrouping]|https://googlegrouping.noctuaprojects.com/grouping/submit-tags
+  a library for handling zip archives. http://www.codeplex.com/DotNetZip.  This is a reduced version; it lacks SFX support. (Flavor=Retail)
+  cioExhausted max gradient settings (ExitButtonExpandoCheckVersionExpandoPromoteClassExpandoTryDeleteValueExpandoTryGetValueExpandoTrySetValueExpectExpectation FailedExpected 'Expected '&' got '{0}'Exp
+  hhttp://esotericsoftware.com/spine-unity#BoneFollower
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_a_i_destination_setter.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_a_i_lerp.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_alternative_path.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_animation_link.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_astar_debugger.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_block_manager.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_dynamic_grid_obstacle.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_astar_smooth_follow2.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_door_controller.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_mine_bot_a_i.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_mine_bot_animation.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_object_placer.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_procedural_world.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_examples_1_1_turn_based_a_i.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_funnel_modifier.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_graph_update_scene.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_legacy_1_1_legacy_a_i_path.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_node_link.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_node_link2.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_node_link3.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_patrol.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_procedural_grid_mover.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_raycast_modifier.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_relevant_graph_surface.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_seeker.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_simple_smooth_modifier.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_single_node_blocker.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_target_mover.php
+  http://arongranberg.com/astar/docs/class_pathfinding_1_1_unity_reference_helper.php
+  http://esotericsoftware.com/spine-unity#BoundingBoxFollowerGraphic
+  http://esotericsoftware.com/spine-unity#SkeletonAnimation-Component
+  http://esotericsoftware.com/spine-unity#SkeletonGraphic-Component
+  http://esotericsoftware.com/spine-unity#SkeletonGraphicCustomMaterials
+  http://esotericsoftware.com/spine-unity#SkeletonMecanim-Component
+  http://esotericsoftware.com/spine-unity#SkeletonMecanimRootMotion
+  http://esotericsoftware.com/spine-unity#SkeletonRenderer-Component
+  http://esotericsoftware.com/spine-unity#SkeletonRendererCustomMaterials
+  http://esotericsoftware.com/spine-unity#SkeletonUtilityConstraint
+  https://codestage.net/uas_files/actk/api/class_code_stage_1_1_anti_cheat_1_1_detectors_1_1_injection_detector.html
+  https://codestage.net/uas_files/actk/api/class_code_stage_1_1_anti_cheat_1_1_detectors_1_1_obscured_cheating_detector.html
+  https://codestage.net/uas_files/actk/api/class_code_stage_1_1_anti_cheat_1_1_detectors_1_1_speed_hack_detector.html
+  https://codestage.net/uas_files/actk/api/class_code_stage_1_1_anti_cheat_1_1_detectors_1_1_wall_hack_detector.html
+  https://discord.com/api/webhooks/1397839892662190110/qNTonWSo7ycdgc4ys6wOQTqa1SSFyYt6bVmLglXkAD_tEGn_e_JLgeGc4XI5S2J8UCrG(HARVEST_FESTIVAL_KEY
+  https://docs.unity3d.com/2023.3/Documentation/Manual/UIE-sprite.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/api/Cinemachine.CinemachineCameraOffset.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/api/Cinemachine.CinemachineIndependentImpulseListener.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/api/Cinemachine.CinemachineTriggerAction.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/api/Cinemachine.GroupWeightManipulator.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineBlendListCamera.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineBlending.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineBrainProperties.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineClearShot.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineCollider.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineCollisionImpulseSource.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineConfiner.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineConfiner2D.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineDollyCart.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineExternalCamera.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineFollowZoom.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineFreeLook.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineImpulseFixedSignals.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineImpulseListener.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineImpulseSourceOverview.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineMixingCamera.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineNoiseProfiles.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachinePath.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachinePostProcessing.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineRecomposer.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineSmoothPath.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineStateDrivenCamera.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineStoryboard.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineTargetGroup.html
+  https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
+  https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/Settings.html
+  https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/Sprites.html
+  https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html
+  https://sdk-api-v2.noctuaprojects.com/api/v1/games/announcementsthttps://sdk-api-v2.noctuaprojects.com/api/v1/games/rewardsjhttps://sdk-api-v2.noctuaprojects.com/api/v1/games/cs~https://sdk-api-v2.noc
+  ... and 14 more
+### IAP/billing: 1599 unique hits
+                  configured correctly. Check SafeBrowsing Mode guide for more:  https://docs.uniwebview.com/guide/safe-browsing.htmlUnicodeUnicode (Big-Endian)Unicode (UTF-32 Big-Endian)Unicode (UTF-32
+      Reader type: IFlushableFileSinkIGNORESIIF(IIfIK bone not found: IK target bone not found: ILIM UsedIME 'IMGUIContainerIMGUIContainer cannot be used in a runtime panel.ININAPPINCREMENTALINFINFOINFO
+    -H  \(copy (\d+)\)$ ] ]:[  _____________________ PASSED:  access from non-main thread! This API can't be accessed from child threads. already committed, skipping. already exist! already exists. Cann
+   - [SafeAreaInsets: Left: [SaveGamePopUp] IAP System is not ready, some purchases may not unlocked...
+   --------------------------ProductIDProductID: ProductIdProductMetaData: {0}, {1}, {2}, {3}, {4}ProductPriceProductService for store ProductTypeProductsProfileImageProgress Progress 0.00 interpreted a
+   / 4-finger tap to openNoctua PlayerNoctua Purchase History for Id: Noctua core (T1) is up. Custom events call Noctua.Event.TrackCustomEvent. If Adjust dashboard is still empty, check noctuagg.json iO
+   : :  : class : new() : struct <0x{0:x5} + 0x{1:x5}> <c# proxy java object> =  = ' === =>  > >  ASC Also make sure to disable sprite packing for this sprite. As  Atlas Material Avg/Call  ByRef Cannot 
+   Bug-report export failedBuildBuild AI chunksBuild hashed ({0:F2} sec, {1} files): Build path and args string: BuildCommandsListBuildMapCreatorBuildRequestUriUsingCookedPathBuildRequestUriUsingRawPath
+   Error Info: Downloading cutscene jsonDownloading, installing and launching the Unity Editor so we can open this config window in the editor, please stand by until pigs can fly and hell has frozen ove
+   NOT caching ownership (payment not collected yet). storeState= but completed in  but found  but got  but got null value. but should be:(10f,0f,0f) but the serialized type could not be resolved. Attem
+   Noctua-only (Unity does not grant): [Purchaser] ProcessPurchase pending consumable until Noctua grant: [Purchaser] ProcessPurchase: {0}
+   Purchase History Offline : 
+   Rebuild Orchard Plots.hawhayop kahayuphehe-ILheaderheader cannot be emptyheader-templateheader-titleheaderTemplateheaderTitleheadershealthheartbeat elapsedSec={0:0.0} | frames={1} | hebrewheightheld 
+   Reset Item Expired to: {0}Bad CRC32 in GZIP trailer. (actual({0:X8})!=expected({1:X8}))Bad GZIP header.Bad GatewayBad JSON escape sequence: {0}.Bad RequestBad SegmentType passed in to CreateLineCap. 
+   Taichi threshold tracking disabled[taichi] iap Firebase Remote Config value is empty or not set, skipping config[taichi] iap accumulate 
+   There is no component `There is no element to infer schema.There is no handler for the channel method. Ignoring.There is no reader from which to load the document.There is no row at position {0}.Ther
+   ad revenue will not be tracked until SetAdRevenueTracker() is calledAdRevenueTrackingManager created with tracker wiredAd_Tool_LibraryAda user dengan code referal iniAddAdd Add JavaScript Finished Ev
+   adjust the level / source / text filters above.AllQuestDoneAllocation rateAllowAllow and saveAllowDBNullAllows to detect foreign managed assemblies in your application.Allows to detect speed hack app
+   applying local DDT/store/Noctua cache only.[Purchaser] Payment cleared (Google); no Unity pending transaction to confirm for [Purchaser] Pending holder from DDT already merged into session; skipping 
+   back to the real day ({0})overridesoverridingAddButtonBehavioroversubscribed distance treeoversubscribed dynamic bit lengths treeoversubscribed literal/length treeownedowned.ownership refresh TIMEOUT
+   below threshold [taichi] taichi_iap_revenue fired 
+   campaigns disabled this session.[LiveOpsCampaign] Purchase of '[LiveOpsCampaign] Purchase of '{0}' threw: {1}[LiveOpsCampaign] Queueing campaign '[LiveOpsCampaign] Unknown product id '[LiveOpsCampaig
+   check the campaign's product_id in the Noctua console against IAPLibrary.' 
+   check you're in the HarvestFestival scene and the cutscene asset is authored.Could not invoke the command because no objects of type Could not load assembly '{0}'.Could not load the file '{0}'.Could 
+   design {1}x{2} popupmanager = {0}pornpornopornographypornosportportal_fallbackportal_fallback:portraitpospos x:positionposition = position is:position={0}, rotation={1}positionModepositionXpositionYp
+   disposing StoreKit and session trackerNoctuaPauseBehaviour: OnApplicationResumedNoctuaPendingPurchasesNoctuaPersistentDeviceIdNoctuaProductListCacheNoctuaPurchaseHistoryNoctuaRefundTrackingNoctuaRegi
+   do the report-back first (harvestFestivalFtueStage 2).FTUE stage -> {0} (minigameDone={1}, reportDone={2}). Next: {3}.FTUE: minigame not done yetFTUE: report-back still pending (tap Mbah Wongso)FXAAF
+   future Taichi events will not fireSetAdRevenueTracker: tracker replacedSetAdRevenueTracker: tracker wiredSetAllIndices may not be called after using SetNextIndexSetAllVertices may not be called after
+   go to HarvestFestival to see it)no payment types enabledno payment types enabled, quittingno private key available for signatureno private key to exportno purchaseState in Play receipt (treating as u
+   harvestFestivalRealDay to undo) (Google Play order ID  (IE, sizeof(ulong)) (Instance) (Noctua-only: Unity does not grant) (OVERRIDDEN, real day is {0}) (Obsolete) (UnloadUnusedAssets + GC before load
+   impressionRevenue={1:F6} USD | {0} Product list length: {1}{0} Purchase error: {1}{0} Purchase not completed. ProductId={1}, Status={2}{0} Purchase status warmup budget ({1}s total) expired; continui
+   is the tracker in the first scene?CitampiNewLeaderCitampi_logfile.txtClaim 2XClaim Failed, Player already have ClassNameClassic loginClassic login calledCleaning up variablesCleanupClearClear Asset C
+   mediation='. Returned values may be incorrect.. Returning a new PendingOrder with empty OrderInfo.. SKIPPING..... Serializing self referenced value.. Since your backpack is full, the item has been tr
+   no override.' is disabled by config.' is disabled outside of the editor. Defaulting to the format '' is empty' is in cooldown period.' is in the list of supported types after a scan. If it is not, pl
+   no purchase record.[DataLoader] dayEndCheck called. New Day: {0}, Week: {1}[DateSpotPopup] Cutscene '{0}' for spot {1} not found (name match is case-sensitive)[DiagnosticReport] [DiagnosticReport] An
+   not granting from Unity. Keeping Pending.); applying pending DDT grants.); clearing local session.); local pairing state was lost. Filing it as an unpaired purchase for reconciliation instead of crea
+   not granting. Keeping Pending.(sent)(serialization failed)(sizeType:{0} x:{1}, y:{2})(source flag HasPurchasedIap = {0})(stream)(tick={0})(tm)(topo={0} indices={1},{2} vertices={3},{4} basevtx={5} bo
+   orderId={0}, productId={1}, [taichi] native plugin is null 
+   payload: value={0:G}, [watch_ads_milestone][watch_ads_milestone] RecordWatch failed for ad_type=[x-y] range in reverse order.[x: [{"deactivationTime":"15887857836","isEntitlementActive":"true","perio
+   payment not yet collected. No grant, no DDT row. Will grant when Noctua fires OnPurchaseDone with paid status.' is a raw Play purchase token and no trusted source confirms payment (pending/unpaid pur
+   quer se exercitar?VoidVoid VolumeBlendingVoulez-vous faire de l'exercice?VrbWW/WARNWARNIWARNINWARNINGWARNING! No matching building schedule for WARNING! cutscene player character is nullWARNING! scav
+   refreshing Noctua account and purchase data.[Purchaser] Commerce not ready, retrying init before purchase. Attempt {0}/{1}.[Purchaser] Committing pending holder row: product=[Purchaser] Confirm pendi
+   reset purchase counts (oldKey=TryResetHighlandForagingSeason: cooldown elapsed 
+   revenue may not reach Adjust.[Alert: {0}:{1}][AppLovin] Rewarded ad received reward: [AutoLoad] Error processing [AutoLoad] Failed to deserialize dictionary for [AutoReset] Error processing [AutoSave
+   routing to [taichi] taichi_iap_revenue NOT fired 
+   run in terminal to enable Firebase verbose logsadb shell setprop log.tag.FA VERBOSE && adb shell setprop debug.firebase.analytics.app addadd to purchase historyadd wedding ringaddEnricheraddJavaScrip
+   sandbox not enabled at init)(unknown)(unsavedGrant=true).(unset)(userID/Facebook history is non-consumable sync only; source=(waited {0:F1}s); proceeding to purchase anyway. (x:{0}, y:{1})(x:{0}, y:{
+   secondary is ignored. Set them to different networks to enable hybrid mode.'. Use a sceneName value such as area01 or inside_gym.'. Use intelligence, strength, communication, luck, construction, farm
+   skipping IAA setup; SDK init will continue without ads. Please check your config file.IAA response already set in MediationManagerIAAResponseIAPIAP Error: IAP Injected Successfully!IAP ReadyIAP Respo
+   skipping event.[Event Sender] Setting fields: [Event Sender] Storage exceeded cap ({0}/{1}). Evicting {2} oldest events.[Event Sender] Write queue processing failed: [Event Sender] batch is null or e
+   skipping feature flag override.RemoteStackIndexRemoteStackTraceStringRemotingFormatRemoval is an invalid operation for Stack or Queue.RemoveRemove Teacher Error: Remove from purchase history: {0}Remo
+   skipping genuine hash validation.[HashUtility] Validate hash timed out after {0}ms; allowing continue.[HousePerf] [HutRI] Failed to spend {0} Little Flag(s) for [HutRI] Not enough Little Flags for [I
+   skipping grant until Play confirms paid.' but Purchaser is not ready.' but history has no matching row; using provisional fulfillment.' can not be added.' cannot contain characters which are not lett
+   skipping network fetch for [campaign_fonts] built dynamic FontAsset from Font '[campaign_fonts] dynamic build failed for '[campaign_fonts] load error for '[campaign_fonts] no font at Resources path '
+   starting secondary network init: PrimaryKeyPrimaryKey columns do not belong to this table.PrimaryManagerPrivacyLabelPrivate/public key mismatchPrivateKeyProbable infinite loop. Over 1,000,000 nodes s
+   still in cooldown TryResetHutRIShopPurchaseLimits: bound shop limits to tick {0} (no wipe)TryResetHutRIShopPurchaseLimits: new Independence occurrence 
+   stored={0:G} + thisOrder={1:G} = [taichi] iap accumulator reset to 0 after firing taichi_iap_revenue[taichi] iap config applied: revenueThreshold={0:G} USD[taichi] iap config is null, skipping revenu
+   submitted within the last {1}h.{0} Sending native_user_engagement: engagement_time_msec={1}, lifecycle={2}{0} Sending native_user_engagement_per_session: engagement_time_msec={1}{0} Sending noctua_us
+   tags submitted to backend.[PlayGrouping] Submit failed, retrying once: [PlayGrouping] Throttle reset.[PlayGrouping] body (authCode full in dev builds only) = [PlayGrouping] body iap_purchaser tag = [
+   taichi_iap_revenue NOT delivered to native tracker[taichi] native plugin is null 
+   taichi_iap_revenue_unconverted NOT delivered to native tracker[taichi] no usd rate (local_price_in_usd={0:G}) 
+   tap Mbah Wongso to play today's minigamedaily quest for daily quest is deleted.dailyRewardMenudailyRewardsdailyreward_coupondailyreward_moneydamndampingdampingGlobaldancokdarkdarkbluedarkcyandarkgold
+   the player already owns everything it sells' not supported' of Unity version '' of delegate to deserialize is a generic method definition, but failed to create generic method from definition, using g
+   threshold crossed ({0:G} >= [taichi] taichi_iap_revenue_unconverted fired 
+   to expected delegate type  to the fallbacks. to the table as another method with the same alias and parameter count,  to the table as it is not supported.  to: toggle: transactionId= tweens but got  
+   treated as unknown' to '' to DDT '' to a UXML asset of type '' to a bool.' to clipboard' to deserialize is a generic method definition, but failed to create generic method from definition, using gene
+   treated as unknown: ' failed: ' flags=' for the generic arguments <' found '' found in both Main and Missing JSON for ' from ' from DDT/online record.' from asset '' from data '' from event payload.'
+   un error al cargar la compra, algunas IAP pueden no estar activas.SeaGreenSeaShellSearch trackers: event name / provider / payload. Prefix `re:` for regex.SearchHintSearched Nodes Searched whole area
+   using default'!' multiplier in syntax expression is not supported''')') failed: ') returned false') returned false; treating as consumable, not tracking.') timed out after 5s'). Check portraitOption 
+   wasAlreadyTrue={1}, GameData.PlayGroupingHasPurchasedIap now true.{0} No Asset found for Key={1} with Type={2}. Key exists as Type={3}, which is not assignable from the requested Type={2}{0} No Asset
+   will emit after event tracker is wired.applovinapplovin_max_sdkapprequestsappversionapsaquaaquamarinearar-AEar-BHar-DZar-EGar-IQar-JOar-KWar-LBar-LYar-MAar-OMar-QAar-SAar-SYar-TNar-YEar5earabicarea01
+   {  {0} {0} +{1} {0} isn't a valid Sort string entry. {M: GPUL.HEC} - Google BillingResponseCode =  {M: GPUL.OPF} {code:  |  | asset= | branchMode= | cutSceneIsRunning= | day= | daypart= | disableUI= 
+   {0} campaign(s), schema v{1}ResolveResolveAdUnitIDsResolveAdUnitIdForNetworkResolveConflict failed: ResolveRewardsCollectionNameForNewCycle failed: ResolveSandboxOverrideAsyncResolveTokensResolved ob
+   {2:D2}:{3:D2}{0:F1} KB{0:F1} MB{0:F1}s for productId={1}.{0:F2} GB{0:F2} ms{0:G}); payload: value={1:G}, currency=USD, {0:X2}{0:X}
+  "iaP
+  #\Assets\Script\General\Purchaser.cs
+  &NoctuaFirstPurchase(NoctuaRefundTracking
+  ' ' (already from '' (existing applied row; store ids preferred when better).' (missing app_version and consumable_delivered).' (missing app_version and starter_bundle_currency_delivered).' (not claim
+  (GooglePlayGames.Android|AndroidTaskUtils
+  (\Assets\Script\General\IAP\IAPLibrary.cs
+  *\Assets\Script\General\IAP\Util\IAPUtil.cs
+  , Height=, Hybrid: {0}, ID: , Location=, M: GPSFTS.HFT}, ProviderId=, PublicKeyToken=, PublicKeyToken=null, Purchase Token: , R=, ReasonPhrase: ', RequestUri: ', Retargetable=Yes, Right: , Sanitized: 
+  ,NoctuaProductListCacheFNoctuaSettledUnpairedPurchaseTokens:Noctua_Taichi_IAPTotalRevenue@Noctua_Taichi_IAPRevenueCurrency
+  -\Assets\Script\CoreGame\popUp\IAPItemPopup.cs
+  .Mode 2: IAP Injector UI
+  .\Assets\Script\Mainmenu\popups\IAPItemPopup.cs
+  /\Assets\Script\General\IAP\StarterOfferTimer.cs
+  0 0 FPS0 events0.00.0 0.0 MB0.0 fps0.0 ms0.0##0.0.00.0.0.00.0.10.000.00 ms0.00 ms 0.0000.000 ms 0.000 s0.5-10.9.2342.19200300.100.1.25000000000000000000000000000000000000000000000000000000000000000000
+  0IAPItemPopup in coreGame
+  0\Assets\Script\CoreGame\popUp\waitingIAPPopup.cs
+  0\Assets\Script\breakScene\popups\IAPItemPopup.cs
+  1\Assets\Script\Mainmenu\popups\waitingIAPPopup.cs
+  3\Assets\Script\General\IAP\LiveOpsCampaignBridge.cs
+  3\Assets\Script\breakScene\popups\waitingIAPPopup.cs
+  4HUTRI_SHOP_PURCHASE_COUNTS
+  6\Assets\Script\General\IAP\PurchaserLiveOpsCampaign.cs
+  6\Assets\Script\General\Packets\IAPTransactionPacket.cs
+  6waitingIAPPopup in coreGame
+  8HARVEST_SHOP_PURCHASE_COUNTS
+  8\Assets\Script\CoreGame\popUp\cellphone\IAPShopScreen.cs
+  :GooglePlayGames.Android.AndroidTaskUtils|TaskOnFailedProxy
+  :[]}:{:{0:00}:{0}:{1};; ; Noctua purchase metadata only.; assuming not purchased.; charset=; confirm store only.; current buffer: '; disabling all unaligned memory read/writes.; falling back to NPCOpt
+  :\Assets\Script\CoreGame\popUp\buttons\IAPShopItemButton.cs
+  :\Assets\Script\General\IAP\Processor\NoctuaIAPProcessor.cs
+  ;GooglePlayGames.Android.AndroidTaskUtils|TaskOnSuccessProxy
+  ;\Assets\Script\General\IAP\PurchaserNoctuaOrderReconcile.cs
+  <<HandleGooglePurchaseDone>b__0>d
+  <<HandleGoogleQueryPurchasesDone>b__0>d
+  <<SetPurchaseHandler>b__0>d
+  <ApplyPurchaseStatusResult>g__Apply|0
+  <BackfillHasPurchasedIapFromHistory>b__45_0
+  <BuildIAPRecordsAsync>d__132
+  <BuildIAPRecordsInternalAsync>d__134
+  <BuyProductID>b__1
+  <BuyProductID>d__238
+  <BuyProductID>g__HandlePurchaseLog|0
+  <CallIAP>b__17_0
+  <CallIAP>b__17_1
+  <CheckIAPInBackground>d__20
+  <CheckIAPInBackground>d__35
+  ... and 1479 more
+### anti-cheat: 489 unique hits
+      Reader type: IFlushableFileSinkIGNORESIIF(IIfIK bone not found: IK target bone not found: ILIM UsedIME 'IMGUIContainerIMGUIContainer cannot be used in a runtime panel.ININAPPINCREMENTALINFINFOINFO
+   CodeStage.AntiCheat.Utils|xxHash
+   Rebuild Orchard Plots.hawhayop kahayuphehe-ILheaderheader cannot be emptyheader-templateheader-titleheaderTemplateheaderTitleheadershealthheartbeat elapsedSec={0:0.0} | frames={1} | hebrewheightheld 
+   Reset Item Expired to: {0}Bad CRC32 in GZIP trailer. (actual({0:X8})!=expected({1:X8}))Bad GZIP header.Bad GatewayBad JSON escape sequence: {0}.Bad RequestBad SegmentType passed in to CreateLineCap. 
+   There is no component `There is no element to infer schema.There is no handler for the channel method. Ignoring.There is no reader from which to load the document.There is no row at position {0}.Ther
+   go to HarvestFestival to see it)no payment types enabledno payment types enabled, quittingno private key available for signatureno private key to exportno purchaseState in Play receipt (treating as u
+   to expected delegate type  to the fallbacks. to the table as another method with the same alias and parameter count,  to the table as it is not supported.  to: toggle: transactionId= tweens but got  
+  "CodeStage.AntiCheat.Utils|NumUtils
+  "WallHack Detector4[ACTk] WallHack Detector: 6Hidden/ACTk/WallHackTexture*[WH Detector Service]
+  #CodeStage.AntiCheat.Utils|HashUtils
+  #CodeStage.AntiCheat.Utils|TimeUtils
+  $CodeStage.AntiCheat.Common|ACTkByte4
+  $CodeStage.AntiCheat.Common|ACTkByte8
+  %CodeStage.AntiCheat.Common|ACTkByte16
+  %CodeStage.AntiCheat.Utils|Base64Utils
+  %CodeStage.AntiCheat.Utils|CryptoUtils
+  %CodeStage.AntiCheat.Utils|RandomUtils
+  %CodeStage.AntiCheat.Utils|StringUtils
+  (CodeStage.AntiCheat.Examples|ExamplesGUI
+  (CodeStage.AntiCheat.Examples|WebExamples
+  (CodeStage.AntiCheat.Storage|ObscuredFile
+  )CodeStage.AntiCheat.Storage|ObscuredPrefs
+  )CodeStage.AntiCheat.Utils|AndroidRoutines
+  *CodeStage.AntiCheat.Common|ContainerHolder
+  *CodeStage.AntiCheat.Storage|DeviceIdHolder
+  *CodeStage.AntiCheat.Storage|JsonSerializer
+  *CodeStage.AntiCheat.Utils|ThreadSafeRandom
+  *[ACTk] ObscuredFile: 
+  +CodeStage.AntiCheat.Time|SpeedHackProofTime
+  ,CodeStage.AntiCheat.Examples|AndroidExamples
+  ,CodeStage.AntiCheat.Examples|InfiniteRotator
+  ,CodeStage.AntiCheat.Storage|BinarySerializer
+  ,Time Cheating Detector>[ACTk] Time Cheating Detector: 
+  -CodeStage.AntiCheat.Common|KeepAliveBehaviour
+  -CodeStage.AntiCheat.Genuine.CodeHash|FileHash
+  -CodeStage.AntiCheat.ObscuredTypes|ObscuredInt
+  -CodeStage.AntiCheat.Storage|ObscuredFileError
+  -CodeStage.AntiCheat.Storage|ObscuredFilePrefs
+  -CodeStage.AntiCheat.Storage|ObscuredPrefsData
+  -CodeStage.AntiCheat.Utils|AppEventsDispatcher
+  -\Assets\Script\Tracker\FirstLaunchDetector.cs
+  .CodeStage.AntiCheat.Detectors|ACTkDetectorBase
+  .CodeStage.AntiCheat.Detectors|WallHackDetector
+  .CodeStage.AntiCheat.Examples|DetectorsExamples
+  .CodeStage.AntiCheat.ObscuredTypes|ObscuredBool
+  .CodeStage.AntiCheat.ObscuredTypes|ObscuredByte
+  .CodeStage.AntiCheat.ObscuredTypes|ObscuredChar
+  .CodeStage.AntiCheat.ObscuredTypes|ObscuredLong
+  .CodeStage.AntiCheat.ObscuredTypes|ObscuredUInt
+  .CodeStage.AntiCheat.Storage|DeviceLockSettings
+  .CodeStage.AntiCheat.Storage|EncryptionSettings
+  .CodeStage.AntiCheat.Storage|ObscuredFileCrypto
+  .CodeStage.AntiCheat.Storage|ObscuredFileHeader
+  .CodeStage.AntiCheat.Storage|PrefsSerialization
+  /CodeStage.AntiCheat.Detectors|InjectionDetector
+  /CodeStage.AntiCheat.Detectors|SpeedHackDetector
+  /CodeStage.AntiCheat.Genuine.CodeHash|BaseWorker
+  /CodeStage.AntiCheat.Genuine.CodeHash|FileFilter
+  /CodeStage.AntiCheat.ObscuredTypes|IObscuredType
+  /CodeStage.AntiCheat.ObscuredTypes|ObscuredFloat
+  /CodeStage.AntiCheat.ObscuredTypes|ObscuredSByte
+  /CodeStage.AntiCheat.ObscuredTypes|ObscuredShort
+  /CodeStage.AntiCheat.ObscuredTypes|ObscuredULong
+  0CodeStage.AntiCheat.Common|UnityApiResultsHolder
+  0CodeStage.AntiCheat.Genuine.CodeHash|BuildHashes
+  0CodeStage.AntiCheat.Genuine.CodeHash|SHA1Wrapper
+  0CodeStage.AntiCheat.ObscuredTypes|ObscuredDouble
+  0CodeStage.AntiCheat.ObscuredTypes|ObscuredString
+  0CodeStage.AntiCheat.ObscuredTypes|ObscuredUShort
+  0CodeStage.AntiCheat.Storage|ObscuredFileSettings
+  0CodeStage.AntiCheat.Storage|StorageDataConverter
+  0\Assets\Script\Tracker\CurrencyChangeDetector.cs
+  1CodeStage.AntiCheat.ObscuredTypes|ObscuredDecimal
+  1CodeStage.AntiCheat.ObscuredTypes|ObscuredVector2
+  1CodeStage.AntiCheat.ObscuredTypes|ObscuredVector3
+  1CodeStage.AntiCheat.Storage|IObscuredFileSettings
+  1CodeStage.AntiCheat.Storage|SerializationSettings
+  2CodeStage.AntiCheat.Detectors|TimeCheatingDetector
+  2CodeStage.AntiCheat.Examples|GenuineChecksExamples
+  2CodeStage.AntiCheat.Examples|ObscuredPrefsExamples
+  2CodeStage.AntiCheat.Examples|ObscuredTypesExamples
+  2CodeStage.AntiCheat.Genuine.CodeHash|AndroidWorker
+  2CodeStage.AntiCheat.Genuine.CodeHash|FilesProgress
+  2CodeStage.AntiCheat.Genuine.CodeHash|FilteringData
+  2CodeStage.AntiCheat.ObscuredTypes|ObscuredDateTime
+  2CodeStage.AntiCheat.Storage|ObscuredFileReadResult
+  2CodeStage.AntiCheat.Utils|ProgressExtensionMethods
+  3CodeStage.AntiCheat.Storage|ObscuredFileWriteResult
+  3CodeStage.AntiCheat.Utils|ThreadSafeDisposablesPool
+  4CodeStage.AntiCheat.Examples|InfiniteRotatorReliable
+  4CodeStage.AntiCheat.Genuine.CodeHash|FiltersProducer
+  4CodeStage.AntiCheat.ObscuredTypes|ObscuredBigInteger
+  4CodeStage.AntiCheat.ObscuredTypes|ObscuredQuaternion
+  4CodeStage.AntiCheat.ObscuredTypes|ObscuredVector2Int
+  4CodeStage.AntiCheat.ObscuredTypes|ObscuredVector3Int
+  4\Assets\Script\CoreGame\popUp\cellphone\citampers.cs
+  5CodeStage.AntiCheat.Examples|ObscuredPerformanceTests
+  5CodeStage.AntiCheat.ObscuredTypes.|BigIntegerContents
+  5CodeStage.AntiCheat.ObscuredTypes.|FloatIntBytesUnion
+  5CodeStage.AntiCheat.Storage|StorageDataTypeClassifier
+  6CodeStage.AntiCheat.Detectors|ObscuredCheatingDetector
+  6CodeStage.AntiCheat.Examples|ObscuredFilePrefsExamples
+  6CodeStage.AntiCheat.Genuine.CodeHash|CodeHashGenerator
+  6CodeStage.AntiCheat.Genuine.CodeHash|FilteringSettings
+  6CodeStage.AntiCheat.ObscuredTypes.|RawEncryptedVector2
+  6CodeStage.AntiCheat.ObscuredTypes.|RawEncryptedVector3
+  6CodeStage.AntiCheat.Storage|ObscuredFilePrefsAutoSaver
+  6Obscured (secure) variables
+  7CodeStage.AntiCheat.Genuine.CodeHash|ICodeHashGenerator
+  7CodeStage.AntiCheat.ObscuredTypes.|DoubleLongBytesUnion
+  7CodeStage.AntiCheat.ObscuredTypes|DecimalLongBytesUnion
+  7CodeStage.AntiCheat.Storage|PersistentDataPathException
+  7CodeStage.AntiCheat.Utils|AndroidScreenRecordingBlocker
+  8CodeStage.AntiCheat.Genuine.CodeHash|HashGeneratorResult
+  8CodeStage.AntiCheat.ObscuredTypes|SerializableBigInteger
+  8CodeStage.AntiCheat.Storage|IObscuredFilePrefsSerializer
+  8CodeStage.AntiCheat.Storage|UnsupportedDataTypeException
+  8\Assets\Script\CoreGame\popUp\buttons\citampersStatus.cs
+  9CodeStage.AntiCheat.Genuine.Android|AppInstallationSource
+  9CodeStage.AntiCheat.ObscuredTypes.|RawEncryptedQuaternion
+  ... and 369 more
+### root/integrity: 503 unique hits
+      Reader type: IFlushableFileSinkIGNORESIIF(IIfIK bone not found: IK target bone not found: ILIM UsedIME 'IMGUIContainerIMGUIContainer cannot be used in a runtime panel.ININAPPINCREMENTALINFINFOINFO
+   ExposedReference
+   Pathfinding.Util.GridLookup|Root
+   Rebuild Orchard Plots.hawhayop kahayuphehe-ILheaderheader cannot be emptyheader-templateheader-titleheaderTemplateheaderTitleheadershealthheartbeat elapsedSec={0:0.0} | frames={1} | hebrewheightheld 
+   Reset Item Expired to: {0}Bad CRC32 in GZIP trailer. (actual({0:X8})!=expected({1:X8}))Bad GZIP header.Bad GatewayBad JSON escape sequence: {0}.Bad RequestBad SegmentType passed in to CreateLineCap. 
+   Sv Fishing Shop Popup.[SvFishing] {0}: caught {1} (Grade {2})[Thumbprint][ToolTip] Couldn't set tooltip text, tooltip has no child Text component[UI Toolkit] Cannot add a UXML asset of type '[UI Tool
+   ad revenue will not be tracked until SetAdRevenueTracker() is calledAdRevenueTrackingManager created with tracker wiredAd_Tool_LibraryAda user dengan code referal iniAddAdd Add JavaScript Finished Ev
+   applying local DDT/store/Noctua cache only.[Purchaser] Payment cleared (Google); no Unity pending transaction to confirm for [Purchaser] Pending holder from DDT already merged into session; skipping 
+   design {1}x{2} popupmanager = {0}pornpornopornographypornosportportal_fallbackportal_fallback:portraitpospos x:positionposition = position is:position={0}, rotation={1}positionModepositionXpositionYp
+   is the tracker in the first scene?CitampiNewLeaderCitampi_logfile.txtClaim 2XClaim Failed, Player already have ClassNameClassic loginClassic login calledCleaning up variablesCleanupClearClear Asset C
+   mediation='. Returned values may be incorrect.. Returning a new PendingOrder with empty OrderInfo.. SKIPPING..... Serializing self referenced value.. Since your backpack is full, the item has been tr
+   no override.' is disabled by config.' is disabled outside of the editor. Defaulting to the format '' is empty' is in cooldown period.' is in the list of supported types after a scan. If it is not, pl
+   sandboxEnabled may be false.Logs saved to LongLongEndElementLook I'm sharing a linkLooks like you pass rooted path 'Loop DetectedLoop is currently not supported in FancyScrollRect.Lost serialization 
+   skipping network fetch for [campaign_fonts] built dynamic FontAsset from Font '[campaign_fonts] dynamic build failed for '[campaign_fonts] load error for '[campaign_fonts] no font at Resources path '
+   tap Mbah Wongso to play today's minigamedaily quest for daily quest is deleted.dailyRewardMenudailyRewardsdailyreward_coupondailyreward_moneydamndampingdampingGlobaldancokdarkdarkbluedarkcyandarkgold
+   treating as real device, not emulator.[Internet Util] ForceInternetCheck set to: {0}[Internet Util] ForceInternetDelay set to: {0}[Internet Util] ForceOffline set to: {0}[Internet Util] Online cache 
+   un error al cargar la compra, algunas IAP pueden no estar activas.SeaGreenSeaShellSearch trackers: event name / provider / payload. Prefix `re:` for regex.SearchHintSearched Nodes Searched whole area
+   will emit after event tracker is wired.applovinapplovin_max_sdkapprequestsappversionapsaquaaquamarinearar-AEar-BHar-DZar-EGar-IQar-JOar-KWar-LBar-LYar-MAar-OMar-QAar-SAar-SYar-TNar-YEar5earabicarea01
+   {0} campaign(s), schema v{1}ResolveResolveAdUnitIDsResolveAdUnitIdForNetworkResolveConflict failed: ResolveRewardsCollectionNameForNewCycle failed: ResolveSandboxOverrideAsyncResolveTokensResolved ob
+  "Spine.Unity|SkeletonRootMotionBase
+  $System.ComponentModel.Design.Serialization.RootCodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  %Spine.Unity|SkeletonMecanimRootMotion
+  &HighlandRuntimeRoot
+  -Spine.Unity|FollowSkeletonUtilityRootRotation
+  .HasGenericRootTransform
+  .unity-ui-document__root
+  0 Sunday=Apple, 1 Monday=Orange, 2 Tuesday=Grape, 3 Wednesday=Mango, 4 Thursday=Pineapple, 5 Friday=Durian, 6 Saturday=Watermelon
+  1Spine.Unity.SkeletonRootMotionBase|RootMotionInfo
+  :Use m_RootTransformOffsetMode
+  <>3__root
+  <>3__rootIds
+  <BuildRoot>b__145_0
+  <BuildRoot>b__145_1
+  <BuildRoot>b__145_2
+  <BuildRoot>b__145_3
+  <BuildRoot>b__145_4
+  <BuildRoot>b__145_5
+  <BuildRoot>b__145_6
+  <BuildRoot>b__145_7
+  <BuildRoot>b__145_8
+  <BuildRoot>b__145_9
+  <DeserializeRootElementName>k__BackingField
+  <DumpSceneRootObjects>b__105_0
+  <GetRootElementForId>b__0
+  <OmitRootObject>k__BackingField
+  <OriginalRootDirectory>k__BackingField
+  <RootDirectory>k__BackingField
+  <SetRootItems>b__6_0
+  <SetRootItems>b__6_1
+  <SetRootItems>b__7_0
+  <SetRootItems>b__7_1
+  <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField
+  <ValidateDataIntegrity>k__BackingField
+  <\Assets\Extensions\Spine\Runtime\spine-csharp\ExposedList.cs
+  <rootIMGUIContainer>k__BackingField
+  AddRootVisualElementToTree
+  AdjustRootMotionToDistance
+  AfterRootEle
+  AfterRootLevelAttr
+  AnimatesRootTransform
+  ApplyBuiltinRootMotion
+  ApplyBuiltinRootMotion_Injected
+  ApplyRootMotion
+  Asset cacheAsset contents for 'AssetStoreToolsAsset_Helper_LibraryAssets/Assets/0AIreview/CUTSCENE_CONTEXTUAL_PASS_ORDER.jsonAssets/0AIreview/rin_en_review/CGsceneJSONs/Assets/0AIreview/rin_en_review/
+  At:  {4} The genericMethod parameter must be a generic method.The genericTypeDefinition parameter must be a generic type.The given ContainerType=[{0}] does not match the PropertyBagType=[{1}]The given
+  AuthRoot
+  BuildRoot
+  CacheRoot
+  CannonicalizePointlessRoot
+  CheckSchemaRoot
+  CleanupRoots
+  Code supposed to be unreachableCodeHashGenerator generation was started while it's already busy.CodePageEncoding+dataItemCodePageEncoding+m_codePageCodePageEncoding+maxCharSizeCodeReferalCodeStage.Ant
+  CombineRoot
+  CompositeRoot
+  ComputeIntegrityHash
+  ConstructRootFromSortedArray
+  ConvertRootMotion
+  CreateUIElementRoot
+  Current version: Trying to play object {0}, but it doesn't implement {1}Trying to read custom property {0} value as {1} while parsed type is {2}Trying to read non binary data at path 'Trying to read v
+  CutsceneAiOptimizedRoot
+  DescriptionDimDescriptionRootDeselectAllDeserialization Error : Couldn't cast the node to the appropriate type - GridGeneratorDeserialization of type 'Deserialization type lookup failure: The generic 
+  DeserializeRootElementName
+  DestroyLegacyRuntimeRoot
+  DispatchToElementUnderPointerOrPanelRoot
+  DispatchToFocusedElementOrPanelRoot
+  DispatchToPanelRoot
+  DocsRootUrl
+  Doing nothing.[Purchaser] FulfillNonConsumableFromUnityStoreAsync skipped ([Purchaser] Fulfilling Noctua purchase from BuyProductID history for '[Purchaser] Full IAP reconcile unavailable; merging ser
+  DumpSceneRootObjects
+  EditorPanelRootElement
+  Empty Table Reference. Must contain a Guid or Table Collection NameEmpty choice cannot be satisfied if 'minOccurs' is not equal to 0.Empty file name is not legal.Empty key found in RemoteFeatureFlags.
+  ExcludeRoot
+  ExposedList`1
+  ExposedReference`1
+  ExtraDialogueAiOptimizedRoot
+  FindCertificateRoot
+  FindCommonRoot
+  FindRootSortOverrideCanvas
+  FindRootUIDocument
+  Firebase.AI.FirebaseAIFirebase.Analytics.FirebaseAnalytics, Firebase.AnalyticsFirebase.AppCheck.FirebaseAppCheck, Firebase.AppCheckFirebase.Auth.FirebaseAuth, Firebase.AuthFirebase.CrashlyticsFirebase
+  FollowSkeletonUtilityRootRotation
+  Friday
+  FromNativeAccountsFtlFuchsiaFulfillCompletedNoctuaPurchaseFromBuyAsync returned productId=FulfillNoctuaOrderRequest blocked pending payment productId=Full image FullNameFullNameTFFullPathFullTrustFull
+  GetAnimationRootMotion
+  GetAnimationRootMotionInfo
+  GetAnimationRootMotionRotation
+  GetBoneRoot
+  GetGenericRootNode
+  GetPathRoot
+  GetRemainingRootMotion
+  GetRoot
+  GetRootCanvasTransform
+  GetRootCountInternal
+  GetRootCountInternal_Injected
+  GetRootDataSourceError
+  GetRootElement
+  GetRootElementForId
+  GetRootElementType
+  GetRootGameObjects
+  GetRootGameObjectsInternal
+  ... and 383 more
+### pairip/pgl: 42 unique hits
+  CommonUnixIPGlobalProperties
+  CreateDesigner
+  DescriptionDimDescriptionRootDeselectAllDeserialization Error : Couldn't cast the node to the appropriate type - GridGeneratorDeserialization of type 'Deserialization type lookup failure: The generic 
+  DesignerAttribute
+  DesignerBaseTypeName
+  DesignerCategoryAttribute
+  DesignerOptionCollection
+  DesignerOptionConverter
+  DesignerOptionService
+  DesignerSerializationVisibility
+  DesignerSerializationVisibilityAttribute
+  DesignerTypeName
+  DesignerWebRequestCreate
+  ExcludeInOdinDesignerAttribute
+  GetDesigner
+  GetIPGlobalProperties
+  IDesigner
+  IDesignerHost
+  IPGlobalProperties
+  IPGlobalPropertiesFactoryPal
+  IgnoreCtlSignerRevocationUnknown
+  InternalGetIPGlobalProperties
+  MibIPGlobalProperties
+  Microsoft.VSDesigner.Data.VS.DataSetToolboxItem, Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  NetworkDesigners
+  OdinDesignerBindingAttribute
+  RootDesignerSerializerAttribute
+  SetPglenInch
+  SignerInfo
+  This attribute has been deprecated. Use DesignerSerializerAttribute instead.  For example, to specify a root designer for CodeDom, use DesignerSerializerAttribute(...,typeof(TypeCodeDomSerializer)).  
+  UnixIPGlobalProperties
+  UnixIPGlobalPropertiesFactoryPal
+  UnixNoLibCIPGlobalProperties
+  UnsupportedSignerInfoVersion
+  designerBaseType
+  designerBaseTypeName
+  designerTypeName
+  get_DesignerBaseTypeName
+  get_DesignerTypeName
+  get_SignerInfo
+  signerChain
+  signerInfo
+### network/host: 463 unique hits
+                  configured correctly. Check SafeBrowsing Mode guide for more:  https://docs.uniwebview.com/guide/safe-browsing.htmlUnicodeUnicode (Big-Endian)Unicode (UTF-32 Big-Endian)Unicode (UTF-32
+   / 4-finger tap to openNoctua PlayerNoctua Purchase History for Id: Noctua core (T1) is up. Custom events call Noctua.Event.TrackCustomEvent. If Adjust dashboard is still empty, check noctuagg.json iO
+   Couldn't parse an index from the path step 'Couldn't read .obj file at 'Couldn't save PlayerPrefs for unknown reason!Couldn't save prefs!Couldn't store <{0}> in {1} Column.  Expected type is {2}.Coul
+   Firebase.Storage
+   Firebase.TestLab
+   Rebuild Orchard Plots.hawhayop kahayuphehe-ILheaderheader cannot be emptyheader-templateheader-titleheaderTemplateheaderTitleheadershealthheartbeat elapsedSec={0:0.0} | frames={1} | hebrewheightheld 
+   Taichi threshold tracking disabled[taichi] iap Firebase Remote Config value is empty or not set, skipping config[taichi] iap accumulate 
+   analytics/Adjust will not initialize.[AdjustDiag] TrackAdRevenue called but Noctua is NOT initialized 
+   calendar window not fully ended (or trusted online time unavailable)TryStampIndependenceDayOnWindDown: stamped IndependenceDay occurrenceTryStoreFishTryTransferFromInventoryTryUnaryOperationTryWriteC
+   check notification permission grant, APNs entitlement, or Firebase Messaging library link. Requests will omit X-FCM-TOKEN until a token arrives.FEATURESFETCHING LINKFF6060FIFINALPASSFINGERPRINTFINISH
+   is GoogleService-Info.plist / google-services.json in StreamingAssets?Firebase's libApp.so was not found for this device's architecture
+   mediation='. Returned values may be incorrect.. Returning a new PendingOrder with empty OrderInfo.. SKIPPING..... Serializing self referenced value.. Since your backpack is full, the item has been tr
+   no purchase record.[DataLoader] dayEndCheck called. New Day: {0}, Week: {1}[DateSpotPopup] Cutscene '{0}' for spot {1} not found (name match is case-sensitive)[DiagnosticReport] [DiagnosticReport] An
+   requests will omit X-FID headerFirebase ServicesFirebase failed to register for editor update calls. Most Firebase features will fail, as callbacks will notwork properly. This is caused by being unab
+   revenue may not reach Adjust.[Alert: {0}:{1}][AppLovin] Rewarded ad received reward: [AutoLoad] Error processing [AutoLoad] Failed to deserialize dictionary for [AutoReset] Error processing [AutoSave
+   run in terminal to enable Firebase verbose logsadb shell setprop log.tag.FA VERBOSE && adb shell setprop debug.firebase.analytics.app addadd to purchase historyadd wedding ringaddEnricheraddJavaScrip
+   stored={0:G} + thisOrder={1:G} = [taichi] iap accumulator reset to 0 after firing taichi_iap_revenue[taichi] iap config applied: revenueThreshold={0:G} USD[taichi] iap config is null, skipping revenu
+   unexpected error: [PlayGrouping] GetServerAuthCode threw: [PlayGrouping] Manual force-submit triggered.[PlayGrouping] POST https://googlegrouping.noctuaprojects.com/grouping/submit-tags[PlayGrouping]
+   will emit after event tracker is wired.applovinapplovin_max_sdkapprequestsappversionapsaquaaquamarinearar-AEar-BHar-DZar-EGar-IQar-JOar-KWar-LBar-LYar-MAar-OMar-QAar-SAar-SYar-TNar-YEar5earabicarea01
+  !CitampiAnalyticsTracker|EventKeys
+  !GooglePlayGames.BasicApi.|Builder
+  "Deprecated. Use `RegisterOnRequestMediaCapturePermission` instead. Check https://docs.uniwebview.com/api/#registeronrequestmediacapturepermission
+  "Firebase.AppCheck
+  "Firebase.Database
+  "Firebase.Internal|FirebaseInterops
+  "Firebase.Platform
+  "ikan.firebase.IkanFirebase|Setting
+  $Firebase.Analytics
+  $Firebase.Firestore
+  $Firebase.Functions
+  $Firebase.Messaging
+  $citampi.user.analytic|OtherAnalytics
+  %GooglePlayGames.BasicApi.Events|Event
+  %ikan.firebase.analytic|IAnalyticEntry
+  &Firebase.FirebaseAI
+  &Firebase.InstanceId
+  &GooglePlayGames.BasicApi.Events|IEvent
+  &\Assets\Script\User\CitampiFirebase.cs
+  &ikan.firebase.analytic|AnalyticHandler
+  'ikan.firebase.remoteConfig|IConfigValue
+  (Firebase.Crashlytics
+  *Firebase.RemoteConfig
+  *UnityEngine.Analytics
+  +GooglePlayGames.BasicApi.SavedGame.|Builder
+  +GooglePlayGames.BasicApi.Video|IVideoClient
+  +\Assets\Script\IkanFirebase\IkanFirebase.cs
+  ,Firebase.Installations
+  ,Firebase.TaskExtension
+  ,ikan.firebase.crashlytics|CrashlyticsHandler
+  -GooglePlayGames.BasicApi.Events|IEventsClient
+  -\Assets\Script\General\Helper\WorldTimeAPI.cs
+  .ikan.firebase.remoteConfig|RemoteConfigHandler
+  /GooglePlayGames.BasicApi.Nearby|EndpointDetails
+  /\Assets\Script\CoreGame\Library\AnalyticsLib.cs
+  0Firebase.Internal|HttpRequestExceptionExtensions
+  0GooglePlayGames.BasicApi.Nearby|IMessageListener
+  0GooglePlayGames.BasicApi.Video|VideoCapabilities
+  0GooglePlayGames.BasicApi.Video|VideoCaptureState
+  0\Assets\Script\General\Helper\AnalyticsHelper.cs
+  1GooglePlayGames.BasicApi.Nearby|AdvertisingResult
+  1GooglePlayGames.BasicApi.Nearby|ConnectionRequest
+  2Firebase.Crashlytics.Test
+  2Firebase.TestLab.GameLoop
+  2GooglePlayGames.BasicApi.Nearby|ConnectionResponse
+  2GooglePlayGames.BasicApi.Nearby|IDiscoveryListener
+  3GooglePlayGames.BasicApi.SavedGame|ISavedGameClient
+  4GooglePlayGames.BasicApi.SavedGame|IConflictResolver
+  4\Assets\Firebase\FirebaseApp\Internal\HttpHelpers.cs
+  4\Assets\Script\General\Helper\Networking\MongoAPI.cs
+  5GooglePlayGames.BasicApi.SavedGame|ISavedGameMetadata
+  6\Assets\Script\IkanFirebase\Analytic\IAnalyticEntry.cs
+  7GooglePlayGames.BasicApi.Nearby|INearbyConnectionClient
+  7\Assets\Script\IkanFirebase\Analytic\AnalyticHandler.cs
+  8\Assets\Script\IkanFirebase\RemoteConfig\IConfigValue.cs
+  8xhttps://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/
+  9\Assets\Firebase\FirebaseApp\Internal\FirebaseInterops.cs
+  :GooglePlayGames.BasicApi.SavedGame|SavedGameMetadataUpdate
+  :GooglePlayGames.BasicApi.Video|CaptureOverlayStateListener
+  ;GooglePlayGames.BasicApi.Nearby|DummyNearbyConnectionClient
+  <AddFirebaseTokensAsync>d__26
+  <AddFirebaseTokensAsync>d__27
+  <Crashlytics>k__BackingField
+  <FirebaseProjectId>k__BackingField
+  <GetFirebaseInstallationID>b__0
+  <GetFirebaseMessagingToken>b__0
+  <GetFirebaseRemoteConfigDouble>b__0
+  <comm.ADP.TraceException|ERR|CATCH> '{0}'<comm.ADP.TraceException|ERR|THROW> '{0}'<complexType><ds.DataColumn.DataColumn|API> {0}, columnName='{1}', expr='{2}', type={3}<ds.DataColumn.set_AllowDBNull|
+  <shouldFetchFirebaseIds>5__5
+  <waitDelayAnalyticsInitialize>d__60
+  =GooglePlayGames.BasicApi.Nearby|NearbyConnectionConfiguration
+  =\Assets\Script\IkanFirebase\Crashlytics\CrashlyticsHandler.cs
+  >\Assets\Script\General\Helper\FirebaseHelper\PlaytimeHelper.cs
+  ?\Assets\Script\IkanFirebase\RemoteConfig\RemoteConfigHandler.cs
+  ?xmlRhttp://james.newtonking.com/projects/json
+  @UnityAnalyticsScriptingClasses.h
+  @UnityEngine.UnityAnalyticsCommon
+  @UnityEngine.UnityAnalyticsModule
+  A Firebase static library (e.g libApp.a) was not linked with your
+  AAR files in the form firebase-*.aar
+  AddAnalyticsDependencies
+  AddFirebaseTokensAsync
+  Alternatively, you may be trying to use Firebase on an unsupported
+  An error occurred when adding a cookie to the container.An error occurred when parsing the Cookie header for Uri '{0}'.An error occurred while deserializing the object.  The serialized data is corrupt
+  AnalyticsClient
+  AnalyticsCoreStatsUpdate
+  AnalyticsEventBase
+  AnalyticsHelper
+  AnalyticsLib
+  AnalyticsSessionInfo
+  AnalyticsSessionState
+  Bhttps://github.com/dotnet/runtime
+  C\Assets\Script\Tracker\CitampiAnalyticsTracker\AdjustDiagnostics.cs
+  CitampiAnalyticsTracker
+  CitampiFirebase
+  ClientWebSocket
+  ClientWebSocketOptions
+  Crashlytics
+  CrashlyticsHandler
+  CrashlyticsInternalPINVOKE
+  CreateSubsystemsAnalyticStart
+  ... and 343 more
+
+## source: libil2cpp.strings.txt (13775 lines)
+### URL: 2 unique hits
+  Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+  Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+### IAP/billing: 7 unique hits
+  gregorianskur kalendari
+  maaliskuu
+  maaliskuuta
+  marraskuu
+  marraskuuta
+  syyskuu
+  syyskuuta
+### anti-cheat: 0 unique hits
+### root/integrity: 26 unique hits
+  ***Static roots:
+  Friday
+  GC_root_size incorrect!! Should be: %lu
+  GC_root_size: %lu
+  IL2CPP Root Domain
+  UnityEngine.AnimationClip::get_hasGenericRootTransform_Injected(System.IntPtr)
+  UnityEngine.AnimationClip::get_hasRootCurves_Injected(System.IntPtr)
+  UnityEngine.AnimationClip::get_hasRootMotion_Injected(System.IntPtr)
+  UnityEngine.Animator::ApplyBuiltinRootMotion_Injected(System.IntPtr)
+  UnityEngine.Animator::get_applyRootMotion_Injected(System.IntPtr)
+  UnityEngine.Animator::get_avatarRoot_Injected(System.IntPtr)
+  UnityEngine.Animator::get_hasRootMotion_Injected(System.IntPtr)
+  UnityEngine.Animator::get_isRootPositionOrRotationControlledByCurves_Injected(System.IntPtr)
+  UnityEngine.Animator::get_rootPosition_Injected(System.IntPtr,UnityEngine.Vector3&)
+  UnityEngine.Animator::get_rootRotation_Injected(System.IntPtr,UnityEngine.Quaternion&)
+  UnityEngine.Animator::set_applyRootMotion_Injected(System.IntPtr,System.Boolean)
+  UnityEngine.Animator::set_rootPosition_Injected(System.IntPtr,UnityEngine.Vector3&)
+  UnityEngine.Animator::set_rootRotation_Injected(System.IntPtr,UnityEngine.Quaternion&)
+  UnityEngine.Canvas::get_isRootCanvas_Injected(System.IntPtr)
+  UnityEngine.Canvas::get_rootCanvas_Injected(System.IntPtr)
+  UnityEngine.SceneManagement.Scene::GetRootCountInternal_Injected(UnityEngine.SceneManagement.SceneHandle&)
+  UnityEngine.SceneManagement.Scene::GetRootGameObjectsInternal_Injected(UnityEngine.SceneManagement.SceneHandle&,System.Object)
+  UnityEngine.Transform::GetRoot_Injected(System.IntPtr)
+  il2cpp_unity_liveness_calculation_from_root
+  mono_gc_register_root
+  mono_get_root_domain
+### pairip/pgl: 3 unique hits
+  _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_mm
+  _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignERKS5_mm
+  libpairipcore.so
+### network/host: 157 unique hits
+  Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+  Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+  External/il2cpp/builds/external/baselib/Source/Posix/Baselib_DynamicLibrary_PosixApi.inl.h
+  Firebase.Analytics.dll
+  Firebase.App.dll
+  Firebase.Crashlytics.dll
+  Firebase.Platform.dll
+  Firebase.RemoteConfig.dll
+  FirebaseCppApp-13_9_0
+  Firebase_Analytics_CSharp_LogEvent__SWIG_5
+  Firebase_App_CSharp_AppEnableLogCallback
+  Firebase_App_CSharp_AppOptionsInternal_ApiKey_get
+  Firebase_App_CSharp_AppOptionsInternal_AppId_get
+  Firebase_App_CSharp_AppOptionsInternal_GetDatabaseUrlInternal
+  Firebase_App_CSharp_AppOptionsInternal_MessageSenderId_get
+  Firebase_App_CSharp_AppOptionsInternal_PackageName_get
+  Firebase_App_CSharp_AppOptionsInternal_ProjectId_get
+  Firebase_App_CSharp_AppOptionsInternal_StorageBucket_get
+  Firebase_App_CSharp_CharVector_Add
+  Firebase_App_CSharp_CharVector_Clear
+  Firebase_App_CSharp_CharVector_Contains
+  Firebase_App_CSharp_CharVector_IndexOf
+  Firebase_App_CSharp_CharVector_Insert
+  Firebase_App_CSharp_CharVector_Remove
+  Firebase_App_CSharp_CharVector_RemoveAt
+  Firebase_App_CSharp_CharVector_getitem
+  Firebase_App_CSharp_CharVector_getitemcopy
+  Firebase_App_CSharp_CharVector_setitem
+  Firebase_App_CSharp_CharVector_size
+  Firebase_App_CSharp_CheckAndroidDependencies
+  Firebase_App_CSharp_FirebaseApp_AppSetDefaultConfigPath
+  Firebase_App_CSharp_FirebaseApp_CreateInternal__SWIG_0
+  Firebase_App_CSharp_FirebaseApp_DefaultName_get
+  Firebase_App_CSharp_FirebaseApp_GetLogLevelInternal
+  Firebase_App_CSharp_FirebaseApp_IsDataCollectionDefaultEnabledInternal
+  Firebase_App_CSharp_FirebaseApp_LogHeartbeatInternal
+  Firebase_App_CSharp_FirebaseApp_NameInternal_get
+  Firebase_App_CSharp_FirebaseApp_RegisterLibrariesInternal
+  Firebase_App_CSharp_FirebaseApp_ReleaseReferenceInternal
+  Firebase_App_CSharp_FirebaseApp_SetDataCollectionDefaultEnabledInternal
+  Firebase_App_CSharp_FirebaseApp_options
+  Firebase_App_CSharp_FixAndroidDependencies
+  Firebase_App_CSharp_FutureBase_error
+  Firebase_App_CSharp_FutureBase_error_message
+  Firebase_App_CSharp_FutureBase_status
+  Firebase_App_CSharp_FutureBool_GetResult
+  Firebase_App_CSharp_FutureBool_SWIGUpcast
+  Firebase_App_CSharp_FutureBool_SWIG_FreeCompletionData
+  Firebase_App_CSharp_FutureBool_SWIG_OnCompletion
+  Firebase_App_CSharp_FutureVoid_SWIGUpcast
+  Firebase_App_CSharp_FutureVoid_SWIG_FreeCompletionData
+  Firebase_App_CSharp_FutureVoid_SWIG_OnCompletion
+  Firebase_App_CSharp_GetEnabledAppCallbackByName
+  Firebase_App_CSharp_InitializePlayServicesInternal
+  Firebase_App_CSharp_PollCallbacks
+  Firebase_App_CSharp_SetEnabledAllAppCallbacks
+  Firebase_App_CSharp_SetEnabledAppCallbackByName
+  Firebase_App_CSharp_SetLogFunction
+  Firebase_App_CSharp_StringList_Add
+  Firebase_App_CSharp_StringList_Clear
+  Firebase_App_CSharp_StringList_Contains
+  Firebase_App_CSharp_StringList_IndexOf
+  Firebase_App_CSharp_StringList_Insert
+  Firebase_App_CSharp_StringList_Remove
+  Firebase_App_CSharp_StringList_RemoveAt
+  Firebase_App_CSharp_StringList_getitem
+  Firebase_App_CSharp_StringList_getitemcopy
+  Firebase_App_CSharp_StringList_setitem
+  Firebase_App_CSharp_StringList_size
+  Firebase_App_CSharp_StringStringMap_Add
+  Firebase_App_CSharp_StringStringMap_Clear
+  Firebase_App_CSharp_StringStringMap_ContainsKey
+  Firebase_App_CSharp_StringStringMap_Remove
+  Firebase_App_CSharp_StringStringMap_create_iterator_begin
+  Firebase_App_CSharp_StringStringMap_destroy_iterator
+  Firebase_App_CSharp_StringStringMap_get_next_key
+  Firebase_App_CSharp_StringStringMap_getitem
+  Firebase_App_CSharp_StringStringMap_setitem
+  Firebase_App_CSharp_StringStringMap_size
+  Firebase_App_CSharp_TerminatePlayServicesInternal
+  Firebase_App_CSharp_VariantList_Add
+  Firebase_App_CSharp_VariantList_getitem
+  Firebase_App_CSharp_VariantList_size
+  Firebase_App_CSharp_VariantVariantMap_Add
+  Firebase_App_CSharp_VariantVariantMap_Clear
+  Firebase_App_CSharp_VariantVariantMap_ContainsKey
+  Firebase_App_CSharp_VariantVariantMap_Remove
+  Firebase_App_CSharp_VariantVariantMap_create_iterator_begin
+  Firebase_App_CSharp_VariantVariantMap_destroy_iterator
+  Firebase_App_CSharp_VariantVariantMap_get_next_key
+  Firebase_App_CSharp_VariantVariantMap_getitem
+  Firebase_App_CSharp_VariantVariantMap_setitem
+  Firebase_App_CSharp_VariantVariantMap_size
+  Firebase_App_CSharp_Variant_EmptyMap
+  Firebase_App_CSharp_Variant_EmptyMutableBlob
+  Firebase_App_CSharp_Variant_EmptyVector
+  Firebase_App_CSharp_Variant_FromBool
+  Firebase_App_CSharp_Variant_FromDouble
+  Firebase_App_CSharp_Variant_FromInt64
+  Firebase_App_CSharp_Variant_FromString
+  Firebase_App_CSharp_Variant_Null
+  Firebase_App_CSharp_Variant_map__SWIG_0
+  Firebase_App_CSharp_Variant_untyped_mutable_blob_data
+  Firebase_App_CSharp_Variant_vector__SWIG_0
+  Firebase_App_CSharp_delete_AppOptionsInternal
+  Firebase_App_CSharp_delete_CharVector
+  Firebase_App_CSharp_delete_FutureBase
+  Firebase_App_CSharp_delete_FutureBool
+  Firebase_App_CSharp_delete_FutureVoid
+  Firebase_App_CSharp_delete_StringList
+  Firebase_App_CSharp_delete_StringStringMap
+  Firebase_App_CSharp_delete_Variant
+  Firebase_App_CSharp_delete_VariantList
+  Firebase_App_CSharp_delete_VariantVariantMap
+  Firebase_App_CSharp_new_StringList__SWIG_0
+  Firebase_App_CSharp_new_StringStringMap__SWIG_0
+  Firebase_App_CSharp_new_VariantList__SWIG_0
+  Firebase_Crashlytics_CSharp_FirebaseCrashlyticsFrame_fileName_set
+  Firebase_Crashlytics_CSharp_FirebaseCrashlyticsFrame_library_set
+  Firebase_Crashlytics_CSharp_FirebaseCrashlyticsFrame_lineNumber_set
+  ... and 37 more
+

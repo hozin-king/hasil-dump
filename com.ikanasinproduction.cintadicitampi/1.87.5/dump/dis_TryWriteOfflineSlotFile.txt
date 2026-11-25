@@ -1,0 +1,576 @@
+0x23234ac: sub      sp, sp, #0x40
+0x23234b0: stp      x30, x23, [sp, #0x10]
+0x23234b4: stp      x22, x21, [sp, #0x20]
+0x23234b8: stp      x20, x19, [sp, #0x30]
+0x23234bc: adrp     x20, #0x56ac000
+0x23234c0: mov      w22, w2
+0x23234c4: mov      x21, x1
+0x23234c8: ldrb     w8, [x20, #0x47a]
+0x23234cc: mov      w19, w0
+0x23234d0: tbnz     w8, #0, #0x2323530
+0x23234d4: adrp     x0, #0x5335000
+0x23234d8: ldr      x0, [x0, #0x10]    ; LDR ADDR 0x7658010
+0x23234dc: bl       #0x2195228
+0x23234e0: adrp     x0, #0x5339000
+0x23234e4: ldr      x0, [x0, #0x2a0]    ; LDR ADDR 0x765c2a0
+0x23234e8: bl       #0x2195228
+0x23234ec: adrp     x0, #0x5339000
+0x23234f0: ldr      x0, [x0, #0x928]    ; LDR ADDR 0x765c928
+0x23234f4: bl       #0x2195228
+0x23234f8: adrp     x0, #0x5339000
+0x23234fc: ldr      x0, [x0, #0x940]    ; LDR ADDR 0x765c940
+0x2323500: bl       #0x2195228
+0x2323504: adrp     x0, #0x5339000
+0x2323508: ldr      x0, [x0, #0x970]    ; LDR ADDR 0x765c970
+0x232350c: bl       #0x2195228
+0x2323510: adrp     x0, #0x5339000
+0x2323514: ldr      x0, [x0, #0x9f0]    ; LDR ADDR 0x765c9f0
+0x2323518: bl       #0x2195228
+0x232351c: adrp     x0, #0x5338000
+0x2323520: ldr      x0, [x0, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323524: bl       #0x2195228
+0x2323528: mov      w8, #1
+0x232352c: strb     w8, [x20, #0x47a]
+0x2323530: cmp      w19, #9
+0x2323534: b.eq     #0x2323590
+0x2323538: tbz      w22, #0, #0x2323590
+0x232353c: adrp     x20, #0x5334000
+0x2323540: add      x1, sp, #0xc
+0x2323544: ldr      x20, [x20, #0xbc8]    ; LDR ADDR 0x7657bc8
+0x2323548: str      w19, [sp, #0xc]
+0x232354c: ldr      x0, [x20, #0x48]    ; LDR ADDR 0x7657048
+0x2323550: bl       #0x2195368
+0x2323554: mov      x19, x0
+0x2323558: ldr      x0, [x20, #0x48]    ; LDR ADDR 0x7657048
+0x232355c: mov      w8, #9
+0x2323560: add      x1, sp, #8
+0x2323564: str      w8, [sp, #8]
+0x2323568: bl       #0x2195368
+0x232356c: adrp     x8, #0x5339000
+0x2323570: mov      x2, x0
+0x2323574: mov      x1, x19
+0x2323578: ldr      x8, [x8, #0x928]    ; LDR ADDR 0x765c928
+0x232357c: mov      x3, xzr
+0x2323580: ldr      x8, [x8]
+0x2323584: mov      x0, x8
+0x2323588: bl       #0x42aed28    ; CALL System.String$$Format
+0x232358c: b        #0x2323694
+0x2323590: adrp     x23, #0x5338000
+0x2323594: ldr      x23, [x23, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323598: ldr      x0, [x23]
+0x232359c: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765c0e4
+0x23235a0: cbnz     w8, #0x23235a8
+0x23235a4: bl       #0x2195360
+0x23235a8: mov      w0, w19
+0x23235ac: bl       #0x2322798    ; CALL saveHelper$$GetOfflineSlotFilePath
+0x23235b0: mov      x20, x0
+0x23235b4: tbz      w22, #0, #0x23235e0
+0x23235b8: cmp      w19, #9
+0x23235bc: b.ne     #0x2323670
+0x23235c0: cbz      x20, #0x232379c
+0x23235c4: adrp     x8, #0x5339000
+0x23235c8: mov      x0, x20
+0x23235cc: mov      x2, xzr
+0x23235d0: ldr      x8, [x8, #0x970]    ; LDR ADDR 0x765c970
+0x23235d4: ldr      x1, [x8]
+0x23235d8: bl       #0x42abd20    ; CALL System.String$$EndsWith
+0x23235dc: tbz      w0, #0, #0x2323670
+0x23235e0: ldr      x0, [x23]
+0x23235e4: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765c0e4
+0x23235e8: cbnz     w8, #0x23235f0
+0x23235ec: bl       #0x2195360
+0x23235f0: mov      x0, x21
+0x23235f4: bl       #0x2322b78    ; CALL saveHelper$$CopySaveListWithDiskKeys
+0x23235f8: adrp     x8, #0x5339000
+0x23235fc: mov      x21, x0
+0x2323600: ldr      x8, [x8, #0x2a0]    ; LDR ADDR 0x765c2a0
+0x2323604: ldr      x0, [x8]
+0x2323608: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765c0e4
+0x232360c: cbnz     w8, #0x2323614
+0x2323610: bl       #0x2195360
+0x2323614: mov      x0, x21
+0x2323618: mov      x1, xzr
+0x232361c: bl       #0x44b79f4    ; CALL Newtonsoft.Json.JsonConvert$$SerializeObject
+0x2323620: mov      x21, x0
+0x2323624: mov      x0, xzr
+0x2323628: bl       #0x42cbe30    ; CALL System.Text.Encoding$$get_UTF8
+0x232362c: cbz      x0, #0x23236d8
+0x2323630: ldr      x8, [x0]
+0x2323634: ldr      x9, [x8, #0x268]    ; LDR ADDR 0x765c268
+0x2323638: ldr      x2, [x8, #0x270]    ; LDR ADDR 0x765c270
+0x232363c: mov      x1, x21
+0x2323640: blr      x9
+0x2323644: mov      w1, #0xff
+0x2323648: mov      x2, xzr
+0x232364c: mov      x3, xzr
+0x2323650: mov      x4, xzr
+0x2323654: bl       #0x24816e4    ; CALL Ikaan.Utility.IkaanDataFormat$$Encode
+0x2323658: mov      x1, x0
+0x232365c: mov      x0, x20
+0x2323660: mov      x2, xzr
+0x2323664: bl       #0x43f222c    ; CALL System.IO.File$$WriteAllBytes
+0x2323668: mov      w0, #1
+0x232366c: b        #0x23236c4
+0x2323670: adrp     x8, #0x5339000
+0x2323674: adrp     x9, #0x5339000
+0x2323678: mov      x1, x20
+0x232367c: ldr      x8, [x8, #0x9f0]    ; LDR ADDR 0x765c9f0
+0x2323680: ldr      x9, [x9, #0x940]    ; LDR ADDR 0x765c940
+0x2323684: mov      x3, xzr
+0x2323688: ldr      x0, [x8]
+0x232368c: ldr      x2, [x9]
+0x2323690: bl       #0x42ae3c4    ; CALL System.String$$Concat
+0x2323694: adrp     x8, #0x5335000
+0x2323698: mov      x19, x0
+0x232369c: ldr      x8, [x8, #0x10]    ; LDR ADDR 0x7658010
+0x23236a0: ldr      x8, [x8]
+0x23236a4: ldr      w9, [x8, #0xe4]    ; LDR ADDR 0x76580e4
+0x23236a8: cbnz     w9, #0x23236b4
+0x23236ac: mov      x0, x8
+0x23236b0: bl       #0x2195360
+0x23236b4: mov      x0, x19
+0x23236b8: mov      x1, xzr
+0x23236bc: bl       #0x4ce8384    ; CALL UnityEngine.Debug$$LogError
+0x23236c0: mov      w0, wzr
+0x23236c4: ldp      x20, x19, [sp, #0x30]
+0x23236c8: ldp      x22, x21, [sp, #0x20]
+0x23236cc: ldp      x30, x23, [sp, #0x10]
+0x23236d0: add      sp, sp, #0x40
+0x23236d4: ret      
+0x23236d8: bl       #0x219548c
+0x23236dc: b        #0x23236f4
+0x23236e0: b        #0x23236f4
+0x23236e4: b        #0x23236f4
+0x23236e8: b        #0x23236f4
+0x23236ec: b        #0x23236f4
+0x23236f0: b        #0x23236f4
+0x23236f4: mov      x20, x0
+0x23236f8: cmp      w1, #1
+0x23236fc: b.ne     #0x23237c8
+0x2323700: mov      x0, x20
+0x2323704: bl       #0x508a230
+0x2323708: mov      x20, x0
+0x232370c: adrp     x0, #0x5334000
+0x2323710: ldr      x0, [x0, #0xcc0]    ; LDR ADDR 0x7657cc0
+0x2323714: bl       #0x219523c
+0x2323718: ldr      x8, [x20]
+0x232371c: ldr      x1, [x8]
+0x2323720: bl       #0x2195894
+0x2323724: tbz      w0, #0, #0x23237a0
+0x2323728: ldr      x20, [x20]
+0x232372c: bl       #0x508a240
+0x2323730: adrp     x8, #0x5334000
+0x2323734: add      x1, sp, #4
+0x2323738: ldr      x8, [x8, #0xbc8]    ; LDR ADDR 0x7657bc8
+0x232373c: str      w19, [sp, #4]
+0x2323740: ldr      x0, [x8, #0x48]    ; LDR ADDR 0x7657048
+0x2323744: bl       #0x2195368
+0x2323748: cbz      x20, #0x232379c
+0x232374c: ldr      x8, [x20]
+0x2323750: mov      x19, x0
+0x2323754: mov      x0, x20
+0x2323758: ldp      x9, x1, [x8, #0x188]
+0x232375c: blr      x9
+0x2323760: mov      x20, x0
+0x2323764: adrp     x0, #0x5339000
+0x2323768: ldr      x0, [x0, #0xc68]    ; LDR ADDR 0x765cc68
+0x232376c: bl       #0x219523c
+0x2323770: mov      x1, x19
+0x2323774: mov      x2, x20
+0x2323778: mov      x3, xzr
+0x232377c: bl       #0x42aed28    ; CALL System.String$$Format
+0x2323780: mov      x19, x0
+0x2323784: adrp     x0, #0x5335000
+0x2323788: ldr      x0, [x0, #0x10]    ; LDR ADDR 0x7658010
+0x232378c: bl       #0x219523c
+0x2323790: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x76580e4
+0x2323794: cbnz     w8, #0x23236b4
+0x2323798: b        #0x23236b0
+0x232379c: bl       #0x219548c
+0x23237a0: mov      w0, #8
+0x23237a4: bl       #0x508a260
+0x23237a8: ldr      x8, [x20]
+0x23237ac: str      x8, [x0]
+0x23237b0: adrp     x1, #0x5090000
+0x23237b4: add      x1, x1, #0x768    ; ADDR 0x73b3768
+0x23237b8: mov      x2, xzr
+0x23237bc: bl       #0x508a270
+0x23237c0: mov      x20, x0
+0x23237c4: bl       #0x508a240
+0x23237c8: mov      x0, x20
+0x23237cc: bl       #0x228339c
+0x23237d0: bl       #0x1ef7fa0
+0x23237d4: sub      sp, sp, #0x90
+0x23237d8: stp      x30, x27, [sp, #0x40]
+0x23237dc: stp      x26, x25, [sp, #0x50]
+0x23237e0: stp      x24, x23, [sp, #0x60]
+0x23237e4: stp      x22, x21, [sp, #0x70]
+0x23237e8: stp      x20, x19, [sp, #0x80]
+0x23237ec: adrp     x23, #0x56ac000
+0x23237f0: mov      x19, x3
+0x23237f4: mov      x20, x2
+0x23237f8: ldrb     w8, [x23, #0x47c]
+0x23237fc: mov      w22, w1
+0x2323800: mov      x21, x0
+0x2323804: tbnz     w8, #0, #0x2323858
+0x2323808: adrp     x0, #0x5339000
+0x232380c: ldr      x0, [x0, #0x2f0]    ; LDR ADDR 0x765c2f0
+0x2323810: bl       #0x2195228
+0x2323814: adrp     x0, #0x5339000
+0x2323818: ldr      x0, [x0, #0x2f8]    ; LDR ADDR 0x765c2f8
+0x232381c: bl       #0x2195228
+0x2323820: adrp     x0, #0x5339000
+0x2323824: ldr      x0, [x0, #0x300]    ; LDR ADDR 0x765c300
+0x2323828: bl       #0x2195228
+0x232382c: adrp     x0, #0x5339000
+0x2323830: ldr      x0, [x0, #0x308]    ; LDR ADDR 0x765c308
+0x2323834: bl       #0x2195228
+0x2323838: adrp     x0, #0x5339000
+0x232383c: ldr      x0, [x0, #0x360]    ; LDR ADDR 0x765c360
+0x2323840: bl       #0x2195228
+0x2323844: adrp     x0, #0x5338000
+0x2323848: ldr      x0, [x0, #0xd88]    ; LDR ADDR 0x765bd88
+0x232384c: bl       #0x2195228
+0x2323850: mov      w8, #1
+0x2323854: strb     w8, [x23, #0x47c]
+0x2323858: stp      xzr, xzr, [sp, #0x20]
+0x232385c: str      xzr, [sp, #0x30]
+0x2323860: str      xzr, [sp, #0x18]
+0x2323864: str      w22, [x20]
+0x2323868: str      xzr, [x19]
+0x232386c: cbz      x21, #0x2323988
+0x2323870: adrp     x8, #0x5339000
+0x2323874: adrp     x25, #0x5339000
+0x2323878: adrp     x26, #0x5339000
+0x232387c: ldr      x8, [x8, #0x308]    ; LDR ADDR 0x765c308
+0x2323880: adrp     x23, #0x5338000
+0x2323884: adrp     x24, #0x5339000
+0x2323888: ldr      x25, [x25, #0x2f8]    ; LDR ADDR 0x765c2f8
+0x232388c: ldr      x26, [x26, #0x360]    ; LDR ADDR 0x765c360
+0x2323890: ldr      x23, [x23, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323894: ldr      x24, [x24, #0x2f0]    ; LDR ADDR 0x765c2f0
+0x2323898: ldr      x1, [x8]
+0x232389c: mov      x8, sp
+0x23238a0: mov      x0, x21
+0x23238a4: bl       #0x4169734    ; CALL System.Collections.Generic.List<object>$$GetEnumerator
+0x23238a8: ldr      x8, [sp, #0x10]
+0x23238ac: ldr      q0, [sp]
+0x23238b0: mov      x21, xzr
+0x23238b4: str      x8, [sp, #0x30]
+0x23238b8: add      x8, sp, #0x20
+0x23238bc: str      q0, [sp, #0x20]
+0x23238c0: stp      xzr, x8, [sp]
+0x23238c4: ldr      x1, [x25]
+0x23238c8: add      x0, sp, #0x20
+0x23238cc: bl       #0x3ccc310    ; CALL System.Collections.Generic.List.Enumerator<object>$$MoveNext
+0x23238d0: tbz      w0, #0, #0x2323958
+0x23238d4: ldr      x27, [sp, #0x30]
+0x23238d8: cbz      x27, #0x23238c4
+0x23238dc: ldr      x0, [x27, #0x10]
+0x23238e0: mov      x1, xzr
+0x23238e4: bl       #0x42ad8c4    ; CALL System.String$$IsNullOrEmpty
+0x23238e8: tbnz     w0, #0, #0x23238c4
+0x23238ec: ldr      x0, [x26]
+0x23238f0: ldr      x22, [x27, #0x10]
+0x23238f4: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x76580e4
+0x23238f8: cbnz     w8, #0x2323900
+0x23238fc: bl       #0x2195360
+0x2323900: mov      x0, x22
+0x2323904: mov      x1, xzr
+0x2323908: bl       #0x24cb8b0    ; CALL SaveSystemAuto$$IsGlobalKey
+0x232390c: tbnz     w0, #0, #0x23238c4
+0x2323910: ldr      x0, [x23]
+0x2323914: ldr      x22, [x27, #0x10]
+0x2323918: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x76580e4
+0x232391c: cbnz     w8, #0x2323924
+0x2323920: bl       #0x2195360
+0x2323924: add      x1, sp, #0x18
+0x2323928: mov      x0, x22
+0x232392c: bl       #0x2315724    ; CALL saveHelper$$TryGetSlotSuffix
+0x2323930: tbz      w0, #0, #0x23238c4
+0x2323934: ldr      x0, [sp, #0x18]
+0x2323938: cbz      x21, #0x2323950
+0x232393c: mov      x1, x21
+0x2323940: mov      x2, xzr
+0x2323944: bl       #0x42ac68c    ; CALL System.String$$op_Inequality
+0x2323948: tbz      w0, #0, #0x23238c4
+0x232394c: b        #0x23239b4
+0x2323950: mov      x21, x0
+0x2323954: b        #0x23238c4
+0x2323958: ldr      x1, [x24]
+0x232395c: add      x0, sp, #0x20
+0x2323960: bl       #0x3ccc30c    ; CALL System.Collections.Generic.List.Enumerator<object>$$Dispose
+0x2323964: cbz      x21, #0x2323988
+0x2323968: ldr      x0, [x23]
+0x232396c: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x76580e4
+0x2323970: cbnz     w8, #0x2323978
+0x2323974: bl       #0x2195360
+0x2323978: mov      x0, x21
+0x232397c: mov      x1, x20
+0x2323980: bl       #0x23158b0    ; CALL saveHelper$$TryGetSlotIndexFromSuffix
+0x2323984: tbz      w0, #0, #0x23239a8
+0x2323988: mov      w0, #1
+0x232398c: ldp      x20, x19, [sp, #0x80]
+0x2323990: ldp      x22, x21, [sp, #0x70]
+0x2323994: ldp      x24, x23, [sp, #0x60]
+0x2323998: ldp      x26, x25, [sp, #0x50]
+0x232399c: ldp      x30, x27, [sp, #0x40]
+0x23239a0: add      sp, sp, #0x90
+0x23239a4: ret      
+0x23239a8: mov      w0, wzr
+0x23239ac: str      x21, [x19]
+0x23239b0: b        #0x232398c
+0x23239b4: ldr      x8, [x27, #0x10]
+0x23239b8: add      x0, sp, #0x20
+0x23239bc: str      x8, [x19]
+0x23239c0: ldr      x1, [x24]
+0x23239c4: bl       #0x3ccc30c    ; CALL System.Collections.Generic.List.Enumerator<object>$$Dispose
+0x23239c8: mov      w0, wzr
+0x23239cc: b        #0x232398c
+0x23239d0: b        #0x23239e8
+0x23239d4: b        #0x23239e8
+0x23239d8: b        #0x23239e8
+0x23239dc: b        #0x23239e8
+0x23239e0: b        #0x23239e8
+0x23239e4: b        #0x23239e8
+0x23239e8: mov      x22, x0
+0x23239ec: cmp      w1, #1
+0x23239f0: b.ne     #0x2323a24
+0x23239f4: mov      x0, x22
+0x23239f8: bl       #0x508a230
+0x23239fc: ldr      x22, [x0]
+0x2323a00: str      x22, [sp]
+0x2323a04: bl       #0x508a240
+0x2323a08: ldr      x0, [sp, #8]
+0x2323a0c: ldr      x1, [x24]
+0x2323a10: bl       #0x3ccc30c    ; CALL System.Collections.Generic.List.Enumerator<object>$$Dispose
+0x2323a14: cbz      x22, #0x2323964
+0x2323a18: mov      x0, x22
+0x2323a1c: bl       #0x2195484
+0x2323a20: mov      x22, x0
+0x2323a24: mov      x0, sp
+0x2323a28: bl       #0x1efc978
+0x2323a2c: mov      x0, x22
+0x2323a30: bl       #0x228339c
+0x2323a34: bl       #0x1ef7fa0
+0x2323a38: sub      sp, sp, #0x70
+0x2323a3c: str      x30, [sp, #0x50]
+0x2323a40: stp      x20, x19, [sp, #0x60]
+0x2323a44: adrp     x20, #0x56ac000
+0x2323a48: adrp     x19, #0x5338000
+0x2323a4c: ldrb     w8, [x20, #0x47e]
+0x2323a50: ldr      x19, [x19, #0xad8]    ; LDR ADDR 0x765bad8
+0x2323a54: tbnz     w8, #0, #0x2323a78
+0x2323a58: adrp     x0, #0x5339000
+0x2323a5c: ldr      x0, [x0, #0xc70]    ; LDR ADDR 0x765cc70
+0x2323a60: bl       #0x2195228
+0x2323a64: adrp     x0, #0x5338000
+0x2323a68: ldr      x0, [x0, #0xad8]    ; LDR ADDR 0x765bad8
+0x2323a6c: bl       #0x2195228
+0x2323a70: mov      w8, #1
+0x2323a74: strb     w8, [x20, #0x47e]
+0x2323a78: movi     v0.2d, #0000000000000000
+0x2323a7c: ldr      x0, [x19]
+0x2323a80: str      xzr, [sp, #0x40]
+0x2323a84: adrp     x19, #0x5339000
+0x2323a88: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323a8c: ldr      x19, [x19, #0xc70]    ; LDR ADDR 0x765cc70
+0x2323a90: stp      q0, q0, [sp, #0x20]
+0x2323a94: cbnz     w8, #0x2323a9c
+0x2323a98: bl       #0x2195360
+0x2323a9c: add      x8, sp, #8
+0x2323aa0: mov      x0, xzr
+0x2323aa4: bl       #0x435ccd8    ; CALL System.Runtime.CompilerServices.AsyncTaskMethodBuilder$$Create
+0x2323aa8: ldur     q0, [sp, #8]
+0x2323aac: ldr      x8, [sp, #0x18]
+0x2323ab0: mov      w9, #-1
+0x2323ab4: ldr      x2, [x19]
+0x2323ab8: add      x19, sp, #0x20
+0x2323abc: add      x1, sp, #0x20
+0x2323ac0: orr      x0, x19, #8
+0x2323ac4: stur     q0, [sp, #0x28]
+0x2323ac8: str      x8, [sp, #0x38]
+0x2323acc: str      w9, [sp, #0x20]
+0x2323ad0: bl       #0x2e0a8d0    ; CALL System.Runtime.CompilerServices.AsyncTaskMethodBuilder$$Start<saveHelper.<WaitUntilNoSavingDataInProgress>d__135>
+0x2323ad4: orr      x0, x19, #8
+0x2323ad8: mov      x1, xzr
+0x2323adc: bl       #0x435cd60    ; CALL System.Runtime.CompilerServices.AsyncTaskMethodBuilder$$get_Task
+0x2323ae0: ldp      x20, x19, [sp, #0x60]
+0x2323ae4: ldr      x30, [sp, #0x50]
+0x2323ae8: add      sp, sp, #0x70
+0x2323aec: ret      
+0x2323af0: str      x30, [sp, #-0x30]!
+0x2323af4: stp      x22, x21, [sp, #0x10]
+0x2323af8: stp      x20, x19, [sp, #0x20]
+0x2323afc: adrp     x19, #0x56ac000
+0x2323b00: ldrb     w8, [x19, #0x480]
+0x2323b04: tbnz     w8, #0, #0x2323b28
+0x2323b08: adrp     x0, #0x5338000
+0x2323b0c: ldr      x0, [x0, #0x7d0]    ; LDR ADDR 0x765b7d0
+0x2323b10: bl       #0x2195228
+0x2323b14: adrp     x0, #0x5338000
+0x2323b18: ldr      x0, [x0, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323b1c: bl       #0x2195228
+0x2323b20: mov      w8, #1
+0x2323b24: strb     w8, [x19, #0x480]
+0x2323b28: adrp     x21, #0x5338000
+0x2323b2c: adrp     x22, #0x5338000
+0x2323b30: mov      w19, wzr
+0x2323b34: ldr      x21, [x21, #0x7d0]    ; LDR ADDR 0x765b7d0
+0x2323b38: ldr      x22, [x22, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323b3c: mov      w20, #1
+0x2323b40: ldr      x0, [x21]
+0x2323b44: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323b48: cbnz     w8, #0x2323b54
+0x2323b4c: bl       #0x2195360
+0x2323b50: ldr      x0, [x21]
+0x2323b54: ldr      x8, [x0, #0xb8]    ; LDR ADDR 0x765b0b8
+0x2323b58: ldr      w8, [x8, #0x10d8]    ; LDR ADDR 0x765d0d8
+0x2323b5c: cmp      w19, w8
+0x2323b60: b.ge     #0x2323b8c
+0x2323b64: ldr      x0, [x22]
+0x2323b68: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323b6c: cbnz     w8, #0x2323b74
+0x2323b70: bl       #0x2195360
+0x2323b74: mov      w0, w19
+0x2323b78: mov      w1, #1
+0x2323b7c: bl       #0x2323bf0    ; CALL saveHelper$$isSafeslotDataExist
+0x2323b80: add      w19, w19, #1
+0x2323b84: tbz      w0, #0, #0x2323b40
+0x2323b88: b        #0x2323bdc
+0x2323b8c: mov      w19, wzr
+0x2323b90: ldr      x0, [x21]
+0x2323b94: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323b98: cbnz     w8, #0x2323ba4
+0x2323b9c: bl       #0x2195360
+0x2323ba0: ldr      x0, [x21]
+0x2323ba4: ldr      x8, [x0, #0xb8]    ; LDR ADDR 0x765b0b8
+0x2323ba8: ldr      w8, [x8, #0x10dc]    ; LDR ADDR 0x765d0dc
+0x2323bac: cmp      w19, w8
+0x2323bb0: cset     w20, lt
+0x2323bb4: b.ge     #0x2323bdc
+0x2323bb8: ldr      x0, [x22]
+0x2323bbc: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323bc0: cbnz     w8, #0x2323bc8
+0x2323bc4: bl       #0x2195360
+0x2323bc8: mov      w0, w19
+0x2323bcc: mov      w1, wzr
+0x2323bd0: bl       #0x2323bf0    ; CALL saveHelper$$isSafeslotDataExist
+0x2323bd4: add      w19, w19, #1
+0x2323bd8: tbz      w0, #0, #0x2323b90
+0x2323bdc: mov      w0, w20
+0x2323be0: ldp      x20, x19, [sp, #0x20]
+0x2323be4: ldp      x22, x21, [sp, #0x10]
+0x2323be8: ldr      x30, [sp], #0x30
+0x2323bec: ret      
+0x2323bf0: str      x30, [sp, #-0x30]!
+0x2323bf4: stp      x22, x21, [sp, #0x10]
+0x2323bf8: stp      x20, x19, [sp, #0x20]
+0x2323bfc: adrp     x22, #0x56ac000
+0x2323c00: adrp     x21, #0x5338000
+0x2323c04: mov      w19, w1
+0x2323c08: ldrb     w8, [x22, #0x482]
+0x2323c0c: ldr      x21, [x21, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323c10: mov      w20, w0
+0x2323c14: tbnz     w8, #0, #0x2323c38
+0x2323c18: adrp     x0, #0x5339000
+0x2323c1c: ldr      x0, [x0, #0x188]    ; LDR ADDR 0x765c188
+0x2323c20: bl       #0x2195228
+0x2323c24: adrp     x0, #0x5338000
+0x2323c28: ldr      x0, [x0, #0xd88]    ; LDR ADDR 0x765bd88
+0x2323c2c: bl       #0x2195228
+0x2323c30: mov      w8, #1
+0x2323c34: strb     w8, [x22, #0x482]
+0x2323c38: ldr      x0, [x21]
+0x2323c3c: adrp     x21, #0x5339000
+0x2323c40: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765b0e4
+0x2323c44: ldr      x21, [x21, #0x188]    ; LDR ADDR 0x765c188
+0x2323c48: cbnz     w8, #0x2323c50
+0x2323c4c: bl       #0x2195360
+0x2323c50: mov      w0, w20
+0x2323c54: mov      w1, wzr
+0x2323c58: bl       #0x230f218    ; CALL saveHelper$$getPrefixName
+0x2323c5c: ldr      x8, [x21]
+0x2323c60: mov      x1, x0
+0x2323c64: mov      x2, xzr
+0x2323c68: mov      x0, x8
+0x2323c6c: bl       #0x42a0704    ; CALL System.String$$Concat
+0x2323c70: and      w1, w19, #1
+0x2323c74: bl       #0x2319c08    ; CALL saveHelper$$getBasicDataStringKey
+0x2323c78: mov      x1, xzr
+0x2323c7c: bl       #0x42ad8c4    ; CALL System.String$$IsNullOrEmpty
+0x2323c80: ldp      x20, x19, [sp, #0x20]
+0x2323c84: mov      w8, #1
+0x2323c88: ldp      x22, x21, [sp, #0x10]
+0x2323c8c: bic      w0, w8, w0
+0x2323c90: ldr      x30, [sp], #0x30
+0x2323c94: ret      
+0x2323c98: str      x30, [sp, #-0x30]!
+0x2323c9c: stp      x22, x21, [sp, #0x10]
+0x2323ca0: stp      x20, x19, [sp, #0x20]
+0x2323ca4: adrp     x22, #0x56ac000
+0x2323ca8: adrp     x21, #0x5334000
+0x2323cac: mov      w19, w1
+0x2323cb0: ldrb     w8, [x22, #0x481]
+0x2323cb4: ldr      x21, [x21, #0xc08]    ; LDR ADDR 0x7657c08
+0x2323cb8: mov      w20, w0
+0x2323cbc: str      w0, [sp, #0xc]
+0x2323cc0: tbnz     w8, #0, #0x2323d2c
+0x2323cc4: adrp     x0, #0x5334000
+0x2323cc8: ldr      x0, [x0, #0xc08]    ; LDR ADDR 0x7657c08
+0x2323ccc: bl       #0x2195228
+0x2323cd0: adrp     x0, #0x5334000
+0x2323cd4: ldr      x0, [x0, #0xc18]    ; LDR ADDR 0x7657c18
+0x2323cd8: bl       #0x2195228
+0x2323cdc: adrp     x0, #0x5339000
+0x2323ce0: ldr      x0, [x0, #0x5b0]    ; LDR ADDR 0x765c5b0
+0x2323ce4: bl       #0x2195228
+0x2323ce8: adrp     x0, #0x5339000
+0x2323cec: ldr      x0, [x0, #0x600]    ; LDR ADDR 0x765c600
+0x2323cf0: bl       #0x2195228
+0x2323cf4: adrp     x0, #0x5339000
+0x2323cf8: ldr      x0, [x0, #0x608]    ; LDR ADDR 0x765c608
+0x2323cfc: bl       #0x2195228
+0x2323d00: adrp     x0, #0x5334000
+0x2323d04: ldr      x0, [x0, #0xe28]    ; LDR ADDR 0x7657e28
+0x2323d08: bl       #0x2195228
+0x2323d0c: adrp     x0, #0x5339000
+0x2323d10: ldr      x0, [x0, #0x5b8]    ; LDR ADDR 0x765c5b8
+0x2323d14: bl       #0x2195228
+0x2323d18: adrp     x0, #0x5339000
+0x2323d1c: ldr      x0, [x0, #0x5c0]    ; LDR ADDR 0x765c5c0
+0x2323d20: bl       #0x2195228
+0x2323d24: mov      w8, #1
+0x2323d28: strb     w8, [x22, #0x481]
+0x2323d2c: ldr      x0, [x21]
+0x2323d30: cmn      w20, #1
+0x2323d34: ldr      w8, [x0, #0xe4]    ; LDR ADDR 0x765c0e4
+0x2323d38: b.eq     #0x2323d74
+0x2323d3c: tbz      w19, #0, #0x2323db4
+0x2323d40: cbnz     w8, #0x2323d48
+0x2323d44: bl       #0x2195360
+0x2323d48: mov      x0, xzr
+0x2323d4c: bl       #0x4cdea54    ; CALL UnityEngine.Application$$get_persistentDataPath
+0x2323d50: mov      x19, x0
+0x2323d54: add      x0, sp, #0xc
+0x2323d58: mov      x1, xzr
+0x2323d5c: bl       #0x442e3b8    ; CALL System.Int32$$ToString
+0x2323d60: adrp     x8, #0x5339000
+0x2323d64: adrp     x9, #0x5339000
+0x2323d68: ldr      x8, [x8, #0x5b0]    ; LDR ADDR 0x765c5b0
+0x2323d6c: ldr      x9, [x9, #0x5c0]    ; LDR ADDR 0x765c5c0
+0x2323d70: b        #0x2323de4
+0x2323d74: tbz      w19, #0, #0x2323e28
+0x2323d78: cbnz     w8, #0x2323d80
+0x2323d7c: bl       #0x2195360
+0x2323d80: mov      x0, xzr
+0x2323d84: bl       #0x4cdea54    ; CALL UnityEngine.Application$$get_persistentDataPath
+0x2323d88: adrp     x8, #0x5334000
+0x2323d8c: mov      x19, x0
+0x2323d90: ldr      x8, [x8, #0xc18]    ; LDR ADDR 0x7657c18
+0x2323d94: ldr      x8, [x8]
+0x2323d98: ldr      w9, [x8, #0xe4]    ; LDR ADDR 0x76570e4
+0x2323d9c: cbnz     w9, #0x2323da8
+0x2323da0: mov      x0, x8
+0x2323da4: bl       #0x2195360
+0x2323da8: adrp     x8, #0x5339000
