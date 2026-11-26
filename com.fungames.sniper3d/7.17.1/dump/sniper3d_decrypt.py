@@ -63,7 +63,7 @@ def rc4(key, data):
 
 def derive_key(userid, mask):
     """key[i] = guid[i] XOR mask[min(i, len(mask)-1)] (SaveGameKeyFromUserId)."""
-    guid = uuid.UUID(userid).bytes  # Guid.ToByteArray(): 16 bytes
+    guid = uuid.UUID(userid).bytes_le  # .NET Guid.ToByteArray(): Data1/Data2/Data3 little-endian
     return bytes(guid[i] ^ mask[min(i, len(mask) - 1)] for i in range(16))
 
 
