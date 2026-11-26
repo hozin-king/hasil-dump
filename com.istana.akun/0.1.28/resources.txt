@@ -1,0 +1,255 @@
+Package Groups (1)
+Package Group 0 id=0x7f packageCount=1 name=com.istana.akun
+  Package 0 id=0x7f name=com.istana.akun
+    type 3 configCount=2 entryCount=31
+      spec resource 0x7f040000 com.istana.akun:drawable/ic_back: flags=0x00000000
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040001
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040002
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040003
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040004
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040005
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f040006
+      spec resource 0x7f040007 com.istana.akun:drawable/ic_cart: flags=0x00000000
+      spec resource 0x7f040008 com.istana.akun:drawable/ic_instagram_glyph: flags=0x00000000
+      spec resource 0x7f040009 com.istana.akun:drawable/ic_lock: flags=0x00000000
+      spec resource 0x7f04000a com.istana.akun:drawable/ic_refresh: flags=0x00000000
+      spec resource 0x7f04000b com.istana.akun:drawable/ic_telegram: flags=0x00000000
+      spec resource 0x7f04000c com.istana.akun:drawable/ic_whatsapp: flags=0x00000000
+      spec resource 0x7f04000d com.istana.akun:drawable/logo_chatgpt: flags=0x00000000
+      spec resource 0x7f04000e com.istana.akun:drawable/logo_claude: flags=0x00000000
+      spec resource 0x7f04000f com.istana.akun:drawable/logo_cue: flags=0x00000000
+      spec resource 0x7f040010 com.istana.akun:drawable/logo_dola: flags=0x00000000
+      spec resource 0x7f040011 com.istana.akun:drawable/logo_elevenlabs: flags=0x00000000
+      spec resource 0x7f040012 com.istana.akun:drawable/logo_facebook: flags=0x00000000
+      spec resource 0x7f040013 com.istana.akun:drawable/logo_flow: flags=0x00000000
+      spec resource 0x7f040014 com.istana.akun:drawable/logo_flow_dark: flags=0x00000000
+      spec resource 0x7f040015 com.istana.akun:drawable/logo_gemini: flags=0x00000000
+      spec resource 0x7f040016 com.istana.akun:drawable/logo_gmail: flags=0x00000000
+      spec resource 0x7f040017 com.istana.akun:drawable/logo_instagram: flags=0x00000000
+      spec resource 0x7f040018 com.istana.akun:drawable/logo_mascot: flags=0x00000000
+      spec resource 0x7f040019 com.istana.akun:drawable/logo_muse: flags=0x00000000
+      spec resource 0x7f04001a com.istana.akun:drawable/logo_outlook: flags=0x00000000
+      spec resource 0x7f04001b com.istana.akun:drawable/logo_proton: flags=0x00000000
+      spec resource 0x7f04001c com.istana.akun:drawable/logo_suno: flags=0x00000000
+      spec resource 0x7f04001d com.istana.akun:drawable/logo_threads: flags=0x00000000
+      spec resource 0x7f04001e com.istana.akun:drawable/logo_youtube: flags=0x00000000
+      config (default):
+        resource 0x7f040000 com.istana.akun:drawable/ic_back: t=0x03 d=0x00000002 (s=0x0008 r=0x00)
+        resource 0x7f040007 com.istana.akun:drawable/ic_cart: t=0x03 d=0x00000001 (s=0x0008 r=0x00)
+        resource 0x7f040008 com.istana.akun:drawable/ic_instagram_glyph: t=0x03 d=0x00000004 (s=0x0008 r=0x00)
+        resource 0x7f040009 com.istana.akun:drawable/ic_lock: t=0x03 d=0x00000003 (s=0x0008 r=0x00)
+        resource 0x7f04000a com.istana.akun:drawable/ic_refresh: t=0x03 d=0x00000008 (s=0x0008 r=0x00)
+        resource 0x7f04000b com.istana.akun:drawable/ic_telegram: t=0x03 d=0x00000005 (s=0x0008 r=0x00)
+        resource 0x7f04000c com.istana.akun:drawable/ic_whatsapp: t=0x03 d=0x00000007 (s=0x0008 r=0x00)
+        resource 0x7f04000e com.istana.akun:drawable/logo_claude: t=0x03 d=0x00000006 (s=0x0008 r=0x00)
+        resource 0x7f04001d com.istana.akun:drawable/logo_threads: t=0x03 d=0x0000000a (s=0x0008 r=0x00)
+        resource 0x7f04001e com.istana.akun:drawable/logo_youtube: t=0x03 d=0x00000009 (s=0x0008 r=0x00)
+      config xxxhdpi:
+        resource 0x7f04000d com.istana.akun:drawable/logo_chatgpt: t=0x03 d=0x0000001e (s=0x0008 r=0x00)
+        resource 0x7f04000f com.istana.akun:drawable/logo_cue: t=0x03 d=0x00000019 (s=0x0008 r=0x00)
+        resource 0x7f040010 com.istana.akun:drawable/logo_dola: t=0x03 d=0x0000001d (s=0x0008 r=0x00)
+        resource 0x7f040011 com.istana.akun:drawable/logo_elevenlabs: t=0x03 d=0x00000013 (s=0x0008 r=0x00)
+        resource 0x7f040012 com.istana.akun:drawable/logo_facebook: t=0x03 d=0x00000024 (s=0x0008 r=0x00)
+        resource 0x7f040013 com.istana.akun:drawable/logo_flow: t=0x03 d=0x00000015 (s=0x0008 r=0x00)
+        resource 0x7f040014 com.istana.akun:drawable/logo_flow_dark: t=0x03 d=0x00000021 (s=0x0008 r=0x00)
+        resource 0x7f040015 com.istana.akun:drawable/logo_gemini: t=0x03 d=0x00000014 (s=0x0008 r=0x00)
+        resource 0x7f040016 com.istana.akun:drawable/logo_gmail: t=0x03 d=0x00000023 (s=0x0008 r=0x00)
+        resource 0x7f040017 com.istana.akun:drawable/logo_instagram: t=0x03 d=0x00000025 (s=0x0008 r=0x00)
+        resource 0x7f040018 com.istana.akun:drawable/logo_mascot: t=0x03 d=0x0000001a (s=0x0008 r=0x00)
+        resource 0x7f040019 com.istana.akun:drawable/logo_muse: t=0x03 d=0x00000020 (s=0x0008 r=0x00)
+        resource 0x7f04001a com.istana.akun:drawable/logo_outlook: t=0x03 d=0x0000001c (s=0x0008 r=0x00)
+        resource 0x7f04001b com.istana.akun:drawable/logo_proton: t=0x03 d=0x00000016 (s=0x0008 r=0x00)
+        resource 0x7f04001c com.istana.akun:drawable/logo_suno: t=0x03 d=0x0000001b (s=0x0008 r=0x00)
+    type 4 configCount=1 entryCount=79
+      spec resource 0x7f050000 com.istana.akun:id/accessibility_action_clickable_span: flags=0x00000000
+      spec resource 0x7f050001 com.istana.akun:id/accessibility_custom_action_0: flags=0x00000000
+      spec resource 0x7f050002 com.istana.akun:id/accessibility_custom_action_1: flags=0x00000000
+      spec resource 0x7f050003 com.istana.akun:id/accessibility_custom_action_10: flags=0x00000000
+      spec resource 0x7f050004 com.istana.akun:id/accessibility_custom_action_11: flags=0x00000000
+      spec resource 0x7f050005 com.istana.akun:id/accessibility_custom_action_12: flags=0x00000000
+      spec resource 0x7f050006 com.istana.akun:id/accessibility_custom_action_13: flags=0x00000000
+      spec resource 0x7f050007 com.istana.akun:id/accessibility_custom_action_14: flags=0x00000000
+      spec resource 0x7f050008 com.istana.akun:id/accessibility_custom_action_15: flags=0x00000000
+      spec resource 0x7f050009 com.istana.akun:id/accessibility_custom_action_16: flags=0x00000000
+      spec resource 0x7f05000a com.istana.akun:id/accessibility_custom_action_17: flags=0x00000000
+      spec resource 0x7f05000b com.istana.akun:id/accessibility_custom_action_18: flags=0x00000000
+      spec resource 0x7f05000c com.istana.akun:id/accessibility_custom_action_19: flags=0x00000000
+      spec resource 0x7f05000d com.istana.akun:id/accessibility_custom_action_2: flags=0x00000000
+      spec resource 0x7f05000e com.istana.akun:id/accessibility_custom_action_20: flags=0x00000000
+      spec resource 0x7f05000f com.istana.akun:id/accessibility_custom_action_21: flags=0x00000000
+      spec resource 0x7f050010 com.istana.akun:id/accessibility_custom_action_22: flags=0x00000000
+      spec resource 0x7f050011 com.istana.akun:id/accessibility_custom_action_23: flags=0x00000000
+      spec resource 0x7f050012 com.istana.akun:id/accessibility_custom_action_24: flags=0x00000000
+      spec resource 0x7f050013 com.istana.akun:id/accessibility_custom_action_25: flags=0x00000000
+      spec resource 0x7f050014 com.istana.akun:id/accessibility_custom_action_26: flags=0x00000000
+      spec resource 0x7f050015 com.istana.akun:id/accessibility_custom_action_27: flags=0x00000000
+      spec resource 0x7f050016 com.istana.akun:id/accessibility_custom_action_28: flags=0x00000000
+      spec resource 0x7f050017 com.istana.akun:id/accessibility_custom_action_29: flags=0x00000000
+      spec resource 0x7f050018 com.istana.akun:id/accessibility_custom_action_3: flags=0x00000000
+      spec resource 0x7f050019 com.istana.akun:id/accessibility_custom_action_30: flags=0x00000000
+      spec resource 0x7f05001a com.istana.akun:id/accessibility_custom_action_31: flags=0x00000000
+      spec resource 0x7f05001b com.istana.akun:id/accessibility_custom_action_4: flags=0x00000000
+      spec resource 0x7f05001c com.istana.akun:id/accessibility_custom_action_5: flags=0x00000000
+      spec resource 0x7f05001d com.istana.akun:id/accessibility_custom_action_6: flags=0x00000000
+      spec resource 0x7f05001e com.istana.akun:id/accessibility_custom_action_7: flags=0x00000000
+      spec resource 0x7f05001f com.istana.akun:id/accessibility_custom_action_8: flags=0x00000000
+      spec resource 0x7f050020 com.istana.akun:id/accessibility_custom_action_9: flags=0x00000000
+      spec resource 0x7f050021 com.istana.akun:id/action_container: flags=0x00000000
+      spec resource 0x7f050022 com.istana.akun:id/action_divider: flags=0x00000000
+      spec resource 0x7f050023 com.istana.akun:id/action_image: flags=0x00000000
+      spec resource 0x7f050024 com.istana.akun:id/action_text: flags=0x00000000
+      spec resource 0x7f050025 com.istana.akun:id/actions: flags=0x00000000
+      spec resource 0x7f050026 com.istana.akun:id/async: flags=0x00000000
+      spec resource 0x7f050027 com.istana.akun:id/blocking: flags=0x00000000
+      spec resource 0x7f050028 com.istana.akun:id/chronometer: flags=0x00000000
+      spec resource 0x7f050029 com.istana.akun:id/dialog_button: flags=0x00000000
+      spec resource 0x7f05002a com.istana.akun:id/edit_text_id: flags=0x00000000
+      spec resource 0x7f05002b com.istana.akun:id/forever: flags=0x00000000
+      spec resource 0x7f05002c com.istana.akun:id/hide_ime_id: flags=0x00000000
+      spec resource 0x7f05002d com.istana.akun:id/icon: flags=0x00000000
+      spec resource 0x7f05002e com.istana.akun:id/icon_group: flags=0x00000000
+      spec resource 0x7f05002f com.istana.akun:id/info: flags=0x00000000
+      spec resource 0x7f050030 com.istana.akun:id/italic: flags=0x00000000
+      spec resource 0x7f050031 com.istana.akun:id/line1: flags=0x00000000
+      spec resource 0x7f050032 com.istana.akun:id/line3: flags=0x00000000
+      spec resource 0x7f050033 com.istana.akun:id/normal: flags=0x00000000
+      spec resource 0x7f050034 com.istana.akun:id/notification_background: flags=0x00000000
+      spec resource 0x7f050035 com.istana.akun:id/notification_main_column: flags=0x00000000
+      spec resource 0x7f050036 com.istana.akun:id/notification_main_column_container: flags=0x00000000
+      spec resource 0x7f050037 com.istana.akun:id/report_drawn: flags=0x00000000
+      spec resource 0x7f050038 com.istana.akun:id/right_icon: flags=0x00000000
+      spec resource 0x7f050039 com.istana.akun:id/right_side: flags=0x00000000
+      spec resource 0x7f05003a com.istana.akun:id/tag_accessibility_actions: flags=0x00000000
+      spec resource 0x7f05003b com.istana.akun:id/tag_accessibility_clickable_spans: flags=0x00000000
+      spec resource 0x7f05003c com.istana.akun:id/tag_accessibility_heading: flags=0x00000000
+      spec resource 0x7f05003d com.istana.akun:id/tag_accessibility_pane_title: flags=0x00000000
+      spec resource 0x7f05003e com.istana.akun:id/tag_on_apply_window_listener: flags=0x00000000
+      spec resource 0x7f05003f com.istana.akun:id/tag_on_receive_content_listener: flags=0x00000000
+      spec resource 0x7f050040 com.istana.akun:id/tag_on_receive_content_mime_types: flags=0x00000000
+      spec resource 0x7f050041 com.istana.akun:id/tag_screen_reader_focusable: flags=0x00000000
+      spec resource 0x7f050042 com.istana.akun:id/tag_state_description: flags=0x00000000
+      spec resource 0x7f050043 com.istana.akun:id/tag_transition_group: flags=0x00000000
+      spec resource 0x7f050044 com.istana.akun:id/tag_unhandled_key_event_manager: flags=0x00000000
+      spec resource 0x7f050045 com.istana.akun:id/tag_unhandled_key_listeners: flags=0x00000000
+      spec resource 0x7f050046 com.istana.akun:id/tag_window_insets_animation_callback: flags=0x00000000
+      spec resource 0x7f050047 com.istana.akun:id/text: flags=0x00000000
+      spec resource 0x7f050048 com.istana.akun:id/text2: flags=0x00000000
+      spec resource 0x7f050049 com.istana.akun:id/time: flags=0x00000000
+      spec resource 0x7f05004a com.istana.akun:id/title: flags=0x00000000
+      spec resource 0x7f05004b com.istana.akun:id/view_tree_lifecycle_owner: flags=0x00000000
+      spec resource 0x7f05004c com.istana.akun:id/view_tree_on_back_pressed_dispatcher_owner: flags=0x00000000
+      spec resource 0x7f05004d com.istana.akun:id/view_tree_saved_state_registry_owner: flags=0x00000000
+      spec resource 0x7f05004e com.istana.akun:id/view_tree_view_model_store_owner: flags=0x00000000
+      config (default):
+        resource 0x7f050000 com.istana.akun:id/accessibility_action_clickable_span: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050001 com.istana.akun:id/accessibility_custom_action_0: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050002 com.istana.akun:id/accessibility_custom_action_1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050003 com.istana.akun:id/accessibility_custom_action_10: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050004 com.istana.akun:id/accessibility_custom_action_11: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050005 com.istana.akun:id/accessibility_custom_action_12: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050006 com.istana.akun:id/accessibility_custom_action_13: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050007 com.istana.akun:id/accessibility_custom_action_14: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050008 com.istana.akun:id/accessibility_custom_action_15: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050009 com.istana.akun:id/accessibility_custom_action_16: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000a com.istana.akun:id/accessibility_custom_action_17: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000b com.istana.akun:id/accessibility_custom_action_18: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000c com.istana.akun:id/accessibility_custom_action_19: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000d com.istana.akun:id/accessibility_custom_action_2: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000e com.istana.akun:id/accessibility_custom_action_20: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05000f com.istana.akun:id/accessibility_custom_action_21: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050010 com.istana.akun:id/accessibility_custom_action_22: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050011 com.istana.akun:id/accessibility_custom_action_23: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050012 com.istana.akun:id/accessibility_custom_action_24: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050013 com.istana.akun:id/accessibility_custom_action_25: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050014 com.istana.akun:id/accessibility_custom_action_26: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050015 com.istana.akun:id/accessibility_custom_action_27: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050016 com.istana.akun:id/accessibility_custom_action_28: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050017 com.istana.akun:id/accessibility_custom_action_29: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050018 com.istana.akun:id/accessibility_custom_action_3: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050019 com.istana.akun:id/accessibility_custom_action_30: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001a com.istana.akun:id/accessibility_custom_action_31: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001b com.istana.akun:id/accessibility_custom_action_4: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001c com.istana.akun:id/accessibility_custom_action_5: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001d com.istana.akun:id/accessibility_custom_action_6: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001e com.istana.akun:id/accessibility_custom_action_7: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05001f com.istana.akun:id/accessibility_custom_action_8: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050020 com.istana.akun:id/accessibility_custom_action_9: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050021 com.istana.akun:id/action_container: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050022 com.istana.akun:id/action_divider: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050023 com.istana.akun:id/action_image: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050024 com.istana.akun:id/action_text: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050025 com.istana.akun:id/actions: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050026 com.istana.akun:id/async: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050027 com.istana.akun:id/blocking: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050028 com.istana.akun:id/chronometer: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050029 com.istana.akun:id/dialog_button: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002a com.istana.akun:id/edit_text_id: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002b com.istana.akun:id/forever: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002c com.istana.akun:id/hide_ime_id: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002d com.istana.akun:id/icon: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002e com.istana.akun:id/icon_group: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05002f com.istana.akun:id/info: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050030 com.istana.akun:id/italic: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050031 com.istana.akun:id/line1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050032 com.istana.akun:id/line3: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050033 com.istana.akun:id/normal: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050034 com.istana.akun:id/notification_background: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050035 com.istana.akun:id/notification_main_column: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050036 com.istana.akun:id/notification_main_column_container: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050037 com.istana.akun:id/report_drawn: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050038 com.istana.akun:id/right_icon: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050039 com.istana.akun:id/right_side: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003a com.istana.akun:id/tag_accessibility_actions: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003b com.istana.akun:id/tag_accessibility_clickable_spans: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003c com.istana.akun:id/tag_accessibility_heading: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003d com.istana.akun:id/tag_accessibility_pane_title: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003e com.istana.akun:id/tag_on_apply_window_listener: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05003f com.istana.akun:id/tag_on_receive_content_listener: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050040 com.istana.akun:id/tag_on_receive_content_mime_types: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050041 com.istana.akun:id/tag_screen_reader_focusable: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050042 com.istana.akun:id/tag_state_description: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050043 com.istana.akun:id/tag_transition_group: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050044 com.istana.akun:id/tag_unhandled_key_event_manager: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050045 com.istana.akun:id/tag_unhandled_key_listeners: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050046 com.istana.akun:id/tag_window_insets_animation_callback: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050047 com.istana.akun:id/text: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050048 com.istana.akun:id/text2: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f050049 com.istana.akun:id/time: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05004a com.istana.akun:id/title: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05004b com.istana.akun:id/view_tree_lifecycle_owner: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05004c com.istana.akun:id/view_tree_on_back_pressed_dispatcher_owner: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05004d com.istana.akun:id/view_tree_saved_state_registry_owner: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f05004e com.istana.akun:id/view_tree_view_model_store_owner: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+    type 7 configCount=6 entryCount=4
+      spec resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: flags=0x00000500
+      spec resource 0x7f080001 com.istana.akun:mipmap/ic_launcher_background: flags=0x00000000
+      spec resource 0x7f080002 com.istana.akun:mipmap/ic_launcher_foreground: flags=0x00000000
+      spec resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: flags=0x00000500
+      config mdpi:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x0000000b (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x0000000c (s=0x0008 r=0x00)
+      config hdpi:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x0000000e (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x0000000d (s=0x0008 r=0x00)
+      config xhdpi:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x0000000f (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x00000010 (s=0x0008 r=0x00)
+      config xxhdpi:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x00000011 (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x00000012 (s=0x0008 r=0x00)
+      config xxxhdpi:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x00000022 (s=0x0008 r=0x00)
+        resource 0x7f080001 com.istana.akun:mipmap/ic_launcher_background: t=0x03 d=0x00000018 (s=0x0008 r=0x00)
+        resource 0x7f080002 com.istana.akun:mipmap/ic_launcher_foreground: t=0x03 d=0x0000001f (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x00000017 (s=0x0008 r=0x00)
+      config anydpi-v26:
+        resource 0x7f080000 com.istana.akun:mipmap/ic_launcher: t=0x03 d=0x00000027 (s=0x0008 r=0x00)
+        resource 0x7f080003 com.istana.akun:mipmap/ic_launcher_round: t=0x03 d=0x00000026 (s=0x0008 r=0x00)
+    type 8 configCount=1 entryCount=1
+      spec resource 0x7f090000 com.istana.akun:string/androidx_startup: flags=0x00000000
+      config (default):
+        resource 0x7f090000 com.istana.akun:string/androidx_startup: t=0x03 d=0x00000028 (s=0x0008 r=0x00)
+    type 11 configCount=1 entryCount=1
+      spec resource 0x7f0c0000 com.istana.akun:xml/file_paths: flags=0x00000000
+      config (default):
+        resource 0x7f0c0000 com.istana.akun:xml/file_paths: t=0x03 d=0x00000000 (s=0x0008 r=0x00)

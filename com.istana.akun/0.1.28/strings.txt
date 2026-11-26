@@ -1,0 +1,3005 @@
+[0] 
+[1] ��
+[2] ��Set-Cookie-Multivalue��
+[3]  
+[4]   
+[5]  (
+[6]  (Kotlin reflection is not available)
+[7]  (plus 
+[8]  > toIndex: 
+[9]  actual=
+[10]  but future completed as timeout expired
+[11]  bytes
+[12]  called on 
+[13]  cannot be cast to 
+[14]  does not have a Parcelizer
+[15]  expected, but got 
+[16]  expected=
+[17]  for 
+[18]  gagal
+[19]  gagal (data/kunci rusak?)
+[20]  gagal dimuat
+[21]  hari 
+[22]  has no target state
+[23]  has not been initialized
+[24]  id=
+[25]  in component 
+[26]  is less than minimum 0.
+[27]  is less than zero.
+[28]  len=
+[29]  mode=
+[30]  ms]
+[31]  must be called on the main thread
+[32]  must be greater than zero.
+[33]  must have default constructor in order to be automatically recreated
+[34]  must not contain null or empty values
+[35]  nanoseconds 
+[36]  off=
+[37]  pkg=
+[38]  size=
+[39]  thrown from get()]
+[40]  tint=
+[41]  uri=
+[42]  wasn't found
+[43]  · 
+[44]  · sisa 
+[45] !
+[46] #0D1117
+[47] $VALUES
+[48] %.1f MB
+[49] %02d:%02d:%02d
+[50] %02x
+[51] %PDF
+[52] '. All WebView methods must be called on the same thread. (Expected Looper 
+[53] (
+[54] ()
+[55] (I
+[56] (function(){try{fetch(
+[57] (this Map)
+[58] )
+[59] ).then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.blob();}).then(function(b){var rd=new FileReader();rd.onloadend=function(){var d=rd.result||'';var i=d.indexOf(',');window.IstanaDownload.onBlobBase64(i>=0?d.substring(i+1):d, b.type||'');};rd.onerror=function(){window.IstanaDownload.onBlobError();};rd.readAsDataURL(b);}).catch(function(){window.IstanaDownload.onBlobError();});}catch(e){window.IstanaDownload.onBlobError();}})();
+[60] )V
+[61] *
+[62] +
+[63] + %d akaun lain
+[64] + %d akun lainnya
+[65] + %d more accounts
+[66] ,
+[67] , 
+[68] , FYI main Looper is 
+[69] , accountNameEmpty=
+[70] , accountNameHint=
+[71] , activateLicense=
+[72] , activationFailedFmt=
+[73] , active=
+[74] , add=
+[75] , addAccountFmt=
+[76] , addToFavorites=
+[77] , addedAt=
+[78] , adverse=
+[79] , autoAccountNameFmt=
+[80] , back=
+[81] , but type is 
+[82] , buyLicense=
+[83] , cancel=
+[84] , cannotOpenLink=
+[85] , cannotReachLicenseServer=
+[86] , cannotReachUpdateServer=
+[87] , cardGlass=Glass, cardBubble=Bubble, cardAurora=Aurora, cardClay=Clay, moreAccountsFmt=
+[88] , category=
+[89] , categoryAkun=
+[90] , categorySosmed=
+[91] , changeLanguage=
+[92] , changeLayout=
+[93] , checkUpdate=
+[94] , checkUpdateFailedFmt=
+[95] , checkingUpdate=
+[96] , codeNotFound=
+[97] , colorDark=
+[98] , colorLight=
+[99] , contactUs=
+[100] , contactingLicenseServer=
+[101] , contentDisposition=
+[102] , copyright=© 2026 Istana Virtual, menuTitle=Menu, changeColor=
+[103] , data=
+[104] , delete=
+[105] , deleteAccount=
+[106] , deleteAccountMsgFmt=
+[107] , deleteAccountQ=
+[108] , deviceMismatch=
+[109] , does not match actual size 
+[110] , dontCloseAppHint=
+[111] , downloadCancelled=
+[112] , downloadFailed=
+[113] , downloadFinishedFmt=
+[114] , downloadInProgress=
+[115] , downloadInstallUpdate=
+[116] , downloadPermissionDenied=
+[117] , downloadStartedFmt=
+[118] , downloadingFmt=
+[119] , downloadingUpdateTitle=
+[120] , enterCodeFirst=
+[121] , expired=
+[122] , expiresAt=
+[123] , favorite=
+[124] , initials=
+[125] , installPermissionMsg=
+[126] , installPermissionTitle=
+[127] , installerOpened=
+[128] , languageTitle=
+[129] , lastValidatedAt=
+[130] , later=
+[131] , layoutGrid=Grid, layoutIcon=
+[132] , layoutList=
+[133] , layoutTab=Tab, changeCardStyle=
+[134] , licenseActiveShort=
+[135] , licenseActiveToast=
+[136] , licenseLabel=
+[137] , lifetime=
+[138] , listUpdated=
+[139] , logoRes=
+[140] , logoResLight=
+[141] , maxAccountsFmt=
+[142] , message=
+[143] , mimeType=
+[144] , name=
+[145] , noAccountsYet=
+[146] , noMatch=
+[147] , notes=
+[148] , offlineMessage=
+[149] , offlineTitle=
+[150] , open=
+[151] , openSettings=
+[152] , plan1Year=
+[153] , plan30Days=
+[154] , plan=
+[155] , planLifetime=
+[156] , progress=
+[157] , refresh=
+[158] , removeFromFavorites=
+[159] , rename=
+[160] , renameAccount=
+[161] , revoked=
+[162] , save=
+[163] , searchAccounts=
+[164] , serviceId=
+[165] , sha256=
+[166] , shaMismatch=
+[167] , size: 
+[168] , swipeEdge=
+[169] , toIndex: 
+[170] , touchY=
+[171] , trialFree=
+[172] , trialPrefix=
+[173] , tryAgain=
+[174] , upToDateFmt=
+[175] , updateAvailableFmt=
+[176] , updateAvailableMsgFmt=
+[177] , updateAvailableTitle=
+[178] , updateNow=
+[179] , updateServerRespondedFmt=
+[180] , url=
+[181] , userAgent=
+[182] , versionCode=
+[183] , versionWithSizeFmt=
+[184] , webView=
+[185] -
+[186] .
+[187] . Cycle detected.
+[188] ..
+[189] .apk
+[190] .bin
+[191] .fileprovider
+[192] .jpg
+[193] .m4a
+[194] .mp3
+[195] .mp4
+[196] .ogg
+[197] .pdf
+[198] .png
+[199] .wav
+[200] .webm
+[201] /
+[202] /100
+[203] /data/misc/profiles/cur/0
+[204] /data/misc/profiles/cur/0/
+[205] /data/misc/profiles/ref/
+[206] 0%
+[207] 0.1.28
+[208] 00:00:00
+[209] 0x%08x
+[210] 1 tahun
+[211] 1 year
+[212] 1-day trial
+[213] 30 days
+[214] 30 hari
+[215] :
+[216] : 
+[217] :dev
+[218] ;
+[219] ;base64
+[220] <clinit>
+[221] <init>
+[222] =
+[223] >;
+[224] >;)
+[225] >;)V
+[226] >;>;
+[227] >;>;)
+[228] >;I)V
+[229] A
+[230] A WebView method was called on thread '
+[231] A0
+[232] ACCOUNT
+[233] ACTIVATE LICENSE ›
+[234] ACTIVATION
+[235] AES
+[236] AES/GCM/NoPadding
+[237] AI
+[238] AKTIFKAN LESEN ›
+[239] AKTIFKAN LISENSI ›
+[240] AKUN
+[241] ALGORITHMIC_DARKENING
+[242] ANNOTATION_TYPE
+[243] APP
+[244] APP_SOURCE_AND_APP_TRIGGER
+[245] APP_SOURCE_AND_WEB_TRIGGER
+[246] ARGB_8888
+[247] ASYNC_WEBVIEW_STARTUP
+[248] ATTRIBUTION_BEHAVIOR
+[249] ATTRIBUTION_REGISTRATION_BEHAVIOR
+[250] ATTR_NAME
+[251] ATTR_PATH
+[252] AURORA
+[253] Account "%s" will be removed from the list, and you will be signed out of this account.
+[254] Account %d
+[255] Account name cannot be empty.
+[256] Account name, e.g.: Account 1
+[257] Account(id=
+[258] Accounts
+[259] Activation failed. Try again.
+[260] Active
+[261] ActivityResult{resultCode=
+[262] Add
+[263] Add %s account
+[264] Add to favorites
+[265] Adverse(state=
+[266] Akaun
+[267] Akaun "%s" akan dipadam dari senarai, dan anda akan log keluar dari akaun ini.
+[268] Akaun %d
+[269] Aktif
+[270] Aktivasi gagal. Coba lagi.
+[271] Akun
+[272] Akun "%s" akan dihapus dari daftar, dan Anda akan keluar dari akun ini.
+[273] Akun %d
+[274] Already attached to lifecycleOwner
+[275] Already the latest version (%s).
+[276] An entry modification is not supported
+[277] An update is already downloading. Please wait until it finishes.
+[278] Android
+[279] AndroidKeyStore
+[280] Array has more than one element.
+[281] Array is empty.
+[282] ArrayBuffer
+[283] ArrayDeque is empty.
+[284] Attempt to invoke virtual method 'android.os.Handler android.app.FragmentHostCallback.getHandler()' on a null object reference
+[285] AttributionBehavior
+[286] Aurora
+[287] B
+[288] B0
+[289] BACK_FORWARD_CACHE
+[290] BASELINE
+[291] BELI LESEN
+[292] BELI LISENSI
+[293] BITMAP
+[294] BITMAP_MASKABLE
+[295] BLOB
+[296] BRAND
+[297] BROWSER
+[298] BUBBLE
+[299] BUY LICENSE
+[300] Back
+[301] BackEventCompat{touchX=
+[302] Bahasa Indonesia
+[303] Bahasa Melayu
+[304] Baseline
+[305] Batal
+[306] Belum ada akaun. Ketik + untuk menambah.
+[307] Belum ada akun. Ketuk + untuk menambah.
+[308] Black
+[309] Buang dari kegemaran
+[310] Bubble
+[311] Buka
+[312] Buka Pengaturan
+[313] Buka Tetapan
+[314] Bundle with restored state for the component "androidx.savedstate.Restarter" must contain list of strings by the key "classes_to_restore"
+[315] C
+[316] C0
+[317] CACHE_DIRECTORY_BASE_PATH
+[318] CACHE_PROVIDER
+[319] CANCELLED
+[320] CC
+[321] CHAR_SEQUENCE_CREATOR
+[322] CHOOSER
+[323] CI
+[324] CL
+[325] CLAMP
+[326] CLASS
+[327] CLAY
+[328] COLUMNS
+[329] CONFIGURE_PARTITIONED_COOKIES
+[330] CONSTRUCTOR
+[331] CREATED
+[332] CREATE_WEB_MESSAGE_CHANNEL
+[333] CREATOR
+[334] CW
+[335] Can not perform this action after onSaveInstanceState
+[336] Cancel
+[337] Cannot coerce value to an empty range: maximum 
+[338] Cannot initialize 
+[339] Cari akaun…
+[340] Cari akun…
+[341] Cek Update
+[342] Cg
+[343] Change color
+[344] Change language
+[345] Change layout
+[346] Change shape
+[347] ChatGPT
+[348] Check Update
+[349] Check your internet connection, then try again.
+[350] Checking for updates…
+[351] Checking your license code…
+[352] Choose language
+[353] Cl
+[354] Class 
+[355] Claude
+[356] Clay
+[357] Coba lagi
+[358] Companion
+[359] Config
+[360] ConfigField
+[361] Contact Us
+[362] Content found after the end of file
+[363] Content-Type
+[364] Context cannot be null
+[365] Cookie
+[366] Could not check for updates
+[367] Could not open the link.
+[368] Could not verify your license. Check your connection and try again.
+[369] Couldn't find meta-data for provider with authority 
+[370] Count overflow has happened.
+[371] Cu
+[372] Cuba lagi
+[373] Cue by Manus
+[374] D
+[375] D0
+[376] DATA
+[377] DATA_DIRECTORY_BASE_PATH
+[378] DATA_DIRECTORY_SUFFIX
+[379] DD
+[380] DEFAULT
+[381] DEFAULT_BOLD
+[382] DEFAULT_TRAFFICSTATS_TAGGING
+[383] DELETE_BROWSING_DATA
+[384] DELETE_SKIP_FILE
+[385] DESTROYED
+[386] DEVICE_ROOT
+[387] DIAGNOSTIC_PROFILE_IS_COMPRESSED
+[388] DIRECTORY_DOWNLOADS
+[389] DISABLED
+[390] DISABLED_ACTION_MODE_MENU_ITEMS
+[391] DISPLAYNAME_FIELD
+[392] DOCUMENT_START_SCRIPT
+[393] DOCUMENT_START_SCRIPT:1
+[394] DROP_SHADER_CACHE
+[395] DUPLICATE
+[396] Daftar
+[397] Daftar diperbarui
+[398] Delete
+[399] Delete account
+[400] Delete account?
+[401] Deque is too big.
+[402] Didn't read enough bytes during decompression. expected=
+[403] Do
+[404] Do not close the app while downloading.
+[405] Dola
+[406] Download
+[407] Download Update
+[408] Download cancelled
+[409] Download failed
+[410] Download finished: %s
+[411] Downloading %s…
+[412] Downloading update…
+[413] Downloading… %d%%
+[414] E
+[415] E0
+[416] EMPTY_LIST
+[417] EMPTY_URI
+[418] EN
+[419] ENABLED
+[420] ENABLED_WITHOUT_APP_IDENTITY
+[421] END
+[422] ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY
+[423] EXTERNAL_CONTENT_URI
+[424] EXTRA_BENCHMARK_OPERATION
+[425] EXTRA_SKIP_FILE_OPERATION
+[426] El
+[427] ElevenLabs
+[428] Empty list doesn't contain element at index 
+[429] English
+[430] Enter your license code first.
+[431] Enter your license code to activate the app.
+[432] Error(message=
+[433] Exception thrown from implementation: 
+[434] Expected 
+[435] Expected size 
+[436] F
+[437] F0
+[438] FAILURE, cause=[
+[439] FALSE
+[440] FIELD
+[441] FIT_CENTER
+[442] FL
+[443] FORCE_DARK
+[444] FORCE_DARK_BEHAVIOR
+[445] FORCE_DARK_ONLY
+[446] FORCE_DARK_STRATEGY
+[447] Facebook
+[448] Factory.create(String) is unsupported.  This Factory requires `CreationExtras` to be passed into `create` method.
+[449] Fail kemas kini tidak dapat disahkan — muat turun dibatalkan.
+[450] Failed requirement.
+[451] Failed to check for updates: %s
+[452] Failed to find configured root that contains 
+[453] Failed to instantiate 
+[454] Failed to parse android.support.FILE_PROVIDER_PATHS meta-data
+[455] Failed to resolve canonical path for 
+[456] Fb
+[457] File update tidak bisa diverifikasi — unduhan dibatalkan.
+[458] Fl
+[459] Flow
+[460] ForceDarkBehavior
+[461] Future.cancel() was called.
+[462] G
+[463] G0
+[464] GCM
+[465] GENERIC
+[466] GET_COOKIE_INFO
+[467] GET_VARIATIONS_HEADER
+[468] GET_WEB_CHROME_CLIENT
+[469] GET_WEB_VIEW_CLIENT
+[470] GET_WEB_VIEW_RENDERER
+[471] GLASS
+[472] GRID
+[473] Gagal mengecek update: %s
+[474] Gagal menyemak kemas kini: %s
+[475] Ge
+[476] Gemini
+[477] Glass
+[478] Gm
+[479] Gmail
+[480] Grid
+[481] H
+[482] H0
+[483] HTTP
+[484] Halo, saya mau beli lisensi Istana Virtual
+[485] Hapus
+[486] Hapus akun
+[487] Hapus akun?
+[488] Hapus dari favorit
+[489] Hitam
+[490] Hubungi Kami
+[491] I
+[492] I0
+[493] ICON
+[494] ID
+[495] II
+[496] III
+[497] IIIII
+[498] IIL
+[499] IILI
+[500] IJ
+[501] IL
+[502] ILC
+[503] ILCI
+[504] ILI
+[505] ILII
+[506] ILL
+[507] ILLIZ
+[508] ILLL
+[509] ILLLL
+[510] IMPLEMENTATION_ONLY_FEATURE
+[511] INITIALIZED
+[512] ISO-8859-1
+[513] ISTANA VIRTUAL
+[514] ISTANA-XXXX-XXXX-XXXX
+[515] IZ
+[516] Icon(typ=
+[517] IconCompat
+[518] Icons
+[519] Ig
+[520] Ikon
+[521] Index overflow has happened.
+[522] Index: 
+[523] Inflater did not finish
+[524] Instagram
+[525] Install permission
+[526] Installer opened — continue the installation on the next screen.
+[527] Installing profile for 
+[528] Invalid icon
+[529] Invalid magic
+[530] Invalid mode: 
+[531] Invalid zip data. Stream ended after $totalBytesRead bytes. Expected 
+[532] Istana Virtual v0.1.28
+[533] IstanaAkun-Crypto
+[534] IstanaAkun-License
+[535] IstanaAkun-Updater
+[536] IstanaDownload
+[537] IstanaVirtual
+[538] Izin instal aplikasi
+[539] Izin penyimpanan ditolak, unduhan dibatalkan.
+[540] J
+[541] J0
+[542] JAVASCRIPT_INTERFACE
+[543] JJ
+[544] JJL
+[545] JL
+[546] JLI
+[547] JLJ
+[548] Jadikan favorit
+[549] Jadikan kegemaran
+[550] Jangan tutup aplikasi saat mengunduh.
+[551] Jangan tutup aplikasi semasa memuat turun.
+[552] K
+[553] KEY_COMPONENT_ACTIVITY_LAUNCHED_KEYS
+[554] KEY_COMPONENT_ACTIVITY_PENDING_RESULT
+[555] KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
+[556] KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
+[557] Kebenaran memasang aplikasi
+[558] Kebenaran storan ditolak, muat turun dibatalkan.
+[559] Kemas kini sedang dimuat turun. Tunggu sehingga selesai.
+[560] Kemas kini tersedia
+[561] Kembali
+[562] Kod lesen tidak dijumpai. Semak semula kodnya.
+[563] Kode lisensi tidak ditemukan. Periksa lagi kodenya.
+[564] L
+[565] LB
+[566] LC
+[567] LD
+[568] LEFT_RIGHT
+[569] LF
+[570] LFFFI
+[571] LI
+[572] LII
+[573] LIIL
+[574] LIL
+[575] LIST
+[576] LJ
+[577] LJL
+[578] LL
+[579] LLC
+[580] LLI
+[581] LLII
+[582] LLIL
+[583] LLJ
+[584] LLL
+[585] LLLI
+[586] LLLIL
+[587] LLLL
+[588] LLLLI
+[589] LLLLL
+[590] LLLLLL
+[591] LLLLZJLI
+[592] LLLLZLI
+[593] LLLZI
+[594] LLLZL
+[595] LLZ
+[596] LLZL
+[597] LZ
+[598] La0;
+[599] La1;
+[600] La2;
+[601] La3;
+[602] La4;
+[603] La5;
+[604] La6;
+[605] La7;
+[606] La8;
+[607] La9;
+[608] La;
+[609] Laa;
+[610] Landroid/animation/TimeInterpolator;
+[611] Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+[612] Landroid/animation/ValueAnimator;
+[613] Landroid/app/ActionBar;
+[614] Landroid/app/Activity;
+[615] Landroid/app/AlertDialog$Builder;
+[616] Landroid/app/AlertDialog;
+[617] Landroid/app/AppComponentFactory;
+[618] Landroid/app/Application$ActivityLifecycleCallbacks;
+[619] Landroid/app/Application;
+[620] Landroid/app/Dialog;
+[621] Landroid/app/DownloadManager$Request;
+[622] Landroid/app/DownloadManager;
+[623] Landroid/app/Fragment;
+[624] Landroid/app/FragmentManager;
+[625] Landroid/app/FragmentTransaction;
+[626] Landroid/app/NotificationManager;
+[627] Landroid/app/PendingIntent;
+[628] Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;
+[629] Landroid/content/BroadcastReceiver;
+[630] Landroid/content/ComponentName;
+[631] Landroid/content/ContentProvider;
+[632] Landroid/content/ContentResolver;
+[633] Landroid/content/ContentValues;
+[634] Landroid/content/Context;
+[635] Landroid/content/DialogInterface$OnClickListener;
+[636] Landroid/content/DialogInterface$OnDismissListener;
+[637] Landroid/content/DialogInterface;
+[638] Landroid/content/Intent;
+[639] Landroid/content/IntentSender;
+[640] Landroid/content/SharedPreferences$Editor;
+[641] Landroid/content/SharedPreferences;
+[642] Landroid/content/pm/ApplicationInfo;
+[643] Landroid/content/pm/PackageInfo;
+[644] Landroid/content/pm/PackageItemInfo;
+[645] Landroid/content/pm/PackageManager$ComponentInfoFlags;
+[646] Landroid/content/pm/PackageManager$NameNotFoundException;
+[647] Landroid/content/pm/PackageManager$PackageInfoFlags;
+[648] Landroid/content/pm/PackageManager;
+[649] Landroid/content/pm/ProviderInfo;
+[650] Landroid/content/pm/ServiceInfo;
+[651] Landroid/content/res/AssetFileDescriptor;
+[652] Landroid/content/res/AssetManager;
+[653] Landroid/content/res/ColorStateList;
+[654] Landroid/content/res/Configuration;
+[655] Landroid/content/res/Resources;
+[656] Landroid/content/res/XmlResourceParser;
+[657] Landroid/database/Cursor;
+[658] Landroid/database/MatrixCursor;
+[659] Landroid/graphics/Bitmap$Config;
+[660] Landroid/graphics/Bitmap;
+[661] Landroid/graphics/Canvas;
+[662] Landroid/graphics/Color;
+[663] Landroid/graphics/Paint;
+[664] Landroid/graphics/Path$Direction;
+[665] Landroid/graphics/Path;
+[666] Landroid/graphics/PorterDuff$Mode;
+[667] Landroid/graphics/RadialGradient;
+[668] Landroid/graphics/Rect;
+[669] Landroid/graphics/RectF;
+[670] Landroid/graphics/Shader$TileMode;
+[671] Landroid/graphics/Shader;
+[672] Landroid/graphics/Typeface;
+[673] Landroid/graphics/drawable/ClipDrawable;
+[674] Landroid/graphics/drawable/ColorDrawable;
+[675] Landroid/graphics/drawable/Drawable;
+[676] Landroid/graphics/drawable/GradientDrawable$Orientation;
+[677] Landroid/graphics/drawable/GradientDrawable;
+[678] Landroid/graphics/drawable/Icon;
+[679] Landroid/graphics/drawable/LayerDrawable;
+[680] Landroid/net/Uri$Builder;
+[681] Landroid/net/Uri;
+[682] Landroid/os/BaseBundle;
+[683] Landroid/os/Build$VERSION;
+[684] Landroid/os/Build;
+[685] Landroid/os/Bundle;
+[686] Landroid/os/CancellationSignal;
+[687] Landroid/os/Environment;
+[688] Landroid/os/Handler;
+[689] Landroid/os/Looper;
+[690] Landroid/os/Message;
+[691] Landroid/os/Parcel;
+[692] Landroid/os/ParcelFileDescriptor;
+[693] Landroid/os/Parcelable$Creator;
+[694] Landroid/os/Parcelable$Creator<
+[695] Landroid/os/Parcelable;
+[696] Landroid/os/Process;
+[697] Landroid/os/SystemClock;
+[698] Landroid/os/Trace;
+[699] Landroid/provider/MediaStore$Downloads;
+[700] Landroid/provider/Settings$Secure;
+[701] Landroid/security/keystore/KeyGenParameterSpec$Builder;
+[702] Landroid/security/keystore/KeyGenParameterSpec;
+[703] Landroid/support/v4/app/RemoteActionCompatParcelizer;
+[704] Landroid/support/v4/graphics/drawable/IconCompatParcelizer;
+[705] Landroid/text/Editable;
+[706] Landroid/text/SpannableString;
+[707] Landroid/text/TextUtils$TruncateAt;
+[708] Landroid/text/TextUtils;
+[709] Landroid/text/TextWatcher;
+[710] Landroid/text/style/ForegroundColorSpan;
+[711] Landroid/text/style/StyleSpan;
+[712] Landroid/util/AttributeSet;
+[713] Landroid/util/Base64;
+[714] Landroid/util/DisplayMetrics;
+[715] Landroid/util/Log;
+[716] Landroid/util/SparseArray;
+[717] Landroid/util/SparseIntArray;
+[718] Landroid/view/Choreographer$FrameCallback;
+[719] Landroid/view/Choreographer;
+[720] Landroid/view/KeyEvent$Callback;
+[721] Landroid/view/KeyEvent$DispatcherState;
+[722] Landroid/view/KeyEvent;
+[723] Landroid/view/Menu;
+[724] Landroid/view/MenuInflater;
+[725] Landroid/view/MenuItem;
+[726] Landroid/view/View$OnClickListener;
+[727] Landroid/view/View;
+[728] Landroid/view/ViewGroup$LayoutParams;
+[729] Landroid/view/ViewGroup;
+[730] Landroid/view/ViewParent;
+[731] Landroid/view/ViewTreeObserver$OnDrawListener;
+[732] Landroid/view/ViewTreeObserver;
+[733] Landroid/view/Window;
+[734] Landroid/view/WindowInsetsController;
+[735] Landroid/view/animation/LinearInterpolator;
+[736] Landroid/webkit/CookieManager;
+[737] Landroid/webkit/DownloadListener;
+[738] Landroid/webkit/GeolocationPermissions;
+[739] Landroid/webkit/JavascriptInterface;
+[740] Landroid/webkit/MimeTypeMap;
+[741] Landroid/webkit/ServiceWorkerController;
+[742] Landroid/webkit/URLUtil;
+[743] Landroid/webkit/ValueCallback;
+[744] Landroid/webkit/ValueCallback<
+[745] Landroid/webkit/WebChromeClient;
+[746] Landroid/webkit/WebMessage;
+[747] Landroid/webkit/WebMessagePort;
+[748] Landroid/webkit/WebResourceError;
+[749] Landroid/webkit/WebResourceRequest;
+[750] Landroid/webkit/WebResourceResponse;
+[751] Landroid/webkit/WebSettings;
+[752] Landroid/webkit/WebStorage;
+[753] Landroid/webkit/WebView$VisualStateCallback;
+[754] Landroid/webkit/WebView$WebViewTransport;
+[755] Landroid/webkit/WebView;
+[756] Landroid/webkit/WebViewClient;
+[757] Landroid/webkit/WebViewRenderProcess;
+[758] Landroid/webkit/WebViewRenderProcessClient;
+[759] Landroid/widget/Button;
+[760] Landroid/widget/EditText;
+[761] Landroid/widget/FrameLayout$LayoutParams;
+[762] Landroid/widget/FrameLayout;
+[763] Landroid/widget/ImageView$ScaleType;
+[764] Landroid/widget/ImageView;
+[765] Landroid/widget/LinearLayout$LayoutParams;
+[766] Landroid/widget/LinearLayout;
+[767] Landroid/widget/PopupWindow$OnDismissListener;
+[768] Landroid/widget/PopupWindow;
+[769] Landroid/widget/ProgressBar;
+[770] Landroid/widget/ScrollView;
+[771] Landroid/widget/TextView;
+[772] Landroid/widget/Toast;
+[773] Landroid/window/BackEvent;
+[774] Landroid/window/OnBackAnimationCallback;
+[775] Landroid/window/OnBackInvokedCallback;
+[776] Landroid/window/OnBackInvokedDispatcher;
+[777] Landroidx/activity/ComponentActivity$4;
+[778] Landroidx/activity/ImmLeaksCleaner;
+[779] Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;
+[780] Landroidx/activity/a;
+[781] Landroidx/core/app/CoreComponentFactory;
+[782] Landroidx/core/app/RemoteActionCompat;
+[783] Landroidx/core/app/RemoteActionCompatParcelizer;
+[784] Landroidx/core/content/FileProvider;
+[785] Landroidx/core/graphics/drawable/IconCompat;
+[786] Landroidx/core/graphics/drawable/IconCompatParcelizer;
+[787] Landroidx/lifecycle/CompositeGeneratedAdaptersObserver;
+[788] Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
+[789] Landroidx/lifecycle/LegacySavedStateHandleController$tryToAddRecreator$1;
+[790] Landroidx/lifecycle/LifecycleCoroutineScopeImpl;
+[791] Landroidx/lifecycle/LiveData$LifecycleBoundObserver;
+[792] Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;
+[793] Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
+[794] Landroidx/lifecycle/SavedStateHandleAttacher;
+[795] Landroidx/lifecycle/SavedStateHandleController;
+[796] Landroidx/lifecycle/SingleGeneratedAdapterObserver;
+[797] Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;
+[798] Landroidx/profileinstaller/ProfileInstallReceiver;
+[799] Landroidx/profileinstaller/ProfileInstallerInitializer;
+[800] Landroidx/savedstate/Recreator;
+[801] Landroidx/startup/InitializationProvider;
+[802] Landroidx/versionedparcelable/CustomVersionedParcelable;
+[803] Landroidx/versionedparcelable/ParcelImpl;
+[804] Landroidx/webkit/WebViewCompat;
+[805] Landroidx/webkit/WebViewFeature;
+[806] LangStrings(activationSubtitle=
+[807] Later
+[808] LatestInfo(version=
+[809] Lazy value not initialized yet.
+[810] Lb0;
+[811] Lb1;
+[812] Lb2;
+[813] Lb3;
+[814] Lb4;
+[815] Lb5;
+[816] Lb6;
+[817] Lb7;
+[818] Lb8;
+[819] Lb9;
+[820] Lb;
+[821] Lba;
+[822] Lc0;
+[823] Lc1;
+[824] Lc2;
+[825] Lc3;
+[826] Lc4;
+[827] Lc5;
+[828] Lc6;
+[829] Lc7;
+[830] Lc8;
+[831] Lc9;
+[832] Lc;
+[833] Lca;
+[834] Lcom/istana/akun/AccountStore;
+[835] Lcom/istana/akun/CryptoStore;
+[836] Lcom/istana/akun/DeviceInfo;
+[837] Lcom/istana/akun/LicenseManager;
+[838] Lcom/istana/akun/MainActivity;
+[839] Lcom/istana/akun/Service;
+[840] Lcom/istana/akun/ServiceCategory;
+[841] Lcom/istana/akun/Services;
+[842] Lcom/istana/akun/Ui;
+[843] Lcom/istana/akun/Updater;
+[844] Ld0;
+[845] Ld1;
+[846] Ld2;
+[847] Ld3;
+[848] Ld4;
+[849] Ld5;
+[850] Ld6;
+[851] Ld7;
+[852] Ld8;
+[853] Ld9;
+[854] Ld;
+[855] Lda;
+[856] Ldalvik/annotation/EnclosingClass;
+[857] Ldalvik/annotation/InnerClass;
+[858] Ldalvik/annotation/MemberClasses;
+[859] Ldalvik/annotation/Signature;
+[860] Le0;
+[861] Le1;
+[862] Le2;
+[863] Le3;
+[864] Le4;
+[865] Le5;
+[866] Le6;
+[867] Le7;
+[868] Le8;
+[869] Le9;
+[870] Le;
+[871] Lea;
+[872] Lesen
+[873] Lesen aktif
+[874] Lesen aktif.
+[875] Lesen ini sudah tidak aktif. Sila hubungi admin untuk bantuan.
+[876] Lesen ini terikat pada peranti lain. Sila hubungi admin untuk bantuan.
+[877] Lesen sudah tamat tempoh
+[878] Lf0;
+[879] Lf1;
+[880] Lf2;
+[881] Lf3;
+[882] Lf4;
+[883] Lf5;
+[884] Lf6;
+[885] Lf7;
+[886] Lf8;
+[887] Lf9;
+[888] Lf;
+[889] Lfa;
+[890] Lg0;
+[891] Lg1;
+[892] Lg2;
+[893] Lg3;
+[894] Lg4;
+[895] Lg5;
+[896] Lg6;
+[897] Lg7;
+[898] Lg8;
+[899] Lg9;
+[900] Lg;
+[901] Lga;
+[902] Lh0;
+[903] Lh1;
+[904] Lh2;
+[905] Lh3;
+[906] Lh4;
+[907] Lh5;
+[908] Lh6;
+[909] Lh7;
+[910] Lh8;
+[911] Lh9;
+[912] Lh;
+[913] Lha;
+[914] Li0;
+[915] Li1;
+[916] Li2;
+[917] Li3;
+[918] Li4;
+[919] Li5;
+[920] Li6;
+[921] Li7;
+[922] Li8;
+[923] Li9;
+[924] Li;
+[925] Lia;
+[926] License
+[927] License active
+[928] License active.
+[929] License code not found. Please check the code again.
+[930] License has expired
+[931] LicenseState(key=
+[932] LifecycleOwner of this LifecycleRegistry is already garbage collected. It is too late to change lifecycle state.
+[933] Lifetime
+[934] Lisensi
+[935] Lisensi aktif
+[936] Lisensi aktif.
+[937] Lisensi ini sudah tidak aktif. Silakan hubungi admin untuk bantuan.
+[938] Lisensi ini terikat ke perangkat lain. Silakan hubungi admin untuk bantuan.
+[939] Lisensi sudah kedaluwarsa
+[940] List
+[941] List has more than one element.
+[942] List is empty.
+[943] List updated
+[944] Lj0;
+[945] Lj1;
+[946] Lj2;
+[947] Lj3;
+[948] Lj4;
+[949] Lj5;
+[950] Lj6;
+[951] Lj7;
+[952] Lj8;
+[953] Lj9;
+[954] Lj;
+[955] Ljava/io/BufferedReader;
+[956] Ljava/io/ByteArrayInputStream;
+[957] Ljava/io/ByteArrayOutputStream;
+[958] Ljava/io/Closeable;
+[959] Ljava/io/DataInputStream;
+[960] Ljava/io/DataOutputStream;
+[961] Ljava/io/File;
+[962] Ljava/io/FileInputStream;
+[963] Ljava/io/FileNotFoundException;
+[964] Ljava/io/FileOutputStream;
+[965] Ljava/io/IOException;
+[966] Ljava/io/InputStream;
+[967] Ljava/io/InputStreamReader;
+[968] Ljava/io/OutputStream;
+[969] Ljava/io/Reader;
+[970] Ljava/io/Serializable;
+[971] Ljava/io/StringWriter;
+[972] Ljava/io/Writer;
+[973] Ljava/lang/AbstractMethodError;
+[974] Ljava/lang/Appendable;
+[975] Ljava/lang/ArithmeticException;
+[976] Ljava/lang/ArrayIndexOutOfBoundsException;
+[977] Ljava/lang/AssertionError;
+[978] Ljava/lang/Boolean;
+[979] Ljava/lang/Byte;
+[980] Ljava/lang/CharSequence;
+[981] Ljava/lang/Character;
+[982] Ljava/lang/Class;
+[983] Ljava/lang/ClassCastException;
+[984] Ljava/lang/ClassLoader;
+[985] Ljava/lang/ClassNotFoundException;
+[986] Ljava/lang/Comparable;
+[987] Ljava/lang/Deprecated;
+[988] Ljava/lang/Double;
+[989] Ljava/lang/Enum;
+[990] Ljava/lang/Enum<
+[991] Ljava/lang/Exception;
+[992] Ljava/lang/Float;
+[993] Ljava/lang/IllegalAccessException;
+[994] Ljava/lang/IllegalArgumentException;
+[995] Ljava/lang/IllegalStateException;
+[996] Ljava/lang/IndexOutOfBoundsException;
+[997] Ljava/lang/InstantiationException;
+[998] Ljava/lang/Integer;
+[999] Ljava/lang/InterruptedException;
+[1000] Ljava/lang/Iterable;
+[1001] Ljava/lang/Long;
+[1002] Ljava/lang/Math;
+[1003] Ljava/lang/NoClassDefFoundError;
+[1004] Ljava/lang/NoSuchFieldError;
+[1005] Ljava/lang/NoSuchMethodError;
+[1006] Ljava/lang/NoSuchMethodException;
+[1007] Ljava/lang/NullPointerException;
+[1008] Ljava/lang/Number;
+[1009] Ljava/lang/Object;
+[1010] Ljava/lang/OutOfMemoryError;
+[1011] Ljava/lang/Package;
+[1012] Ljava/lang/ReflectiveOperationException;
+[1013] Ljava/lang/Runnable;
+[1014] Ljava/lang/RuntimeException;
+[1015] Ljava/lang/SecurityException;
+[1016] Ljava/lang/Short;
+[1017] Ljava/lang/StackTraceElement;
+[1018] Ljava/lang/String;
+[1019] Ljava/lang/StringBuilder;
+[1020] Ljava/lang/System;
+[1021] Ljava/lang/Thread;
+[1022] Ljava/lang/Throwable;
+[1023] Ljava/lang/UnsupportedOperationException;
+[1024] Ljava/lang/Void;
+[1025] Ljava/lang/annotation/Annotation;
+[1026] Ljava/lang/annotation/ElementType;
+[1027] Ljava/lang/annotation/Retention;
+[1028] Ljava/lang/annotation/RetentionPolicy;
+[1029] Ljava/lang/annotation/Target;
+[1030] Ljava/lang/ref/Reference;
+[1031] Ljava/lang/ref/WeakReference;
+[1032] Ljava/lang/reflect/AccessibleObject;
+[1033] Ljava/lang/reflect/Array;
+[1034] Ljava/lang/reflect/Constructor;
+[1035] Ljava/lang/reflect/Field;
+[1036] Ljava/lang/reflect/InvocationHandler;
+[1037] Ljava/lang/reflect/InvocationTargetException;
+[1038] Ljava/lang/reflect/Method;
+[1039] Ljava/lang/reflect/Proxy;
+[1040] Ljava/net/HttpURLConnection;
+[1041] Ljava/net/URL;
+[1042] Ljava/net/URLConnection;
+[1043] Ljava/net/URLDecoder;
+[1044] Ljava/nio/charset/Charset;
+[1045] Ljava/nio/charset/StandardCharsets;
+[1046] Ljava/security/Key;
+[1047] Ljava/security/KeyStore$Entry;
+[1048] Ljava/security/KeyStore$LoadStoreParameter;
+[1049] Ljava/security/KeyStore$ProtectionParameter;
+[1050] Ljava/security/KeyStore$SecretKeyEntry;
+[1051] Ljava/security/KeyStore;
+[1052] Ljava/security/MessageDigest;
+[1053] Ljava/security/spec/AlgorithmParameterSpec;
+[1054] Ljava/text/DateFormat;
+[1055] Ljava/text/SimpleDateFormat;
+[1056] Ljava/util/AbstractList;
+[1057] Ljava/util/ArrayList;
+[1058] Ljava/util/Arrays;
+[1059] Ljava/util/BitSet;
+[1060] Ljava/util/Collection;
+[1061] Ljava/util/Collection<
+[1062] Ljava/util/Collections;
+[1063] Ljava/util/Comparator;
+[1064] Ljava/util/ConcurrentModificationException;
+[1065] Ljava/util/Date;
+[1066] Ljava/util/HashMap;
+[1067] Ljava/util/HashMap<
+[1068] Ljava/util/HashSet;
+[1069] Ljava/util/Iterator;
+[1070] Ljava/util/LinkedHashMap;
+[1071] Ljava/util/LinkedHashSet;
+[1072] Ljava/util/List;
+[1073] Ljava/util/List<
+[1074] Ljava/util/ListIterator;
+[1075] Ljava/util/Locale;
+[1076] Ljava/util/Map$Entry;
+[1077] Ljava/util/Map;
+[1078] Ljava/util/Map<
+[1079] Ljava/util/NoSuchElementException;
+[1080] Ljava/util/Objects;
+[1081] Ljava/util/Random;
+[1082] Ljava/util/RandomAccess;
+[1083] Ljava/util/Set;
+[1084] Ljava/util/Set<
+[1085] Ljava/util/TimeZone;
+[1086] Ljava/util/TreeMap;
+[1087] Ljava/util/WeakHashMap;
+[1088] Ljava/util/WeakHashMap<
+[1089] Ljava/util/concurrent/BlockingQueue;
+[1090] Ljava/util/concurrent/Callable;
+[1091] Ljava/util/concurrent/Callable<
+[1092] Ljava/util/concurrent/CancellationException;
+[1093] Ljava/util/concurrent/CopyOnWriteArrayList;
+[1094] Ljava/util/concurrent/CopyOnWriteArraySet;
+[1095] Ljava/util/concurrent/Delayed;
+[1096] Ljava/util/concurrent/ExecutionException;
+[1097] Ljava/util/concurrent/Executor;
+[1098] Ljava/util/concurrent/ExecutorService;
+[1099] Ljava/util/concurrent/Executors;
+[1100] Ljava/util/concurrent/Future;
+[1101] Ljava/util/concurrent/LinkedBlockingQueue;
+[1102] Ljava/util/concurrent/ScheduledFuture;
+[1103] Ljava/util/concurrent/ThreadFactory;
+[1104] Ljava/util/concurrent/ThreadPoolExecutor;
+[1105] Ljava/util/concurrent/TimeUnit;
+[1106] Ljava/util/concurrent/TimeoutException;
+[1107] Ljava/util/concurrent/atomic/AtomicBoolean;
+[1108] Ljava/util/concurrent/atomic/AtomicInteger;
+[1109] Ljava/util/concurrent/atomic/AtomicReference;
+[1110] Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+[1111] Ljava/util/concurrent/locks/LockSupport;
+[1112] Ljava/util/function/BiConsumer;
+[1113] Ljava/util/function/BiConsumer<
+[1114] Ljava/util/function/Consumer;
+[1115] Ljava/util/function/Consumer<
+[1116] Ljava/util/logging/Level;
+[1117] Ljava/util/logging/Logger;
+[1118] Ljava/util/regex/Matcher;
+[1119] Ljava/util/regex/Pattern;
+[1120] Ljava/util/zip/DataFormatException;
+[1121] Ljava/util/zip/Deflater;
+[1122] Ljava/util/zip/DeflaterOutputStream;
+[1123] Ljava/util/zip/Inflater;
+[1124] Ljavax/crypto/Cipher;
+[1125] Ljavax/crypto/KeyGenerator;
+[1126] Ljavax/crypto/SecretKey;
+[1127] Ljavax/crypto/spec/GCMParameterSpec;
+[1128] Lk0;
+[1129] Lk1;
+[1130] Lk2;
+[1131] Lk3;
+[1132] Lk4;
+[1133] Lk5;
+[1134] Lk6;
+[1135] Lk7;
+[1136] Lk8;
+[1137] Lk9;
+[1138] Lk;
+[1139] Ll0;
+[1140] Ll1;
+[1141] Ll2;
+[1142] Ll3;
+[1143] Ll4;
+[1144] Ll5;
+[1145] Ll6;
+[1146] Ll7$a;
+[1147] Ll7;
+[1148] Ll8;
+[1149] Ll9;
+[1150] Ll;
+[1151] Lm0;
+[1152] Lm1;
+[1153] Lm2;
+[1154] Lm3;
+[1155] Lm4;
+[1156] Lm5;
+[1157] Lm6;
+[1158] Lm7;
+[1159] Lm8;
+[1160] Lm9;
+[1161] Lm;
+[1162] Ln0;
+[1163] Ln1;
+[1164] Ln2;
+[1165] Ln3;
+[1166] Ln4;
+[1167] Ln5;
+[1168] Ln6;
+[1169] Ln7;
+[1170] Ln8;
+[1171] Ln9;
+[1172] Ln;
+[1173] Lo0;
+[1174] Lo1;
+[1175] Lo2;
+[1176] Lo3;
+[1177] Lo4;
+[1178] Lo5;
+[1179] Lo6;
+[1180] Lo7;
+[1181] Lo8;
+[1182] Lo9;
+[1183] Lo;
+[1184] Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
+[1185] Lorg/chromium/support_lib_boundary/FeatureFlagHolderBoundaryInterface;
+[1186] Lorg/chromium/support_lib_boundary/IsomorphicObjectBoundaryInterface;
+[1187] Lorg/chromium/support_lib_boundary/JsReplyProxyBoundaryInterface;
+[1188] Lorg/chromium/support_lib_boundary/NoVarySearchDataBoundaryInterface;
+[1189] Lorg/chromium/support_lib_boundary/PrefetchOperationCallbackBoundaryInterface$PrefetchExceptionTypeBoundaryInterface;
+[1190] Lorg/chromium/support_lib_boundary/PrefetchOperationCallbackBoundaryInterface;
+[1191] Lorg/chromium/support_lib_boundary/ProcessGlobalConfigConstants$ProcessGlobalConfigMapKey;
+[1192] Lorg/chromium/support_lib_boundary/ProcessGlobalConfigConstants;
+[1193] Lorg/chromium/support_lib_boundary/ProfileBoundaryInterface;
+[1194] Lorg/chromium/support_lib_boundary/ProfileStoreBoundaryInterface;
+[1195] Lorg/chromium/support_lib_boundary/ProxyControllerBoundaryInterface;
+[1196] Lorg/chromium/support_lib_boundary/SafeBrowsingResponseBoundaryInterface;
+[1197] Lorg/chromium/support_lib_boundary/ScriptHandlerBoundaryInterface;
+[1198] Lorg/chromium/support_lib_boundary/ServiceWorkerClientBoundaryInterface;
+[1199] Lorg/chromium/support_lib_boundary/ServiceWorkerControllerBoundaryInterface;
+[1200] Lorg/chromium/support_lib_boundary/ServiceWorkerWebSettingsBoundaryInterface;
+[1201] Lorg/chromium/support_lib_boundary/SpeculativeLoadingConfigBoundaryInterface;
+[1202] Lorg/chromium/support_lib_boundary/SpeculativeLoadingParametersBoundaryInterface;
+[1203] Lorg/chromium/support_lib_boundary/StaticsBoundaryInterface;
+[1204] Lorg/chromium/support_lib_boundary/TracingControllerBoundaryInterface;
+[1205] Lorg/chromium/support_lib_boundary/VisualStateCallbackBoundaryInterface;
+[1206] Lorg/chromium/support_lib_boundary/WebMessageBoundaryInterface;
+[1207] Lorg/chromium/support_lib_boundary/WebMessageCallbackBoundaryInterface;
+[1208] Lorg/chromium/support_lib_boundary/WebMessageListenerBoundaryInterface;
+[1209] Lorg/chromium/support_lib_boundary/WebMessagePayloadBoundaryInterface$WebMessagePayloadType;
+[1210] Lorg/chromium/support_lib_boundary/WebMessagePayloadBoundaryInterface;
+[1211] Lorg/chromium/support_lib_boundary/WebMessagePortBoundaryInterface;
+[1212] Lorg/chromium/support_lib_boundary/WebResourceErrorBoundaryInterface;
+[1213] Lorg/chromium/support_lib_boundary/WebResourceRequestBoundaryInterface;
+[1214] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$AttributionBehavior;
+[1215] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$ForceDarkBehavior;
+[1216] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$SpeculativeLoadingStatus;
+[1217] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$WebViewMediaIntegrityApiStatus;
+[1218] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$WebauthnSupport;
+[1219] Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+[1220] Lorg/chromium/support_lib_boundary/WebStorageBoundaryInterface;
+[1221] Lorg/chromium/support_lib_boundary/WebViewBuilderBoundaryInterface$Baseline;
+[1222] Lorg/chromium/support_lib_boundary/WebViewBuilderBoundaryInterface$Config;
+[1223] Lorg/chromium/support_lib_boundary/WebViewBuilderBoundaryInterface$ConfigField;
+[1224] Lorg/chromium/support_lib_boundary/WebViewBuilderBoundaryInterface;
+[1225] Lorg/chromium/support_lib_boundary/WebViewClientBoundaryInterface;
+[1226] Lorg/chromium/support_lib_boundary/WebViewCookieManagerBoundaryInterface;
+[1227] Lorg/chromium/support_lib_boundary/WebViewNavigationBoundaryInterface;
+[1228] Lorg/chromium/support_lib_boundary/WebViewNavigationClientBoundaryInterface;
+[1229] Lorg/chromium/support_lib_boundary/WebViewPageBoundaryInterface;
+[1230] Lorg/chromium/support_lib_boundary/WebViewProviderBoundaryInterface;
+[1231] Lorg/chromium/support_lib_boundary/WebViewProviderFactoryBoundaryInterface;
+[1232] Lorg/chromium/support_lib_boundary/WebViewRendererBoundaryInterface;
+[1233] Lorg/chromium/support_lib_boundary/WebViewRendererClientBoundaryInterface;
+[1234] Lorg/chromium/support_lib_boundary/WebViewStartUpCallbackBoundaryInterface;
+[1235] Lorg/chromium/support_lib_boundary/WebViewStartUpConfigBoundaryInterface;
+[1236] Lorg/chromium/support_lib_boundary/WebViewStartUpResultBoundaryInterface;
+[1237] Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+[1238] Lorg/json/JSONArray;
+[1239] Lorg/json/JSONObject;
+[1240] Lorg/xmlpull/v1/XmlPullParser;
+[1241] Lorg/xmlpull/v1/XmlPullParserException;
+[1242] Lp0;
+[1243] Lp1;
+[1244] Lp2;
+[1245] Lp3;
+[1246] Lp4;
+[1247] Lp5;
+[1248] Lp6;
+[1249] Lp7;
+[1250] Lp8;
+[1251] Lp9;
+[1252] Lp;
+[1253] Lq0;
+[1254] Lq1;
+[1255] Lq2;
+[1256] Lq3;
+[1257] Lq4;
+[1258] Lq5;
+[1259] Lq6;
+[1260] Lq7;
+[1261] Lq8;
+[1262] Lq9;
+[1263] Lq;
+[1264] Lr0;
+[1265] Lr1;
+[1266] Lr2;
+[1267] Lr3;
+[1268] Lr4;
+[1269] Lr5;
+[1270] Lr6;
+[1271] Lr7;
+[1272] Lr8;
+[1273] Lr9;
+[1274] Lr;
+[1275] Ls0;
+[1276] Ls1;
+[1277] Ls2;
+[1278] Ls3;
+[1279] Ls4;
+[1280] Ls5;
+[1281] Ls6;
+[1282] Ls7;
+[1283] Ls8;
+[1284] Ls9;
+[1285] Ls;
+[1286] Lt0;
+[1287] Lt1;
+[1288] Lt2;
+[1289] Lt3;
+[1290] Lt4;
+[1291] Lt5;
+[1292] Lt6;
+[1293] Lt7;
+[1294] Lt8;
+[1295] Lt9;
+[1296] Lt;
+[1297] Lu0;
+[1298] Lu1;
+[1299] Lu2;
+[1300] Lu3;
+[1301] Lu4;
+[1302] Lu5;
+[1303] Lu6;
+[1304] Lu7;
+[1305] Lu8;
+[1306] Lu9;
+[1307] Lu;
+[1308] Lv0;
+[1309] Lv1;
+[1310] Lv2;
+[1311] Lv3;
+[1312] Lv4;
+[1313] Lv5;
+[1314] Lv6;
+[1315] Lv7;
+[1316] Lv8;
+[1317] Lv9;
+[1318] Lv;
+[1319] Lw0;
+[1320] Lw1;
+[1321] Lw2;
+[1322] Lw3;
+[1323] Lw4;
+[1324] Lw5;
+[1325] Lw6;
+[1326] Lw7;
+[1327] Lw8;
+[1328] Lw9;
+[1329] Lw;
+[1330] Lx0;
+[1331] Lx1;
+[1332] Lx2;
+[1333] Lx3;
+[1334] Lx4;
+[1335] Lx5;
+[1336] Lx6;
+[1337] Lx7;
+[1338] Lx8;
+[1339] Lx9;
+[1340] Lx;
+[1341] Ly0;
+[1342] Ly1;
+[1343] Ly2;
+[1344] Ly3;
+[1345] Ly4;
+[1346] Ly5;
+[1347] Ly6;
+[1348] Ly7;
+[1349] Ly8;
+[1350] Ly9;
+[1351] Ly;
+[1352] Lz0;
+[1353] Lz1;
+[1354] Lz2;
+[1355] Lz3;
+[1356] Lz4;
+[1357] Lz5;
+[1358] Lz6;
+[1359] Lz7;
+[1360] Lz8;
+[1361] Lz9;
+[1362] Lz;
+[1363] M
+[1364] MEDIA_QUERY_ONLY
+[1365] META_DATA_FILE_PROVIDER_PATHS
+[1366] METHOD
+[1367] MILLISECONDS
+[1368] MODEL
+[1369] MS
+[1370] MULTI_COOKIE_HEADER_NAME
+[1371] MULTI_COOKIE_VALUE_SEPARATOR
+[1372] MULTI_PROCESS
+[1373] MULTI_PROCESS_QUERY
+[1374] MULTI_PROFILE
+[1375] MULTI_PROFILE didukung: 
+[1376] MULTI_PROFILE tidak didukung — sesi tidak terisolasi
+[1377] MUTE_AUDIO
+[1378] MY
+[1379] Maksimal %d akun per layanan.
+[1380] Maksimum %d akaun setiap perkhidmatan.
+[1381] Masukkan dahulu kod lesennya.
+[1382] Masukkan dulu kode lisensinya.
+[1383] Masukkan kod lesen untuk mengaktifkan aplikasi.
+[1384] Masukkan kode lisensi untuk mengaktifkan aplikasi.
+[1385] Maximum %d accounts per service.
+[1386] Media Sosial
+[1387] MediaStore insert gagal
+[1388] Memeriksa kode lisensi…
+[1389] Memuat turun %s…
+[1390] Memuat turun kemas kini…
+[1391] Memuat turun… %d%%
+[1392] Mengecek update…
+[1393] Mengunduh %s…
+[1394] Mengunduh update…
+[1395] Mengunduh… %d%%
+[1396] Menu
+[1397] Menyemak kemas kini…
+[1398] Menyemak kod lesen…
+[1399] Method 
+[1400] Mismatched number of dex files found in metadata
+[1401] Missing android.support.FILE_PROVIDER_PATHS meta-data
+[1402] Missing profile key: 
+[1403] Mu
+[1404] Muat Turun
+[1405] Muat Turun Kemas Kini
+[1406] Muat turun dibatalkan
+[1407] Muat turun gagal
+[1408] Muat turun selesai: %s
+[1409] Muse AI
+[1410] N
+[1411] NANOSECONDS
+[1412] NAVIGATION_CALLBACK_BASIC
+[1413] NETWORK
+[1414] NONE
+[1415] Nama akaun tidak boleh kosong.
+[1416] Nama akaun, contoh: Akaun 1
+[1417] Nama akun tidak boleh kosong.
+[1418] Nama akun, misal: Akun 1
+[1419] Name must not be empty
+[1420] Nanti
+[1421] Next event must be ON_CREATE
+[1422] Next event must be ON_CREATE, it was 
+[1423] No accounts yet. Tap + to add one.
+[1424] No connection
+[1425] No external inserts
+[1426] No external updates
+[1427] No initializer set for given class 
+[1428] No services or accounts match.
+[1429] NoPadding
+[1430] Not allowed.
+[1431] Not enough bytes to read: 
+[1432] O
+[1433] OFF_SCREEN_PRERASTER
+[1434] ON_ANY
+[1435] ON_ANY must not been send by anybody
+[1436] ON_CREATE
+[1437] ON_DESTROY
+[1438] ON_PAUSE
+[1439] ON_RESUME
+[1440] ON_START
+[1441] ON_STOP
+[1442] OggS
+[1443] Ok(state=
+[1444] Open
+[1445] Open Settings
+[1446] Operation is not supported for read-only collection
+[1447] Order of dexfiles in metadata did not match baseline
+[1448] Ou
+[1449] Outlook
+[1450] P
+[1451] PACKAGE
+[1452] PARAMETER
+[1453] PAYMENT_REQUEST
+[1454] PENDING
+[1455] PENDING, info=[
+[1456] PNG
+[1457] POST
+[1458] POST_WEB_MESSAGE
+[1459] PREFER_MEDIA_QUERY_OVER_FORCE_DARK
+[1460] PREFETCH_URL_V4
+[1461] PRERENDER_ENABLED
+[1462] PRERENDER_URL_V2
+[1463] PRERENDER_WITH_URL
+[1464] PROFILE_URL_PREFETCH
+[1465] PROVIDER_WEAKLY_REF_WEBVIEW
+[1466] PROXY_OVERRIDE
+[1467] PROXY_OVERRIDE:3
+[1468] PROXY_OVERRIDE_REVERSE_BYPASS
+[1469] Padam
+[1470] Padam akaun
+[1471] Padam akaun?
+[1472] Parcelizer
+[1473] Pemasang dibuka — lanjutkan pemasangan di layar berikutnya.
+[1474] Pemasang dibuka — teruskan pemasangan di skrin seterusnya.
+[1475] Pemeriksaan update tidak berhasil (kode %s)
+[1476] PendingDownload(kind=
+[1477] Pengaktifan gagal. Cuba lagi.
+[1478] Percubaan 1 hari
+[1479] Periksa koneksi internet kamu, lalu coba lagi.
+[1480] Permission request for permissions 
+[1481] Pilih bahasa
+[1482] Pm
+[1483] PrefetchExceptionTypeBoundaryInterface
+[1484] Prerender operation failed
+[1485] ProcessGlobalConfigMapKey
+[1486] Profil dipasang untuk 
+[1487] ProfileInstaller
+[1488] Proton Mail
+[1489] Provider must grant uri permissions
+[1490] Provider must not be exported
+[1491] Putih
+[1492] Q
+[1493] R
+[1494] RECEIVE_HTTP_ERROR
+[1495] RECEIVE_WEB_RESOURCE_ERROR
+[1496] REQUESTED_WITH_HEADER_ALLOW_LIST
+[1497] RESOURCE
+[1498] RESULT_ALREADY_INSTALLED
+[1499] RESULT_BASELINE_PROFILE_NOT_FOUND
+[1500] RESULT_CANCELED
+[1501] RESULT_DELETE_SKIP_FILE_SUCCESS
+[1502] RESULT_DESIRED_FORMAT_UNSUPPORTED
+[1503] RESULT_INSTALL_SKIP_FILE_SUCCESS
+[1504] RESULT_INSTALL_SUCCESS
+[1505] RESULT_IO_EXCEPTION
+[1506] RESULT_NOT_WRITABLE
+[1507] RESULT_OK
+[1508] RESULT_PARSE_EXCEPTION
+[1509] RESULT_UNSUPPORTED_ART_VERSION
+[1510] RESUMED
+[1511] RIFF
+[1512] ROOT
+[1513] Read too much data during profile line parse
+[1514] Reflection failed for method 
+[1515] Refresh
+[1516] Remove from favorites
+[1517] Rename
+[1518] Rename account
+[1519] Requested element count 
+[1520] Requires new Baseline Profile Metadata. Please rebuild the APK with Android Gradle Plugin 7.2 Canary 7 or higher
+[1521] Resolved path jumped beyond configured root
+[1522] Restarter must be created only during owner's initialization stage
+[1523] Rp149.000
+[1524] Rp25.000
+[1525] Rp99.000
+[1526] RuntimeException while executing runnable null with executor null
+[1527] S
+[1528] SAFE_BROWSING_ALLOWLIST
+[1529] SAFE_BROWSING_ENABLE
+[1530] SAFE_BROWSING_HIT
+[1531] SAFE_BROWSING_PRIVACY_POLICY_URL
+[1532] SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY
+[1533] SAFE_BROWSING_RESPONSE_PROCEED
+[1534] SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL
+[1535] SAFE_BROWSING_WHITELIST
+[1536] SAVE_STATE
+[1537] SDK_INT
+[1538] SERIF
+[1539] SERVICE_WORKER_BASIC_USAGE
+[1540] SERVICE_WORKER_BLOCK_NETWORK_LOADS
+[1541] SERVICE_WORKER_CACHE_MODE
+[1542] SERVICE_WORKER_CONTENT_ACCESS
+[1543] SERVICE_WORKER_FILE_ACCESS
+[1544] SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST
+[1545] SEVERE
+[1546] SHA-256
+[1547] SHOULD_OVERRIDE_WITH_REDIRECTS
+[1548] SOSMED
+[1549] SOURCE
+[1550] SPECULATIVE_LOADING
+[1551] SPECULATIVE_LOADING_CONFIG
+[1552] SPECULATIVE_LOADING_CONFIG_V2
+[1553] SPECULATIVE_LOADING_STATUS
+[1554] SRC_IN
+[1555] STARTED
+[1556] STARTUP_FEATURE_CONFIGURE_PARTITIONED_COOKIES
+[1557] STARTUP_FEATURE_SET_DATA_DIRECTORY_SUFFIX
+[1558] STARTUP_FEATURE_SET_DIRECTORY_BASE_PATH
+[1559] STARTUP_FEATURE_SET_DIRECTORY_BASE_PATHS
+[1560] START_SAFE_BROWSING
+[1561] SUCCESS, result=[
+[1562] SafeAtomicHelper is broken!
+[1563] Save
+[1564] SavedStateProvider with the given key is already registered
+[1565] SavedStateRegistry was already attached.
+[1566] SavedStateRegistry was already restored.
+[1567] Search accounts…
+[1568] Segar semula
+[1569] Semak Kemas kini
+[1570] Semak sambungan internet anda, kemudian cuba lagi.
+[1571] Semakan kemas kini tidak berjaya (kod %s)
+[1572] Senarai
+[1573] Senarai dikemas kini
+[1574] Service(id=
+[1575] Seumur hidup
+[1576] Simpan
+[1577] Skipping profile installation for 
+[1578] Social
+[1579] SpeculativeLoadingStatus
+[1580] Startup
+[1581] Step is zero.
+[1582] Step must be greater than Int.MIN_VALUE to avoid overflow on negation.
+[1583] Step must be non-zero.
+[1584] Storage permission denied, download cancelled.
+[1585] String
+[1586] Su
+[1587] Sudah versi terbaru (%s).
+[1588] Sudah versi terkini (%s).
+[1589] Suno
+[1590] T
+[1591] TAB
+[1592] TAG_CACHE_PATH
+[1593] TAG_EXTERNAL
+[1594] TAG_EXTERNAL_CACHE
+[1595] TAG_EXTERNAL_FILES
+[1596] TAG_EXTERNAL_MEDIA
+[1597] TAG_FILES_PATH
+[1598] TAG_ROOT_PATH
+[1599] TL_BR
+[1600] TOP_BOTTOM
+[1601] TRACE_TAG_APP
+[1602] TRACING_CONTROLLER_BASIC_USAGE
+[1603] TRUE
+[1604] TYPE
+[1605] TYPE_ARRAY_BUFFER
+[1606] TYPE_STRING
+[1607] TYPE_USE
+[1608] Tab
+[1609] Tambah
+[1610] Tambah akaun %s
+[1611] Tambah akun %s
+[1612] Task was cancelled.
+[1613] Telegram admin
+[1614] Th
+[1615] The bytes saved do not match expectation. actual=
+[1616] The update file could not be verified — download cancelled.
+[1617] This container does not support retaining Map.Entry objects
+[1618] This device doesn't support aot. Did you call deviceSupportsAotProfile()?
+[1619] This license is bound to another device. Please contact admin for help.
+[1620] This license is no longer active. Please contact admin for help.
+[1621] This method is not supported by the current version of the framework and the current WebView APK
+[1622] This should never happen, if this method was called it means we're trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily
+[1623] Threads
+[1624] Tiada perkhidmatan/akaun yang sepadan.
+[1625] Tiada sambungan
+[1626] Tidak ada koneksi
+[1627] Tidak ada layanan/akun yang cocok.
+[1628] Tidak bisa membuka tautan.
+[1629] Tidak bisa memeriksa lisensi. Cek koneksi lalu coba lagi.
+[1630] Tidak bisa memeriksa update
+[1631] Tidak dapat membuka pautan.
+[1632] Tidak dapat menyemak kemas kini
+[1633] Tidak dapat menyemak lesen. Semak sambungan lalu cuba lagi.
+[1634] To install the update, allow "Install unknown apps" for Istana Virtual in Settings.
+[1635] Trace
+[1636] Trial 1 hari
+[1637] Try again
+[1638] Tukar bahasa
+[1639] Tukar bentuk
+[1640] Tukar nama
+[1641] Tukar nama akaun
+[1642] Tukar susun atur
+[1643] Tukar warna
+[1644] U
+[1645] UNKNOWN
+[1646] UNKNOWN, cause=[
+[1647] URI
+[1648] URI_MASKABLE
+[1649] US
+[1650] US-ASCII
+[1651] USER_AGENT_METADATA
+[1652] UTC
+[1653] UTF-16
+[1654] UTF-16BE
+[1655] UTF-16LE
+[1656] UTF-8
+[1657] UTF_8
+[1658] Ubah bahasa
+[1659] Ubah bentuk
+[1660] Ubah nama
+[1661] Ubah nama akun
+[1662] Ubah tata letak
+[1663] Ubah warna
+[1664] Unable to call isTagEnabled via reflection
+[1665] Unable to find configured root for 
+[1666] Unable to get icon resource
+[1667] Unduh
+[1668] Unduh Update
+[1669] Unduhan dibatalkan
+[1670] Unduhan gagal
+[1671] Unduhan selesai: %s
+[1672] Unknown
+[1673] Unknown feature 
+[1674] Unknown web message payload type: 
+[1675] Unsupported meta version
+[1676] Unsupported version
+[1677] Untuk memasang kemas kini, benarkan "Pasang aplikasi tidak dikenali" untuk Istana Virtual dalam tetapan.
+[1678] Untuk memasang update, izinkan "Instal aplikasi tidak dikenal" untuk Istana Virtual di pengaturan.
+[1679] Update available
+[1680] Update check did not succeed (code %s)
+[1681] Update sedang diunduh. Tunggu sampai selesai.
+[1682] Update tersedia
+[1683] UpdateAvailable(info=
+[1684] User-Agent
+[1685] V
+[1686] VF
+[1687] VFF
+[1688] VFFFF
+[1689] VFFFFFFL
+[1690] VFFFFL
+[1691] VFFFI
+[1692] VFFFLLL
+[1693] VI
+[1694] VII
+[1695] VIIF
+[1696] VIII
+[1697] VIIII
+[1698] VIIJJ
+[1699] VIIJLL
+[1700] VIIL
+[1701] VIL
+[1702] VILI
+[1703] VILL
+[1704] VILLL
+[1705] VILZ
+[1706] VISUAL_STATE_CALLBACK
+[1707] VJ
+[1708] VJL
+[1709] VL
+[1710] VLFFL
+[1711] VLI
+[1712] VLII
+[1713] VLIII
+[1714] VLIIL
+[1715] VLIILLLL
+[1716] VLIIZ
+[1717] VLIL
+[1718] VLILI
+[1719] VLILII
+[1720] VLILIII
+[1721] VLILIIIL
+[1722] VLILL
+[1723] VLILLL
+[1724] VLIZ
+[1725] VLJ
+[1726] VLJI
+[1727] VLJL
+[1728] VLL
+[1729] VLLI
+[1730] VLLIII
+[1731] VLLIIII
+[1732] VLLIL
+[1733] VLLILL
+[1734] VLLIZ
+[1735] VLLJIIILL
+[1736] VLLL
+[1737] VLLLI
+[1738] VLLLJ
+[1739] VLLLJZ
+[1740] VLLLL
+[1741] VLLLLI
+[1742] VLLLLJ
+[1743] VLLLLL
+[1744] VLLLLLIL
+[1745] VLLLLLL
+[1746] VLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+[1747] VLLLLZ
+[1748] VLLLZ
+[1749] VLLLZJL
+[1750] VLLLZL
+[1751] VLZ
+[1752] VLZLI
+[1753] VZ
+[1754] VZL
+[1755] Versi %s sudah tersedia.
+[1756] Versi %s tersedia.
+[1757] Versi %s · %s
+[1758] Version %s is available.
+[1759] Version %s is now available.
+[1760] Version %s · %s
+[1761] VersionedParcel encountered ClassNotFoundException
+[1762] VersionedParcel encountered IllegalAccessException
+[1763] VersionedParcel encountered InvocationTargetException
+[1764] VersionedParcel encountered NoSuchMethodException
+[1765] W
+[1766] WAVE
+[1767] WEBVIEW_BUILDER
+[1768] WEBVIEW_INTEGRITY_API_STATUS
+[1769] WEBVIEW_MEDIA_INTEGRITY_API_STATUS
+[1770] WEB_AUTHENTICATION
+[1771] WEB_MESSAGE_ARRAY_BUFFER
+[1772] WEB_MESSAGE_CALLBACK_ON_MESSAGE
+[1773] WEB_MESSAGE_LISTENER
+[1774] WEB_MESSAGE_PORT_CLOSE
+[1775] WEB_MESSAGE_PORT_POST_MESSAGE
+[1776] WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK
+[1777] WEB_RESOURCE_ERROR_GET_CODE
+[1778] WEB_RESOURCE_ERROR_GET_DESCRIPTION
+[1779] WEB_RESOURCE_REQUEST_IS_REDIRECT
+[1780] WEB_SOURCE_AND_WEB_TRIGGER
+[1781] WEB_STORAGE_DELETE_BROWSING_DATA
+[1782] WEB_VIEW_NAVIGATION_CLIENT_BASIC_USAGE
+[1783] WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE
+[1784] WEB_VIEW_RENDERER_TERMINATE
+[1785] WILDCARD_URI
+[1786] WRITE_SKIP_FILE
+[1787] Waited 
+[1788] WebMessagePayloadType
+[1789] WebViewMediaIntegrityApiStatus
+[1790] WebauthnSupport
+[1791] WhatsApp admin
+[1792] White
+[1793] Wrong data accessor type detected. 
+[1794] X
+[1795] Y
+[1796] You can consumeRestoredStateForKey only after super.onCreate of corresponding component
+[1797] You must call performAttach() before calling performRestore(Bundle).
+[1798] YouTube
+[1799] Your AI World, One Platform.
+[1800] Your activity is not yet attached to the Application instance. You can't request ViewModel before onCreate call.
+[1801] Yt
+[1802] Z
+[1803] ZC
+[1804] ZCCZ
+[1805] ZI
+[1806] ZIIL
+[1807] ZIL
+[1808] ZILII
+[1809] ZILL
+[1810] ZL
+[1811] ZLIL
+[1812] ZLJ
+[1813] ZLL
+[1814] ZLLIIZ
+[1815] ZLLL
+[1816] ZLZ
+[1817] ZLZZL
+[1818] ZZ
+[1819] ZZILII
+[1820] ZZZ
+[1821] [
+[1822] [B
+[1823] [C
+[1824] [F
+[1825] [I
+[1826] [La4;
+[1827] [Landroid/graphics/drawable/Drawable;
+[1828] [Landroid/graphics/drawable/GradientDrawable;
+[1829] [Landroid/webkit/WebMessagePort;
+[1830] [Landroidx/versionedparcelable/ParcelImpl;
+[1831] [Lc9;
+[1832] [Lcom/istana/akun/Service;
+[1833] [Lcom/istana/akun/ServiceCategory;
+[1834] [Lh9;
+[1835] [Lj0;
+[1836] [Ljava/io/File;
+[1837] [Ljava/lang/CharSequence;
+[1838] [Ljava/lang/Class;
+[1839] [Ljava/lang/Object;
+[1840] [Ljava/lang/StackTraceElement;
+[1841] [Ljava/lang/String;
+[1842] [Ljava/lang/reflect/InvocationHandler;
+[1843] [Ljava/lang/reflect/Method;
+[1844] [Ljava/lang/reflect/Type;
+[1845] [Lk5;
+[1846] [Ll5;
+[1847] [Ll;
+[1848] [Ln5;
+[1849] [Lo8;
+[1850] [Lt1;
+[1851] [Lx;
+[1852] [Lz3;
+[1853] [[Ljava/lang/String;
+[1854] []
+[1855] [^A-Za-z0-9._-]
+[1856] [status=
+[1857] \A\d+
+[1858] ]
+[1859] _
+[1860] _display_name
+[1861] _size
+[1862] a
+[1863] a0
+[1864] accept
+[1865] access$000
+[1866] accessFlags
+[1867] accountStore
+[1868] accounts
+[1869] active
+[1870] add
+[1871] addAll
+[1872] addContentView
+[1873] addDocumentStartJavaScript
+[1874] addFlags
+[1875] addJavascriptInterface
+[1876] addLast
+[1877] addObserver
+[1878] addOnDrawListener
+[1879] addRequestHeader
+[1880] addRoundRect
+[1881] addRow
+[1882] addSuppressed
+[1883] addTextChangedListener
+[1884] addUpdateListener
+[1885] addView
+[1886] addWebMessageListener
+[1887] addedAt
+[1888] adverse
+[1889] afterTextChanged
+[1890] akun-
+[1891] android.intent.action.VIEW
+[1892] android.os.Build$VERSION
+[1893] android.permission.POST_NOTIFICATIONS
+[1894] android.permission.WRITE_EXTERNAL_STORAGE
+[1895] android.settings.MANAGE_UNKNOWN_APP_SOURCES
+[1896] android.support.FILE_PROVIDER_PATHS
+[1897] android.webkit.WebViewFactory
+[1898] android.webkit.WebViewUpdateService
+[1899] android:support:activity-result
+[1900] android_id
+[1901] androidx.activity.result.contract.extra.PERMISSIONS
+[1902] androidx.activity.result.contract.extra.PERMISSION_GRANT_RESULTS
+[1903] androidx.lifecycle.BundlableSavedStateRegistry.key
+[1904] androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+[1905] androidx.lifecycle.internal.SavedStateHandlesProvider
+[1906] androidx.lifecycle.internal.SavedStateHandlesVM
+[1907] androidx.lifecycle.savedstate.vm.tag
+[1908] androidx.profileinstaller.action.BENCHMARK_OPERATION
+[1909] androidx.profileinstaller.action.INSTALL_PROFILE
+[1910] androidx.profileinstaller.action.SAVE_PROFILE
+[1911] androidx.profileinstaller.action.SKIP_FILE
+[1912] androidx.savedstate.Restarter
+[1913] append
+[1914] appendQueryParameter
+[1915] application/json
+[1916] application/octet-stream
+[1917] application/pdf
+[1918] application/vnd.android.package-archive
+[1919] apply
+[1920] arch_disk_io_
+[1921] areNotificationsEnabled
+[1922] argb
+[1923] arraycopy
+[1924] asList
+[1925] asSubclass
+[1926] attachInfo
+[1927] audio/m4a
+[1928] audio/mp3
+[1929] audio/mp4
+[1930] audio/mpeg
+[1931] audio/ogg
+[1932] audio/wav
+[1933] audio/webm
+[1934] audio/x-wav
+[1935] aurora
+[1936] authority
+[1937] available
+[1938] b
+[1939] b0
+[1940] backToSafety
+[1941] barcelona
+[1942] baseline
+[1943] beforeTextChanged
+[1944] beginSection
+[1945] beginTransaction
+[1946] blob:
+[1947] boolean
+[1948] booleanValue
+[1949] bottomMargin
+[1950] browser_fallback_url
+[1951] bubble
+[1952] build
+[1953] buildPath
+[1954] buildUpon
+[1955] buka output stream gagal
+[1956] byte
+[1957] c
+[1958] c0
+[1959] cache
+[1960] cache-path
+[1961] call
+[1962] called getResId() on 
+[1963] canRequestPackageInstalls
+[1964] canWrite
+[1965] cancel
+[1966] cancel download gagal
+[1967] cancelPendingInputEvents
+[1968] cardStyleRow
+[1969] card_style
+[1970] cast
+[1971] char
+[1972] charAt
+[1973] chatgpt
+[1974] checkLatest gagal: 
+[1975] checkPermission
+[1976] checkThread
+[1977] classes.dex
+[1978] classes_to_restore
+[1979] claude
+[1980] clay
+[1981] clear
+[1982] clearFlags
+[1983] clearPrefetch
+[1984] clearProxyOverride
+[1985] clipPath
+[1986] clone
+[1987] close
+[1988] commit
+[1989] compare
+[1990] compareAndSet
+[1991] compareTo
+[1992] compile
+[1993] compressed
+[1994] concat
+[1995] constructor (Kotlin reflection is not available)
+[1996] contains
+[1997] containsAll
+[1998] containsKey
+[1999] containsValue
+[2000] content
+[2001] convert
+[2002] convertCookieManager
+[2003] convertSafeBrowsingResponse
+[2004] convertServiceWorkerSettings
+[2005] convertSettings
+[2006] convertWebMessagePort
+[2007] convertWebResourceError
+[2008] convertWebResourceRequest
+[2009] convertWebStorage
+[2010] copyOf
+[2011] copyOfRange
+[2012] create
+[2013] createAsync
+[2014] createBitmap
+[2015] createDeviceProtectedStorageContext
+[2016] createFromParcel
+[2017] createInputStream
+[2018] createNewFile
+[2019] createProvider
+[2020] createWebMessageChannel
+[2021] createWebView
+[2022] createWebViewProviderFactory
+[2023] crypto
+[2024] cue
+[2025] currentThread
+[2026] currentTimeMillis
+[2027] d
+[2028] d MMMM yyyy
+[2029] d0
+[2030] data URL tanpa koma
+[2031] data:
+[2032] dataPosition
+[2033] dataSize
+[2034] decode
+[2035] decode blob gagal
+[2036] decode data URL gagal
+[2037] delay)
+[2038] delete
+[2039] deleteBrowsingData
+[2040] deleteBrowsingDataForSite
+[2041] deleteProfile
+[2042] density
+[2043] describeContents
+[2044] destroy
+[2045] destroy WebView gagal
+[2046] destroy popup gagal
+[2047] deviceId
+[2048] deviceInfo
+[2049] deviceType
+[2050] dexopt/baseline.prof
+[2051] dexopt/baseline.profm
+[2052] dicabut
+[2053] didCommit
+[2054] didCommitErrorPage
+[2055] digest
+[2056] dinonaktifkan
+[2057] disconnect
+[2058] dismiss
+[2059] dispatch
+[2060] dispatchDraw
+[2061] dispatchKeyEvent
+[2062] dispatchKeyShortcutEvent
+[2063] displayName
+[2064] doFinal
+[2065] doFrame
+[2066] dola
+[2067] double
+[2068] download
+[2069] download gagal: 
+[2070] drawBitmap
+[2071] drawRect
+[2072] drawRoundRect
+[2073] e
+[2074] e0
+[2075] edit
+[2076] elevenlabs
+[2077] en
+[2078] encode
+[2079] encodeToString
+[2080] encodedPath
+[2081] end
+[2082] endSection
+[2083] endsWith
+[2084] eng
+[2085] enqueue
+[2086] entrySet
+[2087] equals
+[2088] equalsIgnoreCase
+[2089] evaluateJavascript
+[2090] execute
+[2091] executePendingTransactions
+[2092] exists
+[2093] expired
+[2094] expires_at
+[2095] exported
+[2096] external-cache-path
+[2097] external-files-path
+[2098] external-media-path
+[2099] external-path
+[2100] f
+[2101] f0
+[2102] facebook
+[2103] false
+[2104] favorite
+[2105] fb
+[2106] fbsdk
+[2107] files-path
+[2108] fill
+[2109] find
+[2110] findFragmentByTag
+[2111] finished
+[2112] float
+[2113] floatValue
+[2114] flow
+[2115] flush
+[2116] flush cookie gagal
+[2117] forName
+[2118] format
+[2119] free
+[2120] fromIndex: 
+[2121] ftyp
+[2122] function 
+[2123] g
+[2124] g0
+[2125] gagal membuka 
+[2126] gemini
+[2127] generateKey
+[2128] get
+[2129] getAction
+[2130] getActionBar
+[2131] getActivity
+[2132] getAdditionalHeaders
+[2133] getAllProfileNames
+[2134] getAllowContentAccess
+[2135] getAllowFileAccess
+[2136] getAndIncrement
+[2137] getAnimatedValue
+[2138] getApplication
+[2139] getApplicationContext
+[2140] getApplicationInfo
+[2141] getAsArrayBuffer
+[2142] getAsString
+[2143] getAssets
+[2144] getAttributeValue
+[2145] getAttributionBehavior
+[2146] getBackForwardCacheEnabled
+[2147] getBackgroundExecutor
+[2148] getBlockNetworkLoads
+[2149] getBlockingStartUpLocations
+[2150] getBoolean
+[2151] getBundle
+[2152] getBytes
+[2153] getCacheDir
+[2154] getCacheMode
+[2155] getCanonicalFile
+[2156] getCanonicalPath
+[2157] getCause
+[2158] getChildAt
+[2159] getChildCount
+[2160] getClass
+[2161] getClassLoader
+[2162] getClassName
+[2163] getCodeCacheDir
+[2164] getComponentType
+[2165] getConsideredQueryParameters
+[2166] getContentLengthLong
+[2167] getContentResolver
+[2168] getContext
+[2169] getCookie
+[2170] getCookieInfo
+[2171] getCookieManager
+[2172] getCurrentLoadedWebViewPackage
+[2173] getCurrentWebViewPackage
+[2174] getCurrentWebViewPackageName
+[2175] getData
+[2176] getDeclaredConstructor
+[2177] getDeclaredMethod
+[2178] getDeclaringClass
+[2179] getDecorView
+[2180] getDelay
+[2181] getDescription
+[2182] getDisabledActionModeMenuItems
+[2183] getDisplayMetrics
+[2184] getDrawable
+[2185] getDropDataProvider
+[2186] getEncodedPath
+[2187] getEnterpriseAuthenticationAppLinkPolicyEnabled
+[2188] getEntry
+[2189] getErrorCode
+[2190] getErrorStream
+[2191] getExternalCacheDirs
+[2192] getExternalFilesDir
+[2193] getExternalFilesDirs
+[2194] getExternalMediaDirs
+[2195] getExternalStorageDirectory
+[2196] getExternalStoragePublicDirectory
+[2197] getExtras
+[2198] getFactory
+[2199] getField
+[2200] getFileProviderPathsMetaData
+[2201] getFilesDir
+[2202] getForceDark
+[2203] getForceDarkBehavior
+[2204] getFragmentManager
+[2205] getGenericInterfaces
+[2206] getGeoLocationPermissions
+[2207] getHasEnrolledInstrumentEnabled
+[2208] getHeight
+[2209] getIV
+[2210] getIgnoreDifferencesInParameters
+[2211] getIgnoredQueryParameters
+[2212] getImportance
+[2213] getIncludeCookiesOnIntercept
+[2214] getInputStream
+[2215] getInsetsController
+[2216] getInstance
+[2217] getInt
+[2218] getIntegerArrayList
+[2219] getIntent
+[2220] getInvocationHandler
+[2221] getJSONObject
+[2222] getKey
+[2223] getKeyCode
+[2224] getKeyDispatcherState
+[2225] getLastNonConfigurationInstance
+[2226] getLayoutParams
+[2227] getLifecycle() returned null in ComponentActivity's constructor. Please make sure you are lazily constructing your Lifecycle in the first call to getLifecycle() rather than relying on field initialization.
+[2228] getLoadedPackageInfo
+[2229] getLoadedWebViewPackageInfo
+[2230] getLocalPathStrategy
+[2231] getLocationOnScreen
+[2232] getLogger
+[2233] getLong
+[2234] getMainLooper
+[2235] getMaxPrefetches
+[2236] getMaxPrerenders
+[2237] getMaxTimePerTaskInUiThreadMillis
+[2238] getMenuInflater
+[2239] getMessage
+[2240] getMessagePayload
+[2241] getMethod
+[2242] getMethods
+[2243] getMimeTypeFromExtension
+[2244] getName
+[2245] getNoBackupFilesDir
+[2246] getNoVarySearchData
+[2247] getNotYetLoadedWebViewPackageInfo
+[2248] getOffscreenPreRaster
+[2249] getOnBackInvokedDispatcher
+[2250] getOrCreatePeer
+[2251] getOrCreateProfile
+[2252] getOutputStream
+[2253] getPackage
+[2254] getPackageInfo
+[2255] getPackageManager
+[2256] getPackageName
+[2257] getPage
+[2258] getParameterTypes
+[2259] getParent
+[2260] getPath
+[2261] getPathStrategy
+[2262] getPaymentRequestEnabled
+[2263] getPorts
+[2264] getPrefetchTTLSeconds
+[2265] getProfile
+[2266] getProfileStore
+[2267] getProgress
+[2268] getProperty
+[2269] getProvider
+[2270] getProviderAdapterCacheForTesting
+[2271] getProviderInfo
+[2272] getProxyController
+[2273] getQueryParameter
+[2274] getRequestedWithHeaderOriginAllowList
+[2275] getResId
+[2276] getResPackage
+[2277] getResources
+[2278] getResponseCode
+[2279] getSafeBrowsingEnabled
+[2280] getSafeBrowsingPrivacyPolicyUrl
+[2281] getScheme
+[2282] getSecretKey
+[2283] getServiceInfo
+[2284] getServiceWorkerController
+[2285] getServiceWorkerWebSettings
+[2286] getSettings
+[2287] getSharedPreferences
+[2288] getShimmerPhase
+[2289] getSimpleName
+[2290] getSingleton
+[2291] getSpeculativeLoadingStatus
+[2292] getStackTrace
+[2293] getStatics
+[2294] getStatusCode
+[2295] getStreamTypes
+[2296] getString
+[2297] getStringArrayList
+[2298] getStringExtra
+[2299] getSupportedFeatures
+[2300] getSuppressed
+[2301] getSwipeEdge
+[2302] getSystemService
+[2303] getSystemUiVisibility
+[2304] getTag
+[2305] getTargetException
+[2306] getText
+[2307] getThread
+[2308] getTime
+[2309] getTimeZone
+[2310] getTotalTimeInUiThreadMillis
+[2311] getTouchX
+[2312] getTouchY
+[2313] getTracingController
+[2314] getType
+[2315] getTypeAnonymous
+[2316] getUri
+[2317] getUriForFile
+[2318] getUrl
+[2319] getUserAgentMetadataMap
+[2320] getValue
+[2321] getVariationsHeader
+[2322] getVaryOnKeyOrder
+[2323] getViewTreeObserver
+[2324] getWebChromeClient
+[2325] getWebNavigationClient
+[2326] getWebStorage
+[2327] getWebViewBuilder
+[2328] getWebViewClassLoader
+[2329] getWebViewClient
+[2330] getWebViewLooper
+[2331] getWebViewMediaIntegrityApiDefaultStatus
+[2332] getWebViewMediaIntegrityApiOverrideRules
+[2333] getWebViewNavigationClient
+[2334] getWebViewRenderProcess
+[2335] getWebViewRenderProcessClient
+[2336] getWebViewRenderer
+[2337] getWebViewRendererClient
+[2338] getWebauthnSupport
+[2339] getWebkitToCompatConverter
+[2340] getWidth
+[2341] getWillSuppressErrorPage
+[2342] getWindow
+[2343] glass
+[2344] gmail
+[2345] grantUriPermissions
+[2346] gratis
+[2347] gravity
+[2348] grid
+[2349] guava.concurrent.generate_cancellation_cause
+[2350] guessFileName
+[2351] h
+[2352] h0
+[2353] handleLifecycleEvent
+[2354] hasFeature
+[2355] hasNext
+[2356] hasPrevious
+[2357] hash
+[2358] hashCode
+[2359] hostname
+[2360] http
+[2361] https
+[2362] https://chatgpt.com
+[2363] https://claude.ai
+[2364] https://cue.im
+[2365] https://elevenlabs.io
+[2366] https://facebook.com
+[2367] https://flow.google
+[2368] https://gemini.google.com
+[2369] https://instagram.com
+[2370] https://istana-akun.vercel.app/api/license/activate
+[2371] https://istana-akun.vercel.app/api/license/validate
+[2372] https://istana-akun.vercel.app/updates/android-latest.json
+[2373] https://mail.google.com
+[2374] https://mail.proton.me
+[2375] https://muse.ai
+[2376] https://outlook.live.com
+[2377] https://suno.com
+[2378] https://t.me/heyetherium
+[2379] https://wa.me/6285799821453
+[2380] https://wa.me/6285799821453?text=
+[2381] https://www.dola.com/
+[2382] https://www.facebook.com/
+[2383] https://www.instagram.com/
+[2384] https://www.instagram.com/istana.ai
+[2385] https://www.threads.com/
+[2386] https://www.youtube.com/
+[2387] https://youtube.com
+[2388] i
+[2389] i0
+[2390] icon
+[2391] id
+[2392] image/jpeg
+[2393] image/png
+[2394] index: 
+[2395] indexOf
+[2396] indexOfKey
+[2397] inflate
+[2398] init
+[2399] initCause
+[2400] initSafeBrowsing
+[2401] insert
+[2402] insertVisualStateCallback
+[2403] instagram
+[2404] int
+[2405] intValue
+[2406] intent
+[2407] interrupt
+[2408] interrupted
+[2409] invalidate
+[2410] invoke
+[2411] isAlgorithmicDarkeningAllowed
+[2412] isAssignableFrom
+[2413] isAttachedToWindow
+[2414] isAudioMuted
+[2415] isBack
+[2416] isCancelled
+[2417] isChangingConfigurations
+[2418] isDestroyed
+[2419] isDirectory
+[2420] isDone
+[2421] isEmpty
+[2422] isEnabled
+[2423] isFeatureSupported
+[2424] isFinishing
+[2425] isForMainFrame
+[2426] isForward
+[2427] isHistory
+[2428] isInstance
+[2429] isJavaScriptEnabled
+[2430] isModifierKey
+[2431] isMultiProcessEnabled
+[2432] isPrimitive
+[2433] isRedirect
+[2434] isReload
+[2435] isRestore
+[2436] isRunning
+[2437] isSameDocument
+[2438] isSpaceChar
+[2439] isStartupFeatureSupported
+[2440] isTagEnabled
+[2441] isTracing
+[2442] isWhitespace
+[2443] is_pending
+[2444] istana-akun-
+[2445] istana-akun-secrets
+[2446] istana-akun-update.apk
+[2447] istana_virtual
+[2448] iterator
+[2449] j
+[2450] j0
+[2451] k
+[2452] k0
+[2453] key
+[2454] keySet
+[2455] kotlin.Unit
+[2456] kotlin.collections.MutableMap
+[2457] kotlin.jvm.functions.
+[2458] kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+[2459] l
+[2460] l0
+[2461] lambda$startUpWebView$0
+[2462] lambda$startUpWebView$1
+[2463] lambda$startUpWebView$2
+[2464] lambda$startUpWebView$3
+[2465] language
+[2466] lastIndexOf
+[2467] lastUpdateTime
+[2468] last_validated_at
+[2469] lateinit property 
+[2470] layoutRow
+[2471] layout_style
+[2472] lazySet
+[2473] leftMargin
+[2474] length
+[2475] license-state
+[2476] licenseKey
+[2477] licenseManager
+[2478] lifetime
+[2479] light_theme
+[2480] list
+[2481] listFiles
+[2482] listIterator
+[2483] load
+[2484] loadUrl
+[2485] loadXmlMetaData
+[2486] log
+[2487] logo 
+[2488] logo akun 
+[2489] long
+[2490] longValue
+[2491] m
+[2492] m0
+[2493] mAuthority
+[2494] mAuthority is null. Did you override attachInfo and did not call super.attachInfo()?
+[2495] mLocalPathStrategy
+[2496] mLock
+[2497] mPageBoundaryInterface
+[2498] mResourceId
+[2499] makeText
+[2500] matcher
+[2501] max
+[2502] message
+[2503] metaData
+[2504] mime_type
+[2505] min
+[2506] mkdirs
+[2507] modCount
+[2508] modeToMode
+[2509] model
+[2510] ms
+[2511] muse
+[2512] mutate
+[2513] myLooper
+[2514] myPid
+[2515] myUid
+[2516] n
+[2517] n0
+[2518] name
+[2519] nanoTime
+[2520] needsDictionary
+[2521] newArray
+[2522] newFixedThreadPool
+[2523] newInstance
+[2524] newProxyInstance
+[2525] newThread
+[2526] newUpdater
+[2527] next
+[2528] nextIndex
+[2529] nextInt
+[2530] no event down from 
+[2531] no event up from 
+[2532] notes
+[2533] notification
+[2534] null
+[2535] o
+[2536] o0
+[2537] obj
+[2538] of
+[2539] ofFloat
+[2540] onActivityCreated
+[2541] onActivityDestroyed
+[2542] onActivityPaused
+[2543] onActivityPostCreated
+[2544] onActivityPostResumed
+[2545] onActivityPostStarted
+[2546] onActivityPreDestroyed
+[2547] onActivityPrePaused
+[2548] onActivityPreStopped
+[2549] onActivityResult
+[2550] onActivityResumed
+[2551] onActivitySaveInstanceState
+[2552] onActivityStarted
+[2553] onActivityStopped
+[2554] onAnimationUpdate
+[2555] onAttachedToWindow
+[2556] onBackCancelled
+[2557] onBackInvoked
+[2558] onBackPressed
+[2559] onBackProgressed
+[2560] onBackStarted
+[2561] onBlobBase64
+[2562] onBlobError
+[2563] onClick
+[2564] onCloseWindow
+[2565] onComplete
+[2566] onConfigurationChanged
+[2567] onCreate
+[2568] onCreatePanelMenu
+[2569] onCreateWindow
+[2570] onDestroy
+[2571] onDetachedFromWindow
+[2572] onDismiss
+[2573] onDownloadStart
+[2574] onDragEnd
+[2575] onDraw
+[2576] onFailure
+[2577] onFirstContentfulPaint
+[2578] onMenuItemSelected
+[2579] onMenuKeyEvent
+[2580] onMessage
+[2581] onMultiWindowModeChanged
+[2582] onNavigationCompleted
+[2583] onNavigationRedirected
+[2584] onNavigationStarted
+[2585] onNewIntent
+[2586] onPageCommitVisible
+[2587] onPageDOMContentLoadedEventFired
+[2588] onPageDeleted
+[2589] onPageLoadEventFired
+[2590] onPageStarted
+[2591] onPanelClosed
+[2592] onPause
+[2593] onPictureInPictureModeChanged
+[2594] onPostMessage
+[2595] onPreparePanel
+[2596] onReceive
+[2597] onReceiveValue
+[2598] onReceivedError
+[2599] onReceivedHttpError
+[2600] onRendererResponsive
+[2601] onRendererUnresponsive
+[2602] onRequestPermissionsResult
+[2603] onResume
+[2604] onRetainNonConfigurationInstance
+[2605] onSafeBrowsingHit
+[2606] onSaveInstanceState
+[2607] onSharedElementsReady
+[2608] onSizeChanged
+[2609] onStart
+[2610] onStop
+[2611] onSuccess
+[2612] onTextChanged
+[2613] onTrimMemory
+[2614] onUserInteraction
+[2615] onUserLeaveHint
+[2616] open
+[2617] openConnection
+[2618] openFd
+[2619] openFile
+[2620] openOutputStream
+[2621] optBoolean
+[2622] optLong
+[2623] optString
+[2624] ordinal
+[2625] org.chromium.android_webview.services.StartupFeatureMetadataHolder
+[2626] org.chromium.support_lib_glue.SupportLibReflectionUtil
+[2627] outlook
+[2628] p
+[2629] p0
+[2630] package:
+[2631] packageName
+[2632] park
+[2633] parkNanos
+[2634] parse
+[2635] parseBoolean
+[2636] parseColor
+[2637] parseInt
+[2638] parsePathStrategy
+[2639] parseUri
+[2640] path
+[2641] peekDecorView
+[2642] percuma
+[2643] performRestore cannot be called when owner is 
+[2644] plan
+[2645] post
+[2646] postDelayed
+[2647] postFrameCallback
+[2648] postInvalidate
+[2649] postJson gagal: 
+[2650] postMessage
+[2651] postMessageToMainFrame
+[2652] postMessageWithPayload
+[2653] postOnAnimation
+[2654] postVisualStateCallback
+[2655] postWebMessage
+[2656] prefetchUrl
+[2657] prerenderUrl
+[2658] prerenderUrlAsync
+[2659] previous
+[2660] previousIndex
+[2661] primary.prof
+[2662] proceed
+[2663] profileInstalled
+[2664] profileinstaller_profileWrittenFor_lastUpdateTime.dat
+[2665] protonmail
+[2666] put
+[2667] putAll
+[2668] putBoolean
+[2669] putBundle
+[2670] putExtra
+[2671] putInt
+[2672] putIntegerArrayList
+[2673] putParcelable
+[2674] putString
+[2675] putStringArrayList
+[2676] q
+[2677] q0
+[2678] query
+[2679] quote
+[2680] r
+[2681] r0
+[2682] r8-map-id-13e5fafbe175e6a59669692d0eae497e65616e16403f32d33c9c30a1f4e4679e
+[2683] read
+[2684] read 
+[2685] readByteArray
+[2686] readInt
+[2687] readLong
+[2688] readParcelable
+[2689] readString
+[2690] regionMatches
+[2691] registerActivityLifecycleCallbacks
+[2692] registerIn
+[2693] registerOnBackInvokedCallback
+[2694] relative_path
+[2695] reload
+[2696] remaining delay=[
+[2697] remove
+[2698] removeAll
+[2699] removeAllViews
+[2700] removeAt
+[2701] removeCallbacks
+[2702] removeObserver
+[2703] removeOnDrawListener
+[2704] removeRange
+[2705] removeTrailingSlash
+[2706] removeView
+[2707] removeWebMessageListener
+[2708] replace
+[2709] replaceAll
+[2710] reportFullyDrawn
+[2711] reportFullyDrawn() for ComponentActivity
+[2712] requestPermissions
+[2713] requestWindowFeature
+[2714] requireNonNull
+[2715] reset
+[2716] resolveActivity
+[2717] resolveContentProvider
+[2718] restore
+[2719] retainAll
+[2720] revoked
+[2721] rightMargin
+[2722] root
+[2723] root-path
+[2724] run
+[2725] runOnUiThread
+[2726] rw
+[2727] rwt
+[2728] s
+[2729] s0
+[2730] sCache
+[2731] sProviderAdapterCache
+[2732] sShouldCacheProvider
+[2733] save
+[2734] save 
+[2735] saveState
+[2736] scheme
+[2737] sendSignal
+[2738] sendToTarget
+[2739] serviceId
+[2740] set
+[2741] setAcceptCookie
+[2742] setAcceptThirdPartyCookies
+[2743] setAccessible
+[2744] setAlgorithmicDarkeningAllowed
+[2745] setAllCaps
+[2746] setAllowContentAccess
+[2747] setAllowFileAccess
+[2748] setAttributionBehavior
+[2749] setAudioMuted
+[2750] setBackForwardCacheEnabled
+[2751] setBackground
+[2752] setBackgroundColor
+[2753] setBackgroundDrawable
+[2754] setBlockModes
+[2755] setBlockNetworkLoads
+[2756] setBounds
+[2757] setCacheMode
+[2758] setCancelable
+[2759] setClearCachedDataIntervalMs
+[2760] setClickable
+[2761] setClipToOutline
+[2762] setColor
+[2763] setColorFilter
+[2764] setColors
+[2765] setCompoundDrawablePadding
+[2766] setCompoundDrawables
+[2767] setConnectTimeout
+[2768] setContentDescription
+[2769] setContentView
+[2770] setCornerRadius
+[2771] setCurrentState
+[2772] setDataAndType
+[2773] setDataPosition
+[2774] setDatabaseEnabled
+[2775] setDefaultTrafficStatsTag
+[2776] setDefaultTrafficStatsUid
+[2777] setDestinationInExternalPublicDir
+[2778] setDisabledActionModeMenuItems
+[2779] setDoOutput
+[2780] setDomStorageEnabled
+[2781] setDownloadListener
+[2782] setDuration
+[2783] setElevation
+[2784] setEllipsize
+[2785] setEnabled
+[2786] setEncryptionPaddings
+[2787] setEnterpriseAuthenticationAppLinkPolicyEnabled
+[2788] setFilterBitmap
+[2789] setFocusable
+[2790] setForceDark
+[2791] setForceDarkBehavior
+[2792] setGravity
+[2793] setHasEnrolledInstrumentEnabled
+[2794] setHint
+[2795] setHintTextColor
+[2796] setImageDrawable
+[2797] setImageResource
+[2798] setImportantForAccessibility
+[2799] setIncludeCookiesOnIntercept
+[2800] setInput
+[2801] setInputType
+[2802] setInterpolator
+[2803] setItems
+[2804] setJavaScriptEnabled
+[2805] setKeySize
+[2806] setLayout
+[2807] setLayoutParams
+[2808] setLineSpacing
+[2809] setLoadWithOverviewMode
+[2810] setMax
+[2811] setMessage
+[2812] setMimeType
+[2813] setMinHeight
+[2814] setMinWidth
+[2815] setMinimumHeight
+[2816] setName
+[2817] setNavigationBarColor
+[2818] setNegativeButton
+[2819] setNotificationVisibility
+[2820] setOffscreenPreRaster
+[2821] setOnClickListener
+[2822] setOnDismissListener
+[2823] setOrientation
+[2824] setPadding
+[2825] setPaymentRequestEnabled
+[2826] setPositiveButton
+[2827] setProfile
+[2828] setProfile gagal untuk 
+[2829] setProfile popup gagal untuk 
+[2830] setProgress
+[2831] setProgressDrawable
+[2832] setProxyOverride
+[2833] setRandomizedEncryptionRequired
+[2834] setReadTimeout
+[2835] setRepeatCount
+[2836] setRequestMethod
+[2837] setRequestProperty
+[2838] setRequestedWithHeaderOriginAllowList
+[2839] setResultCode
+[2840] setSafeBrowsingAllowlist
+[2841] setSafeBrowsingEnabled
+[2842] setSafeBrowsingWhitelist
+[2843] setScaleType
+[2844] setSelection
+[2845] setServiceWorkerClient
+[2846] setShader
+[2847] setShape
+[2848] setShimmerPhase
+[2849] setShouldCacheProvider
+[2850] setSingleChoiceItems
+[2851] setSingleLine
+[2852] setSpan
+[2853] setSpeculativeLoadingConfig
+[2854] setSpeculativeLoadingStatus
+[2855] setStackTrace
+[2856] setStatusBarColor
+[2857] setStroke
+[2858] setSupportMultipleWindows
+[2859] setSystemBarsAppearance
+[2860] setSystemUiVisibility
+[2861] setTag
+[2862] setText
+[2863] setTextColor
+[2864] setTextSize
+[2865] setTimeZone
+[2866] setTint
+[2867] setTitle
+[2868] setTypeface
+[2869] setUseWideViewPort
+[2870] setUserAgentMetadataFromMap
+[2871] setValue
+[2872] setView
+[2873] setVisibility
+[2874] setWebChromeClient
+[2875] setWebMessageCallback
+[2876] setWebNavigationClient
+[2877] setWebView
+[2878] setWebViewClient
+[2879] setWebViewMediaIntegrityApiStatus
+[2880] setWebViewNavigationClient
+[2881] setWebViewRenderProcessClient
+[2882] setWebViewRendererClient
+[2883] setWebauthnSupport
+[2884] setWillSuppressErrorPage
+[2885] sha256
+[2886] short
+[2887] shouldInterceptRequest
+[2888] shouldOverrideUrlLoading
+[2889] shouldRunUiThreadStartUpTasks
+[2890] shouldShowRequestPermissionRationale
+[2891] show
+[2892] showAsDropDown
+[2893] showAtLocation
+[2894] showInterstitial
+[2895] simpan unduhan gagal: 
+[2896] sin
+[2897] singleton
+[2898] singletonList
+[2899] singletonMap
+[2900] size
+[2901] size 
+[2902] sort
+[2903] sourceDir
+[2904] split
+[2905] start
+[2906] startActivity
+[2907] startActivityForResult
+[2908] startIntentSenderForResult
+[2909] startSafeBrowsing
+[2910] startUpWebView
+[2911] startsWith
+[2912] status
+[2913] stop
+[2914] subList
+[2915] subSequence
+[2916] substring
+[2917] suno
+[2918] superDispatchKeyEvent
+[2919] t
+[2920] t0
+[2921] tab
+[2922] terminate
+[2923] this future
+[2924] threads
+[2925] tidak aktif
+[2926] toArray
+[2927] toByteArray
+[2928] toLowerCase
+[2929] toNanos
+[2930] toString
+[2931] toUpperCase
+[2932] topMargin
+[2933] u
+[2934] u0
+[2935] unduhan gagal: 
+[2936] unmodifiableSet
+[2937] unpark
+[2938] unregisterOnBackInvokedCallback
+[2939] update
+[2940] updateEnabledCallbacks
+[2941] updateEnabledCallbacks()V
+[2942] updater
+[2943] uptimeMillis
+[2944] url
+[2945] userdebug
+[2946] v
+[2947] v0
+[2948] value
+[2949] valueAt
+[2950] valueOf
+[2951] values
+[2952] version
+[2953] versionName
+[2954] version_code
+[2955] video/mp4
+[2956] vnd.youtube
+[2957] void
+[2958] w
+[2959] w0
+[2960] wa
+[2961] wasInitiatedByPage
+[2962] widthPixels
+[2963] write
+[2964] writeByteArray
+[2965] writeInt
+[2966] writeLong
+[2967] writeParcelable
+[2968] writeString
+[2969] writeToParcel
+[2970] wt
+[2971] x
+[2972] x0
+[2973] y
+[2974] y0
+[2975] youtube
+[2976] yyyy-MM-dd'T'HH:mm:ss'Z'
+[2977] yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+[2978] z
+[2979] z0
+[2980] {}
+[2981] ~~R8{"backend":"dex","compilation-mode":"release","has-checksums":false,"min-api":24,"pg-map-id":"13e5fafbe175e6a59669692d0eae497e65616e16403f32d33c9c30a1f4e4679e","r8-mode":"full","version":"9.3.16"}
+[2982] © 2026 Istana Virtual
+[2983] ‹ 
+[2984] ›
+[2985] ⊞
+[2986] ⋯
+[2987] ▣
+[2988] ▦
+[2989] ▭
+[2990] ▲
+[2991] ▼
+[2992] ◇
+[2993] ○
+[2994] ◐
+[2995] ◫
+[2996] ☀
+[2997] ★
+[2998] ☆
+[2999] ☰
+[3000] ☾
+[3001] ✓
+[3002] ✓  
+[3003] ✦
+[3004] ������

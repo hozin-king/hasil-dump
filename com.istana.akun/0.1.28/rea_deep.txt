@@ -1,0 +1,839 @@
+
+===== Lcom/istana/akun/Services;-><clinit>()V =====
+  instructions: 149
+     0 new-instance                 v0, Lcom/istana/akun/Service;
+     1 const                        v1, 2130968596
+     2 invoke-static                v1, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+     3 move-result-object           v7
+     4 const-string                 v1, "flow"
+     5 const-string                 v2, "Flow"
+     6 const-string                 v3, "https://flow.google"
+     7 sget-object                  v12, Lcom/istana/akun/ServiceCategory;->a Lcom/istana/akun/ServiceCategory;
+     8 const-string                 v5, "Fl"
+     9 const                        v6, 2130968595
+    10 move-object                  v4, v12
+    11 invoke-direct/range          v0 ... v7, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    12 new-instance                 v2, Lcom/istana/akun/Service;
+    13 const                        v14, 2130968604
+    14 const/4                      v15, 0
+    15 const-string                 v9, "suno"
+    16 const-string                 v10, "Suno"
+    17 const-string                 v11, "https://suno.com"
+    18 const-string                 v13, "Su"
+    19 move-object                  v8, v2
+    20 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    21 new-instance                 v3, Lcom/istana/akun/Service;
+    22 const                        v14, 2130968593
+    23 const-string                 v9, "elevenlabs"
+    24 const-string                 v10, "ElevenLabs"
+    25 const-string                 v11, "https://elevenlabs.io"
+    26 const-string                 v13, "El"
+    27 move-object                  v8, v3
+    28 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    29 new-instance                 v4, Lcom/istana/akun/Service;
+    30 const                        v14, 2130968590
+    31 const-string                 v9, "claude"
+    32 const-string                 v10, "Claude"
+    33 const-string                 v11, "https://claude.ai"
+    34 const-string                 v13, "Cl"
+    35 move-object                  v8, v4
+    36 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    37 new-instance                 v5, Lcom/istana/akun/Service;
+    38 const                        v14, 2130968589
+    39 const-string                 v9, "chatgpt"
+    40 const-string                 v10, "ChatGPT"
+    41 const-string                 v11, "https://chatgpt.com"
+    42 const-string                 v13, "Cg"
+    43 move-object                  v8, v5
+    44 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    45 new-instance                 v6, Lcom/istana/akun/Service;
+    46 const                        v14, 2130968597
+    47 const-string                 v9, "gemini"
+    48 const-string                 v10, "Gemini"
+    49 const-string                 v11, "https://gemini.google.com"
+    50 const-string                 v13, "Ge"
+    51 move-object                  v8, v6
+    52 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    53 new-instance                 v7, Lcom/istana/akun/Service;
+    54 const                        v14, 2130968592
+    55 const-string                 v9, "dola"
+    56 const-string                 v10, "Dola"
+    57 const-string                 v11, "https://www.dola.com/"
+    58 const-string                 v13, "Do"
+    59 move-object                  v8, v7
+    60 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    61 new-instance                 v8, Lcom/istana/akun/Service;
+    62 const                        v14, 2130968601
+    63 const-string                 v9, "muse"
+    64 const-string                 v10, "Muse AI"
+    65 const-string                 v11, "https://muse.ai"
+    66 const-string                 v13, "Mu"
+    67 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    68 move-object                  v1, v8
+    69 new-instance                 v8, Lcom/istana/akun/Service;
+    70 const                        v14, 2130968591
+    71 const-string                 v9, "cue"
+    72 const-string                 v10, "Cue by Manus"
+    73 const-string                 v11, "https://cue.im"
+    74 const-string                 v13, "Cu"
+    75 invoke-direct/range          v8 ... v15, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    76 new-instance                 v9, Lcom/istana/akun/Service;
+    77 const                        v15, 2130968606
+    78 const/16                     v16, 0
+    79 const-string                 v10, "youtube"
+    80 const-string                 v11, "YouTube"
+    81 const-string                 v12, "https://youtube.com"
+    82 sget-object                  v21, Lcom/istana/akun/ServiceCategory;->b Lcom/istana/akun/ServiceCategory;
+    83 const-string                 v14, "Yt"
+    84 move-object/from16           v13, v21
+    85 invoke-direct/range          v9 ... v16, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    86 new-instance                 v17, Lcom/istana/akun/Service;
+    87 const                        v23, 2130968599
+    88 const/16                     v24, 0
+    89 const-string                 v18, "instagram"
+    90 const-string                 v19, "Instagram"
+    91 const-string                 v20, "https://instagram.com"
+    92 const-string                 v22, "Ig"
+    93 invoke-direct/range          v17 ... v24, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+    94 move-object/from16           v11, v17
+    95 new-instance                 v17, Lcom/istana/akun/Service;
+    96 const                        v23, 2130968605
+    97 const-string                 v18, "threads"
+    98 const-string                 v19, "Threads"
+    99 const-string                 v20, "https://www.threads.com/"
+   100 const-string                 v22, "Th"
+   101 invoke-direct/range          v17 ... v24, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+   102 move-object/from16           v12, v17
+   103 new-instance                 v17, Lcom/istana/akun/Service;
+   104 const                        v23, 2130968594
+   105 const-string                 v18, "facebook"
+   106 const-string                 v19, "Facebook"
+   107 const-string                 v20, "https://facebook.com"
+   108 const-string                 v22, "Fb"
+   109 invoke-direct/range          v17 ... v24, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+   110 new-instance                 v18, Lcom/istana/akun/Service;
+   111 const                        v24, 2130968598
+   112 const/16                     v25, 0
+   113 const-string                 v19, "gmail"
+   114 const-string                 v20, "Gmail"
+   115 const-string                 v21, "https://mail.google.com"
+   116 sget-object                  v30, Lcom/istana/akun/ServiceCategory;->c Lcom/istana/akun/ServiceCategory;
+   117 const-string                 v23, "Gm"
+   118 move-object/from16           v22, v30
+   119 invoke-direct/range          v18 ... v25, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+   120 new-instance                 v26, Lcom/istana/akun/Service;
+   121 const                        v32, 2130968602
+   122 const/16                     v33, 0
+   123 const-string                 v27, "outlook"
+   124 const-string                 v28, "Outlook"
+   125 const-string                 v29, "https://outlook.live.com"
+   126 const-string                 v31, "Ou"
+   127 invoke-direct/range          v26 ... v33, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+   128 move-object/from16           v15, v26
+   129 new-instance                 v16, Lcom/istana/akun/Service;
+   130 const                        v32, 2130968603
+   131 const-string                 v27, "protonmail"
+   132 const-string                 v28, "Proton Mail"
+   133 const-string                 v29, "https://mail.proton.me"
+   134 const-string                 v31, "Pm"
+   135 move-object/from16           v26, v16
+   136 invoke-direct/range          v26 ... v33, Lcom/istana/akun/Service;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/istana/akun/ServiceCategory; Ljava/lang/String; I Ljava/lang/Integer;)V
+   137 move-object                  v10, v9
+   138 move-object/from16           v13, v17
+   139 move-object/from16           v14, v18
+   140 move-object                  v9, v8
+   141 move-object                  v8, v1
+   142 move-object                  v1, v0
+   143 filled-new-array/range       v1 ... v16, [Lcom/istana/akun/Service;
+   144 move-result-object           v0
+   145 invoke-static                v0, Lp0;->o([Ljava/lang/Object;)Ljava/util/List;
+   146 move-result-object           v0
+   147 sput-object                  v0, Lcom/istana/akun/Services;->a Ljava/util/List;
+   148 return-void                  
+
+===== Lcom/istana/akun/ServiceCategory;-><clinit>()V =====
+  instructions: 19
+     0 new-instance                 v0, Lcom/istana/akun/ServiceCategory;
+     1 const-string                 v1, "AI"
+     2 const/4                      v2, 0
+     3 invoke-direct                v0, v1, v2, Ljava/lang/Enum;-><init>(Ljava/lang/String; I)V
+     4 sput-object                  v0, Lcom/istana/akun/ServiceCategory;->a Lcom/istana/akun/ServiceCategory;
+     5 new-instance                 v1, Lcom/istana/akun/ServiceCategory;
+     6 const-string                 v2, "SOSMED"
+     7 const/4                      v3, 1
+     8 invoke-direct                v1, v2, v3, Ljava/lang/Enum;-><init>(Ljava/lang/String; I)V
+     9 sput-object                  v1, Lcom/istana/akun/ServiceCategory;->b Lcom/istana/akun/ServiceCategory;
+    10 new-instance                 v2, Lcom/istana/akun/ServiceCategory;
+    11 const-string                 v3, "AKUN"
+    12 const/4                      v4, 2
+    13 invoke-direct                v2, v3, v4, Ljava/lang/Enum;-><init>(Ljava/lang/String; I)V
+    14 sput-object                  v2, Lcom/istana/akun/ServiceCategory;->c Lcom/istana/akun/ServiceCategory;
+    15 filled-new-array             v0, v1, v2, [Lcom/istana/akun/ServiceCategory;
+    16 move-result-object           v0
+    17 sput-object                  v0, Lcom/istana/akun/ServiceCategory;->d [Lcom/istana/akun/ServiceCategory;
+    18 return-void                  
+
+===== Lcom/istana/akun/CryptoStore;-><init>(Lcom/istana/akun/MainActivity;)V =====
+  instructions: 8
+     0 invoke-direct                v2, Ljava/lang/Object;-><init>()V
+     1 const-string                 v0, "istana-akun-secrets"
+     2 const/4                      v1, 0
+     3 invoke-virtual               v3, v0, v1, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+     4 move-result-object           v3
+     5 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+     6 iput-object                  v3, v2, Lcom/istana/akun/CryptoStore;->a Landroid/content/SharedPreferences;
+     7 return-void                  
+
+===== Lcom/istana/akun/CryptoStore;->a(Ljava/lang/String;)Ljavax/crypto/SecretKey; =====
+  instructions: 22
+     0 const-string                 v0, "AndroidKeyStore"
+     1 invoke-static                v0, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+     2 move-result-object           v0
+     3 const/4                      v1, 0
+     4 invoke-virtual               v0, v1, Ljava/security/KeyStore;->load(Ljava/security/KeyStore$LoadStoreParameter;)V
+     5 const-string                 v2, "istana-akun-"
+     6 invoke-virtual               v2, v3, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+     7 move-result-object           v3
+     8 invoke-virtual               v0, v3, v1, Ljava/security/KeyStore;->getEntry(Ljava/lang/String; Ljava/security/KeyStore$ProtectionParameter;)Ljava/security/KeyStore$Entry;
+     9 move-result-object           v3
+    10 if-nez                       v3, +003h
+    11 goto                         +10h
+    12 instance-of                  v0, v3, Ljava/security/KeyStore$SecretKeyEntry;
+    13 if-eqz                       v0, +005h
+    14 check-cast                   v3, Ljava/security/KeyStore$SecretKeyEntry;
+    15 goto                         +2h
+    16 move-object                  v3, v1
+    17 if-eqz                       v3, +007h
+    18 invoke-virtual               v3, Ljava/security/KeyStore$SecretKeyEntry;->getSecretKey()Ljavax/crypto/SecretKey;
+    19 move-result-object           v3
+    20 return-object                v3
+    21 return-object                v1
+
+===== Lcom/istana/akun/CryptoStore;->b(Ljava/lang/String;)Ljavax/crypto/SecretKey; =====
+  instructions: 38
+     0 invoke-static                v3, Lcom/istana/akun/CryptoStore;->a(Ljava/lang/String;)Ljavax/crypto/SecretKey;
+     1 move-result-object           v0
+     2 if-eqz                       v0, +003h
+     3 return-object                v0
+     4 const-string                 v0, "AES"
+     5 const-string                 v1, "AndroidKeyStore"
+     6 invoke-static                v0, v1, Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String; Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+     7 move-result-object           v0
+     8 new-instance                 v1, Landroid/security/keystore/KeyGenParameterSpec$Builder;
+     9 const-string                 v2, "istana-akun-"
+    10 invoke-virtual               v2, v3, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    11 move-result-object           v3
+    12 const/4                      v2, 3
+    13 invoke-direct                v1, v3, v2, Landroid/security/keystore/KeyGenParameterSpec$Builder;-><init>(Ljava/lang/String; I)V
+    14 const-string                 v3, "GCM"
+    15 filled-new-array             v3, [Ljava/lang/String;
+    16 move-result-object           v3
+    17 invoke-virtual               v1, v3, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setBlockModes([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    18 move-result-object           v3
+    19 const-string                 v1, "NoPadding"
+    20 filled-new-array             v1, [Ljava/lang/String;
+    21 move-result-object           v1
+    22 invoke-virtual               v3, v1, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setEncryptionPaddings([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    23 move-result-object           v3
+    24 const/16                     v1, 256
+    25 invoke-virtual               v3, v1, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setKeySize(I)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    26 move-result-object           v3
+    27 const/4                      v1, 1
+    28 invoke-virtual               v3, v1, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setRandomizedEncryptionRequired(Z)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+    29 move-result-object           v3
+    30 invoke-virtual               v3, Landroid/security/keystore/KeyGenParameterSpec$Builder;->build()Landroid/security/keystore/KeyGenParameterSpec;
+    31 move-result-object           v3
+    32 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    33 invoke-virtual               v0, v3, Ljavax/crypto/KeyGenerator;->init(Ljava/security/spec/AlgorithmParameterSpec;)V
+    34 invoke-virtual               v0, Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;
+    35 move-result-object           v3
+    36 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    37 return-object                v3
+
+===== Lcom/istana/akun/CryptoStore;->c(Ljava/lang/String;)Ljava/lang/String; =====
+  instructions: 122
+     0 iget-object                  v8, v8, Lcom/istana/akun/CryptoStore;->a Landroid/content/SharedPreferences;
+     1 const/4                      v0, 0
+     2 invoke-interface             v8, v9, v0, Landroid/content/SharedPreferences;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+     3 move-result-object           v8
+     4 if-nez                       v8, +004h
+     5 goto/16                      +0b3h
+     6 const-string                 v1, "."
+     7 filled-new-array             v1, [Ljava/lang/String;
+     8 move-result-object           v1
+     9 const/4                      v2, 0
+    10 aget-object                  v3, v1, v2
+    11 invoke-virtual               v3, Ljava/lang/String;->length()I
+    12 move-result                  v4
+    13 const/4                      v5, 1
+    14 if-nez                       v4, +043h
+    15 invoke-static                v1, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+    16 move-result-object           v1
+    17 invoke-virtual               v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    18 new-instance                 v3, Lq1;
+    19 new-instance                 v4, Ll8;
+    20 invoke-direct                v4, v1, Ll8;-><init>(Ljava/lang/Object;)V
+    21 invoke-direct                v3, v8, v4, Lq1;-><init>(Ljava/lang/String; Ll8;)V
+    22 new-instance                 v1, Lb8;
+    23 invoke-direct                v1, v3, Lb8;-><init>(Lq1;)V
+    24 new-instance                 v4, Ljava/util/ArrayList;
+    25 invoke-static                v1, Lq0;->p(Ljava/lang/Iterable;)I
+    26 move-result                  v1
+    27 invoke-direct                v4, v1, Ljava/util/ArrayList;-><init>(I)V
+    28 new-instance                 v1, Lp1;
+    29 invoke-direct                v1, v3, Lp1;-><init>(Lq1;)V
+    30 invoke-virtual               v1, Lp1;->hasNext()Z
+    31 move-result                  v3
+    32 if-eqz                       v3, +057h
+    33 invoke-virtual               v1, Lp1;->next()Ljava/lang/Object;
+    34 move-result-object           v3
+    35 check-cast                   v3, Lg3;
+    36 iget                         v6, v3, Lg3;->a I
+    37 iget                         v3, v3, Lg3;->b I
+    38 add-int/2addr                v3, v5
+    39 invoke-virtual               v8, v6, v3, Ljava/lang/String;->subSequence(I I)Ljava/lang/CharSequence;
+    40 move-result-object           v3
+    41 invoke-virtual               v3, Ljava/lang/Object;->toString()Ljava/lang/String;
+    42 move-result-object           v3
+    43 invoke-virtual               v4, v3, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    44 goto                         -1ch
+    45 invoke-static                v8, v3, v2, v2, Lm8;->q(Ljava/lang/CharSequence; Ljava/lang/String; I Z)I
+    46 move-result                  v1
+    47 const/4                      v4, -1
+    48 if-eq                        v1, v4, +031h
+    49 new-instance                 v6, Ljava/util/ArrayList;
+    50 const/16                     v7, 10
+    51 invoke-direct                v6, v7, Ljava/util/ArrayList;-><init>(I)V
+    52 move                         v7, v2
+    53 invoke-virtual               v8, v7, v1, Ljava/lang/String;->subSequence(I I)Ljava/lang/CharSequence;
+    54 move-result-object           v7
+    55 invoke-virtual               v7, Ljava/lang/Object;->toString()Ljava/lang/String;
+    56 move-result-object           v7
+    57 invoke-virtual               v6, v7, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    58 invoke-virtual               v3, Ljava/lang/String;->length()I
+    59 move-result                  v7
+    60 add-int/2addr                v7, v1
+    61 invoke-static                v8, v3, v7, v2, Lm8;->q(Ljava/lang/CharSequence; Ljava/lang/String; I Z)I
+    62 move-result                  v1
+    63 if-ne                        v1, v4, -014h
+    64 invoke-virtual               v8, Ljava/lang/String;->length()I
+    65 move-result                  v1
+    66 invoke-virtual               v8, v7, v1, Ljava/lang/String;->subSequence(I I)Ljava/lang/CharSequence;
+    67 move-result-object           v8
+    68 invoke-virtual               v8, Ljava/lang/Object;->toString()Ljava/lang/String;
+    69 move-result-object           v8
+    70 invoke-virtual               v6, v8, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    71 move-object                  v4, v6
+    72 goto                         +9h
+    73 invoke-virtual               v8, Ljava/lang/Object;->toString()Ljava/lang/String;
+    74 move-result-object           v8
+    75 invoke-static                v8, Lp8;->i(Ljava/lang/Object;)Ljava/util/List;
+    76 move-result-object           v4
+    77 invoke-interface             v4, Ljava/util/List;->size()I
+    78 move-result                  v8
+    79 const/4                      v1, 2
+    80 if-eq                        v8, v1, +003h
+    81 goto                         +1bh
+    82 invoke-interface             v4, v2, Ljava/util/List;->get(I)Ljava/lang/Object;
+    83 move-result-object           v8
+    84 check-cast                   v8, Ljava/lang/String;
+    85 invoke-static                v8, v2, Landroid/util/Base64;->decode(Ljava/lang/String; I)[B
+    86 move-result-object           v8
+    87 invoke-interface             v4, v5, Ljava/util/List;->get(I)Ljava/lang/Object;
+    88 move-result-object           v3
+    89 check-cast                   v3, Ljava/lang/String;
+    90 invoke-static                v3, v2, Landroid/util/Base64;->decode(Ljava/lang/String; I)[B
+    91 move-result-object           v2
+    92 invoke-static                v9, Lcom/istana/akun/CryptoStore;->a(Ljava/lang/String;)Ljavax/crypto/SecretKey;
+    93 move-result-object           v3
+    94 if-nez                       v3, +003h
+    95 return-object                v0
+    96 const-string                 v4, "AES/GCM/NoPadding"
+    97 invoke-static                v4, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+    98 move-result-object           v4
+    99 new-instance                 v5, Ljavax/crypto/spec/GCMParameterSpec;
+   100 const/16                     v6, 128
+   101 invoke-direct                v5, v6, v8, Ljavax/crypto/spec/GCMParameterSpec;-><init>(I [B)V
+   102 invoke-virtual               v4, v1, v3, v5, Ljavax/crypto/Cipher;->init(I Ljava/security/Key; Ljava/security/spec/AlgorithmParameterSpec;)V
+   103 invoke-virtual               v4, v2, Ljavax/crypto/Cipher;->doFinal([B)[B
+   104 move-result-object           v8
+   105 invoke-virtual               v8, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+   106 sget-object                  v1, Lk0;->a Ljava/nio/charset/Charset;
+   107 new-instance                 v2, Ljava/lang/String;
+   108 invoke-direct                v2, v8, v1, Ljava/lang/String;-><init>([B Ljava/nio/charset/Charset;)V
+   109 return-object                v2
+   110 move-exception               v8
+   111 new-instance                 v1, Ljava/lang/StringBuilder;
+   112 const-string                 v2, "read "
+   113 invoke-direct                v1, v2, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+   114 invoke-virtual               v1, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   115 const-string                 v9, " gagal (data/kunci rusak?)"
+   116 invoke-virtual               v1, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   117 invoke-virtual               v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+   118 move-result-object           v9
+   119 const-string                 v1, "IstanaAkun-Crypto"
+
+===== Lcom/istana/akun/CryptoStore;->d(Ljava/lang/String; Ljava/lang/String;)V =====
+  instructions: 47
+     0 invoke-static                v4, Lcom/istana/akun/CryptoStore;->b(Ljava/lang/String;)Ljavax/crypto/SecretKey;
+     1 move-result-object           v0
+     2 const-string                 v1, "AES/GCM/NoPadding"
+     3 invoke-static                v1, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+     4 move-result-object           v1
+     5 const/4                      v2, 1
+     6 invoke-virtual               v1, v2, v0, Ljavax/crypto/Cipher;->init(I Ljava/security/Key;)V
+     7 invoke-virtual               v1, Ljavax/crypto/Cipher;->getIV()[B
+     8 move-result-object           v0
+     9 sget-object                  v2, Lk0;->a Ljava/nio/charset/Charset;
+    10 invoke-virtual               v5, v2, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    11 move-result-object           v5
+    12 invoke-virtual               v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    13 invoke-virtual               v1, v5, Ljavax/crypto/Cipher;->doFinal([B)[B
+    14 move-result-object           v5
+    15 new-instance                 v1, Ljava/lang/StringBuilder;
+    16 invoke-direct                v1, Ljava/lang/StringBuilder;-><init>()V
+    17 const/4                      v2, 2
+    18 invoke-static                v0, v2, Landroid/util/Base64;->encodeToString([B I)Ljava/lang/String;
+    19 move-result-object           v0
+    20 invoke-virtual               v1, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    21 const/16                     v0, 46
+    22 invoke-virtual               v1, v0, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    23 invoke-static                v5, v2, Landroid/util/Base64;->encodeToString([B I)Ljava/lang/String;
+    24 move-result-object           v5
+    25 invoke-virtual               v1, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    26 invoke-virtual               v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    27 move-result-object           v5
+    28 iget-object                  v3, v3, Lcom/istana/akun/CryptoStore;->a Landroid/content/SharedPreferences;
+    29 invoke-interface             v3, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    30 move-result-object           v3
+    31 invoke-interface             v3, v4, v5, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    32 move-result-object           v3
+    33 invoke-interface             v3, Landroid/content/SharedPreferences$Editor;->apply()V
+    34 return-void                  
+    35 move-exception               v3
+    36 new-instance                 v5, Ljava/lang/StringBuilder;
+    37 const-string                 v0, "save "
+    38 invoke-direct                v5, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    39 invoke-virtual               v5, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    40 const-string                 v4, " gagal"
+    41 invoke-virtual               v5, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    42 invoke-virtual               v5, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    43 move-result-object           v4
+    44 const-string                 v5, "IstanaAkun-Crypto"
+    45 invoke-static                v5, v4, v3, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+    46 return-void                  
+
+===== Lcom/istana/akun/LicenseManager;-><init>(Lcom/istana/akun/MainActivity; Lcom/istana/akun/CryptoStore;)V =====
+  instructions: 12
+     0 invoke-direct                v0, Ljava/lang/Object;-><init>()V
+     1 iput-object                  v1, v0, Lcom/istana/akun/LicenseManager;->a Lcom/istana/akun/MainActivity;
+     2 iput-object                  v2, v0, Lcom/istana/akun/LicenseManager;->b Lcom/istana/akun/CryptoStore;
+     3 invoke-virtual               v1, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+     4 move-result-object           v1
+     5 const-string                 v2, "android_id"
+     6 invoke-static                v1, v2, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+     7 move-result-object           v1
+     8 if-nez                       v1, +004h
+     9 const-string                 v1, ""
+    10 iput-object                  v1, v0, Lcom/istana/akun/LicenseManager;->c Ljava/lang/String;
+    11 return-void                  
+
+===== Lcom/istana/akun/LicenseManager;->a(Lt3;)Ljava/lang/String; =====
+  instructions: 63
+     0 invoke-virtual               v12, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+     1 iget-boolean                 v0, v12, Lt3;->d Z
+     2 const/4                      v1, 0
+     3 if-eqz                       v0, +003h
+     4 goto                         +7h
+     5 invoke-static                v12, Lcom/istana/akun/LicenseManager;->c(Lt3;)Ljava/util/Date;
+     6 move-result-object           v12
+     7 if-nez                       v12, +004h
+     8 move-object                  v12, v1
+     9 goto                         +eh
+    10 invoke-virtual               v12, Ljava/util/Date;->getTime()J
+    11 move-result-wide             v2
+    12 invoke-static                Ljava/lang/System;->currentTimeMillis()J
+    13 move-result-wide             v4
+    14 sub-long/2addr               v2, v4
+    15 invoke-static                v2, v3, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    16 move-result-object           v12
+    17 if-eqz                       v12, +058h
+    18 invoke-virtual               v12, Ljava/lang/Long;->longValue()J
+    19 move-result-wide             v0
+    20 const-wide/16                v2, 0
+    21 cmp-long                     v12, v0, v2
+    22 if-gtz                       v12, +005h
+    23 const-string                 v12, "00:00:00"
+    24 return-object                v12
+    25 const-wide/16                v4, 1000
+    26 div-long/2addr               v0, v4
+    27 const-wide/32                v4, 86400
+    28 div-long                     v6, v0, v4
+    29 rem-long                     v4, v0, v4
+    30 const-wide/16                v8, 3600
+    31 div-long/2addr               v4, v8
+    32 rem-long                     v8, v0, v8
+    33 const-wide/16                v10, 60
+    34 div-long/2addr               v8, v10
+    35 rem-long/2addr               v0, v10
+    36 sget-object                  v12, Ljava/util/Locale;->US Ljava/util/Locale;
+    37 invoke-static                v4, v5, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    38 move-result-object           v4
+    39 invoke-static                v8, v9, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    40 move-result-object           v5
+    41 invoke-static                v0, v1, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    42 move-result-object           v0
+    43 filled-new-array             v4, v5, v0, [Ljava/lang/Object;
+    44 move-result-object           v0
+    45 const/4                      v1, 3
+    46 invoke-static                v0, v1, Ljava/util/Arrays;->copyOf([Ljava/lang/Object; I)[Ljava/lang/Object;
+    47 move-result-object           v0
+    48 const-string                 v1, "%02d:%02d:%02d"
+    49 invoke-static                v12, v1, v0, Ljava/lang/String;->format(Ljava/util/Locale; Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+    50 move-result-object           v12
+    51 cmp-long                     v0, v6, v2
+    52 if-lez                       v0, +016h
+    53 new-instance                 v0, Ljava/lang/StringBuilder;
+    54 invoke-direct                v0, Ljava/lang/StringBuilder;-><init>()V
+    55 invoke-virtual               v0, v6, v7, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    56 const-string                 v1, " hari "
+    57 invoke-virtual               v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    58 invoke-virtual               v0, v12, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    59 invoke-virtual               v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    60 move-result-object           v12
+    61 return-object                v12
+    62 return-object                v1
+
+===== Lcom/istana/akun/LicenseManager;->c(Lt3;)Ljava/util/Date; =====
+  instructions: 31
+     0 iget-object                  v4, v4, Lt3;->c Ljava/lang/String;
+     1 if-nez                       v4, +003h
+     2 goto                         +35h
+     3 const-string                 v0, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+     4 const-string                 v1, "yyyy-MM-dd'T'HH:mm:ss'Z'"
+     5 filled-new-array             v0, v1, [Ljava/lang/String;
+     6 move-result-object           v0
+     7 invoke-static                v0, Lp0;->o([Ljava/lang/Object;)Ljava/util/List;
+     8 move-result-object           v0
+     9 invoke-interface             v0, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    10 move-result-object           v0
+    11 invoke-interface             v0, Ljava/util/Iterator;->hasNext()Z
+    12 move-result                  v1
+    13 if-eqz                       v1, +020h
+    14 invoke-interface             v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    15 move-result-object           v1
+    16 check-cast                   v1, Ljava/lang/String;
+    17 new-instance                 v2, Ljava/text/SimpleDateFormat;
+    18 sget-object                  v3, Ljava/util/Locale;->US Ljava/util/Locale;
+    19 invoke-direct                v2, v1, v3, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String; Ljava/util/Locale;)V
+    20 const-string                 v1, "UTC"
+    21 invoke-static                v1, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
+    22 move-result-object           v1
+    23 invoke-virtual               v2, v1, Ljava/text/DateFormat;->setTimeZone(Ljava/util/TimeZone;)V
+    24 invoke-virtual               v2, v4, Ljava/text/DateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
+    25 move-result-object           v1
+    26 if-nez                       v1, +003h
+    27 goto                         -22h
+    28 return-object                v1
+    29 const/4                      v4, 0
+    30 return-object                v4
+
+===== Lcom/istana/akun/LicenseManager;->d(Ljava/lang/String; Lorg/json/JSONObject;)Lq6; =====
+  instructions: 74
+     0 new-instance                 v0, Ljava/net/URL;
+     1 invoke-direct                v0, v3, Ljava/net/URL;-><init>(Ljava/lang/String;)V
+     2 invoke-virtual               v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+     3 move-result-object           v3
+     4 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+     5 check-cast                   v3, Ljava/net/HttpURLConnection;
+     6 const-string                 v0, "POST"
+     7 invoke-virtual               v3, v0, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+     8 const-string                 v0, "Content-Type"
+     9 const-string                 v1, "application/json"
+    10 invoke-virtual               v3, v0, v1, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+    11 const/16                     v0, 15000
+    12 invoke-virtual               v3, v0, Ljava/net/URLConnection;->setConnectTimeout(I)V
+    13 invoke-virtual               v3, v0, Ljava/net/URLConnection;->setReadTimeout(I)V
+    14 const/4                      v0, 1
+    15 invoke-virtual               v3, v0, Ljava/net/URLConnection;->setDoOutput(Z)V
+    16 invoke-virtual               v3, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
+    17 move-result-object           v0
+    18 invoke-virtual               v4, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    19 move-result-object           v4
+    20 invoke-virtual               v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    21 sget-object                  v1, Lk0;->a Ljava/nio/charset/Charset;
+    22 invoke-virtual               v4, v1, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    23 move-result-object           v4
+    24 invoke-virtual               v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    25 invoke-virtual               v0, v4, Ljava/io/OutputStream;->write([B)V
+    26 invoke-interface             v0, Ljava/io/Closeable;->close()V
+    27 invoke-virtual               v3, Ljava/net/HttpURLConnection;->getResponseCode()I
+    28 move-result                  v4
+    29 const/16                     v0, 200
+    30 if-gt                        v0, v4, +00bh
+    31 const/16                     v0, 300
+    32 if-ge                        v4, v0, +007h
+    33 invoke-virtual               v3, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
+    34 move-result-object           v0
+    35 goto                         +5h
+    36 invoke-virtual               v3, Ljava/net/HttpURLConnection;->getErrorStream()Ljava/io/InputStream;
+    37 move-result-object           v0
+    38 if-eqz                       v0, +013h
+    39 new-instance                 v2, Ljava/io/InputStreamReader;
+    40 invoke-direct                v2, v0, v1, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream; Ljava/nio/charset/Charset;)V
+    41 new-instance                 v0, Ljava/io/BufferedReader;
+    42 const/16                     v1, 8192
+    43 invoke-direct                v0, v2, v1, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader; I)V
+    44 invoke-static                v0, Lf0;->o(Ljava/io/BufferedReader;)Ljava/lang/String;
+    45 move-result-object           v0
+    46 goto                         +3h
+    47 const-string                 v0, ""
+    48 invoke-virtual               v3, Ljava/net/HttpURLConnection;->disconnect()V
+    49 new-instance                 v3, Lq6;
+    50 invoke-static                v4, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    51 move-result-object           v4
+    52 new-instance                 v1, Lorg/json/JSONObject;
+    53 invoke-direct                v1, v0, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    54 invoke-direct                v3, v4, v1, Lq6;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+    55 return-object                v3
+    56 move-exception               v3
+    57 throw                        v3
+    58 move-exception               v4
+    59 invoke-static                v0, v3, Lh3;->c(Ljava/io/Closeable; Ljava/lang/Throwable;)V
+    60 throw                        v4
+    61 move-exception               v3
+    62 new-instance                 v4, Ljava/lang/StringBuilder;
+    63 const-string                 v0, "postJson gagal: "
+    64 invoke-direct                v4, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    65 invoke-virtual               v3, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+    66 move-result-object           v3
+    67 invoke-virtual               v4, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    68 invoke-virtual               v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    69 move-result-object           v3
+    70 const-string                 v4, "IstanaAkun-License"
+    71 invoke-static                v4, v3, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+    72 const/4                      v3, 0
+    73 return-object                v3
+
+===== Lcom/istana/akun/LicenseManager;->b()Lt3; =====
+  instructions: 36
+     0 iget-object                  v10, v10, Lcom/istana/akun/LicenseManager;->b Lcom/istana/akun/CryptoStore;
+     1 const-string                 v0, "license-state"
+     2 invoke-virtual               v10, v0, Lcom/istana/akun/CryptoStore;->c(Ljava/lang/String;)Ljava/lang/String;
+     3 move-result-object           v10
+     4 const/4                      v0, 0
+     5 if-nez                       v10, +003h
+     6 goto                         +3bh
+     7 new-instance                 v1, Lorg/json/JSONObject;
+     8 invoke-direct                v1, v10, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+     9 new-instance                 v2, Lt3;
+    10 const-string                 v10, "key"
+    11 invoke-virtual               v1, v10, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    12 move-result-object           v3
+    13 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    14 const-string                 v10, "plan"
+    15 const-string                 v4, ""
+    16 invoke-virtual               v1, v10, v4, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    17 move-result-object           v4
+    18 invoke-virtual               v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    19 const-string                 v10, "expires_at"
+    20 invoke-virtual               v1, v10, v0, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    21 move-result-object           v5
+    22 const-string                 v10, "lifetime"
+    23 const/4                      v6, 0
+    24 invoke-virtual               v1, v10, v6, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String; Z)Z
+    25 move-result                  v6
+    26 const-string                 v10, "last_validated_at"
+    27 const-wide/16                v7, 0
+    28 invoke-virtual               v1, v10, v7, v8, Lorg/json/JSONObject;->optLong(Ljava/lang/String; J)J
+    29 move-result-wide             v7
+    30 const-string                 v10, "adverse"
+    31 invoke-virtual               v1, v10, v0, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    32 move-result-object           v9
+    33 invoke-direct/range          v2 ... v9, Lt3;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Z J Ljava/lang/String;)V
+    34 return-object                v2
+    35 return-object                v0
+
+===== Lcom/istana/akun/LicenseManager;->e(Lt3;)V =====
+  instructions: 28
+     0 new-instance                 v0, Lorg/json/JSONObject;
+     1 invoke-direct                v0, Lorg/json/JSONObject;-><init>()V
+     2 const-string                 v1, "key"
+     3 iget-object                  v2, v5, Lt3;->a Ljava/lang/String;
+     4 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     5 const-string                 v1, "plan"
+     6 iget-object                  v2, v5, Lt3;->b Ljava/lang/String;
+     7 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     8 const-string                 v1, "expires_at"
+     9 iget-object                  v2, v5, Lt3;->c Ljava/lang/String;
+    10 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+    11 const-string                 v1, "lifetime"
+    12 iget-boolean                 v2, v5, Lt3;->d Z
+    13 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Z)Lorg/json/JSONObject;
+    14 const-string                 v1, "last_validated_at"
+    15 iget-wide                    v2, v5, Lt3;->e J
+    16 invoke-virtual               v0, v1, v2, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; J)Lorg/json/JSONObject;
+    17 iget-object                  v5, v5, Lt3;->f Ljava/lang/String;
+    18 if-eqz                       v5, +007h
+    19 const-string                 v1, "adverse"
+    20 invoke-virtual               v0, v1, v5, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+    21 invoke-virtual               v0, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    22 move-result-object           v5
+    23 invoke-virtual               v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    24 iget-object                  v4, v4, Lcom/istana/akun/LicenseManager;->b Lcom/istana/akun/CryptoStore;
+    25 const-string                 v0, "license-state"
+    26 invoke-virtual               v4, v0, v5, Lcom/istana/akun/CryptoStore;->d(Ljava/lang/String; Ljava/lang/String;)V
+    27 return-void                  
+
+===== Lcom/istana/akun/LicenseManager;->f()Lh3; =====
+  instructions: 187
+     0 move-object/from16           v0, v21
+     1 sget-object                  v1, Lv3;->n Lv3;
+     2 invoke-virtual               v0, Lcom/istana/akun/LicenseManager;->b()Lt3;
+     3 move-result-object           v2
+     4 if-nez                       v2, +003h
+     5 goto                         +70h
+     6 iget-object                  v3, v2, Lt3;->f Ljava/lang/String;
+     7 const-string                 v10, "revoked"
+     8 invoke-static                v3, v10, Lh3;->a(Ljava/lang/Object; Ljava/lang/Object;)Z
+     9 move-result                  v4
+    10 if-eqz                       v4, +00eh
+    11 new-instance                 v0, Lu3;
+    12 invoke-static                Le8;->c()Lp3;
+    13 move-result-object           v1
+    14 iget-object                  v1, v1, Lp3;->m Ljava/lang/String;
+    15 invoke-direct                v0, v2, v1, Lu3;-><init>(Lt3; Ljava/lang/String;)V
+    16 return-object                v0
+    17 const-string                 v11, "expired"
+    18 invoke-static                v3, v11, Lh3;->a(Ljava/lang/Object; Ljava/lang/Object;)Z
+    19 move-result                  v3
+    20 if-eqz                       v3, +00eh
+    21 new-instance                 v0, Lu3;
+    22 invoke-static                Le8;->c()Lp3;
+    23 move-result-object           v1
+    24 iget-object                  v1, v1, Lp3;->l Ljava/lang/String;
+    25 invoke-direct                v0, v2, v1, Lu3;-><init>(Lt3; Ljava/lang/String;)V
+    26 return-object                v0
+    27 new-instance                 v3, Lorg/json/JSONObject;
+    28 invoke-direct                v3, Lorg/json/JSONObject;-><init>()V
+    29 const-string                 v4, "licenseKey"
+    30 iget-object                  v5, v2, Lt3;->a Ljava/lang/String;
+    31 invoke-virtual               v3, v4, v5, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+    32 move-result-object           v3
+    33 const-string                 v4, "deviceId"
+    34 iget-object                  v5, v0, Lcom/istana/akun/LicenseManager;->c Ljava/lang/String;
+    35 invoke-virtual               v3, v4, v5, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+    36 move-result-object           v3
+    37 iget-object                  v4, v0, Lcom/istana/akun/LicenseManager;->a Lcom/istana/akun/MainActivity;
+    38 invoke-static                v4, Lcom/istana/akun/DeviceInfo;->a(Lcom/istana/akun/MainActivity;)Lorg/json/JSONObject;
+    39 move-result-object           v4
+    40 const-string                 v5, "deviceInfo"
+    41 invoke-virtual               v3, v5, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+    42 move-result-object           v3
+    43 invoke-virtual               v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    44 const-string                 v4, "https://istana-akun.vercel.app/api/license/validate"
+    45 invoke-static                v4, v3, Lcom/istana/akun/LicenseManager;->d(Ljava/lang/String; Lorg/json/JSONObject;)Lq6;
+    46 move-result-object           v3
+    47 if-nez                       v3, +003h
+    48 goto                         +19h
+    49 iget-object                  v4, v3, Lq6;->a Ljava/lang/Object;
+    50 check-cast                   v4, Ljava/lang/Number;
+    51 invoke-virtual               v4, Ljava/lang/Number;->intValue()I
+    52 move-result                  v4
+    53 iget-object                  v3, v3, Lq6;->b Ljava/lang/Object;
+    54 check-cast                   v3, Lorg/json/JSONObject;
+    55 const/16                     v5, 200
+    56 if-eq                        v4, v5, +07bh
+    57 const/16                     v5, 403
+    58 if-eq                        v4, v5, +023h
+    59 const/16                     v3, 410
+    60 if-eq                        v4, v3, +003h
+    61 return-object                v1
+    62 const-string                 v8, "expired"
+    63 const/16                     v9, 31
+    64 const/4                      v3, 0
+    65 const/4                      v4, 0
+    66 const/4                      v5, 0
+    67 const-wide/16                v6, 0
+    68 invoke-static/range          v2 ... v9, Lt3;->a(Lt3; Ljava/lang/String; Ljava/lang/String; Z J Ljava/lang/String; I)Lt3;
+    69 move-result-object           v1
+    70 invoke-virtual               v0, v1, Lcom/istana/akun/LicenseManager;->e(Lt3;)V
+    71 new-instance                 v0, Lu3;
+    72 invoke-static                Le8;->c()Lp3;
+    73 move-result-object           v2
+    74 iget-object                  v2, v2, Lp3;->l Ljava/lang/String;
+    75 invoke-direct                v0, v1, v2, Lu3;-><init>(Lt3; Ljava/lang/String;)V
+    76 return-object                v0
+    77 const-string                 v1, "message"
+    78 const-string                 v4, ""
+    79 invoke-virtual               v3, v1, v4, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    80 move-result-object           v1
+    81 invoke-virtual               v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    82 const-string                 v3, "dinonaktifkan"
+    83 invoke-static                v1, v3, Lm8;->p(Ljava/lang/String; Ljava/lang/CharSequence;)Z
+    84 move-result                  v3
+    85 if-nez                       v3, +027h
+    86 const-string                 v3, "dicabut"
+    87 invoke-static                v1, v3, Lm8;->p(Ljava/lang/String; Ljava/lang/CharSequence;)Z
+    88 move-result                  v3
+    89 if-nez                       v3, +01fh
+    90 invoke-static                v1, v10, Lm8;->p(Ljava/lang/String; Ljava/lang/CharSequence;)Z
+    91 move-result                  v3
+    92 if-nez                       v3, +019h
+    93 const-string                 v3, "tidak aktif"
+    94 invoke-static                v1, v3, Lm8;->p(Ljava/lang/String; Ljava/lang/CharSequence;)Z
+    95 move-result                  v1
+    96 if-eqz                       v1, +003h
+    97 goto                         +fh
+    98 new-instance                 v0, Lu3;
+    99 sget-object                  v1, Le8;->a Lx;
+   100 invoke-static                Le8;->c()Lp3;
+   101 move-result-object           v1
+   102 iget-object                  v1, v1, Lp3;->n Ljava/lang/String;
+   103 invoke-direct                v0, v2, v1, Lu3;-><init>(Lt3; Ljava/lang/String;)V
+   104 return-object                v0
+   105 const-string                 v8, "revoked"
+   106 const/16                     v9, 31
+   107 const/4                      v3, 0
+   108 const/4                      v4, 0
+   109 const/4                      v5, 0
+   110 const-wide/16                v6, 0
+   111 invoke-static/range          v2 ... v9, Lt3;->a(Lt3; Ljava/lang/String; Ljava/lang/String; Z J Ljava/lang/String; I)Lt3;
+   112 move-result-object           v1
+   113 invoke-virtual               v0, v1, Lcom/istana/akun/LicenseManager;->e(Lt3;)V
+   114 new-instance                 v0, Lu3;
+   115 invoke-static                Le8;->c()Lp3;
+   116 move-result-object           v2
+   117 iget-object                  v2, v2, Lp3;->m Ljava/lang/String;
+   118 invoke-direct                v0, v1, v2, Lu3;-><init>(Lt3; Ljava/lang/String;)V
+   119 return-object                v0
+   120 const-string                 v1, "status"
+   121 const-string                 v4, "active"
+   122 invoke-virtual               v3, v1, v4, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+   123 move-result-object           v1
+   124 const-string                 v4, "plan"
+   125 iget-object                  v5, v2, Lt3;->b Ljava/lang/String;
+   126 invoke-virtual               v3, v4, v5, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+   127 move-result-object           v4
+   128 invoke-virtual               v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+   129 const-string                 v5, "expires_at"
+   130 iget-object                  v6, v2, Lt3;->c Ljava/lang/String;
+   131 invoke-virtual               v3, v5, v6, Lorg/json/JSONObject;->optString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+   132 move-result-object           v5
+   133 const-string                 v6, "lifetime"
+   134 iget-boolean                 v7, v2, Lt3;->d Z
+   135 invoke-virtual               v3, v6, v7, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String; Z)Z
+   136 move-result                  v3
+   137 invoke-static                Ljava/lang/System;->currentTimeMillis()J
+   138 move-result-wide             v6
+   139 const/4                      v8, 0
+   140 const/4                      v9, 1
+   141 move-object/from16           v20, v5
+   142 move                         v5, v3
+   143 move-object                  v3, v4
+   144 move-object/from16           v4, v20
+   145 invoke-static/range          v2 ... v9, Lt3;->a(Lt3; Ljava/lang/String; Ljava/lang/String; Z J Ljava/lang/String; I)Lt3;
+   146 move-result-object           v12
+   147 invoke-static                v1, v10, Lh3;->a(Ljava/lang/Object; Ljava/lang/Object;)Z
+   148 move-result                  v2
+   149 if-eqz                       v2, +01eh
