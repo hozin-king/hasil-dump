@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: JRdWrza9XX/0USa3Uw0XMOPNFxA=
+
+Name: lib/arm64-v8a/libimodisa.so
+SHA1-Digest: BSrvuyJj0jncvWoBmD206zzTAdc=
+
+Name: stamp-cert-sha256
+SHA1-Digest: 5vTkm69vqAbusD/fho7oWwc7j+I=
+

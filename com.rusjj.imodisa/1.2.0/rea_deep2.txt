@@ -1,0 +1,797 @@
+==============================================================================
+b/t0 - endpoint presets
+==============================================================================
+### CLASS Lb/t0; super=Ljava/lang/Object; ifaces=[]
+  FIELD a : Lb/s0; public static final
+  FIELD b : Ljava/util/ArrayList; public static final
+  FIELD c : Ljava/util/List; public static bridge
+  METHOD <clinit>()V static constructor
+  METHOD a(Ljava/lang/String;)Lb/s0; public static
+  METHOD b(Ljava/lang/String; Ljava/lang/String; Z)Lb/s0; public static
+
+### Lb/t0;::<clinit>()V access=static constructor
+       0 new-instance                 v0, Lb/s0;
+       1 sget-object                  v6, Lb/h;->x Ljava/util/List;
+       2 const/4                      v8, 0
+       3 const/16                     v9, 4032
+       4 const-string                 v1, "anthropic"
+       5 const-string                 v2, "Anthropic (Claude)"
+       6 const/4                      v3, 1
+       7 const-string                 v4, "https://api.anthropic.com"
+       8 const-string                 v5, "console.anthropic.com"
+       9 const/4                      v7, 0
+      10 invoke-direct/range          v0 ... v9, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+      11 sput-object                  v0, Lb/t0;->a Lb/s0;
+      12 new-instance                 v7, Lb/s0;
+      13 const-string                 v1, "kimi-k3"
+      14 invoke-static                v1, Lm/v;->s(Ljava/lang/Object;)Ljava/util/List;
+      15 move-result-object           v13
+      16 const/4                      v15, 0
+      17 const/16                     v16, 1984
+      18 const-string                 v8, "opencode_go"
+      19 const-string                 v9, "OpenCode Go"
+      20 const/4                      v10, 0
+      21 const-string                 v11, "https://opencode.ai/inference/go/openai/v1"
+      22 const-string                 v12, "opencode.ai/console"
+      23 const/4                      v14, 0
+      24 invoke-direct/range          v7 ... v16, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+      25 move-object                  v11, v7
+      26 new-instance                 v12, Lb/s0;
+      27 const-string                 v18, "qwen/qwen3-coder-480b-a35b-instruct"
+      28 const-string                 v19, "moonshotai/kimi-k2-instruct"
+      29 const-string                 v13, "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+      30 const-string                 v14, "nvidia/nvidia-nemotron-nano-9b-v2"
+      31 const-string                 v15, "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+      32 const-string                 v16, "openai/gpt-oss-120b"
+      33 const-string                 v17, "deepseek-ai/deepseek-v3.1"
+      34 filled-new-array/range       v13 ... v19, [Ljava/lang/String;
+      35 move-result-object           v1
+      36 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+      37 move-result-object           v18
+      38 const/16                     v20, 1
+      39 const/16                     v21, 3008
+      40 const-string                 v13, "nvidia"
+      41 const-string                 v14, "NVIDIA NIM · Nemotron"
+      42 const/4                      v15, 0
+      43 const-string                 v16, "https://integrate.api.nvidia.com/v1"
+      44 const-string                 v17, "build.nvidia.com"
+      45 const/16                     v19, 0
+      46 invoke-direct/range          v12 ... v21, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+      47 new-instance                 v13, Lb/s0;
+      48 const-string                 v18, "z-ai/glm-4.5-air:free"
+      49 const-string                 v19, "meta-llama/llama-3.3-70b-instruct:free"
+      50 const-string                 v14, "nvidia/nemotron-nano-9b-v2:free"
+      51 const-string                 v15, "qwen/qwen3-coder:free"
+      52 const-string                 v16, "deepseek/deepseek-chat-v3.1:free"
+      53 const-string                 v17, "openai/gpt-oss-20b:free"
+      54 filled-new-array/range       v14 ... v19, [Ljava/lang/String;
+      55 move-result-object           v1
+      56 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+      57 move-result-object           v19
+      58 new-instance                 v1, Lb/i;
+      59 const/16                     v2, 8
+      60 invoke-direct                v1, v2, Lb/i;-><init>(I)V
+      61 const/16                     v21, 2
+      62 const/16                     v22, 2496
+      63 const-string                 v14, "openrouter_free"
+      64 const-string                 v15, "OpenRouter"
+      65 const/16                     v16, 0
+      66 const-string                 v17, "https://openrouter.ai/api/v1"
+      67 const-string                 v18, "openrouter.ai/keys"
+      68 move-object/from16           v20, v1
+      69 invoke-direct/range          v13 ... v22, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+      70 new-instance                 v14, Lb/s0;
+      71 const-string                 v1, "gemini-2.5-pro"
+      72 const-string                 v2, "gemini-2.5-flash-lite"
+      73 const-string                 v3, "gemini-2.5-flash"
+      74 filled-new-array             v3, v1, v2, [Ljava/lang/String;
+      75 move-result-object           v1
+      76 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+      77 move-result-object           v20
+      78 const/16                     v22, 3
+      79 const/16                     v23, 3008
+      80 const-string                 v15, "gemini"
+      81 const-string                 v16, "Google Gemini"
+      82 const/16                     v17, 0
+      83 const-string                 v18, "https://generativelanguage.googleapis.com/v1beta/openai"
+      84 const-string                 v19, "aistudio.google.com/apikey"
+      85 const/16                     v21, 0
+      86 invoke-direct/range          v14 ... v23, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+      87 new-instance                 v15, Lb/s0;
+      88 const-string                 v1, "llama-3.3-70b-versatile"
+      89 const-string                 v2, "qwen/qwen3-32b"
+      90 const-string                 v3, "openai/gpt-oss-120b"
+      91 const-string                 v4, "moonshotai/kimi-k2-instruct"
+      92 filled-new-array             v3, v4, v1, v2, [Ljava/lang/String;
+      93 move-result-object           v1
+      94 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+      95 move-result-object           v21
+      96 const/16                     v23, 3
+      97 const/16                     v24, 3008
+      98 const-string                 v16, "groq"
+      99 const-string                 v17, "Groq"
+     100 const/16                     v18, 0
+     101 const-string                 v19, "https://api.groq.com/openai/v1"
+     102 const-string                 v20, "console.groq.com/keys"
+     103 const/16                     v22, 0
+     104 invoke-direct/range          v15 ... v24, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     105 new-instance                 v16, Lb/s0;
+     106 const-string                 v1, "qwen-3-235b-a22b-instruct-2507"
+     107 const-string                 v2, "llama-3.3-70b"
+     108 const-string                 v4, "gpt-oss-120b"
+     109 filled-new-array             v4, v1, v2, [Ljava/lang/String;
+     110 move-result-object           v1
+     111 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     112 move-result-object           v22
+     113 const/16                     v24, 3
+     114 const/16                     v25, 3008
+     115 const-string                 v17, "cerebras"
+     116 const-string                 v18, "Cerebras"
+     117 const/16                     v19, 0
+     118 const-string                 v20, "https://api.cerebras.ai/v1"
+     119 const-string                 v21, "cloud.cerebras.ai"
+     120 const/16                     v23, 0
+     121 invoke-direct/range          v16 ... v25, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     122 new-instance                 v17, Lb/s0;
+     123 const-string                 v1, "deepseek/DeepSeek-V3-0324"
+     124 const-string                 v2, "meta/Llama-4-Maverick-17B-128E-Instruct-FP8"
+     125 const-string                 v5, "openai/gpt-4.1"
+     126 const-string                 v7, "openai/gpt-4.1-mini"
+     127 filled-new-array             v5, v7, v1, v2, [Ljava/lang/String;
+     128 move-result-object           v1
+     129 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     130 move-result-object           v23
+     131 const/16                     v25, 4
+     132 const/16                     v26, 3008
+     133 const-string                 v18, "github"
+     134 const-string                 v19, "GitHub Models"
+     135 const/16                     v20, 0
+     136 const-string                 v21, "https://models.github.ai/inference"
+     137 const-string                 v22, "github.com/settings/personal-access-tokens"
+     138 const/16                     v24, 0
+     139 invoke-direct/range          v17 ... v26, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     140 new-instance                 v18, Lb/s0;
+     141 const-string                 v1, "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+     142 const-string                 v2, "moonshotai/Kimi-K2-Instruct"
+     143 const-string                 v5, "deepseek-ai/DeepSeek-V3.1"
+     144 filled-new-array             v3, v5, v1, v2, [Ljava/lang/String;
+     145 move-result-object           v1
+     146 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     147 move-result-object           v24
+     148 const/16                     v26, 5
+     149 const/16                     v27, 3008
+     150 const-string                 v19, "huggingface"
+     151 const-string                 v20, "Hugging Face"
+     152 const/16                     v21, 0
+     153 const-string                 v22, "https://router.huggingface.co/v1"
+     154 const-string                 v23, "huggingface.co/settings/tokens"
+     155 const/16                     v25, 0
+     156 invoke-direct/range          v18 ... v27, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     157 new-instance                 v19, Lb/s0;
+     158 const-string                 v1, "DeepSeek-V3.1"
+     159 const-string                 v2, "Meta-Llama-3.3-70B-Instruct"
+     160 filled-new-array             v1, v4, v2, [Ljava/lang/String;
+     161 move-result-object           v1
+     162 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     163 move-result-object           v25
+     164 const/16                     v27, 3
+     165 const/16                     v28, 3008
+     166 const-string                 v20, "sambanova"
+     167 const-string                 v21, "SambaNova"
+     168 const/16                     v22, 0
+     169 const-string                 v23, "https://api.sambanova.ai/v1"
+     170 const-string                 v24, "cloud.sambanova.ai"
+     171 const/16                     v26, 0
+     172 invoke-direct/range          v19 ... v28, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     173 new-instance                 v20, Lb/s0;
+     174 const-string                 v1, "mistral-medium-latest"
+     175 const-string                 v2, "codestral-latest"
+     176 const-string                 v3, "mistral-large-latest"
+     177 filled-new-array             v3, v1, v2, [Ljava/lang/String;
+     178 move-result-object           v1
+     179 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     180 move-result-object           v26
+     181 const/16                     v28, 3
+     182 const/16                     v29, 3008
+     183 const-string                 v21, "mistral"
+     184 const-string                 v22, "Mistral"
+     185 const/16                     v23, 0
+     186 const-string                 v24, "https://api.mistral.ai/v1"
+     187 const-string                 v25, "console.mistral.ai/api-keys"
+     188 const/16                     v27, 0
+     189 invoke-direct/range          v20 ... v29, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     190 filled-new-array/range       v12 ... v20, [Lb/s0;
+     191 move-result-object           v1
+     192 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     193 move-result-object           v1
+     194 invoke-static                v0, Lm/v;->s(Ljava/lang/Object;)Ljava/util/List;
+     195 move-result-object           v0
+     196 check-cast                   v0, Ljava/util/Collection;
+     197 check-cast                   v1, Ljava/lang/Iterable;
+     198 invoke-static                v0, v1, Lp/h;->v0(Ljava/util/Collection; Ljava/lang/Iterable;)Ljava/util/ArrayList;
+     199 move-result-object           v0
+     200 new-instance                 v7, Lb/s0;
+     201 const-string                 v1, "gpt-5-mini"
+     202 const-string                 v2, "gpt-4.1"
+     203 const-string                 v3, "gpt-5"
+     204 filled-new-array             v3, v1, v2, [Ljava/lang/String;
+     205 move-result-object           v1
+     206 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     207 move-result-object           v18
+     208 const/16                     v20, 0
+     209 const/16                     v21, 4032
+     210 const-string                 v13, "openai"
+     211 const-string                 v14, "OpenAI"
+     212 const/4                      v15, 0
+     213 const-string                 v16, "https://api.openai.com/v1"
+     214 const-string                 v17, "platform.openai.com/api-keys"
+     215 const/16                     v19, 0
+     216 move-object                  v12, v7
+     217 invoke-direct/range          v12 ... v21, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     218 new-instance                 v9, Lb/s0;
+     219 const/16                     v21, 0
+     220 const/16                     v22, 4064
+     221 const-string                 v14, "openrouter"
+     222 const-string                 v15, "OpenRouter"
+     223 const/16                     v16, 0
+     224 const-string                 v17, "https://openrouter.ai/api/v1"
+     225 const-string                 v18, "openrouter.ai/keys"
+     226 const/16                     v20, 0
+     227 move-object                  v13, v9
+     228 invoke-direct/range          v13 ... v22, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     229 new-instance                 v10, Lb/s0;
+     230 const-string                 v1, "deepseek-chat"
+     231 const-string                 v2, "deepseek-reasoner"
+     232 filled-new-array             v1, v2, [Ljava/lang/String;
+     233 move-result-object           v1
+     234 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     235 move-result-object           v20
+     236 const/16                     v22, 0
+     237 const/16                     v23, 4032
+     238 const-string                 v15, "deepseek"
+     239 const-string                 v16, "DeepSeek"
+     240 const/16                     v17, 0
+     241 const-string                 v18, "https://api.deepseek.com/v1"
+     242 const-string                 v19, "platform.deepseek.com/api_keys"
+     243 const/16                     v21, 0
+     244 move-object                  v14, v10
+     245 invoke-direct/range          v14 ... v23, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     246 new-instance                 v15, Lb/s0;
+     247 const-string                 v1, "grok-4"
+     248 const-string                 v2, "grok-3-mini"
+     249 filled-new-array             v1, v2, [Ljava/lang/String;
+     250 move-result-object           v1
+     251 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     252 move-result-object           v21
+     253 const/16                     v23, 0
+     254 const/16                     v24, 4032
+     255 const-string                 v16, "xai"
+     256 const-string                 v17, "xAI"
+     257 const/16                     v18, 0
+     258 const-string                 v19, "https://api.x.ai/v1"
+     259 const-string                 v20, "console.x.ai"
+     260 const/16                     v22, 0
+     261 invoke-direct/range          v15 ... v24, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     262 new-instance                 v16, Lb/s0;
+     263 const/16                     v24, 6
+     264 const/16                     v25, 3040
+     265 const-string                 v17, "ollama"
+     266 const-string                 v18, "Ollama"
+     267 const/16                     v19, 0
+     268 const-string                 v20, "http://127.0.0.1:11434/v1"
+     269 const/16                     v21, 0
+     270 const/16                     v23, 0
+     271 invoke-direct/range          v16 ... v25, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     272 new-instance                 v17, Lb/s0;
+     273 const/16                     v25, 6
+     274 const/16                     v26, 3040
+     275 const-string                 v18, "lmstudio"
+     276 const-string                 v19, "LM Studio"
+     277 const/16                     v20, 0
+     278 const-string                 v21, "http://127.0.0.1:1234/v1"
+     279 const/16                     v24, 0
+     280 invoke-direct/range          v17 ... v26, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     281 new-instance                 v18, Lb/s0;
+     282 const/16                     v26, 7
+     283 const/16                     v27, 2784
+     284 const-string                 v19, "custom_openai"
+     285 const-string                 v20, ""
+     286 const/16                     v21, 0
+     287 const-string                 v22, ""
+     288 const/16                     v25, 0
+     289 invoke-direct/range          v18 ... v27, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     290 new-instance                 v1, Lb/s0;
+     291 const/16                     v9, 8
+     292 const/16                     v10, 2752
+     293 const-string                 v2, "custom_anthropic"
+     294 const-string                 v3, ""
+     295 const/4                      v4, 1
+     296 const-string                 v5, ""
+     297 move-object                  v7, v6
+     298 const/4                      v6, 0
+     299 const/4                      v8, 0
+     300 invoke-direct/range          v1 ... v10, Lb/s0;-><init>(Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Ljava/util/List; Lb/i; I I)V
+     301 move-object                  v8, v11
+     302 move-object                  v7, v12
+     303 move-object                  v9, v13
+     304 move-object                  v10, v14
+     305 move-object                  v11, v15
+     306 move-object/from16           v12, v16
+     307 move-object/from16           v13, v17
+     308 move-object/from16           v14, v18
+     309 move-object                  v15, v1
+     310 filled-new-array/range       v7 ... v15, [Lb/s0;
+     311 move-result-object           v1
+     312 invoke-static                v1, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+     313 move-result-object           v1
+     314 check-cast                   v1, Ljava/lang/Iterable;
+     315 invoke-static                v0, v1, Lp/h;->v0(Ljava/util/Collection; Ljava/lang/Iterable;)Ljava/util/ArrayList;
+     316 move-result-object           v0
+     317 sput-object                  v0, Lb/t0;->b Ljava/util/ArrayList;
+     318 sget-object                  v0, Lp/q;->a Lp/q;
+     319 sput-object                  v0, Lb/t0;->c Ljava/util/List;
+     320 return-void                  
+
+==============================================================================
+local-server class Lb/d0;
+==============================================================================
+### CLASS Lb/d0; super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;']
+  FIELD a : I public final synthetic
+  FIELD b : Ljava/lang/Object; public final synthetic
+  METHOD <init>(I Ljava/lang/Object;)V public synthetic constructor
+  METHOD <init>(Ln/k; Lcom/rusjj/imodisa/ui/SettingsActivity;)V public synthetic constructor
+  METHOD run()V public final
+
+### Lb/d0;::run()V access=public final
+       0 iget                         v0, v10, Lb/d0;->a I
+       1 const/4                      v1, 1
+       2 packed-switch                v0, +00000e7h
+       3 iget-object                  v0, v10, Lb/d0;->b Ljava/lang/Object;
+       4 check-cast                   v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;
+       5 iget-object                  v2, v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;->r La0/l;
+       6 if-nez                       v2, +004h
+       7 goto/16                      +07ah
+       8 invoke-virtual               v0, Landroid/widget/TextView;->getLayout()Landroid/text/Layout;
+       9 move-result-object           v2
+      10 if-nez                       v2, +004h
+      11 goto/16                      +072h
+      12 invoke-virtual               v0, Landroid/widget/TextView;->getEditableText()Landroid/text/Editable;
+      13 move-result-object           v3
+      14 if-nez                       v3, +003h
+      15 goto                         +6ah
+      16 invoke-virtual               v0, Landroid/view/View;->getScrollY()I
+      17 move-result                  v4
+      18 invoke-virtual               v0, Landroid/widget/TextView;->getTotalPaddingTop()I
+      19 move-result                  v5
+      20 sub-int/2addr                v4, v5
+      21 invoke-virtual               v2, v4, Landroid/text/Layout;->getLineForVertical(I)I
+      22 move-result                  v4
+      23 add-int/lit8                 v4, v4, -30
+      24 if-gez                       v4, +003h
+      25 const/4                      v4, 0
+      26 invoke-virtual               v0, Landroid/view/View;->getScrollY()I
+      27 move-result                  v5
+      28 invoke-virtual               v0, Landroid/view/View;->getHeight()I
+      29 move-result                  v6
+      30 add-int/2addr                v6, v5
+      31 invoke-virtual               v0, Landroid/widget/TextView;->getTotalPaddingTop()I
+      32 move-result                  v5
+      33 sub-int/2addr                v6, v5
+      34 invoke-virtual               v2, v6, Landroid/text/Layout;->getLineForVertical(I)I
+      35 move-result                  v5
+      36 add-int/lit8                 v5, v5, 30
+      37 invoke-virtual               v2, Landroid/text/Layout;->getLineCount()I
+      38 move-result                  v6
+      39 sub-int/2addr                v6, v1
+      40 if-le                        v5, v6, +003h
+      41 move                         v5, v6
+      42 iget-object                  v6, v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;->s Ld0/c;
+      43 invoke-virtual               v6, Ld0/c;->isEmpty()Z
+      44 move-result                  v6
+      45 if-nez                       v6, +00dh
+      46 iget-object                  v6, v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;->s Ld0/c;
+      47 iget                         v7, v6, Ld0/a;->a I
+      48 if-lt                        v4, v7, +007h
+      49 iget                         v6, v6, Ld0/a;->b I
+      50 if-gt                        v5, v6, +003h
+      51 goto                         +29h
+      52 invoke-virtual               v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;->b()V
+      53 invoke-virtual               v2, v4, Landroid/text/Layout;->getLineStart(I)I
+      54 move-result                  v6
+      55 invoke-virtual               v2, v5, Landroid/text/Layout;->getLineEnd(I)I
+      56 move-result                  v2
+      57 if-lez                       v2, +013h
+      58 invoke-interface             v3, Ljava/lang/CharSequence;->length()I
+      59 move-result                  v7
+      60 if-gt                        v2, v7, +00dh
+      61 add-int/lit8                 v7, v2, -1
+      62 invoke-interface             v3, v7, Ljava/lang/CharSequence;->charAt(I)C
+      63 move-result                  v8
+      64 const/16                     v9, 10
+      65 if-ne                        v8, v9, +003h
+      66 move                         v2, v7
+      67 invoke-virtual               v0, v3, v6, v2, Lcom/rusjj/imodisa/ui/views/CodeEditText;->c(Landroid/text/Editable; I I)V
+      68 new-instance                 v2, Ld0/c;
+      69 invoke-direct                v2, v4, v5, v1, Ld0/a;-><init>(I I I)V
+      70 iput-object                  v2, v0, Lcom/rusjj/imodisa/ui/views/CodeEditText;->s Ld0/c;
+      71 return-void                  
+      72 iget-object                  v0, v10, Lb/d0;->b Ljava/lang/Object;
+      73 check-cast                   v0, Lm/t;
+      74 invoke-static                v0, Lm/t;->a(Lm/t;)V
+      75 return-void                  
+      76 iget-object                  v0, v10, Lb/d0;->b Ljava/lang/Object;
+      77 check-cast                   v0, Ln/k;
+      78 sget                         v1, Lcom/rusjj/imodisa/ui/SettingsActivity;->e I
+      79 invoke-virtual               v0, Ln/k;->a()Ljava/util/List;
+      80 move-result-object           v1
+      81 check-cast                   v1, Ljava/lang/Iterable;
+      82 invoke-interface             v1, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+      83 move-result-object           v1
+      84 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+      85 move-result                  v2
+      86 if-eqz                       v2, +017h
+      87 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      88 move-result-object           v2
+      89 check-cast                   v2, Ln/j;
+      90 iget-object                  v2, v2, Ln/j;->a Ljava/lang/String;
+      91 invoke-virtual               v0, v2, Ln/k;->d(Ljava/lang/String;)Ljava/io/File;
+      92 move-result-object           v2
+      93 invoke-static                v2, Ly/k;->E(Ljava/io/File;)Z
+      94 goto                         -15h
+      95 move-exception               v2
+      96 invoke-static                v2, Lm/v;->m(Ljava/lang/Throwable;)Lo/c;
+      97 goto                         -1ah
+      98 return-void                  
+      99 iget-object                  v0, v10, Lb/d0;->b Ljava/lang/Object;
+     100 check-cast                   v0, Lb/f0;
+     101 iget-boolean                 v2, v0, Lb/f0;->g Z
+     102 if-eqz                       v2, +025h
+     103 iget-object                  v2, v0, Lb/f0;->e Ljava/net/ServerSocket;
+     104 invoke-virtual               v2, Ljava/net/ServerSocket;->accept()Ljava/net/Socket;
+     105 move-result-object           v2
+     106 iget-object                  v3, v0, Lb/f0;->h Ljava/util/Set;
+     107 const-string                 v4, "clients"
+     108 invoke-static                v3, v4, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     109 invoke-interface             v3, v2, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+     110 new-instance                 v3, Ljava/lang/Thread;
+     111 new-instance                 v4, Lb/a;
+     112 invoke-direct                v4, v0, v2, v1, Lb/a;-><init>(Ljava/lang/Object; Ljava/lang/Object; I)V
+     113 const-string                 v2, "mcp-client"
+     114 invoke-direct                v3, v4, v2, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable; Ljava/lang/String;)V
+     115 invoke-virtual               v3, v1, Ljava/lang/Thread;->setDaemon(Z)V
+     116 invoke-virtual               v3, Ljava/lang/Thread;->start()V
+     117 goto                         -26h
+     118 return-void                  
+     119 nop                          
+     120 packed-switch-payload        0 1 2
+
+==============================================================================
+local-server class Lb/f0;
+==============================================================================
+### CLASS Lb/f0; super=Ljava/lang/Object; ifaces=[]
+  FIELD i : Ljava/util/List; public static final
+  FIELD j : Lg0/g; public static final
+  FIELD a : Lb/g0; public final
+  FIELD b : Ljava/lang/String; public final
+  FIELD c : Ljava/lang/String; public final
+  FIELD d : Ljava/lang/String; public final
+  FIELD e : Ljava/net/ServerSocket; public final
+  FIELD f : Ljava/lang/Object; public final
+  FIELD g : Z public bridge
+  FIELD h : Ljava/util/Set; public final
+  METHOD <clinit>()V static constructor
+  METHOD <init>(Lb/g0; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V public constructor
+  METHOD a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject; public static
+  METHOD c(Ljava/io/BufferedInputStream;)Ljava/lang/String; public static
+  METHOD d(Ljava/io/BufferedInputStream;)Lb/e0; public static
+  METHOD f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject; public static
+  METHOD g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V public static
+  METHOD h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V public static
+  METHOD b(Lorg/json/JSONObject;)Lorg/json/JSONObject; public final
+  METHOD e(Lb/e0; Ljava/io/OutputStream;)V public final
+
+### Lb/f0;::<init>(Lb/g0; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V access=public constructor
+       0 const-string                 v0, "instructions"
+       1 invoke-static                v4, v0, Lb0/j;->f(Ljava/lang/Object; Ljava/lang/String;)V
+       2 invoke-direct                v1, Ljava/lang/Object;-><init>()V
+       3 iput-object                  v2, v1, Lb/f0;->a Lb/g0;
+       4 iput-object                  v3, v1, Lb/f0;->b Ljava/lang/String;
+       5 iput-object                  v4, v1, Lb/f0;->c Ljava/lang/String;
+       6 iput-object                  v5, v1, Lb/f0;->d Ljava/lang/String;
+       7 const/4                      v2, 0
+       8 const/16                     v3, 16
+       9 new-instance                 v4, Ljava/net/ServerSocket;
+      10 const/16                     v5, 8765
+      11 invoke-direct                v4, v5, v3, v2, Ljava/net/ServerSocket;-><init>(I I Ljava/net/InetAddress;)V
+      12 goto                         +7h
+      13 new-instance                 v4, Ljava/net/ServerSocket;
+      14 const/4                      v5, 0
+      15 invoke-direct                v4, v5, v3, v2, Ljava/net/ServerSocket;-><init>(I I Ljava/net/InetAddress;)V
+      16 iput-object                  v4, v1, Lb/f0;->e Ljava/net/ServerSocket;
+      17 new-instance                 v2, Ljava/lang/Object;
+      18 invoke-direct                v2, Ljava/lang/Object;-><init>()V
+      19 iput-object                  v2, v1, Lb/f0;->f Ljava/lang/Object;
+      20 const/4                      v2, 1
+      21 iput-boolean                 v2, v1, Lb/f0;->g Z
+      22 new-instance                 v3, Ljava/util/HashSet;
+      23 invoke-direct                v3, Ljava/util/HashSet;-><init>()V
+      24 invoke-static                v3, Ljava/util/Collections;->synchronizedSet(Ljava/util/Set;)Ljava/util/Set;
+      25 move-result-object           v3
+      26 iput-object                  v3, v1, Lb/f0;->h Ljava/util/Set;
+      27 new-instance                 v3, Ljava/lang/Thread;
+      28 new-instance                 v4, Lb/d0;
+      29 const/4                      v5, 0
+      30 invoke-direct                v4, v5, v1, Lb/d0;-><init>(I Ljava/lang/Object;)V
+      31 const-string                 v5, "mcp-accept"
+      32 invoke-direct                v3, v4, v5, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable; Ljava/lang/String;)V
+      33 invoke-virtual               v3, v2, Ljava/lang/Thread;->setDaemon(Z)V
+      34 invoke-virtual               v3, Ljava/lang/Thread;->start()V
+      35 return-void                  
+
+==============================================================================
+local-server class Lb/z;
+==============================================================================
+### CLASS Lb/z; super=Ljava/lang/Object; ifaces=[]
+  FIELD a : Lb/f0; public static bridge
+  FIELD b : Ln/m0; public static
+  FIELD c : Z public static bridge
+  METHOD <clinit>()V static synthetic constructor
+  METHOD a(Ljava/lang/String;)Ljava/lang/String; public static
+  METHOD b(Ljava/lang/String;)Ljava/util/ArrayList; public static
+  METHOD c(Ln/m0; Ljava/lang/String; Ljava/lang/String;)Lb/f0; public static
+  METHOD d()V public static
+
+### Lb/z;::d()V access=public static
+       0 sget-object                  v0, Lb/z;->a Lb/f0;
+       1 if-eqz                       v0, +042h
+       2 const/4                      v1, 0
+       3 iput-boolean                 v1, v0, Lb/f0;->g Z
+       4 iget-object                  v1, v0, Lb/f0;->e Ljava/net/ServerSocket;
+       5 invoke-virtual               v1, Ljava/net/ServerSocket;->close()V
+       6 goto                         +5h
+       7 move-exception               v1
+       8 invoke-static                v1, Lm/v;->m(Ljava/lang/Throwable;)Lo/c;
+       9 iget-object                  v1, v0, Lb/f0;->h Ljava/util/Set;
+      10 const-string                 v2, "clients"
+      11 invoke-static                v1, v2, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      12 monitor-enter                v1
+      13 iget-object                  v2, v0, Lb/f0;->h Ljava/util/Set;
+      14 const-string                 v3, "clients"
+      15 invoke-static                v2, v3, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      16 invoke-interface             v2, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+      17 move-result-object           v2
+      18 invoke-interface             v2, Ljava/util/Iterator;->hasNext()Z
+      19 move-result                  v3
+      20 if-eqz                       v3, +013h
+      21 invoke-interface             v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      22 move-result-object           v3
+      23 check-cast                   v3, Ljava/net/Socket;
+      24 invoke-virtual               v3, Ljava/net/Socket;->close()V
+      25 goto                         -fh
+      26 move-exception               v3
+      27 invoke-static                v3, Lm/v;->m(Ljava/lang/Throwable;)Lo/c;
+      28 goto                         -14h
+      29 move-exception               v0
+      30 goto                         +8h
+      31 iget-object                  v0, v0, Lb/f0;->h Ljava/util/Set;
+      32 invoke-interface             v0, Ljava/util/Set;->clear()V
+      33 monitor-exit                 v1
+      34 goto                         +3h
+      35 monitor-exit                 v1
+      36 throw                        v0
+      37 const/4                      v0, 0
+      38 sput-object                  v0, Lb/z;->a Lb/f0;
+      39 sput-object                  v0, Lb/z;->b Ln/m0;
+      40 return-void                  
+
+==============================================================================
+AssistantService
+==============================================================================
+### CLASS Lcom/rusjj/imodisa/ui/AssistantService; super=Landroid/app/Service; ifaces=[]
+  FIELD c : Lcom/rusjj/imodisa/ui/AssistantService; public static bridge
+  FIELD a : Landroid/os/Handler; public final
+  FIELD b : Landroid/os/PowerManager$WakeLock; public
+  METHOD <init>()V public constructor
+  METHOD a()V public final
+  METHOD b()Landroid/app/Notification; public final
+  METHOD onBind(Landroid/content/Intent;)Landroid/os/IBinder; public final
+  METHOD onDestroy()V public final
+  METHOD onStartCommand(Landroid/content/Intent; I I)I public final
+  METHOD onTimeout(I I)V public final
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::<init>()V access=public constructor
+       0 invoke-direct                v2, Landroid/app/Service;-><init>()V
+       1 new-instance                 v0, Landroid/os/Handler;
+       2 invoke-static                Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+       3 move-result-object           v1
+       4 invoke-direct                v0, v1, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+       5 iput-object                  v0, v2, Lcom/rusjj/imodisa/ui/AssistantService;->a Landroid/os/Handler;
+       6 return-void                  
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::a()V access=public final
+       0 const/4                      v0, 0
+       1 sput-object                  v0, Lcom/rusjj/imodisa/ui/AssistantService;->c Lcom/rusjj/imodisa/ui/AssistantService;
+       2 iget-object                  v1, v3, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+       3 if-eqz                       v1, +00bh
+       4 invoke-virtual               v1, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+       5 move-result                  v2
+       6 if-eqz                       v2, +005h
+       7 invoke-virtual               v1, Landroid/os/PowerManager$WakeLock;->release()V
+       8 iput-object                  v0, v3, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+       9 const/4                      v0, 1
+      10 invoke-virtual               v3, v0, Landroid/app/Service;->stopForeground(I)V
+      11 invoke-virtual               v3, Landroid/app/Service;->stopSelf()V
+      12 return-void                  
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::b()Landroid/app/Notification; access=public final
+       0 new-instance                 v0, Landroid/content/Intent;
+       1 const-class                  v1, Lcom/rusjj/imodisa/ui/AssistantService;
+       2 invoke-direct                v0, v6, v1, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+       3 const-string                 v1, "com.rusjj.imodisa.ASSISTANT_STOP"
+       4 invoke-virtual               v0, v1, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+       5 move-result-object           v0
+       6 const/4                      v1, 2
+       7 const/high16                 v2, 67108864
+       8 invoke-static                v6, v1, v0, v2, Landroid/app/PendingIntent;->getService(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+       9 move-result-object           v0
+      10 invoke-virtual               v6, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+      11 move-result-object           v1
+      12 invoke-virtual               v6, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+      13 move-result-object           v3
+      14 invoke-virtual               v1, v3, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+      15 move-result-object           v1
+      16 const/4                      v3, 0
+      17 if-eqz                       v1, +011h
+      18 invoke-virtual               v1, v3, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+      19 move-result-object           v4
+      20 const/high16                 v5, 2097152
+      21 invoke-virtual               v4, v5, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+      22 const/4                      v4, 0
+      23 invoke-static                v6, v4, v1, v2, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+      24 move-result-object           v1
+      25 goto                         +2h
+      26 move-object                  v1, v3
+      27 new-instance                 v2, Landroid/app/Notification$Builder;
+      28 const-string                 v4, "assistant"
+      29 invoke-direct                v2, v6, v4, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context; Ljava/lang/String;)V
+      30 const                        v4, 2131296451
+      31 invoke-virtual               v6, v4, Landroid/content/Context;->getString(I)Ljava/lang/String;
+      32 move-result-object           v4
+      33 invoke-virtual               v2, v4, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+      34 move-result-object           v2
+      35 const                        v4, 2130903056
+      36 invoke-virtual               v2, v4, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
+      37 move-result-object           v2
+      38 const/4                      v4, 1
+      39 invoke-virtual               v2, v4, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
+      40 move-result-object           v2
+      41 invoke-virtual               v2, v4, Landroid/app/Notification$Builder;->setOnlyAlertOnce(Z)Landroid/app/Notification$Builder;
+      42 move-result-object           v2
+      43 invoke-virtual               v2, v1, Landroid/app/Notification$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+      44 move-result-object           v1
+      45 new-instance                 v2, Landroid/app/Notification$Action$Builder;
+      46 const                        v4, 2131296454
+      47 invoke-virtual               v6, v4, Landroid/content/Context;->getString(I)Ljava/lang/String;
+      48 move-result-object           v4
+      49 invoke-direct                v2, v3, v4, v0, Landroid/app/Notification$Action$Builder;-><init>(Landroid/graphics/drawable/Icon; Ljava/lang/CharSequence; Landroid/app/PendingIntent;)V
+      50 invoke-virtual               v2, Landroid/app/Notification$Action$Builder;->build()Landroid/app/Notification$Action;
+      51 move-result-object           v0
+      52 invoke-virtual               v1, v0, Landroid/app/Notification$Builder;->addAction(Landroid/app/Notification$Action;)Landroid/app/Notification$Builder;
+      53 move-result-object           v0
+      54 invoke-virtual               v0, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+      55 move-result-object           v0
+      56 const-string                 v1, "build(...)"
+      57 invoke-static                v0, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      58 return-object                v0
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::onBind(Landroid/content/Intent;)Landroid/os/IBinder; access=public final
+       0 const/4                      v1, 0
+       1 return-object                v1
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::onDestroy()V access=public final
+       0 sget-object                  v0, Lcom/rusjj/imodisa/ui/AssistantService;->c Lcom/rusjj/imodisa/ui/AssistantService;
+       1 const/4                      v1, 0
+       2 if-ne                        v0, v3, +004h
+       3 sput-object                  v1, Lcom/rusjj/imodisa/ui/AssistantService;->c Lcom/rusjj/imodisa/ui/AssistantService;
+       4 iget-object                  v0, v3, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+       5 if-eqz                       v0, +00bh
+       6 invoke-virtual               v0, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+       7 move-result                  v2
+       8 if-eqz                       v2, +005h
+       9 invoke-virtual               v0, Landroid/os/PowerManager$WakeLock;->release()V
+      10 iput-object                  v1, v3, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+      11 iget-object                  v0, v3, Lcom/rusjj/imodisa/ui/AssistantService;->a Landroid/os/Handler;
+      12 invoke-virtual               v0, v1, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
+      13 invoke-super                 v3, Landroid/app/Service;->onDestroy()V
+      14 return-void                  
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::onStartCommand(Landroid/content/Intent; I I)I access=public final
+       0 if-eqz                       v3, +007h
+       1 invoke-virtual               v3, Landroid/content/Intent;->getAction()Ljava/lang/String;
+       2 move-result-object           v3
+       3 goto                         +2h
+       4 const/4                      v3, 0
+       5 const-string                 v4, "com.rusjj.imodisa.ASSISTANT_STOP"
+       6 invoke-static                v3, v4, Lb0/j;->b(Ljava/lang/Object; Ljava/lang/Object;)Z
+       7 move-result                  v3
+       8 const/4                      v4, 2
+       9 if-eqz                       v3, +01ch
+      10 sget-object                  v3, Lb/h;->u Ljava/util/Set;
+      11 invoke-static                v3, Lp/h;->K0(Ljava/lang/Iterable;)Ljava/util/List;
+      12 move-result-object           v3
+      13 invoke-interface             v3, Ljava/util/List;->iterator()Ljava/util/Iterator;
+      14 move-result-object           v3
+      15 invoke-interface             v3, Ljava/util/Iterator;->hasNext()Z
+      16 move-result                  v5
+      17 if-eqz                       v5, +06eh
+      18 invoke-interface             v3, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      19 move-result-object           v5
+      20 check-cast                   v5, Lb/h;
+      21 invoke-virtual               v5, Lb/h;->h()V
+      22 goto                         -fh
+      23 const-string                 v3, "notification"
+      24 invoke-virtual               v2, v3, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+      25 move-result-object           v3
+      26 const-string                 v5, "null cannot be cast to non-null type android.app.NotificationManager"
+      27 invoke-static                v3, v5, Lb0/j;->d(Ljava/lang/Object; Ljava/lang/String;)V
+      28 check-cast                   v3, Landroid/app/NotificationManager;
+      29 new-instance                 v5, Landroid/app/NotificationChannel;
+      30 const                        v0, 2131296452
+      31 invoke-virtual               v2, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+      32 move-result-object           v0
+      33 const-string                 v1, "assistant"
+      34 invoke-direct                v5, v1, v0, v4, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String; Ljava/lang/CharSequence; I)V
+      35 invoke-virtual               v3, v5, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+      36 sget                         v3, Landroid/os/Build$VERSION;->SDK_INT I
+      37 const/16                     v5, 29
+      38 if-lt                        v3, v5, +00ah
+      39 invoke-virtual               v2, Lcom/rusjj/imodisa/ui/AssistantService;->b()Landroid/app/Notification;
+      40 move-result-object           v3
+      41 invoke-static                v2, v3, Ll/n0;->b(Lcom/rusjj/imodisa/ui/AssistantService; Landroid/app/Notification;)V
+      42 goto                         +ah
+      43 invoke-virtual               v2, Lcom/rusjj/imodisa/ui/AssistantService;->b()Landroid/app/Notification;
+      44 move-result-object           v3
+      45 const/16                     v5, 7101
+      46 invoke-virtual               v2, v5, v3, Landroid/app/Service;->startForeground(I Landroid/app/Notification;)V
+      47 sput-object                  v2, Lcom/rusjj/imodisa/ui/AssistantService;->c Lcom/rusjj/imodisa/ui/AssistantService;
+      48 iget-object                  v3, v2, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+      49 if-nez                       v3, +01eh
+      50 const-string                 v3, "power"
+      51 invoke-virtual               v2, v3, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+      52 move-result-object           v3
+      53 const-string                 v5, "null cannot be cast to non-null type android.os.PowerManager"
+      54 invoke-static                v3, v5, Lb0/j;->d(Ljava/lang/Object; Ljava/lang/String;)V
+      55 check-cast                   v3, Landroid/os/PowerManager;
+      56 const-string                 v5, "imodisa:assistant"
+      57 const/4                      v0, 1
+      58 invoke-virtual               v3, v0, v5, Landroid/os/PowerManager;->newWakeLock(I Ljava/lang/String;)Landroid/os/PowerManager$WakeLock;
+      59 move-result-object           v3
+      60 const-wide/32                v0, 7200000
+      61 invoke-virtual               v3, v0, v1, Landroid/os/PowerManager$WakeLock;->acquire(J)V
+      62 iput-object                  v3, v2, Lcom/rusjj/imodisa/ui/AssistantService;->b Landroid/os/PowerManager$WakeLock;
+      63 sget-object                  v3, Lb/h;->u Ljava/util/Set;
+      64 invoke-interface             v3, Ljava/util/Set;->size()I
+      65 move-result                  v3
+      66 if-nez                       v3, +005h
+      67 invoke-virtual               v2, Lcom/rusjj/imodisa/ui/AssistantService;->a()V
+      68 return                       v4
+      69 invoke-virtual               v2, Landroid/app/Service;->stopSelf()V
+      70 return                       v4
+
+### Lcom/rusjj/imodisa/ui/AssistantService;::onTimeout(I I)V access=public final
+       0 sget-object                  v1, Lb/h;->u Ljava/util/Set;
+       1 invoke-static                v1, Lp/h;->K0(Ljava/lang/Iterable;)Ljava/util/List;
+       2 move-result-object           v1
+       3 invoke-interface             v1, Ljava/util/List;->iterator()Ljava/util/Iterator;
+       4 move-result-object           v1
+       5 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+       6 move-result                  v2
+       7 if-eqz                       v2, +00ch
+       8 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+       9 move-result-object           v2
+      10 check-cast                   v2, Lb/h;
+      11 invoke-virtual               v2, Lb/h;->h()V
+      12 goto                         -fh
+      13 invoke-virtual               v0, Lcom/rusjj/imodisa/ui/AssistantService;->a()V
+      14 return-void                  
+

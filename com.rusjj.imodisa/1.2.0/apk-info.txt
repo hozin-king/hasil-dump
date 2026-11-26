@@ -1,0 +1,151 @@
+APK INFO — imodisa 1.2.0 (com.rusjj.imodisa)
+===============================================
+Analisis statis — 26 Nov 2026. APK tidak pernah di-install/dijalankan.
+
+SOURCE BUNDLE
+-------------
+File:       imodisa_1.2.0_0_z1dd.apks (ZIP, 3 entri)
+Ukuran:     2.822.386 B
+SHA-256:    3eaf731c07701c59e20bd46697f3bc192c194e398b0de65653dd6fcb8857837d
+
+SPLITS
+------
+base.apk                  3.533.060 B  SHA-256 e9aa979c2a563e47a24faddd85febe144984a361439393ef4bf7987aefa06bec
+split_config.arm64_v8a.apk 4.878.758 B  SHA-256 e14149f5d9f97d5540603be3710051c4258a4986dc804e5b59da085dd2c2d265
+split_config.in.apk         102.809 B  SHA-256 29fd0167cdccc9e37dc7012d1d84f0849b95190849877eee4268901c6e7283b5
+
+IDENTITY
+--------
+Package:      com.rusjj.imodisa
+App name:     imodisa
+Tagline:      "Disassembler for modders" / ID: "Disassembler untuk modder"
+Version:      1.2.0 (versionCode 10200)
+minSdk:       26
+targetSdk:    36
+compileSdk:   36
+Main activity: com.rusjj.imodisa.ui.HomeActivity
+Application class (manifest): com.pairip.application.Application (PairIP wraps the app)
+Distribution stamp: com.android.stamp.source = https://play.google.com/store
+                     STAMP_TYPE_DISTRIBUTION_APK (didistribusikan lewat Google Play)
+requiredSplitTypes: base__abi ; com.android.vending.splits.required=true
+allowBackup=false ; largeHeap=true ; extractNativeLibs=false ; usesCleartextTraffic=true
+
+SIGNER (self-signed)
+--------------------
+DN:        CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Serial:    104646291067031387517289514138100109389404368660
+Valid:     2026-10-18 s.d. 2056-10-18
+SHA-256:   8A:91:A8:BC:4B:22:79:57:01:30:58:10:AE:3F:C4:2B:E2:13:C1:E0:10:41:B2:17:86:72:03:C9:40:AE:18:45
+SHA-1:     02:1C:28:E5:BA:27:97:72:FB:7B:F5:52:2C:DC:43:CC:34:97:4D:3D
+Schemes:   base v2+v3 (tanpa v1); splits v1+v2+v3. Sertifikat sama di ketiga split.
+CATATAN: DN persis sama dengan template DN kunci uji AOSP (testkey), tapi fingerprint
+TIDAK cocok dengan fingerprint kunci uji AOSP yang dipublikasikan (SHA-1 kunci uji
+publik yang dikenal: 61:ED:37:7E:85:D3:86:A8:DF:EE:6B:86:4B:D8:5B:0B:FA:A5:AF:81).
+Jadi ini BUKAN kunci publik AOSP — private key dipegang developer — tapi pemakaian
+DN template kunci uji adalah praktik lemah/membingungkan.
+
+PERMISSIONS
+-----------
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FOREGROUND_SERVICE
+android.permission.FOREGROUND_SERVICE_DATA_SYNC
+android.permission.POST_NOTIFICATIONS
+android.permission.WAKE_LOCK
+com.android.vending.CHECK_LICENSE
+
+COMPONENTS
+----------
+Activities:
+  com.rusjj.imodisa.ui.HomeActivity            (MAIN/LAUNCHER, exported; VIEW/EDIT/SEND file biner)
+  com.rusjj.imodisa.ui.DexActivity             (analisis DEX)
+  com.rusjj.imodisa.ui.WorkspaceActivity       (workspace + panel server MCP)
+  com.rusjj.imodisa.ui.AppPickerActivity
+  com.rusjj.imodisa.ui.SettingsActivity
+  com.pairip.licensecheck.LicenseActivity      (tidak exported)
+Services (foreground, dataSync):
+  com.rusjj.imodisa.ui.AssistantService        (AI)
+  com.rusjj.imodisa.ui.ExportService           (ekspor)
+FileProvider: com.rusjj.imodisa.fileprovider
+
+DEX
+---
+1 dex: classes.dex 3.229.280 B (dex 037)
+Strings:  12.237
+Methods:   9.152
+Fields:    5.996
+Classes:   1.461
+Class aplikasi com.rusjj.*: 11 (0,75%) — sisanya library (Kotlin, AndroidX, coroutines,
+org.json, PairIP). R8 obfuscation: logika aplikasi di package satu huruf
+(a.*, b.*, f.*, g.*, l.*, m.*, n.*, o.*, p.*, y.*).
+
+NATIVE LIB (split arm64)
+------------------------
+lib/arm64-v8a/libimodisa.so  4.822.224 B, ELF64 AArch64, stripped
+Build: clang 19.0.1 + PGO + BOLT + LTO + MLGO
+.text ~668 KB ; .rodata ~3,8 MB (tabel Capstone)
+Simbol dinamis: 1.042 (kebanyakan internal Capstone/LLVM)
+Import: 92 — hanya libc/pthread (tanpa socket/SSL, tanpa crypto, tanpa ptrace)
+JNI: hanya JNI_OnLoad diekspor; method didaftar via RegisterNatives
+Isi: Capstone disassembler (AArch64/ARM) + LLVM MC layer + ZSTD + __cxa_demangle
+String di .so: 9.791, semuanya terbaca (tanpa enkripsi string)
+
+NETWORK / AI (dari dex, terverifikasi)
+--------------------------------------
+Transport: java.net.HttpURLConnection (tanpa OkHttp/Retrofit)
+Provider LLM bawaan (preset Lb/t0):
+  OpenAI https://api.openai.com/v1 (gpt-4.1, gpt-5, gpt-5-mini, gpt-oss-120b)
+  Anthropic https://api.anthropic.com (Claude)
+  DeepSeek https://api.deepseek.com/v1 (deepseek-chat, deepseek-reasoner, DeepSeek-V3.1)
+  Groq https://api.groq.com/openai/v1
+  Mistral https://api.mistral.ai/v1 (codestral-latest, mistral-large-latest)
+  Cerebras https://api.cerebras.ai/v1
+  SambaNova https://api.sambanova.ai/v1
+  xAI https://api.x.ai/v1 (grok-3-mini, grok-4)
+  NVIDIA NIM https://integrate.api.nvidia.com/v1
+  GitHub Models https://models.github.ai/inference ("free with a GitHub token")
+  Hugging Face https://router.huggingface.co/v1
+  OpenRouter https://openrouter.ai/api/v1
+  Google Gemini https://generativelanguage.googleapis.com/v1beta/openai (gemini-2.5-flash/pro/lite)
+  Ollama http://127.0.0.1:11434/v1 ; LM Studio http://127.0.0.1:1234/v1
+  OpenCode Go https://opencode.ai/inference/go/openai/v1
+  custom_openai / custom_anthropic (endpoint sendiri)
+Pencarian web AI: https://html.duckduckgo.com/html/
+Kunci API: SharedPreferences "settings", plaintext (tanpa EncryptedSharedPreferences)
+
+SERVER MCP LOKAL
+----------------
+ServerSocket(8765, 16, null) — port 8765, semua interface (0.0.0.0), fallback port acak
+Endpoint /mcp (JSON-RPC MCP); auth Bearer token ATAU ?token= (MessageDigest.isEqual)
+Token: SecureRandom 24 byte, disimpan plaintext di "settings" key "mcp_token"
+Origin check (403 bila origin tidak diizinkan); proteksi path traversal (".." ditolak)
+Tools: list_files, list_functions, list_imports, list_exports, list_types,
+disassemble, decompile, pseudocode, call_graph, patch, patch_bytes,
+create_function, comment, auto_comments, get_type, search, dll.
+
+LISENSI & PROTEKSI
+------------------
+PairIP + Google Play License Verification Library v2 (com.pairip.licensecheck.*):
+checkLicense, bindToLicensingService, processResponse, reportSuccessfulLicenseCheck,
+scheduleRepeatedLicenseCheck, performLocalInstallerCheck, isLocalCheckPassed,
+LicenseActivity (paywall), trial, graceful/eventual shutdown.
+R8 obfuscation (nama satu huruf). Tanpa enkripsi string.
+TIDAK ditemukan: deteksi root/emulator/Xposed/Frida, Play Integrity, cert pinning,
+pengecekan signature APK saat runtime.
+
+PENYIMPANAN
+-----------
+SharedPreferences "settings" (plaintext): pengaturan, API key LLM, mcp_token
+File store di getFilesDir(); cache di getCacheDir(); tanpa SQLite; tanpa EncryptedSharedPreferences
+
+UNDERSTANDABILITY (verdict)
+---------------------------
+Apa aplikasinya & apa yang dilakukan: ~95% — sangat bisa dipahami
+Lapisan Kotlin (UI + AI + MCP):          ~60–70% — sebagian (R8, nama satu huruf)
+Mesin native libimodisa.so:              ~20–30% secara statis (stripped, 668 KB ARM64)
+Logika server-side (Play LVL, LLM):      tidak bisa dari statis
+Keseluruhan:                              ~70% — cukup untuk menjawab "ini aplikasi apa,
+                                          ngapain aja, dan bagaimana cara kerjanya"
+Penghambat: R8 (~1.450/1.461 class bernama satu huruf), native stripped + PGO/BOLT/LTO/MLGO,
+JNI dinamis, logika server-side. Pembantu: semua string plaintext (12.237 dex + 9.791 .so),
+API JNI bernama jelas, string resource UI lengkap EN + ID (739 + 727).

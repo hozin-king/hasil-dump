@@ -1,0 +1,14 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: OOhTkw9uJmjS8Sdhe+7E3uK0li8=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: +/V+WOdWKe0P6cgK7GRTRsHTii0=
+
+Name: lib/arm64-v8a/libimodisa.so
+SHA1-Digest: SHtb52U5cchKjVVGZl7WTZEMTWk=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

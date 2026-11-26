@@ -1,0 +1,1720 @@
+### CLASS Lb/f0; super=Ljava/lang/Object;
+  FIELD i : Ljava/util/List; public static final
+  FIELD j : Lg0/g; public static final
+  FIELD a : Lb/g0; public final
+  FIELD b : Ljava/lang/String; public final
+  FIELD c : Ljava/lang/String; public final
+  FIELD d : Ljava/lang/String; public final
+  FIELD e : Ljava/net/ServerSocket; public final
+  FIELD f : Ljava/lang/Object; public final
+  FIELD g : Z public bridge
+  FIELD h : Ljava/util/Set; public final
+  METHOD <clinit>()V static constructor
+  METHOD <init>(Lb/g0; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V public constructor
+  METHOD a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject; public static
+  METHOD c(Ljava/io/BufferedInputStream;)Ljava/lang/String; public static
+  METHOD d(Ljava/io/BufferedInputStream;)Lb/e0; public static
+  METHOD f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject; public static
+  METHOD g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V public static
+  METHOD h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V public static
+  METHOD b(Lorg/json/JSONObject;)Lorg/json/JSONObject; public final
+  METHOD e(Lb/e0; Ljava/io/OutputStream;)V public final
+
+### Lb/f0;::<clinit>()V
+       0 const-string                 v0, "2025-03-26"
+       1 const-string                 v1, "2024-11-05"
+       2 const-string                 v2, "2025-06-18"
+       3 filled-new-array             v2, v0, v1, [Ljava/lang/String;
+       4 move-result-object           v0
+       5 invoke-static                v0, Lp/g;->D([Ljava/lang/Object;)Ljava/util/List;
+       6 move-result-object           v0
+       7 sput-object                  v0, Lb/f0;->i Ljava/util/List;
+       8 new-instance                 v0, Lg0/g;
+       9 const-string                 v1, "^https?://(localhost|127\.0\.0\.1|\[::1])(:\d+)?$"
+      10 sget-object                  v2, Lg0/h;->b Lg0/h;
+      11 invoke-direct                v0, v1, v2, Lg0/g;-><init>(Ljava/lang/String; Lg0/h;)V
+      12 sput-object                  v0, Lb/f0;->j Lg0/g;
+      13 return-void                  
+
+### Lb/f0;::<init>(Lb/g0; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+       0 const-string                 v0, "instructions"
+       1 invoke-static                v4, v0, Lb0/j;->f(Ljava/lang/Object; Ljava/lang/String;)V
+       2 invoke-direct                v1, Ljava/lang/Object;-><init>()V
+       3 iput-object                  v2, v1, Lb/f0;->a Lb/g0;
+       4 iput-object                  v3, v1, Lb/f0;->b Ljava/lang/String;
+       5 iput-object                  v4, v1, Lb/f0;->c Ljava/lang/String;
+       6 iput-object                  v5, v1, Lb/f0;->d Ljava/lang/String;
+       7 const/4                      v2, 0
+       8 const/16                     v3, 16
+       9 new-instance                 v4, Ljava/net/ServerSocket;
+      10 const/16                     v5, 8765
+      11 invoke-direct                v4, v5, v3, v2, Ljava/net/ServerSocket;-><init>(I I Ljava/net/InetAddress;)V
+      12 goto                         +7h
+      13 new-instance                 v4, Ljava/net/ServerSocket;
+      14 const/4                      v5, 0
+      15 invoke-direct                v4, v5, v3, v2, Ljava/net/ServerSocket;-><init>(I I Ljava/net/InetAddress;)V
+      16 iput-object                  v4, v1, Lb/f0;->e Ljava/net/ServerSocket;
+      17 new-instance                 v2, Ljava/lang/Object;
+      18 invoke-direct                v2, Ljava/lang/Object;-><init>()V
+      19 iput-object                  v2, v1, Lb/f0;->f Ljava/lang/Object;
+      20 const/4                      v2, 1
+      21 iput-boolean                 v2, v1, Lb/f0;->g Z
+      22 new-instance                 v3, Ljava/util/HashSet;
+      23 invoke-direct                v3, Ljava/util/HashSet;-><init>()V
+      24 invoke-static                v3, Ljava/util/Collections;->synchronizedSet(Ljava/util/Set;)Ljava/util/Set;
+      25 move-result-object           v3
+      26 iput-object                  v3, v1, Lb/f0;->h Ljava/util/Set;
+      27 new-instance                 v3, Ljava/lang/Thread;
+      28 new-instance                 v4, Lb/d0;
+      29 const/4                      v5, 0
+      30 invoke-direct                v4, v5, v1, Lb/d0;-><init>(I Ljava/lang/Object;)V
+      31 const-string                 v5, "mcp-accept"
+      32 invoke-direct                v3, v4, v5, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable; Ljava/lang/String;)V
+      33 invoke-virtual               v3, v2, Ljava/lang/Thread;->setDaemon(Z)V
+      34 invoke-virtual               v3, Ljava/lang/Thread;->start()V
+      35 return-void                  
+
+### Lb/f0;::a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+       0 new-instance                 v0, Lorg/json/JSONObject;
+       1 invoke-direct                v0, Lorg/json/JSONObject;-><init>()V
+       2 const-string                 v1, "jsonrpc"
+       3 const-string                 v2, "2.0"
+       4 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+       5 move-result-object           v0
+       6 if-nez                       v3, +004h
+       7 sget-object                  v3, Lorg/json/JSONObject;->NULL Ljava/lang/Object;
+       8 const-string                 v1, "id"
+       9 invoke-virtual               v0, v1, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      10 move-result-object           v3
+      11 new-instance                 v0, Lorg/json/JSONObject;
+      12 invoke-direct                v0, Lorg/json/JSONObject;-><init>()V
+      13 const-string                 v1, "code"
+      14 invoke-virtual               v0, v1, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; I)Lorg/json/JSONObject;
+      15 move-result-object           v4
+      16 const-string                 v0, "message"
+      17 invoke-virtual               v4, v0, v5, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      18 move-result-object           v4
+      19 const-string                 v5, "error"
+      20 invoke-virtual               v3, v5, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      21 move-result-object           v3
+      22 return-object                v3
+
+### Lb/f0;::c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+       0 new-instance                 v0, Ljava/io/ByteArrayOutputStream;
+       1 invoke-direct                v0, Ljava/io/ByteArrayOutputStream;-><init>()V
+       2 invoke-virtual               v4, Ljava/io/InputStream;->read()I
+       3 move-result                  v1
+       4 const-string                 v2, "ISO-8859-1"
+       5 if-gez                       v1, +00fh
+       6 invoke-virtual               v0, Ljava/io/ByteArrayOutputStream;->size()I
+       7 move-result                  v4
+       8 if-nez                       v4, +004h
+       9 const/4                      v4, 0
+      10 return-object                v4
+      11 invoke-virtual               v0, v2, Ljava/io/ByteArrayOutputStream;->toString(Ljava/lang/String;)Ljava/lang/String;
+      12 move-result-object           v4
+      13 return-object                v4
+      14 const/16                     v3, 10
+      15 if-ne                        v1, v3, +012h
+      16 invoke-virtual               v0, v2, Ljava/io/ByteArrayOutputStream;->toString(Ljava/lang/String;)Ljava/lang/String;
+      17 move-result-object           v4
+      18 const-string                 v0, "toString(...)"
+      19 invoke-static                v4, v0, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      20 const-string                 v0, ""
+      21 invoke-static                v0, v4, Lg0/i;->x1(Ljava/lang/CharSequence; Ljava/lang/String;)Ljava/lang/String;
+      22 move-result-object           v4
+      23 return-object                v4
+      24 invoke-virtual               v0, v1, Ljava/io/ByteArrayOutputStream;->write(I)V
+      25 invoke-virtual               v0, Ljava/io/ByteArrayOutputStream;->size()I
+      26 move-result                  v1
+      27 const/16                     v2, 16384
+      28 if-gt                        v1, v2, +003h
+      29 goto                         -34h
+      30 new-instance                 v4, Ljava/io/IOException;
+      31 const-string                 v0, "header too long"
+      32 invoke-direct                v4, v0, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+      33 throw                        v4
+
+### Lb/f0;::d(Ljava/io/BufferedInputStream;)Lb/e0;
+       0 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+       1 move-result-object           v0
+       2 if-nez                       v0, +003h
+       3 goto                         +dh
+       4 invoke-virtual               v0, Ljava/lang/String;->length()I
+       5 move-result                  v1
+       6 if-nez                       v1, +00ah
+       7 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+       8 move-result-object           v0
+       9 if-nez                       v0, -00ah
+      10 const/4                      v12, 0
+      11 return-object                v12
+      12 const/4                      v1, 1
+      13 new-array                    v2, v1, [C
+      14 const/16                     v3, 32
+      15 const/4                      v4, 0
+      16 aput-char                    v3, v2, v4
+      17 invoke-static                v0, v2, Lg0/i;->z1(Ljava/lang/CharSequence; [C)Ljava/util/List;
+      18 move-result-object           v0
+      19 invoke-interface             v0, Ljava/util/List;->size()I
+      20 move-result                  v2
+      21 const/4                      v3, 2
+      22 if-lt                        v2, v3, +115h
+      23 new-instance                 v2, Ljava/util/HashMap;
+      24 invoke-direct                v2, Ljava/util/HashMap;-><init>()V
+      25 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+      26 move-result-object           v3
+      27 if-nez                       v3, +003h
+      28 goto                         +7h
+      29 invoke-virtual               v3, Ljava/lang/String;->length()I
+      30 move-result                  v5
+      31 if-nez                       v5, +0c8h
+      32 const-string                 v3, "transfer-encoding"
+      33 invoke-virtual               v2, v3, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+      34 move-result-object           v3
+      35 check-cast                   v3, Ljava/lang/String;
+      36 const-string                 v5, "connection closed"
+      37 const-string                 v6, "body too large"
+      38 const/high16                 v7, 8388608
+      39 if-eqz                       v3, +064h
+      40 const-string                 v8, "chunked"
+      41 invoke-static                v3, v8, v1, Lg0/i;->Y0(Ljava/lang/CharSequence; Ljava/lang/CharSequence; Z)Z
+      42 move-result                  v3
+      43 if-ne                        v3, v1, +05ch
+      44 new-instance                 v3, Ljava/io/ByteArrayOutputStream;
+      45 invoke-direct                v3, Ljava/io/ByteArrayOutputStream;-><init>()V
+      46 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+      47 move-result-object           v8
+      48 if-nez                       v8, +003h
+      49 goto                         +4ah
+      50 const/16                     v9, 59
+      51 invoke-static                v8, v9, v8, Lg0/i;->H1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+      52 move-result-object           v8
+      53 invoke-static                v8, Lg0/i;->O1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+      54 move-result-object           v8
+      55 invoke-virtual               v8, Ljava/lang/Object;->toString()Ljava/lang/String;
+      56 move-result-object           v8
+      57 const/16                     v9, 16
+      58 invoke-static                v9, v8, Lg0/p;->J0(I Ljava/lang/String;)Ljava/lang/Integer;
+      59 move-result-object           v8
+      60 if-eqz                       v8, +035h
+      61 invoke-virtual               v8, Ljava/lang/Integer;->intValue()I
+      62 move-result                  v8
+      63 if-nez                       v8, +006h
+      64 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+      65 goto                         +2ah
+      66 invoke-virtual               v3, Ljava/io/ByteArrayOutputStream;->size()I
+      67 move-result                  v9
+      68 add-int/2addr                v9, v8
+      69 if-gt                        v9, v7, +01eh
+      70 new-array                    v9, v8, [B
+      71 move                         v10, v4
+      72 if-ge                        v10, v8, +012h
+      73 sub-int                      v11, v8, v10
+      74 invoke-virtual               v12, v9, v10, v11, Ljava/io/InputStream;->read([B I I)I
+      75 move-result                  v11
+      76 if-ltz                       v11, +004h
+      77 add-int/2addr                v10, v11
+      78 goto                         -bh
+      79 new-instance                 v12, Ljava/io/IOException;
+      80 invoke-direct                v12, v5, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+      81 throw                        v12
+      82 invoke-virtual               v3, v9, Ljava/io/OutputStream;->write([B)V
+      83 invoke-static                v12, Lb/f0;->c(Ljava/io/BufferedInputStream;)Ljava/lang/String;
+      84 goto                         -49h
+      85 new-instance                 v12, Ljava/io/IOException;
+      86 invoke-direct                v12, v6, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+      87 throw                        v12
+      88 invoke-virtual               v3, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+      89 move-result-object           v12
+      90 goto                         +2fh
+      91 const-string                 v3, "content-length"
+      92 invoke-virtual               v2, v3, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+      93 move-result-object           v3
+      94 check-cast                   v3, Ljava/lang/String;
+      95 if-eqz                       v3, +00dh
+      96 invoke-static                v3, Lg0/p;->K0(Ljava/lang/String;)Ljava/lang/Integer;
+      97 move-result-object           v3
+      98 if-eqz                       v3, +007h
+      99 invoke-virtual               v3, Ljava/lang/Integer;->intValue()I
+     100 move-result                  v3
+     101 goto                         +2h
+     102 move                         v3, v4
+     103 if-gt                        v3, v7, +038h
+     104 new-array                    v6, v3, [B
+     105 move                         v7, v4
+     106 if-ge                        v7, v3, +012h
+     107 sub-int                      v8, v3, v7
+     108 invoke-virtual               v12, v6, v7, v8, Ljava/io/InputStream;->read([B I I)I
+     109 move-result                  v8
+     110 if-ltz                       v8, +004h
+     111 add-int/2addr                v7, v8
+     112 goto                         -bh
+     113 new-instance                 v12, Ljava/io/IOException;
+     114 invoke-direct                v12, v5, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+     115 throw                        v12
+     116 move-object                  v12, v6
+     117 new-instance                 v3, Lb/e0;
+     118 invoke-interface             v0, v4, Ljava/util/List;->get(I)Ljava/lang/Object;
+     119 move-result-object           v4
+     120 check-cast                   v4, Ljava/lang/String;
+     121 sget-object                  v5, Ljava/util/Locale;->ROOT Ljava/util/Locale;
+     122 invoke-virtual               v4, v5, Ljava/lang/String;->toUpperCase(Ljava/util/Locale;)Ljava/lang/String;
+     123 move-result-object           v4
+     124 const-string                 v5, "toUpperCase(...)"
+     125 invoke-static                v4, v5, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     126 invoke-interface             v0, v1, Ljava/util/List;->get(I)Ljava/lang/Object;
+     127 move-result-object           v0
+     128 check-cast                   v0, Ljava/lang/String;
+     129 invoke-static                v12, Lb0/j;->c(Ljava/lang/Object;)V
+     130 invoke-direct                v3, v4, v0, v2, v12, Lb/e0;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/util/HashMap; [B)V
+     131 return-object                v3
+     132 new-instance                 v12, Ljava/io/IOException;
+     133 invoke-direct                v12, v6, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+     134 throw                        v12
+     135 const/16                     v5, 58
+     136 const/4                      v6, 6
+     137 invoke-static                v3, v5, v4, v6, Lg0/i;->l1(Ljava/lang/CharSequence; C I I)I
+     138 move-result                  v5
+     139 if-lez                       v5, -0dah
+     140 invoke-virtual               v3, v4, v5, Ljava/lang/String;->substring(I I)Ljava/lang/String;
+     141 move-result-object           v6
+     142 const-string                 v7, "substring(...)"
+     143 invoke-static                v6, v7, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     144 invoke-static                v6, Lg0/i;->O1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+     145 move-result-object           v6
+     146 invoke-virtual               v6, Ljava/lang/Object;->toString()Ljava/lang/String;
+     147 move-result-object           v6
+     148 sget-object                  v8, Ljava/util/Locale;->ROOT Ljava/util/Locale;
+     149 invoke-virtual               v6, v8, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+     150 move-result-object           v6
+     151 const-string                 v8, "toLowerCase(...)"
+     152 invoke-static                v6, v8, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     153 add-int/lit8                 v5, v5, 1
+     154 invoke-virtual               v3, v5, Ljava/lang/String;->substring(I)Ljava/lang/String;
+     155 move-result-object           v3
+     156 invoke-static                v3, v7, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     157 invoke-static                v3, Lg0/i;->O1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+     158 move-result-object           v3
+     159 invoke-virtual               v3, Ljava/lang/Object;->toString()Ljava/lang/String;
+     160 move-result-object           v3
+     161 invoke-virtual               v2, v6, v3, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+     162 goto/16                      -10ch
+     163 new-instance                 v12, Ljava/io/IOException;
+     164 const-string                 v0, "bad request"
+     165 invoke-direct                v12, v0, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+     166 throw                        v12
+
+### Lb/f0;::f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+       0 new-instance                 v0, Lorg/json/JSONObject;
+       1 invoke-direct                v0, Lorg/json/JSONObject;-><init>()V
+       2 const-string                 v1, "jsonrpc"
+       3 const-string                 v2, "2.0"
+       4 invoke-virtual               v0, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+       5 move-result-object           v0
+       6 if-nez                       v3, +004h
+       7 sget-object                  v3, Lorg/json/JSONObject;->NULL Ljava/lang/Object;
+       8 const-string                 v1, "id"
+       9 invoke-virtual               v0, v1, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      10 move-result-object           v3
+      11 const-string                 v0, "result"
+      12 invoke-virtual               v3, v0, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      13 move-result-object           v3
+      14 return-object                v3
+
+### Lb/f0;::g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+       0 const-string                 v0, "getBytes(...)"
+       1 if-eqz                       v8, +00ch
+       2 sget-object                  v1, Lg0/a;->a Ljava/nio/charset/Charset;
+       3 invoke-virtual               v8, v1, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+       4 move-result-object           v1
+       5 invoke-static                v1, v0, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+       6 goto                         +4h
+       7 const/4                      v1, 0
+       8 new-array                    v1, v1, [B
+       9 new-instance                 v2, Ljava/lang/StringBuilder;
+      10 new-instance                 v3, Ljava/lang/StringBuilder;
+      11 const-string                 v4, "HTTP/1.1 "
+      12 invoke-direct                v3, v4, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+      13 invoke-virtual               v3, v6, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      14 const-string                 v6, " "
+      15 invoke-virtual               v3, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      16 invoke-virtual               v3, v7, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      17 const-string                 v6, "
+"
+      18 invoke-virtual               v3, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      19 invoke-virtual               v3, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      20 move-result-object           v7
+      21 invoke-direct                v2, v7, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+      22 if-eqz                       v8, +007h
+      23 const-string                 v7, "Content-Type: application/json
+"
+      24 invoke-virtual               v2, v7, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      25 array-length                 v7, v1
+      26 new-instance                 v8, Ljava/lang/StringBuilder;
+      27 const-string                 v3, "Content-Length: "
+      28 invoke-direct                v8, v3, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+      29 invoke-virtual               v8, v7, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      30 invoke-virtual               v8, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      31 invoke-virtual               v8, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      32 move-result-object           v7
+      33 invoke-virtual               v2, v7, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      34 invoke-interface             v9, Ljava/util/Map;->entrySet()Ljava/util/Set;
+      35 move-result-object           v7
+      36 invoke-interface             v7, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+      37 move-result-object           v7
+      38 invoke-interface             v7, Ljava/util/Iterator;->hasNext()Z
+      39 move-result                  v8
+      40 if-eqz                       v8, +02fh
+      41 invoke-interface             v7, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      42 move-result-object           v8
+      43 check-cast                   v8, Ljava/util/Map$Entry;
+      44 invoke-interface             v8, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+      45 move-result-object           v9
+      46 check-cast                   v9, Ljava/lang/String;
+      47 invoke-interface             v8, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+      48 move-result-object           v8
+      49 check-cast                   v8, Ljava/lang/String;
+      50 new-instance                 v3, Ljava/lang/StringBuilder;
+      51 invoke-direct                v3, Ljava/lang/StringBuilder;-><init>()V
+      52 invoke-virtual               v3, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      53 const-string                 v9, ": "
+      54 invoke-virtual               v3, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      55 invoke-virtual               v3, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      56 invoke-virtual               v3, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      57 invoke-virtual               v3, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      58 move-result-object           v8
+      59 invoke-virtual               v2, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      60 goto                         -32h
+      61 invoke-virtual               v2, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      62 invoke-virtual               v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      63 move-result-object           v6
+      64 const-string                 v7, "toString(...)"
+      65 invoke-static                v6, v7, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      66 sget-object                  v7, Lg0/a;->d Ljava/nio/charset/Charset;
+      67 invoke-virtual               v6, v7, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+      68 move-result-object           v6
+      69 invoke-static                v6, v0, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      70 invoke-virtual               v5, v6, Ljava/io/OutputStream;->write([B)V
+      71 invoke-virtual               v5, v1, Ljava/io/OutputStream;->write([B)V
+      72 invoke-virtual               v5, Ljava/io/OutputStream;->flush()V
+      73 return-void                  
+
+### Lb/f0;::h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V
+       0 if-eqz                       v4, +007h
+       1 invoke-virtual               v4, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+       2 move-result-object           v4
+       3 goto                         +2h
+       4 const/4                      v4, 0
+       5 sget-object                  v0, Lp/r;->a Lp/r;
+       6 invoke-static                v1, v2, v3, v4, v0, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+       7 return-void                  
+
+### Lb/f0;::b(Lorg/json/JSONObject;)Lorg/json/JSONObject;
+       0 const-string                 v0, "id"
+       1 invoke-virtual               v10, v0, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+       2 move-result                  v0
+       3 if-nez                       v0, +004h
+       4 const/4                      v10, 0
+       5 return-object                v10
+       6 const-string                 v0, "id"
+       7 invoke-virtual               v10, v0, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
+       8 move-result-object           v0
+       9 const-string                 v1, "params"
+      10 invoke-virtual               v10, v1, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+      11 move-result-object           v1
+      12 if-nez                       v1, +007h
+      13 new-instance                 v1, Lorg/json/JSONObject;
+      14 invoke-direct                v1, Lorg/json/JSONObject;-><init>()V
+      15 const-string                 v2, "method"
+      16 invoke-virtual               v10, v2, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+      17 move-result-object           v10
+      18 if-eqz                       v10, +21eh
+      19 invoke-virtual               v10, Ljava/lang/String;->hashCode()I
+      20 move-result                  v2
+      21 const/4                      v3, 0
+      22 sparse-switch                v2, +000022ch
+      23 goto/16                      +214h
+      24 const-string                 v2, "initialize"
+      25 invoke-virtual               v10, v2, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+      26 move-result                  v2
+      27 if-nez                       v2, +004h
+      28 goto/16                      +20ah
+      29 const-string                 v10, "protocolVersion"
+      30 invoke-virtual               v1, v10, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+      31 move-result-object           v10
+      32 new-instance                 v1, Lorg/json/JSONObject;
+      33 invoke-direct                v1, Lorg/json/JSONObject;-><init>()V
+      34 const-string                 v2, "protocolVersion"
+      35 sget-object                  v4, Lb/f0;->i Ljava/util/List;
+      36 invoke-interface             v4, v10, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+      37 move-result                  v5
+      38 if-eqz                       v5, +003h
+      39 goto                         +7h
+      40 invoke-static                v4, Lp/h;->j0(Ljava/util/List;)Ljava/lang/Object;
+      41 move-result-object           v10
+      42 check-cast                   v10, Ljava/lang/String;
+      43 invoke-virtual               v1, v2, v10, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      44 move-result-object           v10
+      45 const-string                 v1, "capabilities"
+      46 new-instance                 v2, Lorg/json/JSONObject;
+      47 invoke-direct                v2, Lorg/json/JSONObject;-><init>()V
+      48 const-string                 v4, "tools"
+      49 new-instance                 v5, Lorg/json/JSONObject;
+      50 invoke-direct                v5, Lorg/json/JSONObject;-><init>()V
+      51 const-string                 v6, "listChanged"
+      52 invoke-virtual               v5, v6, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; Z)Lorg/json/JSONObject;
+      53 move-result-object           v3
+      54 invoke-virtual               v2, v4, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      55 move-result-object           v2
+      56 invoke-virtual               v10, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      57 move-result-object           v10
+      58 const-string                 v1, "serverInfo"
+      59 new-instance                 v2, Lorg/json/JSONObject;
+      60 invoke-direct                v2, Lorg/json/JSONObject;-><init>()V
+      61 const-string                 v3, "name"
+      62 const-string                 v4, "imodisa"
+      63 invoke-virtual               v2, v3, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      64 move-result-object           v2
+      65 const-string                 v3, "version"
+      66 iget-object                  v4, v9, Lb/f0;->d Ljava/lang/String;
+      67 invoke-virtual               v2, v3, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      68 move-result-object           v2
+      69 invoke-virtual               v10, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      70 move-result-object           v10
+      71 const-string                 v1, "instructions"
+      72 iget-object                  v2, v9, Lb/f0;->c Ljava/lang/String;
+      73 invoke-virtual               v10, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      74 move-result-object           v10
+      75 const-string                 v1, "put(...)"
+      76 invoke-static                v10, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      77 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+      78 move-result-object           v10
+      79 return-object                v10
+      80 const-string                 v1, "resources/list"
+      81 invoke-virtual               v10, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+      82 move-result                  v1
+      83 if-nez                       v1, +004h
+      84 goto/16                      +197h
+      85 new-instance                 v10, Lorg/json/JSONObject;
+      86 invoke-direct                v10, Lorg/json/JSONObject;-><init>()V
+      87 const-string                 v1, "resources"
+      88 new-instance                 v2, Lorg/json/JSONArray;
+      89 invoke-direct                v2, Lorg/json/JSONArray;-><init>()V
+      90 invoke-virtual               v10, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+      91 move-result-object           v10
+      92 const-string                 v1, "put(...)"
+      93 invoke-static                v10, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      94 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+      95 move-result-object           v10
+      96 return-object                v10
+      97 const-string                 v1, "tools/list"
+      98 invoke-virtual               v10, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+      99 move-result                  v1
+     100 if-nez                       v1, +004h
+     101 goto/16                      +173h
+     102 new-instance                 v10, Lorg/json/JSONArray;
+     103 invoke-direct                v10, Lorg/json/JSONArray;-><init>()V
+     104 iget-object                  v1, v9, Lb/f0;->f Ljava/lang/Object;
+     105 monitor-enter                v1
+     106 iget-object                  v2, v9, Lb/f0;->a Lb/g0;
+     107 invoke-virtual               v2, Lb/g0;->a()Ljava/lang/Object;
+     108 move-result-object           v2
+     109 check-cast                   v2, Lb/d1;
+     110 invoke-virtual               v2, Lb/d1;->i()Lorg/json/JSONArray;
+     111 move-result-object           v2
+     112 monitor-exit                 v1
+     113 invoke-virtual               v2, Lorg/json/JSONArray;->length()I
+     114 move-result                  v1
+     115 if-ge                        v3, v1, +044h
+     116 invoke-virtual               v2, v3, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+     117 move-result-object           v4
+     118 new-instance                 v5, Lorg/json/JSONObject;
+     119 invoke-direct                v5, Lorg/json/JSONObject;-><init>()V
+     120 const-string                 v6, "name"
+     121 const-string                 v7, "name"
+     122 invoke-virtual               v4, v7, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+     123 move-result-object           v7
+     124 invoke-virtual               v5, v6, v7, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     125 move-result-object           v5
+     126 const-string                 v6, "description"
+     127 const-string                 v7, "description"
+     128 invoke-virtual               v4, v7, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+     129 move-result-object           v7
+     130 invoke-virtual               v5, v6, v7, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     131 move-result-object           v5
+     132 const-string                 v6, "inputSchema"
+     133 const-string                 v7, "input_schema"
+     134 invoke-virtual               v4, v7, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+     135 move-result-object           v4
+     136 if-nez                       v4, +00fh
+     137 new-instance                 v4, Lorg/json/JSONObject;
+     138 invoke-direct                v4, Lorg/json/JSONObject;-><init>()V
+     139 const-string                 v7, "type"
+     140 const-string                 v8, "object"
+     141 invoke-virtual               v4, v7, v8, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     142 move-result-object           v4
+     143 invoke-virtual               v5, v6, v4, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     144 move-result-object           v4
+     145 invoke-virtual               v10, v4, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+     146 add-int/lit8                 v3, v3, 1
+     147 goto                         -43h
+     148 new-instance                 v1, Lorg/json/JSONObject;
+     149 invoke-direct                v1, Lorg/json/JSONObject;-><init>()V
+     150 const-string                 v2, "tools"
+     151 invoke-virtual               v1, v2, v10, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     152 move-result-object           v10
+     153 const-string                 v1, "put(...)"
+     154 invoke-static                v10, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     155 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     156 move-result-object           v10
+     157 return-object                v10
+     158 move-exception               v10
+     159 monitor-exit                 v1
+     160 throw                        v10
+     161 const-string                 v2, "tools/call"
+     162 invoke-virtual               v10, v2, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     163 move-result                  v2
+     164 if-nez                       v2, +004h
+     165 goto/16                      +0f4h
+     166 const-string                 v10, "name"
+     167 invoke-virtual               v1, v10, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+     168 move-result-object           v10
+     169 iget-object                  v2, v9, Lb/f0;->a Lb/g0;
+     170 invoke-virtual               v2, Lb/g0;->a()Ljava/lang/Object;
+     171 move-result-object           v2
+     172 check-cast                   v2, Lb/d1;
+     173 iget-object                  v4, v9, Lb/f0;->f Ljava/lang/Object;
+     174 monitor-enter                v4
+     175 invoke-virtual               v2, Lb/d1;->i()Lorg/json/JSONArray;
+     176 move-result-object           v5
+     177 monitor-exit                 v4
+     178 invoke-virtual               v5, Lorg/json/JSONArray;->length()I
+     179 move-result                  v4
+     180 invoke-static                v3, v4, La/e;->i0(I I)Ld0/c;
+     181 move-result-object           v3
+     182 instance-of                  v4, v3, Ljava/util/Collection;
+     183 if-eqz                       v4, +00dh
+     184 move-object                  v4, v3
+     185 check-cast                   v4, Ljava/util/Collection;
+     186 invoke-interface             v4, Ljava/util/Collection;->isEmpty()Z
+     187 move-result                  v4
+     188 if-eqz                       v4, +004h
+     189 goto/16                      +079h
+     190 invoke-virtual               v3, Ld0/a;->iterator()Ljava/util/Iterator;
+     191 move-result-object           v3
+     192 move-object                  v4, v3
+     193 check-cast                   v4, Ld0/b;
+     194 iget-boolean                 v6, v4, Ld0/b;->c Z
+     195 if-eqz                       v6, +06eh
+     196 invoke-virtual               v4, Ld0/b;->nextInt()I
+     197 move-result                  v4
+     198 invoke-virtual               v5, v4, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+     199 move-result-object           v4
+     200 const-string                 v6, "name"
+     201 invoke-virtual               v4, v6, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+     202 move-result-object           v4
+     203 invoke-static                v4, v10, Lb0/j;->b(Ljava/lang/Object; Ljava/lang/Object;)Z
+     204 move-result                  v4
+     205 if-eqz                       v4, -019h
+     206 iget-object                  v3, v9, Lb/f0;->f Ljava/lang/Object;
+     207 monitor-enter                v3
+     208 invoke-static                v10, Lb0/j;->c(Ljava/lang/Object;)V
+     209 const-string                 v4, "arguments"
+     210 invoke-virtual               v1, v4, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+     211 move-result-object           v1
+     212 if-nez                       v1, +00ah
+     213 new-instance                 v1, Lorg/json/JSONObject;
+     214 invoke-direct                v1, Lorg/json/JSONObject;-><init>()V
+     215 goto                         +3h
+     216 move-exception               v10
+     217 goto                         +41h
+     218 invoke-virtual               v2, v10, v1, Lb/d1;->N(Ljava/lang/String; Lorg/json/JSONObject;)Lb/a1;
+     219 move-result-object           v10
+     220 monitor-exit                 v3
+     221 new-instance                 v1, Lorg/json/JSONObject;
+     222 invoke-direct                v1, Lorg/json/JSONObject;-><init>()V
+     223 const-string                 v2, "content"
+     224 new-instance                 v3, Lorg/json/JSONArray;
+     225 invoke-direct                v3, Lorg/json/JSONArray;-><init>()V
+     226 new-instance                 v4, Lorg/json/JSONObject;
+     227 invoke-direct                v4, Lorg/json/JSONObject;-><init>()V
+     228 const-string                 v5, "type"
+     229 const-string                 v6, "text"
+     230 invoke-virtual               v4, v5, v6, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     231 move-result-object           v4
+     232 const-string                 v5, "text"
+     233 iget-object                  v6, v10, Lb/a1;->a Ljava/lang/String;
+     234 invoke-virtual               v4, v5, v6, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     235 move-result-object           v4
+     236 invoke-virtual               v3, v4, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+     237 move-result-object           v3
+     238 invoke-virtual               v1, v2, v3, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     239 move-result-object           v1
+     240 const-string                 v2, "isError"
+     241 iget-boolean                 v10, v10, Lb/a1;->c Z
+     242 invoke-virtual               v1, v2, v10, Lorg/json/JSONObject;->put(Ljava/lang/String; Z)Lorg/json/JSONObject;
+     243 move-result-object           v10
+     244 const-string                 v1, "put(...)"
+     245 invoke-static                v10, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     246 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     247 move-result-object           v10
+     248 return-object                v10
+     249 monitor-exit                 v3
+     250 throw                        v10
+     251 new-instance                 v1, Ljava/lang/StringBuilder;
+     252 const-string                 v2, "unknown tool: "
+     253 invoke-direct                v1, v2, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+     254 invoke-virtual               v1, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     255 invoke-virtual               v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+     256 move-result-object           v10
+     257 const/16                     v1, -32602
+     258 invoke-static                v0, v1, v10, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+     259 move-result-object           v10
+     260 return-object                v10
+     261 move-exception               v10
+     262 monitor-exit                 v4
+     263 throw                        v10
+     264 const-string                 v1, "ping"
+     265 invoke-virtual               v10, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     266 move-result                  v1
+     267 if-nez                       v1, +003h
+     268 goto                         +2eh
+     269 new-instance                 v10, Lorg/json/JSONObject;
+     270 invoke-direct                v10, Lorg/json/JSONObject;-><init>()V
+     271 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     272 move-result-object           v10
+     273 return-object                v10
+     274 const-string                 v1, "prompts/list"
+     275 invoke-virtual               v10, v1, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     276 move-result                  v1
+     277 if-nez                       v1, +003h
+     278 goto                         +1bh
+     279 new-instance                 v10, Lorg/json/JSONObject;
+     280 invoke-direct                v10, Lorg/json/JSONObject;-><init>()V
+     281 const-string                 v1, "prompts"
+     282 new-instance                 v2, Lorg/json/JSONArray;
+     283 invoke-direct                v2, Lorg/json/JSONArray;-><init>()V
+     284 invoke-virtual               v10, v1, v2, Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+     285 move-result-object           v10
+     286 const-string                 v1, "put(...)"
+     287 invoke-static                v10, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     288 invoke-static                v0, v10, Lb/f0;->f(Ljava/lang/Object; Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     289 move-result-object           v10
+     290 return-object                v10
+     291 new-instance                 v1, Ljava/lang/StringBuilder;
+     292 const-string                 v2, "method not found: "
+     293 invoke-direct                v1, v2, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+     294 invoke-virtual               v1, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     295 invoke-virtual               v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+     296 move-result-object           v10
+     297 const/16                     v1, -32601
+     298 invoke-static                v0, v1, v10, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+     299 move-result-object           v10
+    ... (2 more, total 302)
+
+### Lb/f0;::e(Lb/e0; Ljava/io/OutputStream;)V
+       0 const-string                 v0, "["
+       1 iget-object                  v1, v14, Lb/e0;->b Ljava/io/Serializable;
+       2 check-cast                   v1, Ljava/lang/String;
+       3 iget-object                  v2, v14, Lb/e0;->c Ljava/lang/Object;
+       4 check-cast                   v2, Ljava/util/HashMap;
+       5 const/16                     v3, 63
+       6 invoke-static                v1, v3, v1, Lg0/i;->H1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+       7 move-result-object           v4
+       8 const-string                 v5, "/mcp"
+       9 invoke-virtual               v4, v5, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+      10 move-result                  v5
+      11 const/16                     v6, -32600
+      12 const/4                      v7, 0
+      13 if-nez                       v5, +018h
+      14 const-string                 v5, "/"
+      15 invoke-virtual               v4, v5, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+      16 move-result                  v4
+      17 if-nez                       v4, +010h
+      18 const-string                 v14, "the endpoint is /mcp"
+      19 invoke-static                v7, v6, v14, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+      20 move-result-object           v14
+      21 const/16                     v0, 404
+      22 const-string                 v1, "Not Found"
+      23 invoke-static                v15, v0, v1, v14, Lb/f0;->h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V
+      24 return-void                  
+      25 const-string                 v4, "origin"
+      26 invoke-virtual               v2, v4, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+      27 move-result-object           v4
+      28 check-cast                   v4, Ljava/lang/String;
+      29 if-eqz                       v4, +018h
+      30 sget-object                  v5, Lb/f0;->j Lg0/g;
+      31 invoke-virtual               v5, v4, Lg0/g;->e(Ljava/lang/CharSequence;)Z
+      32 move-result                  v4
+      33 if-nez                       v4, +010h
+      34 const-string                 v14, "origin not allowed"
+      35 invoke-static                v7, v6, v14, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+      36 move-result-object           v14
+      37 const/16                     v0, 403
+      38 const-string                 v1, "Forbidden"
+      39 invoke-static                v15, v0, v1, v14, Lb/f0;->h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V
+      40 return-void                  
+      41 const-string                 v4, ""
+      42 invoke-static                v1, v3, v4, Lg0/i;->C1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+      43 move-result-object           v1
+      44 const/4                      v3, 1
+      45 new-array                    v3, v3, [C
+      46 const/16                     v5, 38
+      47 const/4                      v6, 0
+      48 aput-char                    v5, v3, v6
+      49 invoke-static                v1, v3, Lg0/i;->z1(Ljava/lang/CharSequence; [C)Ljava/util/List;
+      50 move-result-object           v1
+      51 check-cast                   v1, Ljava/lang/Iterable;
+      52 const/16                     v3, 10
+      53 invoke-static                v1, v3, Lp/j;->N(Ljava/lang/Iterable; I)I
+      54 move-result                  v3
+      55 invoke-static                v3, Lp/w;->E(I)I
+      56 move-result                  v3
+      57 const/16                     v5, 16
+      58 if-ge                        v3, v5, +003h
+      59 move                         v3, v5
+      60 new-instance                 v5, Ljava/util/LinkedHashMap;
+      61 invoke-direct                v5, v3, Ljava/util/LinkedHashMap;-><init>(I)V
+      62 invoke-interface             v1, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+      63 move-result-object           v1
+      64 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+      65 move-result                  v3
+      66 if-eqz                       v3, +016h
+      67 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      68 move-result-object           v3
+      69 check-cast                   v3, Ljava/lang/String;
+      70 const/16                     v8, 61
+      71 invoke-static                v3, v8, v3, Lg0/i;->H1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+      72 move-result-object           v9
+      73 invoke-static                v3, v8, v4, Lg0/i;->C1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+      74 move-result-object           v3
+      75 invoke-interface             v5, v9, v3, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+      76 goto                         -19h
+      77 const-string                 v1, "authorization"
+      78 invoke-virtual               v2, v1, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+      79 move-result-object           v1
+      80 check-cast                   v1, Ljava/lang/String;
+      81 if-eqz                       v1, +012h
+      82 const-string                 v2, "Bearer "
+      83 invoke-static                v2, v1, Lg0/i;->w1(Ljava/lang/CharSequence; Ljava/lang/String;)Ljava/lang/String;
+      84 move-result-object           v1
+      85 invoke-static                v1, Lg0/i;->O1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+      86 move-result-object           v1
+      87 invoke-virtual               v1, Ljava/lang/Object;->toString()Ljava/lang/String;
+      88 move-result-object           v1
+      89 if-nez                       v1, +00ah
+      90 const-string                 v1, "token"
+      91 invoke-virtual               v5, v1, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+      92 move-result-object           v1
+      93 check-cast                   v1, Ljava/lang/String;
+      94 if-eqz                       v1, +13ch
+      95 sget-object                  v2, Lg0/a;->a Ljava/nio/charset/Charset;
+      96 invoke-virtual               v1, v2, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+      97 move-result-object           v1
+      98 const-string                 v3, "getBytes(...)"
+      99 invoke-static                v1, v3, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     100 iget-object                  v4, v13, Lb/f0;->b Ljava/lang/String;
+     101 invoke-virtual               v4, v2, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+     102 move-result-object           v4
+     103 invoke-static                v4, v3, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     104 invoke-static                v1, v4, Ljava/security/MessageDigest;->isEqual([B [B)Z
+     105 move-result                  v1
+     106 if-nez                       v1, +004h
+     107 goto/16                      +120h
+     108 iget-object                  v1, v14, Lb/e0;->a Ljava/lang/Object;
+     109 check-cast                   v1, Ljava/lang/String;
+     110 invoke-virtual               v1, Ljava/lang/String;->hashCode()I
+     111 move-result                  v3
+     112 const-string                 v4, "Method Not Allowed"
+     113 const/16                     v5, 405
+     114 sget-object                  v8, Lp/r;->a Lp/r;
+     115 const-string                 v9, "OK"
+     116 const/16                     v10, 200
+     117 const-string                 v11, "POST, DELETE"
+     118 const-string                 v12, "Allow"
+     119 sparse-switch                v3, +000012bh
+     120 goto/16                      +0e5h
+     121 const-string                 v14, "DELETE"
+     122 invoke-virtual               v1, v14, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     123 move-result                  v14
+     124 if-nez                       v14, +004h
+     125 goto/16                      +0dbh
+     126 invoke-static                v15, v10, v9, v7, v8, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     127 return-void                  
+     128 const-string                 v3, "POST"
+     129 invoke-virtual               v1, v3, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     130 move-result                  v1
+     131 if-nez                       v1, +004h
+     132 goto/16                      +0cdh
+     133 new-instance                 v1, Ljava/lang/String;
+     134 iget-object                  v14, v14, Lb/e0;->d Ljava/lang/Object;
+     135 check-cast                   v14, [B
+     136 invoke-direct                v1, v14, v2, Ljava/lang/String;-><init>([B Ljava/nio/charset/Charset;)V
+     137 invoke-static                v1, Lg0/i;->O1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+     138 move-result-object           v14
+     139 invoke-virtual               v14, Ljava/lang/Object;->toString()Ljava/lang/String;
+     140 move-result-object           v14
+     141 invoke-static                v14, v0, v6, Lg0/q;->V0(Ljava/lang/String; Ljava/lang/String; Z)Z
+     142 move-result                  v1
+     143 if-eqz                       v1, +03eh
+     144 new-instance                 v1, Lorg/json/JSONArray;
+     145 invoke-direct                v1, v14, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+     146 invoke-virtual               v1, Lorg/json/JSONArray;->length()I
+     147 move-result                  v2
+     148 invoke-static                v6, v2, La/e;->i0(I I)Ld0/c;
+     149 move-result-object           v2
+     150 new-instance                 v3, Ljava/util/ArrayList;
+     151 invoke-direct                v3, Ljava/util/ArrayList;-><init>()V
+     152 invoke-virtual               v2, Ld0/a;->iterator()Ljava/util/Iterator;
+     153 move-result-object           v2
+     154 move-object                  v4, v2
+     155 check-cast                   v4, Ld0/b;
+     156 iget-boolean                 v4, v4, Ld0/b;->c Z
+     157 if-eqz                       v4, +02eh
+     158 move-object                  v4, v2
+     159 check-cast                   v4, Ld0/b;
+     160 invoke-virtual               v4, Ld0/b;->nextInt()I
+     161 move-result                  v4
+     162 invoke-virtual               v1, v4, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
+     163 move-result-object           v4
+     164 if-nez                       v4, +00ah
+     165 new-instance                 v4, Lorg/json/JSONObject;
+     166 invoke-direct                v4, Lorg/json/JSONObject;-><init>()V
+     167 goto                         +3h
+     168 move-exception               v14
+     169 goto                         +45h
+     170 invoke-virtual               v13, v4, Lb/f0;->b(Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     171 move-result-object           v4
+     172 if-eqz                       v4, -020h
+     173 invoke-virtual               v3, v4, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+     174 goto                         -25h
+     175 new-instance                 v1, Lorg/json/JSONObject;
+     176 invoke-direct                v1, v14, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+     177 invoke-virtual               v13, v1, Lb/f0;->b(Lorg/json/JSONObject;)Lorg/json/JSONObject;
+     178 move-result-object           v1
+     179 invoke-static                v1, Lp/i;->I(Ljava/lang/Object;)Ljava/util/List;
+     180 move-result-object           v3
+     181 invoke-interface             v3, Ljava/util/List;->isEmpty()Z
+     182 move-result                  v1
+     183 if-eqz                       v1, +00ah
+     184 const/16                     v14, 202
+     185 const-string                 v0, "Accepted"
+     186 invoke-static                v15, v14, v0, v7, v8, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     187 return-void                  
+     188 invoke-static                v14, v0, v6, Lg0/q;->V0(Ljava/lang/String; Ljava/lang/String; Z)Z
+     189 move-result                  v14
+     190 if-eqz                       v14, +011h
+     191 new-instance                 v14, Lorg/json/JSONArray;
+     192 check-cast                   v3, Ljava/util/Collection;
+     193 invoke-direct                v14, v3, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
+     194 invoke-virtual               v14, Lorg/json/JSONArray;->toString()Ljava/lang/String;
+     195 move-result-object           v14
+     196 invoke-static                v15, v10, v9, v14, v8, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     197 return-void                  
+     198 invoke-interface             v3, v6, Ljava/util/List;->get(I)Ljava/lang/Object;
+     199 move-result-object           v14
+     200 check-cast                   v14, Lorg/json/JSONObject;
+     201 invoke-static                v15, v10, v9, v14, Lb/f0;->h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V
+     202 return-void                  
+     203 invoke-virtual               v14, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+     204 move-result-object           v14
+     205 new-instance                 v0, Ljava/lang/StringBuilder;
+     206 const-string                 v1, "parse error: "
+     207 invoke-direct                v0, v1, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+     208 invoke-virtual               v0, v14, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     209 invoke-virtual               v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+     210 move-result-object           v14
+     211 const/16                     v0, -32700
+     212 invoke-static                v7, v0, v14, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+     213 move-result-object           v14
+     214 const/16                     v0, 400
+     215 const-string                 v1, "Bad Request"
+     216 invoke-static                v15, v0, v1, v14, Lb/f0;->h(Ljava/io/OutputStream; I Ljava/lang/String; Lorg/json/JSONObject;)V
+     217 return-void                  
+     218 const-string                 v14, "GET"
+     219 invoke-virtual               v1, v14, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     220 move-result                  v14
+     221 if-nez                       v14, +003h
+     222 goto                         +16h
+     223 new-instance                 v14, Lo/b;
+     224 invoke-direct                v14, v12, v11, Lo/b;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+     225 invoke-static                v14, Lp/w;->F(Lo/b;)Ljava/util/Map;
+     226 move-result-object           v14
+     227 invoke-static                v15, v5, v4, v7, v14, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     228 return-void                  
+     229 const-string                 v14, "OPTIONS"
+     230 invoke-virtual               v1, v14, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+     231 move-result                  v14
+     232 if-nez                       v14, +00fh
+     233 new-instance                 v14, Lo/b;
+     234 invoke-direct                v14, v12, v11, Lo/b;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+     235 invoke-static                v14, Lp/w;->F(Lo/b;)Ljava/util/Map;
+     236 move-result-object           v14
+     237 invoke-static                v15, v5, v4, v7, v14, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     238 return-void                  
+     239 new-instance                 v14, Lo/b;
+     240 const-string                 v0, "POST, GET, DELETE"
+     241 invoke-direct                v14, v12, v0, Lo/b;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+     242 invoke-static                v14, Lp/w;->F(Lo/b;)Ljava/util/Map;
+     243 move-result-object           v14
+     244 const/16                     v0, 204
+     245 const-string                 v1, "No Content"
+     246 invoke-static                v15, v0, v1, v7, v14, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     247 return-void                  
+     248 const/16                     v14, -32001
+     249 const-string                 v0, "missing or wrong token: send Authorization: Bearer <token> (shown in imodisa)"
+     250 invoke-static                v7, v14, v0, Lb/f0;->a(Ljava/lang/Object; I Ljava/lang/String;)Lorg/json/JSONObject;
+     251 move-result-object           v14
+     252 new-instance                 v0, Lo/b;
+     253 const-string                 v1, "WWW-Authenticate"
+     254 const-string                 v2, "Bearer"
+     255 invoke-direct                v0, v1, v2, Lo/b;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+     256 invoke-static                v0, Lp/w;->F(Lo/b;)Ljava/util/Map;
+     257 move-result-object           v0
+     258 if-eqz                       v14, +006h
+     259 invoke-virtual               v14, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+     260 move-result-object           v7
+     261 const/16                     v14, 401
+     262 const-string                 v1, "Unauthorized"
+     263 invoke-static                v15, v14, v1, v7, v0, Lb/f0;->g(Ljava/io/OutputStream; I Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V
+     264 return-void                  
+     265 sparse-switch-payload        -1faded82 11336 2590a0 77f979ab
+
+### CLASS Lb/g0; super=Ljava/lang/Object;
+  FIELD a : I public final synthetic
+  FIELD b : Ljava/lang/Object; public final synthetic
+  FIELD c : Ljava/lang/Object; public final synthetic
+  METHOD <init>(Le/y5; Ljava/util/ArrayList; Le/r7;)V public synthetic constructor
+  METHOD <init>(Ljava/lang/Object; Ljava/lang/Object; I)V public synthetic constructor
+  METHOD f()Ljava/lang/Object; private final
+  METHOD g()Ljava/lang/Object; private final
+  METHOD h()Ljava/lang/Object; private final
+  METHOD i()Ljava/lang/Object; private final
+  METHOD j()Ljava/lang/Object; private final
+  METHOD k()Ljava/lang/Object; private final
+  METHOD l()Ljava/lang/Object; private final
+  METHOD m()Ljava/lang/Object; private final
+  METHOD n()Ljava/lang/Object; private final
+  METHOD a()Ljava/lang/Object; public final
+
+### Lb/g0;::<init>(Le/y5; Ljava/util/ArrayList; Le/r7;)V
+       0 const/4                      v1, 6
+       1 iput                         v1, v0, Lb/g0;->a I
+       2 invoke-direct                v0, Ljava/lang/Object;-><init>()V
+       3 iput-object                  v2, v0, Lb/g0;->b Ljava/lang/Object;
+       4 iput-object                  v3, v0, Lb/g0;->c Ljava/lang/Object;
+       5 return-void                  
+
+### Lb/g0;::<init>(Ljava/lang/Object; Ljava/lang/Object; I)V
+       0 iput                         v3, v0, Lb/g0;->a I
+       1 iput-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+       2 iput-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+       3 invoke-direct                v0, Ljava/lang/Object;-><init>()V
+       4 return-void                  
+
+### Lb/g0;::f()Ljava/lang/Object;
+       0 iget-object                  v0, v9, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Lcom/rusjj/imodisa/ui/SettingsActivity;
+       2 iget-object                  v1, v9, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Ljava/lang/String;
+       4 sget                         v2, Lcom/rusjj/imodisa/ui/SettingsActivity;->e I
+       5 sget-object                  v2, Ll/l4;->a Ljava/util/List;
+       6 check-cast                   v2, Ljava/lang/Iterable;
+       7 new-instance                 v3, Ljava/util/ArrayList;
+       8 const/16                     v4, 10
+       9 invoke-static                v2, v4, Lp/j;->N(Ljava/lang/Iterable; I)I
+      10 move-result                  v5
+      11 invoke-direct                v3, v5, Ljava/util/ArrayList;-><init>(I)V
+      12 invoke-interface             v2, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+      13 move-result-object           v2
+      14 invoke-interface             v2, Ljava/util/Iterator;->hasNext()Z
+      15 move-result                  v5
+      16 if-eqz                       v5, +010h
+      17 invoke-interface             v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      18 move-result-object           v5
+      19 check-cast                   v5, Lo/b;
+      20 iget-object                  v5, v5, Lo/b;->a Ljava/lang/Object;
+      21 check-cast                   v5, Ljava/lang/String;
+      22 invoke-virtual               v3, v5, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+      23 goto                         -13h
+      24 const                        v2, 2131296891
+      25 invoke-virtual               v0, v2, Landroid/content/Context;->getString(I)Ljava/lang/String;
+      26 move-result-object           v2
+      27 const-string                 v5, "getString(...)"
+      28 invoke-static                v2, v5, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      29 new-instance                 v5, Ljava/util/ArrayList;
+      30 invoke-static                v3, v4, Lp/j;->N(Ljava/lang/Iterable; I)I
+      31 move-result                  v4
+      32 invoke-direct                v5, v4, Ljava/util/ArrayList;-><init>(I)V
+      33 invoke-virtual               v3, Ljava/util/ArrayList;->size()I
+      34 move-result                  v4
+      35 const/4                      v6, 0
+      36 move                         v7, v6
+      37 if-ge                        v7, v4, +012h
+      38 invoke-virtual               v3, v7, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+      39 move-result-object           v8
+      40 add-int/lit8                 v7, v7, 1
+      41 check-cast                   v8, Ljava/lang/String;
+      42 invoke-static                v0, v8, Ll/l4;->b(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String;
+      43 move-result-object           v8
+      44 invoke-virtual               v5, v8, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+      45 goto                         -11h
+      46 invoke-virtual               v3, v1, Ljava/util/ArrayList;->indexOf(Ljava/lang/Object;)I
+      47 move-result                  v4
+      48 if-gez                       v4, +003h
+      49 move                         v4, v6
+      50 new-instance                 v7, Le/b0;
+      51 const/16                     v8, 20
+      52 invoke-direct                v7, v3, v1, v0, v8, Le/b0;-><init>(Ljava/lang/Object; Ljava/lang/String; Ljava/lang/Object; I)V
+      53 new-instance                 v1, Landroid/app/AlertDialog$Builder;
+      54 invoke-direct                v1, v0, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+      55 invoke-virtual               v1, v2, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+      56 move-result-object           v0
+      57 new-array                    v1, v6, [Ljava/lang/String;
+      58 invoke-virtual               v5, v1, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+      59 move-result-object           v1
+      60 check-cast                   v1, [Ljava/lang/CharSequence;
+      61 new-instance                 v2, Ll/e;
+      62 const/4                      v3, 1
+      63 invoke-direct                v2, v3, v7, Ll/e;-><init>(I Ljava/lang/Object;)V
+      64 invoke-virtual               v0, v1, v4, v2, Landroid/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence; I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+      65 move-result-object           v0
+      66 const                        v1, 2131296496
+      67 const/4                      v2, 0
+      68 invoke-virtual               v0, v1, v2, Landroid/app/AlertDialog$Builder;->setNegativeButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+      69 move-result-object           v0
+      70 invoke-virtual               v0, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+      71 sget-object                  v0, Lo/i;->a Lo/i;
+      72 return-object                v0
+
+### Lb/g0;::g()Ljava/lang/Object;
+       0 iget-object                  v0, v9, Lb/g0;->b Ljava/lang/Object;
+       1 move-object                  v3, v0
+       2 check-cast                   v3, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+       3 iget-object                  v0, v9, Lb/g0;->c Ljava/lang/Object;
+       4 check-cast                   v0, Ln/j;
+       5 sget-object                  v1, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+       6 iget-object                  v5, v0, Ln/j;->a Ljava/lang/String;
+       7 iget-object                  v4, v3, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->k Ln/m0;
+       8 if-nez                       v4, +003h
+       9 goto                         +50h
+      10 new-instance                 v6, Lg/g;
+      11 invoke-direct                v6, Lg/g;-><init>()V
+      12 invoke-static                v3, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+      13 move-result-object           v0
+      14 const                        v1, 2131099654
+      15 const/4                      v2, 0
+      16 invoke-virtual               v0, v1, v2, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup;)Landroid/view/View;
+      17 move-result-object           v0
+      18 const                        v1, 2131034136
+      19 invoke-virtual               v0, v1, Landroid/view/View;->findViewById(I)Landroid/view/View;
+      20 move-result-object           v1
+      21 move-object                  v7, v1
+      22 check-cast                   v7, Landroid/widget/TextView;
+      23 const                        v1, 2131296787
+      24 invoke-virtual               v3, v1, Landroid/content/Context;->getString(I)Ljava/lang/String;
+      25 move-result-object           v1
+      26 invoke-virtual               v7, v1, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+      27 new-instance                 v1, Landroid/app/AlertDialog$Builder;
+      28 invoke-direct                v1, v3, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+      29 invoke-virtual               v1, v0, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+      30 move-result-object           v0
+      31 new-instance                 v1, Ll/x5;
+      32 const/4                      v2, 2
+      33 invoke-direct                v1, v6, v2, Ll/x5;-><init>(Lg/g; I)V
+      34 const                        v2, 2131296496
+      35 invoke-virtual               v0, v2, v1, Landroid/app/AlertDialog$Builder;->setNegativeButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+      36 move-result-object           v0
+      37 const/4                      v1, 0
+      38 invoke-virtual               v0, v1, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+      39 move-result-object           v0
+      40 invoke-virtual               v0, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+      41 move-result-object           v2
+      42 iget-object                  v0, v3, Ll/s0;->a Lj0/a;
+      43 new-instance                 v1, Ll/p9;
+      44 const/4                      v8, 0
+      45 invoke-direct/range          v1 ... v8, Ll/p9;-><init>(Landroid/app/AlertDialog; Lcom/rusjj/imodisa/ui/WorkspaceActivity; Ln/m0; Ljava/lang/String; Lg/g; Landroid/widget/TextView; Ls/c;)V
+      46 invoke-static                v0, v1, Lh0/r;->g(Lh0/o; La0/p;)Lh0/x0;
+      47 sget-object                  v0, Lo/i;->a Lo/i;
+      48 return-object                v0
+
+### Lb/g0;::h()Ljava/lang/Object;
+       0 iget-object                  v0, v4, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+       2 iget-object                  v1, v4, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Ll/c;
+       4 sget-object                  v2, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+       5 const/4                      v2, 0
+       6 invoke-interface             v1, Lm/k0;->h()I
+       7 move-result                  v3
+       8 invoke-static                v2, v3, La/e;->i0(I I)Ld0/c;
+       9 move-result-object           v2
+      10 invoke-static                v2, Lp/h;->K0(Ljava/lang/Iterable;)Ljava/util/List;
+      11 move-result-object           v2
+      12 invoke-virtual               v0, v1, v2, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->H(Ll/c; Ljava/util/List;)V
+      13 sget-object                  v0, Lo/i;->a Lo/i;
+      14 return-object                v0
+
+### Lb/g0;::i()Ljava/lang/Object;
+       0 iget-object                  v0, v3, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, La0/l;
+       2 iget-object                  v1, v3, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Lk/t;
+       4 sget-object                  v2, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+       5 invoke-interface             v0, v1, La0/l;->e(Ljava/lang/Object;)Ljava/lang/Object;
+       6 sget-object                  v0, Lo/i;->a Lo/i;
+       7 return-object                v0
+
+### Lb/g0;::j()Ljava/lang/Object;
+       0 iget-object                  v0, v9, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Lm/n0;
+       2 iget-object                  v1, v9, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Le/v9;
+       4 sget-object                  v2, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+       5 const-string                 v2, "line"
+       6 invoke-static                v1, v2, Lb0/j;->f(Ljava/lang/Object; Ljava/lang/String;)V
+       7 iget-object                  v2, v0, Lm/n0;->c Le/w9;
+       8 if-eqz                       v2, +05bh
+       9 iget-object                  v2, v2, Le/w9;->b Ljava/util/List;
+      10 if-eqz                       v2, +057h
+      11 invoke-interface             v2, v1, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
+      12 move-result                  v2
+      13 invoke-static                v2, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+      14 move-result-object           v3
+      15 const/4                      v4, 0
+      16 if-ltz                       v2, +003h
+      17 goto                         +2h
+      18 move-object                  v3, v4
+      19 if-eqz                       v3, +048h
+      20 invoke-virtual               v3, Ljava/lang/Integer;->intValue()I
+      21 move-result                  v2
+      22 iget-object                  v3, v0, Lm/n0;->d Ljava/lang/Object;
+      23 invoke-interface             v3, v2, Ljava/util/List;->get(I)Ljava/lang/Object;
+      24 move-result-object           v3
+      25 check-cast                   v3, Ljava/lang/String;
+      26 invoke-virtual               v3, Ljava/lang/String;->length()I
+      27 move-result                  v5
+      28 const/4                      v6, 0
+      29 move                         v7, v6
+      30 if-ge                        v7, v5, +010h
+      31 invoke-virtual               v3, v7, Ljava/lang/String;->charAt(I)C
+      32 move-result                  v8
+      33 invoke-static                v8, Lf/r2;->P(C)Z
+      34 move-result                  v8
+      35 if-nez                       v8, +003h
+      36 goto                         +5h
+      37 add-int/lit8                 v7, v7, 1
+      38 goto                         -fh
+      39 const/4                      v7, -1
+      40 if-gez                       v7, +003h
+      41 goto                         +2h
+      42 move                         v6, v7
+      43 new-instance                 v5, Lm/m0;
+      44 invoke-direct                v5, v2, v6, Lm/m0;-><init>(I I)V
+      45 iput-object                  v5, v0, Lm/n0;->L Lm/m0;
+      46 new-instance                 v5, Lm/m0;
+      47 invoke-virtual               v3, Ljava/lang/String;->length()I
+      48 move-result                  v3
+      49 invoke-direct                v5, v2, v3, Lm/m0;-><init>(I I)V
+      50 iput-object                  v5, v0, Lm/n0;->M Lm/m0;
+      51 new-instance                 v2, Lo/b;
+      52 invoke-direct                v2, v1, v4, Lo/b;-><init>(Ljava/lang/Object; Ljava/lang/Object;)V
+      53 iput-object                  v2, v0, Lm/n0;->Q Lo/b;
+      54 invoke-virtual               v0, Lm/n0;->C()V
+      55 invoke-virtual               v0, Landroid/view/View;->invalidate()V
+      56 sget-object                  v0, Lo/i;->a Lo/i;
+      57 return-object                v0
+
+### Lb/g0;::k()Ljava/lang/Object;
+       0 iget-object                  v0, v3, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+       2 iget-object                  v1, v3, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Lb/d;
+       4 iget-object                  v0, v0, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->D Lb/h;
+       5 if-eqz                       v0, +011h
+       6 const-string                 v2, "config"
+       7 invoke-static                v1, v2, Lb0/j;->f(Ljava/lang/Object; Ljava/lang/String;)V
+       8 invoke-virtual               v0, Lb/h;->b()Z
+       9 move-result                  v2
+      10 if-nez                       v2, +003h
+      11 goto                         +4h
+      12 invoke-virtual               v0, v1, Lb/h;->g(Lb/d;)V
+      13 sget-object                  v0, Lo/i;->a Lo/i;
+      14 return-object                v0
+
+### Lb/g0;::l()Ljava/lang/Object;
+       0 iget-object                  v0, v4, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+       2 iget-object                  v1, v4, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Lb/a0;
+       4 iget-object                  v2, v0, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->E Lm/p;
+       5 if-eqz                       v2, +017h
+       6 iget-object                  v1, v1, Lb/a0;->a Ljava/lang/String;
+       7 filled-new-array             v1, [Ljava/lang/Object;
+       8 move-result-object           v1
+       9 const                        v3, 2131296393
+      10 invoke-virtual               v0, v3, v1, Landroid/content/Context;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+      11 move-result-object           v0
+      12 const-string                 v1, "getString(...)"
+      13 invoke-static                v0, v1, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+      14 invoke-virtual               v2, v0, Lm/p;->i(Ljava/lang/String;)V
+      15 sget-object                  v0, Lo/i;->a Lo/i;
+      16 return-object                v0
+
+### Lb/g0;::m()Ljava/lang/Object;
+       0 iget-object                  v0, v13, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Ln/l;
+       2 iget-object                  v1, v13, Lb/g0;->c Ljava/lang/Object;
+       3 move-object                  v4, v1
+       4 check-cast                   v4, Ln/m0;
+       5 iget-object                  v1, v0, Ln/l;->a Ljava/util/LinkedHashMap;
+       6 invoke-virtual               v1, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+       7 move-result-object           v1
+       8 invoke-interface             v1, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+       9 move-result-object           v1
+      10 const/4                      v8, 0
+      11 move                         v9, v8
+      12 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+      13 move-result                  v2
+      14 if-eqz                       v2, +037h
+      15 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      16 move-result-object           v2
+      17 check-cast                   v2, Ljava/util/Map$Entry;
+      18 invoke-interface             v2, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+      19 move-result-object           v3
+      20 check-cast                   v3, Ljava/lang/Number;
+      21 invoke-virtual               v3, Ljava/lang/Number;->longValue()J
+      22 move-result-wide             v5
+      23 invoke-interface             v2, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+      24 move-result-object           v2
+      25 check-cast                   v2, Ljava/lang/String;
+      26 invoke-static                v4, v5, v6, Ln/m0;->x(Ln/m0; J)Z
+      27 move-result                  v3
+      28 if-eqz                       v3, -020h
+      29 iget-object                  v3, v4, Ln/m0;->a Ln/j;
+      30 iget-object                  v3, v3, Ln/j;->m Ljava/util/LinkedHashMap;
+      31 invoke-static                v5, v6, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+      32 move-result-object           v7
+      33 invoke-interface             v3, v7, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+      34 iget-object                  v3, v4, Ln/m0;->h Lc/m0;
+      35 iget-object                  v3, v3, Lc/m0;->d Ljava/util/concurrent/ConcurrentHashMap;
+      36 invoke-static                v5, v6, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+      37 move-result-object           v5
+      38 invoke-virtual               v3, v5, v2, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+      39 add-int/lit8                 v9, v9, 1
+      40 goto                         -3ah
+      41 iget-object                  v1, v0, Ln/l;->b Ljava/util/LinkedHashMap;
+      42 invoke-virtual               v1, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+      43 move-result-object           v1
+      44 invoke-interface             v1, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+      45 move-result-object           v1
+      46 move                         v10, v8
+      47 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+      48 move-result                  v2
+      49 if-eqz                       v2, +02ch
+      50 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      51 move-result-object           v2
+      52 check-cast                   v2, Ljava/util/Map$Entry;
+      53 invoke-interface             v2, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+      54 move-result-object           v3
+      55 check-cast                   v3, Ljava/lang/Number;
+      56 invoke-virtual               v3, Ljava/lang/Number;->longValue()J
+      57 move-result-wide             v5
+      58 invoke-interface             v2, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+      59 move-result-object           v2
+      60 check-cast                   v2, Ljava/lang/String;
+      61 invoke-static                v4, v5, v6, Ln/m0;->x(Ln/m0; J)Z
+      62 move-result                  v3
+      63 if-eqz                       v3, -020h
+      64 iget-object                  v3, v4, Ln/m0;->a Ln/j;
+      65 iget-object                  v3, v3, Ln/j;->n Ljava/util/LinkedHashMap;
+      66 invoke-static                v5, v6, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+      67 move-result-object           v5
+      68 invoke-interface             v3, v5, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+      69 add-int/lit8                 v10, v10, 1
+      70 goto                         -2fh
+      71 iget-object                  v0, v0, Ln/l;->c Ljava/util/LinkedHashMap;
+      72 invoke-virtual               v0, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+      73 move-result-object           v0
+      74 invoke-interface             v0, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+      75 move-result-object           v1
+      76 move                         v11, v8
+      77 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+      78 move-result                  v0
+      79 if-eqz                       v0, +050h
+      80 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      81 move-result-object           v0
+      82 check-cast                   v0, Ljava/util/Map$Entry;
+      83 invoke-interface             v0, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+      84 move-result-object           v2
+      85 check-cast                   v2, Ljava/lang/Number;
+      86 invoke-virtual               v2, Ljava/lang/Number;->longValue()J
+      87 move-result-wide             v5
+      88 invoke-interface             v0, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+      89 move-result-object           v0
+      90 move-object                  v3, v0
+      91 check-cast                   v3, Ljava/lang/String;
+      92 invoke-static                v4, v5, v6, Ln/m0;->x(Ln/m0; J)Z
+      93 move-result                  v0
+      94 if-eqz                       v0, -021h
+      95 iget-object                  v0, v4, Ln/m0;->h Lc/m0;
+      96 iget-object                  v0, v0, Lc/m0;->c Lc/b;
+      97 iget-object                  v0, v0, Lc/b;->b Ljava/lang/Object;
+      98 check-cast                   v0, Lc/c0;
+      99 invoke-virtual               v0, v5, v6, Lc/c0;->b(J)I
+     100 move-result                  v0
+     101 const/4                      v12, 1
+     102 if-ltz                       v0, +00bh
+     103 invoke-virtual               v4, v5, v6, v3, Ln/m0;->d0(J Ljava/lang/String;)Ljava/lang/String;
+     104 move-result-object           v0
+     105 if-nez                       v0, +003h
+     106 goto                         +17h
+     107 move                         v12, v8
+     108 goto                         +15h
+     109 new-instance                 v2, Ll/q5;
+     110 const/4                      v7, 3
+     111 invoke-direct/range          v2 ... v7, Ll/q5;-><init>(Ljava/lang/String; Ln/m0; J I)V
+     112 invoke-virtual               v4, v2, Ln/m0;->o(La0/a;)Ljava/lang/Object;
+     113 sget-object                  v0, Lo/i;->a Lo/i;
+     114 goto                         +6h
+     115 move-exception               v0
+     116 invoke-static                v0, Lm/v;->m(Ljava/lang/Throwable;)Lo/c;
+     117 move-result-object           v0
+     118 instance-of                  v0, v0, Lo/c;
+     119 xor-int/2addr                v12, v0
+     120 if-eqz                       v12, -04fh
+     121 add-int/lit8                 v11, v11, 1
+     122 goto                         -53h
+     123 invoke-virtual               v4, Ln/m0;->a0()V
+     124 invoke-virtual               v4, Ln/m0;->S()V
+     125 filled-new-array             v9, v10, v11, [I
+     126 move-result-object           v0
+     127 return-object                v0
+
+### Lb/g0;::n()Ljava/lang/Object;
+       0 iget-object                  v0, v5, Lb/g0;->b Ljava/lang/Object;
+       1 check-cast                   v0, Ln/m0;
+       2 iget-object                  v1, v5, Lb/g0;->c Ljava/lang/Object;
+       3 check-cast                   v1, Li/m;
+       4 iget-object                  v2, v0, Ln/m0;->F Li/m;
+       5 iput-object                  v1, v0, Ln/m0;->F Li/m;
+       6 iget-object                  v0, v0, Ln/m0;->C Ljava/util/ArrayList;
+       7 invoke-virtual               v0, Ljava/util/ArrayList;->size()I
+       8 move-result                  v1
+       9 const/4                      v3, 0
+      10 if-ge                        v3, v1, +010h
+      11 invoke-virtual               v0, v3, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+      12 move-result-object           v4
+      13 add-int/lit8                 v3, v3, 1
+      14 check-cast                   v4, Ln/h0;
+      15 check-cast                   v4, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+      16 invoke-virtual               v4, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->c0()V
+      17 goto                         -fh
+      18 if-eqz                       v2, +005h
+      19 invoke-virtual               v2, Li/m;->close()V
+      20 sget-object                  v0, Lo/i;->a Lo/i;
+      21 return-object                v0
+
+### Lb/g0;::a()Ljava/lang/Object;
+       0 move-object/from16           v0, v45
+       1 iget                         v1, v0, Lb/g0;->a I
+       2 const-string                 v2, " "
+       3 const/4                      v3, 2
+       4 const/16                     v5, 11
+       5 const/16                     v6, 46
+       6 const/4                      v7, -1
+       7 const/16                     v8, 15
+       8 const/4                      v9, 5
+       9 const/16                     v10, 8
+      10 const-wide/16                v11, -1
+      11 const/4                      v13, 0
+      12 const/4                      v14, 1
+      13 const/4                      v15, 0
+      14 packed-switch                v1, +0000e52h
+      15 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+      16 check-cast                   v1, Ln/j0;
+      17 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+      18 check-cast                   v2, Ln/m0;
+      19 iget-object                  v1, v1, Ln/j0;->c Ln/e;
+      20 iget-object                  v3, v2, Ln/m0;->a Ln/j;
+      21 invoke-virtual               v1, v3, Ln/e;->a(Ln/j;)Ln/c;
+      22 move-result-object           v1
+      23 iget-object                  v3, v2, Ln/m0;->h Lc/m0;
+      24 iget-object                  v3, v3, Lc/m0;->d Ljava/util/concurrent/ConcurrentHashMap;
+      25 invoke-virtual               v3, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
+      26 iget-object                  v3, v2, Ln/m0;->h Lc/m0;
+      27 iget-object                  v3, v3, Lc/m0;->d Ljava/util/concurrent/ConcurrentHashMap;
+      28 iget-object                  v4, v2, Ln/m0;->a Ln/j;
+      29 iget-object                  v4, v4, Ln/j;->m Ljava/util/LinkedHashMap;
+      30 invoke-virtual               v3, v4, Ljava/util/concurrent/ConcurrentHashMap;->putAll(Ljava/util/Map;)V
+      31 new-instance                 v3, Ljava/util/TreeMap;
+      32 iget-object                  v4, v2, Ln/m0;->a Ln/j;
+      33 iget-object                  v4, v4, Ln/j;->F Ljava/util/LinkedHashMap;
+      34 invoke-direct                v3, v4, Ljava/util/TreeMap;-><init>(Ljava/util/Map;)V
+      35 iput-object                  v3, v2, Ln/m0;->s Ljava/util/TreeMap;
+      36 iget-object                  v3, v2, Ln/m0;->n Ljava/util/TreeMap;
+      37 invoke-virtual               v3, Ljava/util/TreeMap;->clear()V
+      38 iget-object                  v3, v2, Ln/m0;->n Ljava/util/TreeMap;
+      39 iget-object                  v4, v2, Ln/m0;->a Ln/j;
+      40 iget-object                  v4, v4, Ln/j;->C Ljava/util/LinkedHashMap;
+      41 invoke-virtual               v3, v4, Ljava/util/TreeMap;->putAll(Ljava/util/Map;)V
+      42 iget-object                  v3, v2, Ln/m0;->h Lc/m0;
+      43 iget-object                  v4, v2, Ln/m0;->a Ln/j;
+      44 iget-object                  v5, v4, Ln/j;->G Ljava/util/LinkedHashMap;
+      45 iget-object                  v4, v4, Ln/j;->H Ljava/util/LinkedHashMap;
+      46 invoke-virtual               v3, v5, v4, Lc/m0;->t(Ljava/util/LinkedHashMap; Ljava/util/LinkedHashMap;)V
+      47 iget-object                  v3, v2, Ln/m0;->h Lc/m0;
+      48 invoke-virtual               v3, Lc/m0;->b()V
+      49 iget-object                  v3, v2, Ln/m0;->a Ln/j;
+      50 iget-object                  v4, v3, Ln/j;->x Ljava/util/ArrayList;
+      51 iget-object                  v3, v3, Ln/j;->y Ljava/util/ArrayList;
+      52 invoke-virtual               v2, v4, v3, Ln/m0;->c(Ljava/util/List; Ljava/util/List;)Lk/u;
+      53 move-result-object           v3
+      54 iput-object                  v3, v2, Ln/m0;->m Lk/u;
+      55 iget-object                  v3, v2, Ln/m0;->w Ljava/util/concurrent/ConcurrentHashMap;
+      56 invoke-virtual               v3, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
+      57 iget-object                  v3, v2, Ln/m0;->U Ljava/util/concurrent/ConcurrentHashMap;
+      58 invoke-virtual               v3, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
+      59 invoke-virtual               v2, Ln/m0;->s()V
+      60 invoke-virtual               v2, Ln/m0;->a0()V
+      61 invoke-virtual               v2, Ln/m0;->S()V
+      62 iget-object                  v2, v2, Ln/m0;->C Ljava/util/ArrayList;
+      63 invoke-virtual               v2, Ljava/util/ArrayList;->size()I
+      64 move-result                  v3
+      65 if-ge                        v15, v3, +010h
+      66 invoke-virtual               v2, v15, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+      67 move-result-object           v4
+      68 add-int/lit8                 v15, v15, 1
+      69 check-cast                   v4, Ln/h0;
+      70 check-cast                   v4, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+      71 invoke-virtual               v4, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->b0()V
+      72 goto                         -fh
+      73 return-object                v1
+      74 invoke-direct                v0, Lb/g0;->n()Ljava/lang/Object;
+      75 move-result-object           v1
+      76 return-object                v1
+      77 invoke-direct                v0, Lb/g0;->m()Ljava/lang/Object;
+      78 move-result-object           v1
+      79 return-object                v1
+      80 invoke-direct                v0, Lb/g0;->l()Ljava/lang/Object;
+      81 move-result-object           v1
+      82 return-object                v1
+      83 invoke-direct                v0, Lb/g0;->k()Ljava/lang/Object;
+      84 move-result-object           v1
+      85 return-object                v1
+      86 invoke-direct                v0, Lb/g0;->j()Ljava/lang/Object;
+      87 move-result-object           v1
+      88 return-object                v1
+      89 invoke-direct                v0, Lb/g0;->i()Ljava/lang/Object;
+      90 move-result-object           v1
+      91 return-object                v1
+      92 invoke-direct                v0, Lb/g0;->h()Ljava/lang/Object;
+      93 move-result-object           v1
+      94 return-object                v1
+      95 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+      96 check-cast                   v1, Lcom/rusjj/imodisa/ui/WorkspaceActivity;
+      97 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+      98 check-cast                   v2, Ln/m0;
+      99 sget-object                  v3, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+     100 invoke-virtual               v2, Ln/m0;->t()I
+     101 move-result                  v3
+     102 mul-int/2addr                v3, v10
+     103 invoke-static                v3, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+     104 move-result-object           v3
+     105 filled-new-array             v3, [Ljava/lang/Object;
+     106 move-result-object           v3
+     107 const                        v4, 2131296946
+     108 invoke-virtual               v1, v4, v3, Landroid/content/Context;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+     109 move-result-object           v3
+     110 const-string                 v4, "getString(...)"
+     111 invoke-static                v3, v4, Lb0/j;->e(Ljava/lang/Object; Ljava/lang/String;)V
+     112 new-instance                 v4, Ll/w5;
+     113 invoke-direct                v4, v1, v2, v9, Ll/w5;-><init>(Lcom/rusjj/imodisa/ui/WorkspaceActivity; Ln/m0; I)V
+     114 invoke-virtual               v1, v3, v4, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->i0(Ljava/lang/String; La0/l;)V
+     115 sget-object                  v1, Lo/i;->a Lo/i;
+     116 return-object                v1
+     117 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     118 check-cast                   v1, Ln/m0;
+     119 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     120 check-cast                   v2, Le/w9;
+     121 sget-object                  v3, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+     122 iget-wide                    v2, v2, Le/w9;->a J
+     123 invoke-virtual               v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+     124 new-instance                 v4, Ll/i5;
+     125 invoke-direct                v4, v8, v2, v3, v1, Ll/i5;-><init>(I J Ln/m0;)V
+     126 invoke-virtual               v1, v4, Ln/m0;->o(La0/a;)Ljava/lang/Object;
+     127 sget-object                  v1, Lo/i;->a Lo/i;
+     128 return-object                v1
+     129 invoke-direct                v0, Lb/g0;->g()Ljava/lang/Object;
+     130 move-result-object           v1
+     131 return-object                v1
+     132 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     133 check-cast                   v1, Ln/m0;
+     134 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     135 check-cast                   v2, Lj/n;
+     136 sget-object                  v3, Lcom/rusjj/imodisa/ui/WorkspaceActivity;->e0 Lg0/g;
+     137 iget-object                  v1, v1, Ln/m0;->y Le/x9;
+     138 invoke-virtual               v1, v2, Le/x9;->g(Lj/n;)V
+     139 sget-object                  v1, Lo/i;->a Lo/i;
+     140 return-object                v1
+     141 invoke-direct                v0, Lb/g0;->f()Ljava/lang/Object;
+     142 move-result-object           v1
+     143 return-object                v1
+     144 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     145 check-cast                   v1, Lcom/rusjj/imodisa/ui/DexActivity;
+     146 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     147 check-cast                   v2, Lf/g1;
+     148 sget-object                  v3, Lcom/rusjj/imodisa/ui/DexActivity;->C Ljava/util/List;
+     149 iget-object                  v2, v2, Lf/g1;->c Ljava/lang/String;
+     150 invoke-virtual               v1, v2, Lcom/rusjj/imodisa/ui/DexActivity;->m(Ljava/lang/String;)V
+     151 sget-object                  v1, Lo/i;->a Lo/i;
+     152 return-object                v1
+     153 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     154 check-cast                   v1, Lf/r0;
+     155 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     156 check-cast                   v2, Lcom/rusjj/imodisa/ui/DexActivity;
+     157 sget-object                  v3, Lcom/rusjj/imodisa/ui/DexActivity;->C Ljava/util/List;
+     158 iget-object                  v3, v1, Lf/r0;->e Ljava/util/LinkedHashMap;
+     159 invoke-virtual               v3, Ljava/util/LinkedHashMap;->clear()V
+     160 iget-object                  v3, v1, Lf/r0;->f Ljava/util/LinkedHashMap;
+     161 invoke-virtual               v3, Ljava/util/LinkedHashMap;->clear()V
+     162 iget-object                  v3, v1, Lf/r0;->g Ljava/util/TreeSet;
+     163 invoke-virtual               v3, Ljava/util/TreeSet;->clear()V
+     164 iget-object                  v3, v1, Lf/r0;->j Ljava/util/TreeMap;
+     165 invoke-virtual               v3, Ljava/util/TreeMap;->clear()V
+     166 iget-object                  v3, v1, Lf/r0;->k Ljava/util/TreeMap;
+     167 invoke-virtual               v3, Ljava/util/TreeMap;->clear()V
+     168 iput-object                  v13, v1, Lf/r0;->i Lf/d3;
+     169 iget-object                  v1, v1, Lf/r0;->d Ljava/io/File;
+     170 invoke-static                v1, Ly/k;->E(Ljava/io/File;)Z
+     171 iput-object                  v13, v2, Lcom/rusjj/imodisa/ui/DexActivity;->p Lf/m0;
+     172 iput-object                  v13, v2, Lcom/rusjj/imodisa/ui/DexActivity;->r Ljava/lang/String;
+     173 invoke-static                v2, Lcom/rusjj/imodisa/ui/DexActivity;->J(Lcom/rusjj/imodisa/ui/DexActivity;)V
+     174 sget-object                  v1, Lo/i;->a Lo/i;
+     175 return-object                v1
+     176 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     177 check-cast                   v1, Lcom/rusjj/imodisa/ui/DexActivity;
+     178 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     179 check-cast                   v2, Lf/w2;
+     180 sget-object                  v3, Lcom/rusjj/imodisa/ui/DexActivity;->C Ljava/util/List;
+     181 invoke-virtual               v2, Lf/w2;->toString()Ljava/lang/String;
+     182 move-result-object           v2
+     183 invoke-virtual               v1, v2, Lcom/rusjj/imodisa/ui/DexActivity;->m(Ljava/lang/String;)V
+     184 sget-object                  v1, Lo/i;->a Lo/i;
+     185 return-object                v1
+     186 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     187 check-cast                   v1, Lcom/rusjj/imodisa/ui/DexActivity;
+     188 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     189 check-cast                   v2, Ln/j;
+     190 iput                         v7, v1, Lcom/rusjj/imodisa/ui/DexActivity;->B I
+     191 iget-object                  v2, v2, Ln/j;->b Ljava/lang/String;
+     192 invoke-static                v2, v6, v2, Lg0/i;->L1(Ljava/lang/String; C Ljava/lang/String;)Ljava/lang/String;
+     193 move-result-object           v2
+     194 const-string                 v3, "-edited.apk"
+     195 invoke-virtual               v2, v3, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+     196 move-result-object           v2
+     197 invoke-virtual               v1, v14, v2, Lcom/rusjj/imodisa/ui/DexActivity;->n(I Ljava/lang/String;)V
+     198 sget-object                  v1, Lo/i;->a Lo/i;
+     199 return-object                v1
+     200 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     201 check-cast                   v1, Lcom/rusjj/imodisa/ui/DexActivity;
+     202 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     203 check-cast                   v2, Li/z;
+     204 sget-object                  v3, Lcom/rusjj/imodisa/ui/DexActivity;->C Ljava/util/List;
+     205 iget-wide                    v2, v2, Li/z;->c J
+     206 invoke-virtual               v1, v2, v3, Lcom/rusjj/imodisa/ui/DexActivity;->w(J)V
+     207 sget-object                  v1, Lo/i;->a Lo/i;
+     208 return-object                v1
+     209 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     210 check-cast                   v1, Lg0/g;
+     211 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     212 check-cast                   v2, Ljava/lang/CharSequence;
+     213 invoke-virtual               v1, v2, Lg0/g;->b(Ljava/lang/CharSequence;)Lg0/e;
+     214 move-result-object           v1
+     215 return-object                v1
+     216 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     217 check-cast                   v1, Le/t9;
+     218 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     219 check-cast                   v2, Le/i9;
+     220 const-string                 v3, "*"
+     221 invoke-virtual               v1, v5, v11, v12, v3, Le/t9;->T3(I J Ljava/lang/String;)V
+     222 iget-object                  v2, v2, Le/i9;->a Le/u6;
+     223 const/16                     v3, 14
+     224 invoke-virtual               v1, v3, v2, Le/t9;->j0(I Le/u6;)V
+     225 sget-object                  v1, Lo/i;->a Lo/i;
+     226 return-object                v1
+     227 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     228 check-cast                   v1, Le/t9;
+     229 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     230 check-cast                   v2, La0/a;
+     231 const-string                 v3, "sizeof"
+     232 const/16                     v4, 12
+     233 invoke-virtual               v1, v4, v11, v12, v3, Le/t9;->T3(I J Ljava/lang/String;)V
+     234 const-string                 v3, "("
+     235 invoke-virtual               v1, v5, v11, v12, v3, Le/t9;->T3(I J Ljava/lang/String;)V
+     236 invoke-interface             v2, La0/a;->a()Ljava/lang/Object;
+     237 const-string                 v2, ")"
+     238 invoke-virtual               v1, v5, v11, v12, v2, Le/t9;->T3(I J Ljava/lang/String;)V
+     239 sget-object                  v1, Lo/i;->a Lo/i;
+     240 return-object                v1
+     241 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     242 check-cast                   v1, Le/t9;
+     243 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     244 check-cast                   v2, Ljava/lang/String;
+     245 invoke-virtual               v1, v15, v11, v12, v2, Le/t9;->T3(I J Ljava/lang/String;)V
+     246 sget-object                  v1, Lo/i;->a Lo/i;
+     247 return-object                v1
+     248 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     249 check-cast                   v1, Ljava/util/List;
+     250 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     251 check-cast                   v2, Le/t9;
+     252 move-object                  v3, v1
+     253 check-cast                   v3, Ljava/util/Collection;
+     254 invoke-static                v3, Lp/i;->E(Ljava/util/Collection;)Ld0/c;
+     255 move-result-object           v3
+     256 new-instance                 v4, Ljava/util/ArrayList;
+     257 invoke-direct                v4, Ljava/util/ArrayList;-><init>()V
+     258 invoke-virtual               v3, Ld0/a;->iterator()Ljava/util/Iterator;
+     259 move-result-object           v3
+     260 move-object                  v5, v3
+     261 check-cast                   v5, Ld0/b;
+     262 invoke-virtual               v5, Ld0/b;->hasNext()Z
+     263 move-result                  v6
+     264 if-eqz                       v6, +016h
+     265 invoke-virtual               v5, Ld0/b;->nextInt()I
+     266 move-result                  v5
+     267 invoke-interface             v1, v5, Ljava/util/List;->get(I)Ljava/lang/Object;
+     268 move-result-object           v6
+     269 check-cast                   v6, Le/ma;
+     270 invoke-virtual               v2, v6, v5, Le/t9;->P2(Le/ma; I)Le/j9;
+     271 move-result-object           v5
+     272 if-eqz                       v5, -017h
+     273 invoke-virtual               v4, v5, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+     274 goto                         -1ch
+     275 return-object                v4
+     276 iget-object                  v1, v0, Lb/g0;->b Ljava/lang/Object;
+     277 check-cast                   v1, Ljava/util/ArrayList;
+     278 iget-object                  v2, v0, Lb/g0;->c Ljava/lang/Object;
+     279 check-cast                   v2, Le/r7;
+     280 invoke-static                v1, v2, Le/y5;->t(Ljava/util/ArrayList; Le/r7;)Ljava/util/List;
+     281 move-result-object           v1
+     282 check-cast                   v1, Ljava/lang/Iterable;
+     283 instance-of                  v3, v1, Ljava/util/Collection;
+     284 if-eqz                       v3, +00ch
+     285 move-object                  v3, v1
+     286 check-cast                   v3, Ljava/util/Collection;
+     287 invoke-interface             v3, Ljava/util/Collection;->isEmpty()Z
+     288 move-result                  v3
+     289 if-eqz                       v3, +003h
+     290 goto                         +2ch
+     291 invoke-interface             v1, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+     292 move-result-object           v1
+     293 invoke-interface             v1, Ljava/util/Iterator;->hasNext()Z
+     294 move-result                  v3
+     295 if-eqz                       v3, +023h
+     296 invoke-interface             v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+     297 move-result-object           v3
+     298 check-cast                   v3, Ljava/lang/String;
+     299 invoke-interface             v2, Le/r7;->m()Ljava/util/List;
+    ... (1630 more, total 1930)
+

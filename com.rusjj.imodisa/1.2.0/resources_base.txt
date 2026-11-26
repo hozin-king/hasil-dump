@@ -1,0 +1,739 @@
+### package com.rusjj.imodisa
+DEFAULT [2131296256] Ask AI
+DEFAULT [2131296257] Apply structure…
+DEFAULT [2131296258] Argument %1$d of %2$s: %3$s
+DEFAULT [2131296259] Argument %1$d of %2$s
+DEFAULT [2131296260] Bookmark
+DEFAULT [2131296261] Call graph
+DEFAULT [2131296262] Calls from function
+DEFAULT [2131296263] Callers of function
+DEFAULT [2131296264] Cast pointer here…
+DEFAULT [2131296265] Close all pseudocode tabs
+DEFAULT [2131296266] Close the other pseudocode tabs
+DEFAULT [2131296267] Close tab
+DEFAULT [2131296268] Collapse block
+DEFAULT [2131296269] Comment
+DEFAULT [2131296270] Copy…
+DEFAULT [2131296271] Unwrap gotos (repeat shared code)
+DEFAULT [2131296272] Copy %1$s
+DEFAULT [2131296273] Create function
+DEFAULT [2131296274] Create function (ARM)
+DEFAULT [2131296275] Create function (Thumb)
+DEFAULT [2131296276] Create structure from %1$s…
+DEFAULT [2131296277] Decompile again
+DEFAULT [2131296278] Decompile in new tab
+DEFAULT [2131296279] Decompile %1$s in a new tab
+DEFAULT [2131296280] Define data…
+DEFAULT [2131296281] Delete function
+DEFAULT [2131296282] Open in another tab
+DEFAULT [2131296284] Change %1$s in the file
+DEFAULT [2131296285] Edit %1$s
+DEFAULT [2131296286] Edit value…
+DEFAULT [2131296287] Expand block
+DEFAULT [2131296288] Find…
+DEFAULT [2131296289] Find next: %1$s
+DEFAULT [2131296290] Jump to %1$s
+DEFAULT [2131296291] Force call type…
+DEFAULT [2131296292] Set function type of %1$s
+DEFAULT [2131296293] Copy…
+DEFAULT [2131296294] Name · address · bytes · instruction · lines · signature
+DEFAULT [2131296295] Data and type…
+DEFAULT [2131296296] Function…
+DEFAULT [2131296297] Function %1$s…
+DEFAULT [2131296298] Member %1$s…
+DEFAULT [2131296299] %1$s…
+DEFAULT [2131296300] Number as…
+DEFAULT [2131296301] Patch and assemble…
+DEFAULT [2131296302] References…
+DEFAULT [2131296303] Uses of %1$s…
+DEFAULT [2131296304] Variable %1$s…
+DEFAULT [2131296305] View…
+DEFAULT [2131296306] Hide casts
+DEFAULT [2131296307] Join %1$s again
+DEFAULT [2131296308] Show gotos again
+DEFAULT [2131296309] Map %1$s to another variable…
+DEFAULT [2131296310] Mark unused instructions
+DEFAULT [2131296311] Set type of %1$s
+DEFAULT [2131296312] Replace with NOP
+DEFAULT [2131296313] Open
+DEFAULT [2131296314] Assemble…
+DEFAULT [2131296315] Edit bytes…
+DEFAULT [2131296316] Peek %1$s
+DEFAULT [2131296317] Quick patch
+DEFAULT [2131296318] Remove bookmark
+DEFAULT [2131296319] Remove structure
+DEFAULT [2131296320] Show as plain number
+DEFAULT [2131296321] Rename
+DEFAULT [2131296322] Rename %1$s
+DEFAULT [2131296323] Rename %1$s
+DEFAULT [2131296324] Rename %1$s
+DEFAULT [2131296325] Reset names and types
+DEFAULT [2131296326] Revert patch
+DEFAULT [2131296327] Select lines
+DEFAULT [2131296328] Set type of %1$s
+DEFAULT [2131296329] Show casts
+DEFAULT [2131296330] Show in disassembly
+DEFAULT [2131296331] Show graph
+DEFAULT [2131296332] Show in hex
+DEFAULT [2131296333] Show in disassembly
+DEFAULT [2131296334] Show pseudocode
+DEFAULT [2131296335] Split %1$s from here
+DEFAULT [2131296336] Stack frame
+DEFAULT [2131296337] Structure member…
+DEFAULT [2131296338] Select union member…
+DEFAULT [2131296339] Unmap variables…
+DEFAULT [2131296340] Don't mark unused instructions
+DEFAULT [2131296341] Uses of %1$s (%2$d)
+DEFAULT [2131296342] View %1$s
+DEFAULT [2131296343] Cross references
+DEFAULT [2131296344] Cross references to %1$s
+DEFAULT [2131296345] Address %1$s is not in the file
+DEFAULT [2131296346] Ask a question…
+DEFAULT [2131296347] The AI is still answering
+DEFAULT [2131296348] Who calls %1$s?
+DEFAULT [2131296349] answering
+DEFAULT [2131296350] Delete this chat
+DEFAULT [2131296351] Delete this chat? The files in its own folder go too.
+DEFAULT [2131296352] Export this chat
+DEFAULT [2131296353] Rename this chat
+DEFAULT [2131296354] This chat's file (%1$s) could not be read; it was kept aside next to it.
+DEFAULT [2131296355] New chat
+DEFAULT [2131296356] Chats
+DEFAULT [2131296357] Delete chats…
+DEFAULT [2131296358] Export chats…
+DEFAULT [2131296359] Import chats…
+DEFAULT [2131296360] Can't import chats: %1$s
+DEFAULT [2131296363] code
+DEFAULT [2131296364] Comment %1$s
+DEFAULT [2131296365] Copied
+DEFAULT [2131296366] Copy
+DEFAULT [2131296367] Copy code
+DEFAULT [2131296368] Edit and send again
+DEFAULT [2131296369] Ask the AI about the code. It decompiles, reads the disassembly, follows xrefs, searches names and strings, and can name, type and comment things for you.
+
+Where you are (function and cursor) goes along with each question. Tap addresses and names in answers to go there; long press text to select it.
+
+Tap the title above to switch endpoint or model (add your own there, or paste a list of them); + starts a new chat, the list button shows them all.
+DEFAULT [2131296370] Add an endpoint…
+DEFAULT [2131296371] Anthropic API (Messages); else OpenAI-compatible
+DEFAULT [2131296372] Delete this endpoint and its key?
+DEFAULT [2131296373] Delete endpoints…
+DEFAULT [2131296374] Duplicate
+DEFAULT [2131296375] Edit endpoint
+DEFAULT [2131296376] Paste a list of endpoints…
+DEFAULT [2131296377] One per line: URL | key | model | name (only the URL is needed; add | anthropic for the Messages API). Or a JSON array of {"url", "key", "model", "name"}.
+DEFAULT [2131296378] No line has an http:// or https:// URL
+DEFAULT [2131296379] Name
+DEFAULT [2131296380] Use it
+DEFAULT [2131296381] No connection: %1$s
+DEFAULT [2131296382] The connection was lost while the answer came in; send a message to go on.
+DEFAULT [2131296383] Not allowed: %1$s
+DEFAULT [2131296384] The API key was not accepted (%1$s). Check it in Settings → AI assistant.
+DEFAULT [2131296385] Not found: %1$s. Check the model in Settings → AI assistant.
+DEFAULT [2131296386] The model is overloaded right now; retry in a moment.
+DEFAULT [2131296387] Rate limited: %1$s
+DEFAULT [2131296388] Error %1$d: %2$s
+DEFAULT [2131296389] Explain %1$s
+DEFAULT [2131296390] Explain this line
+DEFAULT [2131296391] Files
+DEFAULT [2131296392] Add a file from the device…
+DEFAULT [2131296393] Look at the file %1$s in the chat's folder.
+DEFAULT [2131296394] A binary file, %1$s
+DEFAULT [2131296395] Delete %1$s?
+DEFAULT [2131296396] Nothing here yet: ask the AI to write a file, or add one.
+DEFAULT [2131296397] Files: %1$s
+DEFAULT [2131296398] Files · none for this chat
+DEFAULT [2131296399] No files for this chat
+DEFAULT [2131296401] Use a folder on the device…
+DEFAULT [2131296402] Save a copy…
+DEFAULT [2131296403] Ask about it
+DEFAULT [2131296404] Files: %1$s
+DEFAULT [2131296405] Files · %1$s
+DEFAULT [2131296406] Let the AI use files (off in Settings)
+DEFAULT [2131296407] .. (up)
+DEFAULT [2131296408] Use this chat's own folder
+DEFAULT [2131296409] Ask the AI about this binary…
+DEFAULT [2131296410] Message…
+DEFAULT [2131296411] Name %1$s and its variables
+DEFAULT [2131296412] New chat
+DEFAULT [2131296413] Put the cursor in a function first
+DEFAULT [2131296414] %1$s declined; %2$s answers.
+DEFAULT [2131296415] The model declined; another model answers.
+DEFAULT [2131296416] No answer.
+DEFAULT [2131296417] The answer hit the output limit.
+DEFAULT [2131296418] Stopped.
+DEFAULT [2131296419] Stopped after %1$d steps; send a message to go on.
+DEFAULT [2131296420] Agree
+DEFAULT [2131296421] The AI assistant sends what you write to the AI provider you set up, together with what it needs to answer: names, code, pseudocode and data from the open project, and files you let it read. With web access on, it also sends search queries to DuckDuckGo and opens web pages (or uses the provider's own web search). For OpenCode Go, the app also sends a random session ID that stays the same for each chat.
+
+The provider handles this data under its own terms and privacy policy, with your API key. The developer of imodisa receives none of it, except an answer you report.
+
+AI answers can be wrong or offensive. Check them before you rely on them, and use Report under an answer to flag it.
+DEFAULT [2131296422] Before you use the AI assistant
+DEFAULT [2131296423] Thinking…
+DEFAULT [2131296424] Running %1$s…
+DEFAULT [2131296425] Preparing %1$s…
+DEFAULT [2131296426] Waiting for the model…
+DEFAULT [2131296427] Writing…
+DEFAULT [2131296428] Who calls %1$s and why? Look at the callers and summarize each.
+DEFAULT [2131296429] Add short comments at the key instructions of %1$s explaining the logic, then summarize the function in a few sentences.
+DEFAULT [2131296430] Explain what %1$s does: its purpose, inputs, outputs and side effects.
+DEFAULT [2131296431] Explain this line at %1$s:
+DEFAULT [2131296432] Work out what %1$s does. Then rename it if it has no meaningful name, rename its parameters and local variables, and set the types you are sure of. List what you changed.
+DEFAULT [2131296433] Tap an answer or type your own below
+DEFAULT [2131296434] The model declined this request. Rephrase it and send again, or try another model.
+DEFAULT [2131296435] The model declined this request (%1$s). Rephrase it and send again, or try another model.
+DEFAULT [2131296436] Report
+DEFAULT [2131296437] What is wrong with it (optional)
+DEFAULT [2131296438] The report wasn't sent: %1$s
+DEFAULT [2131296439] This answer, the question before it, and the AI provider and model are sent to the developer to review. Nothing else from your project is sent.
+DEFAULT [2131296440] Violent or dangerous
+DEFAULT [2131296441] Harmful, false or illegal advice
+DEFAULT [2131296442] Offensive, hateful or harassing
+DEFAULT [2131296443] Something else
+DEFAULT [2131296444] Sexual content
+DEFAULT [2131296445] Send report
+DEFAULT [2131296446] Report sent. Thank you.
+DEFAULT [2131296447] Report this answer
+DEFAULT [2131296448] Reporting isn't set up in this build.
+DEFAULT [2131296449] Retry
+DEFAULT [2131296450] Send
+DEFAULT [2131296451] The AI assistant is answering
+DEFAULT [2131296452] AI assistant
+DEFAULT [2131296453] Show all
+DEFAULT [2131296454] Stop
+DEFAULT [2131296455] Callers
+DEFAULT [2131296456] Comment code
+DEFAULT [2131296457] Explain function
+DEFAULT [2131296458] Name things
+DEFAULT [2131296459] Switch provider or model
+DEFAULT [2131296460] Thinking ▸
+DEFAULT [2131296461] Thinking ▾
+DEFAULT [2131296462] %1$s · %2$s
+DEFAULT [2131296464] Analyzing…
+DEFAULT [2131296465] Add a file…
+DEFAULT [2131296466] Copy the path
+DEFAULT [2131296467] Delete %1$s? The exported APK won't have it.
+DEFAULT [2131296468] The APK: code (smali), resources, manifest, files
+DEFAULT [2131296469] File…
+DEFAULT [2131296470] Back to the APK's file
+DEFAULT [2131296471] Package, permissions, activities: tap to read or edit
+DEFAULT [2131296472] Open as a project
+DEFAULT [2131296473] Replace with a file…
+DEFAULT [2131296474] %1$s replaced
+DEFAULT [2131296475] Strings, colors, sizes, layouts: tap to browse and edit
+DEFAULT [2131296476] Save a copy…
+DEFAULT [2131296477] imodisa
+DEFAULT [2131296478] Disassembler for modders
+DEFAULT [2131296479] Apply
+DEFAULT [2131296480] %1$s · argument %2$d
+DEFAULT [2131296481] Register only: X19
+DEFAULT [2131296482] Name only: this
+DEFAULT [2131296483] Name and register: this(X19)
+DEFAULT [2131296484] Instructions, separated by ; or new lines
+DEFAULT [2131296485] Assemble at %1$s
+DEFAULT [2131296486] Back
+DEFAULT [2131296487] Base address
+DEFAULT [2131296488] Hex bytes (1F 20 03 D5) or values in the file's byte order (0xD503201F)
+DEFAULT [2131296489] Bytes at %1$s
+DEFAULT [2131296490] Center on %1$s
+DEFAULT [2131296491] ←%1$d →%2$d
+DEFAULT [2131296492] Depth %1$d
+DEFAULT [2131296493] What this call takes and gives back, whatever it calls: "int __fastcall f(CPed *ped, float d)", "..." for more. Empty removes it.
+DEFAULT [2131296494] Call type at %1$s
+DEFAULT [2131296495] Calls from %1$s
+DEFAULT [2131296496] Cancel
+DEFAULT [2131296497] Cannot open %1$s
+DEFAULT [2131296498] Not a pointer type: %1$s
+DEFAULT [2131296499] A pointer type, like CVehicleModelInfo *. Only in this statement; empty removes the cast.
+DEFAULT [2131296500] Read %1$s as
+DEFAULT [2131296501] Choose a binary
+DEFAULT [2131296502] Choose an architecture
+DEFAULT [2131296503] Close
+DEFAULT [2131296504] Comment at %1$s
+DEFAULT [2131296505] Copied: %1$s
+DEFAULT [2131296506] Copy
+DEFAULT [2131296507] Address
+DEFAULT [2131296508] Bytes
+DEFAULT [2131296509] Encoding
+DEFAULT [2131296510] Copy function
+DEFAULT [2131296511] Function disassembly
+DEFAULT [2131296512] Function disassembly with addresses
+DEFAULT [2131296513] Function signature
+DEFAULT [2131296514] Instruction
+DEFAULT [2131296515] Line with address
+DEFAULT [2131296516] Name
+DEFAULT [2131296517] Mangled name
+DEFAULT [2131296518] Name without parameters
+DEFAULT [2131296519] File offset
+DEFAULT [2131296520] Copy line
+DEFAULT [2131296521] Unique signature
+DEFAULT [2131296522] Target: %1$s
+DEFAULT [2131296523] Copy with addresses
+DEFAULT [2131296524] Array…
+DEFAULT [2131296525] A count from 1 to %1$d
+DEFAULT [2131296526] Array of %1$s at %2$s
+DEFAULT [2131296527] Byte
+DEFAULT [2131296528] Double (8 bytes)
+DEFAULT [2131296529] Double word (4 bytes)
+DEFAULT [2131296530] Float (4 bytes)
+DEFAULT [2131296531] No zero-terminated text at %1$s
+DEFAULT [2131296532] Pointer
+DEFAULT [2131296533] Quad word (8 bytes)
+DEFAULT [2131296534] C string
+DEFAULT [2131296535] UTF-16 string
+DEFAULT [2131296536] Undefine: show as bytes
+DEFAULT [2131296537] Word (2 bytes)
+DEFAULT [2131296538] loaded from a separate file
+DEFAULT [2131296539] it has no DWARF either
+DEFAULT [2131296540] not a binary this app can open
+DEFAULT [2131296541] it is %1$s, this project is %2$s
+DEFAULT [2131296542] Reading debug info…
+DEFAULT [2131296543] Can't use this file: %1$s
+DEFAULT [2131296544] Decompiling…
+DEFAULT [2131296545] Data at %1$s
+DEFAULT [2131296546] Delete
+DEFAULT [2131296547] %1$s added
+DEFAULT [2131296548] Assembling %1$s…
+DEFAULT [2131296549] Which dex file?
+DEFAULT [2131296550] Strings in the code
+DEFAULT [2131296551] Copy the class
+DEFAULT [2131296552] Copy the class name (FindClass)
+DEFAULT [2131296553] Copy the descriptor
+DEFAULT [2131296554] Copy the JNI lookup
+DEFAULT [2131296555] Copy the C function (JNI)
+DEFAULT [2131296556] Copy the RegisterNatives entry
+DEFAULT [2131296557] Delete the class
+DEFAULT [2131296558] Delete %1$s? The exported file won't have it.
+DEFAULT [2131296559] Discard the changes to %1$s?
+DEFAULT [2131296560] Discard
+DEFAULT [2131296561] Change
+DEFAULT [2131296562] Change this string everywhere
+DEFAULT [2131296563] EDITED
+DEFAULT [2131296564] Line %1$d: %2$s
+DEFAULT [2131296565] Export…
+DEFAULT [2131296566] Save the APK, signed
+DEFAULT [2131296567] Save %1$s
+DEFAULT [2131296568] Find in this class
+DEFAULT [2131296569] Find next
+DEFAULT [2131296570] Fields and methods…
+DEFAULT [2131296571] %1$s is not in this file
+DEFAULT [2131296572] No library of this APK exports %1$s: it may be registered at run time (RegisterNatives).
+DEFAULT [2131296573] New class…
+DEFAULT [2131296574] Nothing is changed: the file is as it was
+DEFAULT [2131296575] No Java or Kotlin code (dex) in this file
+DEFAULT [2131296576] Open its native code
+DEFAULT [2131296577] Reading the dex files…
+DEFAULT [2131296578] Back to the file's class
+DEFAULT [2131296579] Undo every change
+DEFAULT [2131296580] Undo every change to the classes?
+DEFAULT [2131296581] %1$s is as in the file again
+DEFAULT [2131296582] Assemble and save
+DEFAULT [2131296583] %1$s saved
+DEFAULT [2131296584] Search all classes
+DEFAULT [2131296585] Text in the smali
+DEFAULT [2131296586] Searching: %1$d of %2$d classes
+DEFAULT [2131296587] Signed with a key this app keeps on this device. Uninstall the original app first: it is signed by another key.
+DEFAULT [2131296588] Find uses
+DEFAULT [2131296589] Uses of %1$s
+DEFAULT [2131296590] Java
+DEFAULT [2131296591] Smali
+DEFAULT [2131296592] Writing %1$s…
+DEFAULT [2131296593] Edit
+DEFAULT [2131296594] Go to line…
+DEFAULT [2131296595] A line from 1 to %1$d
+DEFAULT [2131296596] Replace…
+DEFAULT [2131296597] Replace all
+DEFAULT [2131296598] Replace
+DEFAULT [2131296599] Replace with
+DEFAULT [2131296600] Another value…
+DEFAULT [2131296601] Value at %1$s
+DEFAULT [2131296602] Nothing opened yet.
+Pick a native library, executable or APK to start.
+DEFAULT [2131296603] Edit enum
+DEFAULT [2131296604] flags
+DEFAULT [2131296605] In background
+DEFAULT [2131296606] Export functions (.c, .s)
+DEFAULT [2131296607] Everything in one file
+DEFAULT [2131296608] Chosen classes…
+DEFAULT [2131296609] This function
+DEFAULT [2131296610] Chosen functions…
+DEFAULT [2131296611] One file per class (choose a folder)
+DEFAULT [2131296612] Exports
+DEFAULT [2131296613] Assembly with addresses (.s)
+DEFAULT [2131296614] Assembly without addresses (.s)
+DEFAULT [2131296615] Pseudocode (.c)
+DEFAULT [2131296616] Write
+DEFAULT [2131296617] Format
+DEFAULT [2131296618] Address of each function (a //----- line)
+DEFAULT [2131296619] All structures and enums
+DEFAULT [2131296620] Declarations of the globals they use
+DEFAULT [2131296621] Put in the file
+DEFAULT [2131296622] Structures and enums the functions use
+DEFAULT [2131296623] Nothing chosen
+DEFAULT [2131296624] Save patched file…
+DEFAULT [2131296625] Export patch list…
+DEFAULT [2131296626] Export project…
+DEFAULT [2131296627] An export is running already: wait for it or cancel it from its notification.
+DEFAULT [2131296628] Export for IDA or Ghidra…
+DEFAULT [2131296629] Ghidra (Python script)
+DEFAULT [2131296630] IDA (IDAPython script)
+DEFAULT [2131296631] Skip function
+DEFAULT [2131296632] All structures and enums
+DEFAULT [2131296633] Chosen structures…
+DEFAULT [2131296634] Chosen structures with their bases and member types…
+DEFAULT [2131296635] One file per structure (choose a folder)
+DEFAULT [2131296636] Exporting %1$s
+DEFAULT [2131296637] Decompiling %1$d of %2$d:
+%3$s
+DEFAULT [2131296638] Decompiling %1$d of %2$d…
+DEFAULT [2131296639] Filter
+DEFAULT [2131296640] Forward
+DEFAULT [2131296641] %1$s keeps nothing on the stack
+DEFAULT [2131296642] return address
+DEFAULT [2131296643] saved %1$s
+DEFAULT [2131296644] Stack frame of %1$s · %2$s bytes
+DEFAULT [2131296645] Not a function type: %1$s
+DEFAULT [2131296646] As in C: result, name and parameters, "this" first for methods. Registers of your own with __usercall: "int __usercall f@<x0>(CPed *ped@<x1>, float d@<s2>)". x86 takes __thiscall (ecx) and __fastcall (ecx, edx). Empty goes back to debug info or the name.
+DEFAULT [2131296647] Any C type: CPool<CPed> *, CVector[16], int. A structure types the data itself.
+DEFAULT [2131296648] Go to
+DEFAULT [2131296649] Address, name or @file offset
+DEFAULT [2131296650] Place the cursor inside a function to see its graph.
+DEFAULT [2131296651] Only printable ASCII characters
+DEFAULT [2131296652] The name can't be empty
+DEFAULT [2131296654] Edit bytes
+DEFAULT [2131296656] Version %1$s
+DEFAULT [2131296657] Version %1$s, built %2$s
+DEFAULT [2131296658] Take over
+DEFAULT [2131296659] In the database:
+Names: %1$d
+Comments: %2$d
+Functions: %3$d
+Typed functions and globals: %4$d
+Local types: %5$d
+Stack variables: %6$d
+DEFAULT [2131296660] Taken from the database: %1$d names, %2$d comments, %3$d functions, %4$d types, %5$d local types, %6$d stack variables
+DEFAULT [2131296661] The database keeps no bytes of the file it was made from.
+DEFAULT [2131296662] The database was made from another file: its addresses may not fit this binary.
+DEFAULT [2131296663] Reading the IDA database…
+DEFAULT [2131296664] Rebuilding the file from the IDA database…
+DEFAULT [2131296665] Functions: %1$s of %2$s, at %3$s
+DEFAULT [2131296666] Local types: %1$s of %2$s
+DEFAULT [2131296667] Names and comments: %1$s read, at %2$s
+DEFAULT [2131296668] Prototypes: %1$s of %2$s
+DEFAULT [2131296669] Type library
+DEFAULT [2131296670] Types of addresses: %1$s of %2$s
+DEFAULT [2131296671] Import IDA database (.idb/.i64)…
+DEFAULT [2131296672] Import from IDA (.idc)…
+DEFAULT [2131296673] Taken from IDA: %1$d names, %2$d comments, %3$d types
+DEFAULT [2131296674] slot %1$s
+DEFAULT [2131296675] stub %1$s
+DEFAULT [2131296676] Copying %1$s…
+DEFAULT [2131296677] Classes from symbols
+DEFAULT [2131296678] %1$d, %2$d with vtables
+DEFAULT [2131296679] Debug info
+DEFAULT [2131296680] Debug info file
+DEFAULT [2131296681] DWARF, %1$s: %2$s, %3$s, %4$s
+DEFAULT [2131296682] Engine
+DEFAULT [2131296683] File
+DEFAULT [2131296684] Functions
+DEFAULT [2131296685] none
+DEFAULT [2131296686] Patches
+DEFAULT [2131296687] SHA-256 (prefix)
+DEFAULT [2131296688] Size
+DEFAULT [2131296689] Strings
+DEFAULT [2131296690] Cross references
+DEFAULT [2131296691] Installed apps
+DEFAULT [2131296692] Native libraries of apps
+DEFAULT [2131296693] Invalid pattern: %1$s
+DEFAULT [2131296694] %1$d of %2$d
+DEFAULT [2131296695] System default
+DEFAULT [2131296696] Copy or export all %1$d…
+DEFAULT [2131296697] Choose rows to copy or export…
+DEFAULT [2131296698] Format
+DEFAULT [2131296699] Addresses, one per line
+DEFAULT [2131296700] C array
+DEFAULT [2131296701] CSV
+DEFAULT [2131296702] Frida script (hook each)
+DEFAULT [2131296703] IDAPython script
+DEFAULT [2131296704] JSON array
+DEFAULT [2131296705] Lines as shown
+DEFAULT [2131296706] File offsets
+DEFAULT [2131296707] Save to a file…
+DEFAULT [2131296708] unused
+DEFAULT [2131296709] Load
+DEFAULT [2131296710] Load debug info…
+DEFAULT [2131296711] Loading…
+DEFAULT [2131296712] Lets an AI client on a PC (Claude Code, Claude Desktop, Cursor…) work on this project with the assistant's tools: decompile, xrefs, names, types. It runs while imodisa stays open; anyone with the token on your network can use it.
+DEFAULT [2131296713] Claude Code:
+DEFAULT [2131296714] Copy command
+DEFAULT [2131296715] Allow changes (names, types, comments)
+DEFAULT [2131296716] Could not start: %1$s
+DEFAULT [2131296717] Connect a PC (MCP)…
+DEFAULT [2131296718] Running, but the device is on no network: connect to Wi-Fi or use USB.
+DEFAULT [2131296719] Running. Add it to the client with one of these addresses and the token:
+DEFAULT [2131296720] Start
+DEFAULT [2131296721] Stop
+DEFAULT [2131296722] Stopped
+DEFAULT [2131296723] MCP server
+DEFAULT [2131296724] Token (Authorization: Bearer):
+DEFAULT [2131296725] Over USB: run "adb forward tcp:%1$d tcp:%1$d" on the PC, then use http://localhost:%1$d/mcp.
+DEFAULT [2131296726] Not a C name: %1$s
+DEFAULT [2131296727] %1$s already exists
+DEFAULT [2131296728] A C type: float, CVector, CPed *, int[4]. It has to fit before the next member.
+DEFAULT [2131296729] Unknown type: %1$s
+DEFAULT [2131296730] address
+DEFAULT [2131296731] read, write
+DEFAULT [2131296732] Uses of %1$s
+DEFAULT [2131296733] Uses of %1$s in all functions…
+DEFAULT [2131296734] No uses of %1$s in the functions likely to have them; try all functions
+DEFAULT [2131296735] No uses of %1$s
+DEFAULT [2131296736] Uses of a member…
+DEFAULT [2131296737] More
+DEFAULT [2131296738] This archive has no native libraries.
+DEFAULT [2131296739] No calls in this function
+DEFAULT [2131296740] Nothing here
+DEFAULT [2131296741] %1$s has no native libraries.
+DEFAULT [2131296742] No structures in this file
+DEFAULT [2131296743] No structure member at offset %1$s
+DEFAULT [2131296744] Create a structure in the Structs tab first
+DEFAULT [2131296745] No cross references
+DEFAULT [2131296746] Not found: %1$s
+DEFAULT [2131296747] Nothing to redo
+DEFAULT [2131296748] Nothing to undo
+DEFAULT [2131296749] Binary
+DEFAULT [2131296750] Character
+DEFAULT [2131296751] Decimal
+DEFAULT [2131296752] Default format
+DEFAULT [2131296753] Enum…
+DEFAULT [2131296754] No enum has a member for %1$s
+DEFAULT [2131296755] Not as %1$s
+DEFAULT [2131296756] Float
+DEFAULT [2131296757] Hexadecimal
+DEFAULT [2131296758] Bitwise NOT
+DEFAULT [2131296759] Negate
+DEFAULT [2131296760] Octal
+DEFAULT [2131296761] Offset
+DEFAULT [2131296762] sizeof…
+DEFAULT [2131296763] No structure is %1$s (%2$s) bytes
+DEFAULT [2131296764] Not as sizeof(%1$s)
+DEFAULT [2131296765] OK
+DEFAULT [2131296766] Open
+DEFAULT [2131296767] Cannot open file: %1$s
+DEFAULT [2131296768] Open file
+DEFAULT [2131296769] .so, APK, ELF, PE, Mach-O
+DEFAULT [2131296770] Opening %1$s…
+DEFAULT [2131296771] Write all patches into the file you opened? This cannot be undone.
+DEFAULT [2131296772] Pad the rest of the instruction with NOPs
+DEFAULT [2131296773] Cannot patch: %1$s
+DEFAULT [2131296774] offset %1$s
+DEFAULT [2131296775] C/C++ table
+DEFAULT [2131296776] IDA .dif
+DEFAULT [2131296777] Plain text
+DEFAULT [2131296778] Type an instruction
+DEFAULT [2131296779] No patches yet.
+Long-press an instruction and choose Assemble or a quick patch.
+DEFAULT [2131296780] %1$d of %2$d chosen
+DEFAULT [2131296781] Port
+DEFAULT [2131296782] Comes over:
+Names: %1$d
+Comments: %2$d
+Prototypes: %3$d
+Variables: %4$d
+Number formats: %5$d
+Types: %6$d
+Data: %7$d
+DEFAULT [2131296783] Port from another build…
+DEFAULT [2131296784] Mapping data…
+DEFAULT [2131296785] Matching functions…
+DEFAULT [2131296786] No other project of this architecture: open the other build first
+DEFAULT [2131296787] Reading the other build…
+DEFAULT [2131296788] Project saved
+DEFAULT [2131296789] Custom endpoint (Anthropic-compatible)
+DEFAULT [2131296790] Custom endpoint (OpenAI-compatible)
+DEFAULT [2131296791] free
+DEFAULT [2131296792] free monthly credits
+DEFAULT [2131296793] free with a GitHub token
+DEFAULT [2131296794] free models
+DEFAULT [2131296795] free tier
+DEFAULT [2131296796] local
+DEFAULT [2131296797] %1$s (%2$s)
+DEFAULT [2131296798] Could not decompile
+DEFAULT [2131296799] Place the cursor inside a function to see its pseudocode.
+DEFAULT [2131296800] Function is too large to decompile.
+DEFAULT [2131296801] Always take this branch
+DEFAULT [2131296802] Invert condition
+DEFAULT [2131296803] Never take this branch
+DEFAULT [2131296804] NOP this call
+DEFAULT [2131296805] Return false (0)
+DEFAULT [2131296806] Return true (1)
+DEFAULT [2131296807] Return immediately
+DEFAULT [2131296808] Auto (small numbers decimal)
+DEFAULT [2131296809] Decimal
+DEFAULT [2131296810] Hexadecimal
+DEFAULT [2131296811] Load as raw code with this instruction set and base address:
+DEFAULT [2131296812] Unknown format
+DEFAULT [2131296813] Recent
+DEFAULT [2131296814] Redo
+DEFAULT [2131296815] Remove
+DEFAULT [2131296816] The working copy, names, comments and patches of this file are deleted.
+DEFAULT [2131296817] Remove %1$s?
+DEFAULT [2131296818] Empty to reset
+DEFAULT [2131296819] Rename %1$s
+DEFAULT [2131296820] https://docs.google.com/forms/d/e/1FAIpQLSdL1zhHl5gtedqzRoeu8SUbB_3dGVYM0wimR9-ibt_KL2JVNw/viewform?usp=pp_url&entry.823312279=REASON&entry.1459254989=DETAILS&entry.1612415130=RESPONSE&entry.1155268523=CONTEXT
+DEFAULT [2131296821] Re-run analysis
+DEFAULT [2131296822] Not a value: %1$s
+DEFAULT [2131296823] Copy the id
+DEFAULT [2131296824] Copy the name
+DEFAULT [2131296825] (default)
+DEFAULT [2131296826] As it reads: text, a number, true or false, #aarrggbb, 16dp, @string/name
+DEFAULT [2131296827] Find uses in the code
+DEFAULT [2131296828] As in the APK again
+DEFAULT [2131296829] Resources
+DEFAULT [2131296830] Reset
+DEFAULT [2131296831] Variable names, types and number formats in this function go back to what the decompiler shows. Comments stay.
+DEFAULT [2131296832] Revert all
+DEFAULT [2131296833] Restore all original bytes?
+DEFAULT [2131296834] Save failed: %1$s
+DEFAULT [2131296835] Overwrite source file
+DEFAULT [2131296836] Save project
+DEFAULT [2131296837] Saved %1$s
+DEFAULT [2131296838] Search
+DEFAULT [2131296839] Search apps
+DEFAULT [2131296840] Byte pattern
+DEFAULT [2131296841] e.g. 1F 20 03 D5 ?? ?? 00 94
+DEFAULT [2131296845] String
+DEFAULT [2131296846] Text in disassembly
+DEFAULT [2131296847] e.g. BL or #0x64
+DEFAULT [2131296848] Search
+DEFAULT [2131296849] Immediate value
+DEFAULT [2131296850] e.g. 0x1D8, 472 or -49
+DEFAULT [2131296851] Searching…
+DEFAULT [2131296852] file %1$s
+DEFAULT [2131296853] All
+DEFAULT [2131296854] None
+DEFAULT [2131296855] Select text
+DEFAULT [2131296856] Settings
+DEFAULT [2131296857] About
+DEFAULT [2131296858] AI assistant
+DEFAULT [2131296859] The AI may rename, retype and comment (undoable)
+DEFAULT [2131296860] Effort
+DEFAULT [2131296861] The AI may read and write files in the chat's folder
+DEFAULT [2131296862] API key
+DEFAULT [2131296863] From %1$s. Kept only on this device and sent only to the endpoint.
+DEFAULT [2131296864] Not set
+DEFAULT [2131296865] Leave empty if the endpoint needs none. Kept only on this device and sent only to the endpoint.
+DEFAULT [2131296866] Not needed
+DEFAULT [2131296867] Model
+DEFAULT [2131296868] Type a model id…
+DEFAULT [2131296869] Could not list the models: %1$s
+DEFAULT [2131296870] Load the list from the endpoint…
+DEFAULT [2131296871] Asking the endpoint for its models…
+DEFAULT [2131296872] The endpoint listed no models
+DEFAULT [2131296873] Provider
+DEFAULT [2131296874] Endpoint
+DEFAULT [2131296875] Needs http:// or https://
+DEFAULT [2131296876] Base URL of an Anthropic-compatible API (the host, like https://api.anthropic.com); /v1/messages is added.
+DEFAULT [2131296877] Base URL of an OpenAI-compatible API, up to /v1 (for example http://192.168.1.10:11434/v1 for Ollama on another device); /chat/completions and /models are added.
+DEFAULT [2131296878] The AI may search the web and read pages
+DEFAULT [2131296879] Analysis
+DEFAULT [2131296880] Appearance
+DEFAULT [2131296881] Registers holding parameters
+DEFAULT [2131296882] Automatic comments (strings, pointers)
+DEFAULT [2131296883] Name variables after getters and members
+DEFAULT [2131296884] Remove all projects
+DEFAULT [2131296885] Delete every working copy, name, comment and patch?
+DEFAULT [2131296886] No goto: repeat the code it jumps to
+DEFAULT [2131296887] Show variable declarations
+DEFAULT [2131296888] Demangle C++ names
+DEFAULT [2131296889] Text size
+DEFAULT [2131296890] Indent
+DEFAULT [2131296891] Language
+DEFAULT [2131296892] Open-source licenses
+DEFAULT [2131296893] Line numbers
+DEFAULT [2131296894] Disassembly
+DEFAULT [2131296895] Number format
+DEFAULT [2131296896] Mark unused instructions (results nothing reads)
+DEFAULT [2131296897] Minimum string length
+DEFAULT [2131296898] Opcode bytes
+DEFAULT [2131296899] Privacy policy
+DEFAULT [2131296900] Number format
+DEFAULT [2131296901] Pseudocode
+DEFAULT [2131296903] Show opcode bytes
+DEFAULT [2131296904] Show casts
+DEFAULT [2131296905] Integer types as in stdint.h (uint64_t, not unsigned __int64)
+DEFAULT [2131296906] Storage
+DEFAULT [2131296907] Theme
+DEFAULT [2131296908] Uppercase instructions (ARM)
+DEFAULT [2131296909] Version %1$s · %2$s
+DEFAULT [2131296910] Find UTF-16 strings
+DEFAULT [2131296911] Show cross references on labels
+DEFAULT [2131296912] Show system apps
+DEFAULT [2131296913] Sort
+DEFAULT [2131296914] Address
+DEFAULT [2131296915] As listed
+DEFAULT [2131296916] Kind
+DEFAULT [2131296917] Length
+DEFAULT [2131296918] Library
+DEFAULT [2131296919] Name
+DEFAULT [2131296920] Origin
+DEFAULT [2131296921] Segment
+DEFAULT [2131296922] Size
+DEFAULT [2131296923] Text
+DEFAULT [2131296924] Type
+DEFAULT [2131296925] Cross references
+DEFAULT [2131296926] The source file cannot be written. Use “Save patched file” instead.
+DEFAULT [2131296927] Reading debug info
+DEFAULT [2131296928] Reading debug info %1$d%%
+DEFAULT [2131296929] Finding functions
+DEFAULT [2131296930] Resolving imports
+DEFAULT [2131296931] Reading the PDB
+DEFAULT [2131296932] Scanning code
+DEFAULT [2131296933] Collecting strings
+DEFAULT [2131296934] Resolving switches
+DEFAULT [2131296935] Copy C declaration
+DEFAULT [2131296936] Delete structure
+DEFAULT [2131296937] Delete %1$s? Variables and data typed with it go back to plain numbers.
+DEFAULT [2131296938] Edit structure
+DEFAULT [2131296939] Export to header…
+DEFAULT [2131296940] Lay out for %1$d-bit pointers
+DEFAULT [2131296941] C syntax. "// +0x40" (or "// 0x40") after a field pins its offset, "// size 0x100" after the name sets the size. Array sizes can be arithmetic: [0x48 - 0x30], [sizeof(CVector) * 4].
+DEFAULT [2131296942] Import from header…
+DEFAULT [2131296943] C declarations: an exported header or one from IDA
+DEFAULT [2131296944] New structure
+DEFAULT [2131296945] Write or paste C declarations: structs and enums
+DEFAULT [2131296946] Preview for %1$d-bit
+DEFAULT [2131296947] %1$s for %2$d-bit
+DEFAULT [2131296948] Revert to debug info
+DEFAULT [2131296949] size %1$s
+DEFAULT [2131296950] AI
+DEFAULT [2131296951] Bookmarks
+DEFAULT [2131296952] Disassembly
+DEFAULT [2131296953] Exports
+DEFAULT [2131296954] Functions
+DEFAULT [2131296955] Graph
+DEFAULT [2131296956] Hex
+DEFAULT [2131296957] Imports
+DEFAULT [2131296958] Info
+DEFAULT [2131296959] Names
+DEFAULT [2131296960] Patches
+DEFAULT [2131296961] Pseudocode
+DEFAULT [2131296963] Results
+DEFAULT [2131296964] Segments
+DEFAULT [2131296965] Strings
+DEFAULT [2131296966] Structs
+DEFAULT [2131296967] Dark
+DEFAULT [2131296968] Light
+DEFAULT [2131296969] System
+DEFAULT [2131296970] just now
+DEFAULT [2131296971] Custom type…
+DEFAULT [2131296972] Reset type
+DEFAULT [2131296973] Structure pointer…
+DEFAULT [2131296974] Undo
+DEFAULT [2131296975] First that fits (default)
+DEFAULT [2131296976] call
+DEFAULT [2131296977] jump
+DEFAULT [2131296978] offset
+DEFAULT [2131296979] read
+DEFAULT [2131296980] write
+DEFAULT [2131296981] Cross references to %1$s

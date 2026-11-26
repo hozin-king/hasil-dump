@@ -1,0 +1,727 @@
+### package com.rusjj.imodisa
+in [2131296256] Tanya AI
+in [2131296257] Terapkan struktur…
+in [2131296258] Argumen ke-%1$d dari %2$s: %3$s
+in [2131296259] Argumen ke-%1$d dari %2$s
+in [2131296260] Tambah bookmark
+in [2131296261] Grafik panggilan
+in [2131296262] Panggilan dari fungsi
+in [2131296263] Pemanggil fungsi
+in [2131296264] Cast pointer di sini…
+in [2131296265] Tutup semua tab pseudokode
+in [2131296266] Tutup tab pseudokode lainnya
+in [2131296267] Tutup tab
+in [2131296268] Ciutkan blok
+in [2131296269] Komentar
+in [2131296270] Salin…
+in [2131296271] Uraikan goto (ulangi kode bersama)
+in [2131296272] Salin %1$s
+in [2131296273] Buat fungsi
+in [2131296274] Buat fungsi (ARM)
+in [2131296275] Buat fungsi (Thumb)
+in [2131296276] Buat struktur dari %1$s…
+in [2131296277] Dekompilasi lagi
+in [2131296278] Dekompilasi di tab baru
+in [2131296279] Dekompilasi %1$s di tab baru
+in [2131296280] Tentukan data…
+in [2131296281] Hapus fungsi
+in [2131296282] Buka di tab lain
+in [2131296284] Ubah %1$s di file
+in [2131296285] Edit %1$s
+in [2131296286] Edit nilai…
+in [2131296287] Bentangkan blok
+in [2131296288] Temukan…
+in [2131296289] Temukan berikutnya: %1$s
+in [2131296290] Lompat ke %1$s
+in [2131296291] Paksa tipe panggilan…
+in [2131296292] Atur tipe fungsi %1$s
+in [2131296293] Salin…
+in [2131296294] Nama · alamat · byte · instruksi · baris · signature
+in [2131296295] Data dan tipe…
+in [2131296296] Fungsi…
+in [2131296297] Fungsi %1$s…
+in [2131296298] Anggota %1$s…
+in [2131296300] Angka sebagai…
+in [2131296301] Patch dan rakit…
+in [2131296302] Referensi…
+in [2131296303] Penggunaan %1$s…
+in [2131296304] Variabel %1$s…
+in [2131296305] Tampilan…
+in [2131296306] Sembunyikan cast
+in [2131296307] Gabungkan %1$s lagi
+in [2131296308] Tampilkan goto lagi
+in [2131296309] Petakan %1$s ke variabel lain…
+in [2131296310] Tandai instruksi yang tidak dipakai
+in [2131296311] Atur tipe %1$s
+in [2131296312] Ganti dengan NOP
+in [2131296313] Buka
+in [2131296314] Rakit…
+in [2131296315] Edit byte…
+in [2131296316] Intip %1$s
+in [2131296317] Patch cepat
+in [2131296318] Hapus bookmark
+in [2131296319] Lepas struktur
+in [2131296320] Tampilkan sebagai angka biasa
+in [2131296321] Ganti nama
+in [2131296322] Ganti nama %1$s
+in [2131296323] Ganti nama %1$s
+in [2131296324] Ganti nama %1$s
+in [2131296325] Setel ulang nama dan tipe
+in [2131296326] Kembalikan patch
+in [2131296327] Pilih baris
+in [2131296328] Atur tipe %1$s
+in [2131296329] Tampilkan cast
+in [2131296330] Tampilkan di disassembly
+in [2131296331] Tampilkan graf
+in [2131296332] Tampilkan di hex
+in [2131296333] Tampilkan di disassembly
+in [2131296334] Tampilkan pseudokode
+in [2131296335] Pisahkan %1$s mulai dari sini
+in [2131296336] Frame stack
+in [2131296337] Anggota struktur…
+in [2131296338] Pilih anggota union…
+in [2131296339] Batalkan pemetaan variabel…
+in [2131296340] Jangan tandai instruksi yang tidak dipakai
+in [2131296341] Penggunaan %1$s (%2$d)
+in [2131296342] Lihat %1$s
+in [2131296343] Referensi silang
+in [2131296344] Referensi silang ke %1$s
+in [2131296345] Alamat %1$s tidak ada di file
+in [2131296346] Ajukan pertanyaan…
+in [2131296347] AI masih menjawab
+in [2131296348] Siapa yang memanggil %1$s?
+in [2131296349] menjawab
+in [2131296350] Hapus chat ini
+in [2131296351] Hapus chat ini? File di folder miliknya juga ikut terhapus.
+in [2131296352] Ekspor obrolan ini
+in [2131296353] Ganti nama chat ini
+in [2131296354] Berkas obrolan ini (%1$s) tidak dapat dibaca; berkas itu disimpan di sebelahnya.
+in [2131296355] Chat baru
+in [2131296356] Chat
+in [2131296357] Hapus chat…
+in [2131296358] Ekspor obrolan…
+in [2131296359] Impor obrolan…
+in [2131296360] Tidak bisa mengimpor obrolan: %1$s
+in [2131296363] kode
+in [2131296364] Beri komentar %1$s
+in [2131296365] Disalin
+in [2131296366] Salin
+in [2131296367] Salin kode
+in [2131296368] Edit dan kirim lagi
+in [2131296369] Tanyakan kode ke AI. AI dapat mendekompilasi, membaca disassembly, mengikuti referensi silang, mencari nama dan string, serta memberi nama, tipe, dan komentar untuk Anda.
+
+Posisi Anda (fungsi dan kursor) ikut dikirim bersama setiap pertanyaan. Ketuk alamat dan nama di jawaban untuk membukanya; tekan lama teks untuk memilihnya.
+
+Ketuk judul di atas untuk mengganti endpoint atau model (tambahkan milik Anda sendiri di sana, atau tempel daftarnya); + memulai chat baru, tombol daftar menampilkan semuanya.
+in [2131296370] Tambah endpoint…
+in [2131296371] Anthropic API (Messages); jika tidak, kompatibel dengan OpenAI
+in [2131296372] Hapus endpoint ini beserta kuncinya?
+in [2131296373] Hapus endpoint…
+in [2131296374] Duplikat
+in [2131296375] Edit endpoint
+in [2131296376] Tempel daftar endpoint…
+in [2131296377] Satu per baris: URL | kunci | model | nama (hanya URL yang wajib; tambahkan | anthropic untuk Messages API). Atau array JSON berisi {"url", "key", "model", "name"}.
+in [2131296378] Tidak ada baris yang berisi URL http:// atau https://
+in [2131296379] Nama
+in [2131296380] Gunakan
+in [2131296381] Tidak ada koneksi: %1$s
+in [2131296382] Koneksi terputus saat jawaban sedang diterima; kirim pesan untuk melanjutkan.
+in [2131296383] Tidak diizinkan: %1$s
+in [2131296384] Kunci API tidak diterima (%1$s). Periksa di Setelan → Asisten AI.
+in [2131296385] Tidak ditemukan: %1$s. Periksa model di Setelan → Asisten AI.
+in [2131296386] Model sedang kelebihan beban; coba lagi sebentar lagi.
+in [2131296387] Batas permintaan tercapai: %1$s
+in [2131296388] Error %1$d: %2$s
+in [2131296389] Jelaskan %1$s
+in [2131296390] Jelaskan baris ini
+in [2131296391] File
+in [2131296392] Tambah file dari perangkat…
+in [2131296393] Lihat file %1$s di folder chat.
+in [2131296394] File biner, %1$s
+in [2131296395] Hapus %1$s?
+in [2131296396] Belum ada apa-apa: minta AI menulis file, atau tambahkan sendiri.
+in [2131296397] File: %1$s
+in [2131296398] File · tidak ada untuk chat ini
+in [2131296399] Tanpa file untuk chat ini
+in [2131296401] Gunakan folder di perangkat…
+in [2131296402] Simpan salinan…
+in [2131296403] Tanyakan tentang file ini
+in [2131296404] File: %1$s
+in [2131296405] File · %1$s
+in [2131296406] Izinkan AI menggunakan file (nonaktif di Setelan)
+in [2131296407] .. (naik)
+in [2131296408] Gunakan folder milik chat ini
+in [2131296409] Tanyakan ke AI tentang biner ini…
+in [2131296410] Pesan…
+in [2131296411] Beri nama %1$s dan variabelnya
+in [2131296412] Chat baru
+in [2131296413] Letakkan kursor di sebuah fungsi terlebih dahulu
+in [2131296414] %1$s menolak; %2$s yang menjawab.
+in [2131296415] Model menolak; model lain yang menjawab.
+in [2131296416] Tidak ada jawaban.
+in [2131296417] Jawaban mencapai batas panjang keluaran.
+in [2131296418] Dihentikan.
+in [2131296419] Dihentikan setelah mencapai batas langkah (%1$d); kirim pesan untuk melanjutkan.
+in [2131296420] Setuju
+in [2131296421] Asisten AI mengirim apa yang Anda tulis ke penyedia AI yang Anda atur, beserta apa yang diperlukannya untuk menjawab: nama, kode, pseudokode, dan data dari proyek yang terbuka, serta file yang Anda izinkan untuk dibaca. Jika akses web aktif, AI juga mengirim kueri penelusuran ke DuckDuckGo dan membuka halaman web (atau menggunakan penelusuran web milik penyedia). Untuk OpenCode Go, aplikasi juga mengirim ID sesi acak yang tetap sama untuk setiap percakapan.
+
+Penyedia memproses data ini sesuai ketentuan dan kebijakan privasinya sendiri, dengan kunci API Anda. Pengembang imodisa tidak menerima apa pun dari data ini, kecuali jawaban yang Anda laporkan.
+
+Jawaban AI bisa salah atau menyinggung. Periksa sebelum Anda mengandalkannya, dan gunakan Laporkan di bawah jawaban untuk menandainya.
+in [2131296422] Sebelum menggunakan asisten AI
+in [2131296423] Berpikir…
+in [2131296424] Menjalankan %1$s…
+in [2131296425] Menyiapkan %1$s…
+in [2131296426] Menunggu model…
+in [2131296427] Menulis…
+in [2131296428] Siapa yang memanggil %1$s dan mengapa? Lihat pemanggilnya dan rangkum masing-masing.
+in [2131296429] Tambahkan komentar singkat di instruksi-instruksi penting %1$s yang menjelaskan logikanya, lalu rangkum fungsinya dalam beberapa kalimat.
+in [2131296430] Jelaskan apa yang dilakukan %1$s: tujuannya, input, output, dan efek sampingnya.
+in [2131296431] Jelaskan baris ini di alamat %1$s:
+in [2131296432] Cari tahu apa yang dilakukan %1$s. Lalu ganti namanya jika belum bermakna, ganti nama parameter dan variabel lokalnya, dan atur tipe yang kamu yakini. Sebutkan apa saja yang kamu ubah.
+in [2131296433] Ketuk jawaban atau ketik jawaban sendiri di bawah
+in [2131296434] Model menolak permintaan ini. Ubah susunan kalimatnya lalu kirim lagi, atau coba model lain.
+in [2131296435] Model menolak permintaan ini (%1$s). Ubah susunan kalimatnya lalu kirim lagi, atau coba model lain.
+in [2131296436] Laporkan
+in [2131296437] Apa yang salah (opsional)
+in [2131296438] Laporan tidak terkirim: %1$s
+in [2131296439] Jawaban ini, pertanyaan sebelumnya, serta penyedia dan model AI dikirim ke pengembang untuk ditinjau. Tidak ada hal lain dari proyek Anda yang dikirim.
+in [2131296440] Kekerasan atau berbahaya
+in [2131296441] Saran yang merugikan, salah, atau ilegal
+in [2131296442] Menyinggung, kebencian, atau pelecehan
+in [2131296443] Lainnya
+in [2131296444] Konten seksual
+in [2131296445] Kirim laporan
+in [2131296446] Laporan terkirim. Terima kasih.
+in [2131296447] Laporkan jawaban ini
+in [2131296448] Pelaporan belum disiapkan di build ini.
+in [2131296449] Coba lagi
+in [2131296450] Kirim
+in [2131296451] Asisten AI sedang menjawab
+in [2131296452] Asisten AI
+in [2131296453] Tampilkan semua
+in [2131296454] Berhenti
+in [2131296455] Pemanggil
+in [2131296456] Beri komentar kode
+in [2131296457] Jelaskan fungsi
+in [2131296458] Beri nama
+in [2131296459] Ganti penyedia atau model
+in [2131296460] Penalaran ▸
+in [2131296461] Penalaran ▾
+in [2131296464] Menganalisis…
+in [2131296465] Tambah berkas…
+in [2131296466] Salin jalur
+in [2131296467] Hapus %1$s? APK yang diekspor tidak akan memuatnya.
+in [2131296468] APK: kode (smali), sumber daya, manifest, berkas
+in [2131296469] Berkas…
+in [2131296470] Kembali ke berkas APK
+in [2131296471] Paket, izin, aktivitas: ketuk untuk membaca atau mengedit
+in [2131296472] Buka sebagai proyek
+in [2131296473] Ganti dengan berkas…
+in [2131296474] %1$s diganti
+in [2131296475] String, warna, ukuran, tata letak: ketuk untuk menelusuri dan mengedit
+in [2131296476] Simpan salinan…
+in [2131296478] Disassembler untuk modder
+in [2131296479] Terapkan
+in [2131296480] %1$s · argumen ke-%2$d
+in [2131296481] Register saja: X19
+in [2131296482] Nama saja: this
+in [2131296483] Nama dan register: this(X19)
+in [2131296484] Instruksi, dipisahkan dengan ; atau baris baru
+in [2131296485] Rakit di %1$s
+in [2131296486] Kembali
+in [2131296487] Alamat dasar
+in [2131296488] Byte hex (1F 20 03 D5) atau nilai dalam urutan byte file (0xD503201F)
+in [2131296489] Byte di %1$s
+in [2131296490] Pusatkan pada %1$s
+in [2131296492] Kedalaman %1$d
+in [2131296493] Apa yang diterima dan dikembalikan panggilan ini, apa pun yang dipanggilnya: "int __fastcall f(CPed *ped, float d)", "..." untuk sisanya. Kosong menghapusnya.
+in [2131296494] Tipe panggilan di %1$s
+in [2131296495] Panggilan dari %1$s
+in [2131296496] Batal
+in [2131296497] Tidak dapat membuka %1$s
+in [2131296498] Bukan tipe pointer: %1$s
+in [2131296499] Tipe pointer, seperti CVehicleModelInfo *. Hanya di pernyataan ini; kosong menghapus cast.
+in [2131296500] Baca %1$s sebagai
+in [2131296501] Pilih file biner
+in [2131296502] Pilih arsitektur
+in [2131296503] Tutup
+in [2131296504] Komentar di %1$s
+in [2131296505] Disalin: %1$s
+in [2131296506] Salin
+in [2131296507] Alamat
+in [2131296508] Byte
+in [2131296509] Pengodean
+in [2131296510] Salin fungsi
+in [2131296511] Disassembly fungsi
+in [2131296512] Disassembly fungsi dengan alamat
+in [2131296513] Signature fungsi
+in [2131296514] Instruksi
+in [2131296515] Baris dengan alamat
+in [2131296516] Nama
+in [2131296517] Nama ter-mangle
+in [2131296518] Nama tanpa parameter
+in [2131296519] Offset file
+in [2131296520] Salin baris
+in [2131296521] Signature unik
+in [2131296522] Tujuan: %1$s
+in [2131296523] Salin dengan alamat
+in [2131296524] Array…
+in [2131296525] Angka dari 1 sampai %1$d
+in [2131296526] Array %1$s di %2$s
+in [2131296527] Byte
+in [2131296528] Double (8 byte)
+in [2131296529] Double word (4 byte)
+in [2131296530] Float (4 byte)
+in [2131296531] Tidak ada teks berakhiran nol di %1$s
+in [2131296532] Pointer
+in [2131296533] Quad word (8 byte)
+in [2131296534] String C
+in [2131296535] String UTF-16
+in [2131296536] Hapus definisi: tampilkan sebagai byte
+in [2131296537] Word (2 byte)
+in [2131296538] dimuat dari file terpisah
+in [2131296539] file ini juga tidak berisi DWARF
+in [2131296540] bukan file biner yang dapat dibuka aplikasi ini
+in [2131296541] file ini %1$s, sedangkan proyek ini %2$s
+in [2131296542] Membaca info debug…
+in [2131296543] File ini tidak dapat digunakan: %1$s
+in [2131296544] Mendekompilasi…
+in [2131296545] Data di %1$s
+in [2131296546] Hapus
+in [2131296547] %1$s ditambahkan
+in [2131296548] Merakit %1$s…
+in [2131296549] Ke file dex yang mana?
+in [2131296550] String dalam kode
+in [2131296551] Salin kelas
+in [2131296552] Salin nama kelas (FindClass)
+in [2131296553] Salin deskriptor
+in [2131296554] Salin pencarian JNI
+in [2131296555] Salin fungsi C (JNI)
+in [2131296556] Salin entri RegisterNatives
+in [2131296557] Hapus kelas
+in [2131296558] Hapus %1$s? File yang diekspor tidak akan memuatnya.
+in [2131296559] Buang perubahan pada %1$s?
+in [2131296560] Buang
+in [2131296561] Ubah
+in [2131296562] Ubah string ini di semua tempat
+in [2131296563] DIUBAH
+in [2131296564] Baris %1$d: %2$s
+in [2131296565] Ekspor…
+in [2131296566] Simpan APK yang ditandatangani
+in [2131296567] Simpan %1$s
+in [2131296568] Cari di kelas ini
+in [2131296569] Cari berikutnya
+in [2131296570] Field dan metode…
+in [2131296571] %1$s tidak ada di file ini
+in [2131296572] Tidak ada pustaka APK ini yang mengekspor %1$s: mungkin didaftarkan saat berjalan (RegisterNatives).
+in [2131296573] Kelas baru…
+in [2131296574] Tidak ada yang diubah: file masih seperti semula
+in [2131296575] File ini tidak berisi kode Java atau Kotlin (dex)
+in [2131296576] Buka kode nativenya
+in [2131296577] Membaca file dex…
+in [2131296578] Kembalikan kelas dari file
+in [2131296579] Batalkan semua perubahan
+in [2131296580] Batalkan semua perubahan pada kelas?
+in [2131296581] %1$s kembali seperti di file
+in [2131296582] Rakit dan simpan
+in [2131296583] %1$s disimpan
+in [2131296584] Cari di semua kelas
+in [2131296585] Teks dalam smali
+in [2131296586] Mencari: %1$d dari %2$d kelas
+in [2131296587] Ditandatangani dengan kunci yang disimpan aplikasi ini di perangkat ini. Copot pemasangan aplikasi aslinya dulu: aplikasi itu ditandatangani dengan kunci lain.
+in [2131296588] Cari penggunaan
+in [2131296589] Penggunaan %1$s
+in [2131296592] Menulis %1$s…
+in [2131296593] Edit
+in [2131296594] Ke baris…
+in [2131296595] Baris dari 1 sampai %1$d
+in [2131296596] Ganti…
+in [2131296597] Ganti semua
+in [2131296598] Ganti
+in [2131296599] Ganti dengan
+in [2131296600] Nilai lain…
+in [2131296601] Nilai di %1$s
+in [2131296602] Belum ada yang dibuka.
+Pilih library native, file executable, atau APK untuk memulai.
+in [2131296603] Edit enum
+in [2131296604] flag
+in [2131296605] Di latar belakang
+in [2131296606] Ekspor fungsi (.c, .s)
+in [2131296607] Semua dalam satu file
+in [2131296608] Kelas yang dipilih…
+in [2131296609] Fungsi ini
+in [2131296610] Fungsi yang dipilih…
+in [2131296611] Satu file per kelas (pilih folder)
+in [2131296612] Ekspor
+in [2131296613] Assembly dengan alamat (.s)
+in [2131296614] Assembly tanpa alamat (.s)
+in [2131296615] Pseudokode (.c)
+in [2131296616] Tulis
+in [2131296617] Format
+in [2131296618] Alamat setiap fungsi (baris //-----)
+in [2131296619] Semua struktur dan enum
+in [2131296620] Deklarasi variabel global yang dipakai
+in [2131296621] Masukkan ke berkas
+in [2131296622] Struktur dan enum yang dipakai fungsi
+in [2131296623] Tidak ada yang dipilih
+in [2131296624] Simpan file yang dipatch…
+in [2131296625] Ekspor daftar patch…
+in [2131296626] Ekspor proyek…
+in [2131296627] Ekspor sedang berjalan: tunggu atau batalkan dari notifikasinya.
+in [2131296628] Ekspor untuk IDA atau Ghidra…
+in [2131296629] Ghidra (skrip Python)
+in [2131296630] IDA (skrip IDAPython)
+in [2131296631] Lewati fungsi
+in [2131296632] Semua struktur dan enum
+in [2131296633] Struktur yang dipilih…
+in [2131296634] Struktur yang dipilih beserta kelas dasar dan tipe anggotanya…
+in [2131296635] Satu file per struktur (pilih folder)
+in [2131296636] Mengekspor %1$s
+in [2131296637] Mendekompilasi %1$d dari %2$d:
+%3$s
+in [2131296638] Mendekompilasi %1$d dari %2$d…
+in [2131296639] Filter
+in [2131296640] Maju
+in [2131296641] %1$s tidak menyimpan apa pun di stack
+in [2131296642] alamat kembali
+in [2131296643] %1$s yang disimpan
+in [2131296644] Frame stack %1$s · %2$s byte
+in [2131296645] Bukan tipe fungsi: %1$s
+in [2131296646] Seperti di C: hasil, nama, dan parameter, dengan "this" di depan untuk method. Register sendiri dengan __usercall: "int __usercall f@<x0>(CPed *ped@<x1>, float d@<s2>)". x86 mendukung __thiscall (ecx) dan __fastcall (ecx, edx). Kosong berarti kembali ke info debug atau nama.
+in [2131296647] Tipe C apa pun: CPool<CPed> *, CVector[16], int. Struktur memberi tipe pada datanya sendiri.
+in [2131296648] Lompat ke
+in [2131296649] Alamat, nama, atau @offset file
+in [2131296650] Letakkan kursor di dalam fungsi untuk melihat grafnya.
+in [2131296651] Hanya karakter ASCII yang dapat dicetak
+in [2131296652] Nama tidak boleh kosong
+in [2131296654] Edit byte
+in [2131296656] Versi %1$s
+in [2131296657] Versi %1$s, dibuat %2$s
+in [2131296658] Ambil
+in [2131296659] Di basis data:
+Nama: %1$d
+Komentar: %2$d
+Fungsi: %3$d
+Fungsi dan global bertipe: %4$d
+Tipe lokal: %5$d
+Variabel tumpukan: %6$d
+in [2131296660] Diambil dari basis data: %1$d nama, %2$d komentar, %3$d fungsi, %4$d tipe, %5$d tipe lokal, %6$d variabel tumpukan
+in [2131296661] Basis data tidak menyimpan byte dari berkas asalnya.
+in [2131296662] Basis data ini dibuat dari berkas lain: alamatnya mungkin tidak cocok dengan biner ini.
+in [2131296663] Membaca basis data IDA…
+in [2131296664] Membangun ulang berkas dari basis data IDA…
+in [2131296665] Fungsi: %1$s dari %2$s, di %3$s
+in [2131296666] Tipe lokal: %1$s dari %2$s
+in [2131296667] Nama dan komentar: %1$s terbaca, di %2$s
+in [2131296668] Prototipe: %1$s dari %2$s
+in [2131296669] Pustaka tipe
+in [2131296670] Tipe alamat: %1$s dari %2$s
+in [2131296671] Impor basis data IDA (.idb/.i64)…
+in [2131296672] Impor dari IDA (.idc)…
+in [2131296673] Diambil dari IDA: %1$d nama, %2$d komentar, %3$d tipe
+in [2131296674] slot %1$s
+in [2131296675] stub %1$s
+in [2131296676] Menyalin %1$s…
+in [2131296677] Kelas dari simbol
+in [2131296678] %1$d, %2$d dengan vtable
+in [2131296679] Info debug
+in [2131296680] File info debug
+in [2131296681] DWARF, %1$s: %2$s, %3$s, %4$s
+in [2131296682] Mesin
+in [2131296683] File
+in [2131296684] Fungsi
+in [2131296685] tidak ada
+in [2131296686] Patch
+in [2131296687] SHA-256 (awalan)
+in [2131296688] Ukuran
+in [2131296689] String
+in [2131296690] Referensi silang
+in [2131296691] Aplikasi terpasang
+in [2131296692] Library native dari aplikasi
+in [2131296693] Pola tidak valid: %1$s
+in [2131296694] %1$d dari %2$d
+in [2131296695] Default sistem
+in [2131296696] Salin atau ekspor semua (%1$d)…
+in [2131296697] Pilih baris untuk disalin atau diekspor…
+in [2131296698] Format
+in [2131296699] Alamat, satu per baris
+in [2131296700] Array C
+in [2131296702] Skrip Frida (hook masing-masing)
+in [2131296703] Skrip IDAPython
+in [2131296704] Array JSON
+in [2131296705] Baris seperti yang ditampilkan
+in [2131296706] Offset file
+in [2131296707] Simpan ke file…
+in [2131296708] tidak dipakai
+in [2131296709] Muat
+in [2131296710] Muat info debug…
+in [2131296711] Memuat…
+in [2131296712] Memungkinkan klien AI di PC (Claude Code, Claude Desktop, Cursor…) mengerjakan proyek ini dengan alat asisten: dekompilasi, xref, nama, tipe. Berjalan selama imodisa tetap terbuka; siapa pun di jaringan Anda yang memiliki token dapat memakainya.
+in [2131296713] Claude Code:
+in [2131296714] Salin perintah
+in [2131296715] Izinkan perubahan (nama, tipe, komentar)
+in [2131296716] Tidak dapat dimulai: %1$s
+in [2131296717] Hubungkan PC (MCP)…
+in [2131296718] Berjalan, tetapi perangkat tidak terhubung ke jaringan: sambungkan ke Wi-Fi atau gunakan USB.
+in [2131296719] Berjalan. Tambahkan ke klien dengan salah satu alamat ini dan tokennya:
+in [2131296720] Mulai
+in [2131296721] Hentikan
+in [2131296722] Berhenti
+in [2131296723] Server MCP
+in [2131296724] Token (Authorization: Bearer):
+in [2131296725] Lewat USB: jalankan "adb forward tcp:%1$d tcp:%1$d" di PC, lalu gunakan http://localhost:%1$d/mcp.
+in [2131296726] Bukan nama C yang valid: %1$s
+in [2131296727] %1$s sudah ada
+in [2131296728] Tipe C: float, CVector, CPed *, int[4]. Harus muat sebelum anggota berikutnya.
+in [2131296729] Tipe tidak dikenal: %1$s
+in [2131296730] alamat
+in [2131296731] baca, tulis
+in [2131296732] Penggunaan %1$s
+in [2131296733] Penggunaan %1$s di semua fungsi…
+in [2131296734] Tidak ada penggunaan %1$s di fungsi yang kemungkinan memakainya; coba semua fungsi
+in [2131296735] Tidak ada penggunaan %1$s
+in [2131296736] Penggunaan anggota…
+in [2131296737] Lainnya
+in [2131296738] Arsip ini tidak berisi library native.
+in [2131296739] Tidak ada panggilan di fungsi ini
+in [2131296740] Tidak ada apa-apa di sini
+in [2131296741] %1$s tidak memiliki library native.
+in [2131296742] Tidak ada struktur di file ini
+in [2131296743] Tidak ada anggota struktur di offset %1$s
+in [2131296744] Buat struktur di tab Struktur terlebih dahulu
+in [2131296745] Tidak ada referensi silang
+in [2131296746] Tidak ditemukan: %1$s
+in [2131296747] Tidak ada yang bisa diulangi
+in [2131296748] Tidak ada yang bisa diurungkan
+in [2131296749] Biner
+in [2131296750] Karakter
+in [2131296751] Desimal
+in [2131296752] Format default
+in [2131296753] Enum…
+in [2131296754] Tidak ada enum yang memiliki anggota untuk %1$s
+in [2131296755] Bukan sebagai %1$s
+in [2131296756] Float
+in [2131296757] Heksadesimal
+in [2131296758] NOT bitwise
+in [2131296759] Negasikan
+in [2131296760] Oktal
+in [2131296761] Offset
+in [2131296763] Tidak ada struktur berukuran %1$s (%2$s)
+in [2131296764] Bukan sebagai sizeof(%1$s)
+in [2131296765] OK
+in [2131296766] Buka
+in [2131296767] Tidak dapat membuka file: %1$s
+in [2131296768] Buka file
+in [2131296770] Membuka %1$s…
+in [2131296771] Tulis semua patch ke file yang Anda buka? Tindakan ini tidak dapat diurungkan.
+in [2131296772] Isi sisa instruksi dengan NOP
+in [2131296773] Tidak dapat mem-patch: %1$s
+in [2131296774] offset %1$s
+in [2131296775] Tabel C/C++
+in [2131296777] Teks biasa
+in [2131296778] Ketik instruksi
+in [2131296779] Belum ada patch.
+Tekan lama sebuah instruksi lalu pilih Rakit atau patch cepat.
+in [2131296780] %1$d dari %2$d dipilih
+in [2131296781] Bawa
+in [2131296782] Yang dibawa:
+Nama: %1$d
+Komentar: %2$d
+Prototipe: %3$d
+Variabel: %4$d
+Format angka: %5$d
+Tipe: %6$d
+Data: %7$d
+in [2131296783] Bawa dari build lain…
+in [2131296784] Mencocokkan data…
+in [2131296785] Mencocokkan fungsi…
+in [2131296786] Tidak ada proyek lain dengan arsitektur ini: buka build yang lain dulu
+in [2131296787] Membaca build yang lain…
+in [2131296788] Proyek disimpan
+in [2131296789] Endpoint kustom (kompatibel dengan Anthropic)
+in [2131296790] Endpoint kustom (kompatibel dengan OpenAI)
+in [2131296791] gratis
+in [2131296792] kredit bulanan gratis
+in [2131296793] gratis dengan token GitHub
+in [2131296794] model gratis
+in [2131296795] paket gratis
+in [2131296796] lokal
+in [2131296798] Tidak dapat mendekompilasi
+in [2131296799] Letakkan kursor di dalam fungsi untuk melihat pseudokodenya.
+in [2131296800] Fungsi terlalu besar untuk didekompilasi.
+in [2131296801] Selalu ambil lompatan ini
+in [2131296802] Balik kondisi
+in [2131296803] Jangan pernah ambil lompatan ini
+in [2131296804] NOP-kan panggilan ini
+in [2131296805] Kembalikan false (0)
+in [2131296806] Kembalikan true (1)
+in [2131296807] Langsung kembali
+in [2131296808] Otomatis (angka kecil desimal)
+in [2131296809] Desimal
+in [2131296810] Heksadesimal
+in [2131296811] Muat sebagai kode mentah dengan set instruksi dan alamat dasar ini:
+in [2131296812] Format tidak dikenal
+in [2131296813] Terbaru
+in [2131296814] Ulangi
+in [2131296815] Hapus
+in [2131296816] Salinan kerja, nama, komentar, dan patch file ini akan dihapus.
+in [2131296817] Hapus %1$s?
+in [2131296818] Kosongkan untuk menyetel ulang
+in [2131296819] Ganti nama %1$s
+in [2131296821] Analisis ulang
+in [2131296822] Bukan nilai: %1$s
+in [2131296823] Salin id
+in [2131296824] Salin nama
+in [2131296825] (bawaan)
+in [2131296826] Sebagaimana terbaca: teks, angka, true atau false, #aarrggbb, 16dp, @string/nama
+in [2131296827] Cari penggunaan dalam kode
+in [2131296828] Kembali seperti di APK
+in [2131296829] Sumber daya
+in [2131296830] Setel ulang
+in [2131296831] Nama variabel, tipe, dan format angka di fungsi ini kembali seperti yang ditampilkan dekompiler. Komentar tetap ada.
+in [2131296832] Kembalikan semua
+in [2131296833] Pulihkan semua byte asli?
+in [2131296834] Gagal menyimpan: %1$s
+in [2131296835] Timpa file sumber
+in [2131296836] Simpan proyek
+in [2131296837] %1$s disimpan
+in [2131296838] Cari
+in [2131296839] Cari aplikasi
+in [2131296840] Pola byte
+in [2131296841] mis. 1F 20 03 D5 ?? ?? 00 94
+in [2131296845] String
+in [2131296846] Teks di disassembly
+in [2131296847] mis. BL atau #0x64
+in [2131296848] Cari
+in [2131296849] Nilai immediate
+in [2131296850] mis. 0x1D8, 472, atau -49
+in [2131296851] Mencari…
+in [2131296852] file %1$s
+in [2131296853] Semua
+in [2131296854] Tidak ada
+in [2131296855] Pilih teks
+in [2131296856] Setelan
+in [2131296857] Tentang
+in [2131296858] Asisten AI
+in [2131296859] AI boleh mengganti nama, mengubah tipe, dan berkomentar (bisa diurungkan)
+in [2131296860] Usaha
+in [2131296861] AI boleh membaca dan menulis file di folder chat
+in [2131296862] Kunci API
+in [2131296863] Dapatkan dari %1$s. Hanya disimpan di perangkat ini dan hanya dikirim ke endpoint.
+in [2131296864] Belum diatur
+in [2131296865] Biarkan kosong jika endpoint tidak memerlukannya. Hanya disimpan di perangkat ini dan hanya dikirim ke endpoint.
+in [2131296866] Tidak diperlukan
+in [2131296867] Model
+in [2131296868] Ketik id model…
+in [2131296869] Tidak dapat memuat daftar model: %1$s
+in [2131296870] Muat daftar dari endpoint…
+in [2131296871] Meminta daftar model ke endpoint…
+in [2131296872] Endpoint tidak mencantumkan model apa pun
+in [2131296873] Penyedia
+in [2131296874] Endpoint
+in [2131296875] Harus diawali http:// atau https://
+in [2131296876] URL dasar API yang kompatibel dengan Anthropic (host-nya, seperti https://api.anthropic.com); /v1/messages ditambahkan otomatis.
+in [2131296877] URL dasar API yang kompatibel dengan OpenAI, sampai /v1 (misalnya http://192.168.1.10:11434/v1 untuk Ollama di perangkat lain); /chat/completions dan /models ditambahkan otomatis.
+in [2131296878] AI boleh mencari di web dan membaca halaman
+in [2131296879] Analisis
+in [2131296880] Tampilan
+in [2131296881] Register yang berisi parameter
+in [2131296882] Komentar otomatis (string, pointer)
+in [2131296883] Beri nama variabel menurut getter dan anggota
+in [2131296884] Hapus semua proyek
+in [2131296885] Hapus semua salinan kerja, nama, komentar, dan patch?
+in [2131296886] Tanpa goto: ulangi kode tujuan lompatannya
+in [2131296887] Tampilkan deklarasi variabel
+in [2131296888] Demangle nama C++
+in [2131296889] Ukuran teks
+in [2131296890] Indentasi
+in [2131296891] Bahasa (Language)
+in [2131296892] Lisensi sumber terbuka
+in [2131296893] Nomor baris
+in [2131296894] Disassembly
+in [2131296895] Format angka
+in [2131296896] Tandai instruksi yang tidak dipakai (hasilnya tidak dibaca apa pun)
+in [2131296897] Panjang string minimum
+in [2131296898] Byte opcode
+in [2131296899] Kebijakan privasi
+in [2131296900] Format angka
+in [2131296901] Pseudokode
+in [2131296903] Tampilkan byte opcode
+in [2131296904] Tampilkan cast
+in [2131296905] Tipe bilangan bulat seperti di stdint.h (uint64_t, bukan unsigned __int64)
+in [2131296906] Penyimpanan
+in [2131296907] Tema
+in [2131296908] Instruksi huruf besar (ARM)
+in [2131296909] Versi %1$s · %2$s
+in [2131296910] Cari string UTF-16
+in [2131296911] Tampilkan referensi silang pada label
+in [2131296912] Tampilkan aplikasi sistem
+in [2131296913] Urutkan
+in [2131296914] Alamat
+in [2131296915] Sesuai daftar
+in [2131296916] Jenis
+in [2131296917] Panjang
+in [2131296918] Library
+in [2131296919] Nama
+in [2131296920] Asal
+in [2131296921] Segmen
+in [2131296922] Ukuran
+in [2131296923] Teks
+in [2131296924] Tipe
+in [2131296925] Referensi silang
+in [2131296926] File sumber tidak dapat ditulis. Gunakan “Simpan file yang dipatch”.
+in [2131296927] Membaca info debug
+in [2131296928] Membaca info debug %1$d%%
+in [2131296929] Mencari fungsi
+in [2131296930] Menyelesaikan impor
+in [2131296931] Membaca PDB
+in [2131296932] Memindai kode
+in [2131296933] Mengumpulkan string
+in [2131296934] Menyelesaikan switch
+in [2131296935] Salin deklarasi C
+in [2131296936] Hapus struktur
+in [2131296937] Hapus %1$s? Variabel dan data bertipe ini kembali menjadi angka biasa.
+in [2131296938] Edit struktur
+in [2131296939] Ekspor ke header…
+in [2131296940] Tata letak untuk pointer %1$d-bit
+in [2131296941] Sintaks C. "// +0x40" (atau "// 0x40") setelah field mengunci offset-nya, "// size 0x100" setelah nama menetapkan ukurannya. Ukuran array boleh berupa aritmetika: [0x48 - 0x30], [sizeof(CVector) * 4].
+in [2131296942] Impor dari header…
+in [2131296943] Deklarasi C: header hasil ekspor atau dari IDA
+in [2131296944] Struktur baru
+in [2131296945] Tulis atau tempel deklarasi C: struct dan enum
+in [2131296946] Pratinjau untuk %1$d-bit
+in [2131296947] %1$s untuk %2$d-bit
+in [2131296948] Kembalikan dari info debug
+in [2131296949] ukuran %1$s
+in [2131296950] AI
+in [2131296951] Bookmark
+in [2131296952] Disassembly
+in [2131296953] Ekspor
+in [2131296954] Fungsi
+in [2131296955] Graf
+in [2131296956] Hex
+in [2131296957] Impor
+in [2131296958] Info
+in [2131296959] Nama
+in [2131296960] Patch
+in [2131296961] Pseudokode
+in [2131296963] Hasil
+in [2131296964] Segmen
+in [2131296965] String
+in [2131296966] Struktur
+in [2131296967] Gelap
+in [2131296968] Terang
+in [2131296969] Sistem
+in [2131296970] baru saja
+in [2131296971] Tipe kustom…
+in [2131296972] Setel ulang tipe
+in [2131296973] Pointer struktur…
+in [2131296974] Urungkan
+in [2131296975] Yang pertama cocok (default)
+in [2131296976] panggil
+in [2131296977] lompat
+in [2131296978] offset
+in [2131296979] baca
+in [2131296980] tulis
+in [2131296981] Referensi silang ke %1$s

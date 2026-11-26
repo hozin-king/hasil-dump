@@ -1,0 +1,34 @@
+{
+  "dex_count": 1,
+  "dex": [
+    {
+      "index": 0,
+      "size_bytes": 3533060,
+      "dex_file_size": null,
+      "strings": 12237,
+      "types": 0,
+      "methods": 9152,
+      "fields": 5996,
+      "classes": 1461,
+      "dex_version": "DEX"
+    }
+  ],
+  "total_strings": 12237,
+  "total_methods": 9152,
+  "total_fields": 5996,
+  "total_classes": 1461,
+  "app_classes_count": 11,
+  "app_classes": [
+    "Lcom/rusjj/imodisa/App;",
+    "Lcom/rusjj/imodisa/engine/NativeBridge;",
+    "Lcom/rusjj/imodisa/ui/AppPickerActivity;",
+    "Lcom/rusjj/imodisa/ui/AssistantService;",
+    "Lcom/rusjj/imodisa/ui/DexActivity;",
+    "Lcom/rusjj/imodisa/ui/ExportService;",
+    "Lcom/rusjj/imodisa/ui/Hbz/ntfdfdnxofooegtfzikkztx/vlvypapvwqyvjabwwwrwyrwbmasqj;",
+    "Lcom/rusjj/imodisa/ui/HomeActivity;",
+    "Lcom/rusjj/imodisa/ui/SettingsActivity;",
+    "Lcom/rusjj/imodisa/ui/WorkspaceActivity;",
+    "Lcom/rusjj/imodisa/ui/views/CodeEditText;"
+  ]
+}
