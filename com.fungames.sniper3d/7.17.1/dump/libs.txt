@@ -1,0 +1,19 @@
+libFirebaseCppAnalytics.so
+libFirebaseCppApp-12_10_1.so
+libFirebaseCppCrashlytics.so
+lib_burst_generated.so
+libapplovin-native-crash-reporter.so
+libcrashlytics-common.so
+libcrashlytics-handler.so
+libcrashlytics-trampoline.so
+libcrashlytics.so
+libdatastore_shared_counter.so
+libil2cpp.so
+liblofelt_sdk.so
+libmain.so
+libpitaya-android.so
+libtapjoy.so
+libunity.so
+-rw-r--r-- 1 root nogroup  23059484 Jan  1  1981 extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat
+-rw-r--r-- 1 root nogroup 139574544 Jan  1  1981 extracted/config/lib/arm64-v8a/libil2cpp.so
+---

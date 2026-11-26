@@ -1,0 +1,264 @@
+	private readonly List<GameObject> _preloadedMissionWeaponPrefabs; // 0x210
+	private int _missionLoadGeneration; // 0x218
+	private static byte[] DefaultSaveGameKey; // 0x1A0
+	[CompilerGenerated]
+	private static WinStreakData <WinStreakData>k__BackingField; // 0x1A8
+
+public class SaveDocument // TypeDefIndex: 28272
+{
+	// Fields
+	public static Action<SaveOperationStatus, SaveErrorReason> OnReadComplete; // 0x0
+	public static Action<SaveOperationStatus, SaveErrorReason> OnWriteComplete; // 0x8
+	[CompilerGenerated]
+	private SaveObject <Root>k__BackingField; // 0x10
+	[CompilerGenerated]
+	private int <Version>k__BackingField; // 0x18
+	public const int UndefinedVersion = 0;
+	private static readonly byte[] BinaryTag; // 0x10
+	private static readonly string BackupExtension; // 0x18
+
+	// Properties
+	public SaveObject Root { get; set; }
+	public int Version { get; set; }
+
+	// Methods
+
+	// RVA: 0x6C26B08 Offset: 0x6C22B08 VA: 0x6C26B08
+	private static void SafeLogError(string context, Exception exception) { }
+
+	[CompilerGenerated]
+	// RVA: 0x6C26C30 Offset: 0x6C22C30 VA: 0x6C26C30
+	public SaveObject get_Root() { }
+
+	[CompilerGenerated]
+	// RVA: 0x6C26C38 Offset: 0x6C22C38 VA: 0x6C26C38
+	public void set_Root(SaveObject value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x6C26C40 Offset: 0x6C22C40 VA: 0x6C26C40
+	public int get_Version() { }
+
+	[CompilerGenerated]
+	// RVA: 0x6C26C48 Offset: 0x6C22C48 VA: 0x6C26C48
+	public void set_Version(int value) { }
+
+	// RVA: 0x6C26C50 Offset: 0x6C22C50 VA: 0x6C26C50
+	public void .ctor() { }
+
+	// RVA: 0x6C26D44 Offset: 0x6C22D44 VA: 0x6C26D44
+	public void .ctor(int version) { }
+
+	// RVA: 0x6C26DBC Offset: 0x6C22DBC VA: 0x6C26DBC
+	public void .ctor(int version, SaveObject root) { }
+
+	// RVA: 0x6C26DF4 Offset: 0x6C22DF4 VA: 0x6C26DF4
+	public void .ctor(SaveObject root) { }
+
+	// RVA: 0x6C26E28 Offset: 0x6C22E28 VA: 0x6C26E28
+	private void WriteBinary(BinaryWriter writer) { }
+
+	// RVA: 0x6C271D8 Offset: 0x6C231D8 VA: 0x6C271D8
+	private void ReadBinary(BinaryReader reader) { }
+
+	// RVA: 0x6C273F4 Offset: 0x6C233F4 VA: 0x6C273F4
+	public bool Save(string savePath, byte[] encryptionKey) { }
+
+	// RVA: 0x6C278D0 Offset: 0x6C238D0 VA: 0x6C278D0
+
+public class SaveStream.Crc32 // TypeDefIndex: 28284
+{
+	// Fields
+	private static uint[] _table; // 0x0
+	public const uint DefaultSeed = 4294967295;
+	private uint _value; // 0x10
+
+	// Properties
+	public uint Value { get; }
+
+	// Methods
+
+	// RVA: 0x6C2C058 Offset: 0x6C28058 VA: 0x6C2C058
+	public uint get_Value() { }
+
+	// RVA: 0x6C2BD64 Offset: 0x6C27D64 VA: 0x6C2BD64
+	public void Add(byte[] buffer, int offset, int count) { }
+
+	// RVA: 0x6C2C060 Offset: 0x6C28060 VA: 0x6C2C060
+	private static void .cctor() { }
+
+	// RVA: 0x6C2BC04 Offset: 0x6C27C04 VA: 0x6C2BC04
+	public void .ctor() { }
+}
+
+// Namespace: 
+public class SaveStream.Rc4 // TypeDefIndex: 28285
+{
+	// Fields
+	private byte[] _S; // 0x10
+
+public class SaveStream.Rc4 // TypeDefIndex: 28285
+{
+	// Fields
+	private byte[] _S; // 0x10
+	private int _x; // 0x18
+	private int _y; // 0x1C
+
+	// Methods
+
+	// RVA: 0x6C2BC0C Offset: 0x6C27C0C VA: 0x6C2BC0C
+	public void .ctor(byte[] key) { }
+
+	// RVA: 0x6C2C14C Offset: 0x6C2814C VA: 0x6C2C14C
+	public void SetKey(byte[] key) { }
+
+	// RVA: 0x6C2C28C Offset: 0x6C2828C VA: 0x6C2C28C
+	public void Reset() { }
+
+	// RVA: 0x6C2C294 Offset: 0x6C28294 VA: 0x6C2C294
+	private byte GetNextMask() { }
+
+	// RVA: 0x6C2BE48 Offset: 0x6C27E48 VA: 0x6C2BE48
+	public void ProcessInPlace(byte[] buffer, int offset, int count) { }
+}
+
+// Namespace: TFG.Core
+public class SaveStream : Stream // TypeDefIndex: 28286
+{
+	// Fields
+	private Stream _decoratedStream; // 0x28
+
+public class SaveStream : Stream // TypeDefIndex: 28286
+{
+	// Fields
+	private Stream _decoratedStream; // 0x28
+	private SaveStream.Crc32 _crc32; // 0x30
+	private SaveStream.Rc4 _rc4; // 0x38
+
+	// Properties
+	public uint Crc { get; }
+	public override bool CanRead { get; }
+	public override bool CanSeek { get; }
+	public override bool CanWrite { get; }
+	public override long Length { get; }
+	public override long Position { get; set; }
+
+	// Methods
+
+	// RVA: 0x6C27D8C Offset: 0x6C23D8C VA: 0x6C27D8C
+	public uint get_Crc() { }
+
+	// RVA: 0x6C2BB58 Offset: 0x6C27B58 VA: 0x6C2BB58
+	public void .ctor(Stream decoratedStream) { }
+
+	// RVA: 0x6C27C84 Offset: 0x6C23C84 VA: 0x6C27C84
+	public void .ctor(Stream decoratedStream, byte[] key) { }
+
+	// RVA: 0x6C2BC38 Offset: 0x6C27C38 VA: 0x6C2BC38 Slot: 7
+	public override bool get_CanRead() { }
+
+	// RVA: 0x6C2BC54 Offset: 0x6C27C54 VA: 0x6C2BC54 Slot: 8
+	public override bool get_CanSeek() { }
+
+	// RVA: 0x6C2BC70 Offset: 0x6C27C70 VA: 0x6C2BC70 Slot: 10
+	public override bool get_CanWrite() { }
+
+	// RVA: 0x6C2BC8C Offset: 0x6C27C8C VA: 0x6C2BC8C Slot: 11
+	public override long get_Length() { }
+
+	// RVA: 0x6C2BCA8 Offset: 0x6C27CA8 VA: 0x6C2BCA8 Slot: 12
+	public override long get_Position() { }
+
+	// RVA: 0x6C2BCC4 Offset: 0x6C27CC4 VA: 0x6C2BCC4 Slot: 13
+	public override void set_Position(long value) { }
+
+	// RVA: 0x6C2BCE4 Offset: 0x6C27CE4 VA: 0x6C2BCE4 Slot: 33
+	public override int Read(byte[] buffer, int offset, int count) { }
+
+	// RVA: 0x6C2BEC8 Offset: 0x6C27EC8 VA: 0x6C2BEC8 Slot: 36
+	public override void Write(byte[] buffer, int offset, int count) { }
+
+	// RVA: 0x6C2BF48 Offset: 0x6C27F48 VA: 0x6C2BF48 Slot: 31
+	public override long Seek(long offset, SeekOrigin origin) { }
+
+	// RVA: 0x6C2BF68 Offset: 0x6C27F68 VA: 0x6C2BF68 Slot: 32
+	public override void SetLength(long value) { }
+
+	// RVA: 0x6C2BF88 Offset: 0x6C27F88 VA: 0x6C2BF88 Slot: 22
+	public override void Flush() { }
+
+	// RVA: 0x6C2BFA8 Offset: 0x6C27FA8 VA: 0x6C2BFA8 Slot: 21
+
+public class KeyStore // TypeDefIndex: 28275
+{
+	// Fields
+	private readonly Dictionary<string, string> _keys; // 0x10
+
+	// Methods
+
+	// RVA: 0x6C29C84 Offset: 0x6C25C84 VA: 0x6C29C84
+	public string Get(string key) { }
+
+	// RVA: 0x6C26EB0 Offset: 0x6C22EB0 VA: 0x6C26EB0
+	public void .ctor() { }
+}
+
+// Namespace: TFG.Core
+public interface IBinarizable // TypeDefIndex: 28276
+{
+	// Methods
+
+	// RVA: -1 Offset: -1 Slot: 0
+	public abstract void WriteBinary(BinaryWriter writer, KeyStore keyStore);
+
+	// RVA: -1 Offset: -1 Slot: 1
+	public abstract void ReadBinary(BinaryReader reader, KeyStore keyStore);
+}
+
+public enum SaveValueType // TypeDefIndex: 28277
+{
+	// Fields
+	public int value__; // 0x0
+	public const SaveValueType Invalid = 0;
+	public const SaveValueType Object = 1;
+	public const SaveValueType Array = 2;
+	public const SaveValueType String = 3;
+	public const SaveValueType Number = 4;
+	public const SaveValueType Bool = 5;
+}
+
+
+public class SaveFile // TypeDefIndex: 28274
+{
+	// Fields
+	private string _name; // 0x10
+	private string _path; // 0x18
+
+	// Properties
+	public string FullPath { get; }
+	public bool Exists { get; }
+
+	// Methods
+
+	// RVA: 0x6C290BC Offset: 0x6C250BC VA: 0x6C290BC
+	public void .ctor(string name, string path) { }
+
+	// RVA: 0x6C29100 Offset: 0x6C25100 VA: 0x6C29100
+	public string get_FullPath() { }
+
+	// RVA: 0x6C2914C Offset: 0x6C2514C VA: 0x6C2914C
+	public bool get_Exists() { }
+
+	// RVA: 0x6C29184 Offset: 0x6C25184 VA: 0x6C29184
+	public void Delete() { }
+
+	// RVA: 0x6C29198 Offset: 0x6C25198 VA: 0x6C29198
+	public void Write(string secret, string content) { }
+
+	// RVA: 0x6C29704 Offset: 0x6C25704 VA: 0x6C29704
+	public string Read(string secret) { }
+}
+
+// Namespace: TFG.Core
+public class KeyStore // TypeDefIndex: 28275
+{
+	// Fields

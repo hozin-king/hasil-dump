@@ -1,0 +1,106 @@
+# Sniper 3D — savegame format (FSD1)
+
+Derived from static REA of Sniper 3D 7.17.1 (versionCode 34473), Unity 6 /
+IL2CPP. All RVAs are file offsets into libil2cpp.so (config.arm64_v8a.apk),
+delta RVA->file offset 0x4000 in .text.
+
+## File layout
+
+    [0..3]   magic "FSD1"  (TFG.Core.SaveDocument.BinaryTag, static byte[])
+    [4..7]   uint32 LE = CRC32(payload) XOR keyInt
+             keyInt = BitConverter.ToUInt32(key, 0); 0 when no key is used
+    [8]      version byte: 1 = RC4-encrypted payload, 0 = plaintext
+    [9..]     payload = SaveDocument binary serialization, optionally RC4
+
+SaveStream (TFG.Core.SaveStream : Stream) wraps the underlying stream:
+  - Write: RC4-encrypt in place first, then CRC32.Add over the ENCRYPTED bytes.
+  - Read:  CRC32.Add over the bytes as read, then RC4-decrypt in place.
+  - Crc32 is the zlib CRC-32 (init 0xFFFFFFFF, final invert, poly 0xEDB88320).
+  - Rc4 is textbook RC4 (KSA + PRGA, no initial drop).
+
+LoadFromBinary (RVA 0x6C2844C) failure reasons:
+  2 = magic mismatch, 3 = version 1 but no key supplied,
+  4 = (stored XOR keyInt) != CRC32(payload).
+SaveToBinary (RVA 0x6C278D8) writes magic, reserves [4..7], writes version
+byte (1 iff a key is present), serializes through SaveStream, then back-patches
+[4..7] = CRC32 ^ keyInt.
+
+## SaveDocument payload (after RC4)
+
+    int32 Version
+    SaveObject root:
+      int32 count
+      per entry:
+        BinaryReader.ReadString key   (7-bit length-prefixed UTF-8)
+        byte SaveValueType            (0 Invalid, 1 Object, 2 Array,
+                                       3 String, 4 Number, 5 Bool)
+        value, by type:
+          Object -> recursive SaveObject
+          Array  -> int32 count, then per element (byte type + value)
+          String -> BinaryReader.ReadString
+          Number -> double, 8 bytes LE
+          Bool   -> 1 byte (0/1)
+
+Keys pass through TFG.Core.KeyStore.Get() on read (a Dictionary<string,string>
+mapping, populated in KeyStore..ctor, RVA 0x6C26EB0); the parser in
+sniper3d_decrypt.py outputs the keys exactly as stored in the file.
+
+Relevant classes (TFG.Core namespace, dump.cs TypeDefIndex):
+  SaveDocument  28272  LoadFromBinary 0x6C2844C, SaveToBinary 0x6C278D8,
+                       ReadBinary 0x6C271D8, BinaryTag / BackupExtension
+  SaveFile      28274  Write(string secret, string content) / Read(secret)
+  KeyStore      28275  Get(string) 0x6C29C84
+  SaveValueType 28277
+  SaveValue     28278  (abstract; Instantiate(type) 0x6C2A474)
+  SaveBool      28279  ReadBinary 0x6C2A724
+  SaveNumber    28280  ReadBinary 0x6C2A960 (double)
+  SaveString    28281  ReadBinary 0x6C2AA94
+  SaveObject    28282  ReadBinary 0x6C2726C, WriteBinary 0x6C26F38
+  SaveArray     28283  ReadBinary 0x6C2B9B8
+  SaveStream.Crc32 28284 (DefaultSeed 0xFFFFFFFF; Add 0x6C2BD64)
+  SaveStream.Rc4   28285 (.ctor 0x6C2BC0C, SetKey 0x6C2C14C,
+                       GetNextMask 0x6C2C294, ProcessInPlace 0x6C2BE48)
+  SaveStream    28286
+
+## Key derivation (TFG.Core.App)
+
+  App.get_SaveGameKey()            RVA 0x39A8A1C
+  App.SaveGameKeyFromUserId(userId) RVA 0x39B4954
+  App..cctor                      RVA 0x39B78C8
+
+  - If the player userId is empty, the save key is App.DefaultSaveGameKey
+    (private static byte[], 16 bytes, at App static offset 0x1A0),
+    initialized in App..cctor via RuntimeHelpers.InitializeArray from a
+    <PrivateImplementationDetails> blob (new byte[16]).
+  - Otherwise the key is derived per user:
+        guid = new Guid(userId).ToByteArray()   (16 bytes)
+        key[i] = guid[i] XOR mask[min(i, len(mask)-1)]   for i in 0..15
+    i.e. a straight 16-byte XOR of the user's Guid with the mask.
+  - The mask itself is a hardcoded 16-byte constant in the APK. Its VALUE is
+    deliberately not stored in this public folder (see REPORT.md); the
+    decrypt script takes it as a --mask argument (or takes the already
+    derived 16-byte key as --key).
+
+## The user's file (savegame_0_r4cg.bin, 20.251 byte)
+
+  magic FSD1, version byte 1 (RC4), stored int 0x8b51c701.
+  CRC32(payload) = 0xb396da36  ->  keyInt = stored XOR crc = 0x38c71d37.
+  The default key (mask) gives a different keyInt, which does NOT match:
+  this file was written with a PER-USER key, so it cannot be decrypted
+  without the player's userId Guid. From keyInt, the Guid's first 4 bytes
+  are recoverable (guid[0..4] = key[0..4] XOR mask[0..4]); the recovered
+  prefix is recorded locally only, so the user can confirm the right Guid
+  when providing it. The remaining 12 bytes of the Guid are not in the
+  file and cannot be brute-forced (96 bit).
+
+  To decrypt once the userId is known:
+    python3 sniper3d_decrypt.py savegame_0_r4cg.bin \
+        --userid <guid-user-id> --mask <32-hex-chars> -o save.json
+  or, with the derived key directly:
+    python3 sniper3d_decrypt.py savegame_0_r4cg.bin --key <32-hex-chars>
+
+  The decrypt script was validated end-to-end by round-trip tests
+  (encrypt -> decrypt -> byte-identical re-encrypt, for both the default
+  key and a per-user key derived from a test Guid). The real file was
+  NOT decrypted; its content was never read beyond the 9-byte header
+  and the CRC32 of the payload.

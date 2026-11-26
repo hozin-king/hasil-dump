@@ -1,0 +1,24 @@
+[0x8284BB8] CheaterBanPopupContent
+[0x8284BC0] CheaterBanPopupTitle
+[0x8289928] Error deserializing
+[0x8289930] Error deserializing JSON. Unknown tag: 
+[0x8289938] Error deserializing Regex. No pattern found.
+[0x8289940] Error deserializing cross-promo action payload: 
+[0x8289948] Error deserializing savegame
+[0x8289B78] Error reading savegame
+[0x8289D80] Error writing savegame
+[0x828EEC0] IntegrityPrepare
+[0x828EEC8] IntegrityRequest
+[0x828EED0] IntegrityStandardValidatorService
+[0x828F160] Invalid MAC - file may have been tampered with!
+[0x8296540] Play Core returned null IntegrityManager
+[0x8296548] Play Core returned null StandardIntegrityManager
+[0x829A178] SaveGame
+[0x829A180] SaveGameReset
+[0x82A4780] [Integrity] unreadable report response: 
+[0x82ABDE0] com.google.android.play.core.integrity.IntegrityManagerFactory
+[0x82ABDE8] com.google.android.play.core.integrity.StandardIntegrityManager$PrepareIntegrityTokenRequest
+[0x82ABDF0] com.google.android.play.core.integrity.StandardIntegrityManager$StandardIntegrityTokenRequest
+[0x82B5F68] prepareIntegrityToken
+[0x82B7060] reportIntegrity
+[0x82B78F0] savegame
