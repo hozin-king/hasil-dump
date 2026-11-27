@@ -1,0 +1,61 @@
+== m2.java: BIP39 phrase generation + seedHash (jadx, key lines) ==
+package o0;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Typeface;
+import android.widget.TextView;
+import androidx.appcompat.app.AlertController;
+import androidx.appcompat.app.b;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.security.MessageDigest;
+import java.security.SecureRandom;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+
+/* loaded from: classes.dex */
+public final class m2 {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final m2 f2176a = new m2();
+
+    /* renamed from: b, reason: collision with root package name */
+    public static final ArrayList<String> f2177b = new ArrayList<>(2048);
+    public static final HashSet<String> c = new HashSet<>(2048);
+
+    /* renamed from: d, reason: collision with root package name */
+    public static final SecureRandom f2178d = new SecureRandom();
+
+    public static String b(String str) {
+        x0.c.e(str, "frase");
+        String lowerCase = d1.j.l0(str).toString().toLowerCase(Locale.ROOT);
+        x0.c.d(lowerCase, "this as java.lang.String).toLowerCase(Locale.ROOT)");
+        return q0.e.c0(new d1.d("\\s+").b(lowerCase), " ", null, null, null, 62);
+    }
+
+    public static void e(Activity activity, String str) {
+        x0.c.e(activity, "activity");
+        TextView textView = new TextView(activity);
+        textView.setText(str.concat("\n\n12 kata ini adalah SATU-SATUNYA cara memakai kembali PIN kamu setelah aplikasi dihapus atau di HP lain. Tulis di kertas dan simpan di tempat aman. JANGAN dibagikan ke siapa pun."));
+        textView.setTextSize(15.0f);
+        textView.setTypeface(Typeface.MONOSPACE);
+        textView.setPadding(48, 24, 48, 12);
+        b.a aVar = new b.a(activity);
+        AlertController.b bVar = aVar.f142a;
+        bVar.f121d = "Frasa Pemulihan";
+        bVar.f135s = textView;
+        aVar.e("Sudah saya simpan", null);
+        l0 l0Var = new l0(activity, 7, str);
+        bVar.f128k = "Salin";
+        bVar.f129l = l0Var;
+        aVar.f();
+    }
+
+    public final ArrayList a(Context context) {
+        x0.c.e(context, "ctx");

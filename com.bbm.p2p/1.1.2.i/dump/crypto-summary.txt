@@ -1,0 +1,30 @@
+== crypto inventory (proven from decompiled code) ==
+SHA-256            identity hash of PIN (j.I); seedHash = SHA-256(entropy) (m2.d)
+HMAC-SHA256        announce signature, key = hex-decode(sesi_secret),
+                   msg = "<sha256(pin)>.<unix_ts>"
+PBKDF2-HmacSHA256  60000 iterations, 256-bit, backup key (j.C)
+AES-256-GCM        backup file BBMBAK1 (j.r export / j.B import)
+BIP39              12-word recovery phrase, 128-bit entropy + 4-bit checksum (m2)
+SHA-1              Sec-WebSocket-Accept validation, RFC 6455 (s0)
+DTLS-SRTP          WebRTC DataChannel/media transport (libjingle)
+SecureRandom       phrase entropy (m2.java:32)
+
+== backup format BBMBAK1 ==
+magic "BBMBAK1" (7B) || GCM IV 12B || AES-256-GCM(JSON)
+JSON: {"v":1,"app":"bbm-p2p","pin","nama","waktu","kontak":[{pin,nama}]}
+key = PBKDF2(password = normalized 12-word phrase,
+             salt = first 16 chars of seedHash hex, 60000 iter, 256-bit)
+
+== message plaintext ==
+All chat messages are plaintext JSON over the WebRTC DataChannel
+(label "bbm-chat"). No app-layer E2EE. Types: msg, read, typing,
+invite, inviteok, story, berkas, signal, announce, presence, hello,
+statusProfil, lokalBerubah, ruangPesan, ruangKirimMulai/Data/End,
+ruangMasuk, ruangHadir, ruangOk, ruangInfo, ruangError, ruangDikeluarkan,
+ruangPelan, ping, sesi.
+
+== storage ==
+ALL local data in ONE plain SharedPreferences file "bbm_p2p"
+(pin, token, seed phrase, sesi_secret, kontak, pesan, undangan, grup,
+musikKontak/musikSaya, fotoTs, server). No SQLite/Room/SQLCipher,
+no EncryptedSharedPreferences, no Keystore. allowBackup=true.

@@ -1,0 +1,10 @@
+== s0.java: ws-only enforcement (jadx) ==
+113:            throw new Exception("hanya ws:// didukung, bukan " + uri.getScheme());
+
+== s0.java: handshake + SHA-1 accept check ==
+9:import java.security.MessageDigest;
+134:        Socket socket = new Socket();
+143:        String str3 = "GET " + sb + " HTTP/1.1\r\nHost: " + host + ':' + port + "\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Key: " + encodeToString + "\r\nSec-WebSocket-Version: 13\r\n\r\n";
+175:            d1.c a2 = d1.d.a(new d1.d("Sec-WebSocket-Accept: ([A-Za-z0-9+/=]+)", 0), sb4);
+179:            MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
+183:                throw new Exception("Sec-WebSocket-Accept tidak cocok");

@@ -1,0 +1,44 @@
+== a.java: read-receipt SEND site (line 1546) ==
+                JSONArray l2 = o0.l.l(context, str);
+                int length = l2.length();
+                for (int i2 = 0; i2 < length; i2++) {
+                    JSONObject optJSONObject = l2.optJSONObject(i2);
+                    if (optJSONObject != null) {
+                        e eVar2 = a.f1031a;
+                        String optString = optJSONObject.optString("id");
+                        x0.c.d(optString, "m.optString(\"id\")");
+                        String jSONObject = new JSONObject().put("t", "read").put("id", optString).toString();
+                        x0.c.d(jSONObject, "JSONObject().put(\"t\", T_….put(\"id\", id).toString()");
+                        if (a.J(s2, jSONObject)) {
+                            Context context2 = a.f1034e;
+                            if (context2 == null) {
+                                x0.c.h("appCtx");
+                                throw null;
+
+== a.java: read-receipt RECEIVE (line 2672) ==
+                    return;
+                }
+                return;
+            case 3496342:
+                if (optString.equals("read")) {
+                    Context context26 = f1034e;
+                    if (context26 == null) {
+                        x0.c.h("appCtx");
+                        throw null;
+                    }
+                    String optString14 = jSONObject.optString("id");
+                    x0.c.d(optString14, "j.optString(\"id\")");
+                    o0.l.D(context26, optString14, "R");
+                    xVar = h0.f1080b;
+                    U(xVar);
+
+== a.java: presence handling (line 663) ==
+                            }
+                            return;
+                        case -1276666629:
+                            if (optString.equals("presence") && (optJSONArray = jSONObject.optJSONArray("online")) != null) {
+                                HashSet hashSet = new HashSet();
+                                int length2 = optJSONArray.length();
+                                for (int i4 = 0; i4 < length2; i4++) {
+                                    hashSet.add(optJSONArray.optString(i4));
+                                }

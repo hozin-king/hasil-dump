@@ -1,0 +1,84 @@
+== l0.java: DataChannel create + send (jadx) ==
+            }
+        }
+        if (concurrentHashMap.containsKey(str)) {
+            c(str);
+        }
+        PeerConnection a2 = a(str, cVar);
+        DataChannel.Init init = new DataChannel.Init();
+        init.ordered = true;
+        DataChannel createDataChannel = a2.createDataChannel("bbm-chat", init);
+        concurrentHashMap.put(str, new b(a2, createDataChannel, str));
+        x0.c.d(createDataChannel, "dc");
+        createDataChannel.registerObserver(new r0(this, str, createDataChannel));
+        a2.createOffer(d(this, new e(a2, this, str), null, 2), new MediaConstraints());
+    }
+
+    public final void c(String str) {
+        b remove = this.f1180d.remove(str);
+        if (remove == null) {
+            return;
+        }
+        PeerConnection peerConnection = remove.f1183a;
+        try {
+            DataChannel dataChannel = remove.f1184b;
+            if (dataChannel != null) {
+                dataChannel.close();
+            }
+        } catch (Exception unused) {
+        }
+        try {
+            peerConnection.close();
+        } catch (Exception unused2) {
+        }
+        try {
+            peerConnection.dispose();
+        } catch (Exception unused3) {
+        }
+        this.f1181e.remove(str);
+    }
+
+    public final boolean e(String str, byte[] bArr) {
+        DataChannel dataChannel;
+        x0.c.e(str, "peer");
+        b bVar = this.f1180d.get(str);
+        if (bVar == null || (dataChannel = bVar.f1184b) == null || dataChannel.state() != DataChannel.State.OPEN) {
+            return false;
+        }
+        try {
+            return dataChannel.send(new DataChannel.Buffer(ByteBuffer.wrap(bArr), false));
+        } catch (Exception unused) {
+            return false;
+        }
+
+== r0.java: onMessage -> dispatcher ==
+        this.f1210b = l0Var;
+        this.c = str;
+    }
+
+    @Override // org.webrtc.DataChannel.Observer
+    public final void onBufferedAmountChange(long j2) {
+    }
+
+    @Override // org.webrtc.DataChannel.Observer
+    public final void onMessage(DataChannel.Buffer buffer) {
+        x0.c.e(buffer, "b");
+        byte[] bArr = new byte[buffer.data.remaining()];
+        buffer.data.get(bArr);
+        this.f1210b.f1179b.a(this.c, bArr);
+    }
+
+    @Override // org.webrtc.DataChannel.Observer
+    public final void onStateChange() {
+        DataChannel.State state = this.f1209a.state();
+        int i2 = state == null ? -1 : a.f1211a[state.ordinal()];
+        String str = this.c;
+        l0 l0Var = this.f1210b;
+        if (i2 == 1) {
+            l0Var.f1179b.b(str);
+        } else if (i2 == 2 || i2 == 3) {
+            l0Var.f1179b.c(str);
+            l0Var.c(str);
+        }
+    }
+}
