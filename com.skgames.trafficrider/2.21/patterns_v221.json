@@ -1,0 +1,170 @@
+{
+ "targets": [
+  {
+   "name": "TR_PATTERN_CRASH_V221",
+   "rva": "0x1c6c720",
+   "length": 32,
+   "pattern": "fe57bea9f44f01a9352301f0740e01d0f30300aaa81a5d39942640f908030037",
+   "hits": 1,
+   "note": "MotorMover.Crash() \u2014 god mode"
+  },
+  {
+   "name": "TR_PATTERN_TRIGGER_V221",
+   "rva": "0x1c6d8e8",
+   "length": 32,
+   "pattern": "e923bc6dfe0b00f9f65702a9f44f03a9362301d0750e01b0f40301aac80e5d39",
+   "hits": 1,
+   "note": "MotorMover.OnTriggerEnter(Collider) \u2014 noclip"
+  },
+  {
+   "name": "TR_PATTERN_SPEED_V221",
+   "rva": "0x1c6c1a0",
+   "length": 32,
+   "pattern": "eb2bbc6de923016dfe5702a9f44f03a9352301f0740e01d0f30300aaa81e5d39",
+   "hits": 1,
+   "note": "MotorMover.HandleSpeed() \u2014 speed multiplier"
+  },
+  {
+   "name": "TR_PATTERN_MM_FIXEDUPDATE_V221",
+   "rva": "0x1c6a644",
+   "length": 32,
+   "pattern": "ffc301d1ed33016deb2b026de923036dfe5f04a9f65705a9f44f06a9542301b0",
+   "hits": 1,
+   "note": "MotorMover.FixedUpdate() \u2014 barrier scan host"
+  },
+  {
+   "name": "TR_PATTERN_MM_UPDATE_V221",
+   "rva": "0x1c6cbcc",
+   "length": 32,
+   "pattern": "fe57bea9f44f01a9352301f0740e01d0f30300aaa8ee5c39942640f928010037",
+   "hits": 1,
+   "note": "MotorMover.Update()"
+  },
+  {
+   "name": "TR_PATTERN_OFFROAD_SHAKE_V221",
+   "rva": "0x1c6cc94",
+   "length": 32,
+   "pattern": "ff8303d1ef3b076ded33086deb2b096de9230a6dfe5b00f9f6570ca9f44f0da9",
+   "hits": 1,
+   "note": "MotorMover.HandleOffroadShake() \u2014 offroad shake bypass"
+  },
+  {
+   "name": "TR_PATTERN_TM_FIXEDUPDATE_V221",
+   "rva": "0x1c82708",
+   "length": 32,
+   "pattern": "e80f1dfcfe5701a9f44f02a9952201b0d40d0190f30300aaa8765f39942640f9",
+   "hits": 1,
+   "note": "TrafficManager.FixedUpdate() \u2014 ESP instance capture"
+  },
+  {
+   "name": "TR_PATTERN_GM_FIXEDUPDATE_V221",
+   "rva": "0x1c46f58",
+   "length": 32,
+   "pattern": "eb2bbb6de923016dfe5f02a9f65703a9f44f04a9742401b0f30300aa88f25639",
+   "hits": 1,
+   "note": "GameManager.FixedUpdate() \u2014 limiter + score-kick host"
+  },
+  {
+   "name": "TR_PATTERN_CAM_LATE_V221",
+   "rva": "0x1c3e694",
+   "length": 36,
+   "pattern": "ff0303d1ef3b056ded33066deb2b076de923086dfe4b00f9f6570aa9f44f0ba9b42401b0",
+   "hits": 1,
+   "note": "CameraMover.LateUpdate() \u2014 camera offset"
+  },
+  {
+   "name": "TR_PATTERN_GETPOS_V221",
+   "rva": "0x3960754",
+   "length": 32,
+   "pattern": "ffc300d1fe0b00f9f44f02a9143c0090f30300aa88a24339c8000037202900f0",
+   "hits": 1,
+   "note": "Transform.get_position()"
+  },
+  {
+   "name": "TR_PATTERN_SETPOS_V221",
+   "rva": "0x3960828",
+   "length": 32,
+   "pattern": "ffc300d1fe0b00f9f44f02a9143c0090f30300aae087002d88a64339e20f00bd",
+   "hits": 1,
+   "note": "Transform.set_position(Vector3)"
+  },
+  {
+   "name": "TR_PATTERN_CAM_MAIN_V221",
+   "rva": "0x3907258",
+   "length": 32,
+   "pattern": "fe0f1ef8f44f01a9b33e00f0682e4f39c8000037002c00b000f040f99a5c8597",
+   "hits": 1,
+   "note": "Camera.get_main()"
+  },
+  {
+   "name": "TR_PATTERN_W2S_V221",
+   "rva": "0x3906fc8",
+   "length": 32,
+   "pattern": "41008052f7feff174100805237ffff174100805277ffff1741008052b7ffff17",
+   "hits": 1,
+   "note": "Camera.WorldToScreenPoint(Vector3) 1-arg"
+  },
+  {
+   "name": "TR_PATTERN_SCRW_V221",
+   "rva": "0x3911278",
+   "length": 32,
+   "pattern": "fe4fbfa9733e00b0607243f9a00000b5208dfef00054349186348597607203f9",
+   "hits": 1,
+   "note": "Screen.get_width()"
+  },
+  {
+   "name": "TR_PATTERN_SCRH_V221",
+   "rva": "0x39112a0",
+   "length": 32,
+   "pattern": "fe4fbfa9733e00b0607643f9a00000b5208dfe90006419917c348597607603f9",
+   "hits": 1,
+   "note": "Screen.get_height()"
+  },
+  {
+   "name": "TR_PATTERN_GETNAME_V221",
+   "rva": "0x3955d04",
+   "length": 32,
+   "pattern": "01000014ff4301d1fe1b00f9f44f04a9543c00d0f30300aa88e6733928010037",
+   "hits": 1,
+   "note": "Object.get_name()"
+  },
+  {
+   "name": "TR_PATTERN_BOX_CENTER_V221",
+   "rva": "0x39bbecc",
+   "length": 32,
+   "pattern": "ffc300d1fe0b00f9f44f02a9333900d0f40300aa68be4739c800003780260090",
+   "hits": 1,
+   "note": "BoxCollider.get_center()"
+  },
+  {
+   "name": "TR_PATTERN_BOX_SIZE_V221",
+   "rva": "0x39bc07c",
+   "length": 32,
+   "pattern": "ffc300d1fe0b00f9f44f02a9333900b0f40300aa68c64739c8000037602600f0",
+   "hits": 1,
+   "note": "BoxCollider.get_size()"
+  }
+ ],
+ "patch_words": {
+  "TR_LIMIT_500_WORD_V221": {
+   "word": "0x52A87F48",
+   "offset_in_fixedupdate": "0x448",
+   "note": "mov w8, #500.0f at GameManager.FixedUpdate+0x448 \u2014 UNCHANGED vs v2.20"
+  },
+  "TR_SCORE_KICK_BL_WORD_V221": {
+   "word": "0x9400FF4F",
+   "offset_in_fixedupdate": "0xFC",
+   "note": "bl LoadMenuScene (0x1c86d90) at GameManager.FixedUpdate+0xFC \u2014 v2.20 word was 0x9400FF4C; displacement grew 12 bytes"
+  },
+  "TR_SPEED_KICK_BL_WORD_V221": {
+   "word": "0x9400FE6F",
+   "offset_in_fixedupdate": "0x47C",
+   "note": "bl LoadMenuScene at GameManager.FixedUpdate+0x47C (500 km/h limiter kick)"
+  },
+  "TR_NOP_WORD": {
+   "word": "0xD503201F",
+   "offset_in_fixedupdate": null,
+   "note": "NOP replacement for either kick BL"
+  }
+ }
+}
