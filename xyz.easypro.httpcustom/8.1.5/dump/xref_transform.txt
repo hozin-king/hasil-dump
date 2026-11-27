@@ -1,0 +1,2 @@
+extract/classes.dex :: Ldev/epro/httpcustom/protocol/ssh/HcrNativeCodec; :: <clinit>()V -> v0, Ldev/epro/httpcustom/protocol/ssh/HcrNativeCodec;->cqbcgozgkzmi([Ljava/lang/Object;)I
+extract/classes.dex :: Ldev/epro/httpcustom/protocol/ssh/HcrNativeCodec; :: <init>()V -> v0, Ldev/epro/httpcustom/protocol/ssh/HcrNativeCodec;->bikgltrptyrn()V

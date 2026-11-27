@@ -1,0 +1,107 @@
+===== extract/lib/arm64-v8a/libf2c.so
+                       addr=0x0 off=0x0 size=0x0 type=SHT_NULL
+  .note.android.ident  addr=0x238 off=0x238 size=0x98 type=SHT_NOTE
+  .note.gnu.build-id   addr=0x2d0 off=0x2d0 size=0x24 type=SHT_NOTE
+  .dynsym              addr=0x2f8 off=0x2f8 size=0x4e0 type=SHT_DYNSYM
+  .gnu.version         addr=0x7d8 off=0x7d8 size=0x68 type=SHT_GNU_versym
+  .gnu.version_r       addr=0x840 off=0x840 size=0x60 type=SHT_GNU_verneed
+  .gnu.hash            addr=0x8a0 off=0x8a0 size=0x20 type=SHT_GNU_HASH
+  .dynstr              addr=0x8c0 off=0x8c0 size=0x286 type=SHT_STRTAB
+  .rela.dyn            addr=0xb48 off=0xb48 size=0x8ec38 type=SHT_RELA
+  .rela.plt            addr=0x8f780 off=0x8f780 size=0x450 type=SHT_RELA
+  .rodata              addr=0x8fbd0 off=0x8fbd0 size=0x85560c type=SHT_PROGBITS
+  .gcc_except_table    addr=0x8e51dc off=0x8e51dc size=0x8e8 type=SHT_PROGBITS
+  .eh_frame_hdr        addr=0x8e5ac4 off=0x8e5ac4 size=0x2c304 type=SHT_PROGBITS
+  .eh_frame            addr=0x911dc8 off=0x911dc8 size=0x113d68 type=SHT_PROGBITS
+  .text                addr=0xa25b30 off=0xa25b30 size=0x4d03e4 type=SHT_PROGBITS
+  .plt                 addr=0xef5f20 off=0xef5f20 size=0x300 type=SHT_PROGBITS
+  .data.rel.ro         addr=0xefa220 off=0xef6220 size=0x553b0 type=SHT_PROGBITS
+  .fini_array          addr=0xf4f5d0 off=0xf4b5d0 size=0x10 type=SHT_FINI_ARRAY
+  .init_array          addr=0xf4f5e0 off=0xf4b5e0 size=0x2c88 type=SHT_INIT_ARRAY
+  .dynamic             addr=0xf52268 off=0xf4e268 size=0x1c0 type=SHT_DYNAMIC
+  .got                 addr=0xf52428 off=0xf4e428 size=0x50 type=SHT_PROGBITS
+  .got.plt             addr=0xf52478 off=0xf4e478 size=0x188 type=SHT_PROGBITS
+  .relro_padding       addr=0xf52600 off=0xf4e600 size=0x1a00 type=SHT_NOBITS
+  .data                addr=0xf56600 off=0xf4e600 size=0x100b0 type=SHT_PROGBITS
+  .bss                 addr=0xf666b0 off=0xf5e6b0 size=0x4a8300 type=SHT_NOBITS
+  .shstrtab            addr=0x0 off=0xf5e6b0 size=0x10a type=SHT_STRTAB
+  JNI_OnLoad: value=0xe57a58 size=0xaa40
+===== extract/lib/arm64-v8a/libcodec.so
+                       addr=0x0 off=0x0 size=0x0 type=SHT_NULL
+  .note.android.ident  addr=0x238 off=0x238 size=0x98 type=SHT_NOTE
+  .dynsym              addr=0x2d0 off=0x2d0 size=0x120 type=SHT_DYNSYM
+  .gnu.version         addr=0x3f0 off=0x3f0 size=0x18 type=SHT_GNU_versym
+  .gnu.version_r       addr=0x408 off=0x408 size=0x20 type=SHT_GNU_verneed
+  .gnu.hash            addr=0x428 off=0x428 size=0x20 type=SHT_GNU_HASH
+  .dynstr              addr=0x448 off=0x448 size=0xb3 type=SHT_STRTAB
+  .rela.dyn            addr=0x500 off=0x500 size=0x690 type=SHT_RELA
+  .rela.plt            addr=0xb90 off=0xb90 size=0xd8 type=SHT_RELA
+  .rodata              addr=0xc70 off=0xc70 size=0x413 type=SHT_PROGBITS
+  .eh_frame_hdr        addr=0x1084 off=0x1084 size=0xc4 type=SHT_PROGBITS
+  .eh_frame            addr=0x1148 off=0x1148 size=0x414 type=SHT_PROGBITS
+  .text                addr=0x1560 off=0x1560 size=0x18be0 type=SHT_PROGBITS
+  .plt                 addr=0x1a140 off=0x1a140 size=0xb0 type=SHT_PROGBITS
+  .data.rel.ro         addr=0x1e1f0 off=0x1a1f0 size=0x200 type=SHT_PROGBITS
+  .fini_array          addr=0x1e3f0 off=0x1a3f0 size=0x10 type=SHT_FINI_ARRAY
+  .init_array          addr=0x1e400 off=0x1a400 size=0x18 type=SHT_INIT_ARRAY
+  .dynamic             addr=0x1e418 off=0x1a418 size=0x1b0 type=SHT_DYNAMIC
+  .got                 addr=0x1e5c8 off=0x1a5c8 size=0x18 type=SHT_PROGBITS
+  .got.plt             addr=0x1e5e0 off=0x1a5e0 size=0x60 type=SHT_PROGBITS
+  .relro_padding       addr=0x1e640 off=0x1a640 size=0x9c0 type=SHT_NOBITS
+  .data                addr=0x22640 off=0x1a640 size=0x4 type=SHT_PROGBITS
+  .bss                 addr=0x22648 off=0x1a644 size=0x60 type=SHT_NOBITS
+  .shstrtab            addr=0x0 off=0x1a644 size=0xe5 type=SHT_STRTAB
+  JNI_OnLoad: value=0x406c size=0x14748
+===== extract/lib/arm64-v8a/libruntime.so
+                       addr=0x0 off=0x0 size=0x0 type=SHT_NULL
+  .note.android.ident  addr=0x200 off=0x200 size=0x98 type=SHT_NOTE
+  .dynsym              addr=0x298 off=0x298 size=0x738 type=SHT_DYNSYM
+  .gnu.version         addr=0x9d0 off=0x9d0 size=0x9a type=SHT_GNU_versym
+  .gnu.version_r       addr=0xa6c off=0xa6c size=0x40 type=SHT_GNU_verneed
+  .gnu.hash            addr=0xab0 off=0xab0 size=0x20 type=SHT_GNU_HASH
+  .hash                addr=0xad0 off=0xad0 size=0x270 type=SHT_HASH
+  .dynstr              addr=0xd40 off=0xd40 size=0x304 type=SHT_STRTAB
+  .rela.dyn            addr=0x1048 off=0x1048 size=0x24540 type=SHT_RELA
+  .rela.plt            addr=0x25588 off=0x25588 size=0x660 type=SHT_RELA
+  .rodata              addr=0x25bf0 off=0x25bf0 size=0x4920 type=SHT_PROGBITS
+  .v0.57dd44ca70646306 addr=0x2a510 off=0x2a510 size=0x680 type=SHT_PROGBITS
+  .v0.e3eeaa4bac86da61 addr=0x2ab90 off=0x2ab90 size=0x500 type=SHT_PROGBITS
+  .v0.1d894834ee189667 addr=0x2b090 off=0x2b090 size=0x440 type=SHT_PROGBITS
+  .text                addr=0x2b4d0 off=0x2b4d0 size=0x660060 type=SHT_PROGBITS
+  .plt                 addr=0x68b530 off=0x68b530 size=0x460 type=SHT_PROGBITS
+  .data.rel.ro         addr=0x68f990 off=0x68b990 size=0xb728 type=SHT_PROGBITS
+  .fini_array          addr=0x69b0b8 off=0x6970b8 size=0x10 type=SHT_FINI_ARRAY
+  .init_array          addr=0x69b0c8 off=0x6970c8 size=0xcb0 type=SHT_INIT_ARRAY
+  .dynamic             addr=0x69bd78 off=0x697d78 size=0x1e0 type=SHT_DYNAMIC
+  .got                 addr=0x69bf58 off=0x697f58 size=0x38 type=SHT_PROGBITS
+  .got.plt             addr=0x69bf90 off=0x697f90 size=0x238 type=SHT_PROGBITS
+  .relro_padding       addr=0x69c1c8 off=0x6981c8 size=0xe38 type=SHT_NOBITS
+  .data                addr=0x6a01d0 off=0x6981d0 size=0x2ccb type=SHT_PROGBITS
+  .bss                 addr=0x6a2ea0 off=0x69ae9b size=0x1238 type=SHT_NOBITS
+  .shstrtab            addr=0x0 off=0x69ae9b size=0x10c type=SHT_STRTAB
+  JNI_OnLoad: value=0x97428 size=0x45164
+===== extract/lib/arm64-v8a/libpolicy.so
+                       addr=0x0 off=0x0 size=0x0 type=SHT_NULL
+  .note.android.ident  addr=0x200 off=0x200 size=0x98 type=SHT_NOTE
+  .dynsym              addr=0x298 off=0x298 size=0x1f8 type=SHT_DYNSYM
+  .gnu.version         addr=0x490 off=0x490 size=0x2a type=SHT_GNU_versym
+  .gnu.version_r       addr=0x4bc off=0x4bc size=0x20 type=SHT_GNU_verneed
+  .gnu.hash            addr=0x4e0 off=0x4e0 size=0x20 type=SHT_GNU_HASH
+  .hash                addr=0x500 off=0x500 size=0xb0 type=SHT_HASH
+  .dynstr              addr=0x5b0 off=0x5b0 size=0xef type=SHT_STRTAB
+  .rela.dyn            addr=0x6a0 off=0x6a0 size=0xf90 type=SHT_RELA
+  .rela.plt            addr=0x1630 off=0x1630 size=0x198 type=SHT_RELA
+  .rodata              addr=0x17d0 off=0x17d0 size=0x4f4 type=SHT_PROGBITS
+  .text                addr=0x1cd0 off=0x1cd0 size=0x35880 type=SHT_PROGBITS
+  .plt                 addr=0x37550 off=0x37550 size=0x130 type=SHT_PROGBITS
+  .data.rel.ro         addr=0x3b680 off=0x37680 size=0x4f0 type=SHT_PROGBITS
+  .fini_array          addr=0x3bb70 off=0x37b70 size=0x10 type=SHT_FINI_ARRAY
+  .init_array          addr=0x3bb80 off=0x37b80 size=0x38 type=SHT_INIT_ARRAY
+  .dynamic             addr=0x3bbb8 off=0x37bb8 size=0x1c0 type=SHT_DYNAMIC
+  .got                 addr=0x3bd78 off=0x37d78 size=0x18 type=SHT_PROGBITS
+  .got.plt             addr=0x3bd90 off=0x37d90 size=0xa0 type=SHT_PROGBITS
+  .relro_padding       addr=0x3be30 off=0x37e30 size=0x1d0 type=SHT_NOBITS
+  .data                addr=0x3fe30 off=0x37e30 size=0x34 type=SHT_PROGBITS
+  .bss                 addr=0x3fe70 off=0x37e64 size=0x98 type=SHT_NOBITS
+  .shstrtab            addr=0x0 off=0x37e64 size=0xcd type=SHT_STRTAB
+  JNI_OnLoad: value=0x22c24 size=0x12b44

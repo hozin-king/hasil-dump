@@ -1,0 +1,9 @@
+# HTTP Custom - AIO Tunnel VPN 8.1.5 (xyz.easypro.httpcustom) — hashes
+# Source: APKMirror .apkm, downloaded 27 Nov 2026
+# .apkm (zip: base.apk + split_config.arm64_v8a.apk + 3 density splits)
+.apkm (35,043,841 B):
+  SHA-256 2a2304565ccb867a5e7e12e3a8cba5e85dc17fce20f5d70385972a620f221b90
+base.apk (13,512,655 B):
+  SHA-256 f925a85917023188ed0c30eb42a29cb663d1e0eaba6e1f6ea1eea3731406b0cb
+split_config.arm64_v8a.apk (29,074,396 B):
+  SHA-256 c72a821b6450b9b394dba44c3eb2a31296f301dca8e18eef290ccc5d6fcf9fff

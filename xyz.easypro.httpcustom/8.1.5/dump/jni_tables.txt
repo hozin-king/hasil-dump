@@ -1,0 +1,12 @@
+===== extract/lib/arm64-v8a/libf2c.so
+  .data.rel.ro size=0x553b0 relocs applied=22804
+  triples found: 0
+===== extract/lib/arm64-v8a/libcodec.so
+  .data.rel.ro size=0x200 relocs applied=50
+  triples found: 0
+===== extract/lib/arm64-v8a/libruntime.so
+  .data.rel.ro size=0xb728 relocs applied=4759
+  triples found: 0
+===== extract/lib/arm64-v8a/libpolicy.so
+  .data.rel.ro size=0x4f0 relocs applied=124
+  triples found: 0
