@@ -1,0 +1,89 @@
+package: com.owngames.pocongoutbreak
+versionName: 1.6.3.6
+versionCode: 43
+minSdk: 21
+targetSdk: 34
+main activity: com.owngames.pocongoutbreak.MainActivity
+activities:
+  com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity
+  com.owngames.ownconnectsdk.RegisterActivity
+  com.owngames.ownconnectsdk.LoginActivity
+  com.google.android.gms.ads.NotificationHandlerActivity
+  com.google.android.gms.ads.OutOfContextTestingActivity
+  com.google.android.gms.ads.AdActivity
+  com.facebook.ads.AudienceNetworkActivity
+  com.inmobi.ads.rendering.InMobiAdActivity
+  com.android.billingclient.api.ProxyBillingActivityV2
+  com.android.billingclient.api.ProxyBillingActivity
+  com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity
+  com.facebook.CustomTabActivity
+  com.facebook.CustomTabMainActivity
+  com.facebook.FacebookActivity
+  com.owngames.pocongoutbreak.MainActivity
+  com.owngames.ownconnectsdk.UploadAttachment
+  com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  com.google.android.gms.common.api.GoogleApiActivity
+  com.owngames.ownconnectsdk.ReportActivity
+  com.owngames.ownconnectsdk.ContactActivity
+  com.owngames.ownconnectsdk.PasswordActivity
+services:
+  com.google.android.gms.auth.api.signin.RevocationBoundService
+  androidx.work.impl.background.systemalarm.SystemAlarmService
+  androidx.room.MultiInstanceInvalidationService
+  com.google.android.gms.analytics.AnalyticsService
+  com.google.android.gms.analytics.AnalyticsJobService
+  androidx.work.impl.background.systemjob.SystemJobService
+  com.google.firebase.components.ComponentDiscoveryService
+  androidx.work.impl.foreground.SystemForegroundService
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  com.google.android.gms.measurement.AppMeasurementService
+  com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  com.google.android.gms.measurement.AppMeasurementJobService
+  com.google.android.gms.ads.AdService
+receivers:
+  androidx.work.impl.background.systemalarm.RescheduleReceiver
+  androidx.work.impl.diagnostics.DiagnosticsReceiver
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  com.owngames.pocongoutbreak.NotificationReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  com.google.android.gms.analytics.AnalyticsReceiver
+  com.google.android.gms.measurement.AppMeasurementReceiver
+  com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+providers:
+  com.google.android.gms.ads.MobileAdsInitProvider
+  com.facebook.internal.FacebookInitProvider
+  androidx.lifecycle.ProcessLifecycleOwnerInitializer
+  com.owngames.pocongoutbreak.sticker.StickerContentProvider
+  com.google.android.gms.games.provider.PlayGamesInitProvider
+  com.google.firebase.provider.FirebaseInitProvider
+  com.facebook.ads.AudienceNetworkContentProvider
+  com.squareup.picasso.PicassoProvider
+  androidx.core.content.FileProvider
+  androidx.startup.InitializationProvider
+permissions:
+  android.permission.SCHEDULE_EXACT_ALARM
+  android.permission.ACCESS_ADSERVICES_TOPICS
+  android.permission.WRITE_EXTERNAL_STORAGE
+  android.permission.ACCESS_NETWORK_STATE
+  com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+  android.permission.INTERNET
+  android.permission.VIBRATE
+  android.permission.FOREGROUND_SERVICE
+  android.permission.WAKE_LOCK
+  android.permission.ACCESS_ADSERVICES_AD_ID
+  com.android.vending.BILLING
+  com.google.android.gms.permission.AD_ID
+  android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+features:
+is signed v1: True
+is signed v2: True
+is signed v3: True
+cert sha256: 71 4B EB 67 E5 70 12 54 7E BC D1 F0 64 E0 32 B3 B2 DC CF 1E E2 D9 3E C6 70 B9 B5 06 2A F5 7D 87
+cert subject: <asn1crypto.x509.Name 128834949961088 b'0t1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x130\x11\x06\x03U\x04\x08\x13\nCalifornia1\x160\x14\x06\x03U\x04\x07\x13\rMountain View1\x140\x12\x06\x03U\x04\n\x13\x0bGoogle Inc.1\x100\x0e\x06\x03U\x04\x0b\x13\x07Android1\x100\x0e\x06\x03U\x04\x03\x13\x07Android'>
+cert issuer: <asn1crypto.x509.Name 128835041520640 b'0t1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x130\x11\x06\x03U\x04\x08\x13\nCalifornia1\x160\x14\x06\x03U\x04\x07\x13\rMountain View1\x140\x12\x06\x03U\x04\n\x13\x0bGoogle Inc.1\x100\x0e\x06\x03U\x04\x0b\x13\x07Android1\x100\x0e\x06\x03U\x04\x03\x13\x07Android'>

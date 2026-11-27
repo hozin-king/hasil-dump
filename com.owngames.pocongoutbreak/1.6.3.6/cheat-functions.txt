@@ -1,0 +1,60 @@
+# Cheat audit — Pocong Outbreak 1.6.3.6 (com.owngames.pocongoutbreak, code 43)
+# libnative-lib.so (arm64-v8a, 4.45 MB) — file offsets == vaddr (PIE base 0)
+# All four cheats are CLIENT-SIDE. Game is single-player offline vs AI
+# pocong waves (no PvP, no real-time multiplayer — see README.md).
+# Scope for any future build: solo/bot/local only.
+
+## 1. AUTO AIM — FEASIBLE (very)
+# Target selection already exists in-game; hook it and force the result.
+- GamePlayScene::getNearestPocong(OwnView*) @ 0x1749dc
+  Returns nearest pocong to the given view. Hook: return the pocong the
+  player is facing / the closest one at all times.
+- Shooter::isKenaTarget(OwnView*, bool) @ 0x298500
+  Hit test (is the target hit). Hook: always return true while aiming.
+  Related: SupportWeapon::isKenaTarget(OwnView*) @ 0x2a7f90.
+- Wave::getJumlahPocong / GamePlayScene::addPocong exist for wave spawn
+  logic; no server validation of aim (all local).
+
+## 2. HIGH DAMAGE — FEASIBLE
+- GameData::getDamage() @ 0x30dab4
+  Base damage getter. Hook: return a large value (e.g. 99999).
+  Related: FortressUpgrades::getDamage(int) @ 0x2f2344,
+  Equip::getDamage(int) @ 0x2e032c.
+- Bullet::hit(OwnView*) @ 0x29f61c
+  Bullet impact handler. Hook: multiply damage passed to pocong, or
+  call Pocong::mati directly.
+- Pocong::mati(int, std::__ndk1::basic_string<...>) @ 0x26d98c
+  Death handler (also the observed save() trigger — see save-format.md).
+- Pocong::getHp() @ 0x26fdd8
+  HP getter. Hook: return 1 (one-shot) or patch the HP field write.
+  Related: Boss::getHp() @ 0x2a6094, PocongEquip::getHpEquipment() @ 0x32fbc.
+
+## 3. BULLET TRACK (homing bullets) — FEASIBLE
+- Bullet::setMissile(OwnTarget*, OwnView*) @ 0x29fedc
+  Built-in homing/missile mode: bullet tracks a target. Hook: call
+  setMissile(getNearestPocong(...)) on every bullet spawn, or force
+  the missile flag on all bullets.
+- Bullet::needResetTarget() @ 0x2a00fc
+  Target-reset check. Hook: return false so the bullet never loses
+  its target (keeps tracking until impact).
+
+## 4. GOD MODE — FEASIBLE (very)
+- GameData::damageHeart(int) @ 0x31070c
+  Applies damage to the player's heart (HP). Hook: NOP / return early
+  (never reduce heart).
+- GameData::getCurHeart() @ 0x31067c
+  Current heart getter. Hook: return max.
+- GameData::setCurHeart(int) @ 0x311e58
+  Heart setter. Hook: clamp to max on every write.
+# No server-side HP/heart validation: hearts are local GameData state,
+# saved to the local DES-encrypted JSON save (see save-format.md).
+
+## Notes
+- All offsets are libnative-lib.so file offsets (vaddr, PIE base 0).
+  On device: runtime address = base(libanative-lib.so) + offset.
+- No anti-cheat / integrity check found in the game's own code that
+  would flag these hooks (see README.md "Protections").
+- IAP: GameData::addIAP(string, OwnDisplayInteger) @ 0x30098c and
+  IAPData exist — NOT in cheat scope (real purchases, refused).
+- Leaderboard = score submission to OwnConnect/Play Games only;
+  cheats above affect local wave gameplay, not other players.

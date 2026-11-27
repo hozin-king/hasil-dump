@@ -1,0 +1,33 @@
+# Hosts & endpoints — Pocong Outbreak 1.6.3.6
+# Sources: dex strings, native .so strings, network_security_config.xml
+
+## Game server (OwnConnect — account/forum, NOT gameplay)
+- https://ownconnect.tahoogle.com/Forum/OCSDK2/
+  Only game host found in dex. OwnConnect SDK: login/register,
+  contact, report, password, upload attachment, forum, "FriendlyGift".
+  Gameplay itself is local; this server handles accounts + forum.
+  (OwnConnect SDK classes: com.owngames.ownconnectsdk.* — 263
+  com.owngames classes total in dex.)
+
+## Cleartext-allowed hosts (res/xml/network_security_config.xml)
+# domain-config, cleartextTrafficPermitted=true, includeSubdomains:
+- 103.195.90.138   (bare IP — likely OwnConnect/game server)
+- 127.0.0.1        (localhost cleartext allowed)
+- 13.250.187.133   (AWS IP — likely OwnConnect/game server)
+# NOTE: no <pin-set> anywhere in the config -> NO cert pinning.
+# All other hosts use default (HTTPS, system trust store).
+
+## Third-party SDKs (ads/analytics — no gameplay role)
+- Google Play Games (v2): achievements/leaderboard/cloud save.
+  Realtime/turn-based multiplayer API strings present but DEAD
+  (Google deprecated it; STATUS_MULTIPLAYER_DISABLED in dex).
+- Google Mobile Ads / AdMob, Facebook Audience Network
+  (assets/audience_network.dex, 4.86 MB), InMobi, Firebase
+  (Analytics/Measurement/Installations), AppsFlyer-style
+  attribution, Google Billing (IAP).
+- No websocket / socket.io / realtime-game host anywhere.
+
+## Verdict
+- No live multiplayer server. No PvP. No server-authoritative
+  gameplay state. All four cheats (auto aim, high damage, bullet
+  track, god mode) are purely local.
