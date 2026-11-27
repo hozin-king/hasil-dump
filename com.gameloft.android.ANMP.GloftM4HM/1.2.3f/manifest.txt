@@ -1,0 +1,41 @@
+Modern Combat 4: Zero Hour — manifest (androguard 4.1.4, 27 Nov 2026)
+Sumber APK: https://dl.apkvision.org/modern-combat-4-zero-hour/Modern-Combat-4-v1.2.3f-APKVISION.apk
+Ukuran APK: 1.296.856.042 byte
+SHA-256 APK: bd6a9819e9e807e960118f9b6d4809d6773623705870d5bee52875b9f805f03b
+
+package: com.gameloft.android.ANMP.GloftM4HM
+versionName: 1.2.3f
+versionCode: 12330
+minSdk: 29
+targetSdk: 35
+app name: MC4
+
+activities (3):
+  com.apkvision.mc4av.SetupActivity        (MAIN/LAUNCHER — installer APKVision)
+  com.gameloft.android.ANMP.GloftM4HM.MC4
+  com.gameloft.android.ANMP.GloftM4HM.MyVideoView
+services: (tidak ada)
+receivers: (tidak ada)
+providers: (tidak ada)
+
+permissions (4):
+  android.permission.INTERNET
+  android.permission.ACCESS_NETWORK_STATE
+  android.permission.ACCESS_WIFI_STATE
+  android.permission.WAKE_LOCK
+
+signature:
+  APK Signature Scheme v2 + v3
+  CERT.RSA subject/issuer: C=APKVISION.ORG, ST=APKVISION.ORG, L=APKVISION.ORG,
+  O=APKVISION.ORG, OU=APKVISION.ORG, CN=APKVISION.ORG (self-signed)
+  => REPACK APKVision, bukan tanda tangan Gameloft.
+
+DEX:
+  classes.dex  73.272 byte, 41 kelas  (Gameloft + com.apkvision.mc4av.*)
+  classes2.dex 69.848 byte, 19 kelas  (io.avm.r7.a..s — runtime translator, obfuscated)
+  classes3.dex  7.376 byte,  3 kelas  (org.apkvision.mc4.Entry/SetupUi)
+
+assets:
+  eventParameters.json (definisi event analitik)
+  gamedata.zip (1.2 GB) -> main.1100...obb (2.052.015.324 B, 24 Jun 2019)
+                           + patch.12222...obb (15.093.838 B, 24 Jun 2019)

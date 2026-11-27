@@ -1,0 +1,52 @@
+Modern Combat 4: Zero Hour v1.2.3f — host & endpoint (dari strings native + oconf.bar)
+Semua endpoint game memakai HTTP polos (tanpa TLS, tanpa cert pinning).
+
+== oconf.bar (plaintext, dari main.1100 OBB) ==
+XPlayerURL: http://gllive.gameloft.com/ope/GenericXPlayer_v1.php
+GGI: 52283
+XPPHPVerNo: 4
+ChatServer: gllive.gameloft.com
+ChatDomian: gllive.gameloft.com
+ChatRoomDomian: conference.gllive.gameloft.com
+GameVer: 1.1.0
+GAME_PARAM_COUNT: 1
+
+== Endpoint dari libModernCombat4arm32.so ==
+http://gllive.gameloft.com/ope/GenericXPlayer_v1.php   (profil pemain / XPlayer)
+http://gllive.gameloft.com/ope/ServerConfig.php      (config server multiplayer)
+http://201205igp.gameloft.com/redir/               (IGP — pembelian/layanan)
+https://201205igp.gameloft.com/redir/
+http://www.modern-combat.net/player.php            (profil pemain)
+http://www.modern-combat.net/board.php             (leaderboard)
+http://gmlft.co/MC4ZH_GP                           (shortlink)
+http://www.gameloft.com/privacy-notice/
+http://www.modern-combat.net
+http://www.facebook.com/ModernCombat
+https://twitter.com/gameloft
+http://api.vk.com/oauth/authorize                  (login VK)
+http://api.vk.com/oauth/logout
+https://api.vk.com/method/friends.get
+https://api.vk.com/method/friends.getAppUsers
+https://api.vk.com/method/getProfiles
+https://api.vk.com/method/isAppUser
+https://api.vk.com/method/photos.getWallUploadServer
+https://api.vk.com/method/photos.saveWallPhoto
+https://api.vk.com/method/wall.post
+https://oauth.vk.com/blank.html
+https://play.google.com/store/apps/details
+
+== Arsitektur multiplayer (simbol) ==
+- federation::RoomCore / Lobby / Matchmaker / Storage / Service (lobby + matchmaking GLLive)
+- WorldSynchronizer: IsServer(), _IsMatchHost(), IsHostAlone(),
+  SendWorldState(), SendMatchState(), GetNetworkGameObject(),
+  SpawnNetworkObject(), GetHostPlayerNameWIFIONLY()
+- Report pemain: SendReportPlayer, EncodeReportPlayer/DecodeReportPlayer
+- Google Play Games: nativeLoginToMultiplayerUseGPGS
+- Model: P2P, host = server. Matchmaking lewat GLLive; gameplay client-side.
+
+== Status ==
+Multiplayer online resmi MATI: game dihapus dari Google Play 30 Sep 2023;
+sumber publik menyatakan Gameloft mematikan server online MC4; proyek
+komunitas ModernCombat4Revived mengganti meeting point dengan DHT BitTorrent
+(bukti server asli sudah tidak ada). Yang masih jalan: campaign offline +
+multiplayer lokal Wi-Fi/LAN (host di perangkat sendiri).

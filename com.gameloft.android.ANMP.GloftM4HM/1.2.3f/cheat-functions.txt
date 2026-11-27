@@ -1,0 +1,32 @@
+Modern Combat 4: Zero Hour v1.2.3f — fungsi kunci gameplay
+Alamat = alamat GUEST ARM32 di libModernCombat4arm32.so (readelf -sW).
+Kode yang dieksekusi adalah hasil terjemahan AOT — hooking lewat aot_hook_point.
+
+004d4f3c 92 FUNC _Z18AndroidAllowCheatsv
+004f2a28 68 FUNC _ZNK14PointLightInfo11GetPositionEv
+0089e96c 84 FUNC _ZN12GameSettings10SetGodModeEb
+0089d3b0 112 FUNC _ZN12GameSettings11IsInGodModeEv
+006df7f8 336 FUNC _ZNK9Character18GetMaxHealthPointsEb
+006a1308 8 FUNC _ZNK10GameObject11GetPositionEv
+005a833c 192 FUNC _ZN8Gameplay12RefillHealthERi
+006cd454 52 FUNC _ZN9Character15SetHealthPointsEf
+0076e5a0 10396 FUNC _Z12askForCheatsRKN7gameswf18ASNativeEventStateE
+006a0b60 76 FUNC _ZN10GameObject16IsEnemyCharacterEv
+005c6234 236 FUNC _ZN15MenuDisplayName23UpdateCharaterHealthBarEP9Character
+006f0be8 44 FUNC _ZN9Character15DamageAllHealthEP10GameObjectb
+0089fde8 20 FUNC _ZN12GameSettings20ToggleAutoAimGrenadeEv
+0089fcc4 20 FUNC _ZN12GameSettings13ToggleAutoAimEv
+005ee53c 8 FUNC _ZN3Hud23UpdateCharaterHealthBarEP9Character
+005f06fc 220 FUNC _ZN3Hud13InAutoAimModeEv
+006cf20c 40 FUNC _ZN9Character15GetVisibleEnemyEi
+00603ec8 348 FUNC _ZN13HUDControlSWF11SetPositionEff
+006d76f8 420 FUNC _ZN9Character16CheckHeadShotHitEPS_RKN6glitch4core8vector2dIfEE
+0060fe38 4792 FUNC _ZN3Hud13UpdateAutoAimEi
+00639bb8 28 FUNC _ZN10GameObject11SetPositionERKN6glitch4core8vector3dIfEE
+006cd488 8 FUNC _ZN9Character18SetMaxHealthPointsEi
+006ef258 6544 FUNC _ZN9Character12DamageHealthEP10GameObjectfNS_10DamageTypeEb
+00643ebc 4 FUNC _ZN11PlayerStats12DealDamageToEP9Characterf
+00643ec0 648 FUNC _ZN11PlayerStats17ReceiveDamageFromEP9Characterf
+006cf244 320 FUNC _ZN9Character15GetClosestEnemyEb
+006a151c 28 FUNC _ZN10GameObject16GetPositionDeltaEv
+006c5b7c 8 FUNC _ZNK22NavMeshPathFindingNode11GetPositionEv

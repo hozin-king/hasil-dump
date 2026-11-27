@@ -1,0 +1,74 @@
+Archive:  extract/obb/main.1100.com.gameloft.android.ANMP.GloftM4HM.obb
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    17966  2013-03-21 10:13   TP_Transitions.trans
+     1413  2013-03-21 10:12   briefing1_brazilian.srt
+     1440  2013-03-21 10:12   briefing1_chinese.srt
+     1391  2013-03-21 10:12   briefing1_English.srt
+     1440  2013-03-21 10:12   briefing1_french.srt
+     1511  2013-03-21 10:12   briefing1_german.srt
+     1470  2013-03-21 10:12   briefing1_italian.srt
+     1613  2013-04-23 11:03   briefing1_japanese.srt
+     1548  2013-03-21 10:12   briefing1_korean.srt
+ 10660383  2013-03-21 10:12   briefing1.mp4
+     1887  2013-03-21 10:12   briefing1_russian.srt
+     1462  2013-03-21 10:12   briefing1_spanish.srt
+     1428  2013-05-16 15:21   briefing1_turkish.srt
+     1726  2013-03-21 10:12   briefing2_brazilian.srt
+     1721  2013-03-21 10:12   briefing2_chinese.srt
+     1701  2013-03-21 10:12   briefing2_English.srt
+     1827  2013-03-21 10:12   briefing2_french.srt
+     1854  2013-03-21 10:12   briefing2_german.srt
+     1815  2013-03-21 10:12   briefing2_italian.srt
+     2034  2013-04-23 11:03   briefing2_japanese.srt
+     1945  2013-03-21 10:12   briefing2_korean.srt
+ 11160800  2013-03-21 10:12   briefing2.mp4
+     2399  2013-03-21 10:12   briefing2_russian.srt
+     1835  2013-03-21 10:12   briefing2_spanish.srt
+     1770  2013-04-10 19:08   briefing2_turkish.srt
+     1404  2013-03-21 10:12   briefing3_brazilian.srt
+     1367  2013-03-21 10:12   briefing3_chinese.srt
+     1364  2013-03-21 10:12   briefing3_English.srt
+     1499  2013-03-21 10:12   briefing3_french.srt
+     1511  2013-03-21 10:12   briefing3_german.srt
+     1476  2013-03-21 10:12   briefing3_italian.srt
+     1650  2013-04-23 11:03   briefing3_japanese.srt
+     1583  2013-03-21 10:12   briefing3_korean.srt
+ 11236126  2013-03-21 10:12   briefing3.mp4
+     1913  2013-03-21 10:12   briefing3_russian.srt
+     1486  2013-03-21 10:12   briefing3_spanish.srt
+     1372  2013-04-10 19:08   briefing3_turkish.srt
+     1055  2013-03-21 10:12   briefing4_brazilian.srt
+     1064  2013-03-21 10:12   briefing4_chinese.srt
+     1066  2013-03-21 10:12   briefing4_English.srt
+     1069  2013-03-21 10:12   briefing4_french.srt
+     1085  2013-03-21 10:12   briefing4_german.srt
+     1204  2013-03-21 10:12   briefing4_italian.srt
+     1196  2013-04-23 11:03   briefing4_japanese.srt
+     1185  2013-03-21 10:12   briefing4_korean.srt
+ 11934592  2013-03-21 10:12   briefing4.mp4
+     1493  2013-03-21 10:12   briefing4_russian.srt
+     1117  2013-03-21 10:12   briefing4_spanish.srt
+     1037  2013-04-10 19:08   briefing4_turkish.srt
+     1469  2013-03-21 10:12   briefing5_brazilian.srt
+     1538  2013-03-21 10:12   briefing5_chinese.srt
+     1436  2013-03-21 10:12   briefing5_English.srt
+     1585  2013-03-21 10:12   briefing5_french.srt
+     1595  2013-03-21 10:12   briefing5_german.srt
+     1477  2013-03-21 10:12   briefing5_italian.srt
+     1706  2013-04-23 11:03   briefing5_japanese.srt
+     1636  2013-03-21 10:12   briefing5_korean.srt
+ 10299768  2013-03-21 10:12   briefing5.mp4
+     1835  2013-03-21 10:12   briefing5_russian.srt
+     1568  2013-03-21 10:12   briefing5_spanish.srt
+     1434  2013-04-10 19:08   briefing5_turkish.srt
+      244  2013-06-06 11:25   oconf.bar
+   938750  2013-03-21 10:12   LOGO_Gameloft_640x960.mp4
+517849283  2013-06-18 17:51   data_1
+503169853  2013-06-18 17:52   data_2
+781574467  2013-06-18 17:53   data_3
+ 61257176  2013-06-18 17:53   data_4
+  2328702  2013-06-18 17:53   data_5
+129495623  2013-06-18 17:53   data_6
+---------                     -------
+2052007438                     69 files

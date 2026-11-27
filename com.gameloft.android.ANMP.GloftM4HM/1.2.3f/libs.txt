@@ -1,0 +1,47 @@
+Modern Combat 4: Zero Hour v1.2.3f — inventaris lib native
+Hanya lib/arm64-v8a/ (64-bit saja; tidak ada armeabi-v7a).
+
+1) libModernCombat4.so — 5.161.332 byte, ELF AArch64, DYN
+   SONAME: libModernCombat4.so
+   NEEDED: liblog, libGLESv1_CM, libGLESv2, libEGL, libOpenSLES,
+           libandroid, libm, libdl, libc
+   Peran: JNI bridge (ekspor ~60 fungsi Java_*): GL2JNILib (init/step/
+   touch/keyboard/gyro), MC4 (nativeMC4Init, nativeHandleKey, pauseGame,
+   resumeGame, splashScreenFunc, nativeLoginToMultiplayerUseGPGS),
+   GDRMPolicy (getConstString/setConst/setLongConst/setTime),
+   GameInstaller (getPublicKey, initNative, nativeStart), InAppBilling,
+   GLSocialLib (Facebook/GameAPI), DataSharing, SUtils.
+   Juga berisi string runtime translator ARM32 (Italia):
+   "un ELF ARM32", "una libreria ARM32, la apre il dlopen del guest",
+   "Modern Combat 4: avvio del motore ARM32", " %s%x JIT=%llx AOT=%llx;",
+   "/sdcard/Android/data/com.gameloft.android.ANMP.GloftM4HM/files/aot_jit.txt",
+   "/sdcard/Android/data/com.gameloft.android.ANMP.GloftM4HM/files/aot_skip.txt".
+
+2) libModernCombat4aot.so — 105.536.968 byte, ELF AArch64, DYN
+   NEEDED: libdl, libc (saja)
+   Ekspor (8 fungsi saja):
+     aot_init            0x644dde4  184 B
+     aot_function_count  0x644de9c    8 B
+     aot_hook_point_count 0x644dea4   8 B
+     aot_hook_point      0x644deac    8 B
+     aot_function        0x644deb4   48 B
+     aot_function_thumb  0x644dee4   8 B
+     aot_route_to_runtime 0x644deec 116 B
+     aot_entry           0x644df60  132 B
+   Dibangun: Android clang 21.0.0 (+pgo +bolt +lto +mlgo, r563880c), LLD 21.
+   Peran: hasil terjemahan AOT dari kode ARM32 (engine game) + runtime
+   translator (simbol Cpu::run_nested, Cpu::load_state, AotCtx,
+   aot::checker_svc, aot_route_to_runtime).
+   Jumlah simbol FUNC GLOBAL: 14 (hampir semua logika ada sebagai kode
+   terjemahan tanpa nama simbol — lihat strings-aot.txt, 618.880 baris).
+
+3) libModernCombat4arm32.so — 24.855.648 byte, ELF ARM (32-bit!), DYN
+   SONAME: libAndroid.so (nama menyesatkan — bukan lib sistem)
+   NEEDED: libstdc++, libGLESv2, libEGL, libOpenSLES, liblog, libandroid,
+           libdl, libz, libm, libc
+   Peran: ENGINE GAME ASLI 32-bit (Gameloft "glitch" engine + Havok +
+   Scaleform + libcurl/OpenSSL). TIDAK di-strip: 34.328 simbol FUNC GLOBAL,
+   termasuk semua fungsi gameplay (health/damage/aim/multiplayer) dan
+   fungsi cheat (AndroidAllowCheats, askForCheats, GameSettings::SetGodMode).
+   File ini dimuat oleh translator (guest dlopen), bukan oleh linker Android
+   secara langsung — karena proses 64-bit tidak bisa memuat .so 32-bit.

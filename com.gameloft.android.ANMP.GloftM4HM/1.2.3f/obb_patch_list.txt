@@ -1,0 +1,9 @@
+Archive:  extract/obb/patch.12222.com.gameloft.android.ANMP.GloftM4HM.obb
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+   165200  2016-05-04 11:39   data_2
+  9643976  2016-05-04 11:39   data_4
+  1218493  2016-05-04 11:39   data_5
+  4065795  2016-05-04 11:39   data_6
+---------                     -------
+ 15093464                     4 files
